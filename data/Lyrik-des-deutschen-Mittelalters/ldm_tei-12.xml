@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt><title>›Ich wil urlop von vru̍nden nemen‹ (A  17 18 19)</title>
+<author><persName ref="http://d-nb.info/gnd/104096047">Rubin</persName></author>
+<editor>Hg. von Sonja Glauch</editor></titleStmt>
+<editionStmt><edition>Version 0.8<date type="retrieval">07.04.2026</date></edition></editionStmt>
+<publicationStmt><publisher><orgName role="project">LDM: Lyrik des deutschen Mittelalters</orgName>. Digitale Edition, online hrsg. von <persName ref="http://d-nb.info/gnd/1027730957">Manuel Braun</persName>, <persName ref="http://d-nb.info/gnd/1027539750">Sonja Glauch</persName> und <persName ref="http://d-nb.info/gnd/130033766">Florian Kragl</persName>.</publisher>
+<date type="publication">31.03.2016</date><date type="revision">31.10.2025</date>
+<availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</licence></availability></publicationStmt>
+<sourceDesc source="https://doi.org/10.11588/diglit.164#45"><p>Heidelberg, UB, cpg 357, fol. 21r</p></sourceDesc>
+<sourceDesc xml:id="A_Rubin_17_m"><p><idno type="URI">https://www.ldm-digital.de/show.php?lid=133</idno></p><p>KLD 47 XXII</p></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p>Transkription und Edition folgen den im <ref target="http://www.ldm-digital.de/doc/LDM_handbuch.pdf">Projekthandbuch</ref> dokumentierten Richtlinien.</p></editorialDecl>
+<refsDecl><cRefPattern matchPattern="bibl_([0-9]+)" replacementPattern="https://www.ldm-digital.de/refbase/show.php?client=inc-refbase-1.0&amp;wrapResults=0&amp;submit=Cite&amp;citeStyle=LDM&amp;showLinks=0&amp;viewType=Ajax&amp;record=$1"/></refsDecl></encodingDesc></teiHeader>
+<text>
+<body>
+<div xml:id="A_Rubin_17_t" decls="#A_Rubin_17_m">
+<lg type="stanza" xml:id="A_Rubin_17" n="A Rubin 17"><l xml:id="A_Rubin_17_line_0" n="1">
+<w xml:id="A_Rubin_17_w_0_0"><app n="1"><note>Paragraphenzeichen am Rand (Liedbeginn)</note></app><hi rend="initial size:1 color:blau">I</hi>ch</w>
+<w xml:id="A_Rubin_17_w_0_1">wil</w>
+<w xml:id="A_Rubin_17_w_0_2"><choice><orig>v</orig><reg type="n1">u</reg></choice>rl<choice><orig>o</orig><reg type="n2">ou</reg></choice>p</w>
+<w xml:id="A_Rubin_17_w_0_3">vo<choice><abbr>̄</abbr><expan>n</expan></choice></w>
+<w xml:id="A_Rubin_17_w_0_4">vr<choice><orig>u̍</orig><reg type="n2">iu</reg></choice>nden</w>
+<w xml:id="A_Rubin_17_w_0_5">nemen</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc><lb/>
+</l>
+<l xml:id="A_Rubin_17_line_1" n="2">
+<w xml:id="A_Rubin_17_w_1_0">deme</w>
+<w xml:id="A_Rubin_17_w_1_1">l<choice><orig>i</orig><reg type="n2">î</reg></choice>be</w>
+<w xml:id="A_Rubin_17_w_1_2"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Rubin_17_w_1_3">aber</w>
+<w xml:id="A_Rubin_17_w_1_4">dem</w>
+<w xml:id="A_Rubin_17_w_1_5">h<choice><abbr>͛</abbr><expan>er</expan></choice>zen</w>
+<w xml:id="A_Rubin_17_w_1_6">niht</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_17_line_2" n="3">
+<w xml:id="A_Rubin_17_w_2_0">ir</w>
+<w xml:id="A_Rubin_17_w_2_1">vr<choice><orig>ei</orig><reg type="n2">öu</reg></choice>de</w>
+<w xml:id="A_Rubin_17_w_2_2">m<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">üe</reg></choice>z</w>
+<w xml:id="A_Rubin_17_w_2_3">in</w>
+<w xml:id="A_Rubin_17_w_2_4">wol</w>
+<w xml:id="A_Rubin_17_w_2_5">gezemen</w><pc><choice><orig/><reg type="n1">:</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_17_line_3" n="4">
+<w xml:id="A_Rubin_17_w_3_0">ich</w><pb n="21v"/><cb n="21v"/>
+<w xml:id="A_Rubin_17_w_3_1">minne</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Rubin_17_w_3_2">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Rubin_17_w_3_3">in</w>
+<w xml:id="A_Rubin_17_w_3_4">liep</w>
+<w xml:id="A_Rubin_17_w_3_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>chiht</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_17_line_4" n="5">
+<w xml:id="A_Rubin_17_w_4_0">vil</w>
+<w xml:id="A_Rubin_17_w_4_1">wol</w>
+<w xml:id="A_Rubin_17_w_4_2">m<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>z <app n="2"><note><q type="term">müez</q> KLD nach BC</note></app></w>
+<w xml:id="A_Rubin_17_w_4_3">ich</w>
+<w xml:id="A_Rubin_17_w_4_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>i</w>
+<w xml:id="A_Rubin_17_w_4_5">vinden</w>
+<w xml:id="A_Rubin_17_w_4_6"><choice><orig>a</orig><reg type="n2">â</reg></choice>ne</w>
+<w xml:id="A_Rubin_17_w_4_7"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>w<choice><orig>e</orig><reg type="n2">æ</reg></choice>ren</w>
+<w xml:id="A_Rubin_17_w_4_8">m<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>t</w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_17_line_5" n="6">
+<w xml:id="A_Rubin_17_w_5_0">d<choice><orig>a</orig><reg type="n2">â</reg></choice></w><lb/>
+<w xml:id="A_Rubin_17_w_5_1">vr<choice><orig>eu</orig><reg type="n2">iu</reg></choice>nde</w>
+<w xml:id="A_Rubin_17_w_5_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>cheiden</w>
+<w xml:id="A_Rubin_17_w_5_3">al<choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Rubin_17_w_5_4">reht</w>
+<w xml:id="A_Rubin_17_w_5_5"><choice><orig>v</orig><reg type="n1">u</reg></choice>n<choice><orig>ſ</orig><reg type="n1">s</reg></choice>anfte</w>
+<w xml:id="A_Rubin_17_w_5_6">t<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>t</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_17_line_6" n="7">
+<w xml:id="A_Rubin_17_w_6_0">d<choice><orig>a</orig><reg type="n2">â</reg></choice></w>
+<w xml:id="A_Rubin_17_w_6_1">t<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>t</w>
+<w xml:id="A_Rubin_17_w_6_2"><choice><orig>o</orig><reg type="n2">ou</reg></choice>ch</w>
+<w xml:id="A_Rubin_17_w_6_3">vr<choice><orig>u̍</orig><reg type="n2">iu</reg></choice>ndes</w>
+<w xml:id="A_Rubin_17_w_6_4">komen</w>
+<w xml:id="A_Rubin_17_w_6_5">vil</w><lb/>
+<w xml:id="A_Rubin_17_w_6_6">innecl<choice><orig>i</orig><reg type="n2">î</reg></choice>chen</w>
+<w xml:id="A_Rubin_17_w_6_7">wol</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_17_line_7" n="8">
+<w xml:id="A_Rubin_17_w_7_0">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Rubin_17_w_7_1">i<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Rubin_17_w_7_2">ein</w>
+<w xml:id="A_Rubin_17_w_7_3">tr<choice><orig>o</orig><reg type="n2">ô</reg></choice><choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Rubin_17_w_7_4">d<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Rubin_17_w_7_5">mich</w>
+<w xml:id="A_Rubin_17_w_7_6">noch</w>
+<w xml:id="A_Rubin_17_w_7_7">vr<choice><orig>eu</orig><reg type="n2">öu</reg></choice>den</w>
+<w xml:id="A_Rubin_17_w_7_8">tr<choice><orig>oe</orig><reg type="n2">œ</reg></choice><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ten <app n="4"><note><q type="mentioned">mich vr<choice><orig>eu</orig><reg type="n2">öu</reg></choice>den tr<choice><orig>oe</orig><reg type="n2">œ</reg></choice><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ten sol</q> ›mir Zuversicht auf Freude geben kann‹.</note></app><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ol</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc><lb/>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Rubin_18" n="A Rubin 18"><l xml:id="A_Rubin_18_line_0" n="1">
+<w xml:id="A_Rubin_18_w_0_0"><hi rend="initial size:2 color:rot">S</hi>wer</w>
+<w xml:id="A_Rubin_18_w_0_1">got</w>
+<w xml:id="A_Rubin_18_w_0_2">d<choice><orig>v</orig><reg type="n1">u</reg></choice>r</w>
+<w xml:id="A_Rubin_18_w_0_3">di<choice><orig>ſ</orig><reg type="n1">s</reg></choice>e</w>
+<w xml:id="A_Rubin_18_w_0_4">welt</w>
+<w xml:id="A_Rubin_18_w_0_5">n<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Rubin_18_w_0_6">l<choice><orig>a</orig><reg type="n2">â</reg></choice>t</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_18_line_1" n="2">
+<w xml:id="A_Rubin_18_w_1_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Rubin_18_w_1_1">l<choice><orig>v̍</orig><reg type="n1">u̍</reg><reg type="n2">ü</reg></choice><choice><orig>zz</orig><reg type="n2">tz</reg></choice>el</w>
+<w xml:id="A_Rubin_18_w_1_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>i</w>
+<w xml:id="A_Rubin_18_w_1_3">doch</w>
+<w xml:id="A_Rubin_18_w_1_4">vr<choice><orig>eu</orig><reg type="n2">öu</reg></choice>den</w>
+<w xml:id="A_Rubin_18_w_1_5"><choice><orig>ph</orig><reg type="n2">pf</reg></choice>liget</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_18_line_2" n="3">
+<w xml:id="A_Rubin_18_w_2_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Rubin_18_w_2_1"><choice><orig>i</orig><reg type="n1">j</reg></choice><choice><orig>e</orig><reg type="n2">æ</reg></choice>mer<lb/>l<choice><orig>i</orig><reg type="n2">î</reg></choice>chen</w>
+<w xml:id="A_Rubin_18_w_2_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>i</w>
+<w xml:id="A_Rubin_18_w_2_3">n<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Rubin_18_w_2_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>t<choice><orig>a</orig><reg type="n2">â</reg></choice>t</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_18_line_3" n="4">
+<w xml:id="A_Rubin_18_w_3_0">dem</w>
+<w xml:id="A_Rubin_18_w_3_1">i<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Rubin_18_w_3_2">mit</w>
+<w xml:id="A_Rubin_18_w_3_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>orgen</w>
+<w xml:id="A_Rubin_18_w_3_4">an</w>
+<w xml:id="A_Rubin_18_w_3_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>iget<pc><choice><orig/><reg type="n1">:</reg></choice></pc> <app n="4"><note><q type="term">einem an gesigen</q> ›ihn besiegen‹.</note></app></w>
+</l>
+<l xml:id="A_Rubin_18_line_4" n="5">
+<w xml:id="A_Rubin_18_w_4_0">n<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Rubin_18_w_4_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>eht</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Rubin_18_w_4_2">wie</w>
+<w xml:id="A_Rubin_18_w_4_3">er</w>
+<w xml:id="A_Rubin_18_w_4_4">ab</w>
+<w xml:id="A_Rubin_18_w_4_5">alle<choice><abbr>̄</abbr><expan>n</expan></choice></w><lb/>
+<w xml:id="A_Rubin_18_w_4_6">g<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>ten</w>
+<w xml:id="A_Rubin_18_w_4_7">di<choice><sic>r </sic><corr>n</corr></choice>gen</w>
+<w xml:id="A_Rubin_18_w_4_8">g<choice><orig>e</orig><reg type="n2">ê</reg></choice><pc><choice><orig/><reg type="n1">.</reg></choice></pc> <app n="2"><note><q type="term">wies allen guoten dingen abe gê</q> KLD</note></app><app n="3"><note>Ein Überlieferungsfehler ist nicht unwahrscheinlich: <q type="term">abe</q> einer Sache <q type="term">gân</q> hieße ›von einer Sache weggehen‹. Wahrscheinlicher ist es, dass der Abgesang symbolisch vom Umschlagen der Jahreszeit spricht und die <q type="term">guoten dinge</q> den Sommer meinen. Oder ist gemeint: ›Seht, wie der dann <hi rend="spaced">alle</hi> guten Dinge, nämlich Gott <hi rend="spaced">und</hi> die sommerliche Welt, hinter sich lässt‹?</note></app></w>
+</l>
+<l xml:id="A_Rubin_18_line_5" n="6">
+<w xml:id="A_Rubin_18_w_5_0">die</w>
+<w xml:id="A_Rubin_18_w_5_1">tage</w>
+<w xml:id="A_Rubin_18_w_5_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ch<choice><orig>i</orig><reg type="n2">î</reg></choice>nent</w>
+<w xml:id="A_Rubin_18_w_5_3">niht</w>
+<w xml:id="A_Rubin_18_w_5_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Rubin_18_w_5_5"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ch<choice><orig>o</orig><reg type="n2">ô</reg></choice>ne</w>
+<w xml:id="A_Rubin_18_w_5_6">al<choice><orig>ſ</orig><reg type="n1">s</reg></choice>e</w>
+<w xml:id="A_Rubin_18_w_5_7"><choice><sic></sic><corr><choice><orig>e</orig><reg type="n2">ê</reg></choice></corr></choice></w>
+</l>
+<l xml:id="A_Rubin_18_line_6" n="7">
+<w xml:id="A_Rubin_18_w_6_0"><supplied reason="presumable-textual-corruption">†</supplied></w>
+<w xml:id="A_Rubin_18_w_6_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Rubin_18_w_6_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>ze</w>
+<w xml:id="A_Rubin_18_w_6_3">niht</w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_18_line_7" n="8">
+<w xml:id="A_Rubin_18_w_7_0">nie<lb/>man</w>
+<w xml:id="A_Rubin_18_w_7_1">l<choice><orig>i</orig><reg type="n2">ie</reg></choice>hter</w>
+<w xml:id="A_Rubin_18_w_7_2">varwe</w>
+<w xml:id="A_Rubin_18_w_7_3">al<choice><orig>ſ</orig><reg type="n1">s</reg></choice>e</w>
+<w xml:id="A_Rubin_18_w_7_4">ê</w>
+<w xml:id="A_Rubin_18_w_7_5">die</w>
+<w xml:id="A_Rubin_18_w_7_6">bl<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>men</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+<w xml:id="A_Rubin_18_w_7_7"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>iht</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Rubin_19" n="A Rubin 19"><l xml:id="A_Rubin_19_line_0" n="1">
+<w xml:id="A_Rubin_19_w_0_0"><hi rend="initial size:1 color:blau">I</hi>ch</w>
+<w xml:id="A_Rubin_19_w_0_1">wil</w>
+<w xml:id="A_Rubin_19_w_0_2">mich</w>
+<w xml:id="A_Rubin_19_w_0_3">einer</w>
+<w xml:id="A_Rubin_19_w_0_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ch<choice><orig>v</orig><reg type="n1">u</reg></choice>lde</w><lb/>
+<w xml:id="A_Rubin_19_w_0_5">gar<app n="3" loc="-2"><note>Die Konstruktion von <q type="term">sagen</q> (refl. mit Gen. d. S. und Dat. d. Pers.) ist unüblich; vgl. BMZ III, S. 16a: ›mich einer Schuld anklagen?‹.</note></app></w>
+</l>
+<l xml:id="A_Rubin_19_line_1" n="2">
+<w xml:id="A_Rubin_19_w_1_0">go<choice><orig>tt</orig><reg type="n2">t</reg></choice>e</w>
+<w xml:id="A_Rubin_19_w_1_1"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Rubin_19_w_1_2">d<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Rubin_19_w_1_3">welte</w>
+<w xml:id="A_Rubin_19_w_1_4">beiden</w>
+<w xml:id="A_Rubin_19_w_1_5"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>agen</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_19_line_2" n="3">
+<w xml:id="A_Rubin_19_w_2_0">ê</w>
+<w xml:id="A_Rubin_19_w_2_1">danne</w>
+<w xml:id="A_Rubin_19_w_2_2">ich</w>
+<w xml:id="A_Rubin_19_w_2_3">n<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Rubin_19_w_2_4">vo<choice><abbr>̄</abbr><expan>n</expan></choice></w>
+<w xml:id="A_Rubin_19_w_2_5">lande</w>
+<w xml:id="A_Rubin_19_w_2_6">var</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_19_line_3" n="4">
+<w xml:id="A_Rubin_19_w_3_0">die</w>
+<w xml:id="A_Rubin_19_w_3_1">h<choice><orig>a</orig><reg type="n2">â</reg></choice>n</w>
+<w xml:id="A_Rubin_19_w_3_2">ich</w><lb/>
+<w xml:id="A_Rubin_19_w_3_3">lange</w>
+<w xml:id="A_Rubin_19_w_3_4">her</w>
+<w xml:id="A_Rubin_19_w_3_5">getragen</w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_19_line_4" n="5">
+<w xml:id="A_Rubin_19_w_4_0">ich</w>
+<w xml:id="A_Rubin_19_w_4_1">en bin</w>
+<w xml:id="A_Rubin_19_w_4_2">den</w>
+<w xml:id="A_Rubin_19_w_4_3">l<choice><orig>v̍</orig><reg type="n1">u̍</reg><reg type="n2">iu</reg></choice>ten</w>
+<w xml:id="A_Rubin_19_w_4_4">holt</w>
+<w xml:id="A_Rubin_19_w_4_5">noch</w>
+<w xml:id="A_Rubin_19_w_4_6">allen</w>
+<w xml:id="A_Rubin_19_w_4_7">niht</w>
+<w xml:id="A_Rubin_19_w_4_8">gehaz</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_19_line_5" n="6">
+<w xml:id="A_Rubin_19_w_5_0">mir</w><lb/>
+<w xml:id="A_Rubin_19_w_5_1">geviel</w>
+<w xml:id="A_Rubin_19_w_5_2">nie <app n="2"><lem><q type="mentioned">nie</q></lem><note><q type="term">ie</q> KLD nach C</note></app> <app n="3"><note>Als <q type="term">schult</q> ist hier der genaue Gegensatz zur Parallelfassung benannt; vielleicht ein Überlieferungsfehler.</note></app></w>
+<w xml:id="A_Rubin_19_w_5_3"><choice><orig>v</orig><reg type="n1">u</reg></choice>nd<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Rubin_19_w_5_4">zwein</w>
+<w xml:id="A_Rubin_19_w_5_5">der</w>
+<w xml:id="A_Rubin_19_w_5_6">eine</w>
+<w xml:id="A_Rubin_19_w_5_7">m<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>tes</w>
+<w xml:id="A_Rubin_19_w_5_8">baz</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_19_line_6" n="7">
+<w xml:id="A_Rubin_19_w_6_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ol</w>
+<w xml:id="A_Rubin_19_w_6_1">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Rubin_19_w_6_2">ein</w>
+<w xml:id="A_Rubin_19_w_6_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">ü</reg></choice>nde</w>
+<w xml:id="A_Rubin_19_w_6_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Rubin_19_w_6_5">die</w>
+<w xml:id="A_Rubin_19_w_6_6">r<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>che</w><lb/>
+<w xml:id="A_Rubin_19_w_6_7">er</w>
+<w xml:id="A_Rubin_19_w_6_8">mir</w>
+<w xml:id="A_Rubin_19_w_6_9">vergeben</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Rubin_19_line_7" n="8">
+<w xml:id="A_Rubin_19_w_7_0">der</w>
+<w xml:id="A_Rubin_19_w_7_1">der</w>
+<w xml:id="A_Rubin_19_w_7_2">welte</w>
+<w xml:id="A_Rubin_19_w_7_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ch<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>f</w>
+<w xml:id="A_Rubin_19_w_7_4">al<choice><orig>ſ</orig><reg type="n1">s</reg></choice>e</w>
+<w xml:id="A_Rubin_19_w_7_5"><choice><orig>v</orig><reg type="n1">u</reg></choice>ngel<choice><orig>i</orig><reg type="n2">î</reg></choice>chez</w>
+<w xml:id="A_Rubin_19_w_7_6">leben</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+</lg>
+</div>
+
+</body>
+</text>
+</TEI>

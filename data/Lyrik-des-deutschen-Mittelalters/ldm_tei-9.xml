@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt><title>›Ab estatis floribus Amor nos salutat‹ (M Namenl/65r/1 1 2 3)</title>
+<editor>Hg. von Theresa Höfle und Florian Kragl</editor></titleStmt>
+<editionStmt><edition>Version 0.8<date type="retrieval">07.04.2026</date></edition></editionStmt>
+<publicationStmt><publisher><orgName role="project">LDM: Lyrik des deutschen Mittelalters</orgName>. Digitale Edition, online hrsg. von <persName ref="http://d-nb.info/gnd/1027730957">Manuel Braun</persName>, <persName ref="http://d-nb.info/gnd/1027539750">Sonja Glauch</persName> und <persName ref="http://d-nb.info/gnd/130033766">Florian Kragl</persName>.</publisher>
+<date type="publication">07.02.2025</date><date type="revision"></date>
+<availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</licence></availability></publicationStmt>
+<sourceDesc source="https://www.digitale-sammlungen.de/de/view/bsb00085130?page=133"><p>München, BSB, Clm 4660, fol. 65r</p></sourceDesc>
+<sourceDesc xml:id="M_Namenl/65r/1_1_m"><p><idno type="URI">https://www.ldm-digital.de/show.php?lid=2337</idno></p><p>CB 161,1</p></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p>Transkription und Edition folgen den im <ref target="http://www.ldm-digital.de/doc/LDM_handbuch.pdf">Projekthandbuch</ref> dokumentierten Richtlinien.</p></editorialDecl>
+<refsDecl><cRefPattern matchPattern="bibl_([0-9]+)" replacementPattern="https://www.ldm-digital.de/refbase/show.php?client=inc-refbase-1.0&amp;wrapResults=0&amp;submit=Cite&amp;citeStyle=LDM&amp;showLinks=0&amp;viewType=Ajax&amp;record=$1"/></refsDecl></encodingDesc></teiHeader>
+<text>
+<body>
+<div xml:id="M_Namenl/65r/1_1_t" decls="#M_Namenl/65r/1_1_m">
+<lg type="stanza" xml:id="M_Namenl/65r/1_1" n="M Namenl/65r/1 1"><l xml:id="M_Namenl/65r/1_1_line_0" n="1">
+<w xml:id="M_Namenl/65r/1_1_w_0_0"><app n="4" loc="-6"><note>›Desgleichen ein anderes: / Von des Sommers Blüten grüßt uns Amor. / Die Erde, geschmückt mit Blüten, wandelt das Antlitz. / Die liebesträchtigen Blüten / lachen schon an die Zeit; / es stirbt ohne Venus / die Blüte des zarten Alters.‹</note></app><hi rend="rubric">Item</hi></w>
+<w xml:id="M_Namenl/65r/1_1_w_0_1"><hi rend="rubric"><choice><orig><choice><orig>A</orig><reg type="n1">a</reg></choice>l<choice><abbr>̄</abbr><expan></expan></choice></orig><reg type="n1"><choice><orig>A</orig><reg type="n1">a</reg></choice>liud</reg></choice><pc><choice><orig>·</orig><reg type="n1"/></choice></pc></hi></w><lb/>
+</l>
+<l xml:id="M_Namenl/65r/1_1_line_1" n="2">
+<w xml:id="M_Namenl/65r/1_1_w_1_0"><app n="1" loc="-6"><note>neumiert von n<hi rend="sup">4</hi></note></app><hi rend="initial size:3 color:rot">A</hi><choice><orig>B</orig><reg type="n1">b</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_1_w_1_1"><choice><orig>E</orig><reg type="n1">e</reg></choice><choice><orig>ſ</orig><reg type="n1">s</reg></choice>tati<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_1_w_1_2">floribu<choice><orig>ſ</orig><reg type="n1">s</reg></choice><app n="2"><lem><q type="mentioned">floribu<choice><orig>ſ</orig><reg type="n1">s</reg></choice></q></lem><note><q type="term">foribus</q> CB/V, CB/HS</note></app><app n="3" loc="-2"><note>Ist die Doppelung von <q type="mentioned">floribu<choice><orig>ſ</orig><reg type="n1">s</reg></choice></q> ursprünglich? »<q type="term">foribus</q> liegt am nächsten, aber es muss nicht ein Reimwort auf [...] <q type="term">floribus</q> [V. 2] dagestanden haben, s. Str. 2« (CB/HS). Auf fol. 105r (CB 228,2) finden sich die lateinischen Strophen des Lieds noch einmal, dort steht ebenfalls <q type="term">floribus</q>! Daneben der Vorschlag <q type="term">limine</q> bei <ref cRef="bibl_1450">Du Méril 1849</ref>, S. 207f.</note></app></w><lb/>
+<w xml:id="M_Namenl/65r/1_1_w_1_3"> <caesura/></w>
+<w xml:id="M_Namenl/65r/1_1_w_1_4"><choice><orig>a</orig><reg type="n1">A</reg></choice>mor</w>
+<w xml:id="M_Namenl/65r/1_1_w_1_5">no<mod type="subst"><del rend="overwritten">n</del><add place="superimposed"><choice><orig>ſ</orig><reg type="n1">s</reg></choice></add></mod><app n="1"><lem><q type="mentioned">no<choice><orig>ſ</orig><reg type="n1">s</reg></choice></q></lem><note><q type="mentioned"><choice><orig>ſ</orig><reg type="n1">s</reg></choice></q> gebessert aus <q type="term">n</q> (Rasur)</note></app></w>
+<w xml:id="M_Namenl/65r/1_1_w_1_6"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>alutat</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_1_line_2" n="3">
+<w xml:id="M_Namenl/65r/1_1_w_2_0">humu<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_1_w_2_1">pic<mod type="subst"><del rend="overwritten"><damage>r</damage></del><add place="superimposed">t</add></mod><mod type="subst"><del rend="overwritten">e</del><add place="superimposed">a</add></mod><app n="1"><lem><q type="mentioned">picta</q></lem><note><q type="term">a</q> gebessert aus <q type="term">e</q></note></app></w>
+<w xml:id="M_Namenl/65r/1_1_w_2_2">floribu<choice><orig>ſ</orig><reg type="n1">s</reg></choice> <caesura/></w>
+<w xml:id="M_Namenl/65r/1_1_w_2_3">faciem</w><lb/>
+<w xml:id="M_Namenl/65r/1_1_w_2_4">commutat</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_1_line_3" n="4">
+<w xml:id="M_Namenl/65r/1_1_w_3_0"><hi rend="initial size:1 color:rot">F</hi>lore<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_1_w_3_1">amoriferi</w>
+</l>
+<l xml:id="M_Namenl/65r/1_1_line_4" n="5">
+<w xml:id="M_Namenl/65r/1_1_w_4_0">iam</w>
+<w xml:id="M_Namenl/65r/1_1_w_4_1">arrident</w>
+<w xml:id="M_Namenl/65r/1_1_w_4_2">tem<choice><abbr>ꝑ</abbr><expan>por</expan></choice><mod type="subst"><del rend="overwritten">e</del><add place="superimposed">i</add></mod><pc><choice><orig/><reg type="n1">;</reg></choice></pc><app n="1"><lem><q type="mentioned">tem<choice><abbr>ꝑ</abbr><expan>por</expan></choice>i</q></lem><note><q type="term">i</q> gebessert aus <q type="term">e</q></note></app></w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc><lb/>
+</l>
+<l xml:id="M_Namenl/65r/1_1_line_5" n="6">
+<w xml:id="M_Namenl/65r/1_1_w_5_0">perit</w>
+<w xml:id="M_Namenl/65r/1_1_w_5_1">ab<choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><abbr></abbr><expan>que</expan></choice></w>
+<w xml:id="M_Namenl/65r/1_1_w_5_2"><del rend="strike">[exp tempore</del></w>
+<w xml:id="M_Namenl/65r/1_1_w_5_3"><del rend="strike">flo exp]</del><app n="1"><lem><q type="mentioned"><del rend="strike"><del rend="expunctuated">tempore flo</del></del></q></lem><note>nach <q type="mentioned">ab<choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><abbr></abbr><expan>que</expan></choice></q> expungiert und quer durchgestrichen; ferner je ein Strich über und unter der Zeile</note></app></w>
+<w xml:id="M_Namenl/65r/1_1_w_5_4"><choice><orig>u</orig><reg type="n1">V</reg></choice>enere</w>
+</l>
+<l xml:id="M_Namenl/65r/1_1_line_6" n="7">
+<w xml:id="M_Namenl/65r/1_1_w_6_0">flos</w>
+<w xml:id="M_Namenl/65r/1_1_w_6_1">etati<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_1_w_6_2">tenere</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+</lg>
+<lg type="stanza" xml:id="M_Namenl/65r/1_2" n="M Namenl/65r/1 2"><l xml:id="M_Namenl/65r/1_2_line_0" n="1">
+<w xml:id="M_Namenl/65r/1_2_w_0_0"><app n="4" loc="-6"><note>›Aller Anfang ist der Tag des Frühlings; / im Frühling feiert die Welt den Tag ihrer Geburt. / Alle Tage dieser Zeit / sind Feste der Venus. / Alle Königreiche Jupiters / mögen diese jährlichen Feiern begehen.‹</note></app><app n="1" loc="-6"><note>neumiert von n<hi rend="sup">4</hi></note></app><hi rend="initial size:1 color:rot">O</hi>mniu<choice><abbr>̄</abbr><expan>m</expan></choice></w><lb/>
+<w xml:id="M_Namenl/65r/1_2_w_0_1">principium <caesura/></w>
+<w xml:id="M_Namenl/65r/1_2_w_0_2">die<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_2_w_0_3">e<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="M_Namenl/65r/1_2_w_0_4"><choice><orig>u</orig><reg type="n1">v</reg></choice>ernali<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc><pc><choice><orig/><reg type="n1">;</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_2_line_1" n="2">
+<w xml:id="M_Namenl/65r/1_2_w_1_0"><choice><orig>u</orig><reg type="n1">v</reg></choice>ere</w>
+<w xml:id="M_Namenl/65r/1_2_w_1_1">mundu<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_2_w_1_2">celebrat <caesura/></w>
+<w xml:id="M_Namenl/65r/1_2_w_1_3">die<choice><abbr>̄</abbr><expan>m</expan></choice></w><lb/>
+<w xml:id="M_Namenl/65r/1_2_w_1_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ui</w>
+<w xml:id="M_Namenl/65r/1_2_w_1_5">natalis</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_2_line_2" n="3">
+<w xml:id="M_Namenl/65r/1_2_w_2_0">omne<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_2_w_2_1">huiu<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_2_w_2_2">temporis</w>
+</l>
+<l xml:id="M_Namenl/65r/1_2_line_3" n="4">
+<w xml:id="M_Namenl/65r/1_2_w_3_0">dies</w>
+<w xml:id="M_Namenl/65r/1_2_w_3_1">fe<choice><orig>ſ</orig><reg type="n1">s</reg></choice>ti</w>
+<w xml:id="M_Namenl/65r/1_2_w_3_2"><choice><orig>u</orig><reg type="n1">V</reg></choice>eneri<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_2_line_4" n="5">
+<w xml:id="M_Namenl/65r/1_2_w_4_0">re<pc><choice><orig>-</orig><reg type="n1"/></choice></pc><lb/>gna</w>
+<w xml:id="M_Namenl/65r/1_2_w_4_1"><choice><orig>i</orig><reg type="n1">I</reg></choice>o<choice><orig>u</orig><reg type="n1">v</reg></choice>i<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_2_w_4_2">omnia</w>
+</l>
+<l xml:id="M_Namenl/65r/1_2_line_5" n="6">
+<w xml:id="M_Namenl/65r/1_2_w_5_0">hec</w>
+<w xml:id="M_Namenl/65r/1_2_w_5_1">agant</w>
+<w xml:id="M_Namenl/65r/1_2_w_5_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ollempnia</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc><app n="3"><lem><q type="mentioned"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ollempnia</q></lem><note>die Schreibung ist belegt bei <ref cRef="bibl_1387">Du Cange 1886</ref>, VII, Sp. 521b.</note></app>
+</l>
+</lg>
+<lg type="stanza" xml:id="M_Namenl/65r/1_3" n="M Namenl/65r/1 3"><l xml:id="M_Namenl/65r/1_3_line_0" n="1">
+<w xml:id="M_Namenl/65r/1_3_w_0_0"><app n="1" loc="-6"><note>neumiert von n<hi rend="sup">4</hi></note></app><hi rend="initial size:1 color:rot">D</hi>i<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_3_w_0_1">werlt</w>
+<w xml:id="M_Namenl/65r/1_3_w_0_2">fr<choice><orig>oͤ#v</orig><reg type="n2">öu</reg></choice>t<app n="1"><lem><q type="mentioned">froͤ<choice><orig>v</orig><reg type="n1">u</reg></choice>t</q></lem><note>Vokalsuperskript <q type="term"><hi rend="sup">e</hi></q> mittig über <q type="term">o</q> und <q type="mentioned"><choice><orig>v</orig><reg type="n1">u</reg></choice></q> bzw. eher über <q type="mentioned"><choice><orig>v</orig><reg type="n1">u</reg></choice></q></note></app></w><lb/>
+<w xml:id="M_Namenl/65r/1_3_w_0_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>i<choice><orig>h</orig><reg type="n2">ch</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_3_w_0_4"><choice><orig>u</orig><reg type="n2">ü</reg></choice>ber</w>
+<w xml:id="M_Namenl/65r/1_3_w_0_5"><rhyme type="internal-rhyme">al</rhyme></w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+<w xml:id="M_Namenl/65r/1_3_w_0_6"> <caesura/></w>
+<w xml:id="M_Namenl/65r/1_3_w_0_7">gegen</w>
+<w xml:id="M_Namenl/65r/1_3_w_0_8">der</w>
+<w xml:id="M_Namenl/65r/1_3_w_0_9"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>umerz<choice><orig>i</orig><reg type="n2">î</reg></choice>te</w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_3_line_1" n="2">
+<w xml:id="M_Namenl/65r/1_3_w_1_0">aller</w>
+<w xml:id="M_Namenl/65r/1_3_w_1_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>lahte</w>
+<w xml:id="M_Namenl/65r/1_3_w_1_2"><choice><orig>u</orig><reg type="n1">v</reg></choice>ogel <rhyme type="internal-rhyme"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>chal</rhyme></w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+<lb/>
+<w xml:id="M_Namenl/65r/1_3_w_1_3"> <caesura/></w>
+<w xml:id="M_Namenl/65r/1_3_w_1_4">h<choice><orig>o</orig><reg type="n2">œ</reg></choice>ret</w>
+<w xml:id="M_Namenl/65r/1_3_w_1_5">man</w>
+<w xml:id="M_Namenl/65r/1_3_w_1_6">nu</w>
+<w xml:id="M_Namenl/65r/1_3_w_1_7">w<choice><orig>i</orig><reg type="n2">î</reg></choice>te</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_3_line_2" n="3">
+<w xml:id="M_Namenl/65r/1_3_w_2_0">dar</w>
+<w xml:id="M_Namenl/65r/1_3_w_2_1">z<choice><orig>uͦ</orig><reg type="n2">uo</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_3_w_2_2">bl<choice><orig>uͦ</orig><reg type="n2">uo</reg></choice>men</w>
+<w xml:id="M_Namenl/65r/1_3_w_2_3"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="M_Namenl/65r/1_3_w_2_4"><choice><orig>ch</orig><reg type="n2">k</reg></choice>l<choice><orig>e</orig><reg type="n2">ê</reg></choice></w>
+</l>
+<l xml:id="M_Namenl/65r/1_3_line_3" n="4">
+<w xml:id="M_Namenl/65r/1_3_w_3_0">h<choice><orig>a</orig><reg type="n2">â</reg></choice>t</w>
+<w xml:id="M_Namenl/65r/1_3_w_3_1">di<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_3_w_3_2">h<choice><orig>ę</orig><reg type="n1">e</reg></choice>i<pc><choice><orig>-</orig><reg type="n1"/></choice></pc><lb/>de</w>
+<w xml:id="M_Namenl/65r/1_3_w_3_3">vil</w>
+<w xml:id="M_Namenl/65r/1_3_w_3_4">al<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_3_w_3_5">ê</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_3_line_4" n="5">
+<w xml:id="M_Namenl/65r/1_3_w_4_0">gr<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">üe</reg></choice>ne</w>
+<w xml:id="M_Namenl/65r/1_3_w_4_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>t<choice><orig>a</orig><reg type="n2">â</reg></choice>t</w>
+<w xml:id="M_Namenl/65r/1_3_w_4_2">der</w>
+<w xml:id="M_Namenl/65r/1_3_w_4_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ch<choice><orig>oͤ</orig><reg type="n2">œ</reg></choice>ne</w>
+<w xml:id="M_Namenl/65r/1_3_w_4_4">walt</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc><pc><choice><orig/><reg type="n1">;</reg></choice></pc>
+</l>
+<l xml:id="M_Namenl/65r/1_3_line_5" n="6">
+<w xml:id="M_Namenl/65r/1_3_w_5_0">de<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="M_Namenl/65r/1_3_w_5_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>uln</w>
+<w xml:id="M_Namenl/65r/1_3_w_5_2">wir</w>
+<w xml:id="M_Namenl/65r/1_3_w_5_3">nu</w><lb/>
+<w xml:id="M_Namenl/65r/1_3_w_5_4">we<choice><orig>ſ</orig><reg type="n1">s</reg></choice>en</w>
+<w xml:id="M_Namenl/65r/1_3_w_5_5">balt<pc><choice><orig/><reg type="n1">!</reg></choice></pc><app n="1"><note>vor <q type="term">balt</q> Punkt wegen Federansatz?</note></app></w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+</lg>
+</div>
+
+</body>
+</text>
+</TEI>

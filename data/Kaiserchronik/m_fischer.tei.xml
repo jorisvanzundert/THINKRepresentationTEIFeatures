@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Kaiserchronik digital. Elektronische Ausgabe: Kaiserchronik A (a4gamma) –  TEI-based transcription of ehemals Mainz, Privatbesitz, ohne Signatur</title>
+        <title xml:lang="de">Kaiserchronik digital. Elektronische Ausgabe: Kaiserchronik A (a4gamma) – TEI-basierte Transkription von ehemals Mainz, Privatbesitz, ohne Signatur</title>
+        <editor>
+          <persName>
+            <forename>Mark</forename>
+            <surname>Chinca</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1053057083</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Helen</forename>
+            <surname>Hunter</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1163111252</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Jürgen</forename>
+            <surname>Wolf</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/132527731</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Young</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/131606441</idno>
+        </editor>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Miriam</forename>
+            <surname>Buncombe</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Anna</forename>
+            <surname>Dorofeeva</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Helen</forename>
+            <surname>Hunter</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1163111252</idno>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Christoph</forename>
+            <surname>Pretzer</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Emily</forename>
+            <surname>Richards</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Michael</forename>
+            <surname>Schwarzbach-Dobson</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Edmund</forename>
+            <surname>Wareham</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/red http://id.loc.gov/vocabulary/relators/prg">
+          <resp xml:lang="de">Umwandlung in ein TEI-basiertes Format</resp>
+          <resp xml:lang="en">transformation in a TEI-based format </resp>
+          <orgName>Universitätsbibliothek Heidelberg</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/2002498-8</idno>
+        </respStmt>
+        <funder>
+          <orgName>Arts and Humanities Research Council</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/10126609-1</idno>
+        </funder>
+        <funder>
+          <orgName>Schools of Arts and Humanities and Humanities and Social Sciences</orgName>
+        </funder>
+        <funder>
+          <orgName>Schröder Fund</orgName>
+        </funder>
+        <funder>
+          <orgName>Isaac Newton Trust in the University of Cambridge</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Universitätsbibliothek Heidelberg</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/2002498-8</idno>
+          <ref target="https://www.ub.uni-heidelberg.de">https://www.ub.uni-heidelberg.de</ref>
+          <address>
+            <street>Plöck 107–109</street>
+            <postCode>69117</postCode>
+            <settlement>
+              <placeName>Heidelberg</placeName>
+              <idno ana="hc:GND-URI">http://d-nb.info/gnd/4023996-2</idno>
+            </settlement>
+            <country>
+              <placeName>Deutschland</placeName>
+              <idno ana="hc:GND-URI">http://d-nb.info/gnd/4011882-4</idno>
+            </country>
+          </address>
+        </publisher>
+        <pubPlace>
+          <placeName>Heidelberg</placeName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/4023996-2</idno>
+        </pubPlace>
+        <date when="2019-08-07">07.08.2019</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+        </availability>
+        <idno ana="hc:DOI">https://doi.org/10.11588/data/PEFKJM</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <series>
+          <title>heiEDITIONS</title>
+          <ref target="https://www.ub.uni-heidelberg.de/publikationsdienste/digitale_editionen.html">https://www.ub.uni-heidelberg.de/publikationsdienste/digitale_editionen.html</ref>
+        </series>
+        <series>
+          <title>Kaiserchronik digital</title>
+          <idno ana="hc:DOI">https://doi.org/10.11588/edition.kcd</idno>
+          <ref target="https://digi.ub.uni-heidelberg.de/kcd">https://digi.ub.uni-heidelberg.de/kcd</ref>
+        </series>
+      </seriesStmt>
+      <notesStmt>
+        <note xml:lang="en">This document was generated for publication in heiDATA, the institutional repository for research data of Heidelberg University, based on data provided by the editors.</note>
+        <note xml:lang="de">Dieses Dokument wurde für die Publikation in heiDATA, dem institutionellen Repositorium für Forschungsdaten der Universität Heidelberg, erstellt, auf Grundlage der von den Herausgebern bereitgestellten Daten.</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier ana="hc:FormerObjectIdentifier">
+            <settlement>
+              <placeName>Mainz</placeName>
+            </settlement>
+            <institution>
+              <orgName>Privatbesitz</orgName>
+            </institution>
+            <idno>ohne Signatur</idno>
+            <altIdentifier ana="hc:EditorialSiglum"><idno>a4gamma</idno></altIdentifier>
+          </msIdentifier>
+          <additional>
+            <surrogates>
+              <bibl>
+                <note xml:lang="en">The digital copy of the manuscript is available under the following identifiers:</note>
+                <note xml:lang="de">Das Digitalisat der Handschrift ist unter den folgenden Identifikatoren verfügbar:</note>
+                <idno ana="hc:URN">urn:nbn:de:bsz:16-diglit-298408</idno>
+                <idno ana="hc:DOI">https://doi.org/10.11588/diglit.29840</idno>
+                <ref target="https://digi.ub.uni-heidelberg.de/diglit/m_fischer">https://digi.ub.uni-heidelberg.de/diglit/m_fischer</ref>
+              </bibl>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">A general project description is available under the URL <ref target="http://digi.ub.uni-heidelberg.de/en/kcd/projekt/beschreibung.html">http://digi.ub.uni-heidelberg.de/en/kcd/projekt/beschreibung.html</ref>.</p>
+        <p xml:lang="de">Eine allgemeine Projektbeschreibung ist unter der URL <ref target="http://digi.ub.uni-heidelberg.de/de/kcd/projekt/beschreibung.html">http://digi.ub.uni-heidelberg.de/de/kcd/projekt/beschreibung.html</ref> verfügbar.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p xml:lang="en">A description of the editorial principles is available under the URL <ref target="http://digi.ub.uni-heidelberg.de/en/kcd/informationen/editionsprinzipien.html">http://digi.ub.uni-heidelberg.de/en/kcd/informationen/editionsprinzipien.html</ref>.</p>
+        <p xml:lang="de">Eine Beschreibung der Editionsprinzipien ist unter der URL <ref target="http://digi.ub.uni-heidelberg.de/de/kcd/informationen/editionsprinzipien.html">http://digi.ub.uni-heidelberg.de/de/kcd/informationen/editionsprinzipien.html</ref> verfügbar.</p>
+      </editorialDecl>
+      <listPrefixDef>
+        <prefixDef ident="hc"
+          matchPattern="(.+)"
+          replacementPattern="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/$1"/>
+      </listPrefixDef>
+      <charDecl>
+        <glyph xml:id="char_pe">
+          <glyphName>PUNCTUS ELEVATUS DIAGONAL STROKE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">.</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">002E</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F1F0</mapping>
+        </glyph>
+        <glyph xml:id="char_ur">
+          <glyphName>COMBINING ABBREVIATION MARK SUPERSCRIPT UR LEMNISKATE FORM</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">᷑</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">1DD1</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F1C2</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_de">
+          <glyphName>LATIN SMALL LIGATURE DE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">de</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0064 0065</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F159</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_nt">
+          <glyphName>LATIN SMALL LIGATURE NT</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">nt</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006E 0074</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_ht">
+          <glyphName>LATIN SMALL LIGATURE HT</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">ht</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0074</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_be">
+          <glyphName>LATIN SMALL LIGATURE BE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">be</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0062 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_he">
+          <glyphName>LATIN SMALL LIGATURE HE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">he</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_le">
+          <glyphName>LATIN SMALL LIGATURE LE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">le</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006C 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_longsz">
+          <glyphName>LATIN SMALL LIGATURE LONG S WITH Z</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">ſz</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">017F 007A</mapping>
+        </glyph>
+        <glyph xml:id="char_a_superscript_e">
+          <glyphName>LATIN SMALL LETTER A WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">aͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0061 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_e_superscript_e">
+          <glyphName>LATIN SMALL LETTER E WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">eͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0065 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_h_superscript_e">
+          <glyphName>LATIN SMALL LETTER H WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">hͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_i_superscript_e">
+          <glyphName>LATIN SMALL LETTER I WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">iͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0069 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_m_superscript_e">
+          <glyphName>LATIN SMALL LETTER M WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">mͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006D 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_o_superscript_e">
+          <glyphName>LATIN SMALL LETTER O WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">oͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006F 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_O_superscript_e">
+          <glyphName>LATIN CAPITAL LETTER O WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">Oͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">004F 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_r_superscript_e">
+          <glyphName>LATIN SMALL LETTER R WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">rͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0072 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_u_superscript_e">
+          <glyphName>LATIN SMALL LETTER U WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">uͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0075 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_v_superscript_e">
+          <glyphName>LATIN SMALL LETTER V WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">vͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0076 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_w_superscript_e">
+          <glyphName>LATIN SMALL LETTER W WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">wͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0077 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_y_superscript_e">
+          <glyphName>LATIN SMALL LETTER Y WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">yͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0079 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_z_superscript_e">
+          <glyphName>LATIN SMALL LETTER Z WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">zͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">007A 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="http://dwork.uni-hd.de" status="submitted" when="2019-09-27">Exported to TEI from project data in DWork</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface ana="hc:Page" n="1" xml:id="a4gamma_1">
+      <zone xml:id="a4gamma_1-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="34" xml:id="a4gamma_ep34" spanTo="#end.a4gamma_ep34"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.a4gamma_ep34.en" />Zeno<anchor xml:id="end.head.a4gamma_ep34.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.a4gamma_ep34.de" />Zeno<anchor xml:id="end.head.a4gamma_ep34.de" />
+        <line xml:id="l_a4gamma_1-a.line_1" n="1"><note ana="hc:TranscriptionNote">Die Transkription des verschollenen Fragments basiert auf den partiellen und unzuverlässigen Abdruck von Gotthelf Fischer (1803) und kann Text und Gestalt des Originals nur sehr eingeschränkt wiedergeben. Vermutlich falsche Lesarten sind unten kommentiert. Vgl. oben "Hinweise zu diesem Textzeugen"</note><note ana="hc:TranscriptionNote">Ein früherer Teil dieser Episode befindet sich im verwandten Fragment a4α</note> Dietrich unt ſine man.</line>
+        <line xml:id="l_a4gamma_1-a.line_2" n="2">Mit ufgerihten uan.</line>
+        <line xml:id="l_a4gamma_1-a.line_3" n="3">Riten si <note ana="hc:TranscriptionNote">In den erhaltenen und mit diesen Auszügen zusammengehörenden Fragmenten a4α und a4β kommt die Form {s} nicht vor: Der Schreiber verwendet ausschließlich {ſ}. Es ist daher unwahrscheinlich, dass das hier häufig verwendete {s} die Originalschreibform der Handschrift wiedergibt. Da Fischer aber gelegentlich zwischen Lang- und Rund-s unterscheidet (vgl. vor zwei Zeilen {ſine}), werden die in seinem Abdruck gesetzten Formen in dieser Transkription beibehalten</note> zerome in daz lant.</line>
+        <line xml:id="l_a4gamma_1-a.line_4" n="4">Do gelaist wol <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> <note ana="hc:TranscriptionNote">Auf Basis der häufigen Verwendung der Form {<choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice>} in den verwandten Fragmenten a4α und a4β, wird die von Fischer transkribierte Form {dr} hier durchgehend zu {<choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice>} gebessert</note> wigant.</line>
+        <line xml:id="l_a4gamma_1-a.line_5" n="5">Daz er gelobete wider sinen herren</line>
+        <line xml:id="l_a4gamma_1-a.line_6" n="6">Inne irte do da niemen mere.</line>
+        <line xml:id="l_a4gamma_1-a.line_7" n="7">Inne mahte da niht wider ſtan.</line>
+        <line xml:id="l_a4gamma_1-a.line_8" n="8">Si wrden alle sine man.</line>
+        <line xml:id="l_a4gamma_1-a.line_9" n="9">Im dienoten uorhilichen. <note ana="hc:TranscriptionNote">vermutlich {uorhtlichen}</note></line>
+        <line xml:id="l_a4gamma_1-a.line_10" n="10">Ellin <note ana="hc:TranscriptionNote">wohl {Elliu}</note> romiskiu riche. </line>
+        <line xml:id="l_a4gamma_1-a.line_11" n="11">In den Ziten was da.</line>
+        <line xml:id="l_a4gamma_1-a.line_12" n="12"><choice><abbr>Boetiꝰ</abbr><expan>Boetius</expan></choice> unt Seneca.</line>
+        <line xml:id="l_a4gamma_1-a.line_13" n="13">Unt ain heiliger babes.</line>
+        <line xml:id="l_a4gamma_1-a.line_14" n="14">Gehaisen sent <choice><abbr>Iohs</abbr><expan>Iohannes</expan></choice>.</line>
+        <line xml:id="l_a4gamma_1-a.line_15" n="15">Die santen ze dem chunige zenen.</line>
+        <line xml:id="l_a4gamma_1-a.line_16" n="16">Si sprachen iznegezame niht sin eren.</line>
+        <line xml:id="l_a4gamma_1-a.line_17" n="17">Daz ein ungeborner man.</line>
+        <line xml:id="l_a4gamma_1-a.line_18" n="18">Romiske riche scolte bewaren.</line>
+        <line xml:id="l_a4gamma_1-a.line_19" n="19">Die boten uie man unterwegen.</line>
+        <line xml:id="l_a4gamma_1-a.line_20" n="20">Do muͦſen si uf den babes iehen.</line>
+        <line xml:id="l_a4gamma_1-a.line_21" n="21">Unt uf <choice><abbr>an<g ref="#char_lig_de"></g>r</abbr><expan>ander</expan></choice> die herren.</line>
+        <line xml:id="l_a4gamma_1-a.line_22" n="22">Die an dem rate waren. </line>
+        <line xml:id="l_a4gamma_1-a.line_23" n="23">Dietrich <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> ubele woͮt grimme.</line>
+        <line xml:id="l_a4gamma_1-a.line_24" n="24">Hiez im die herren gewinnen.</line>
+        <line xml:id="l_a4gamma_1-a.line_25" n="25">Uon sent Peters ſtuͦle.</line>
+        <line xml:id="l_a4gamma_1-a.line_26" n="26">Hiez er den babes furen.</line>
+        <line xml:id="l_a4gamma_1-a.line_27" n="27">Pfahfen unt laigen.</line>
+        <line xml:id="l_a4gamma_1-a.line_28" n="28">Hiez er furen te bauare.</line>
+        <line xml:id="l_a4gamma_1-a.line_29" n="29">Er hiez si in den charchare werfen.</line>
+        <line xml:id="l_a4gamma_1-a.line_30" n="30">Niemen getorfte in gehelfen.</line>
+        <line xml:id="l_a4gamma_1-a.line_31" n="31">Unze alle di des hungeres entwalen.</line>
+        <line xml:id="l_a4gamma_1-a.line_32" n="32">Uf die die boten iahen. </line>
+        <line xml:id="l_a4gamma_1-a.line_33" n="33">Die christen do clageten.</line>
+        <line xml:id="l_a4gamma_1-a.line_34" n="34">Daz si uerloren habeten.</line>
+        <line xml:id="l_a4gamma_1-a.line_35" n="35">Ir maister also lieben.</line>
+        <line xml:id="l_a4gamma_1-a.line_36" n="36">Do rah si got schiere.</line>
+        <line xml:id="l_a4gamma_1-a.line_37" n="37">Want er die christen hete gelaidiget.</line>
+        <line xml:id="l_a4gamma_1-a.line_38" n="38">Do wart im uor got uertailet.</line>
+        <line xml:id="l_a4gamma_1-a.line_39" n="39">Uil manige daz sahen.</line>
+        <line xml:id="l_a4gamma_1-a.line_40" n="40">Daz in die tieuel nomen</line>
+        <line xml:id="l_a4gamma_1-a.line_41" n="41">Sie furten in <choice><abbr>in<g ref="#char_lig_de"></g>n</abbr><expan>inden</expan></choice> <note ana="hc:TranscriptionNote">Fischer transkribiert {indn}; die Korrektur zu {<choice><abbr>in<g ref="#char_lig_de"></g>n</abbr><expan>inden</expan></choice>} erfolgt auf Basis der hohen Wahrscheinlichkeit, dass bei {<choice><abbr>dn</abbr><expan>den</expan></choice>} ähnlich wie bei {dr} das ligierte {e} habituell weggelassen wurde. Beispiele für <choice><abbr><g ref="#char_lig_de"></g>n</abbr><expan>den</expan></choice> befinden sich in die verwandten Fragmenten a4α und a4β</note> bere ze fulkan.</line>
+        <line xml:id="l_a4gamma_1-a.line_42" n="42">Daz gebot in sent <choice><abbr>Iohs</abbr><expan>Iohannes</expan></choice> <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> heilige man.</line>
+        <line xml:id="l_a4gamma_1-a.line_43" n="43">Da brinnet er unz an den iungisten tac.</line>
+        <line xml:id="l_a4gamma_1-a.line_44" n="44">Daz im niemen gehelfen nemac. </line>
+        <line xml:id="l_a4gamma_1-a.line_45" n="45">Swer nu welle bewaren.</line>
+        <line xml:id="l_a4gamma_1-a.line_46" n="46">Daz Dietrich ezelen sahe.</line>
+        <line xml:id="l_a4gamma_1-a.line_47" n="47">Der haize daz buch fur tragen.</line>
+        <line xml:id="l_a4gamma_1-a.line_48" n="48">Do <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> chunic Ezel zeouene wart begraben.</line>
+        <line xml:id="l_a4gamma_1-a.line_49" n="49">Darnah ſtuͦnt iz furwar.</line>
+        <line xml:id="l_a4gamma_1-a.line_50" n="50">Drin <note ana="hc:TranscriptionNote">wohl {Driu}</note> unt uierzec iar.</line>
+        <line xml:id="l_a4gamma_1-a.line_51" n="51">Daz Dietrich was geborn.</line>
+        <line xml:id="l_a4gamma_1-a.line_52" n="52">Ze chriechen wart errezogen.</line>
+        <line xml:id="l_a4gamma_1-a.line_53" n="53">Do er daz swert umbehant.</line>
+        <line xml:id="l_a4gamma_1-a.line_54" n="54">Zerome wart er gesant.</line>
+        <line xml:id="l_a4gamma_1-a.line_55" n="55">Ze fulkan wart er begraben</line>
+        <line xml:id="l_a4gamma_1-a.line_56" n="56">Hie muget ir <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> luge wol am <note ana="hc:TranscriptionNote">wohl {ain}</note> ende han. </line>
+        <line xml:id="l_a4gamma_1-a.line_57" n="57">Zeno wonte andern riche</line>
+        <line xml:id="l_a4gamma_1-a.line_58" n="58">Mit sant Dietriche.</line>
+        <line xml:id="l_a4gamma_1-a.line_59" n="59">Daz saget daz buch furwar</line>
+        <line xml:id="l_a4gamma_1-a.line_60" n="60">Sechs unt drizec iar.</line>
+        <line xml:id="l_a4gamma_1-a.line_61" n="61">unt funf ma not mere</line>
+        <line xml:id="l_a4gamma_1-a.line_62" n="62">Cſtantinobole <note ana="hc:TranscriptionNote">{<choice><abbr>Ꝯſtantinobole</abbr><expan>Conſtantinobole</expan></choice>} ist hier zu vermuten</note> begruben si den herren.</line>
+        <anchor xml:id="end.a4gamma_ep34" /><milestone ana="hc:Chapter" n="35" xml:id="a4gamma_ep35" spanTo="#end.a4gamma_ep35"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.a4gamma_ep35.en" />Constantine VI<anchor xml:id="end.head.a4gamma_ep35.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.a4gamma_ep35.de" />Constantius<anchor xml:id="end.head.a4gamma_ep35.de" />
+        <line xml:id="l_a4gamma_1-a.line_63" n="63">Daz buͦch chundet uns suſ.</line>
+        <line xml:id="l_a4gamma_1-a.line_64" n="64">Daz riche besaz <choice><abbr>cⁿstantiꝰ.</abbr><expan>cⁿstantius.</expan></choice></line>
+        <line xml:id="l_a4gamma_1-a.line_65" n="65">Uon den chriechen geborn.</line>
+        <line xml:id="l_a4gamma_1-a.line_66" n="66">Die heten in d’h  <note ana="hc:TranscriptionNote">{d’h} höchstwahrscheinlich Lesefehler Fischers - wohl {oͮh}</note> zerihtare erkoren.</line>
+        <line xml:id="l_a4gamma_1-a.line_67" n="67">Herena hiez sin muͦter.</line>
+        <line xml:id="l_a4gamma_1-a.line_68" n="68">Div waz ein froͮe also guͦte.</line>
+        <line xml:id="l_a4gamma_1-a.line_69" n="69">Von cⁿstantini geslahte.</line>
+        <line xml:id="l_a4gamma_1-a.line_70" n="70">So niht pezeres ſinne mahte. </line>
+        <line xml:id="l_a4gamma_1-a.line_71" n="71">Div froͮwe aines nachtes am pette gelac.</line>
+        <line xml:id="l_a4gamma_1-a.line_72" n="72">Ain swaren troͮm si gesah.</line>
+        <line xml:id="l_a4gamma_1-a.line_73" n="73">Wie sie uber mer scolte uaren.</line>
+        <line xml:id="l_a4gamma_1-a.line_74" n="74">Daz schef ne maht niemen bewaren.</line>
+        <line xml:id="l_a4gamma_1-a.line_75" n="75">Wie iz anden grunt ſunke.</line>
+        <line xml:id="l_a4gamma_1-a.line_76" n="76">Wie ir sun ertrunche.</line>
+        <line xml:id="l_a4gamma_1-a.line_77" n="77">Wie si uz chome.</line>
+        <line xml:id="l_a4gamma_1-a.line_78" n="78">Wie si ain per name.</line>
+        <line xml:id="l_a4gamma_1-a.line_79" n="79">Wie er si truge zewalde in.</line>
+        <line xml:id="l_a4gamma_1-a.line_80" n="80">Des beswaret div chunigin. </line>
+        <line xml:id="l_a4gamma_1-a.line_81" n="81">Div froͮwe dem sune anlac.</line>
+        <line xml:id="l_a4gamma_1-a.line_82" n="82">Bardiu naht unt tac.</line>
+        <line xml:id="l_a4gamma_1-a.line_83" n="83">Er sante si ze rome.</line>
+        <line xml:id="l_a4gamma_1-a.line_84" n="84"><choice><abbr>Ze<g ref="#char_lig_de"></g>n</abbr><expan>Zeden</expan></choice> <note ana="hc:TranscriptionNote">Fischer transkribiert {Zedn}; die Korrektur zu {<choice><abbr>Ze<g ref="#char_lig_de"></g>n</abbr><expan>Zeden</expan></choice>} erfolgt auf Basis der hohen Wahrscheinlichkeit, dass bei {<choice><abbr>dn</abbr><expan>den</expan></choice>} ähnlich wie bei {dr} das ligierte {e} habituell weggelassen wurde. Beispiele für <choice><abbr><g ref="#char_lig_de"></g>n</abbr><expan>den</expan></choice> befinden sich in die verwandten Fragmenten a4α und a4β</note> poten frone.</line>
+        <line xml:id="l_a4gamma_1-a.line_85" n="85">Ungerne erz tet.</line>
+        <line xml:id="l_a4gamma_1-a.line_86" n="86">Ze iungest gewert si der bete.</line>
+        <line xml:id="l_a4gamma_1-a.line_87" n="87">Er hup sih mit michelem flîze.</line>
+        <line xml:id="l_a4gamma_1-a.line_88" n="88">In romiskez riche.</line>
+        <line xml:id="l_a4gamma_1-a.line_89" n="89">Div muͦter fur almit.</line>
+        <line xml:id="l_a4gamma_1-a.line_90" n="90">Si hête tugentliche ſite</line>
+        <line xml:id="l_a4gamma_1-a.line_91" n="91">Si furte michelen scaz.</line>
+        <line xml:id="l_a4gamma_1-a.line_92" n="92">Daz tet div froͮwe umbe daz.</line>
+        <line xml:id="l_a4gamma_1-a.line_93" n="93">Daz div gebe mare gestilte romare.</line>
+        <line xml:id="l_a4gamma_1-a.line_94" n="94">Unt si die alten sculde.</line>
+        <line xml:id="l_a4gamma_1-a.line_95" n="95">Versuͦnte almit gold. </line>
+        <line xml:id="l_a4gamma_1-a.line_96" n="96">Suin <note ana="hc:TranscriptionNote">{Suin} wahrscheinlich Lesefehler Fischers - nach Vermutung Schröders Elliu</note> romiskiu craft</line>
+        <line xml:id="l_a4gamma_1-a.line_97" n="97">Emphiengen wol die herſchaft.</line>
+        <line xml:id="l_a4gamma_1-a.line_98" n="98">Mit michelen êren.</line>
+        <line xml:id="l_a4gamma_1-a.line_99" n="99">Sunderlichen die muͦter Herênen.</line>
+        <line xml:id="l_a4gamma_1-a.line_100" n="100">Do hiez <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> chunic mare phelle unt more.</line>
+        <line xml:id="l_a4gamma_1-a.line_101" n="101">Seuzelen unt naphe.</line>
+        <line xml:id="l_a4gamma_1-a.line_102" n="102">Die guldine Kophe.</line>
+        <line xml:id="l_a4gamma_1-a.line_103" n="103">Uil wahe ergraben.</line>
+        <line xml:id="l_a4gamma_1-a.line_104" n="104">Alle dar fur tragen.</line>
+        <line xml:id="l_a4gamma_1-a.line_105" n="105">Do gab ſin mannen.</line>
+        <line xml:id="l_a4gamma_1-a.line_106" n="106">Do iahen si im alle.</line>
+        <line xml:id="l_a4gamma_1-a.line_107" n="107">daz si nie gesahen.</line>
+        <line xml:id="l_a4gamma_1-a.line_108" n="108">Gâbe. also mare.</line>
+        <line xml:id="l_a4gamma_1-a.line_109" n="109">Unt si waren im ungeswichen.</line>
+        <line xml:id="l_a4gamma_1-a.line_110" n="110">Ze allen sinen sachen. </line>
+        <line xml:id="l_a4gamma_1-a.line_111" n="111">Herena div muͦtter</line>
+        <line xml:id="l_a4gamma_1-a.line_112" n="112">Div gab in do besunter.</line>
+        <line xml:id="l_a4gamma_1-a.line_113" n="113">Poͮge uil röte.</line>
+        <line xml:id="l_a4gamma_1-a.line_114" n="114">Phelle uil braite.</line>
+        <line xml:id="l_a4gamma_1-a.line_115" n="115">Die wile in der chamer iht was.</line>
+        <line xml:id="l_a4gamma_1-a.line_116" n="116">Die fursten heten si alle deſte baz.</line>
+        <line xml:id="l_a4gamma_1-a.line_117" n="117">Also die kamere wrden alle lâre.</line>
+        <line xml:id="l_a4gamma_1-a.line_118" n="118">Do d’bten  <note ana="hc:TranscriptionNote">{d’bten} höchstwahrscheinlich Lesefehler Fischers - evtl. {oͮbten}</note> romare.</line>
+        <line xml:id="l_a4gamma_1-a.line_119" n="119">Ir alte gewonhait.</line>
+        <line xml:id="l_a4gamma_1-a.line_120" n="120">Si sprachen div grozen herzelait.</line>
+        <line xml:id="l_a4gamma_1-a.line_121" n="121">Die ir uorderen heten getan.</line>
+        <line xml:id="l_a4gamma_1-a.line_122" n="122">Iz ſcolt in pillichen an daz leben gan </line>
+        <line xml:id="l_a4gamma_1-a.line_123" n="123">Do gesuͦcte iz <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> tieuel drâte.</line>
+        <line xml:id="l_a4gamma_1-a.line_124" n="124">Daz im uz dem Senate.</line>
+        <line xml:id="l_a4gamma_1-a.line_125" n="125">Ain furste wart erſlagen.</line>
+        <line xml:id="l_a4gamma_1-a.line_126" n="126">Die friunte begundenz alle clagen.</line>
+        <line xml:id="l_a4gamma_1-a.line_127" n="127">Dem chunige <choice><abbr>ꝯstantio.</abbr><expan>constantio.</expan></choice></line>
+        <line xml:id="l_a4gamma_1-a.line_128" n="128">Die sculdigen uorderot er.</line>
+        <line xml:id="l_a4gamma_1-a.line_129" n="129">Do si wolten nit fur chomen.</line>
+        <line xml:id="l_a4gamma_1-a.line_130" n="130">Daz ward dem chunige zorn.</line>
+        <line xml:id="l_a4gamma_1-a.line_131" n="131">Sie âhte er aber si gebot</line>
+        <line xml:id="l_a4gamma_1-a.line_132" n="132">Zwene wrden ir <gap unit="chars" ana="hc:Lost"></gap> <note ana="hc:TranscriptionNote">Schluss der Episode nicht erhalten</note> </line>
+        <anchor xml:id="end.a4gamma_ep35" />
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="2" xml:id="a4gamma_2">
+      <zone xml:id="a4gamma_2-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="36.1" xml:id="a4gamma_ep36.1" spanTo="#end.a4gamma_ep36.1"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.a4gamma_ep36.1.en" />Charlemagne: Charlemagne and Leo § 1<anchor xml:id="end.head.a4gamma_ep36.1.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.a4gamma_ep36.1.de" />Karl der Große: Karl und Leo § 1<anchor xml:id="end.head.a4gamma_ep36.1.de" />
+        <line xml:id="l_a4gamma_2-a.line_1" n="1"><note ana="hc:TranscriptionNote">Anfang der Episode nicht erhalten</note> Sêre iz der christenhait scadete. </line>
+        <line xml:id="l_a4gamma_2-a.line_2" n="2">Ih haize rihtare unt uoget.</line>
+        <line xml:id="l_a4gamma_2-a.line_3" n="3">durh daz pin ih gelobet.</line>
+        <line xml:id="l_a4gamma_2-a.line_4" n="4">Daz ih rihte der diete.</line>
+        <line xml:id="l_a4gamma_2-a.line_5" n="5">weset ir alſo iu got gebiete.</line>
+        <line xml:id="l_a4gamma_2-a.line_6" n="6">Mit dem swerte scol ih die christenhait rihten</line>
+        <line xml:id="l_a4gamma_2-a.line_7" n="7">Si muͦz iuh uil sere arnen</line>
+        <line xml:id="l_a4gamma_2-a.line_8" n="8">Ih geriche iwer oͮgen.</line>
+        <line xml:id="l_a4gamma_2-a.line_9" n="9"><choice><abbr>O<g ref="#char_lig_de"></g>r</abbr><expan>Oder</expan></choice>. ih wil mih des swertes geloͮben. </line>
+        <line xml:id="l_a4gamma_2-a.line_10" n="10">Do santer boten ſine.</line>
+        <line xml:id="l_a4gamma_2-a.line_11" n="11">Ze dem chunige Pippine.</line>
+        <line xml:id="l_a4gamma_2-a.line_12" n="12">Er hiez in sin not clagen.</line>
+        <line xml:id="l_a4gamma_2-a.line_13" n="13">Unt hiez in dar zuͦ ſagen.</line>
+        <line xml:id="l_a4gamma_2-a.line_14" n="14">Den fursten uon charlingen.</line>
+        <line xml:id="l_a4gamma_2-a.line_15" n="15">Obsi golt wolt minnen.</line>
+        <line xml:id="l_a4gamma_2-a.line_16" n="16">Si chom im schiere.</line>
+        <line xml:id="l_a4gamma_2-a.line_17" n="17">Done lebete manne niemen.</line>
+        <line xml:id="l_a4gamma_2-a.line_18" n="18">Sine sprachen alle biainem munde.</line>
+        <line xml:id="l_a4gamma_2-a.line_19" n="19">We der wile unt der ſtunde.</line>
+        <line xml:id="l_a4gamma_2-a.line_20" n="20">Daz rome ie wart er haben.</line>
+        <line xml:id="l_a4gamma_2-a.line_21" n="21">Uil michel wart ir iamer unt ir clagen. </line>
+        <line xml:id="l_a4gamma_2-a.line_22" n="22">Die boten îlten flizeclichen.</line>
+        <line xml:id="l_a4gamma_2-a.line_23" n="23">Uon riche zeriche.</line>
+        <line xml:id="l_a4gamma_2-a.line_24" n="24">Uon herren ze manne</line>
+        <line xml:id="l_a4gamma_2-a.line_25" n="25">Uil willic waren si in alle.</line>
+        <line xml:id="l_a4gamma_2-a.line_26" n="26">Buͦlûte unt choͮfmann.</line>
+        <line xml:id="l_a4gamma_2-a.line_27" n="27">Dîne maht niemen uf gehaben.</line>
+        <line xml:id="l_a4gamma_2-a.line_28" n="28">Si liezen alle ir habe.</line>
+        <line xml:id="l_a4gamma_2-a.line_29" n="29">Si huͦben sih ze wege.</line>
+        <line xml:id="l_a4gamma_2-a.line_30" n="30">Ia huͦpſih in der christenhait</line>
+        <line xml:id="l_a4gamma_2-a.line_31" n="31">Michel iamer unt lait.</line>
+        <line xml:id="l_a4gamma_2-a.line_32" n="32">Uon uolche zeuolche.</line>
+        <line xml:id="l_a4gamma_2-a.line_33" n="33">Si ſigen zuͦſam diu wolchen.</line>
+        <line xml:id="l_a4gamma_2-a.line_34" n="34">Uber monte ioh.</line>
+        <line xml:id="l_a4gamma_2-a.line_35" n="35">Hei wie daz her dar uber zoh.</line>
+        <line xml:id="l_a4gamma_2-a.line_36" n="36">Durh Triental.</line>
+        <line xml:id="l_a4gamma_2-a.line_37" n="37">Der scar ne hat daz buͦch ne haine zal.</line>
+        <line xml:id="l_a4gamma_2-a.line_38" n="38">Was daz div aller maiste heruart.</line>
+        <line xml:id="l_a4gamma_2-a.line_39" n="39">Diu îe Zerome gefrumit wart. </line>
+        <line xml:id="l_a4gamma_2-a.line_40" n="40">Do die herren chomen.</line>
+        <line xml:id="l_a4gamma_2-a.line_41" n="41">Daz sie sahen zerome.</line>
+        <line xml:id="l_a4gamma_2-a.line_42" n="42">Uf dem mendelpge.</line>
+        <line xml:id="l_a4gamma_2-a.line_43" n="43">Da bet im <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> chunic werde.</line>
+        <line xml:id="l_a4gamma_2-a.line_44" n="44">Drie tage unt drie naht.</line>
+        <line xml:id="l_a4gamma_2-a.line_45" n="45">Daz was den fursten ungemah.</line>
+        <line xml:id="l_a4gamma_2-a.line_46" n="46">Die herren giengen zu dem chunige.</line>
+        <line xml:id="l_a4gamma_2-a.line_47" n="47">Si sprachen iz gezame</line>
+        <line xml:id="l_a4gamma_2-a.line_48" n="48">Siner herscefte ubele.</line>
+        <line xml:id="l_a4gamma_2-a.line_49" n="49">Daz si so nahen <choice><abbr>chom̃</abbr><expan>chomen</expan></choice> waren.</line>
+        <line xml:id="l_a4gamma_2-a.line_50" n="50">Unt ir lait ansahen. </line>
+        <line xml:id="l_a4gamma_2-a.line_51" n="51">Do antwrt in <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> chunic hêre.</line>
+        <line xml:id="l_a4gamma_2-a.line_52" n="52">Wir muͦzen ê got flegen.</line>
+        <line xml:id="l_a4gamma_2-a.line_53" n="53">Wir muͦzen daz urloͮp dazuͦ gewinnen.</line>
+        <line xml:id="l_a4gamma_2-a.line_54" n="54">So muͦgen wir denne samfte ringen.</line>
+        <line xml:id="l_a4gamma_2-a.line_55" n="55">D’h  <note ana="hc:TranscriptionNote">{D’h} höchstwahrscheinlich Lesefehler Fischers - wohl {Oͮh}</note> mangelen wir ainesman.</line>
+        <line xml:id="l_a4gamma_2-a.line_56" n="56">Den ih zenote scol han.</line>
+        <line xml:id="l_a4gamma_2-a.line_57" n="57">Er zimt wol dem riche</line>
+        <line xml:id="l_a4gamma_2-a.line_58" n="58">Got sente mir in gnadeclichen. <note ana="hc:TranscriptionNote">Spätere Teile derselben Episode (Unterkapitel 1-2) befinden sich in den verwandten Fragmenten a4α und a4β</note></line>
+        <anchor xml:id="end.a4gamma_ep36.1" />
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="3" xml:id="a4gamma_3">
+      <zone xml:id="a4gamma_3-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="27.6" xml:id="a4gamma_ep27.6" spanTo="#end.a4gamma_ep27.6"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.a4gamma_ep27.6.en" />Constantine: Silvester and the dragon § 6<anchor xml:id="end.head.a4gamma_ep27.6.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.a4gamma_ep27.6.de" />Constantinus: Silvester und der Drache § 6<anchor xml:id="end.head.a4gamma_ep27.6.de" />
+        <line xml:id="l_a4gamma_3-a.line_1" n="1"><note ana="hc:TranscriptionNote">Reihenfolge der Darstellung in Fischers Transkription beibehalten, obwohl hier abweichend. Ein früherer Teil dieser Episode (Unterkapitel 2-3) befindet sich im verwandten Fragment a4α</note> Die wile das Sent <choice><abbr>Silueſt͛</abbr><expan>Silueſter</expan></choice> babes was.</line>
+        <line xml:id="l_a4gamma_3-a.line_2" n="2">Daz buͦch chundet uns daz.</line>
+        <line xml:id="l_a4gamma_3-a.line_3" n="3">Die haidenschaft er becherte,</line>
+        <line xml:id="l_a4gamma_3-a.line_4" n="4">Die christen er wol lerte</line>
+        <line xml:id="l_a4gamma_3-a.line_5" n="5">Unze sih ain trache da uͦbte.</line>
+        <line xml:id="l_a4gamma_3-a.line_6" n="6">Der die christen harte getrübte <note ana="hc:TranscriptionNote">{ü} in {getr̈bte} sehr wahrscheinlich Lesefehler Fischers - Zeichen kommt in den verwandten Fragmenten nicht vor</note> </line>
+        <line xml:id="l_a4gamma_3-a.line_7" n="7">Niemen getorfte zerome</line>
+        <line xml:id="l_a4gamma_3-a.line_8" n="8">Uz der stat chomen,</line>
+        <line xml:id="l_a4gamma_3-a.line_9" n="9">Erne het an der stet den lip uerloren</line>
+        <line xml:id="l_a4gamma_3-a.line_10" n="10">Ain uil groz iamer wart.</line>
+        <line xml:id="l_a4gamma_3-a.line_11" n="11">Zerome uber alle die stat.</line>
+        <line xml:id="l_a4gamma_3-a.line_12" n="12">Sumiliche christen</line>
+        <line xml:id="l_a4gamma_3-a.line_13" n="13">Die mit got niht waren ueste.</line>
+        <line xml:id="l_a4gamma_3-a.line_14" n="14">Die sprachen ir grozer got ware.</line>
+        <line xml:id="l_a4gamma_3-a.line_15" n="15">Wie im daz gezame.</line>
+        <line xml:id="l_a4gamma_3-a.line_16" n="16">Unt wie er d’h  <note ana="hc:TranscriptionNote">{d’h} höchstwahrscheinlich Lesefehler Fischers - wohl {oͮh}</note> daz verdolte.</line>
+        <line xml:id="l_a4gamma_3-a.line_17" n="17">Daz si sogetanes todes entwelen scolten. </line>
+        <line xml:id="l_a4gamma_3-a.line_18" n="18">Sent <choice><abbr>Siluest͛</abbr><expan>Siluester</expan></choice>  <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> gotes truͦt.</line>
+        <line xml:id="l_a4gamma_3-a.line_19" n="19">Do hiez er zesamme <choice><abbr>chom̃</abbr><expan>chomen</expan></choice> daz liut.</line>
+        <line xml:id="l_a4gamma_3-a.line_20" n="20">Durh michel not.</line>
+        <line xml:id="l_a4gamma_3-a.line_21" n="21">Aine uasten er gebot.</line>
+        <line xml:id="l_a4gamma_3-a.line_22" n="22">Drie tage unt drie naht.</line>
+        <line xml:id="l_a4gamma_3-a.line_23" n="23">Unt darzu cruce traht.</line>
+        <line xml:id="l_a4gamma_3-a.line_24" n="24">Er hiez sin almuͦsen geben.</line>
+        <line xml:id="l_a4gamma_3-a.line_25" n="25">Unt hiez si chuselichen <note ana="hc:TranscriptionNote">Nach Vermutung Schröders chusclichen</note> leben.</line>
+        <line xml:id="l_a4gamma_3-a.line_26" n="26">Owi wie wol daz erfullet wart</line>
+        <line xml:id="l_a4gamma_3-a.line_27" n="27">Zerome uber alle die stat.</line>
+        <line xml:id="l_a4gamma_3-a.line_28" n="28">An dem uierden tage.</line>
+        <line xml:id="l_a4gamma_3-a.line_29" n="29">Zeware ih dir daz sage.</line>
+        <line xml:id="l_a4gamma_3-a.line_30" n="30">Do ophert der herre guͦt.</line>
+        <line xml:id="l_a4gamma_3-a.line_31" n="31">Gotes lichenamen unt sin pluͦt.</line>
+        <line xml:id="l_a4gamma_3-a.line_32" n="32">Darware gotes pote here.</line>
+        <line xml:id="l_a4gamma_3-a.line_33" n="33">Uiel fur sent peters altare.</line>
+        <line xml:id="l_a4gamma_3-a.line_34" n="34">Er sph herre sent petⁿ <note ana="hc:TranscriptionNote">unklar bleibt, was hier hochgestelltes {n} darstellen sollte - Schröder schlägt {<choice><abbr>͛</abbr><expan>er</expan></choice>} vor, was hier eher zu erwarten wäre; bei {sph} wurde {<choice><abbr> ᷓ</abbr><expan>ra</expan></choice>} im Abdruck vermutlich weggelassen</note>  gotes trut.</line>
+        <line xml:id="l_a4gamma_3-a.line_35" n="35">Ze dir roͮfet allez ditze luit.</line>
+        <line xml:id="l_a4gamma_3-a.line_36" n="36">Nv habent si mih gezalt.</line>
+        <line xml:id="l_a4gamma_3-a.line_37" n="37">Ih habe enphangen din gewalt.</line>
+        <line xml:id="l_a4gamma_3-a.line_38" n="38">Und si an den ſtuͦl gesezen.</line>
+        <line xml:id="l_a4gamma_3-a.line_39" n="39">Nune scoltu herre nicht uergezen.</line>
+        <line xml:id="l_a4gamma_3-a.line_40" n="40">Waz dir got selbe gehiez.</line>
+        <line xml:id="l_a4gamma_3-a.line_41" n="41">Do er dih uil truric liez.</line>
+        <line xml:id="l_a4gamma_3-a.line_42" n="42">Nv ist div chriſtenhait</line>
+        <line xml:id="l_a4gamma_3-a.line_43" n="43">Mit dinẽ namen gebraitet.</line>
+        <line xml:id="l_a4gamma_3-a.line_44" n="44">Du scolt uns fur got laiten.</line>
+        <line xml:id="l_a4gamma_3-a.line_45" n="45">Nu ge êre an uns den namen din.</line>
+        <line xml:id="l_a4gamma_3-a.line_46" n="46">Doh wir sunt are ſin wir die rane ſin. <note ana="hc:TranscriptionNote">{wir die rane} sicherlich falsch - vgl. Leithandschrift A1: {wirdich niene}</note>  </line>
+        <line xml:id="l_a4gamma_3-a.line_47" n="47">Des nist zwiuel ne hain.</line>
+        <line xml:id="l_a4gamma_3-a.line_48" n="48">Sent peter im do erſchain.</line>
+        <line xml:id="l_a4gamma_3-a.line_49" n="49">An offenlichen er in sah.</line>
+        <line xml:id="l_a4gamma_3-a.line_50" n="50">Wie gutlichen er im zu sprah.</line>
+        <line xml:id="l_a4gamma_3-a.line_51" n="51">Silueſter warer gotes scale.</line>
+        <line xml:id="l_a4gamma_3-a.line_52" n="52">Nu hastu uon gote den gewalt.</line>
+        <line xml:id="l_a4gamma_3-a.line_53" n="53">Ze losen unt zegebunden.</line>
+        <line xml:id="l_a4gamma_3-a.line_54" n="54">Uon ſuhten unt uon ſuͦnden.</line>
+        <line xml:id="l_a4gamma_3-a.line_55" n="55">Swaz du uf <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> erde gebuitest daz iſt getan.</line>
+        <line xml:id="l_a4gamma_3-a.line_56" n="56">Nu auer du min hilfe darzuͦ welleſt han.</line>
+        <line xml:id="l_a4gamma_3-a.line_57" n="57">Nim disen ſluſel in dine hant.</line>
+        <line xml:id="l_a4gamma_3-a.line_58" n="58">Damit beſluͦz du ualant.</line>
+        <line xml:id="l_a4gamma_3-a.line_59" n="59">Du gebuit im alsus.</line>
+        <line xml:id="l_a4gamma_3-a.line_60" n="60">hie die <choice><abbr>apls</abbr><expan>apostolus</expan></choice>. <note ana="hc:TranscriptionNote">{hie die} wahrscheinlich Lesefehler Fischers. Vgl. Leithandschrift A1: {hec dicit}. Wurde hier - wie oft in diesem Abdruck - {e} für {c} gesetzt, ist {hic dic} zu verstehen, wobei {dic} als die lateinische Abkürzung für dicit aufzufassen wäre</note> </line>
+        <line xml:id="l_a4gamma_3-a.line_61" n="61">Hie mit ſcoltu beſlozen sin.</line>
+        <line xml:id="l_a4gamma_3-a.line_62" n="62">Daz gebuitet dir sent <choice><abbr>pet͛</abbr><expan>peter</expan></choice> der maister min</line>
+        <line xml:id="l_a4gamma_3-a.line_63" n="63">Unze zedem iungisten tage.</line>
+        <line xml:id="l_a4gamma_3-a.line_64" n="64">Zeware ih dir daz sage</line>
+        <line xml:id="l_a4gamma_3-a.line_65" n="65">Erne girret menſken <choice><abbr>niem͛</abbr><expan>niemer</expan></choice> mere.</line>
+        <line xml:id="l_a4gamma_3-a.line_66" n="66">Uor liebe erwamot <note ana="hc:TranscriptionNote">Nach Vermutung Schröders erwainot</note> der heilige herre. </line>
+        <line xml:id="l_a4gamma_3-a.line_67" n="67">Sent <choice><abbr>Silueſt͛</abbr><expan>Silueſter</expan></choice> <choice><abbr><g ref="#char_lig_de"></g>r</abbr><expan>der</expan></choice> heilige man.</line>
+        <line xml:id="l_a4gamma_3-a.line_68" n="68">Er hiez daz heilicd’m <note ana="hc:TranscriptionNote">Bedeutung von {’} unklar - wohl wieder Lesefehler (an diese Stelle hat die Leithandschrift A1 {heilictuͦm}</note>  mit samt im tragen.</line>
+        <line xml:id="l_a4gamma_3-a.line_69" n="69">Ze rome newas wip no man</line>
+        <line xml:id="l_a4gamma_3-a.line_70" n="70">Di mer mit im getorften gan.</line>
+        <line xml:id="l_a4gamma_3-a.line_71" n="71">Wan zwene sine chapelan.</line>
+        <line xml:id="l_a4gamma_3-a.line_72" n="72">Dar cherte der got werde.</line>
+        <line xml:id="l_a4gamma_3-a.line_73" n="73">Ingegen den <choice><abbr>mendelꝑge.</abbr><expan>mendelperge.</expan></choice></line>
+        <line xml:id="l_a4gamma_3-a.line_74" n="74">Der trache uon im floh.</line>
+        <line xml:id="l_a4gamma_3-a.line_75" n="75">Sent <choice><abbr>Silueſt͛</abbr><expan>Silueſter</expan></choice> im nah zoh.</line>
+        <line xml:id="l_a4gamma_3-a.line_76" n="76">Unz  an daz ende.</line>
+        <line xml:id="l_a4gamma_3-a.line_77" n="77">Dr trake nemah’t <note ana="hc:TranscriptionNote">Bedeutung von {’} unklar</note>  do niht <choice><abbr>gewen<g ref="#char_lig_de"></g>n</abbr><expan>gewenden</expan></choice>. <note ana="hc:TranscriptionNote">Fischer transkribiert {gewendn}; die Korrektur zu {<choice><abbr>gewen<g ref="#char_lig_de"></g>n</abbr><expan>gewenden</expan></choice>} erfolgt auf Basis der hohen Wahrscheinlichkeit, dass bei {<choice><abbr>dn</abbr><expan>den</expan></choice>} ähnlich wie bei {dr} das ligierte {e} habituell weggelassen wurde. Beispiele für <choice><abbr><g ref="#char_lig_de"></g>n</abbr><expan>den</expan></choice> befinden sich in die verwandten Fragmenten a4α und a4β</note></line>
+        <line xml:id="l_a4gamma_3-a.line_78" n="78">Veeder hin noh her. </line>
+        <line xml:id="l_a4gamma_3-a.line_79" n="79">Do sph sent <choice><abbr>Siluest͛</abbr><expan>Siluester</expan></choice> <note ana="hc:TranscriptionNote">Bei {sph} wurde {<choice><abbr> ᷓ</abbr><expan>ra</expan></choice>} im Abdruck vermutlich weggelassen</note></line>
+        <line xml:id="l_a4gamma_3-a.line_80" n="80">Du uil un rainer hunt.</line>
+        <line xml:id="l_a4gamma_3-a.line_81" n="81">Nu arneſtu hie zestunt.</line>
+        <line xml:id="l_a4gamma_3-a.line_82" n="82">Swaz du mensken deh <note ana="hc:TranscriptionNote">Texverlust</note></line>
+        <line xml:id="l_a4gamma_3-a.line_83" n="83">In der werlt ie getate zelaide.</line>
+        <line xml:id="l_a4gamma_3-a.line_84" n="84">Den ſluzel rait er umbe.</line>
+        <line xml:id="l_a4gamma_3-a.line_85" n="85">Er sprah hie mit ſiſtu gebunden.</line>
+        <line xml:id="l_a4gamma_3-a.line_86" n="86">Unz an den iungiſten tac.</line>
+        <line xml:id="l_a4gamma_3-a.line_87" n="87">Der trache wart sa da haſt. <note ana="hc:TranscriptionNote">Vermutlich Lesefehler Fischers - vgl. Leithandschrift A1: {haft}</note> </line>
+        <line xml:id="l_a4gamma_3-a.line_88" n="88">Ane tuͦre unt ane ſloz.</line>
+        <line xml:id="l_a4gamma_3-a.line_89" n="89">Div gotes wnder div sint groz.</line>
+        <line xml:id="l_a4gamma_3-a.line_90" n="90">Daz loch uerrigelet.</line>
+        <line xml:id="l_a4gamma_3-a.line_91" n="91">Der trache mit dem heiligen cruce uerſigelet.</line>
+        <line xml:id="l_a4gamma_3-a.line_92" n="92">Daz er mensken niem. ze scaden wart.</line>
+        <line xml:id="l_a4gamma_3-a.line_93" n="93">Sent <choice><abbr>Siluest͛</abbr><expan>Siluester</expan></choice> chert wider in die ſtat. </line>
+        <line xml:id="l_a4gamma_3-a.line_94" n="94">Do die romare irn herren gesunden sahen.</line>
+        <line xml:id="l_a4gamma_3-a.line_95" n="95">Si îlten ingegen im uz gan.</line>
+        <line xml:id="l_a4gamma_3-a.line_96" n="96">Uil lute rief wip unt man.</line>
+        <line xml:id="l_a4gamma_3-a.line_97" n="97">Sie sprachen lop unt êre</line>
+        <line xml:id="l_a4gamma_3-a.line_98" n="98"><gap unit="chars" ana="hc:Lost"></gap> iemer mere.</line>
+        <line xml:id="l_a4gamma_3-a.line_99" n="99">Sie lobeten min trehun</line>
+        <line xml:id="l_a4gamma_3-a.line_100" n="100">Tanti patroni.</line>
+        <line xml:id="l_a4gamma_3-a.line_101" n="101">Daz si got so erchante</line>
+        <line xml:id="l_a4gamma_3-a.line_102" n="102">Daz er in zehuse sante</line>
+        <line xml:id="l_a4gamma_3-a.line_103" n="103">Am <note ana="hc:TranscriptionNote">Vermutlich Lesefehler Fischers - wohl {Ain}</note> so uwerlichen <gap unit="chars" ana="hc:Lost"></gap> rare</line>
+        <line xml:id="l_a4gamma_3-a.line_104" n="104">Des frd’ten  <note ana="hc:TranscriptionNote">{frd’ten} höchstwahrscheinlich Lesefehler Fischers - wohl {froͮten}</note> sih alle romare. </line>
+        <line xml:id="l_a4gamma_3-a.line_105" n="105">Die haiden er becherte</line>
+        <line xml:id="l_a4gamma_3-a.line_106" n="106">Die chriſtenhait er wol lerte.</line>
+        <line xml:id="l_a4gamma_3-a.line_107" n="107">Uns saget daz buͦch furwar</line>
+        <line xml:id="l_a4gamma_3-a.line_108" n="108">Uier unt zwainzec iar.</line>
+        <line xml:id="l_a4gamma_3-a.line_109" n="109">Sehs manot unt funf tage. <note ana="hc:TranscriptionNote">Epilog zur Silvesterlegende fehlt</note></line>
+        <anchor xml:id="end.a4gamma_ep27.6" />
+      </zone>
+    </surface>
+  </sourceDoc>
+</TEI>
+

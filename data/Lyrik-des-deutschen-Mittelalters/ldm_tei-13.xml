@@ -1,0 +1,409 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt><title>›Nu alrest lebe ich mir werde‹ (A  50–56)</title>
+<author><persName ref="http://d-nb.info/gnd/118628976">Walther von der Vogelweide</persName></author>
+<editor>Hg. von Björn Reich</editor></titleStmt>
+<editionStmt><edition>Version 0.8<date type="retrieval">07.04.2026</date></edition></editionStmt>
+<publicationStmt><publisher><orgName role="project">LDM: Lyrik des deutschen Mittelalters</orgName>. Digitale Edition, online hrsg. von <persName ref="http://d-nb.info/gnd/1027730957">Manuel Braun</persName>, <persName ref="http://d-nb.info/gnd/1027539750">Sonja Glauch</persName> und <persName ref="http://d-nb.info/gnd/130033766">Florian Kragl</persName>.</publisher>
+<date type="publication">26.10.2023</date><date type="revision">17.05.2024</date>
+<availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</licence></availability></publicationStmt>
+<sourceDesc source="https://doi.org/10.11588/diglit.164#0017"><p>Heidelberg, UB, cpg 357, fol. 8r</p></sourceDesc>
+<sourceDesc xml:id="A_Wa_50_m"><p><idno type="URI">https://www.ldm-digital.de/show.php?lid=2528</idno></p><p>L 14,38; CB 211a</p></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p>Transkription und Edition folgen den im <ref target="http://www.ldm-digital.de/doc/LDM_handbuch.pdf">Projekthandbuch</ref> dokumentierten Richtlinien.</p></editorialDecl>
+<refsDecl><cRefPattern matchPattern="bibl_([0-9]+)" replacementPattern="https://www.ldm-digital.de/refbase/show.php?client=inc-refbase-1.0&amp;wrapResults=0&amp;submit=Cite&amp;citeStyle=LDM&amp;showLinks=0&amp;viewType=Ajax&amp;record=$1"/></refsDecl></encodingDesc></teiHeader>
+<text>
+<body>
+<div xml:id="A_Wa_50_t" decls="#A_Wa_50_m">
+<lg type="stanza" xml:id="A_Wa_50" n="A Wa 50"><l xml:id="A_Wa_50_line_0" n="1">
+<w xml:id="A_Wa_50_w_0_0"><app n="1"><note>Paragraphenzeichen am Rand (Liedbeginn)</note></app><hi rend="initial size:1 color:blau">N</hi><choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Wa_50_w_0_1">alr<choice><orig>e</orig><reg type="n2">ê</reg></choice><choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Wa_50_w_0_2">lebe</w>
+<w xml:id="A_Wa_50_w_0_3">ich<app n="3"><lem><q type="mentioned">ich</q></lem><note>wohl als Rollenlied zu verstehen.</note></app></w>
+<w xml:id="A_Wa_50_w_0_4">mir</w>
+<w xml:id="A_Wa_50_w_0_5">w<choice><abbr>͛</abbr><expan>er</expan></choice>de</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_50_line_1" n="2">
+<w xml:id="A_Wa_50_w_1_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>t</w>
+<w xml:id="A_Wa_50_w_1_1">m<choice><orig>i</orig><reg type="n2">î</reg></choice>n</w>
+<w xml:id="A_Wa_50_w_1_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">ü</reg></choice>nd<choice><orig>i</orig><reg type="n2">e</reg></choice>c</w>
+<w xml:id="A_Wa_50_w_1_3"><choice><orig>oͮ</orig><reg type="n2">ou</reg></choice>ge</w><lb/>
+<w xml:id="A_Wa_50_w_1_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>iht</w>
+</l>
+<l xml:id="A_Wa_50_line_2" n="3">
+<w xml:id="A_Wa_50_w_2_0">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_50_w_2_1">h<choice><orig>e</orig><reg type="n2">ê</reg></choice>re</w>
+<w xml:id="A_Wa_50_w_2_2">lant</w>
+<w xml:id="A_Wa_50_w_2_3"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_50_w_2_4"><choice><orig>o</orig><reg type="n2">ou</reg></choice>ch</w>
+<w xml:id="A_Wa_50_w_2_5">die</w>
+<w xml:id="A_Wa_50_w_2_6">erde</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_50_line_3" n="4">
+<w xml:id="A_Wa_50_w_3_0">dem</w>
+<w xml:id="A_Wa_50_w_3_1">man</w>
+<w xml:id="A_Wa_50_w_3_2">vil</w>
+<w xml:id="A_Wa_50_w_3_3">der</w>
+<w xml:id="A_Wa_50_w_3_4"><choice><orig>e</orig><reg type="n2">ê</reg></choice>ren</w>
+<w xml:id="A_Wa_50_w_3_5">giht</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_50_line_4" n="5">
+<w xml:id="A_Wa_50_w_4_0">mir<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Wa_50_w_4_1">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>che<lb/>hen</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_50_w_4_2">des</w>
+<w xml:id="A_Wa_50_w_4_3">ich</w>
+<w xml:id="A_Wa_50_w_4_4">ie</w>
+<w xml:id="A_Wa_50_w_4_5">bat</w><pc><choice><orig/><reg type="n1">:</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_50_line_5" n="6">
+<w xml:id="A_Wa_50_w_5_0">ich</w>
+<w xml:id="A_Wa_50_w_5_1">bin</w>
+<w xml:id="A_Wa_50_w_5_2">kom<choice><abbr>̄</abbr><expan>en</expan></choice></w>
+<w xml:id="A_Wa_50_w_5_3">an</w>
+<w xml:id="A_Wa_50_w_5_4">die</w>
+<w xml:id="A_Wa_50_w_5_5"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>tat</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_50_line_6" n="7">
+<w xml:id="A_Wa_50_w_6_0">d<choice><orig>a</orig><reg type="n2">â</reg></choice></w>
+<w xml:id="A_Wa_50_w_6_1">got</w>
+<w xml:id="A_Wa_50_w_6_2">men<choice><orig>ſ</orig><reg type="n1">s</reg></choice>chl<choice><orig>i</orig><reg type="n2">î</reg></choice>chen<app n="3"><note><q type="mentioned">men<choice><orig>ſ</orig><reg type="n1">s</reg></choice>chl<choice><orig>i</orig><reg type="n2">î</reg></choice>chen</q> Adv. ›als Mensch‹.</note></app></w>
+<w xml:id="A_Wa_50_w_6_3">trat</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc><lb/>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Wa_51" n="A Wa 51"><l xml:id="A_Wa_51_line_0" n="1">
+<w xml:id="A_Wa_51_w_0_0"><hi rend="initial size:2 color:rot">S</hi>ch<choice><orig>o</orig><reg type="n2">œ</reg></choice>n<choice><orig>e</orig><reg type="n2">iu</reg></choice></w>
+<w xml:id="A_Wa_51_w_0_1">lant</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_51_w_0_2">r<choice><orig>i</orig><reg type="n2">î</reg></choice>ch</w>
+<w xml:id="A_Wa_51_w_0_3"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_51_w_0_4">h<choice><orig>e</orig><reg type="n2">ê</reg></choice>re</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_51_line_1" n="2">
+<w xml:id="A_Wa_51_w_1_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>waz</w>
+<w xml:id="A_Wa_51_w_1_1">ich</w>
+<w xml:id="A_Wa_51_w_1_2">d<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Wa_51_w_1_3">noch</w>
+<w xml:id="A_Wa_51_w_1_4">h<choice><orig>a</orig><reg type="n2">â</reg></choice>n</w>
+<w xml:id="A_Wa_51_w_1_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>ehen</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_51_line_2" n="3">
+<w xml:id="A_Wa_51_w_2_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Wa_51_w_2_1">bi<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Wa_51_w_2_2">d<choice><orig>v</orig><reg type="n1">u</reg></choice><pc><choice><orig/><reg type="n1">'</reg></choice></pc>z</w>
+<w xml:id="A_Wa_51_w_2_3">ir</w><lb/>
+<w xml:id="A_Wa_51_w_2_4">aller</w>
+<w xml:id="A_Wa_51_w_2_5"><choice><orig>e</orig><reg type="n2">ê</reg></choice>re</w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_51_line_3" n="4">
+<w xml:id="A_Wa_51_w_3_0">waz</w>
+<w xml:id="A_Wa_51_w_3_1">i<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Wa_51_w_3_2">wunders</w>
+<w xml:id="A_Wa_51_w_3_3">hie</w>
+<w xml:id="A_Wa_51_w_3_4">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>chehen</w><pc><choice><orig>·</orig><reg type="n1">!</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_51_line_4" n="5">
+<w xml:id="A_Wa_51_w_4_0">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_51_w_4_1">ein</w>
+<w xml:id="A_Wa_51_w_4_2">maget</w>
+<w xml:id="A_Wa_51_w_4_3">ein</w>
+<w xml:id="A_Wa_51_w_4_4">kint</w>
+<w xml:id="A_Wa_51_w_4_5">ge<lb/>bar</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_51_line_5" n="6">
+<w xml:id="A_Wa_51_w_5_0">h<choice><orig>e</orig><reg type="n2">ê</reg></choice>re</w>
+<w xml:id="A_Wa_51_w_5_1"><choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">ü</reg></choice>b<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Wa_51_w_5_2">aller</w>
+<w xml:id="A_Wa_51_w_5_3">engel</w>
+<w xml:id="A_Wa_51_w_5_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>char</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_51_line_6" n="7">
+<w xml:id="A_Wa_51_w_6_0">wa<choice><orig>z</orig><reg type="n2">s</reg></choice></w>
+<w xml:id="A_Wa_51_w_6_1">daz</w>
+<w xml:id="A_Wa_51_w_6_2">niht</w>
+<w xml:id="A_Wa_51_w_6_3">ein</w>
+<w xml:id="A_Wa_51_w_6_4">wunder</w>
+<w xml:id="A_Wa_51_w_6_5">gar<app n="3"><note><q type="term">gar</q> Adv. ›vollständig‹.</note></app></w><pc><choice><orig>·</orig><reg type="n1">?</reg></choice></pc>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Wa_52" n="A Wa 52"><l xml:id="A_Wa_52_line_0" n="1">
+<w xml:id="A_Wa_52_w_0_0"><hi rend="initial size:1 color:blau">H</hi>ie</w>
+<w xml:id="A_Wa_52_w_0_1">liez</w>
+<space extent="0"/>
+<w xml:id="A_Wa_52_w_0_2"><choice><orig>i</orig><reg type="n2">e</reg></choice>r</w><lb/>
+<w xml:id="A_Wa_52_w_0_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ich</w>
+<w xml:id="A_Wa_52_w_0_4">reine<app n="3"><note><q type="term">reine</q> Adv. ›ohne Sünde‹.</note></app></w>
+<w xml:id="A_Wa_52_w_0_5">t<choice><orig>oͮ</orig><reg type="n2">ou</reg></choice>fen</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_52_line_1" n="2">
+<w xml:id="A_Wa_52_w_1_0">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_52_w_1_1">der</w>
+<w xml:id="A_Wa_52_w_1_2">men<choice><orig>ſ</orig><reg type="n1">s</reg></choice>che</w>
+<w xml:id="A_Wa_52_w_1_3">reine</w>
+<w xml:id="A_Wa_52_w_1_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice></w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_52_line_2" n="3">
+<w xml:id="A_Wa_52_w_2_0">d<choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Wa_52_w_2_1">liez</w>
+<space extent="0"/>
+<w xml:id="A_Wa_52_w_2_2">er</w>
+<w xml:id="A_Wa_52_w_2_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ich</w>
+<w xml:id="A_Wa_52_w_2_4">hie</w>
+<w xml:id="A_Wa_52_w_2_5">verk<choice><orig>oͮ</orig><reg type="n2">ou</reg></choice>fen<app n="3"><lem><q type="mentioned">verk<choice><orig>oͮ</orig><reg type="n2">ou</reg></choice>fen</q></lem><note>Vgl. Mc 14,11.</note></app></w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_52_line_3" n="4">
+<w xml:id="A_Wa_52_w_3_0">daz</w><lb/>
+<w xml:id="A_Wa_52_w_3_1">wir<app n="1"><lem><q type="mentioned">wir</q></lem><note><q type="term">w</q> evtl. gebessert</note></app></w>
+<w xml:id="A_Wa_52_w_3_2">eine</w>
+<w xml:id="A_Wa_52_w_3_3">wurden</w>
+<w xml:id="A_Wa_52_w_3_4">vr<choice><orig>i</orig><reg type="n2">î</reg></choice></w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_52_line_4" n="5">
+<w xml:id="A_Wa_52_w_4_0">anders</w>
+<w xml:id="A_Wa_52_w_4_1">w<choice><orig>e</orig><reg type="n2">æ</reg></choice>ren</w>
+<w xml:id="A_Wa_52_w_4_2">wir</w>
+<w xml:id="A_Wa_52_w_4_3">verlorn</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_52_line_5" n="6">
+<w xml:id="A_Wa_52_w_5_0">wol</w>
+<w xml:id="A_Wa_52_w_5_1">dir</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_52_w_5_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>per</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_52_w_5_3"><choice><orig>c</orig><reg type="n2">k</reg></choice>r<choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">iu</reg></choice><choice><orig>c</orig><reg type="n2">z</reg></choice>e</w>
+<w xml:id="A_Wa_52_w_5_4"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w><lb/>
+<w xml:id="A_Wa_52_w_5_5">dorn<app n="3"><lem><q type="mentioned"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>per, <choice><orig>c</orig><reg type="n2">k</reg></choice>r<choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">iu</reg></choice><choice><orig>c</orig><reg type="n2">z</reg></choice>e <choice><orig>v</orig><reg type="n1">u</reg></choice>n#d dorn</q></lem><note>gemeint sind die Marterwerkzeuge Christi: der Longinus-Speer, das Kreuz und die Dornenkrone.</note></app></w><pc><choice><orig>·</orig><reg type="n1">!</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_52_line_6" n="7">
+<w xml:id="A_Wa_52_w_6_0"><supplied reason="presumable-textual-corruption">†</supplied>wie</w>
+<w xml:id="A_Wa_52_w_6_1">dir</w>
+<w xml:id="A_Wa_52_w_6_2">zeiden</w>
+<w xml:id="A_Wa_52_w_6_3">dien<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Wa_52_w_6_4">der</w>
+<w xml:id="A_Wa_52_w_6_5">zorn<supplied reason="presumable-textual-corruption">†</supplied></w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc><app n="3"><note>Der Satz ist so unverständlich. Da in älteren Hss. das <q type="term">h</q> tlw. einem <q type="term">z</q> ähnelt, ließe sich damit zumindest dieser Fehler erklären. Meist wird nach Hs. Z<hi rend="sub">1</hi> konjiziert. Die Handschriften weichen hier stark voneinander ab.</note></app>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Wa_53" n="A Wa 53"><l xml:id="A_Wa_53_line_0" n="1">
+<w xml:id="A_Wa_53_w_0_0"><hi rend="initial size:1 color:rot">H</hi>innen</w>
+<w xml:id="A_Wa_53_w_0_1">v<choice><orig>uͦ</orig><reg type="n2">uo</reg></choice>r</w>
+<w xml:id="A_Wa_53_w_0_2">der</w>
+<w xml:id="A_Wa_53_w_0_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>v</orig><reg type="n1">u</reg></choice>n</w>
+<w xml:id="A_Wa_53_w_0_4">zer</w>
+<w xml:id="A_Wa_53_w_0_5">helle</w>
+</l>
+<l xml:id="A_Wa_53_line_1" n="2">
+<w xml:id="A_Wa_53_w_1_0">vo<choice><abbr>̄</abbr><expan>n</expan></choice></w>
+<w xml:id="A_Wa_53_w_1_1">dem</w><lb/>
+<w xml:id="A_Wa_53_w_1_2">grabe</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_53_w_1_3">d<choice><orig>a</orig><reg type="n2">â</reg></choice></w>
+<w xml:id="A_Wa_53_w_1_4">er</w>
+<w xml:id="A_Wa_53_w_1_5">inne</w>
+<w xml:id="A_Wa_53_w_1_6">lac</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_53_line_2" n="3">
+<w xml:id="A_Wa_53_w_2_0">des</w>
+<w xml:id="A_Wa_53_w_2_1">wa<choice><orig>z</orig><reg type="n2">s</reg></choice></w>
+<w xml:id="A_Wa_53_w_2_2">ie</w>
+<w xml:id="A_Wa_53_w_2_3">der</w>
+<w xml:id="A_Wa_53_w_2_4">vater</w>
+<w xml:id="A_Wa_53_w_2_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>elle</w>
+</l>
+<l xml:id="A_Wa_53_line_3" n="4">
+<w xml:id="A_Wa_53_w_3_0"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_53_w_3_1">d<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Wa_53_w_3_2">gei<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_53_w_3_3">den</w>
+<w xml:id="A_Wa_53_w_3_4">nieman</w><lb/>
+<w xml:id="A_Wa_53_w_3_5">mac</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_53_line_4" n="5">
+<w xml:id="A_Wa_53_w_4_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>v</orig><reg type="n1">u</reg></choice>nd<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Wa_53_w_4_1">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>cheiden</w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+<w xml:id="A_Wa_53_w_4_2">de<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="A_Wa_53_w_4_3">a<choice><orig>ll</orig><reg type="n2">l</reg></choice>eine</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_53_line_5" n="6">
+<w xml:id="A_Wa_53_w_5_0"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>leht</w>
+<w xml:id="A_Wa_53_w_5_1"><choice><orig>v</orig><reg type="n1">u</reg></choice>n<choice><abbr>dͤ</abbr><expan>de</expan></choice></w>
+<w xml:id="A_Wa_53_w_5_2">ebener</w>
+<w xml:id="A_Wa_53_w_5_3">ein</w>
+<w xml:id="A_Wa_53_w_5_4">zein<app n="3"><lem><q type="mentioned">de<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t a<choice><orig>ll</orig><reg type="n2">l</reg></choice>eine<pc><choice><orig>·</orig><reg type="n1"/></choice></pc> <choice><orig>ſ</orig><reg type="n1">s</reg></choice>leht <choice><orig>v</orig><reg type="n1">u</reg></choice>n<choice><abbr>dͤ</abbr><expan>de</expan></choice> ebener ein zein</q></lem><note>›nur ein Stab ist gerade und ungekrümmter [Doppelformel]‹ (<q type="term">zein</q> stM. ›Rohr, Rute, Stab‹, Le III, Sp. 1050); <ref cRef="bibl_546">Schweikle 2011</ref> übersetzt: ›klar und einheitlicher als ein Lichtstrahl‹.</note></app></w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_53_line_6" n="7">
+<w xml:id="A_Wa_53_w_6_0">al<choice><orig>ſ</orig><reg type="n1">s</reg></choice>e</w>
+<w xml:id="A_Wa_53_w_6_1">er</w>
+<w xml:id="A_Wa_53_w_6_2"><choice><orig>a</orig><reg type="n1">A</reg></choice>braha<choice><abbr>̄</abbr><expan>m</expan></choice><app n="1"><note><q type="mentioned">abraha<choice><abbr>̄</abbr><expan>m</expan></choice></q> hakenförmiger Nasalstrich</note></app><app n="3"><lem><q type="mentioned"><choice><orig>a</orig><reg type="n1">A</reg></choice>braha<choice><abbr>̄</abbr><expan>m</expan></choice></q></lem><note>Vgl. Gen. 18. Die Deutung des Verses ist jedoch umstritten, vgl. Wa/Bei 33.</note></app></w><lb/>
+<w xml:id="A_Wa_53_w_6_3">er<choice><orig>ſ</orig><reg type="n1">s</reg></choice>chein</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Wa_54" n="A Wa 54"><l xml:id="A_Wa_54_line_0" n="1">
+<w xml:id="A_Wa_54_w_0_0"><hi rend="initial size:1 color:blau">D</hi><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Wa_54_w_0_1">er</w>
+<w xml:id="A_Wa_54_w_0_2">den</w>
+<w xml:id="A_Wa_54_w_0_3">tievel</w>
+<w xml:id="A_Wa_54_w_0_4">d<choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Wa_54_w_0_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>chande</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_54_line_1" n="2">
+<w xml:id="A_Wa_54_w_1_0">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_54_w_1_1">nie</w>
+<w xml:id="A_Wa_54_w_1_2">kei<choice><orig>ſ</orig><reg type="n1">s</reg></choice>er</w>
+<w xml:id="A_Wa_54_w_1_3">baz</w>
+<w xml:id="A_Wa_54_w_1_4">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>treit</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_54_line_2" n="3">
+<w xml:id="A_Wa_54_w_2_0">d<choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Wa_54_w_2_1">v<choice><orig>uͦ</orig><reg type="n2">uo</reg></choice>r</w>
+<w xml:id="A_Wa_54_w_2_2">er</w><lb/>
+<w xml:id="A_Wa_54_w_2_3">her</w>
+<w xml:id="A_Wa_54_w_2_4">wider</w>
+<w xml:id="A_Wa_54_w_2_5">z<choice><orig>i</orig><reg type="n2">e</reg></choice></w>
+<space extent="0"/>
+<w xml:id="A_Wa_54_w_2_6">lande</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_54_line_3" n="4">
+<w xml:id="A_Wa_54_w_3_0">d<choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="A_Wa_54_w_3_1">h<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice><choice><orig>b</orig><reg type="n2">p</reg></choice></w>
+<w xml:id="A_Wa_54_w_3_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ich</w>
+<w xml:id="A_Wa_54_w_3_3">der</w>
+<w xml:id="A_Wa_54_w_3_4"><choice><orig>i</orig><reg type="n1">j</reg></choice><choice><orig>v</orig><reg type="n1">u</reg></choice>den</w>
+<w xml:id="A_Wa_54_w_3_5">leit</w><pc><choice><orig>·</orig><reg type="n1">:</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_54_line_4" n="5">
+<w xml:id="A_Wa_54_w_4_0">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_54_w_4_1">er</w>
+<w xml:id="A_Wa_54_w_4_2">h<choice><orig>e</orig><reg type="n2">ê</reg></choice>re<app n="3"><lem><q type="mentioned">h<choice><orig>e</orig><reg type="n2">ê</reg></choice>re</q></lem><note>hier wohl adverbial verwendet (›auf herrliche/gewaltige Art und Weise‹).</note></app></w>
+<w xml:id="A_Wa_54_w_4_3"><choice><sic></sic><corr>ir</corr></choice><app n="1"><note>=, Konjektur nach CEZ<hi rend="sub">1</hi></note></app></w>
+<w xml:id="A_Wa_54_w_4_4">h<choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">uo</reg></choice>te</w>
+<w xml:id="A_Wa_54_w_4_5">brach</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_54_line_5" n="6">
+<w xml:id="A_Wa_54_w_5_0"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_54_w_5_1">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_54_w_5_2">man</w><lb/>
+<w xml:id="A_Wa_54_w_5_3">in</w>
+<w xml:id="A_Wa_54_w_5_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>t</w>
+<w xml:id="A_Wa_54_w_5_5">lebend<choice><orig>i</orig><reg type="n2">e</reg></choice>c</w>
+<w xml:id="A_Wa_54_w_5_6"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ach</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_54_line_6" n="7">
+<w xml:id="A_Wa_54_w_6_0">den</w>
+<w xml:id="A_Wa_54_w_6_1">ir</w>
+<w xml:id="A_Wa_54_w_6_2">hant</w>
+<w xml:id="A_Wa_54_w_6_3">n<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>c<app n="3"><note><q type="term">nagen</q> stV. ›nagen‹ (Le II, Sp. 18).</note></app></w>
+<w xml:id="A_Wa_54_w_6_4"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_54_w_6_5"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>tach</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Wa_55" n="A Wa 55"><l xml:id="A_Wa_55_line_0" n="1">
+<w xml:id="A_Wa_55_w_0_0"><hi rend="initial size:1 color:rot">I</hi>n</w>
+<w xml:id="A_Wa_55_w_0_1">diz</w>
+<w xml:id="A_Wa_55_w_0_2">lant</w>
+<w xml:id="A_Wa_55_w_0_3">h<choice><orig>a</orig><reg type="n2">â</reg></choice>t</w>
+<w xml:id="A_Wa_55_w_0_4">er</w>
+<w xml:id="A_Wa_55_w_0_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>prochen</w><lb/>
+</l>
+<l xml:id="A_Wa_55_line_1" n="2">
+<w xml:id="A_Wa_55_w_1_0">einen</w>
+<w xml:id="A_Wa_55_w_1_1">ange<choice><orig>ſ</orig><reg type="n1">s</reg><reg type="n2">st</reg></choice>l<choice><orig>i</orig><reg type="n2">î</reg></choice>chen</w>
+<w xml:id="A_Wa_55_w_1_2">tac<app n="3"><lem><q type="mentioned">einen ange<choice><orig>ſ</orig><reg type="n1">s</reg><reg type="n2">st</reg></choice>l<choice><orig>i</orig><reg type="n2">î</reg></choice>chen tac</q></lem><note>Gemeint ist der Tag des Jüngsten Gerichts.</note></app></w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_55_line_2" n="3">
+<w xml:id="A_Wa_55_w_2_0">d<choice><orig>a</orig><reg type="n2">â</reg></choice></w>
+<w xml:id="A_Wa_55_w_2_1">die</w>
+<w xml:id="A_Wa_55_w_2_2">witwe</w>
+<w xml:id="A_Wa_55_w_2_3">wirt</w>
+<w xml:id="A_Wa_55_w_2_4">gerochen</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_55_line_3" n="4">
+<w xml:id="A_Wa_55_w_3_0"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_55_w_3_1">der</w>
+<w xml:id="A_Wa_55_w_3_2">arme</w>
+<w xml:id="A_Wa_55_w_3_3"><choice><orig>c</orig><reg type="n2">k</reg></choice>lagen</w><lb/>
+<w xml:id="A_Wa_55_w_3_4">mac</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_55_line_4" n="5">
+<w xml:id="A_Wa_55_w_4_0"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_55_w_4_1">der</w>
+<w xml:id="A_Wa_55_w_4_2">wei<choice><orig>ſ</orig><reg type="n1">s</reg></choice>e</w>
+<w xml:id="A_Wa_55_w_4_3">den</w>
+<w xml:id="A_Wa_55_w_4_4">gewalt</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_55_line_5" n="6">
+<w xml:id="A_Wa_55_w_5_0">d<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Wa_55_w_5_1">d<choice><orig>a</orig><reg type="n2">â</reg></choice></w>
+<w xml:id="A_Wa_55_w_5_2">wirt</w>
+<w xml:id="A_Wa_55_w_5_3">an</w>
+<w xml:id="A_Wa_55_w_5_4">ime</w>
+<w xml:id="A_Wa_55_w_5_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>talt</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_55_line_6" n="7">
+<w xml:id="A_Wa_55_w_6_0">wol</w>
+<w xml:id="A_Wa_55_w_6_1">ime</w>
+<w xml:id="A_Wa_55_w_6_2">dort</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_55_w_6_3">d<choice><abbr>͛</abbr><expan>er</expan></choice></w><lb/>
+<w xml:id="A_Wa_55_w_6_4">hie</w>
+<w xml:id="A_Wa_55_w_6_5">v<choice><orig>i</orig><reg type="n2">e</reg></choice>r galt</w><pc><choice><orig>·</orig><reg type="n1">!</reg></choice></pc>
+</l>
+</lg>
+<lg type="stanza" xml:id="A_Wa_56" n="A Wa 56"><l xml:id="A_Wa_56_line_0" n="1">
+<w xml:id="A_Wa_56_w_0_0"><hi rend="initial size:1 color:blau"><choice><orig>I</orig><reg type="n1">J</reg></choice></hi><choice><orig>v</orig><reg type="n1">u</reg></choice>den</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_56_w_0_1"><choice><orig>c</orig><reg type="n2">k</reg></choice>ri<choice><orig>ſ</orig><reg type="n1">s</reg></choice>ten</w>
+<w xml:id="A_Wa_56_w_0_2"><choice><orig>v</orig><reg type="n1">u</reg></choice>n#d</w>
+<w xml:id="A_Wa_56_w_0_3">heiden</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_56_line_1" n="2">
+<w xml:id="A_Wa_56_w_1_0"><choice><orig>i</orig><reg type="n1">j</reg></choice>ehent</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_56_w_1_1">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_56_w_1_2"><choice><sic>dinir</sic><corr>diz</corr></choice></w>
+<w xml:id="A_Wa_56_w_1_3"><choice><sic></sic><corr>ir</corr></choice><app n="1"><note>=, Konjektur nach BCEZ<hi rend="sub">1</hi></note></app></w>
+<w xml:id="A_Wa_56_w_1_4">erbe</w>
+<w xml:id="A_Wa_56_w_1_5"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice></w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_56_line_2" n="3">
+<w xml:id="A_Wa_56_w_2_0">got</w>
+<w xml:id="A_Wa_56_w_2_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>ol</w>
+<w xml:id="A_Wa_56_w_2_2"><choice><orig>v</orig><reg type="n1">u</reg></choice>n<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w><lb/>
+<w xml:id="A_Wa_56_w_2_3">ze</w>
+<space extent="0"/>
+<w xml:id="A_Wa_56_w_2_4">reht</w>
+<w xml:id="A_Wa_56_w_2_5">be<choice><orig>ſ</orig><reg type="n1">s</reg></choice>cheiden</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc>
+</l>
+<l xml:id="A_Wa_56_line_3" n="4">
+<w xml:id="A_Wa_56_w_3_0">d<choice><orig>v</orig><reg type="n1">u</reg></choice>r</w>
+<w xml:id="A_Wa_56_w_3_1">die</w>
+<w xml:id="A_Wa_56_w_3_2"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>ne</w>
+<w xml:id="A_Wa_56_w_3_3">nam<choice><abbr>̄</abbr><expan>en</expan></choice></w>
+<w xml:id="A_Wa_56_w_3_4">dr<choice><orig>i</orig><reg type="n2">î</reg></choice></w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_56_line_4" n="5">
+<w xml:id="A_Wa_56_w_4_0">al</w>
+<w xml:id="A_Wa_56_w_4_1">di<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Wa_56_w_4_2">welt</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_56_w_4_3">di<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="A_Wa_56_w_4_4"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>tr<choice><orig>i</orig><reg type="n2">î</reg></choice>tet</w>
+<w xml:id="A_Wa_56_w_4_5">d<choice><abbr>͛</abbr><expan>er</expan></choice><app n="3"><lem><q type="mentioned">d<choice><abbr>͛</abbr><expan>er</expan></choice></q></lem><note>Wohl als Gen. d. S. zu verstehen und auf die <q type="mentioned">nam<choice><abbr>̄</abbr><expan>en</expan></choice> dr<choice><orig>i</orig><reg type="n2">î</reg></choice></q> zu beziehen.</note></app></w><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="A_Wa_56_line_5" n="6">
+<w xml:id="A_Wa_56_w_5_0">wir</w>
+<w xml:id="A_Wa_56_w_5_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><lb/>
+<w xml:id="A_Wa_56_w_5_2">an</w>
+<space extent="0"/>
+<w xml:id="A_Wa_56_w_5_3">d<choice><abbr>͛</abbr><expan>er</expan></choice></w>
+<w xml:id="A_Wa_56_w_5_4">rehten</w>
+<w xml:id="A_Wa_56_w_5_5">ger</w><pc><choice><orig>·</orig><reg type="n1">;</reg></choice></pc><app n="3" loc="-7"><note>Die letzten beiden Verse können als Rollenrede jeder der drei Religionsgemeinschaften in den Mund gelegt werden, in diesem Falle würde jede auf ihrem Recht beharren. Sie kann aber auch als Fortsetzung der Rede speziell des christlichen Sprecher-Ichs verstanden werden, dann schließt das Lied mit einer emphatisch-überzeugten Bekundung, selbst im Recht zu sein. Vgl. den Kommentar bei Wa/Bei.</note></app>
+</l>
+<l xml:id="A_Wa_56_line_6" n="7">
+<w xml:id="A_Wa_56_w_6_0">reht</w>
+<w xml:id="A_Wa_56_w_6_1">i<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="A_Wa_56_w_6_2">d<choice><abbr>c</abbr><expan>az</expan></choice></w>
+<w xml:id="A_Wa_56_w_6_3">er</w>
+<w xml:id="A_Wa_56_w_6_4"><choice><orig>v</orig><reg type="n1">u</reg></choice>n<choice><orig>ſ</orig><reg type="n1">s</reg></choice></w>
+<w xml:id="A_Wa_56_w_6_5">wer</w><pc><choice><orig>·</orig><reg type="n1"/></choice></pc><app n="3"><lem><q type="mentioned">wer</q></lem><note>Kurzform von <q type="term">gewer</q> (›gewährt‹).</note></app><pc><choice><orig/><reg type="n1">.</reg></choice></pc>
+</l>
+</lg>
+</div>
+
+</body>
+</text>
+</TEI>

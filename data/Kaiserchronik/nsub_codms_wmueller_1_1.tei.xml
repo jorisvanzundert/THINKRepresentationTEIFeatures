@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Kaiserchronik digital. Elektronische Ausgabe: Kaiserchronik B (b5) –  TEI-based transcription of Göttingen, Niedersächsische Staats- und Universitätsbibliothek, Cod. Ms. W. Müller I,1</title>
+        <title xml:lang="de">Kaiserchronik digital. Elektronische Ausgabe: Kaiserchronik B (b5) – TEI-basierte Transkription von Göttingen, Niedersächsische Staats- und Universitätsbibliothek, Cod. Ms. W. Müller I,1</title>
+        <editor>
+          <persName>
+            <forename>Mark</forename>
+            <surname>Chinca</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1053057083</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Helen</forename>
+            <surname>Hunter</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1163111252</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Jürgen</forename>
+            <surname>Wolf</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/132527731</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Young</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/131606441</idno>
+        </editor>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Miriam</forename>
+            <surname>Buncombe</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Anna</forename>
+            <surname>Dorofeeva</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Helen</forename>
+            <surname>Hunter</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1163111252</idno>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Christoph</forename>
+            <surname>Pretzer</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Emily</forename>
+            <surname>Richards</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Michael</forename>
+            <surname>Schwarzbach-Dobson</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Edmund</forename>
+            <surname>Wareham</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/red http://id.loc.gov/vocabulary/relators/prg">
+          <resp xml:lang="de">Umwandlung in ein TEI-basiertes Format</resp>
+          <resp xml:lang="en">transformation in a TEI-based format </resp>
+          <orgName>Universitätsbibliothek Heidelberg</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/2002498-8</idno>
+        </respStmt>
+        <funder>
+          <orgName>Arts and Humanities Research Council</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/10126609-1</idno>
+        </funder>
+        <funder>
+          <orgName>Schools of Arts and Humanities and Humanities and Social Sciences</orgName>
+        </funder>
+        <funder>
+          <orgName>Schröder Fund</orgName>
+        </funder>
+        <funder>
+          <orgName>Isaac Newton Trust in the University of Cambridge</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Universitätsbibliothek Heidelberg</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/2002498-8</idno>
+          <ref target="https://www.ub.uni-heidelberg.de">https://www.ub.uni-heidelberg.de</ref>
+          <address>
+            <street>Plöck 107–109</street>
+            <postCode>69117</postCode>
+            <settlement>
+              <placeName>Heidelberg</placeName>
+              <idno ana="hc:GND-URI">http://d-nb.info/gnd/4023996-2</idno>
+            </settlement>
+            <country>
+              <placeName>Deutschland</placeName>
+              <idno ana="hc:GND-URI">http://d-nb.info/gnd/4011882-4</idno>
+            </country>
+          </address>
+        </publisher>
+        <pubPlace>
+          <placeName>Heidelberg</placeName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/4023996-2</idno>
+        </pubPlace>
+        <date when="2019-08-07">07.08.2019</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+        </availability>
+        <idno ana="hc:DOI">https://doi.org/10.11588/data/PEFKJM</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <series>
+          <title>heiEDITIONS</title>
+          <ref target="https://www.ub.uni-heidelberg.de/publikationsdienste/digitale_editionen.html">https://www.ub.uni-heidelberg.de/publikationsdienste/digitale_editionen.html</ref>
+        </series>
+        <series>
+          <title>Kaiserchronik digital</title>
+          <idno ana="hc:DOI">https://doi.org/10.11588/edition.kcd</idno>
+          <ref target="https://digi.ub.uni-heidelberg.de/kcd">https://digi.ub.uni-heidelberg.de/kcd</ref>
+        </series>
+      </seriesStmt>
+      <notesStmt>
+        <note xml:lang="en">This document was generated for publication in heiDATA, the institutional repository for research data of Heidelberg University, based on data provided by the editors.</note>
+        <note xml:lang="de">Dieses Dokument wurde für die Publikation in heiDATA, dem institutionellen Repositorium für Forschungsdaten der Universität Heidelberg, erstellt, auf Grundlage der von den Herausgebern bereitgestellten Daten.</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>
+              <placeName>Göttingen</placeName>
+            </settlement>
+            <institution>
+              <orgName>Niedersächsische Staats- und Universitätsbibliothek</orgName>
+            </institution>
+            <idno>Cod. Ms. W. Müller I,1</idno>
+            <altIdentifier ana="hc:EditorialSiglum"><idno>b5</idno></altIdentifier>
+          </msIdentifier>
+          <additional>
+            <surrogates>
+              <bibl>
+                <note xml:lang="en">The digital copy of the manuscript is available under the following identifiers:</note>
+                <note xml:lang="de">Das Digitalisat der Handschrift ist unter den folgenden Identifikatoren verfügbar:</note>
+                <idno ana="hc:URN">urn:nbn:de:bsz:16-diglit-287430</idno>
+                <idno ana="hc:DOI">https://doi.org/10.11588/diglit.28743</idno>
+                <ref target="https://digi.ub.uni-heidelberg.de/diglit/nsub_codms_wmueller_1_1">https://digi.ub.uni-heidelberg.de/diglit/nsub_codms_wmueller_1_1</ref>
+              </bibl>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">A general project description is available under the URL <ref target="http://digi.ub.uni-heidelberg.de/en/kcd/projekt/beschreibung.html">http://digi.ub.uni-heidelberg.de/en/kcd/projekt/beschreibung.html</ref>.</p>
+        <p xml:lang="de">Eine allgemeine Projektbeschreibung ist unter der URL <ref target="http://digi.ub.uni-heidelberg.de/de/kcd/projekt/beschreibung.html">http://digi.ub.uni-heidelberg.de/de/kcd/projekt/beschreibung.html</ref> verfügbar.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p xml:lang="en">A description of the editorial principles is available under the URL <ref target="http://digi.ub.uni-heidelberg.de/en/kcd/informationen/editionsprinzipien.html">http://digi.ub.uni-heidelberg.de/en/kcd/informationen/editionsprinzipien.html</ref>.</p>
+        <p xml:lang="de">Eine Beschreibung der Editionsprinzipien ist unter der URL <ref target="http://digi.ub.uni-heidelberg.de/de/kcd/informationen/editionsprinzipien.html">http://digi.ub.uni-heidelberg.de/de/kcd/informationen/editionsprinzipien.html</ref> verfügbar.</p>
+      </editorialDecl>
+      <listPrefixDef>
+        <prefixDef ident="hc"
+          matchPattern="(.+)"
+          replacementPattern="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/$1"/>
+      </listPrefixDef>
+      <charDecl>
+        <glyph xml:id="char_pe">
+          <glyphName>PUNCTUS ELEVATUS DIAGONAL STROKE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">.</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">002E</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F1F0</mapping>
+        </glyph>
+        <glyph xml:id="char_ur">
+          <glyphName>COMBINING ABBREVIATION MARK SUPERSCRIPT UR LEMNISKATE FORM</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">᷑</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">1DD1</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F1C2</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_de">
+          <glyphName>LATIN SMALL LIGATURE DE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">de</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0064 0065</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F159</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_nt">
+          <glyphName>LATIN SMALL LIGATURE NT</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">nt</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006E 0074</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_ht">
+          <glyphName>LATIN SMALL LIGATURE HT</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">ht</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0074</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_be">
+          <glyphName>LATIN SMALL LIGATURE BE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">be</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0062 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_he">
+          <glyphName>LATIN SMALL LIGATURE HE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">he</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_le">
+          <glyphName>LATIN SMALL LIGATURE LE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">le</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006C 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_longsz">
+          <glyphName>LATIN SMALL LIGATURE LONG S WITH Z</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">ſz</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">017F 007A</mapping>
+        </glyph>
+        <glyph xml:id="char_a_superscript_e">
+          <glyphName>LATIN SMALL LETTER A WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">aͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0061 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_e_superscript_e">
+          <glyphName>LATIN SMALL LETTER E WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">eͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0065 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_h_superscript_e">
+          <glyphName>LATIN SMALL LETTER H WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">hͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_i_superscript_e">
+          <glyphName>LATIN SMALL LETTER I WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">iͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0069 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_m_superscript_e">
+          <glyphName>LATIN SMALL LETTER M WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">mͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006D 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_o_superscript_e">
+          <glyphName>LATIN SMALL LETTER O WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">oͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006F 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_O_superscript_e">
+          <glyphName>LATIN CAPITAL LETTER O WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">Oͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">004F 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_r_superscript_e">
+          <glyphName>LATIN SMALL LETTER R WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">rͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0072 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_u_superscript_e">
+          <glyphName>LATIN SMALL LETTER U WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">uͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0075 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_v_superscript_e">
+          <glyphName>LATIN SMALL LETTER V WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">vͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0076 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_w_superscript_e">
+          <glyphName>LATIN SMALL LETTER W WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">wͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0077 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_y_superscript_e">
+          <glyphName>LATIN SMALL LETTER Y WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">yͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0079 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_z_superscript_e">
+          <glyphName>LATIN SMALL LETTER Z WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">zͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">007A 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="http://dwork.uni-hd.de" status="submitted" when="2019-09-27">Exported to TEI from project data in DWork</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface ana="hc:Page" n="1r" xml:id="b5_1r">
+      <zone xml:id="b5_1r-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="9" xml:id="b5_ep9" spanTo="#end.b5_ep9"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.b5_ep9.en" />Tarquin<anchor xml:id="end.head.b5_ep9.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.b5_ep9.de" />Tarquinius<anchor xml:id="end.head.b5_ep9.de" />
+        <line xml:id="l_b5_1r-a.line_1" n="1"><note ana="hc:TranscriptionNote">Anfang der Episode nicht erhalten</note> Hab darumbe einen ſenften muͦt.</line>
+        <line xml:id="l_b5_1r-a.line_2" n="2">Daz dunket mich uil gut.</line>
+        <line xml:id="l_b5_1r-a.line_3" n="3">Dinen zorn will ich uertriben.</line>
+        <line xml:id="l_b5_1r-a.line_4" n="4">Si ſprach la div rede beliben.</line>
+        <line xml:id="l_b5_1r-a.line_5" n="5">Ich weiz wol toſtu minen rat.</line>
+        <line xml:id="l_b5_1r-a.line_6" n="6">Daz min zorn eín ende hat.</line>
+        <line xml:id="l_b5_1r-a.line_7" n="7"><hei:initial ana="hc:Lombard">D</hei:initial>er kunínch ſprach ir aber zu.</line>
+        <line xml:id="l_b5_1r-a.line_8" n="8">waz dunket dich daz ich tu.</line>
+        <line xml:id="l_b5_1r-a.line_9" n="9">Du ſolt warten der zite.</line>
+        <line xml:id="l_b5_1r-a.line_10" n="10">So der wirt uzgerite.</line>
+        <line xml:id="l_b5_1r-a.line_11" n="11">Vnde kuͦm du ſpate daR.</line>
+        <line xml:id="l_b5_1r-a.line_12" n="12">Vnde ním uil wol war.</line>
+        <line xml:id="l_b5_1r-a.line_13" n="13">So díu urowe wolle slafen gan.</line>
+        <line xml:id="l_b5_1r-a.line_14" n="14">So ſoltu uuͦr díu ture gan.</line>
+        <line xml:id="l_b5_1r-a.line_15" n="15">Bitte ſi ulizliche des libes.</line>
+        <line xml:id="l_b5_1r-a.line_16" n="16"><gap unit="chars" ana="hc:Illegible"></gap>  u des noch getriues.</line>
+        <line xml:id="l_b5_1r-a.line_17" n="17">So <gap unit="chars" ana="hc:Illegible"></gap> t eime guten knechte.</line>
+        <line xml:id="l_b5_1r-a.line_18" n="18">Er <gap unit="chars" ana="hc:Illegible"></gap> r ture gerehte.</line>
+        <line xml:id="l_b5_1r-a.line_19" n="19">Vnde ſto <gap unit="chars" ana="hc:Illegible"></gap> n da zu ír.</line>
+        <line xml:id="l_b5_1r-a.line_20" n="20">Entriwen vil wol lon ich es dir.</line>
+        <line xml:id="l_b5_1r-a.line_21" n="21"><choice><abbr>Spͥch</abbr><expan>Sprich</expan></choice> du habeſt in bi ír uunden.</line>
+        <line xml:id="l_b5_1r-a.line_22" n="22">Du welleſt iz den luten kunden.</line>
+        <line xml:id="l_b5_1r-a.line_23" n="23">Alſo liep ſo du mír biſt.</line>
+        <line xml:id="l_b5_1r-a.line_24" n="24">So erwirbeſtu ſwaz dir lieb íſt.</line>
+        <line xml:id="l_b5_1r-a.line_25" n="25"><hei:initial ana="hc:Lombard">E</hei:initial>r tet als in diu urowe bat.</line>
+        <line xml:id="l_b5_1r-a.line_26" n="26">Er gewarte deme herren uzer ſtat.</line>
+        <line xml:id="l_b5_1r-a.line_27" n="27">Er reit eines abendes ſpate.</line>
+        <line xml:id="l_b5_1r-a.line_28" n="28">Hin ze der vrowen drate.</line>
+        <line xml:id="l_b5_1r-a.line_29" n="29">Sie entphie ín herliche.</line>
+        <line xml:id="l_b5_1r-a.line_30" n="30">Vnde diente ím ulizechliche.</line>
+        <line xml:id="l_b5_1r-a.line_31" n="31">Do daz ezen was getan.</line>
+        <line xml:id="l_b5_1r-a.line_32" n="32">Vnde ſi ze bette ſolten gan.</line>
+        <line xml:id="l_b5_1r-a.line_33" n="33">Zu der kamenaten der kuninc trat.</line>
+        <line xml:id="l_b5_1r-a.line_34" n="34">Des libes er ſi mit flize bat.</line>
+        <line xml:id="l_b5_1r-a.line_35" n="35">Diu urowe er quam harte.</line>
+        <line xml:id="l_b5_1r-a.line_36" n="36">Síu ſprach lamich herre ſolcher worte.</line>
+        <line xml:id="l_b5_1r-a.line_37" n="37">Diſe werlt ich alle niht neme.</line>
+        <line xml:id="l_b5_1r-a.line_38" n="38">Daz diſu rede queme.</line>
+        <line xml:id="l_b5_1r-a.line_39" n="39">Vur mínen uil lieben man.</line>
+        <line xml:id="l_b5_1r-a.line_40" n="40">Mín dieneſt ſaltu iemmer han.</line>
+        <line xml:id="l_b5_1r-a.line_41" n="41"><hei:initial ana="hc:Lombard">D</hei:initial>er kunínch tet als man ín hiez.</line>
+        <line xml:id="l_b5_1r-a.line_42" n="42">Einen ritter er dar in ſtiez.</line>
+        <line xml:id="l_b5_1r-a.line_43" n="43"><choice><abbr>vñ</abbr><expan>vnd(e)</expan></choice> ſwur bi deme houbte ſazeſtunt.</line>
+        <line xml:id="l_b5_1r-a.line_44" n="44">Er tet iz den luten kunt.</line>
+      </zone>
+      <zone xml:id="b5_1r-b" ana="hc:Column">
+        <line xml:id="l_b5_1r-b.line_1" n="1">Daz er ín bi ir hete uunden.</line>
+        <line xml:id="l_b5_1r-b.line_2" n="2">Saze den ſtunden.</line>
+        <line xml:id="l_b5_1r-b.line_3" n="3">So muſe man ſie ſteínen.</line>
+        <line xml:id="l_b5_1r-b.line_4" n="4">Du urowe begunde herze weínen.</line>
+        <line xml:id="l_b5_1r-b.line_5" n="5">Vnd eruorchte den tot.</line>
+        <line xml:id="l_b5_1r-b.line_6" n="6">Si ſprach nu muz ich liden not.</line>
+        <line xml:id="l_b5_1r-b.line_7" n="7">Daz mir uon dir geboten iſt.</line>
+        <line xml:id="l_b5_1r-b.line_8" n="8">So du min ſo geweltich biſt.</line>
+        <line xml:id="l_b5_1r-b.line_9" n="9"><hei:initial ana="hc:Lombard">D</hei:initial>er kunínc urumete ſinen willen.</line>
+        <line xml:id="l_b5_1r-b.line_10" n="10">Er ſagte der kunigínne ſtille.</line>
+        <line xml:id="l_b5_1r-b.line_11" n="11">Wie ez íme ergangen waſ.</line>
+        <line xml:id="l_b5_1r-b.line_12" n="12">vil tiure gehiez ſíu ime daz.</line>
+        <line xml:id="l_b5_1r-b.line_13" n="13">So lontes ím iêmmer mit gute.</line>
+        <line xml:id="l_b5_1r-b.line_14" n="14">Do was ím wol ze mute.</line>
+        <line xml:id="l_b5_1r-b.line_15" n="15"><hei:initial ana="hc:Lombard">O</hei:initial>wi uil reine lucretia.</line>
+        <line xml:id="l_b5_1r-b.line_16" n="16">Siu ſante na ír manne ſa.</line>
+        <line xml:id="l_b5_1r-b.line_17" n="17">Ir were ſo leide geſchehen.</line>
+        <line xml:id="l_b5_1r-b.line_18" n="18">Wold er ſi ímmer lebendich ſehen.</line>
+        <line xml:id="l_b5_1r-b.line_19" n="19">Daz er queme ſchiere.</line>
+        <line xml:id="l_b5_1r-b.line_20" n="20">Der edele man uon triere.</line>
+        <line xml:id="l_b5_1r-b.line_21" n="21">Der ret wider in diu ſtat.</line>
+        <line xml:id="l_b5_1r-b.line_22" n="22">Als in daz wip bat.</line>
+        <line xml:id="l_b5_1r-b.line_23" n="23">vnd als in diu urowe an geſach.</line>
+        <line xml:id="l_b5_1r-b.line_24" n="24">Ich will íu ſagen wi ſu ſprach.</line>
+        <line xml:id="l_b5_1r-b.line_25" n="25">Du ſolt mir willecome ſin.</line>
+        <line xml:id="l_b5_1r-b.line_26" n="26">Nu tu durch den willen min.</line>
+        <line xml:id="l_b5_1r-b.line_27" n="27"><gap unit="chars" ana="hc:Illegible"></gap>  nde durch dine gute</line>
+        <line xml:id="l_b5_1r-b.line_28" n="28">T <gap unit="chars" ana="hc:Illegible"></gap> e mir mín gemute</line>
+        <line xml:id="l_b5_1r-b.line_29" n="29">Mit <gap unit="chars" ana="hc:Illegible"></gap> <note ana="hc:TranscriptionNote">{ſage} vor {ſachen} durchstrichen</note> ſachen.</line>
+        <line xml:id="l_b5_1r-b.line_30" n="30">Eín wi <gap unit="chars" ana="hc:Illegible"></gap> ft la mír machen.</line>
+        <line xml:id="l_b5_1r-b.line_31" n="31">Vnſer uriu <gap unit="chars" ana="hc:Illegible"></gap> de wir ce hus.</line>
+        <line xml:id="l_b5_1r-b.line_32" n="32">Do ſprach col <gap unit="chars" ana="hc:Illegible"></gap> us.</line>
+        <line xml:id="l_b5_1r-b.line_33" n="33">Vil liebez wip alſo tu.</line>
+        <line xml:id="l_b5_1r-b.line_34" n="34">Waz woldeſtu min dar zu.</line>
+        <line xml:id="l_b5_1r-b.line_35" n="35">Daz mochteſtu ſchaffen ane mich.</line>
+        <line xml:id="l_b5_1r-b.line_36" n="36">Triwen ſprach ſiv neinich.</line>
+        <line xml:id="l_b5_1r-b.line_37" n="37">Lieber man unde herre mín.</line>
+        <line xml:id="l_b5_1r-b.line_38" n="38">Du muſt darſelbe mite ſin.</line>
+        <line xml:id="l_b5_1r-b.line_39" n="39"><hei:initial ana="hc:Lombard">D</hei:initial>o frumete ſie du wirſchaft.</line>
+        <line xml:id="l_b5_1r-b.line_40" n="40">Mit uil mícheler craft.</line>
+        <line xml:id="l_b5_1r-b.line_41" n="41">Ir beider mage quamen dar uil.</line>
+        <line xml:id="l_b5_1r-b.line_42" n="42">Leider ze einem uil boſen ſpil.</line>
+        <line xml:id="l_b5_1r-b.line_43" n="43">Als ich ez an me boche las.</line>
+        <line xml:id="l_b5_1r-b.line_44" n="44">Do díu urowede aller beſte was.</line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="1v" xml:id="b5_1v">
+      <zone xml:id="b5_1v-a" ana="hc:Column">
+        <line xml:id="l_b5_1v-a.line_1" n="1">Diu urowe nam ein golt uaz.</line>
+        <line xml:id="l_b5_1v-a.line_2" n="2">Mit ſchonen zuhten tet ſi daz.</line>
+        <line xml:id="l_b5_1v-a.line_3" n="3">Si bege ein michel wunder.</line>
+        <line xml:id="l_b5_1v-a.line_4" n="4">Si bat ſi al beſunder.</line>
+        <line xml:id="l_b5_1v-a.line_5" n="5">Daz ſie uroliche ezen.</line>
+        <line xml:id="l_b5_1v-a.line_6" n="6">Vnd ír leides uergezen.</line>
+        <line xml:id="l_b5_1v-a.line_7" n="7">Daz were ir beider wille.</line>
+        <line xml:id="l_b5_1v-a.line_8" n="8">Do bat ſi eíner ſtille.</line>
+        <line xml:id="l_b5_1v-a.line_9" n="9">Du edele urowe lucretia.</line>
+        <line xml:id="l_b5_1v-a.line_10" n="10">Do wart eín míchel ſwígen da.</line>
+        <line xml:id="l_b5_1v-a.line_11" n="11">Si ſprach nu uernemet urínt alle.</line>
+        <line xml:id="l_b5_1v-a.line_12" n="12">Wi íu daz geualle.</line>
+        <line xml:id="l_b5_1v-a.line_13" n="13">Ich will iu offenlichen beiehen.</line>
+        <line xml:id="l_b5_1v-a.line_14" n="14">Waz mir leides iſt geſchehen.</line>
+        <line xml:id="l_b5_1v-a.line_15" n="15">Eine vil groze miſſetat.</line>
+        <line xml:id="l_b5_1v-a.line_16" n="16">Der kuͦnínch mích behuret hat.</line>
+        <line xml:id="l_b5_1v-a.line_17" n="17">Daz ſult ír uernemen rechte.</line>
+        <line xml:id="l_b5_1v-a.line_18" n="18">Vor der nacht nehte.</line>
+        <line xml:id="l_b5_1v-a.line_19" n="19">Do ich mích legen ſolte.</line>
+        <line xml:id="l_b5_1v-a.line_20" n="20">Vnde uil gerne ſlafen wolte.</line>
+        <line xml:id="l_b5_1v-a.line_21" n="21">Míne lute waren mír entwichen.</line>
+        <line xml:id="l_b5_1v-a.line_22" n="22">Der kunínch der quam geſlichen.</line>
+        <line xml:id="l_b5_1v-a.line_23" n="23">Neheín were mich uer uíe.</line>
+        <line xml:id="l_b5_1v-a.line_24" n="24">Des kunínges wille an mír ergíe.</line>
+        <line xml:id="l_b5_1v-a.line_25" n="25">Daz lat íu allen leit ſin.</line>
+        <line xml:id="l_b5_1v-a.line_26" n="26">Vrint unde mage min.</line>
+        <line xml:id="l_b5_1v-a.line_27" n="27">Alse ſi daz wort uol ſprach.</line>
+        <line xml:id="l_b5_1v-a.line_28" n="28">Eín mezer ſi an ir herze ſtach.</line>
+        <line xml:id="l_b5_1v-a.line_29" n="29">Div urowe uiel nider tot.</line>
+        <line xml:id="l_b5_1v-a.line_30" n="30">Dar wart clage unde not</line>
+        <line xml:id="l_b5_1v-a.line_31" n="31">Vnbe die ſchonen vnde diu reinen.</line>
+        <line xml:id="l_b5_1v-a.line_32" n="32">Der wirt begunde clagen <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> weinen.</line>
+        <line xml:id="l_b5_1v-a.line_33" n="33">Daz har er uz der ſwarten brach.</line>
+        <line xml:id="l_b5_1v-a.line_34" n="34">Do duanch in ſín ungemach.</line>
+        <line xml:id="l_b5_1v-a.line_35" n="35">Daz er greif nach dem ſwerte.</line>
+        <line xml:id="l_b5_1v-a.line_36" n="36">Des todes er do gerte.</line>
+        <line xml:id="l_b5_1v-a.line_37" n="37">Werez niht underuangen.</line>
+        <line xml:id="l_b5_1v-a.line_38" n="38">So werez umbe ſin leben ergangen.</line>
+        <line xml:id="l_b5_1v-a.line_39" n="39">Er ſprach owi uil ellender man.</line>
+        <line xml:id="l_b5_1v-a.line_40" n="40">Daz ich ze rome ie hus gewan.</line>
+        <line xml:id="l_b5_1v-a.line_41" n="41">Daz wil ich den goten clagen.</line>
+        <line xml:id="l_b5_1v-a.line_42" n="42"><note ana="hc:TranscriptionNote">{Daz ich ze rome ie hus gewan} vor diesem Vers wiederholt und durchstrichen</note></line>
+        <line xml:id="l_b5_1v-a.line_43" n="43">Daz ich ie gelebte diſen tach.</line>
+        <line xml:id="l_b5_1v-a.line_44" n="44">Sit ich mich niht gerechen mach.</line>
+      </zone>
+      <zone xml:id="b5_1v-b" ana="hc:Column">
+        <line xml:id="l_b5_1v-b.line_1" n="1"><hei:initial ana="hc:Lombard">D</hei:initial>o wart man des ze rate.</line>
+        <line xml:id="l_b5_1v-b.line_2" n="2">In deme ſenate.</line>
+        <line xml:id="l_b5_1v-b.line_3" n="3">Daz man den kuninch uertribe.</line>
+        <line xml:id="l_b5_1v-b.line_4" n="4">Vnde niht langer da belibe.</line>
+        <line xml:id="l_b5_1v-b.line_5" n="5">Er wer in unmere.</line>
+        <line xml:id="l_b5_1v-b.line_6" n="6">Ze eineme richtere.</line>
+        <line xml:id="l_b5_1v-b.line_7" n="7">Do entweich ín tarquínuſ.</line>
+        <line xml:id="l_b5_1v-b.line_8" n="8">Do leit collatinuſ.</line>
+        <line xml:id="l_b5_1v-b.line_9" n="9">An ſich armlichez gewant.</line>
+        <line xml:id="l_b5_1v-b.line_10" n="10">Vnde ſtreich ím nach unz er ín uant.</line>
+        <line xml:id="l_b5_1v-b.line_11" n="11">Alſe ſchere ſo er in an ſach.</line>
+        <line xml:id="l_b5_1v-b.line_12" n="12">Den herren er ze toden ſtach.</line>
+        <line xml:id="l_b5_1v-b.line_13" n="13">Daz er tot uiel an daz graz.</line>
+        <line xml:id="l_b5_1v-b.line_14" n="14">Wie wol ſin lip des wert was.</line>
+        <line xml:id="l_b5_1v-b.line_15" n="15">Tarquínuſ rihte daz iſt war.</line>
+        <line xml:id="l_b5_1v-b.line_16" n="16">Daz riche uerdehalp iar.</line>
+        <line xml:id="l_b5_1v-b.line_17" n="17">Vnde zwene manode mere.</line>
+        <line xml:id="l_b5_1v-b.line_18" n="18">Alſo ſluch in der herre.</line>
+        <anchor xml:id="end.b5_ep9" /><milestone ana="hc:Chapter" n="10" xml:id="b5_ep10" spanTo="#end.b5_ep10"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.b5_ep10.en" />Galba and Piso<anchor xml:id="end.head.b5_ep10.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.b5_ep10.de" />Galba und Piso<anchor xml:id="end.head.b5_ep10.de" />
+        <line xml:id="l_b5_1v-b.line_19" n="19"><milestone ana="hc:Heading" spanTo="#end.rub.1" /><hi rendition="hc:Enlarged">von zweín eíner hiez Galba der <choice><abbr>and͛</abbr><expan>ander</expan></choice> piſo.</hi><anchor xml:id="end.rub.1" />  <note ana="hc:TranscriptionNote">Überschrift {von ... piſo} marginal rechts ohne Verweiszeichen nachgetragen</note></line>
+        <line xml:id="l_b5_1v-b.line_20" n="20"><hei:initial>D</hei:initial>az riche beſaz do.</line>
+        <line xml:id="l_b5_1v-b.line_21" n="21">Galba unde piſo.</line>
+        <line xml:id="l_b5_1v-b.line_22" n="22">Bi der herren cíte.</line>
+        <line xml:id="l_b5_1v-b.line_23" n="23">Hup ſich ze rome manich ſtrit.</line>
+        <line xml:id="l_b5_1v-b.line_24" n="24">In deme ſenate.</line>
+        <line xml:id="l_b5_1v-b.line_25" n="25">Wurden ſie zerate.</line>
+        <line xml:id="l_b5_1v-b.line_26" n="26">Daz Galba were</line>
+        <line xml:id="l_b5_1v-b.line_27" n="27">Ze rome rihtere.</line>
+        <line xml:id="l_b5_1v-b.line_28" n="28">Piſo wart uzgeſant.</line>
+        <line xml:id="l_b5_1v-b.line_29" n="29">Daz er bedunge dív lant.</line>
+        <line xml:id="l_b5_1v-b.line_30" n="30">Piſo reit uz in díu lant.</line>
+        <line xml:id="l_b5_1v-b.line_31" n="31">Vnde ſtifte piſe zehant.</line>
+        <line xml:id="l_b5_1v-b.line_32" n="32">Galba ſtifte capuam.</line>
+        <line xml:id="l_b5_1v-b.line_33" n="33">Eine ſtat uil luſſam.</line>
+        <line xml:id="l_b5_1v-b.line_34" n="34">Da wurden ſi beide erslagen.</line>
+        <line xml:id="l_b5_1v-b.line_35" n="35">Alse wir daz buch horen ſagen.</line>
+        <line xml:id="l_b5_1v-b.line_36" n="36">Daz tet eín otto werliche.</line>
+        <line xml:id="l_b5_1v-b.line_37" n="37">Siben manode rihten ſi daz riche.</line>
+        <anchor xml:id="end.b5_ep10" /><milestone ana="hc:Chapter" n="11" xml:id="b5_ep11" spanTo="#end.b5_ep11"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.b5_ep11.en" />Otho<anchor xml:id="end.head.b5_ep11.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.b5_ep11.de" />Otho<anchor xml:id="end.head.b5_ep11.de" />
+        <line xml:id="l_b5_1v-b.line_38" n="38"><milestone ana="hc:Heading" spanTo="#end.rub.2" /><hi rendition="hc:Enlarged">Von dem uerwor fenen otten.</hi><anchor xml:id="end.rub.2" />  <note ana="hc:TranscriptionNote">Überschrift {Von ... otten} marginal rechts über zwei Zeilen ohne Verweiszeichen nachgetragen</note></line>
+        <line xml:id="l_b5_1v-b.line_39" n="39"><hei:initial>D</hei:initial>az riche besaz do</line>
+        <line xml:id="l_b5_1v-b.line_40" n="40">Der uerworfen otto.</line>
+        <line xml:id="l_b5_1v-b.line_41" n="41">Den sluch der helt uítellus</line>
+        <line xml:id="l_b5_1v-b.line_42" n="42">Daz buch kundet uns ſus.</line>
+        <line xml:id="l_b5_1v-b.line_43" n="43">Als er daz ríche beſaz.</line>
+        <line xml:id="l_b5_1v-b.line_44" n="44">Niht danne dri manode het er daz.</line>
+        <line xml:id="l_b5_1v-b.line_45" n="45">Do clageten romere.</line>
+        <line xml:id="l_b5_1v-b.line_46" n="46">Daz ez in ze laſtere geſhehen were. <note ana="hc:TranscriptionNote">Schluss der Episode nicht erhalten</note></line>
+        <anchor xml:id="end.b5_ep11" />
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="2r" xml:id="b5_2r">
+      <zone xml:id="b5_2r-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="17" xml:id="b5_ep17" spanTo="#end.b5_ep17"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.b5_ep17.en" />Trajan<anchor xml:id="end.head.b5_ep17.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.b5_ep17.de" />Trajanus<anchor xml:id="end.head.b5_ep17.de" />
+        <line xml:id="l_b5_2r-a.line_1" n="1"><note ana="hc:TranscriptionNote">Anfang der Episode nicht erhalten</note> Siben ſuhte daz iſt war.</line>
+        <line xml:id="l_b5_2r-a.line_2" n="2">Beide die tage unde die iar.</line>
+        <line xml:id="l_b5_2r-a.line_3" n="3">Díu dich got leben lat.</line>
+        <line xml:id="l_b5_2r-a.line_4" n="4">Nu ním ze dinem herzen rat.</line>
+        <line xml:id="l_b5_2r-a.line_5" n="5">Ob du daz mugeſt erliden.</line>
+        <line xml:id="l_b5_2r-a.line_6" n="6">So endarftu daz niht <choice><abbr>u͛miden.</abbr><expan>uermiden.</expan></choice></line>
+        <line xml:id="l_b5_2r-a.line_7" n="7">Du ne fureſt en uz der helle.</line>
+        <line xml:id="l_b5_2r-a.line_8" n="8">Da leb er ſwi er wille.</line>
+        <line xml:id="l_b5_2r-a.line_9" n="9">Mit deme lichamen.</line>
+        <line xml:id="l_b5_2r-a.line_10" n="10">Die engele die ſele namen.</line>
+        <line xml:id="l_b5_2r-a.line_11" n="11">Si befulhen ſi dem heiligem man.</line>
+        <line xml:id="l_b5_2r-a.line_12" n="12">Die tíuele muſen ſi uaren lan.</line>
+        <line xml:id="l_b5_2r-a.line_13" n="13">Des waren ſie uil unfro.</line>
+        <line xml:id="l_b5_2r-a.line_14" n="14">Der engel ſagte ſante gregorio.</line>
+        <line xml:id="l_b5_2r-a.line_15" n="15">Daz er ſiben ſuhte wilte.</line>
+        <line xml:id="l_b5_2r-a.line_16" n="16">Vnde die ſele dar zu behelte.</line>
+        <line xml:id="l_b5_2r-a.line_17" n="17">Vnz zem íungeſten urteile.</line>
+        <line xml:id="l_b5_2r-a.line_18" n="18">Daz quam deme kuninge zeheile.</line>
+        <line xml:id="l_b5_2r-a.line_19" n="19"><hei:initial ana="hc:Lombard">S</hei:initial>o wer nu des riches kunínch ſi.</line>
+        <line xml:id="l_b5_2r-a.line_20" n="20">Der neme bilde da bi.</line>
+        <line xml:id="l_b5_2r-a.line_21" n="21">Wie der keiſer traían.</line>
+        <line xml:id="l_b5_2r-a.line_22" n="22">Die genade umbe got gewan.</line>
+        <line xml:id="l_b5_2r-a.line_23" n="23">Wand er rehtes gerihtes phlach.</line>
+        <line xml:id="l_b5_2r-a.line_24" n="24">Vnz an ſinen íungeſten dach.</line>
+        <line xml:id="l_b5_2r-a.line_25" n="25">Díu genade wirt an ín allen ſchin.</line>
+        <line xml:id="l_b5_2r-a.line_26" n="26">Willent ſi gute <choice><abbr>riht͛e</abbr><expan>rihtere</expan></choice> ſin. <note ana="hc:TranscriptionNote">{Willent … ſin.} marginal nachgetragen über die folgenden beiden Zeilen und mit Verweiszeichen an die richtige Stelle gesetzt</note></line>
+        <line xml:id="l_b5_2r-a.line_27" n="27">Der herre hete daz iſt war.</line>
+        <line xml:id="l_b5_2r-a.line_28" n="28">Gerihtet uunfzehen iar.</line>
+        <line xml:id="l_b5_2r-a.line_29" n="29">Vnde zwene manode mere.</line>
+        <line xml:id="l_b5_2r-a.line_30" n="30">Romere clageten in ſere.</line>
+        <anchor xml:id="end.b5_ep17" /><milestone ana="hc:Chapter" n="18" xml:id="b5_ep18" spanTo="#end.b5_ep18"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.b5_ep18.en" />Philip and Decius<anchor xml:id="end.head.b5_ep18.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.b5_ep18.de" />Philippus und Decius<anchor xml:id="end.head.b5_ep18.de" />
+        <line xml:id="l_b5_2r-a.line_31" n="31"><milestone ana="hc:Heading" spanTo="#end.rub.3" /><hi rendition="hc:Enlarged">Võ. Philippo.</hi><anchor xml:id="end.rub.3" /> <note ana="hc:TranscriptionNote">Überschrift {Võ Philippo} am Ende der vorigen Zeile ohne Verweiszeichen nachgetragen</note></line>
+        <line xml:id="l_b5_2r-a.line_32" n="32"><hei:initial>D</hei:initial>az buch kundet uns ſus.</line>
+        <line xml:id="l_b5_2r-a.line_33" n="33">Daz riche besaz philippus.</line>
+        <line xml:id="l_b5_2r-a.line_34" n="34">Der was der erſte herre.</line>
+        <line xml:id="l_b5_2r-a.line_35" n="35">Der den gewalt vnde die ere.</line>
+        <line xml:id="l_b5_2r-a.line_36" n="36">In der kriſtenheit ereſt gewan.</line>
+        <line xml:id="l_b5_2r-a.line_37" n="37">Als ich an dem buche uunden han.</line>
+        <line xml:id="l_b5_2r-a.line_38" n="38">Er gewan eínen ſun der hiez <choice><abbr>philippꝰ.</abbr><expan>philippus.</expan></choice></line>
+        <line xml:id="l_b5_2r-a.line_39" n="39">Den toufte ſante ſixtus.</line>
+        <line xml:id="l_b5_2r-a.line_40" n="40">Do ulizeten ſi ſich beide.</line>
+        <line xml:id="l_b5_2r-a.line_41" n="41">Dem tíuel ze leide.</line>
+        <line xml:id="l_b5_2r-a.line_42" n="42">Swaz ſi der heiden mohten bekeren.</line>
+        <line xml:id="l_b5_2r-a.line_43" n="43">Getoufen vnde geleren.</line>
+        <line xml:id="l_b5_2r-a.line_44" n="44">Der pabeſt <choice><abbr>vn<g ref="#char_lig_de"></g></abbr><expan>vnde</expan></choice> de kunínc. Si waren</line>
+        <line xml:id="l_b5_2r-a.line_45" n="45">ze gote biderbe <choice><abbr>vñ</abbr><expan>vnd(e)</expan></choice> urumic. Ze gote <choice><abbr>ſtũt</abbr><expan>ſtunt</expan></choice></line>
+        <line xml:id="l_b5_2r-a.line_46" n="46">aller ir ſin. <choice><abbr>Bei<g ref="#char_lig_de"></g></abbr><expan>Beide</expan></choice> ſchatz vnde gewín.</line>
+      </zone>
+      <zone xml:id="b5_2r-b" ana="hc:Column">
+        <line xml:id="l_b5_2r-b.line_1" n="1">Liezen ſi beide geliche.</line>
+        <line xml:id="l_b5_2r-b.line_2" n="2">Durch daz gotes riche.</line>
+        <line xml:id="l_b5_2r-b.line_3" n="3"><hei:initial ana="hc:Lombard">D</hei:initial>ecíuſ was eín freiſlich man.</line>
+        <line xml:id="l_b5_2r-b.line_4" n="4">Als er daz kundet uerſtan.</line>
+        <line xml:id="l_b5_2r-b.line_5" n="5">Daz der kuninc kriſten waſ.</line>
+        <line xml:id="l_b5_2r-b.line_6" n="6">Vil harte mut in daz.</line>
+        <line xml:id="l_b5_2r-b.line_7" n="7">Daz deheinerſlahte kriſten.</line>
+        <line xml:id="l_b5_2r-b.line_8" n="8">Daz riche ſolte rihten.</line>
+        <line xml:id="l_b5_2r-b.line_9" n="9">Er hiez im gewinnen ſine man.</line>
+        <line xml:id="l_b5_2r-b.line_10" n="10">Vnde begund in daz clagen ſan.</line>
+        <line xml:id="l_b5_2r-b.line_11" n="11">Vnde bat ſi al geliche.</line>
+        <line xml:id="l_b5_2r-b.line_12" n="12">Arm unde riche.</line>
+        <line xml:id="l_b5_2r-b.line_13" n="13">Die ime heimlich waren.</line>
+        <line xml:id="l_b5_2r-b.line_14" n="14">Si ſolden des kuninges uaren.</line>
+        <line xml:id="l_b5_2r-b.line_15" n="15">Swa ſi zuz ime quamen.</line>
+        <line xml:id="l_b5_2r-b.line_16" n="16">Daz ſi im den lip namen.</line>
+        <line xml:id="l_b5_2r-b.line_17" n="17">Daz geloubten ſi do.</line>
+        <line xml:id="l_b5_2r-b.line_18" n="18">Eines tages quam ez ſo.</line>
+        <line xml:id="l_b5_2r-b.line_19" n="19">Daz man ſagte mere.</line>
+        <line xml:id="l_b5_2r-b.line_20" n="20">Daz der kunínch heimliche were.</line>
+        <line xml:id="l_b5_2r-b.line_21" n="21">Vf ſines ſelbes palas.</line>
+        <line xml:id="l_b5_2r-b.line_22" n="22">Deciuſ quam da er was.</line>
+        <line xml:id="l_b5_2r-b.line_23" n="23">Den kunínc er ín guten gelouben uant.</line>
+        <line xml:id="l_b5_2r-b.line_24" n="24">Deciuſ mit ſines ſelbes hant.</line>
+        <line xml:id="l_b5_2r-b.line_25" n="25">Den uater mit dem kinde.</line>
+        <line xml:id="l_b5_2r-b.line_26" n="26">Vnd ander daz geſinde.</line>
+        <line xml:id="l_b5_2r-b.line_27" n="27">Frumte er gemeinliche.</line>
+        <line xml:id="l_b5_2r-b.line_28" n="28">Indaz gotes riche.</line>
+        <line xml:id="l_b5_2r-b.line_29" n="29">Ze dem manihualten eren.</line>
+        <line xml:id="l_b5_2r-b.line_30" n="30">Sibethalp iar waren ſie herren.</line>
+        <line xml:id="l_b5_2r-b.line_31" n="31"><hei:initial ana="hc:Lombard">D</hei:initial>ecíuſ der grímmige man.</line>
+        <line xml:id="l_b5_2r-b.line_32" n="32">Do er diſen mort hete getan.</line>
+        <line xml:id="l_b5_2r-b.line_33" n="33">Des waren die heiden vil uro.</line>
+        <line xml:id="l_b5_2r-b.line_34" n="34">Ze kunínge namen ſi do.</line>
+        <line xml:id="l_b5_2r-b.line_35" n="35">Ze aller der kriſtenheite.</line>
+        <line xml:id="l_b5_2r-b.line_36" n="36">Deciuſ niht langer gebeite.</line>
+        <line xml:id="l_b5_2r-b.line_37" n="37">Er wolde niht langer uriſten.</line>
+        <line xml:id="l_b5_2r-b.line_38" n="38">Ze rome deheinen kriſten.</line>
+        <line xml:id="l_b5_2r-b.line_39" n="39">Er gebot uber ſie ſin ahte.</line>
+        <line xml:id="l_b5_2r-b.line_40" n="40">Daz man ſe uur in brachte.</line>
+        <line xml:id="l_b5_2r-b.line_41" n="41">Vnde daz durch niht uerbêre.</line>
+        <line xml:id="l_b5_2r-b.line_42" n="42">Do ſaget man im mere.</line>
+        <line xml:id="l_b5_2r-b.line_43" n="43">Daz ſante ſixtus</line>
+        <line xml:id="l_b5_2r-b.line_44" n="44">Dar umbe zornte decíus.</line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="2v" xml:id="b5_2v">
+      <zone xml:id="b5_2v-a" ana="hc:Column">
+        <line xml:id="l_b5_2v-a.line_1" n="1">Der heiden uil bekerte.</line>
+        <line xml:id="l_b5_2v-a.line_2" n="2">Vnde ſi den gelouben lerte.</line>
+        <line xml:id="l_b5_2v-a.line_3" n="3">Er were ir lerere.</line>
+        <line xml:id="l_b5_2v-a.line_4" n="4">Daz waſ deme kuninge ſwere.</line>
+        <line xml:id="l_b5_2v-a.line_5" n="5">Er hiez in allen Gahen.</line>
+        <line xml:id="l_b5_2v-a.line_6" n="6">Den pabeſt ſixtum uahen.</line>
+        <line xml:id="l_b5_2v-a.line_7" n="7">Als in der kuninch anſach.</line>
+        <line xml:id="l_b5_2v-a.line_8" n="8">Ich wil íu ſagen wi er ſprach.</line>
+        <line xml:id="l_b5_2v-a.line_9" n="9">Du boſer trugenere.</line>
+        <line xml:id="l_b5_2v-a.line_10" n="10">Mir iſt zorn unde ſwere.</line>
+        <line xml:id="l_b5_2v-a.line_11" n="11">Daz du hi ſo gewaltich wilt ſin.</line>
+        <line xml:id="l_b5_2v-a.line_12" n="12">Nu bete an die gote mín.</line>
+        <line xml:id="l_b5_2v-a.line_13" n="13">Den ich bin undertan.</line>
+        <line xml:id="l_b5_2v-a.line_14" n="14">Ode du muſt den lip uerloren han.</line>
+        <line xml:id="l_b5_2v-a.line_15" n="15">Der gute ſante ſixtus.</line>
+        <line xml:id="l_b5_2v-a.line_16" n="16">Sprach unſer herre criſtus.</line>
+        <line xml:id="l_b5_2v-a.line_17" n="17">Wart durch daz uon einer <choice><abbr>mege<g ref="#char_lig_de"></g></abbr><expan>megede</expan></choice> geborn. <note ana="hc:TranscriptionNote">{g} in {geborn} aus {b} gebessert</note></line>
+        <line xml:id="l_b5_2v-a.line_18" n="18">Daz er den menneſk het uerlorn.</line>
+        <line xml:id="l_b5_2v-a.line_19" n="19">Den er mit ſinem tode wider wan.</line>
+        <line xml:id="l_b5_2v-a.line_20" n="20">Des wer ich eín uil uro man.</line>
+        <line xml:id="l_b5_2v-a.line_21" n="21">Ob ich des wert were.</line>
+        <line xml:id="l_b5_2v-a.line_22" n="22">Daz ich heize eín mertelere.</line>
+        <line xml:id="l_b5_2v-a.line_23" n="23">So lebt ich íemmer ſchone.</line>
+        <line xml:id="l_b5_2v-a.line_24" n="24">Vnd entpheínge du geheizene crone.</line>
+        <line xml:id="l_b5_2v-a.line_25" n="25">Ez iſt billich. unde reht.</line>
+        <line xml:id="l_b5_2v-a.line_26" n="26">Daz deme herren ſin kneht.</line>
+        <line xml:id="l_b5_2v-a.line_27" n="27">Volg ín ſiner ſchare.</line>
+        <line xml:id="l_b5_2v-a.line_28" n="28">Ich bín willich vnde gare.</line>
+        <line xml:id="l_b5_2v-a.line_29" n="29">Durch mínen lieben herren erſterben.</line>
+        <line xml:id="l_b5_2v-a.line_30" n="30">Damit ſol ich daz hímelriche erwerben.</line>
+        <line xml:id="l_b5_2v-a.line_31" n="31"><hei:initial ana="hc:Lombard">S</hei:initial>a ane deme worte.</line>
+        <line xml:id="l_b5_2v-a.line_32" n="32">Als daz der kuninch erhorte.</line>
+        <line xml:id="l_b5_2v-a.line_33" n="33">Er hiez den herren allen gahen.</line>
+        <line xml:id="l_b5_2v-a.line_34" n="34">Mit zwen ſinen kappellanen uahen.</line>
+        <line xml:id="l_b5_2v-a.line_35" n="35">Einer hiez feliciſſimus.</line>
+        <line xml:id="l_b5_2v-a.line_36" n="36">Der ander agapitus.</line>
+        <line xml:id="l_b5_2v-a.line_37" n="37">Diu houbet híez er in abe ſlan.</line>
+        <line xml:id="l_b5_2v-a.line_38" n="38">Do ſi ze der martere ſolden gan.</line>
+        <line xml:id="l_b5_2v-a.line_39" n="39">Sante laurentiuſ daz erſah.</line>
+        <line xml:id="l_b5_2v-a.line_40" n="40">Lute rief er unde ſprach.</line>
+        <line xml:id="l_b5_2v-a.line_41" n="41">O woldu uater herre.</line>
+        <line xml:id="l_b5_2v-a.line_42" n="42">Nu la mih hinder dir níht mere.</line>
+        <line xml:id="l_b5_2v-a.line_43" n="43">Waz han ich wider dinen hulden getan.</line>
+        <line xml:id="l_b5_2v-a.line_44" n="44">Nu waſ ih din heimliche kappelan.</line>
+      </zone>
+      <zone xml:id="b5_2v-b" ana="hc:Column">
+        <line xml:id="l_b5_2v-b.line_1" n="1">Nu wirſtu mir benomen.</line>
+        <line xml:id="l_b5_2v-b.line_2" n="2">Swa wir ze goteſ díenſte ſolde komen.</line>
+        <line xml:id="l_b5_2v-b.line_3" n="3">Da waren wir ie gemeinlichen.</line>
+        <line xml:id="l_b5_2v-b.line_4" n="4">Wie wiltu mír ſo ſus geſwichen.</line>
+        <line xml:id="l_b5_2v-b.line_5" n="5">La mich diner marter geniezen.</line>
+        <line xml:id="l_b5_2v-b.line_6" n="6">Wande du mír ſelbe gehieze.</line>
+        <line xml:id="l_b5_2v-b.line_7" n="7">Daz ich niht geſcheiden wurde uon dir.</line>
+        <line xml:id="l_b5_2v-b.line_8" n="8">Nu han ouh ich geteilet uon mir.</line>
+        <line xml:id="l_b5_2v-b.line_9" n="9">Den ſchatz widewen vnde weiſen.</line>
+        <line xml:id="l_b5_2v-b.line_10" n="10">Nu la mich niht ín den ureiſen.</line>
+        <line xml:id="l_b5_2v-b.line_11" n="11">La mich ſamt dir uaren.</line>
+        <line xml:id="l_b5_2v-b.line_12" n="12">Wer ſol míh nu bewaren.</line>
+        <line xml:id="l_b5_2v-b.line_13" n="13">Do ſprach ſixtuſ lieber ſun min.</line>
+        <line xml:id="l_b5_2v-b.line_14" n="14">Niht uerlaze ich din.</line>
+        <line xml:id="l_b5_2v-b.line_15" n="15">Ver ním waz <note ana="hc:TranscriptionNote">{z} in {waz} aus {r} gebessert</note> ich dir ſage.</line>
+        <line xml:id="l_b5_2v-b.line_16" n="16">Von hivte uber uier tage.</line>
+        <line xml:id="l_b5_2v-b.line_17" n="17">Wirt dir uon unſerm herren.</line>
+        <line xml:id="l_b5_2v-b.line_18" n="18">Lonet uon manihualten eren.</line>
+        <line xml:id="l_b5_2v-b.line_19" n="19">Die uleiſlich ougen.</line>
+        <line xml:id="l_b5_2v-b.line_20" n="20">Iemmer muzen weſen tougen.</line>
+        <line xml:id="l_b5_2v-b.line_21" n="21">Noch menniſchen oren.</line>
+        <line xml:id="l_b5_2v-b.line_22" n="22">Nímmer enmogen gehoren.</line>
+        <line xml:id="l_b5_2v-b.line_23" n="23">Ich bin eín alt man.</line>
+        <line xml:id="l_b5_2v-b.line_24" n="24">Div urteil iſt ſchere uber mich getan.</line>
+        <line xml:id="l_b5_2v-b.line_25" n="25">Man quelt lange din gebeíne.</line>
+        <line xml:id="l_b5_2v-b.line_26" n="26">Dín ſele iſt heílich unde reine.</line>
+        <line xml:id="l_b5_2v-b.line_27" n="27">Nach diſen drin tagen muſtu uaren.</line>
+        <line xml:id="l_b5_2v-b.line_28" n="28">Die engel ſulen dich bewaren.</line>
+        <line xml:id="l_b5_2v-b.line_29" n="29">Alle himeliſche tugende.</line>
+        <line xml:id="l_b5_2v-b.line_30" n="30">Vreuwent ſich diner íugende.</line>
+        <line xml:id="l_b5_2v-b.line_31" n="31"><hei:initial ana="hc:Lombard">V</hei:initial>il ſchiere waren ſi erslagen.</line>
+        <line xml:id="l_b5_2v-b.line_32" n="32">Si begunden uon dem kappellane ſagen.</line>
+        <line xml:id="l_b5_2v-b.line_33" n="33">Daz er uber al were.</line>
+        <line xml:id="l_b5_2v-b.line_34" n="34">Sines ſchatzes kamerere.</line>
+        <line xml:id="l_b5_2v-b.line_35" n="35">Der kunínch daz niht en liez.</line>
+        <line xml:id="l_b5_2v-b.line_36" n="36">Sa er ím en wínnen hiez.</line>
+        <line xml:id="l_b5_2v-b.line_37" n="37">Als er ín ane ſach.</line>
+        <line xml:id="l_b5_2v-b.line_38" n="38">Vil zornliche er do ſprach.</line>
+        <line xml:id="l_b5_2v-b.line_39" n="39">Zeige mír dínes meiſterſ guͦt.</line>
+        <line xml:id="l_b5_2v-b.line_40" n="40">Vnde den ſchatz den du haſt behuͦt.</line>
+        <line xml:id="l_b5_2v-b.line_41" n="41">Des din meiſter plach.</line>
+        <line xml:id="l_b5_2v-b.line_42" n="42">Ode dun uerwinneſt <choice><abbr>nĩm͛</abbr><expan>nimmer</expan></choice> diſen tach.</line>
+        <line xml:id="l_b5_2v-b.line_43" n="43">Do antwurt ime ſus.</line>
+        <line xml:id="l_b5_2v-b.line_44" n="44">Der gute ſante laurentiuſ <note ana="hc:TranscriptionNote">Schluss der Episode nicht erhalten</note></line>
+        <anchor xml:id="end.b5_ep18" />
+      </zone>
+    </surface>
+  </sourceDoc>
+</TEI>
+

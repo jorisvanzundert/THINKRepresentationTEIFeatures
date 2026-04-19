@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt><title>›Ich hore iu so vil der tugende jehen‹ (D Namenl/1r 256)</title>
+<editor>Hg. von Björn Reich</editor></titleStmt>
+<editionStmt><edition>Version 0.8<date type="retrieval">07.04.2026</date></edition></editionStmt>
+<publicationStmt><publisher><orgName role="project">LDM: Lyrik des deutschen Mittelalters</orgName>. Digitale Edition, online hrsg. von <persName ref="http://d-nb.info/gnd/1027730957">Manuel Braun</persName>, <persName ref="http://d-nb.info/gnd/1027539750">Sonja Glauch</persName> und <persName ref="http://d-nb.info/gnd/130033766">Florian Kragl</persName>.</publisher>
+<date type="publication">03.05.2024</date><date type="revision">19.09.2024</date>
+<availability status="free"><licence target="https://creativecommons.org/licenses/by-sa/4.0/">Distributed under a Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)</licence></availability></publicationStmt>
+<sourceDesc source="https://doi.org/10.11588/diglit.158#"><p>Heidelberg, UB, cpg 350, fol. 40vb</p></sourceDesc>
+<sourceDesc xml:id="D_Namenl/1r_256_m"><p><idno type="URI">https://www.ldm-digital.de/show.php?lid=4033</idno></p><p>L 43,9</p></sourceDesc>
+</fileDesc>
+<encodingDesc><editorialDecl><p>Transkription und Edition folgen den im <ref target="http://www.ldm-digital.de/doc/LDM_handbuch.pdf">Projekthandbuch</ref> dokumentierten Richtlinien.</p></editorialDecl>
+<refsDecl><cRefPattern matchPattern="bibl_([0-9]+)" replacementPattern="https://www.ldm-digital.de/refbase/show.php?client=inc-refbase-1.0&amp;wrapResults=0&amp;submit=Cite&amp;citeStyle=LDM&amp;showLinks=0&amp;viewType=Ajax&amp;record=$1"/></refsDecl></encodingDesc></teiHeader>
+<text>
+<body>
+<div xml:id="D_Namenl/1r_256_t" decls="#D_Namenl/1r_256_m">
+<lg type="stanza" xml:id="D_Namenl/1r_256" n="D Namenl/1r 256"><l xml:id="D_Namenl/1r_256_line_0" n="1">
+<pc><choice><orig/><reg type="n1">›</reg></choice></pc><w xml:id="D_Namenl/1r_256_w_0_0"><hi rend="initial size:1 color:rot">I</hi>ch</w>
+<w xml:id="D_Namenl/1r_256_w_0_1">h<choice><orig>o</orig><reg type="n2">œ</reg></choice>re</w>
+<w xml:id="D_Namenl/1r_256_w_0_2">i<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="D_Namenl/1r_256_w_0_3"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>o</orig><reg type="n2">ô</reg></choice></w>
+<w xml:id="D_Namenl/1r_256_w_0_4">vil</w>
+<w xml:id="D_Namenl/1r_256_w_0_5">der</w>
+<w xml:id="D_Namenl/1r_256_w_0_6">tu<pc><choice><orig>-</orig><reg type="n1"/></choice></pc><lb/>gende</w>
+<w xml:id="D_Namenl/1r_256_w_0_7"><choice><orig>i</orig><reg type="n1">j</reg></choice>ehen</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="D_Namenl/1r_256_line_1" n="2">
+<w xml:id="D_Namenl/1r_256_w_1_0">daz</w>
+<w xml:id="D_Namenl/1r_256_w_1_1">i<choice><orig>v</orig><reg type="n1">u</reg></choice></w>
+<w xml:id="D_Namenl/1r_256_w_1_2">m<choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><lb/>
+<w xml:id="D_Namenl/1r_256_w_1_3">dien<choice><orig>ſ</orig><reg type="n1">s</reg></choice>t</w>
+<w xml:id="D_Namenl/1r_256_w_1_4">m<choice><orig>vͦ</orig><reg type="n1">uͦ</reg><reg type="n2">uo</reg></choice>z</w>
+<w xml:id="D_Namenl/1r_256_w_1_5">immer</w>
+<w xml:id="D_Namenl/1r_256_w_1_6"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><lb/>
+<w xml:id="D_Namenl/1r_256_w_1_7">bereit</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="D_Namenl/1r_256_line_2" n="3">
+<w xml:id="D_Namenl/1r_256_w_2_0"><choice><orig>v</orig><reg type="n1">u</reg></choice>nde</w>
+<w xml:id="D_Namenl/1r_256_w_2_1">hette</w>
+<w xml:id="D_Namenl/1r_256_w_2_2">ich</w>
+<w xml:id="D_Namenl/1r_256_w_2_3"><choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">iu</reg></choice>ch</w><lb/>
+<w xml:id="D_Namenl/1r_256_w_2_4">ni<choice><orig></orig><reg type="n2">h</reg></choice>t</w>
+<w xml:id="D_Namenl/1r_256_w_2_5">ge<choice><orig>ſ</orig><reg type="n1">s</reg></choice>ehen</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="D_Namenl/1r_256_line_3" n="4">
+<w xml:id="D_Namenl/1r_256_w_3_0">daz</w>
+<w xml:id="D_Namenl/1r_256_w_3_1"><choice><orig>ſ</orig><reg type="n1">s</reg></choice>chadete</w><lb/>
+<w xml:id="D_Namenl/1r_256_w_3_2">mir</w>
+<w xml:id="D_Namenl/1r_256_w_3_3">an</w>
+<w xml:id="D_Namenl/1r_256_w_3_4">m<choice><orig>i</orig><reg type="n2">î</reg></choice>ner</w>
+<w xml:id="D_Namenl/1r_256_w_3_5">werde<choice><orig>k</orig><reg type="n2">ch</reg></choice>eit<pc><choice><orig>·</orig><reg type="n1"/></choice></pc><pc><choice><orig/><reg type="n1">;</reg></choice></pc><app n="3"><note><q type="term">werdecheit</q> stF. ›Ansehen, Würde‹ (Le III, Sp. 927).</note></app></w><lb/>
+</l>
+<l xml:id="D_Namenl/1r_256_line_4" n="5">
+<w xml:id="D_Namenl/1r_256_w_4_0"><choice><orig>v</orig><reg type="n1">u</reg></choice>nde</w>
+<w xml:id="D_Namenl/1r_256_w_4_1">wil</w>
+<w xml:id="D_Namenl/1r_256_w_4_2">ouch</w>
+<w xml:id="D_Namenl/1r_256_w_4_3">immer</w>
+<w xml:id="D_Namenl/1r_256_w_4_4">de<choice><orig>ſ</orig><reg type="n1">s</reg></choice>te</w><lb/>
+<w xml:id="D_Namenl/1r_256_w_4_5">ti<choice><orig>v</orig><reg type="n1">u</reg></choice><choice><orig>rr</orig><reg type="n2">r</reg></choice>e<app n="3"><note><q type="term">tiure</q> Adv. ›achtbar, ausgezeichnet‹ (Le II, Sp. 1445).</note></app></w>
+<w xml:id="D_Namenl/1r_256_w_4_6"><choice><orig>ſ</orig><reg type="n1">s</reg></choice><choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="D_Namenl/1r_256_line_5" n="6">
+<w xml:id="D_Namenl/1r_256_w_5_0">ich</w>
+<w xml:id="D_Namenl/1r_256_w_5_1">bite</w>
+<w xml:id="D_Namenl/1r_256_w_5_2"><choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">iu</reg></choice>ch</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="D_Namenl/1r_256_w_5_3">vr<choice><orig>o</orig><reg type="n2">ou</reg></choice><pc><choice><orig>-</orig><reg type="n1"/></choice></pc><lb/>we</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc>
+<w xml:id="D_Namenl/1r_256_w_5_4">daz</w>
+<w xml:id="D_Namenl/1r_256_w_5_5">ir</w>
+<w xml:id="D_Namenl/1r_256_w_5_6"><choice><orig>v</orig><reg type="n1">u</reg><reg type="n2">iu</reg></choice>ch</w>
+<w xml:id="D_Namenl/1r_256_w_5_7"><choice><orig>v</orig><reg type="n1">u</reg></choice>nderwin<pc><choice><orig>-</orig><reg type="n1"/></choice></pc><lb/>det<app n="3"><note><q type="term">underwinden</q> stV. ›sich kümmern um, sorgen für‹ (Le II, Sp. 1811).</note></app></w>
+<w xml:id="D_Namenl/1r_256_w_5_8">m<choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><pc><choice><orig>·</orig><reg type="n1">.</reg></choice></pc>
+</l>
+<l xml:id="D_Namenl/1r_256_line_6" n="7">
+<w xml:id="D_Namenl/1r_256_w_6_0">ich</w>
+<w xml:id="D_Namenl/1r_256_w_6_1">lebte</w>
+<w xml:id="D_Namenl/1r_256_w_6_2">gern</w><pc><choice><orig/><reg type="n1">,</reg></choice></pc><lb/>
+<w xml:id="D_Namenl/1r_256_w_6_3">kund</w>
+<w xml:id="D_Namenl/1r_256_w_6_4">ich</w>
+<w xml:id="D_Namenl/1r_256_w_6_5">leben</w><pc><choice><orig>·</orig><reg type="n1">,</reg></choice></pc>
+</l>
+<l xml:id="D_Namenl/1r_256_line_7" n="8">
+<w xml:id="D_Namenl/1r_256_w_7_0">m<choice><orig>i</orig><reg type="n2">î</reg></choice>n</w><lb/>
+<w xml:id="D_Namenl/1r_256_w_7_1"><supplied reason="missing-words-in-original">[...]</supplied><app n="1"><note>Text bricht am Seitenende ab</note></app></w>
+</l>
+<l xml:id="D_Namenl/1r_256_line_8" n="9">
+<w xml:id="D_Namenl/1r_256_w_8_0"><supplied reason="missing-verse-in-original">[...]</supplied></w>
+</l>
+</lg>
+</div>
+
+</body>
+</text>
+</TEI>

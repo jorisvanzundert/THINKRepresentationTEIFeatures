@@ -1,0 +1,637 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS/tei_hes.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:hei="https://digi.ub.uni-heidelberg.de/schema/tei/heiEDITIONS">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Kaiserchronik digital. Elektronische Ausgabe: Kaiserchronik A (x1beta) –  TEI-based transcription of Hamburg, Staats- und Universitätsbibliothek, Cod. theol. 1546, Beilage</title>
+        <title xml:lang="de">Kaiserchronik digital. Elektronische Ausgabe: Kaiserchronik A (x1beta) – TEI-basierte Transkription von Hamburg, Staats- und Universitätsbibliothek, Cod. theol. 1546, Beilage</title>
+        <editor>
+          <persName>
+            <forename>Mark</forename>
+            <surname>Chinca</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1053057083</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Helen</forename>
+            <surname>Hunter</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1163111252</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Jürgen</forename>
+            <surname>Wolf</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/132527731</idno>
+        </editor>
+        <editor>
+          <persName>
+            <forename>Christopher</forename>
+            <surname>Young</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/131606441</idno>
+        </editor>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Miriam</forename>
+            <surname>Buncombe</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Anna</forename>
+            <surname>Dorofeeva</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Helen</forename>
+            <surname>Hunter</surname>
+          </persName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/1163111252</idno>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Christoph</forename>
+            <surname>Pretzer</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Emily</forename>
+            <surname>Richards</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Michael</forename>
+            <surname>Schwarzbach-Dobson</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/trc">
+          <resp xml:lang="de">Transkription</resp>
+          <resp xml:lang="en">transcription</resp>
+          <persName>
+            <forename>Edmund</forename>
+            <surname>Wareham</surname>
+          </persName>
+        </respStmt>
+        <respStmt ref="http://id.loc.gov/vocabulary/relators/red http://id.loc.gov/vocabulary/relators/prg">
+          <resp xml:lang="de">Umwandlung in ein TEI-basiertes Format</resp>
+          <resp xml:lang="en">transformation in a TEI-based format </resp>
+          <orgName>Universitätsbibliothek Heidelberg</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/2002498-8</idno>
+        </respStmt>
+        <funder>
+          <orgName>Arts and Humanities Research Council</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/10126609-1</idno>
+        </funder>
+        <funder>
+          <orgName>Schools of Arts and Humanities and Humanities and Social Sciences</orgName>
+        </funder>
+        <funder>
+          <orgName>Schröder Fund</orgName>
+        </funder>
+        <funder>
+          <orgName>Isaac Newton Trust in the University of Cambridge</orgName>
+        </funder>
+      </titleStmt>
+      <publicationStmt>
+        <publisher>
+          <orgName>Universitätsbibliothek Heidelberg</orgName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/2002498-8</idno>
+          <ref target="https://www.ub.uni-heidelberg.de">https://www.ub.uni-heidelberg.de</ref>
+          <address>
+            <street>Plöck 107–109</street>
+            <postCode>69117</postCode>
+            <settlement>
+              <placeName>Heidelberg</placeName>
+              <idno ana="hc:GND-URI">http://d-nb.info/gnd/4023996-2</idno>
+            </settlement>
+            <country>
+              <placeName>Deutschland</placeName>
+              <idno ana="hc:GND-URI">http://d-nb.info/gnd/4011882-4</idno>
+            </country>
+          </address>
+        </publisher>
+        <pubPlace>
+          <placeName>Heidelberg</placeName>
+          <idno ana="hc:GND-URI">http://d-nb.info/gnd/4023996-2</idno>
+        </pubPlace>
+        <date when="2019-08-07">07.08.2019</date>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-sa/4.0">Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)</licence>
+        </availability>
+        <idno ana="hc:DOI">https://doi.org/10.11588/data/PEFKJM</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <series>
+          <title>heiEDITIONS</title>
+          <ref target="https://www.ub.uni-heidelberg.de/publikationsdienste/digitale_editionen.html">https://www.ub.uni-heidelberg.de/publikationsdienste/digitale_editionen.html</ref>
+        </series>
+        <series>
+          <title>Kaiserchronik digital</title>
+          <idno ana="hc:DOI">https://doi.org/10.11588/edition.kcd</idno>
+          <ref target="https://digi.ub.uni-heidelberg.de/kcd">https://digi.ub.uni-heidelberg.de/kcd</ref>
+        </series>
+      </seriesStmt>
+      <notesStmt>
+        <note xml:lang="en">This document was generated for publication in heiDATA, the institutional repository for research data of Heidelberg University, based on data provided by the editors.</note>
+        <note xml:lang="de">Dieses Dokument wurde für die Publikation in heiDATA, dem institutionellen Repositorium für Forschungsdaten der Universität Heidelberg, erstellt, auf Grundlage der von den Herausgebern bereitgestellten Daten.</note>
+      </notesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <settlement>
+              <placeName>Hamburg</placeName>
+            </settlement>
+            <institution>
+              <orgName>Staats- und Universitätsbibliothek</orgName>
+            </institution>
+            <idno>Cod. theol. 1546, Beilage</idno>
+            <altIdentifier ana="hc:EditorialSiglum"><idno>x1beta</idno></altIdentifier>
+          </msIdentifier>
+          <additional>
+            <surrogates>
+              <bibl>
+                <note xml:lang="en">The digital copy of the manuscript is available under the following identifiers:</note>
+                <note xml:lang="de">Das Digitalisat der Handschrift ist unter den folgenden Identifikatoren verfügbar:</note>
+                <idno ana="hc:URN">urn:nbn:de:bsz:16-diglit-289427</idno>
+                <idno ana="hc:DOI">https://doi.org/10.11588/diglit.28942</idno>
+                <ref target="https://digi.ub.uni-heidelberg.de/diglit/subhh_codtheol1546_beilage">https://digi.ub.uni-heidelberg.de/diglit/subhh_codtheol1546_beilage</ref>
+              </bibl>
+            </surrogates>
+          </additional>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p xml:lang="en">A general project description is available under the URL <ref target="http://digi.ub.uni-heidelberg.de/en/kcd/projekt/beschreibung.html">http://digi.ub.uni-heidelberg.de/en/kcd/projekt/beschreibung.html</ref>.</p>
+        <p xml:lang="de">Eine allgemeine Projektbeschreibung ist unter der URL <ref target="http://digi.ub.uni-heidelberg.de/de/kcd/projekt/beschreibung.html">http://digi.ub.uni-heidelberg.de/de/kcd/projekt/beschreibung.html</ref> verfügbar.</p>
+      </projectDesc>
+      <editorialDecl>
+        <p xml:lang="en">A description of the editorial principles is available under the URL <ref target="http://digi.ub.uni-heidelberg.de/en/kcd/informationen/editionsprinzipien.html">http://digi.ub.uni-heidelberg.de/en/kcd/informationen/editionsprinzipien.html</ref>.</p>
+        <p xml:lang="de">Eine Beschreibung der Editionsprinzipien ist unter der URL <ref target="http://digi.ub.uni-heidelberg.de/de/kcd/informationen/editionsprinzipien.html">http://digi.ub.uni-heidelberg.de/de/kcd/informationen/editionsprinzipien.html</ref> verfügbar.</p>
+      </editorialDecl>
+      <listPrefixDef>
+        <prefixDef ident="hc"
+          matchPattern="(.+)"
+          replacementPattern="https://lod.ub.uni-heidelberg.de/ontologies/heieditions/hc/current/$1"/>
+      </listPrefixDef>
+      <charDecl>
+        <glyph xml:id="char_pe">
+          <glyphName>PUNCTUS ELEVATUS DIAGONAL STROKE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">.</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">002E</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F1F0</mapping>
+        </glyph>
+        <glyph xml:id="char_ur">
+          <glyphName>COMBINING ABBREVIATION MARK SUPERSCRIPT UR LEMNISKATE FORM</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">᷑</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">1DD1</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F1C2</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_de">
+          <glyphName>LATIN SMALL LIGATURE DE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">de</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0064 0065</mapping>
+          <mapping ana="hc:CharacterEquivalent-PUA-MUFI"></mapping>
+          <mapping ana="hc:CodePointEquivalent-PUA-MUFI">F159</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_nt">
+          <glyphName>LATIN SMALL LIGATURE NT</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">nt</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006E 0074</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_ht">
+          <glyphName>LATIN SMALL LIGATURE HT</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">ht</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0074</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_be">
+          <glyphName>LATIN SMALL LIGATURE BE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">be</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0062 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_he">
+          <glyphName>LATIN SMALL LIGATURE HE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">he</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_le">
+          <glyphName>LATIN SMALL LIGATURE LE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">le</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006C 0065</mapping>
+        </glyph>
+        <glyph xml:id="char_lig_longsz">
+          <glyphName>LATIN SMALL LIGATURE LONG S WITH Z</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">ſz</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">017F 007A</mapping>
+        </glyph>
+        <glyph xml:id="char_a_superscript_e">
+          <glyphName>LATIN SMALL LETTER A WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">aͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0061 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_e_superscript_e">
+          <glyphName>LATIN SMALL LETTER E WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">eͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0065 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_h_superscript_e">
+          <glyphName>LATIN SMALL LETTER H WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">hͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0068 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_i_superscript_e">
+          <glyphName>LATIN SMALL LETTER I WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">iͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0069 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_m_superscript_e">
+          <glyphName>LATIN SMALL LETTER M WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">mͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006D 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_o_superscript_e">
+          <glyphName>LATIN SMALL LETTER O WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">oͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">006F 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_O_superscript_e">
+          <glyphName>LATIN CAPITAL LETTER O WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">Oͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">004F 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_r_superscript_e">
+          <glyphName>LATIN SMALL LETTER R WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">rͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0072 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_u_superscript_e">
+          <glyphName>LATIN SMALL LETTER U WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">uͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0075 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_v_superscript_e">
+          <glyphName>LATIN SMALL LETTER V WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">vͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0076 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_w_superscript_e">
+          <glyphName>LATIN SMALL LETTER W WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">wͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0077 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_y_superscript_e">
+          <glyphName>LATIN SMALL LETTER Y WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">yͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">0079 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+        <glyph xml:id="char_z_superscript_e">
+          <glyphName>LATIN SMALL LETTER Z WITH SPECIAL LATIN SMALL LETTER E ABOVE</glyphName>
+          <mapping ana="hc:CharacterEquivalentStandard">zͤ</mapping>
+          <mapping ana="hc:CodePointEquivalentStandard">007A 0364</mapping>
+          <note>Superscript symbol which is similar to e but was considered to require further attention (hab_mss15-2-aug-2f)</note>
+        </glyph>
+      </charDecl>
+    </encodingDesc>
+    <revisionDesc>
+      <listChange>
+        <change who="http://dwork.uni-hd.de" status="submitted" when="2019-09-27">Exported to TEI from project data in DWork</change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <sourceDoc>
+    <surface ana="hc:Page" n="1r" xml:id="x1beta_1r">
+      <zone xml:id="x1beta_1r-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="5" xml:id="x1beta_ep5" spanTo="#end.x1beta_ep5"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.x1beta_ep5.en" />Tiberius<anchor xml:id="end.head.x1beta_ep5.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.x1beta_ep5.de" />Tiberius<anchor xml:id="end.head.x1beta_ep5.de" />
+        <line xml:id="l_x1beta_1r-a.line_1" n="1"><note ana="hc:TranscriptionNote">Kolumnentitel auf dem oberen Seitenrand: {<choice><abbr>tiberiꝰ</abbr><expan>tiberius</expan></choice>}</note></line>
+        <line xml:id="l_x1beta_1r-a.line_2" n="2"><milestone ana="hc:Heading" spanTo="#end.rub.1" /><hi rendition="hc:Enlarged">Van tiberius.</hi><anchor xml:id="end.rub.1" /> <note ana="hc:TranscriptionNote">Überschrift {Van tiberius.} am Ende der nächsten Zeile nachgetragen</note></line>
+        <line xml:id="l_x1beta_1r-a.line_3" n="3"><hei:initial ana="hc:Lombard">D</hei:initial>az boch kundet unſ daz ſuſ. daz riche besaz tiberiuſ.</line>
+        <line xml:id="l_x1beta_1r-a.line_4" n="4">der gewan <choice><abbr>romerẽ</abbr><expan>romeren</expan></choice>. grozẽ priſ <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ere. daz im uil wol be <gap unit="chars" ana="hc:Illegible"></gap> ele. d <gap unit="chars" ana="hc:Illegible"></gap> ẽ</line>
+        <line xml:id="l_x1beta_1r-a.line_5" n="5"><choice><abbr>ſagẽ</abbr><expan>ſagen</expan></choice> er behielt du ſele. <choice><abbr>h͛</abbr><expan>her</expan></choice> uatzete ſich uber mere. er uor ze <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice> mit g <gap unit="chars" ana="hc:Illegible"></gap> <note ana="hc:TranscriptionNote">Text unkenntlich wegen Abrieb</note></line>
+        <line xml:id="l_x1beta_1r-a.line_6" n="6">ein lant heizet tiberiadiſ. deſ ſoltir ſin wolgewiſ. daz ir uacht er da. er ſloch</line>
+        <line xml:id="l_x1beta_1r-a.line_7" n="7">dẽ <choice><abbr>konĩg</abbr><expan>koning</expan></choice> uz perſia. <choice><abbr>zwarẽ</abbr><expan>zwaren</expan></choice> <choice><abbr>ſagẽ</abbr><expan>ſagen</expan></choice> ichz. v. er teiltez lant an uierv. do ir de</line>
+        <line xml:id="l_x1beta_1r-a.line_8" n="8">heidene alle bedvanc. do uor ir <choice><abbr>wid͛</abbr><expan>wider</expan></choice> an thuteſk lant. er quam zo einẽ <choice><abbr>wazz͛e</abbr><expan>wazzere</expan></choice></line>
+        <line xml:id="l_x1beta_1r-a.line_9" n="9">groz. daz waſ der tunowen vloz. da greif er wol ze buwe. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> worchte da eine</line>
+        <line xml:id="l_x1beta_1r-a.line_10" n="10">ſtat nuwe. ge heizẽ tiburnia. ſint uber lanc dar na. wart ſi regenſberc</line>
+        <line xml:id="l_x1beta_1r-a.line_11" n="11">ge nant. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ziret wol al ir lant. von gote iz <choice><abbr>bequã</abbr><expan>bequam</expan></choice>. daz <choice><abbr>d͛</abbr><expan>der</expan></choice> <choice><abbr>kunĩg</abbr><expan>kuning</expan></choice> <choice><abbr>ſiechẽ</abbr><expan>ſiechen</expan></choice> be</line>
+        <line xml:id="l_x1beta_1r-a.line_12" n="12">gan. dẽ ſichetom wil ich. v. <choice><abbr>ſagẽ</abbr><expan>ſagen</expan></choice>. worm alſo ureiſam. in ſinem houbete woſen.</line>
+        <line xml:id="l_x1beta_1r-a.line_13" n="13"><choice><abbr>d͛</abbr><expan>der</expan></choice> nekunde im <choice><abbr>níemã</abbr><expan>níeman</expan></choice> <choice><abbr>gebozẽ</abbr><expan>gebozen</expan></choice>. nehein arzat waſ ſo ture. de dẽ <choice><abbr>wormẽ</abbr><expan>wormen</expan></choice> kunde</line>
+        <line xml:id="l_x1beta_1r-a.line_14" n="14"><choice><abbr>geſturẽ</abbr><expan>geſturen</expan></choice>. do ſagete im ze mere. we ze <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice> were. <choice><abbr>d͛</abbr><expan>der</expan></choice> aller wiſeſte <choice><abbr>mã</abbr><expan>man</expan></choice>. <choice><abbr>d͛</abbr><expan>der</expan></choice> ie an</line>
+        <line xml:id="l_x1beta_1r-a.line_15" n="15">deſe werelt <choice><abbr>quã</abbr><expan>quam</expan></choice>. ſin wiſheit <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> tugende manihfalt. <choice><abbr>wordẽ</abbr><expan>worden</expan></choice> deme <choice><abbr>kunĩge</abbr><expan>kuninge</expan></choice> ge</line>
+        <line xml:id="l_x1beta_1r-a.line_16" n="16">zalt. we er de totẽ hieze uf ſtẽ. di meſelſochtigẽ ge ſunt hine gen. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> quemer</line>
+        <line xml:id="l_x1beta_1r-a.line_17" n="17">zitlichẽ dar. ir geb ime ſine ge ſunt uor war. mit eineme worte ob er wolde. <choice><abbr>d͛</abbr><expan>der</expan></choice></line>
+        <line xml:id="l_x1beta_1r-a.line_18" n="18"><choice><abbr>kunĩg</abbr><expan>kuning</expan></choice> vrowete ſih bolde. er hiez im dẽ arzat <choice><abbr>gewinnẽ</abbr><expan>gewinnen</expan></choice>. mit ſcazze <choice><abbr>od͛</abbr><expan>oder</expan></choice> mit</line>
+        <line xml:id="l_x1beta_1r-a.line_19" n="19"><choice><abbr>minnẽ</abbr><expan>minnen</expan></choice>. lant <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> eigẽ woldir ime geben. ob ir bezzerete ſin leben. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> uor die</line>
+        <line xml:id="l_x1beta_1r-a.line_20" n="20">netiz <choice><abbr>imm͛</abbr><expan>immer</expan></choice> mere. <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice> <choice><abbr>d͛</abbr><expan>der</expan></choice> uor ſerete <choice><abbr>h͛re</abbr><expan>herre</expan></choice>. <milestone ana="hc:SectionMarker" spanTo="#end.par.1"/>¶<anchor xml:id="end.par.1" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am rechten Rand</note> Der bote hob ſih an di uart. alſ im <choice><abbr>uã</abbr><expan>uan</expan></choice></line>
+        <line xml:id="l_x1beta_1r-a.line_21" n="21">houe ge <choice><abbr>botẽ</abbr><expan>boten</expan></choice> wart. er hiez <choice><abbr>uoluſianꝰ</abbr><expan>uoluſianus</expan></choice>. daz buh nennet in ſuſ. do er zo <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice> <choice><abbr>quã</abbr><expan>quam</expan></choice></line>
+        <line xml:id="l_x1beta_1r-a.line_22" n="22">ge <choice><abbr>ritẽ</abbr><expan>riten</expan></choice>. drate nach <choice><abbr>d͛</abbr><expan>der</expan></choice> <choice><abbr>botẽ</abbr><expan>boten</expan></choice> ſite. uraget er daz ge ſinde. war <choice><abbr>h͛</abbr><expan>her</expan></choice> ieſum mochte uin-</line>
+        <line xml:id="l_x1beta_1r-a.line_23" n="23">dẽ. dẽ uil gotẽ arzat. ob er were <choice><abbr>and͛</abbr><expan>ander</expan></choice> ſtat. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ob er noh lebete <choice><abbr>od͛</abbr><expan>oder</expan></choice> were tot.</line>
+        <line xml:id="l_x1beta_1r-a.line_24" n="24"><choice><abbr>uñ</abbr><expan>und(e)</expan></choice> we er uore deſ were im ze wizende not. <milestone ana="hc:SectionMarker" spanTo="#end.par.2"/>¶<anchor xml:id="end.par.2" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am rechten Rand</note> Ein urowe waſ in dẽ <choice><abbr>zitẽ</abbr><expan>ziten</expan></choice> da. ge</line>
+        <line xml:id="l_x1beta_1r-a.line_25" n="25">heizẽ ueronica. de got dor ſine guͦte. ge nerete uõ dem <choice><abbr>grĩmigen</abbr><expan>grimmigen</expan></choice> bluͦte. dar</line>
+        <line xml:id="l_x1beta_1r-a.line_26" n="26">ſv an geſiechet hete uor war. achte <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> zuenzih iar. alſo di urowe do uor nam.</line>
+        <line xml:id="l_x1beta_1r-a.line_27" n="27">daz er durh got dar <choice><abbr>quã</abbr><expan>quam</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> uragete war er were. ſi weinete uil ſere. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice></line>
+        <line xml:id="l_x1beta_1r-a.line_28" n="28"><choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> <choice><abbr>lieb͛</abbr><expan>lieber</expan></choice> <choice><abbr>h͛re</abbr><expan>herre</expan></choice> ſage mir. eine rede <choice><abbr>d͛</abbr><expan>der</expan></choice> ich urage dir. ob du <choice><abbr>ihm</abbr><expan>iesum</expan></choice> irkenneſt. daz</line>
+        <line xml:id="l_x1beta_1r-a.line_29" n="29">du in ſo rehte nenneſt. <milestone ana="hc:SectionMarker" spanTo="#end.par.3"/>¶<anchor xml:id="end.par.3" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am rechten Rand</note> Er <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> urowe <choice><abbr>d͛</abbr><expan>der</expan></choice> keiſer <choice><abbr>tyberiꝰ</abbr><expan>tyberius</expan></choice>. <choice><abbr>d͛</abbr><expan>der</expan></choice> gebutet mir bi dem</line>
+        <line xml:id="l_x1beta_1r-a.line_30" n="30">halſe alſuſ. daz ich <choice><abbr>nimm͛</abbr><expan>nimmer</expan></choice>. e. <choice><abbr>wid͛</abbr><expan>wider</expan></choice> newende. unz ich dẽ arzat vinde. mah er</line>
+        <line xml:id="l_x1beta_1r-a.line_31" n="31">en dan uan ſinẽ <choice><abbr>ſuchtẽ</abbr><expan>ſuchten</expan></choice> <choice><abbr>geheilẽ</abbr><expan>geheilen</expan></choice>. ſo wil er im ſin riche mitt teilen. <milestone ana="hc:SectionMarker" spanTo="#end.par.4"/>¶<anchor xml:id="end.par.4" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am rechten Rand</note> De guͦte</line>
+        <line xml:id="l_x1beta_1r-a.line_32" n="32">ueronica. antworte im <gap unit="chars" ana="hc:Illegible"></gap> ſa. iz iſt nu zuare. wol an dẽ <choice><abbr>thrittẽ</abbr><expan>thritten</expan></choice> iare. daz in</line>
+        <line xml:id="l_x1beta_1r-a.line_33" n="33">di iuden viengen. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ane ſculde <choice><abbr>hiengẽ</abbr><expan>hiengen</expan></choice>. an deme th<choice><abbr>ritẽ</abbr><expan>riten</expan></choice> dage <gap unit="chars" ana="hc:Lost"></gap> <note ana="hc:TranscriptionNote">Textverlust durch Wurmfraß</note></line>
+        <line xml:id="l_x1beta_1r-a.line_34" n="34">er uõ deme <choice><abbr>gᷓbe</abbr><expan>grabe</expan></choice>. ze unſer ge ſihte. uor er uf zo himele. ein vil <choice><abbr>h͛</abbr><expan>her</expan></choice> ge bede.</line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="1v" xml:id="x1beta_1v">
+      <zone xml:id="x1beta_1v-a" ana="hc:Column">
+        <line xml:id="l_x1beta_1v-a.line_1" n="1"><note ana="hc:TranscriptionNote">Reste des Kolumnentitels auf dem oberen Seitenrand: {ty be}</note>han ich <choice><abbr>uã</abbr><expan>uan</expan></choice> ſiner <choice><abbr>gnadẽ</abbr><expan>gnaden</expan></choice>. daz ir manet mich ſineſ <choice><abbr>lichamẽ</abbr><expan>lichamen</expan></choice>. daz ne laz ich neheínen</line>
+        <line xml:id="l_x1beta_1v-a.line_2" n="2">dach. alſo lange ſo ih <choice><abbr>lebẽ</abbr><expan>leben</expan></choice> mach. ih ne wille ſine martire ane ſcowen. de bote bat</line>
+        <line xml:id="l_x1beta_1v-a.line_3" n="3">do de <choice><abbr>vrowẽ</abbr><expan>vrowen</expan></choice>. daz ſi ím daz bilede lieze ſen. ſi rov daz ſi iſ im hete vor ien. <milestone ana="hc:SectionMarker" spanTo="#end.par.5"/>¶<anchor xml:id="end.par.5" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Der bote</line>
+        <line xml:id="l_x1beta_1v-a.line_4" n="4">waſ biderue <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> wiſe. <choice><abbr>h͛</abbr><expan>her</expan></choice> bat de <choice><abbr>vrowẽ</abbr><expan>vrowen</expan></choice> liſe. dorh deſ ſelbẽ goteſ ere. daz ſi daz bilde</line>
+        <line xml:id="l_x1beta_1v-a.line_5" n="5">ſante ſime h<choice><abbr>erẽ</abbr><expan>eren</expan></choice>. daz erz ſelbe moſte ge ſen. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> mochteme dehein gnade da uon ge-</line>
+        <line xml:id="l_x1beta_1v-a.line_6" n="6">ſchen. deſ heteſtu <choice><abbr>imm͛mere</abbr><expan>immermere</expan></choice>. beide vrom <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ere. <milestone ana="hc:SectionMarker" spanTo="#end.par.6"/>¶<anchor xml:id="end.par.6" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Di urowe hiez daz bilde uor tran.</line>
+        <line xml:id="l_x1beta_1v-a.line_7" n="7"><choice><abbr>nimã</abbr><expan>niman</expan></choice>. v. geſagen ne kan. wilch <choice><abbr>wund͛</abbr><expan>wunder</expan></choice> ſu tete. mit venien <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> mit ge bete. mit</line>
+        <line xml:id="l_x1beta_1v-a.line_8" n="8"><choice><abbr>h͛zẽ</abbr><expan>herzẽ</expan></choice> ioch mit munde. ſu <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> du teteſt mih an deme liue ge ſunde. nu gnade mir</line>
+        <line xml:id="l_x1beta_1v-a.line_9" n="9">tot <choice><abbr>and͛</abbr><expan>ander</expan></choice> ſele. du biſt aller engele herre. di bote bat i mer <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> mere. daz ſi daz bilde</line>
+        <line xml:id="l_x1beta_1v-a.line_10" n="10">ſante ſime heren. di vrowe vorſagete ſiner bete. daz ſi deſ nicht ne tete. ſine</line>
+        <line xml:id="l_x1beta_1v-a.line_11" n="11">moſte ſelbe mite varn. daz ſiez mit <choice><abbr>erẽ</abbr><expan>eren</expan></choice> mocte be warn. Owi wi vro do <choice><abbr>d͛</abbr><expan>der</expan></choice> bote</line>
+        <line xml:id="l_x1beta_1v-a.line_12" n="12">waſ. daz du vrowe ge lobete daz. <choice><abbr>pylatũ</abbr><expan>pylatum</expan></choice> dẽ <choice><abbr>gᷓben</abbr><expan>graben</expan></choice>. hiezer ſchiere vaen. er hiez ime</line>
+        <line xml:id="l_x1beta_1v-a.line_13" n="13">binde. di uoze joch di hende. er hiez in an ein ſcif werfen. im netorſte <choice><abbr>nimã</abbr><expan>niman</expan></choice> ge</line>
+        <line xml:id="l_x1beta_1v-a.line_14" n="14">helfen. er <choice><abbr>brachtẽ</abbr><expan>brachten</expan></choice> ſime <choice><abbr>h͛ren</abbr><expan>herren</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ouh daz bilde here. alſ in <choice><abbr>d͛</abbr><expan>der</expan></choice> keiſer ane ge</line>
+        <line xml:id="l_x1beta_1v-a.line_15" n="15">ſah. mit zorne er im zo <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice>. mih <choice><abbr>wunde͛t</abbr><expan>wundert</expan></choice> herte. diner <choice><abbr>lãger</abbr><expan>langer</expan></choice> uerte. ia veiſtu</line>
+        <line xml:id="l_x1beta_1v-a.line_16" n="16">wol daz ich cume <choice><abbr>lebẽ</abbr><expan>leben</expan></choice> mach. ih warte din alſo manigẽ tah. daz mih ſin wol</line>
+        <line xml:id="l_x1beta_1v-a.line_17" n="17">mohte <choice><abbr>irlangẽ</abbr><expan>irlangen</expan></choice>. mit grozẽ <choice><abbr>ſuchtẽ</abbr><expan>ſuchten</expan></choice> bin ih <choice><abbr>beuangẽ</abbr><expan>beuangen</expan></choice>. <milestone ana="hc:SectionMarker" spanTo="#end.par.7"/>¶<anchor xml:id="end.par.7" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Der bote waſ ein cluͦk man. ſi-</line>
+        <line xml:id="l_x1beta_1v-a.line_18" n="18">nẽ <choice><abbr>h͛rẽ</abbr><expan>herrẽ</expan></choice> <choice><abbr>zogẽliche</abbr><expan>zogenliche</expan></choice> er <choice><abbr>antwertẽ</abbr><expan>antwerten</expan></choice> be gan. er <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> <choice><abbr>h͛re</abbr><expan>herre</expan></choice> daz ih ſo lange waſ. nine zor-</line>
+        <line xml:id="l_x1beta_1v-a.line_19" n="19">ne du umbe daz. iz iſt <choice><abbr>leid͛</abbr><expan>leider</expan></choice> <choice><abbr>miſſegangẽ</abbr><expan>miſſegangen</expan></choice>. de <choice><abbr>iudẽ</abbr><expan>iuden</expan></choice> hant dẽ arzat ir <choice><abbr>hangẽ</abbr><expan>hangen</expan></choice>.</line>
+        <line xml:id="l_x1beta_1v-a.line_20" n="20"><choice><abbr>uñ</abbr><expan>und(e)</expan></choice> hant in unſculdich zo dẽ tode <choice><abbr>brᷓht</abbr><expan>brraht</expan></choice>. deſ <choice><abbr>hauẽ</abbr><expan>hauen</expan></choice> ſi uil ubele ge daht. ſi redent</line>
+        <line xml:id="l_x1beta_1v-a.line_21" n="21">daz er an deme <choice><abbr>thrittẽ</abbr><expan>thritten</expan></choice> tage. <choice><abbr>ſtũde</abbr><expan>ſtunde</expan></choice> <choice><abbr>lebẽdich</abbr><expan>lebendich</expan></choice> uõ dem <choice><abbr>gᷓbe</abbr><expan>grabe</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> <choice><abbr>ſpͤchent</abbr><expan>ſprechent</expan></choice> er uore <choice><abbr>offẽ-</abbr><expan>offen-</expan></choice></line>
+        <line xml:id="l_x1beta_1v-a.line_22" n="22">liche. in daz himelriche. <milestone ana="hc:SectionMarker" spanTo="#end.par.8"/>¶<anchor xml:id="end.par.8" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> diſe vrowe <choice><abbr>loſſã</abbr><expan>loſſam</expan></choice>. her zo dinẽ <choice><abbr>gnadẽ</abbr><expan>gnaden</expan></choice> <choice><abbr>quã</abbr><expan>quam</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> hat dir</line>
+        <line xml:id="l_x1beta_1v-a.line_23" n="23">diz here bilde <choice><abbr>bᷓht</abbr><expan>braht</expan></choice>. daz mah dir wol <choice><abbr>gebẽ</abbr><expan>geben</expan></choice> dinẽ macht. dih heizet diz guͦte wip.</line>
+        <line xml:id="l_x1beta_1v-a.line_24" n="24">daz du allẽ dinẽ lip. uíl werdihliche da mite uuilleſ <choice><abbr>beſtͥchẽ</abbr><expan>beſtrichen</expan></choice>. ſo mozen dir unt-</line>
+        <line xml:id="l_x1beta_1v-a.line_25" n="25">wichẽ. dine ſuchte alſo manichualt. deſ habete <choice><abbr>d͛</abbr><expan>der</expan></choice> arzat vil guͦte gewalt. <milestone ana="hc:SectionMarker" spanTo="#end.par.9"/>¶<anchor xml:id="end.par.9" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Der</line>
+        <line xml:id="l_x1beta_1v-a.line_26" n="26">keiſer hiez daz bilde ſan. ho uor im uf han. er ſcowetez hin <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> her. uíl min-</line>
+        <line xml:id="l_x1beta_1v-a.line_27" n="27"><choice><abbr>nichlichẽ</abbr><expan>nichlichen</expan></choice> <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> her. diz waſ zvare ein <choice><abbr>rechte͛</abbr><expan>rechter</expan></choice> heilare. vil ſcone er <choice><abbr>engegẽ</abbr><expan>engegen</expan></choice> den bil-</line>
+        <line xml:id="l_x1beta_1v-a.line_28" n="28">de neich. daz houbet er dar an ſtreich. er cuſtiz uil manige ſtunt. er wart zo</line>
+        <line xml:id="l_x1beta_1v-a.line_29" n="29">hant wol geſunt. uõ allẽ ſine <choice><abbr>notẽ</abbr><expan>noten</expan></choice>. di worme <choice><abbr>vielẽ</abbr><expan>vielen</expan></choice> tote. <choice><abbr>nid͛</abbr><expan>nider</expan></choice> zo <choice><abbr>d͛</abbr><expan>der</expan></choice> erde. uf <choice><abbr>ſpᷓnc</abbr><expan>ſpranc</expan></choice></line>
+        <line xml:id="l_x1beta_1v-a.line_30" n="30">de werde wol geſunt <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> heil. da wart <choice><abbr>vrowedẽ</abbr><expan>vroweden</expan></choice> ein michel teil. ua alle rom</line>
+        <line xml:id="l_x1beta_1v-a.line_31" n="31"><gap unit="chars" ana="hc:Lost"></gap> e. uo dẽ liuẽ nuwen meren. <milestone ana="hc:SectionMarker" spanTo="#end.par.10"/>¶<anchor xml:id="end.par.10" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Alſo <choice><abbr>d͛</abbr><expan>der</expan></choice> <choice><abbr>kunĩg</abbr><expan>kuning</expan></choice> ge ſah. daz im argeſ nicht</line>
+        <line xml:id="l_x1beta_1v-a.line_32" n="32">ne vaſ. er begunde uf dem bilde ſ<choice><abbr>werẽ</abbr><expan>weren</expan></choice>. moſtim der lib geweren. er wolde dẽ</line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="2r" xml:id="x1beta_2r">
+      <zone xml:id="x1beta_2r-a" ana="hc:Column">
+        <line xml:id="l_x1beta_2r-a.line_1" n="1"><choice><abbr>h͛ẽ</abbr><expan>herẽ</expan></choice> wreche <gap unit="chars" ana="hc:Lost"></gap> . di ſtat ze <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice> woſten <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ze brͤchen. dar inne wart gela <gap unit="chars" ana="hc:Illegible"></gap> t. ge cruce-</line>
+        <line xml:id="l_x1beta_2r-a.line_2" n="2">get <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> martjrot. ſi ir arneten in vil tíure. mít ſwerte <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> mít vure. di vil boſe unreine</line>
+        <line xml:id="l_x1beta_2r-a.line_3" n="3">diet. di neſal geneſen niet. ir ſal ir aller tot ſin. damite ſal <choice><abbr>mã</abbr><expan>man</expan></choice> <choice><abbr>lonẽ</abbr><expan>lonen</expan></choice> ín. dat ſi unſen</line>
+        <line xml:id="l_x1beta_2r-a.line_4" n="4"><choice><abbr>h͛ren</abbr><expan>herren</expan></choice> unſ hant <choice><abbr>benomẽ</abbr><expan>benomen</expan></choice>. da uõ ſal ín ſcade <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ſcande <choice><abbr>komẽ</abbr><expan>komen</expan></choice>. <milestone ana="hc:SectionMarker" spanTo="#end.par.11"/>¶<anchor xml:id="end.par.11" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am rechten Rand</note> Do ſante er <choice><abbr>uaſpaſianũ</abbr><expan>uaſpaſianum</expan></choice>.</line>
+        <line xml:id="l_x1beta_2r-a.line_5" n="5"><choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ſinẽ ſun <choice><abbr>tytũ</abbr><expan>tytum</expan></choice>. de <choice><abbr>vatzetẽ</abbr><expan>vatzeten</expan></choice> ſich uber mere. mit eime creftigẽ here. da ſchein <choice><abbr>d͛</abbr><expan>der</expan></choice> <choice><abbr>rom͛e</abbr><expan>romere</expan></choice></line>
+        <line xml:id="l_x1beta_2r-a.line_6" n="6">gewalt. ſi <choice><abbr>brᷓchtẽ</abbr><expan>brrachten</expan></choice> manigẽ helt balt. ze <note ana="hc:TranscriptionNote">{ze} über einer unleserlichen und expungierten Rasur üdZ eingefügt</note> <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice> in daz lant. da <choice><abbr>wortẽ</abbr><expan>worten</expan></choice> uor heret <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> uor <choice><abbr>bᷓut.</abbr><expan>braut.</expan></choice></line>
+        <line xml:id="l_x1beta_2r-a.line_7" n="7">daz lantvolc allez do. ze <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice> in di ſtat vlo. beide kínt <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> wib. do nahetiz <choice><abbr>d͛</abbr><expan>der</expan></choice> zit. daz in</line>
+        <line xml:id="l_x1beta_2r-a.line_8" n="8">da uor gewiſaget waſ. alſo man ſit indem <choice><abbr>ewᷓnglo</abbr><expan>ewangelio</expan></choice> laſ. do unſer herre uor <choice><abbr>d͛</abbr><expan>der</expan></choice> burc ze <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice>.</line>
+        <line xml:id="l_x1beta_2r-a.line_9" n="9">ze <choice><abbr>d͛</abbr><expan>der</expan></choice> martjrie ſolte gen. ſinẽ li<choice><abbr>euẽ</abbr><expan>euen</expan></choice> holden. de ime nah volgen wolden. di vil edelẽ uro-</line>
+        <line xml:id="l_x1beta_2r-a.line_10" n="10">wen. <choice><abbr>clagetẽ</abbr><expan>clageten</expan></choice> in mit trowen. ſi wnden ire hende. unſer herre kerte ſich umbe. de ſtat</line>
+        <line xml:id="l_x1beta_2r-a.line_11" n="11"><choice><abbr>h͛</abbr><expan>her</expan></choice> do an geſach. daz wort er weinende <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice>. Owi kint <choice><abbr>uã</abbr><expan>uan</expan></choice> <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice>. waz v zo leide moz <choice><abbr>geſcẽ</abbr><expan>geſcen</expan></choice>.</line>
+        <line xml:id="l_x1beta_2r-a.line_12" n="12">ne weinet nicht minẽ tot. mĩ <choice><abbr>vat͛</abbr><expan>vater</expan></choice> <choice><abbr>vã</abbr><expan>van</expan></choice> himele hetez alſo geordenot. ir mugent wol</line>
+        <line xml:id="l_x1beta_2r-a.line_13" n="13">weinen di dinc. di hir nach kumende ſint. v kumet <choice><abbr>d͛</abbr><expan>der</expan></choice> tach. daz nieman dem ande-</line>
+        <line xml:id="l_x1beta_2r-a.line_14" n="14">rem gehelfen nemach. deſe burch wirt <choice><abbr>beſtandẽ</abbr><expan>beſtanden</expan></choice>. <choice><abbr>vã</abbr><expan>van</expan></choice> vwẽ <choice><abbr>viandẽ</abbr><expan>vianden</expan></choice>. daz <choice><abbr>d͛</abbr><expan>der</expan></choice> aller <choice><abbr>nid͛ſte</abbr><expan>niderſte</expan></choice></line>
+        <line xml:id="l_x1beta_2r-a.line_15" n="15">ſtein. wirt <choice><abbr>d͛</abbr><expan>der</expan></choice> uberſten eín. hi geſchecht eín michel untroſt. uwer kint wedẽ erbeloſ.</line>
+        <line xml:id="l_x1beta_2r-a.line_16" n="16">uwer ſtat ze uoret. uwer geſlechte ze ſtoret. uwer geſalde in irſrahel. ge ſamenet</line>
+        <line xml:id="l_x1beta_2r-a.line_17" n="17">ſih nímermer. wand er de zit nicht <choice><abbr>erkandẽ</abbr><expan>erkanden</expan></choice>. do v got vride zehuſ geſande. ir ſuͦchet</line>
+        <line xml:id="l_x1beta_2r-a.line_18" n="18">ungnathe <note ana="hc:TranscriptionNote">zweites {n} in {ungnathe} aus {e} gebessert?</note> <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> unheil. <choice><abbr>d͛</abbr><expan>der</expan></choice> kuͦmet v ein michel teil. der vater wirt <choice><abbr>vã</abbr><expan>van</expan></choice> deme kinde</line>
+        <line xml:id="l_x1beta_2r-a.line_19" n="19">geſceiden. daz mozet ir <choice><abbr>weinẽde</abbr><expan>weinende</expan></choice> <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> clagende ir zeigen. <milestone ana="hc:Heading" spanTo="#end.rub.2" /><hi rendition="hc:Enlarged">Van der ſtat ze <choice><abbr>irlm</abbr><expan>ierusalem</expan></choice>.</hi><anchor xml:id="end.rub.2" /></line>
+        <line xml:id="l_x1beta_2r-a.line_20" n="20"><hei:initial ana="hc:Lombard">D</hei:initial>e gotiſ wort de <choice><abbr>wortẽ</abbr><expan>worten</expan></choice> war. de <choice><abbr>h͛ren</abbr><expan>herren</expan></choice> <choice><abbr>qmẽ</abbr><expan>quamen</expan></choice> grimmiclichẽ dar. <choice><abbr>tytuꝰ</abbr><expan>tytuus</expan></choice> hotte wol dar uor. zo</line>
+        <line xml:id="l_x1beta_2r-a.line_21" n="21">dem oſtren borchetor. di hunger in <choice><abbr>d͛</abbr><expan>der</expan></choice> ſtat waſſen began. ſich <choice><abbr>ſamenetẽ</abbr><expan>ſameneten</expan></choice> aldi íunge</line>
+        <line xml:id="l_x1beta_2r-a.line_22" n="22">man. ſua ſi den rouk geſahen. dar ileten ſi gahen. di ture ſi dar <choice><abbr>nid͛</abbr><expan>nider</expan></choice> <choice><abbr>ſtizẽ</abbr><expan>ſtizen</expan></choice>. in deme huſ</line>
+        <line xml:id="l_x1beta_2r-a.line_23" n="23">ſi nuwet ne <choice><abbr>liezẽ</abbr><expan>liezen</expan></choice>. deſ ſi <choice><abbr>genizẽ</abbr><expan>genizen</expan></choice> <choice><abbr>mochtẽ</abbr><expan>mochten</expan></choice>. daz in zo ſpiſe tochte. <milestone ana="hc:SectionMarker" spanTo="#end.par.12"/>¶<anchor xml:id="end.par.12" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am rechten Rand</note> Eíneſ tageſ iz geſcah.</line>
+        <line xml:id="l_x1beta_2r-a.line_24" n="24">ein wib an einẽ huſe ſaz. ire <choice><abbr>mã</abbr><expan>man</expan></choice> waſ ir <choice><abbr>ſlagẽ</abbr><expan>ſlagen</expan></choice>. daz begunde ſv wenende clagen. ſi <choice><abbr>wᷓnc</abbr><expan>wranc</expan></choice></line>
+        <line xml:id="l_x1beta_2r-a.line_25" n="25">beide ire hende. ſi <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> war ſal ih arme mih nu <choice><abbr>wendẽ</abbr><expan>wenden</expan></choice>. durch míne grozẽ ſere. nune</line>
+        <line xml:id="l_x1beta_2r-a.line_26" n="26">machih <choice><abbr>lebẽ</abbr><expan>leben</expan></choice> mere. hute iſ <choice><abbr>d͛</abbr><expan>der</expan></choice> uierde tach. daz ich mazzeſ nine plach. <choice><abbr>d͛</abbr><expan>der</expan></choice> lib hat mir ge</line>
+        <line xml:id="l_x1beta_2r-a.line_27" n="27">ſvͤichen. daz wort ne kann ih nicht <choice><abbr>geſprechẽ</abbr><expan>geſprechen</expan></choice>. iz nahet mir zo dem tode. di <choice><abbr>heidenẽ</abbr><expan>heidenen</expan></choice> da</line>
+        <line xml:id="l_x1beta_2r-a.line_28" n="28">uõ rome. nement mír dẽ lip mín. owi líebeſ kindelin. ia ne moge wir deſ nicht uber</line>
+        <line xml:id="l_x1beta_2r-a.line_29" n="29"><choice><abbr>werdẽ</abbr><expan>werden</expan></choice>. wir <choice><abbr>mozẽ</abbr><expan>mozen</expan></choice> doch uõ den <choice><abbr>heidenẽ</abbr><expan>heidenen</expan></choice> irſterben. nu ge vriſte mih eine wile. mit dine<hi rendition="hc:Superscript">s</hi></line>
+        <line xml:id="l_x1beta_2r-a.line_30" n="30">ſelbeſ libe. la mih dih ezzen. daz dunket mih bezzer. went di wotenden <choice><abbr>heidẽ</abbr><expan>heiden</expan></choice>. <choice><abbr>todẽt</abbr><expan>todent</expan></choice></line>
+        <line xml:id="l_x1beta_2r-a.line_31" n="31">unſ doch beide. alſo ſi daz wort vollẽ <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice>. daz kint ſi mit einẽ mezzer ir ſtac. ſi ſotiz</line>
+        <line xml:id="l_x1beta_2r-a.line_32" n="32"><choice><abbr>uñ</abbr><expan>und(e)</expan></choice> briet. alſ ir <choice><abbr>d͛</abbr><expan>der</expan></choice> leide tubel geriet. vil ſchire vloch in di borch mere. daz da bi were.</line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="2v" xml:id="x1beta_2v">
+      <zone xml:id="x1beta_2v-a" ana="hc:Column">
+        <line xml:id="l_x1beta_2v-a.line_1" n="1"><note ana="hc:TranscriptionNote">Späterer Besitzereintrag am oberen Seitenrand: {Das buch iſt <choice><abbr>d͛</abbr><expan>der</expan></choice> carthuſer by erffort}</note> <note ana="hc:TranscriptionNote">Erste Zeile größtenteils – bis auf einzelne Buchstaben – unleserlich, Textverlust durch Rasur/Abrieb</note><note ana="hc:TranscriptionNote">Eintrag alR vor dieser Zeile: {an.}</note> ſi <choice><abbr>nid͛</abbr><expan>nider</expan></choice> houwe. ſine <choice><abbr>kundẽ</abbr><expan>kunden</expan></choice> nicht <choice><abbr>getrowẽ</abbr><expan>getrowen</expan></choice>. <choice><abbr>d͛</abbr><expan>der</expan></choice> iamerlichẽ mere. die leiden roubere.</line>
+        <line xml:id="l_x1beta_2v-a.line_2" n="2"><choice><abbr>hiezẽ</abbr><expan>hiezen</expan></choice> in ze ezzene geben. di urowe ilete daz kint <choice><abbr>nemẽ</abbr><expan>nemen</expan></choice>. ſi <choice><abbr>brᷓcht</abbr><expan>brracht</expan></choice> iz den ſinde. ſi</line>
+        <line xml:id="l_x1beta_2v-a.line_3" n="3"><choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> hi moget ir <choice><abbr>bevindẽ</abbr><expan>bevinden</expan></choice>. <choice><abbr>iam͛lichiz</abbr><expan>iamerlichiz</expan></choice> maz. ſi <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> wolde got ware. v. icht deſte</line>
+        <line xml:id="l_x1beta_2v-a.line_4" n="4">baz d <gap unit="chars" ana="hc:Illegible"></gap> kindelin. nu <gap unit="chars" ana="hc:Illegible"></gap> wol min trechtin. ich gebiz v uil <choice><abbr>g͛ne.</abbr><expan>gerne.</expan></choice></line>
+        <line xml:id="l_x1beta_2v-a.line_5" n="5"><gap unit="chars" ana="hc:Illegible"></gap> eſ mere. S <gap unit="chars" ana="hc:Illegible"></gap> h ſi vſ <note ana="hc:TranscriptionNote">evtl. ein unleserliches Zeichen vor {vſ}</note> harte</line>
+        <line xml:id="l_x1beta_2v-a.line_6" n="6">daz <gap unit="chars" ana="hc:Illegible"></gap> alle <gap unit="chars" ana="hc:Illegible"></gap> iamer da wart. ia clagete man <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> wip. daz di unvro-</line>
+        <line xml:id="l_x1beta_2v-a.line_7" n="7">lihe zit. bi ire libe ſolte geſchen. dẽ tot <choice><abbr>hettẽ</abbr><expan>hetten</expan></choice> ſi alle <choice><abbr>g͛ne</abbr><expan>gerne</expan></choice> geſen. <milestone ana="hc:SectionMarker" spanTo="#end.par.13"/>¶<anchor xml:id="end.par.13" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Sint <choice><abbr>quemẽ</abbr><expan>quemen</expan></choice></line>
+        <line xml:id="l_x1beta_2v-a.line_8" n="8">zo ſamene. an eime ſcribegatheme. di under der iuden ſcaren. aller wiſeſt wa-</line>
+        <line xml:id="l_x1beta_2v-a.line_9" n="9">rẽ. ſi <choice><abbr>ſochtẽ</abbr><expan>ſochten</expan></choice> uil drate. manige nowe rate. ſi lethen angeſtliche not. uor irẽ ovgen</line>
+        <line xml:id="l_x1beta_2v-a.line_10" n="10"><choice><abbr>ſahẽ</abbr><expan>ſahen</expan></choice> ſi den tot. do <choice><abbr>spᷓchen</abbr><expan>sprachen</expan></choice> ſi algemeine. groz <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> cleine. ſi doͧchte bezzer. daz ſi na-</line>
+        <line xml:id="l_x1beta_2v-a.line_11" n="11">mẽ ir mezzer. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ſih ſelbẽ totẽ. e ſi diheidenen da zo <choice><abbr>notẽ</abbr><expan>noten</expan></choice>. daz ſi de afgote <choice><abbr>anſehein͛</abbr><expan>anſeheiner</expan></choice></line>
+        <line xml:id="l_x1beta_2v-a.line_12" n="12">ſtete. ymber <choice><abbr>ſoltẽ</abbr><expan>ſolten</expan></choice> <choice><abbr>angebetẽ</abbr><expan>angebten</expan></choice>. <milestone ana="hc:SectionMarker" spanTo="#end.par.14"/>¶<anchor xml:id="end.par.14" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> <choice><abbr>Ioſephuꝰ</abbr><expan>Ioſephuus</expan></choice> hiez ein wiſer man. alſo ſchire ſo er den rat</line>
+        <line xml:id="l_x1beta_2v-a.line_13" n="13">uor nam. mit michelẽ <choice><abbr>liſtẽ</abbr><expan>liſten</expan></choice>. wolter ſih gerne vriſten. ſver ſih ſelbẽ totet. de ewi-</line>
+        <line xml:id="l_x1beta_2v-a.line_14" n="14">chẽ <choice><abbr>pinẽ</abbr><expan>pinen</expan></choice> er ſih genotet. nu uernímet <choice><abbr>iudẽ</abbr><expan>iuden</expan></choice> algemeine. marterent unſ di heiden.</line>
+        <line xml:id="l_x1beta_2v-a.line_15" n="15"><choice><abbr>od͛</abbr><expan>oder</expan></choice> brinnent ſi unſ hi inne. ſo haue wir edoch <choice><abbr>gedĩge</abbr><expan>gedinge</expan></choice>. daz wir ze iungeſt ge</line>
+        <line xml:id="l_x1beta_2v-a.line_16" n="16"><choice><abbr>nerẽ</abbr><expan>neren</expan></choice> dv ſele. nu uornimet ouh mere. Hi zo rate aller mannegelich. de iſt not</line>
+        <line xml:id="l_x1beta_2v-a.line_17" n="17"><choice><abbr>uñ</abbr><expan>und(e)</expan></choice> billich. uornimet al umbe. wiſen <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> tumbe. ſwelih rat. v. baz geualle.</line>
+        <line xml:id="l_x1beta_2v-a.line_18" n="18">deſ uolge wir alle. <choice><abbr>d͛</abbr><expan>der</expan></choice> iſt ouch mír lieb. wilt irſ uch baz <choice><abbr>beſprechẽ</abbr><expan>beſprechen</expan></choice> niet. ſo lazet</line>
+        <line xml:id="l_x1beta_2v-a.line_19" n="19">unſer genoze. ir <choice><abbr>vindẽ</abbr><expan>vinden</expan></choice> mit loze. ſvelih ein den and<choice><abbr>erẽ</abbr><expan>eren</expan></choice> ſule irſlan. daz wirſ dv</line>
+        <line xml:id="l_x1beta_2v-a.line_20" n="20">minre ſunde han. <milestone ana="hc:SectionMarker" spanTo="#end.par.15"/>¶<anchor xml:id="end.par.15" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Do <choice><abbr>ſazẽ</abbr><expan>ſazen</expan></choice> di genoze. ſi <choice><abbr>irſuchtẽ</abbr><expan>irſuchten</expan></choice> mit loze. unz ſi ſich alein <choice><abbr>and͛</abbr><expan>ander</expan></choice> ſta-</line>
+        <line xml:id="l_x1beta_2v-a.line_21" n="21">chen. do vil de gotiſ rache. uͦber aldaz ebreſke diet. da uor waren ſi gote lieb. nu le-</line>
+        <line xml:id="l_x1beta_2v-a.line_22" n="22"><choice><abbr>betẽ</abbr><expan>beten</expan></choice> ſi uncuſche <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> unreine. deſ uor luren ſi algemeine. di hulde ireſ heren.</line>
+        <line xml:id="l_x1beta_2v-a.line_23" n="23">daz ne uor <choice><abbr>winnẽ</abbr><expan>winnen</expan></choice> ſi <choice><abbr>nĩber</abbr><expan>nimber</expan></choice> mere. <milestone ana="hc:SectionMarker" spanTo="#end.par.16"/>¶<anchor xml:id="end.par.16" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Alſo <choice><abbr>ioſephꝰ</abbr><expan>ioſephus</expan></choice> ir ſach. daz daz michel <choice><abbr>iam͛</abbr><expan>iamer</expan></choice> geſchach.</line>
+        <line xml:id="l_x1beta_2v-a.line_24" n="24">er ilete uf dauiteſ ueſte. daz er di leiden geſte. wolte gerne beſchowen. do ſach er</line>
+        <line xml:id="l_x1beta_2v-a.line_25" n="25">in <choice><abbr>trowẽ</abbr><expan>trowen</expan></choice>. den uor mezzenen tyten. ſpehende dar umbe riten. er <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> ich bitte</line>
+        <line xml:id="l_x1beta_2v-a.line_26" n="26">dich herre. durch deſ ro<choice><abbr>meſchẽ</abbr><expan>meſchen</expan></choice> kuníngeſ ere. bring ime den aller wiſeſtẽ man.</line>
+        <line xml:id="l_x1beta_2v-a.line_27" n="27"><choice><abbr>d͛</abbr><expan>der</expan></choice> deme <choice><abbr>kuní̃ge</abbr><expan>kunínge</expan></choice> wol geſagen kan. uan <choice><abbr>d͛</abbr><expan>der</expan></choice> werlde anegenge. wi ſi got aller eriſt</line>
+        <line xml:id="l_x1beta_2v-a.line_28" n="28">bevienge. dar nah <choice><abbr>uã</abbr><expan>uan</expan></choice> allen mínneſclichen kunne. er hat ímmer mit mir</line>
+        <line xml:id="l_x1beta_2v-a.line_29" n="29">wunne. <milestone ana="hc:SectionMarker" spanTo="#end.par.17"/>¶<anchor xml:id="end.par.17" /> <note ana="hc:TranscriptionNote">Kapitulumzeichen am linken Rand</note> Do <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> tituſ <choice><abbr>d͛</abbr><expan>der</expan></choice> milde. haſtu da uf icht ſchilde. laz dich da mit hi zo ta-</line>
+        <line xml:id="l_x1beta_2v-a.line_30" n="30">le. daz here hilfet dir harte wale. <choice><abbr>ind͛</abbr><expan>inder</expan></choice> burch biſtu mir uerne. hi uz hettich vil</line>
+        <line xml:id="l_x1beta_2v-a.line_31" n="31">gerne. <choice><abbr>Ioſephꝰ</abbr><expan>Ioſephus</expan></choice> zuene ſchilde nam. under jewed<choice><abbr>erẽ</abbr><expan>eren</expan></choice> arm. er lez ſich <choice><abbr>uõd͛</abbr><expan>uonder</expan></choice> hohe. ſin ge- <note ana="hc:TranscriptionNote">Schluss der Episode nicht erhalten</note></line>
+        <anchor xml:id="end.x1beta_ep5" />
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="3r" xml:id="x1beta_3r">
+      <zone xml:id="x1beta_3r-a" ana="hc:Column">
+        <milestone ana="hc:Chapter" n="30.1" xml:id="x1beta_ep30.1" spanTo="#end.x1beta_ep30.1"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.x1beta_ep30.1.en" />Narcissus: Crescentia and Dietrich § 1<anchor xml:id="end.head.x1beta_ep30.1.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.x1beta_ep30.1.de" />Narcissus: Crescentia und Dietrich § 1<anchor xml:id="end.head.x1beta_ep30.1.de" />
+        <line xml:id="l_x1beta_3r-a.line_1" n="1"><note ana="hc:TranscriptionNote">Anfang der Episode nicht erhalten</note> <note ana="hc:TranscriptionNote">durchgehender Textverlust am rechten Seitenrand durch Blattbeschnitt</note></line>
+        <line xml:id="l_x1beta_3r-a.line_2" n="2"><gap unit="chars" ana="hc:Illegible"></gap> <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_3" n="3">gvͦt. <choice><abbr>d͛</abbr><expan>der</expan></choice> ungetruwe here. ne wolte ſinẽ mvͦt danno <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_4" n="4">ſpiſe uf dẽ torn <choice><abbr>uorẽ</abbr><expan>uoren</expan></choice>. alſo zuelue ime <choice><abbr>ſvorẽ</abbr><expan>ſvoren</expan></choice>. ſvat ſi <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_5" n="5">meiſt da uf <choice><abbr>bringẽ</abbr><expan>bringen</expan></choice> machten. vleiſcheſ <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> broteſ. ũ <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_6" n="6"><choice><abbr>ſpᷓch</abbr><expan>ſprach</expan></choice> nu bin ih auer gare. hi iſt unſ gnoch <choice><abbr>d͛</abbr><expan>der</expan></choice> lipna <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_7" n="7">ſin <gap unit="chars" ana="hc:Illegible"></gap> wir <choice><abbr>hauẽ</abbr><expan>hauen</expan></choice> uleiſh. brot. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> win. Do antworte i <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_8" n="8"><choice><abbr>getruwẽ</abbr><expan>getruwen</expan></choice> man. ſi <choice><abbr>ſpᷓch</abbr><expan>ſprach</expan></choice> du ſageſt mir um brot <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> um <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_9" n="9">leider ſin. daz unſer got hat uor gezzen. dan umb <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_10" n="10">heiz dine kapellane gan. an rome <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> an latran. d <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_11" n="11">e iſ di lute werdent <choice><abbr>innẽ</abbr><expan>innen</expan></choice>. di ſaltu wol beſtiften. e <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_12" n="12">an einer <choice><abbr>kemenatẽ</abbr><expan>kemenaten</expan></choice>. ſo leiſtich danne drate. <choice><abbr>h͛re</abbr><expan>herre</expan></choice> dinẽ <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_13" n="13"><choice><abbr>d͛</abbr><expan>der</expan></choice> <choice><abbr>uallẽ</abbr><expan>uallen</expan></choice>. clagen unſe miſſetat. ſo mach unſer z <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_14" n="14">unſ di ſunde <choice><abbr>ruwẽ</abbr><expan>ruwen</expan></choice>. mit innihlichẽ t<choice><abbr>ruwẽ</abbr><expan>ruwen</expan></choice>. daz wer <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_15" n="15">himel lriche. ze iungeſt dar umbe ſolen han. ſven <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_16" n="16">ſi <choice><abbr>ſpᷓch</abbr><expan>ſprach</expan></choice> wende noh helt dinẽ muͦt. ja iſtiz unſ bei <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_17" n="17">al ſold ich <choice><abbr>imb͛</abbr><expan>imber</expan></choice> <choice><abbr>buwẽ</abbr><expan>buwen</expan></choice> daz elelende. minẽ muͦt ich <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_18" n="18">Do liez mit grozer <choice><abbr>creftẽ</abbr><expan>creften</expan></choice>. daz heilichtom dar uf he <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_19" n="19">wẽ. daz leiſte ir trowe. ſi <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice> wende helt noch dinẽ <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_20" n="20">er <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice> daz er nekunde. aſ ſolder <choice><abbr>imb͛</abbr><expan>imber</expan></choice> <choice><abbr>buwẽ</abbr><expan>buwen</expan></choice> daz <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_21" n="21">daz geſach. daz deſ ander rat ne waſ. iz waz an <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_22" n="22">nam ir gewate. di ſluzzele ſi dar inne want. <choice><abbr>d͛</abbr><expan>der</expan></choice> <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_23" n="23">einen <choice><abbr>urolichẽ</abbr><expan>urolichen</expan></choice> ganc. di wech ne duchte im borlan <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_24" n="24">alle wiſte. lebe <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice> er nu leiſte. minen <choice><abbr>willẽ</abbr><expan>willen</expan></choice> de <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_25" n="25">hi iſt daz heilige gebeine. indirre <choice><abbr>kamerẽ</abbr><expan>kameren</expan></choice> eine <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_26" n="26"><choice><abbr>d͛</abbr><expan>der</expan></choice> rat ſin. er <choice><abbr>ſpᷓch</abbr><expan>ſprach</expan></choice> nein iſ bi den <choice><abbr>huldẽ</abbr><expan>hulden</expan></choice> din. ſi <choice><abbr>ſpᷓch</abbr><expan>ſprach</expan></choice> <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_27" n="27">indi <choice><abbr>kamerẽ</abbr><expan>kameren</expan></choice> ſaltu e treten. uor mih <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice> daz w <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_28" n="28">ge ſezzet ſtarke an ein arbeit. alſo er <choice><abbr>ĩdi</abbr><expan>indi</expan></choice> kame <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_29" n="29">einen ſuanc. daz ſi vil lute ir clanc. den ſluzzel <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_30" n="30">ſere ir uerte. do ſi do <choice><abbr>dannẽ</abbr><expan>dannen</expan></choice> walde gan. do riep di <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_31" n="31">mit vil luter ſtimme. er rief och <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> we. ſo leie <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_32" n="32">mir urowe deſ wankeſ. haſtu dine dankeſ. beſl <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_3r-a.line_33" n="33">ich ummínne. nu mín urowe gote. irlami <gap unit="chars" ana="hc:Lost"></gap></line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="3v" xml:id="x1beta_3v">
+      <zone xml:id="x1beta_3v-a" ana="hc:Column">
+        <line xml:id="l_x1beta_3v-a.line_1" n="1"><gap ana="hc:Illegible"></gap></line>
+        <line xml:id="l_x1beta_3v-a.line_2" n="2"><note ana="hc:TranscriptionNote">durchgehender Textverlust am linken Seitenrand durch Blattbeschnitt</note>ere din <choice><abbr>nimb͛</abbr><expan>nimber</expan></choice> ze</line>
+        <line xml:id="l_x1beta_3v-a.line_3" n="3"><gap unit="chars" ana="hc:Lost"></gap> daz ſi iſ nine tate. dem helede ze leide. daz ſi untfinge</line>
+        <line xml:id="l_x1beta_3v-a.line_4" n="4"><gap unit="chars" ana="hc:Lost"></gap> nthaluen din. du haſt brot. vleiſk. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> win. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> <choice><abbr>and͛eſ</abbr><expan>andereſ</expan></choice></line>
+        <line xml:id="l_x1beta_3v-a.line_5" n="5"><gap unit="chars" ana="hc:Lost"></gap> te bettewete. alleſ haſtu gegnoch. deſ du bedarft ze ge</line>
+        <line xml:id="l_x1beta_3v-a.line_6" n="6"><gap unit="chars" ana="hc:Lost"></gap> nicht langer du ne tvelle. di heiligẽ ſint dir nahe. dir</line>
+        <line xml:id="l_x1beta_3v-a.line_7" n="7"><gap unit="chars" ana="hc:Lost"></gap> uͦziſt mineſ <choice><abbr>h͛ren</abbr><expan>herren</expan></choice> da uffe biten. ich ne mach mit dir</line>
+        <line xml:id="l_x1beta_3v-a.line_8" n="8"><gap unit="chars" ana="hc:Lost"></gap> it den ſelben <choice><abbr>wortẽ</abbr><expan>worten</expan></choice>. beſloz di urowe di porten. ſi liez</line>
+        <line xml:id="l_x1beta_3v-a.line_9" n="9"><gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>erẽ</abbr><expan>eren</expan></choice>. di ſluzzele nam ſi alzeſamene. ſi warf ſi an ei</line>
+        <line xml:id="l_x1beta_3v-a.line_10" n="10"><gap unit="chars" ana="hc:Lost"></gap> wiſte. waz ſi getan hete. ſo uor holne ſi iz tete. Deſ ta-</line>
+        <line xml:id="l_x1beta_3v-a.line_11" n="11"><gap unit="chars" ana="hc:Lost"></gap> lute nine wiſſen. wa der <choice><abbr>h͛re</abbr><expan>herre</expan></choice> komen waſ. alle clage-</line>
+        <line xml:id="l_x1beta_3v-a.line_12" n="12"><gap unit="chars" ana="hc:Lost"></gap> einẽ. ſam ſi daz ſolte meinẽ. an ir ge ſvien ſo guͦt</line>
+        <line xml:id="l_x1beta_3v-a.line_13" n="13"><gap unit="chars" ana="hc:Lost"></gap> hertze a<choice><abbr>nerẽ</abbr><expan>neren</expan></choice> libe. dem loſſamen wibe. umb ir vil</line>
+        <line xml:id="l_x1beta_3v-a.line_14" n="14"><gap unit="chars" ana="hc:Lost"></gap> mit eren. an aller ſlachte ſchande. unz en ir got ſen</line>
+        <line xml:id="l_x1beta_3v-a.line_14_below-1" n="14_below" rend="below">te ze lande.</line>
+        <line xml:id="l_x1beta_3v-a.line_15" n="15"><gap unit="chars" ana="hc:Lost"></gap> n. der <choice><abbr>kunĩg</abbr><expan>kuning</expan></choice> <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> ſine man.</line>
+        <line xml:id="l_x1beta_3v-a.line_16" n="16"><gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>botẽ</abbr><expan>boten</expan></choice> uore <choice><abbr>randẽ</abbr><expan>randen</expan></choice>. er tetiz der <choice><abbr>kunĩginne</abbr><expan>kuninginne</expan></choice> kunt. uf</line>
+        <line xml:id="l_x1beta_3v-a.line_17" n="17"><gap unit="chars" ana="hc:Lost"></gap> ber hof giencſi uil be reit. uor holne ſi da zo ſchreit.</line>
+        <line xml:id="l_x1beta_3v-a.line_18" n="18"><gap unit="chars" ana="hc:Lost"></gap> ntworte. er <choice><abbr>ſpᷓch</abbr><expan>ſprach</expan></choice> wen hor ih da zer turre ſtan. herre</line>
+        <line xml:id="l_x1beta_3v-a.line_19" n="19"><gap unit="chars" ana="hc:Lost"></gap> urowe guͦte. hauet di ích noh bekerret uon vwer</line>
+        <line xml:id="l_x1beta_3v-a.line_20" n="20"><gap unit="chars" ana="hc:Lost"></gap> h uz gan. ob ih dine hulde dazo muͦhte han. vil har</line>
+        <line xml:id="l_x1beta_3v-a.line_21" n="21"><gap unit="chars" ana="hc:Lost"></gap> nt ih min houbet an dih uor werhte. ih ne geneze</line>
+        <line xml:id="l_x1beta_3v-a.line_22" n="22"><gap unit="chars" ana="hc:Lost"></gap> note. deſ ſaltu uorgezzen. ia han ih hi ge ſezzen.</line>
+        <line xml:id="l_x1beta_3v-a.line_23" n="23"><gap unit="chars" ana="hc:Lost"></gap> e valle. daz worche uzer mime liue. ih uorchte je-</line>
+        <line xml:id="l_x1beta_3v-a.line_24" n="24"><gap unit="chars" ana="hc:Lost"></gap> rtríue. Vf ſloz ſi daz turlín. ſi <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> gotiſ hulde <choice><abbr>uñ</abbr><expan>und(e)</expan></choice></line>
+        <line xml:id="l_x1beta_3v-a.line_25" n="25"><gap unit="chars" ana="hc:Lost"></gap> mit innihlichen muͦte. daz ich dir anderſ nicht ne-</line>
+        <line xml:id="l_x1beta_3v-a.line_26" n="26"><gap unit="chars" ana="hc:Lost"></gap> e bi wilen waren. do wi de rede uor baren. ger</line>
+        <line xml:id="l_x1beta_3v-a.line_27" n="27"><gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>roth͛</abbr><expan>rother</expan></choice> kumer noh hute. den ſaltu wol untfaen.</line>
+        <line xml:id="l_x1beta_3v-a.line_28" n="28"><gap unit="chars" ana="hc:Lost"></gap> n gotiſ hulde. ih wil wol uor ſvigen dine ſchulde.</line>
+        <line xml:id="l_x1beta_3v-a.line_29" n="29"><gap unit="chars" ana="hc:Lost"></gap> i urowe en uf ruchte. ſi cuſte en an ſinen <choice><abbr>mũt</abbr><expan>munt</expan></choice></line>
+        <line xml:id="l_x1beta_3v-a.line_30" n="30"><gap unit="chars" ana="hc:Lost"></gap> reſt uon mínẽ rate. er geb ih alſo drate. daz</line>
+        <line xml:id="l_x1beta_3v-a.line_31" n="31"><gap unit="chars" ana="hc:Lost"></gap> lt je doh <choice><abbr>min͛</abbr><expan>miner</expan></choice> truwe geníezen. Do <choice><abbr>rumetẽ</abbr><expan>rumeten</expan></choice> ſi</line>
+        <line xml:id="l_x1beta_3v-a.line_32" n="32"><gap unit="chars" ana="hc:Lost"></gap> me huſe. einẽ <choice><abbr>urolichẽ</abbr><expan>urolichen</expan></choice> ganc. do di lewerke ſanc.</line>
+        <line xml:id="l_x1beta_3v-a.line_33" n="33"><gap unit="chars" ana="hc:Lost"></gap> wachtere ſagete. <choice><abbr>vb͛</abbr><expan>vber</expan></choice> aldi borch mere. daz ſin <choice><abbr>h͛re</abbr><expan>herre</expan></choice></line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="4r" xml:id="x1beta_4r">
+      <zone xml:id="x1beta_4r-a" ana="hc:Column">
+        <line xml:id="l_x1beta_4r-a.line_1" n="1"><note ana="hc:TranscriptionNote">durchgehender Textverlust am rechten Seitenrand durch Blattbeschnitt, dazu einige kleine Lücken, verursacht durch Wurmfraß</note>komen were. ſi untfienc in wol uor den liuten. ſi <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_2" n="2">irme leben h<choice><abbr>errẽ</abbr><expan>erren</expan></choice>. er ne wolte ſih ſineſ boſen mo <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_3" n="3">di herre gedachte eine rede. di kundet er uber daz <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_4" n="4"><note ana="hc:TranscriptionNote">Text vor {wi} durch Rasur und Expungierung getilgt</note> wi er <choice><abbr>geuangẽ</abbr><expan>geuangen</expan></choice> were. de <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_5" n="5">im <choice><abbr>d͛</abbr><expan>der</expan></choice> urowe. da er mejen waſ ge gan. alſo duͦt <gap unit="chars" ana="hc:Lost"></gap> in j <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_6" n="6">heit. do ſaz er uf <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> reit. mit manigen ſnel <gap unit="chars" ana="hc:Lost"></gap> en kn <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_7" n="7">iungeſt daz rechte. vf ſtunt do di urowe we <gap unit="chars" ana="hc:Lost"></gap> o <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_8" n="8">inechein tiurer lip. ſi nam vil manich herlih wip <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_9" n="9">mit ir <choice><abbr>ingegẽ</abbr><expan>ingegen</expan></choice> irẽ <choice><abbr>leuẽ</abbr><expan>leuen</expan></choice> h<choice><abbr>errẽ</abbr><expan>erren</expan></choice> gan. an daz velt wa <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_10" n="10">tẽ. zo dẽ ſelbẽ <choice><abbr>ſtundẽ</abbr><expan>ſtunden</expan></choice>. warẽ ſi <choice><abbr>gebundẽ</abbr><expan>gebunden</expan></choice>. da mochte <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_11" n="11">we gie dar <choice><abbr>und͛</abbr><expan>under</expan></choice>. ſam di mane uor dẽ <choice><abbr>ſterrẽ</abbr><expan>ſterren</expan></choice>. ſi kunde <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_12" n="12"><supplied><hei:initial ana="hc:Lombard"><gap extent="1" unit="chars" /><note ana="hc:TranscriptionNote">Initiale nicht ausgeführt</note></hei:initial></supplied> ie <choice><abbr>h͛ren</abbr><expan>herren</expan></choice> begunden nahẽ. unz ſe ſih ein <choice><abbr>and͛</abbr><expan>ander</expan></choice> ge <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_13" n="13">dietrich di ſchone. bat di helede kone. eine wi <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_14" n="14"><choice><abbr>geſellẽ</abbr><expan>geſellen</expan></choice>. zvelue ſiner holden. di ime <choice><abbr>ratẽ</abbr><expan>raten</expan></choice> <choice><abbr>ſoldẽ</abbr><expan>ſolden</expan></choice>. di e <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_15" n="15">dar <choice><abbr>und͛</abbr><expan>under</expan></choice> in nehein. den lip da uore ne <choice><abbr>vriſtẽ</abbr><expan>vriſten</expan></choice>. ſva ſi <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_16" n="16">ende. deſ tracten ſi uf di hende. daz ſi gerne teten. ſ <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_17" n="17">niht ne <choice><abbr>ſprechẽ</abbr><expan>ſprechen</expan></choice>. do bat er ſi ſih andi kuninge wre <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_18" n="18">do ſi di rede uor <choice><abbr>nam̃</abbr><expan>namen</expan></choice>. alle <choice><abbr>clagetẽ</abbr><expan>clageten</expan></choice> ſi dẽ rat. daz man <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_19" n="19">ſolte uor lieſen. ſi <choice><abbr>ſpᷓchẽ</abbr><expan>ſprachen</expan></choice> er mohtiz mit <choice><abbr>erẽ</abbr><expan>eren</expan></choice> wol uor <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_20" n="20">dunket mih daz baſte. daz er di rede uor midet. d <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_21" n="21">tiz allez durh truwe. ih uorhte iz unſih ruwe <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_22" n="22"><choice><abbr>ſpͤchet</abbr><expan>ſprechet</expan></choice> iſ nuwer mere. Do <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> <choice><abbr>d͛</abbr><expan>der</expan></choice> ſchone dietrich. nu <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_23" n="23">heizẽ helfe. iz ne ſtet mir nicht zo gelfe. deſ be de <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_24" n="24">dih ſtille <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> euer lut. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> hilf minẽ <choice><abbr>mannẽ</abbr><expan>mannen</expan></choice>. ia la <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_25" n="25">elde nine ſah. di <choice><abbr>h͛re</abbr><expan>herre</expan></choice> im do zo <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice>. ia ruwet mih di <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_26" n="26"><choice><abbr>leiſtẽ</abbr><expan>leiſten</expan></choice> alſ ih ge louet han. an deme rate wilih ſtan <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_27" n="27"><choice><abbr>werdẽ</abbr><expan>werden</expan></choice> der <choice><abbr>erẽ</abbr><expan>eren</expan></choice> doh ze iungeſt dar umbe uor <choice><abbr>ſtozẽ</abbr><expan>ſtozen</expan></choice> <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_28" n="28">do <choice><abbr>d͛</abbr><expan>der</expan></choice> <choice><abbr>kunĩg</abbr><expan>kuning</expan></choice> zo reit. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> er ſinẽ <choice><abbr>brod͛</abbr><expan>broder</expan></choice> angeſah. daz <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_29" n="29"><choice><abbr>broth͛</abbr><expan>brother</expan></choice> min wip. mir <choice><abbr>d͛</abbr><expan>der</expan></choice> aller liebeſte lip. <choice><abbr>d͛</abbr><expan>der</expan></choice> ie gew <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_30" n="30">keiſerlichẽ kunne. daz mir got ireſ líbeſ lang <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_31" n="31">da iz manih man geh <gap unit="chars" ana="hc:Illegible"></gap> . ſi hat ſich g <gap unit="chars" ana="hc:Lost"></gap> altẽ. a <gap unit="chars" ana="hc:Lost"></gap> ſ <gap unit="chars" ana="hc:Lost"></gap></line>
+        <line xml:id="l_x1beta_4r-a.line_32" n="32">warte. ja midih mih <choice><abbr>d͛</abbr><expan>der</expan></choice> worte. nu uraget iſ d <gap unit="chars" ana="hc:Lost"></gap></line>
+      </zone>
+    </surface>
+    <surface ana="hc:Page" n="4v" xml:id="x1beta_4v">
+      <zone xml:id="x1beta_4v-a" ana="hc:Column">
+        <line xml:id="l_x1beta_4v-a.line_1" n="1"><note ana="hc:TranscriptionNote">durchgehender Textverlust am linken Seitenrand durch Blattbeschnitt, dazu einige kleine Lücken, verursacht durch Wurmfraß</note> <note ana="hc:TranscriptionNote">Rest des Kolumnentitels {ſen} (wohl für Creſentia) auf dem oberen Seitenrand</note><gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>pᷓh</abbr><expan>prah</expan></choice> nu moziz got <choice><abbr>irbarmẽ</abbr><expan>irbarmen</expan></choice>. daz ih ſe vil armẽ. uor</line>
+        <line xml:id="l_x1beta_4v-a.line_2" n="2"><gap unit="chars" ana="hc:Lost"></gap> ir got nine wil gegunneñ. ze troſte an mineme ri</line>
+        <line xml:id="l_x1beta_4v-a.line_3" n="3"><gap unit="chars" ana="hc:Lost"></gap> wiche. Der ungetruwe <choice><abbr>ſpᷓh</abbr><expan>ſprah</expan></choice> do. ſinẽ brodere zo.</line>
+        <line xml:id="l_x1beta_4v-a.line_4" n="4"><gap unit="chars" ana="hc:Lost"></gap> ndẽ. noh <choice><abbr>nimb͛</abbr><expan>nimber</expan></choice> dinẽ mot gewenden. an ſi vil</line>
+        <line xml:id="l_x1beta_4v-a.line_5" n="5"><gap unit="chars" ana="hc:Lost"></gap> ine <gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>d͛</abbr><expan>der</expan></choice> werfen nu zo ſtunde. an deſ wageſ unde.</line>
+        <line xml:id="l_x1beta_4v-a.line_6" n="6"><gap unit="chars" ana="hc:Lost"></gap> ne ſa <gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>d͛</abbr><expan>der</expan></choice> manigẽ huͦre uore <note ana="hc:TranscriptionNote">unleserliches Zeichen über vermutlichem {u} in {uore}</note>  niht <choice><abbr>geniezẽ</abbr><expan>geniezen</expan></choice>. Nu tuͦ <choice><abbr>ſpᷓc</abbr><expan>ſprac</expan></choice></line>
+        <line xml:id="l_x1beta_4v-a.line_7" n="7"><gap unit="chars" ana="hc:Lost"></gap> e <gap unit="chars" ana="hc:Lost"></gap> r betalle. nu ne laz ſe mih <choice><abbr>nimb͛</abbr><expan>nimber</expan></choice> beſchowen.</line>
+        <line xml:id="l_x1beta_4v-a.line_8" n="8"><gap unit="chars" ana="hc:Lost"></gap> ẽ. ſine holdẽ <choice><abbr>bindẽ</abbr><expan>binden</expan></choice>. <choice><abbr>d͛</abbr><expan>der</expan></choice> reiſe niht <choice><abbr>irwindẽ</abbr><expan>irwinden</expan></choice>. unz ſi</line>
+        <line xml:id="l_x1beta_4v-a.line_9" n="9"><gap unit="chars" ana="hc:Lost"></gap> ach unz anden abent <choice><abbr>nimb͛</abbr><expan>nimber</expan></choice> gelebete. <milestone ana="hc:Heading" spanTo="#end.rub.3" /><hi rendition="hc:Enlarged">Creſentia.</hi><anchor xml:id="end.rub.3" /></line>
+        <line xml:id="l_x1beta_4v-a.line_10" n="10"><gap unit="chars" ana="hc:Lost"></gap> ẽ ſi ſah di <choice><abbr>botẽ</abbr><expan>boten</expan></choice> <choice><abbr>ritẽ</abbr><expan>riten</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> harte zo ir gaen. di ſi <choice><abbr>ſoltẽ</abbr><expan>ſolten</expan></choice></line>
+        <line xml:id="l_x1beta_4v-a.line_11" n="11"><gap unit="chars" ana="hc:Lost"></gap> e. ih ne mah deſ nich <choice><abbr>erwindẽ</abbr><expan>erwinden</expan></choice>. ir ne ſaget mir ſchi-</line>
+        <line xml:id="l_x1beta_4v-a.line_12" n="12"><gap unit="chars" ana="hc:Lost"></gap> n uaret ir mit ſo trorigẽ mote. ſaget mirz durch</line>
+        <line xml:id="l_x1beta_4v-a.line_13" n="13"><gap unit="chars" ana="hc:Lost"></gap> de<hi rendition="hc:Superscript">s</hi> geſchunte ſi got. daz ſi di urowen <choice><abbr>woltẽ</abbr><expan>wolten</expan></choice> <choice><abbr>nerẽ</abbr><expan>neren</expan></choice>.</line>
+        <line xml:id="l_x1beta_4v-a.line_14" n="14"><gap unit="chars" ana="hc:Lost"></gap> ſv<choice><abbr>erẽ</abbr><expan>eren</expan></choice>. ſi hau<hi rendition="hc:Superscript">e</hi>te ſe irtrenket. zo deſ wageſ grunde</line>
+        <line xml:id="l_x1beta_4v-a.line_15" n="15"><gap unit="chars" ana="hc:Lost"></gap> re wip. nine uorlieſet <choice><abbr>uwẽ</abbr><expan>uwen</expan></choice> lip. ſint iz iv min <choice><abbr>h͛re</abbr><expan>herre</expan></choice></line>
+        <line xml:id="l_x1beta_4v-a.line_16" n="16"><gap unit="chars" ana="hc:Lost"></gap> n gewat. <choice><abbr>geuẽ</abbr><expan>geuen</expan></choice> míne <choice><abbr>wiuẽ</abbr><expan>wiuen</expan></choice>. di mir mit <choice><abbr>erẽ</abbr><expan>eren</expan></choice> liuẽ. vil</line>
+        <line xml:id="l_x1beta_4v-a.line_17" n="17"><gap unit="chars" ana="hc:Lost"></gap> ſet. ih weiz wol waz diz meinet. do nam ſi ir geben</line>
+        <line xml:id="l_x1beta_4v-a.line_18" n="18"><gap unit="chars" ana="hc:Lost"></gap> de. einer ir geſinde. hi mite ſalt tu dih binden. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice></line>
+        <line xml:id="l_x1beta_4v-a.line_19" n="19"><gap unit="chars" ana="hc:Lost"></gap> ge an dih di míne. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> weſ wol geſunde. uze mineſ</line>
+        <line xml:id="l_x1beta_4v-a.line_20" n="20"><gap unit="chars" ana="hc:Lost"></gap> volget an deſe not. nu ſcheidet unſ leider di tot.</line>
+        <line xml:id="l_x1beta_4v-a.line_21" n="21"><gap unit="chars" ana="hc:Lost"></gap> u ruwet mih min herre. Do <choice><abbr>bundẽ</abbr><expan>bunden</expan></choice> ſi ir de hende</line>
+        <line xml:id="l_x1beta_4v-a.line_22" n="22"><gap unit="chars" ana="hc:Lost"></gap> <choice><abbr>denẽ</abbr><expan>denen</expan></choice> <choice><abbr>ſnorẽ</abbr><expan>ſnoren</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> <choice><abbr>iletẽ</abbr><expan>ileten</expan></choice> ſi <choice><abbr>uorẽ</abbr><expan>uoren</expan></choice>. zo rome zo <choice><abbr>d͛</abbr><expan>der</expan></choice> brucke</line>
+        <line xml:id="l_x1beta_4v-a.line_23" n="23"><gap unit="chars" ana="hc:Lost"></gap> ſilbe <choice><abbr>botẽ</abbr><expan>boten</expan></choice> genoz. in den wach er ſi ſcoz. daz waſ</line>
+        <line xml:id="l_x1beta_4v-a.line_24" n="24"><gap unit="chars" ana="hc:Lost"></gap> n deme wage uloz. uier tage <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> uier macht.</line>
+        <line xml:id="l_x1beta_4v-a.line_25" n="25"><gap unit="chars" ana="hc:Lost"></gap> di <choice><abbr>cleid͛</abbr><expan>cleider</expan></choice> ſi uf <choice><abbr>trͦugẽ</abbr><expan>trͦugen</expan></choice>. <choice><abbr>uñ</abbr><expan>und(e)</expan></choice> andereſ goteſ gnade</line>
+        <line xml:id="l_x1beta_4v-a.line_26" n="26"><gap unit="chars" ana="hc:Lost"></gap> e fro. de urowe na gotiſ <choice><abbr>willẽ</abbr><expan>willen</expan></choice> quam do. <choice><abbr>getrebẽ</abbr><expan>getreben</expan></choice></line>
+        <line xml:id="l_x1beta_4v-a.line_27" n="27"><gap unit="chars" ana="hc:Lost"></gap> kneht brahte ſe ſint ze lande. Do richte got ge-</line>
+        <line xml:id="l_x1beta_4v-a.line_28" n="28"><gap unit="chars" ana="hc:Lost"></gap> he. ſi <choice><abbr>wordẽ</abbr><expan>worden</expan></choice> beide meſelſuchtih. an deme liue vil</line>
+        <line xml:id="l_x1beta_4v-a.line_29" n="29"><gap unit="chars" ana="hc:Lost"></gap> ndẽ. do man di urowe warf zo den grunde.</line>
+        <anchor xml:id="end.x1beta_ep30.1" /><milestone ana="hc:Chapter" n="30.2" xml:id="x1beta_ep30.2" spanTo="#end.x1beta_ep30.2"/><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="en" spanTo="#end.head.x1beta_ep30.2.en" />Narcissus: In the duke's house § 2<anchor xml:id="end.head.x1beta_ep30.2.en" /><milestone ana="hc:Heading" resp="hc:Editor" xml:lang="de" spanTo="#end.head.x1beta_ep30.2.de" />Narcissus: Beim Herzog § 2<anchor xml:id="end.head.x1beta_ep30.2.de" />
+        <line xml:id="l_x1beta_4v-a.line_30" n="30"><gap unit="chars" ana="hc:Lost"></gap> daz ein viſchere. zoh ſinẽ <choice><abbr>ſegẽ</abbr><expan>ſegen</expan></choice>. do uloz im en</line>
+        <line xml:id="l_x1beta_4v-a.line_31" n="31"><gap unit="chars" ana="hc:Lost"></gap> n. do <gap unit="chars" ana="hc:Lost"></gap> er ſi <choice><abbr>uahẽ</abbr><expan>uahen</expan></choice>. do er ſi hatte gevangen</line>
+        <line xml:id="l_x1beta_4v-a.line_32" n="32"><gap unit="chars" ana="hc:Lost"></gap> <gap unit="chars" ana="hc:Illegible"></gap> <gap unit="chars" ana="hc:Lost"></gap> zor glote. got beſcheinete ſine gote. di <note ana="hc:TranscriptionNote">Schluss der Episode nicht erhalten</note></line>
+        <anchor xml:id="end.x1beta_ep30.2" />
+      </zone>
+    </surface>
+  </sourceDoc>
+</TEI>
+
