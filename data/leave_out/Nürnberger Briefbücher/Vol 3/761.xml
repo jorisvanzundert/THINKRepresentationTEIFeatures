@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="761" xml:id="l770" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 761 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>070v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 761.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q62216" type="recipient">Heinrich XVI. v. Wittelsbach, Hzg. v. Bayern-Landshut</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3974" type="mention">Landshut</placeName><persName type="mention">Kragen, Peter</persName><persName type="mention">Maurer, Hans</persName></ab><date from="14-07-1410" to="14-07-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_142">
+<surface lrx="2762" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0073_left.png" width="2762px"/>
+<zone lrx="1868" lry="371" rendition="TextRegion" ulx="1110" uly="856" xml:id="facs_142_r2">
+<zone lrx="1868" lry="371" rendition="Line" ulx="1110" uly="290" xml:id="facs_142_r2l1"/>
+<zone lrx="2559" lry="615" rendition="Line" ulx="672" uly="469" xml:id="facs_142_r2l2"/>
+<zone lrx="2551" lry="701" rendition="Line" ulx="659" uly="567" xml:id="facs_142_r2l3"/>
+<zone lrx="2720" lry="820" rendition="Line" ulx="676" uly="662" xml:id="facs_142_r2l4"/>
+<zone lrx="2631" lry="891" rendition="Line" ulx="521" uly="763" xml:id="facs_142_r2l5"/>
+<zone lrx="1985" lry="965" rendition="Line" ulx="643" uly="856" xml:id="facs_142_r2l6"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich XVI. von Wittelsbach, Herzog von Bayern-Landshut</head><p>Der Rat kündigt Peter Kragen und Hans Maurer, Diener der Stadt, wegen einiger in Landshut beschlagnahmter Waren Nürnberger Bürger an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_142" id="70v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_142_r2l1">Hercʒog <expan>Heinr<ex>ich</ex></expan> von Beyern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_142_r2l2"><expan>Gnedig<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / Als vvir <expan>ewr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> vormals <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> <expan>hab<ex>e</ex>n</expan> von etlıcher </ab>
+<ab facs="#facs_142_r2l3"><expan>vnſ<ex>er</ex>r</expan> <expan>burge<ex>r</ex></expan> vvegen / den das Jr in <expan>ewr<ex>er</ex></expan> Stat cʒu Landſhute be = </ab>
+<ab facs="#facs_142_r2l4">kümert iſt <expan>vvoꝛde<ex>n</ex></expan> / 
+<del rend="strikethrough">vnd <expan>Ro<ex>gamus</ex></expan></del> / darümb <expan>ſende<ex>n</ex></expan> vvir cʒu <expan>ewr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> <expan>pet<ex>er</ex></expan> <expan>krag<ex>en</ex></expan> </ab>
+<ab facs="#facs_142_r2l5">
+<add>vnd</add> hanſen <expan>Mawr<ex>er</ex></expan> <expan>vnſ<ex>er</ex>n</expan> <expan>dien<ex>er</ex></expan> mit <expan>ew<ex>r</ex>n</expan> <expan>gnade<ex>n</ex></expan> dauon cʒu <expan>rede<ex>n</ex></expan> / vnd <expan>Ro<ex>gamus</ex></expan> </ab>
+<ab facs="#facs_142_r2l6">etc ut in <expan>for<ex>ma</ex></expan> / <expan>Dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ıj̃ poſt <expan>Margar<ex>ete</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_142" id="70v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Herczog <expan>Heinr<ex>ich</ex></expan> von Beyern</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als wir <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> vormals
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan>
+<expan>hab<ex>e</ex>n</expan> von etlicher <expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> wegen, den das ir in
+                            <expan>ewr<ex>er</ex></expan> stat czu Landshute bekümert ist
+                                <expan>worde<ex>n</ex></expan>, darümb
+                            <expan>sende<ex>n</ex></expan> wir czu <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>Pet<ex>er</ex></expan>
+<expan>Krag<ex>en</ex></expan>
+<add>und</add> Hansen <expan>Mawr<ex>er</ex></expan>,
+                            <expan>uns<ex>er</ex>n</expan>
+<expan>dien<ex>er</ex></expan>, mit <expan>ew<ex>r</ex>n</expan>
+<expan>gnade<ex>n</ex></expan> davon czu <expan>rede<ex>n</ex></expan>. Und
+                                <expan>ro<ex>gamus</ex></expan> etc. ut in
+                            <expan>for<ex>ma</ex></expan>. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> ii post
+                        <expan>Margar<ex>ete</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

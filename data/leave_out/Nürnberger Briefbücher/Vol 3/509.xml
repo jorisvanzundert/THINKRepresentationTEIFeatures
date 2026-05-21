@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="509" xml:id="l516" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 509 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>012r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 509.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Gerlacher, Siegfried, Abt d. Klosters Ellwangen</persName></ab><ab type="mention"><persName type="mention">Waltmann, Marquart</persName><persName type="mention">N., N., Frühmesser v. St. Lorenz (Nürnberg)</persName><persName type="mention">Paumgartner, Konrad IV.</persName><persName type="mention">Ammann, Heinrich</persName><persName type="mention">Penynger, Seitz d. J.</persName></ab><date from="28-08-1409" to="25-09-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_25">
+<surface lrx="2566" lry="3774" ulx="0" uly="0">
+<graphic height="3774px" url="Rst Nbg-Briefbücher-Nr 3_0014_right.png" width="2566px"/>
+<zone lrx="1977" lry="2293" rendition="TextRegion" ulx="829" uly="2420" xml:id="facs_25_region_1576489445974_6512"> <zone lrx="1977" lry="2293" rendition="Line" ulx="829" uly="2236" xml:id="facs_25_line_1576489528934_6619"/>
+<zone lrx="2038" lry="2357" rendition="Line" ulx="827" uly="2285" xml:id="facs_25_line_1576489531924_6624"/>
+<zone lrx="2161" lry="2422" rendition="Line" ulx="811" uly="2357" xml:id="facs_25_line_1576489534686_6629"/>
+<zone lrx="2127" lry="2492" rendition="Line" ulx="820" uly="2420" xml:id="facs_25_line_1576489537713_6634"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über Ausstellung eines Glaubbriefs</head><p>Der Rat stellt Marquart Waltmann, Diener der Stadt, einen Glaubbrief zur Vermittlung im Streit zwischen Abt Siegfried Gerlacher von Ellwangen wegen des Frühmessers zu St. Lorenz mit Konrad IV. Paumgartner, Heinrich Amman und Seitz Penyinger, alle Bürger zu Nürnberg, aus.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_25" id="12r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_25_line_1576489528934_6619"><expan>H<ex>er</ex>n</expan> <expan>Seÿfrid<ex>en</ex></expan> Abt cʒu <expan>Ellwang<ex>en</ex></expan> <expan>eine<ex>n</ex></expan> <expan>glaubſbr<ex>ief</ex></expan> </ab>
+<ab facs="#facs_25_line_1576489531924_6624">auf <expan>Margkh<ex>art</ex></expan> Waltman / cʒu <expan>rede<ex>n</ex></expan> von des <expan>frümeſſ<ex>er</ex>s</expan> </ab>
+<ab facs="#facs_25_line_1576489534686_6629">wegen cʒu ſant <expan>lorencʒe<ex>n</ex></expan> / vnd auch <expan>Conr<ex>ad</ex></expan> <expan>pawmgartn<ex>er</ex>s</expan> / </ab>
+<ab facs="#facs_25_line_1576489537713_6634"><expan>Heinr<ex>ich</ex></expan> <expan>Aman<ex>n</ex>s</expan> / vnd <expan>Seicʒ<ex>n</ex></expan> Penÿngers <expan>Ju<ex>ni</ex><hi rend="sup">or</hi></expan> . <expan>vnſ<ex>er</ex>r</expan> <expan>Burg<ex>er</ex></expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_25" id="12r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Seyfrid<ex>en</ex></expan>, abt czu
+                        <expan>Ellwang<ex>en</ex></expan>, <expan>eine<ex>n</ex></expan>
+<expan>glaubsbr<ex>ief</ex></expan> auf <expan>Margkh<ex>art</ex></expan>
+                        Waltman, czu <expan>rede<ex>n</ex></expan> von des
+                            <expan>frümess<ex>er</ex>s</expan> wegen czu sant
+                                <expan>Lorencze<ex>n</ex></expan> und auch
+                            <expan>Conr<ex>ad</ex></expan>
+<expan>Pawmgartn<ex>er</ex>s</expan>, <expan>Heinr<ex>ich</ex></expan>
+<expan>Aman<ex>n</ex>s</expan> und <expan>Seicz<ex>n</ex></expan> Penyngers
+                                <expan>ju<ex>ni</ex><hi rend="sup">or</hi></expan>,
+                                <expan>uns<ex>er</ex>r</expan>
+<expan>burg<ex>er</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

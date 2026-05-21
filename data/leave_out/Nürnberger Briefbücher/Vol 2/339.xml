@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="339" xml:id="l344" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 339 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>096v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 339.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext><ref ref="http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/319.xml" xml:id="319">Text 319</ref></correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Stauff zu Ehrenfels, Dietrich IV. v.</persName></ab><ab type="mention"><persName type="mention">Örtel, Seitz</persName><persName type="mention">Örtel, Heinrich</persName></ab><date from="21-03-1409" to="21-03-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_196">
+<surface lrx="2797" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0099_left.png" width="2797px"/>
+<zone lrx="1586" lry="349" rendition="TextRegion" ulx="1104" uly="1204" xml:id="facs_196_r1">
+<zone lrx="2018" lry="349" rendition="Line" ulx="1104" uly="272" xml:id="facs_196_r1l1"/>
+<zone lrx="2744" lry="538" rendition="Line" ulx="596" uly="448" xml:id="facs_196_r1l2"/>
+<zone lrx="2649" lry="630" rendition="Line" ulx="671" uly="549" xml:id="facs_196_r1l3"/>
+<zone lrx="2683" lry="727" rendition="Line" ulx="665" uly="651" xml:id="facs_196_r1l4"/>
+<zone lrx="2649" lry="818" rendition="Line" ulx="668" uly="745" xml:id="facs_196_r1l5"/>
+<zone lrx="2684" lry="911" rendition="Line" ulx="669" uly="845" xml:id="facs_196_r1l6"/>
+<zone lrx="2590" lry="1009" rendition="Line" ulx="667" uly="929" xml:id="facs_196_r1l7"/>
+<zone lrx="2633" lry="1099" rendition="Line" ulx="678" uly="1010" xml:id="facs_196_r1l8"/>
+<zone lrx="2625" lry="1191" rendition="Line" ulx="689" uly="1098" xml:id="facs_196_r1l9"/>
+<zone lrx="1586" lry="1290" rendition="Line" ulx="699" uly="1204" xml:id="facs_196_r1l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Dietrich IV. von Stauff zu Ehrenfels</head><p>Der Rat teilt wegen Seitz und Heinrich Örtel mit, dass der Adressat trotz Anschreiben die Sache nicht beigelegt hat, weshalb man vor dem Landfrieden Klage erhoben hat.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_196" id="96v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_196_r1l1"><expan>Dietr<ex>ich</ex></expan> Stawffer cʒü Ernfels </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_196_r1l2"><expan>Lieb<ex>er</ex></expan> Stawffer / Als Jr vns <expan>geſchr<ex>iben</ex></expan> habt <expan>vo<ex>n</ex></expan> <expan>Seıcʒe<ex>n</ex></expan> vnd <expan>Heinr<ex>ich</ex></expan> </ab>
+<ab facs="#facs_196_r1l3">der Örtel <expan>vveg<ex>en</ex></expan> / . Nu <expan>hab<ex>e</ex>n</expan> vvir ew vor <expan>geſchrıb<ex>e</ex>n</expan> vnd <expan>gepet<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_196_r1l4">daʒ Jr die ſache <expan>abtrage<ex>n</ex></expan> wolt / vnd geſcheh des nicht ſo <expan>müſte<ex>n</ex></expan> </ab>
+<ab facs="#facs_196_r1l5">vvir das an den Lantfrid <expan>bringe<ex>n</ex></expan> / vnd <expan>vnſ<ex>er</ex>s</expan> <expan>recht<ex>e</ex>n</expan> darvmb von </ab>
+<ab facs="#facs_196_r1l6">ewr <expan>vvart<ex>e</ex>n</expan> / vnd alſo <expan>hab<ex>e</ex>n</expan> vvir auch das nu an den Lantfrıd </ab>
+<ab facs="#facs_196_r1l7">braht / der ew auch darvmb ſchreibt / vnd mainen das vor </ab>
+<ab facs="#facs_196_r1l8"><expan>de<ex>m</ex></expan> Lantfrid mit ew awſcʒetragen / nach dem awſſpruch den dann </ab>
+<ab facs="#facs_196_r1l9"><expan>d<ex>er</ex></expan> Lantfrid vor getan hat / . vnd nach des Lantfrıds erkantnüʒʒ / </ab>
+<ab facs="#facs_196_r1l10"><expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> . ṽ . <expan>An<ex>te</ex></expan> Judica ıx<hi rend="sup">o</hi> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_196" id="96v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Dietr<ex>ich</ex></expan> Stawffer czü Ernfels </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> Stawffer, als ir uns
+                                <expan>geschr<ex>iben</ex></expan> habt <expan>vo<ex>n</ex></expan>
+<expan>Seicze<ex>n</ex></expan> und <expan>Heinr<ex>ich</ex></expan> der
+                        Örtel <expan>weg<ex>en</ex></expan>. Nu <expan>hab<ex>e</ex>n</expan> wir ew
+                        vor <expan>geschrib<ex>e</ex>n</expan> und <expan>gepet<ex>e</ex>n</expan>,
+                        daz ir die sache <expan>abtrage<ex>n</ex></expan> wolt und gescheh des
+                        nicht, so <expan>müste<ex>n</ex></expan> wir das an den lantfrid
+                                <expan>bringe<ex>n</ex></expan> und <expan>uns<ex>er</ex>s</expan>
+<expan>recht<ex>e</ex>n</expan> darumb von ewr
+                            <expan>wart<ex>e</ex>n</expan>; und also <expan>hab<ex>e</ex>n</expan>
+                        wir auch das nu an den lantfrid braht, der ew auch darumb schreibt, und
+                        mainen das vor <expan>de<ex>m</ex></expan> lantfrid mit ew awsczetragen nach
+                        dem awsspruch, den dann <expan>d<ex>er</ex></expan> lantfrid vor getan hat
+                        und nach des lantfrids erkantnüzz. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> v <expan>an<ex>te</ex></expan> judica ix<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

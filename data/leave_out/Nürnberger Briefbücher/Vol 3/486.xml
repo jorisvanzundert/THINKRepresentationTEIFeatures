@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="486" xml:id="l4886" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 486 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>005v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Weißpriach, Ulrich v.</persName><persName type="recipient">Fladnitz, Friedrich v.</persName></ab><ab type="mention">-</ab><date from="31-07-1409" to="28-08-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_12">
+<surface lrx="2635" lry="3774" ulx="0" uly="0">
+<graphic height="3774px" url="Rst Nbg-Briefbücher-Nr 3_0008_left.png" width="2635px"/>
+<zone lrx="2350" lry="3276" rendition="TextRegion" ulx="2212" uly="3365" xml:id="facs_12_r2">
+<zone lrx="2447" lry="3276" rendition="Line" ulx="2212" uly="3230" xml:id="facs_12_r2l35"/> <zone lrx="2427" lry="3396" rendition="Line" ulx="1312" uly="3280" xml:id="facs_12_r2l36"/>
+<zone lrx="2350" lry="3488" rendition="Line" ulx="1332" uly="3365" xml:id="facs_12_r2l37"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über die Ausstellung zweier Glaubbriefe</head><p>Der Rat vermerkt die Ausstellung zweier Glaubbriefe an Ulrich von Weißpriach und Friedrich von Fladnitz.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_12" id="5v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_12_r2l36"><expan>Jt<ex>em</ex></expan> An <expan>h<ex>er</ex>n</expan> <expan>vlr<ex>ich</ex></expan> von vveiſpriach 
+<add><ab facs="#facs_12_r2l35"><expan>Cam<ex>er</ex>meiſt<ex>er</ex></expan> </ab></add> <expan>gelaub<ex>brief</ex></expan> </ab>
+<ab facs="#facs_12_r2l37"><expan>Jt<ex>em</ex></expan> an <expan>h<ex>er</ex>n</expan> <expan>frıdr<ex>ich</ex></expan> von flednicʒ ȷ <expan>gel<ex>aubbrief</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_12" id="5v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>It<ex>em</ex></expan> an <expan>h<ex>er</ex>n</expan>
+<expan>Ulr<ex>ich</ex></expan> von Weispriach,
+                                    <add><expan>cam<ex>er</ex>meist<ex>er,</ex></expan></add>
+<expan>gelaub<ex>brief</ex></expan>. <expan>It<ex>em</ex></expan> an
+                                <expan>h<ex>er</ex>n</expan>
+<expan>Fridr<ex>ich</ex></expan> von Flednicz i
+                            <expan>gel<ex>aubbrief</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

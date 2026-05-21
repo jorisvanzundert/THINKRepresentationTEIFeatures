@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1683" xml:id="l1694" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1683 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>042v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1683.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1694729" type="recipient">Johann II. v. Heideck, Bf. v. Eichstätt</persName></ab><ab type="mention"><placeName type="mention">Krottenbach (Gt. d. Stadt Nürnberg)</placeName><persName type="mention">Treuchtlingen, Wirich IV. v.</persName></ab><date from="26-09-1414" to="24-10-1414" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_85">
+<surface lrx="2596" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0045_left.png" width="2596px"/>
+<zone lrx="556" lry="672" rendition="TextRegion" ulx="397" uly="1135" xml:id="facs_85_r1">
+<zone lrx="607" lry="672" rendition="Line" ulx="247" uly="618" xml:id="facs_85_r1l1"/>
+<zone lrx="632" lry="720" rendition="Line" ulx="397" uly="658" xml:id="facs_85_r1l2"/>
+<zone lrx="556" lry="1177" rendition="Line" ulx="221" uly="1135" xml:id="facs_85_r1l3"/>
+</zone>
+<zone lrx="1497" lry="330" rendition="TextRegion" ulx="1923" uly="2366" xml:id="facs_85_r2">
+<zone lrx="1830" lry="330" rendition="Line" ulx="1077" uly="262" xml:id="facs_85_r2l1"/>
+<zone lrx="2494" lry="493" rendition="Line" ulx="632" uly="425" xml:id="facs_85_r2l2"/>
+<zone lrx="1743" lry="517" rendition="Line" ulx="1583" uly="483" xml:id="facs_85_r2l3"/>
+<zone lrx="2430" lry="573" rendition="Line" ulx="632" uly="526" xml:id="facs_85_r2l4"/>
+<zone lrx="1977" lry="614" rendition="Line" ulx="1763" uly="575" xml:id="facs_85_r2l5"/>
+<zone lrx="2437" lry="666" rendition="Line" ulx="655" uly="621" xml:id="facs_85_r2l6"/>
+<zone lrx="1872" lry="699" rendition="Line" ulx="1790" uly="646" xml:id="facs_85_line_1576675877802_4224"/>
+<zone lrx="2456" lry="761" rendition="Line" ulx="624" uly="698" xml:id="facs_85_line_1576675892528_4241"/>
+<zone lrx="1497" lry="791" rendition="Line" ulx="1074" uly="741" xml:id="facs_85_line_1576675895361_4246"/>
+<zone lrx="2498" lry="871" rendition="Line" ulx="619" uly="811" xml:id="facs_85_r2l10"/>
+<zone lrx="2470" lry="985" rendition="Line" ulx="617" uly="910" xml:id="facs_85_r2l11"/>
+<zone lrx="2474" lry="1084" rendition="Line" ulx="597" uly="1029" xml:id="facs_85_r2l12"/>
+<zone lrx="1941" lry="1109" rendition="Line" ulx="1629" uly="1074" xml:id="facs_85_r2l13"/>
+<zone lrx="2482" lry="1186" rendition="Line" ulx="605" uly="1120" xml:id="facs_85_r2l14"/>
+<zone lrx="2568" lry="1295" rendition="Line" ulx="622" uly="1222" xml:id="facs_85_r2l15"/>
+<zone lrx="2479" lry="1402" rendition="Line" ulx="613" uly="1327" xml:id="facs_85_r2l16"/>
+<zone lrx="2533" lry="1506" rendition="Line" ulx="621" uly="1437" xml:id="facs_85_r2l17"/>
+<zone lrx="2501" lry="1618" rendition="Line" ulx="610" uly="1545" xml:id="facs_85_r2l18"/>
+<zone lrx="2448" lry="1715" rendition="Line" ulx="617" uly="1653" xml:id="facs_85_r2l19"/>
+<zone lrx="2247" lry="1742" rendition="Line" ulx="1628" uly="1699" xml:id="facs_85_r2l20"/>
+<zone lrx="2518" lry="1830" rendition="Line" ulx="618" uly="1745" xml:id="facs_85_r2l21"/>
+<zone lrx="2497" lry="1938" rendition="Line" ulx="614" uly="1841" xml:id="facs_85_r2l22"/>
+<zone lrx="2497" lry="2031" rendition="Line" ulx="596" uly="1954" xml:id="facs_85_r2l23"/>
+<zone lrx="1671" lry="2055" rendition="Line" ulx="1433" uly="2012" xml:id="facs_85_r2l24"/>
+<zone lrx="2477" lry="2129" rendition="Line" ulx="621" uly="2054" xml:id="facs_85_r2l25"/>
+<zone lrx="2032" lry="2146" rendition="Line" ulx="1923" uly="2092" xml:id="facs_85_line_1584367264442_269"/>
+<zone lrx="2474" lry="2245" rendition="Line" ulx="530" uly="2146" xml:id="facs_85_r2l26"/>
+<zone lrx="2524" lry="2339" rendition="Line" ulx="616" uly="2243" xml:id="facs_85_r2l27"/>
+<zone lrx="1828" lry="2441" rendition="Line" ulx="477" uly="2366" xml:id="facs_85_r2l28"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an [Johann von Heideck], Dompropst zu Bamberg</head><p>Der Rat bittet im Streit wegen der Armleute zu Krottenbach mit einigen Bürgern zu Nürnberg um Stillstand bis Martinstag, da der Gerichtstag wegen Wirich IV. von Treuchtlingen ausgefallen ist, und teilt seine Absicht mit, den Streit zu schlichten, wenn der Adressat oder ein Stellvertreter nach Nürnberg kommt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_85" id="42v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_85_r2l1">Tumprobſt cʒu <expan>Bamb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_85_r2l2"><expan>Ervvırdıg<ex>er</ex></expan> vnd lıeber <expan>h<ex>er</ex>re</expan> / Als her wyrich von <expan>Trewtling<ex>en</ex></expan> </ab>
+<ab facs="#facs_85_r2l4"><expan>cʒwiſch<ex>e</ex>n</expan> <expan>ewr<ex>er</ex></expan> <expan>Ervvirdık<ex>eit</ex></expan> / vnd 
+<add><ab facs="#facs_85_r2l3">ettlich </ab></add> <expan>vnſ<ex>er</ex>r</expan> burger <expan>Arme<ex>n</ex>leuten</expan> </ab>
+<ab facs="#facs_85_r2l6">
+<add><ab facs="#facs_85_r1l1">
+<del rend="strikethrough">h<gap reason="illegible"/> kor </del> von </ab><ab facs="#facs_85_r1l2"><expan>krote<ex>n</ex>bach</expan> </ab></add> einen tag gemacht vnd euch vnd 
+<del rend="strikethrough"> den </del>
+<add><ab facs="#facs_85_r2l5">
+<del rend="strikethrough">ettlicher </del></ab></add>
+<add><ab facs="#facs_85_line_1576675877802_4224">den </ab></add> <expan>vnſ<ex>er</ex>n</expan> den <expan>v<ex>er</ex>kündet</expan> </ab>
+<ab facs="#facs_85_line_1576675892528_4241">het / <expan>denſelb<ex>e</ex>n</expan> tag der <expan>eg<ex>enante</ex></expan> her wyrich / . den ~ <expan>vnſ<ex>er</ex>n</expan>
+<del rend="strikethrough"> als </del></ab>
+<ab facs="#facs_85_r2l10">
+<del rend="strikethrough">geſtern</del> abſagt 
+<add><ab facs="#facs_85_line_1576675895361_4246"><expan>vndwıderpote<ex>n</ex></expan> </ab></add> hat / als daʒ das der <expan>vnſ<ex>er</ex>n</expan> ſchulde niht iſt </ab>
+<ab facs="#facs_85_r2l11">vvan ſie den gern geſucht heten / Nu 
+<del rend="strikethrough">biten </del> <expan>ſeh<ex>e</ex>n</expan> vvir niht </ab>
+<ab facs="#facs_85_r2l12">gern / daʒ dıe ſache 
+<del rend="strikethrough">alſo </del> <expan>cʒwiſch<ex>e</ex>n</expan> euch vnd den <expan>vnſ<ex>er</ex>n</expan> / alſo </ab>
+<ab facs="#facs_85_r2l14">
+<add><ab facs="#facs_85_r1l3"><expan>vnauſtrag<ex>en</ex></expan> </ab></add>
+<del rend="strikethrough"> vnbericht </del> ſten ſol / vnd 
+<del rend="strikethrough"> waʒ vvir <expan>vnſerhalb<ex>e</ex>n</expan></del>
+<add><ab facs="#facs_85_r2l13">könden wır </ab></add> darcʒu gedienen </ab>
+<ab facs="#facs_85_r2l15">
+<del rend="strikethrough">könden </del> daʒ das <expan>gütlıch<ex>e</ex>n</expan> <expan>abgetrage<ex>n</ex></expan> würde 
+<del rend="strikethrough"> möht </del> / das <expan>tete<ex>n</ex></expan> vvir <expan>g<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_85_r2l16">vnd <expan>dar<ex>ümb</ex></expan> <expan>Ro<ex>gamus</ex></expan> / daʒ Jr <expan>dıeſelb<ex>e</ex>n</expan> ſache durch <expan>vnſ<ex>er</ex>n</expan> willen in </ab>
+<ab facs="#facs_85_r2l17">gütlıkeit <expan>hıecʒwiſch<ex>e</ex>n</expan> vnd ſant Merteins tag ſchıerſt beſteen </ab>
+<ab facs="#facs_85_r2l18">laſſen wöllet / vver eʒ <expan>dan<ex>n</ex></expan> daʒ Jr in <expan>derſelb<ex>e</ex>n</expan>
+<del rend="strikethrough"><gap reason="illegible"/></del> cʒeite her </ab>
+<ab facs="#facs_85_r2l19">cʒu vns kumen würdet / Das 
+<del rend="strikethrough"> ſel </del> wer vns cʒemal lieb / </ab>
+<ab facs="#facs_85_r2l21">Möht Jr aber ſelber niht <expan>kume<ex>n</ex></expan>
+<add><ab facs="#facs_85_r2l20">So <expan>ſeh<ex>e</ex>n</expan> vvır doch <expan>g<ex>er</ex>n</expan> </ab></add> daʒ Jr 
+<del rend="strikethrough"> aber </del> ewr potſchaft </ab>
+<ab facs="#facs_85_r2l22">vnd gevvalt darümb in <expan>derſelb<ex>e</ex>n</expan> cʒeit her ʒu vns ſchicken </ab>
+<ab facs="#facs_85_r2l23">wölt / So vvolten vvir vns darunter <expan>anneme<ex>n</ex></expan> vnd <expan>arbeite<ex>n</ex></expan> </ab>
+<ab facs="#facs_85_r2l25">daʒ vvir hoffen / daʒ vvir 
+<del rend="strikethrough">eʒ </del>
+<add><ab facs="#facs_85_r2l24">dıe ſache </ab></add> <expan>cʒwiſch<ex>e</ex>n</expan> euch vnd den <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_85_r2l26">
+<add>cʒu</add> gutlikeit bringen wolten / 
+<del rend="strikethrough">vnd biten <expan>dan<ex>n</ex></expan></del>
+<add><ab facs="#facs_85_line_1584367264442_269">vnd </ab></add> wo vvir <expan>ewr<ex>er</ex></expan> </ab>
+<ab facs="#facs_85_r2l27"><expan>ervvirdik<ex>eit</ex></expan> lieb vnd dinſte etc / vnd bıten des ewr <expan>gütl<ex>ich</ex></expan> </ab>
+<ab facs="#facs_85_r2l28">
+<add><expan>v<ex>er</ex>ſ<ex>chriben</ex></expan></add> <expan>antvv<ex>ur</ex>t</expan> wider beẏ <expan>dıſe<ex>m</ex></expan> <expan>bote<ex>n</ex></expan> / <expan>dat<ex>um</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_85" id="42v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Tumprobst czu <expan>Bamb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Erwirdig<ex>er</ex></expan> und lieber <expan>h<ex>er</ex>re</expan>,
+                        als her Wyrich von <expan>Trewtling<ex>en</ex></expan>
+<expan>czwisch<ex>e</ex>n</expan>
+<expan>ewr<ex>er</ex></expan>
+<expan>erwirdik<ex>eit</ex></expan> und <add>ettlich</add>
+<expan>uns<ex>er</ex>r</expan> burger <expan>arme<ex>n</ex>leuten</expan>
+<add>von <expan>Krote<ex>n</ex>bach</expan></add> einen tag gemacht und euch
+                        und <add>den</add>
+<expan>uns<ex>er</ex>n</expan> den <expan>v<ex>er</ex>kündet</expan> het,
+                                <expan>denselb<ex>e</ex>n</expan> tag der
+                            <expan>eg<ex>enante</ex></expan> her Wyrich den
+                            <expan>uns<ex>er</ex>n</expan> absagt <add><expan>und
+                                    widerpote<ex>n</ex></expan></add> hat, als daz das der
+                                <expan>uns<ex>er</ex>n</expan> schulde niht ist, wan sie den gern
+                        gesucht heten, nu <expan>seh<ex>e</ex>n</expan> wir niht gern, daz die sache
+                                <expan>czwisch<ex>e</ex>n</expan> euch und den
+                            <expan>uns<ex>er</ex>n</expan> also
+                                <add><expan>unaustrag<ex>en</ex></expan></add> sten sol, und
+                            <add>könden wir</add> darczu gedienen, daz das
+                            <expan>gütlich<ex>e</ex>n</expan>
+<expan>abgetrage<ex>n</ex></expan> würde, das <expan>tete<ex>n</ex></expan>
+                        wir <expan>g<ex>er</ex>n</expan>. Und <expan>dar<ex>umb</ex></expan>
+<expan>ro<ex>gamus</ex></expan>, daz ir <expan>dieselb<ex>e</ex>n</expan>
+                        sache durch <expan>uns<ex>er</ex>n</expan> willen in gütlikeit
+                                <expan>hieczwisch<ex>e</ex>n</expan> und <app>
+<note><q type="date">sant Merteins tag schierst</q>11.11.1414</note>
+</app> besteen lassen wöllet; wer ez <expan>dan<ex>n,</ex></expan> daz ir in
+                                <expan>derselb<ex>e</ex>n</expan> czeite her czu uns kumen würdet,
+                        das wer uns czemal lieb. Möht ir aber selber niht
+                            <expan>kume<ex>n,</ex></expan>
+<add>so <expan>seh<ex>e</ex>n</expan> wir doch
+                            <expan>g<ex>er</ex>n</expan></add>, daz ir ewr potschaft und gewalt
+                        darümb in <expan>derselb<ex>e</ex>n</expan> czeit her zu uns schicken wölt,
+                        so wolten wir uns darunter <expan>anneme<ex>n</ex></expan> und
+                                <expan>arbeite<ex>n,</ex></expan> daz wir hoffen, daz wir <add>die
+                            sache</add>
+<expan>czwisch<ex>e</ex>n</expan> euch und den
+                            <expan>uns<ex>er</ex>n</expan>
+<add>czu</add> gutlikeit bringen wolten; <add>und</add> wo wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>erwirdik<ex>eit</ex></expan> lieb und dinste etc. Und biten des ewr
+                                <expan>gütl<ex>ich,</ex></expan>
+<add><expan>v<ex>er</ex>s<ex>chriben</ex></expan></add>
+<expan>antw<ex>ur</ex>t</expan> wider bey <expan>dise<ex>m</ex></expan>
+<expan>bote<ex>n</ex></expan>. <expan>Dat<ex>um</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

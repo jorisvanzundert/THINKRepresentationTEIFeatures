@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="643" xml:id="l652" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 643 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>044v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 643.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Schenk v. Limpurg, Friedrich III.</persName></ab><ab type="mention"><persName type="mention">Kere, Herren v.</persName></ab><date from="12-02-1410" to="11-03-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_90">
+<surface lrx="2757" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0047_left.png" width="2757px"/>
+<zone lrx="1009" lry="2438" rendition="TextRegion" ulx="1064" uly="3476" xml:id="facs_90_r3"> <zone lrx="1669" lry="2438" rendition="Line" ulx="1064" uly="2381" xml:id="facs_90_r3l24"/>
+<zone lrx="1665" lry="2505" rendition="Line" ulx="1063" uly="2448" xml:id="facs_90_r3l25"/>
+<zone lrx="2663" lry="2715" rendition="Line" ulx="473" uly="2646" xml:id="facs_90_r3l26"/>
+<zone lrx="2720" lry="2780" rendition="Line" ulx="443" uly="2718" xml:id="facs_90_r3l27"/>
+<zone lrx="2679" lry="2849" rendition="Line" ulx="446" uly="2783" xml:id="facs_90_r3l28"/>
+<zone lrx="2584" lry="2928" rendition="Line" ulx="440" uly="2845" xml:id="facs_90_r3l29"/>
+<zone lrx="2731" lry="3008" rendition="Line" ulx="441" uly="2899" xml:id="facs_90_r3l30"/>
+<zone lrx="2667" lry="3082" rendition="Line" ulx="449" uly="2984" xml:id="facs_90_r3l31"/>
+<zone lrx="2693" lry="3155" rendition="Line" ulx="434" uly="3061" xml:id="facs_90_r3l32"/>
+<zone lrx="2730" lry="3237" rendition="Line" ulx="447" uly="3133" xml:id="facs_90_r3l33"/>
+<zone lrx="2645" lry="3317" rendition="Line" ulx="432" uly="3210" xml:id="facs_90_r3l34"/>
+<zone lrx="2732" lry="3391" rendition="Line" ulx="429" uly="3284" xml:id="facs_90_r3l35"/>
+<zone lrx="2633" lry="3467" rendition="Line" ulx="439" uly="3362" xml:id="facs_90_r3l36"/>
+<zone lrx="1009" lry="3549" rendition="Line" ulx="445" uly="3476" xml:id="facs_90_r3l37"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Friedrich Schenk III. von Limpurg</head><p>Der Rat bittet wegen der vielen Überfälle der Herren von der Kere um baldige Zusammenkunft des Landfriedens zur Sicherung des Landes und der Straßen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_90" id="44v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_90_r3l24"><expan>H<ex>er</ex>n</expan> Fridrich Schencken </ab>
+<ab facs="#facs_90_r3l25"><expan>h<ex>er</ex>ren</expan> cʒu Lÿmpurg etc </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_90_r3l26">Edler <expan>h<ex>er</ex>re</expan> / vvan das land vaſt vnfridlich worden iſt / vnd nemlich / die von der </ab>
+<ab facs="#facs_90_r3l27">kere / vnd <expan>ande<ex>r</ex></expan> / vaſt v̈mb reiten / vnd auf den Straſʒen angreiffen / vnd wil enthalt </ab>
+<ab facs="#facs_90_r3l28">nüſſe / vnd gunſt in <expan>de<ex>m</ex></expan> lande haben / Alſo / daʒ verſehenlich / vvo man nicht </ab>
+<ab facs="#facs_90_r3l29">dartʒu gedenck / vnd tu / daʒ die ſtraſʒe / vnd das lande cʒemal irre vverden / </ab>
+<ab facs="#facs_90_r3l30">Davon <expan>w<ex>er</ex></expan> es ew geuellich / vnd dewht ew füglich ſein / So dewht vns <expan>gerate<ex>n</ex></expan> ſein / </ab>
+<ab facs="#facs_90_r3l31">daʒ Jr die / di cʒu dem lantfrid gehören / <expan>cʒeſame<ex>n</ex></expan> gemant / vnd beſant het / daʒ </ab>
+<ab facs="#facs_90_r3l32">man gedecht / daʒ das land / vnd die <expan>ſtraſʒe<ex>n</ex></expan> cʒu peſſerm fride <expan>kome<ex>n</ex></expan> / deʒ cʒu </ab>
+<ab facs="#facs_90_r3l33">diſencʒeiten ein groſʒ notdürft <expan>vve<ex>r</ex></expan> / Als das ewr gnade <expan>ſelb<ex>er</ex></expan> auch wol <expan>v<ex>er</ex>ſteet</expan> / </ab>
+<ab facs="#facs_90_r3l34">vvas ew aber <expan>darÿnne<ex>n</ex></expan> füglich / vnd geuellich iſt / das mögt Jr wol tuͦn / </ab>
+<ab facs="#facs_90_r3l35">vnd würdt Jr ein <expan>mainu<ex>n</ex>g</expan> tuͦn / daʒ Jr die dann etvvo in die neͣhe / vmb vns tet </ab>
+<ab facs="#facs_90_r3l36">vnd wöllet vns <expan>ew<ex>r</ex></expan> <expan>maynu<ex>n</ex>g</expan> darynne an <expan>ew<ex>r</ex>m</expan> brief / beÿ diſem <expan>pote<ex>n</ex></expan> <expan>wid<ex>er</ex></expan> </ab>
+<ab facs="#facs_90_r3l37">vviſʒen laſʒen / <expan>Dat<ex>um</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_90" id="44v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Fridrich Schencken,
+                            <expan>h<ex>er</ex>ren</expan> czu Lympurg etc.</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Edler <expan>h<ex>er</ex>re</expan>, wan das land vast unfridlich worden ist
+                        und nemlich die von der Kere und <expan>ande<ex>r</ex></expan> vast ümb
+                        reiten und auf den straszen angreiffen und wil enthaltnüsse und gunst in
+                                <expan>de<ex>m</ex></expan> lande haben, also daz versehenlich, wo
+                        man nicht darczu gedenck und tu, daz die strasze und das lande czemal irre
+                        werden. Davon <expan>w<ex>er</ex></expan> es ew gevellich und dewht ew
+                        füglich sein, so dewht uns <expan>gerate<ex>n</ex></expan> sein, daz ir die,
+                        di czu dem lantfrid gehören, <expan>czesame<ex>n</ex></expan> gemant und
+                        besant het, daz man gedecht, daz das land und die
+                            <expan>strasze<ex>n</ex></expan> czu pesserm fride
+                            <expan>kome<ex>n</ex></expan>, dez czu disenczeiten ein grosz notdürft
+                                <expan>we<ex>r</ex></expan>, als das ewr gnade
+                                <expan>selb<ex>er</ex></expan> auch wol
+                            <expan>v<ex>er</ex>steet</expan>; was ew aber
+                            <expan>darynne<ex>n</ex></expan> füglich und gevellich ist, das mögt ir
+                        wol tuͦn; und würdt ir ein <expan>mainu<ex>n</ex>g</expan> tuͦn, daz ir die
+                        dann etwo in die neͣhe umb uns tet; und wöllet uns
+                            <expan>ew<ex>r</ex></expan>
+<expan>maynu<ex>n</ex>g</expan> darynne an <expan>ew<ex>r</ex>m</expan>
+                        brief bey disem <expan>pote<ex>n</ex></expan>
+<expan>wid<ex>er</ex></expan> wiszen laszen.
+                        <expan>Dat<ex>um</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

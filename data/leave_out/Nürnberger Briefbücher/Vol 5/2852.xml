@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2852" xml:id="l2863" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2852 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>205r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2852.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q101459" type="recipient">Friedrich III. v. Aufseß, Bf. v. Bamberg</persName></ab><ab type="mention"><placeName type="mention">Kornburg (Gt. d. Stadt Nürnberg)</placeName><placeName type="mention">Heilig-Geist-Spital (Nürnberg)</placeName><persName type="mention">Geschwind, Friedrich</persName><persName type="mention">Schilmeister, Bernold</persName></ab><date from="25-02-1422" to="15-04-1422" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_412">
+<surface lrx="2752" lry="3745" ulx="0" uly="0">
+<graphic height="3745px" url="Rst Nbg-Briefbücher-Nr 5_0209_right.png" width="2752px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_412_r1">
+</zone>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_412_r2">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Friedrich III. von Aufseß, Bischof von Bamberg</head><p>Der Rat präsentiert Bernold Schilmeister auf die nach einem Tausch mit Friedrich Geschwind vakant gewordene Pfründe des Marienaltars im Heilig-Geist-Spital.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_412" id="205r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich normalisiert transkribiert. 
+</div>
+</div><div type="regularised"><pb facs="#facs_412" id="205r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Reve<ex>re</ex>ndo</expan> in <expan>Chr<ex>ist</ex>o</expan>
+<expan>p<ex>at</ex>ri</expan> et <expan>d<ex>omi</ex>no</expan>,
+                                <expan>d<ex>omi</ex>no</expan> Friderico
+                            <expan>Ep<ex>isco</ex>po</expan>
+<expan>Bamb<ex>ergensis</ex></expan>
+<expan>v<ex>e</ex>l</expan>
+<expan>ei<ex>u</ex>s</expan> in
+                            <expan>sp<ex>irit</ex>ualib<ex>us</ex></expan> vicario
+                                <expan>g<ex>e</ex>n<ex>er</ex>ali</expan>
+<expan>p<ex>ro</ex>consules</expan> et consules etc.</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Reve<ex>re</ex>nde</expan>
+<expan>pat<ex>er</ex></expan> et <expan>d<ex>omi</ex>ne</expan>
+<expan>g<ex>ene</ex>rose</expan>. Ad <expan>prebenda<ex>m</ex></expan>
+<expan>altar<ex>is</ex></expan>
+<expan>gl<ex>or</ex>ioss<ex>ima</ex></expan>
+<expan>virg<ex>inis</ex></expan>
+<expan>Ma<ex>r</ex>ie</expan> in novo hospitali penes nos <expan>cui<ex>us</ex></expan>
+            ius <expan>p<ex>at</ex>ro<ex>na</ex>t<ex>us</ex></expan> ad nos spectare
+                <expan>dinoscit<ex>ur</ex></expan>
+<expan>vacant<ex>is</ex></expan> ex <expan>libe<ex>r</ex>a</expan>
+<expan>resignac<ex>i</ex>on<ex>e</ex></expan>
+<expan>p<ex>er</ex></expan>
+<expan>d<ex>omi</ex>n<ex>u</ex>m</expan>
+<expan>Frider<ex>icum</ex></expan>
+<expan>d<ex>i</ex>c<ex>tu</ex>m</expan> Geswind ultimi
+                <expan>p<ex>rae</ex>bendar<ex>ii</ex></expan>
+<expan>eiusde<ex>m</ex></expan>
+<expan>s<ex>an</ex>c<ex>t</ex>a</expan>
+<expan>cora<ex>m</ex></expan>
+<expan>testib<ex>us</ex></expan> ydoneis in <expan>Kornb<ex>ur</ex>g</expan> ac
+                <expan>l<ex>itte</ex>ris</expan>
+<expan>sigillat<ex>is</ex></expan>
+<expan>p<ex>ro</ex>p<ex>r</ex>iisq<ex>ue</ex></expan>
+<expan>manib<ex>us</ex></expan>
+<expan>c<ex>on</ex>sc<ex>ri</ex>pt<ex>is</ex></expan>
+<expan>p<ex>ro</ex>pter</expan>
+<add><expan>c<ex>on</ex>tract<ex>is</ex></expan></add>
+<expan>p<ex>er</ex>mutac<ex>i</ex>on<ex>es</ex></expan> inter
+              <expan>ip<ex>s</ex>um</expan>
+<expan>d<ex>omin</ex>um</expan>
+<expan>Frider<ex>icum</ex></expan>
+<expan>p<ex>ro</ex></expan>
+<expan>ip<ex>s</ex>a</expan>
+<expan>p<ex>rae</ex>benda</expan> ex una ac <expan>honestu<ex>m</ex></expan>
+<expan>p<ex>res</ex>b<ex>yte</ex>r<ex>u</ex>m</expan>
+<expan>d<ex>omin</ex>um</expan>
+<expan>Bernold<ex>em</ex></expan>
+<add>Schilmeister</add> ex <expan>tu<ex>n</ex>c</expan>
+<expan>fector<ex>is</ex></expan>
+<expan>p<ex>ar</ex>roch<ex>iae</ex></expan>
+<expan>ecc<ex>lesi</ex>e</expan> in <expan>Kornb<ex>ur</ex>g</expan>
+<expan>p<ex>ro</ex></expan>
+<expan>ip<ex>s</ex>a</expan>
+<expan>p<ex>ar</ex>roch<ex>ia</ex></expan>
+<expan>ecc<ex>lesi</ex>a<ex>m</ex></expan> ex <expan>alt<ex>er</ex>a</expan>
+<expan>p<ex>ar</ex>te</expan>, <expan>v<ex>est</ex>re</expan>
+<expan>reve<ex>re</ex>nd<ex>um</ex></expan>
+<expan>p<ex>raese</ex>ntati</expan>
+<expan>p<ex>rae</ex>d<ex>i</ex>c<ex>tu</ex>m</expan>
+<expan>d<ex>omin</ex>um</expan>
+<expan>Bernold<ex>em</ex></expan> Schulmeister
+              <expan>p<ex>raese</ex>tand<ex>um</ex></expan>
+<expan>duxi<ex>mus</ex></expan>
+<expan>hu<ex>m</ex>il<ex>ite</ex>r</expan>
+<expan>supplicant<ex>is</ex></expan>
+<expan>q<ex>ua</ex>t<ex>en</ex>us</expan>
+<expan>eund<ex>em</ex></expan>
+<expan>d<ex>omin</ex>um</expan>
+<expan>Bernold<ex>um</ex></expan> ad <expan>an<ex>te</ex>d<ex>ic</ex>ti</expan>
+<expan>altar<ex>is</ex></expan>
+<expan>p<ex>rae</ex>bend<ex>um</ex></expan>
+<expan>investr<ex>is</ex></expan>
+<expan>dig<ex>nemi</ex><hi rend="sup">ni</hi></expan>
+<expan>g<ex>ene</ex>rose</expan>. <expan>Har<ex>um</ex></expan>
+<expan>test<ex>ans</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="799" xml:id="l808" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 799 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>078r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 799.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender">-</ab><ab type="recipient">-</ab><ab type="mention"><persName type="mention">Zollner, Gerhard</persName><persName type="mention">Tetzel, Hans I.</persName></ab><date from="10-09-1410" to="10-09-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_157">
+<surface lrx="2806" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0080_right.png" width="2806px"/>
+<zone lrx="1536" lry="312" rendition="TextRegion" ulx="729" uly="398" xml:id="facs_157_r2">
+<zone lrx="2031" lry="312" rendition="Line" ulx="709" uly="252" xml:id="facs_157_r2l1"/>
+<zone lrx="2004" lry="382" rendition="Line" ulx="719" uly="327" xml:id="facs_157_r2l2"/>
+<zone lrx="1536" lry="458" rendition="Line" ulx="729" uly="398" xml:id="facs_157_r2l4"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="mayor">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über die aktuelle Bürgermeisterfrage</head><p>Amtierende Bürgermeister sind seit dem 10. September 1410 Gerhard Zollner und Hans I. Tetzel.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_157" id="78r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_157_r2l1"><expan>Burg<ex>er</ex>meiſter</expan> her Gerhart Cʒöllner / vnd <expan>h<ex>er</ex></expan> hans </ab>
+<ab facs="#facs_157_r2l2">Tetʒʒell / <expan>Act<ex>um</ex></expan> am <expan>Mitvvoche<ex>n</ex></expan> nach <expan>vnſ<ex>er</ex></expan> <expan>frawe<ex>n</ex></expan> tag </ab>
+<ab facs="#facs_157_r2l4"><expan>Natiui<hi rend="sup">t<ex>atis</ex></hi></expan> Anno etc decimo $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_157" id="78r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Burg<ex>er</ex>meister</expan> her Gerhart Czöllner und
+                                <expan>h<ex>er</ex></expan> Hans Teczzell;
+                            <expan>act<ex>um</ex></expan> am <expan>mitwoche<ex>n</ex></expan> nach
+                                <expan>uns<ex>er</ex></expan>
+<expan>frawe<ex>n</ex></expan> tag <expan>nativi<hi rend="sup">t<ex>atis</ex></hi></expan> anno etc. decimo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

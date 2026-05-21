@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1502" xml:id="l1517" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1502 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>262v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1502.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Echter v. Mespelbrunn, Hanneman</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3004" type="mention">Ingolstadt</placeName><placeName ref="https://www.wikidata.org/wiki/Q61724" type="mention">Tauberbischofsheim</placeName></ab><date from="11-10-1412" to="11-10-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_526">
+<surface lrx="2801" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0265_left.png" width="2801px"/>
+<zone lrx="1936" lry="2016" rendition="TextRegion" ulx="1348" uly="3257" xml:id="facs_526_r1"> <zone lrx="2143" lry="2016" rendition="Line" ulx="1348" uly="1922" xml:id="facs_526_r1l15"/>
+<zone lrx="1936" lry="2097" rendition="Line" ulx="1343" uly="2015" xml:id="facs_526_r1l16"/>
+<zone lrx="2670" lry="2249" rendition="Line" ulx="626" uly="2139" xml:id="facs_526_r1l17"/>
+<zone lrx="2650" lry="2349" rendition="Line" ulx="674" uly="2231" xml:id="facs_526_r1l18"/>
+<zone lrx="2662" lry="2445" rendition="Line" ulx="665" uly="2316" xml:id="facs_526_r1l19"/>
+<zone lrx="2616" lry="2539" rendition="Line" ulx="676" uly="2406" xml:id="facs_526_r1l20"/>
+<zone lrx="2609" lry="2626" rendition="Line" ulx="681" uly="2499" xml:id="facs_526_r1l21"/>
+<zone lrx="2665" lry="2733" rendition="Line" ulx="691" uly="2596" xml:id="facs_526_r1l22"/>
+<zone lrx="2538" lry="2823" rendition="Line" ulx="672" uly="2697" xml:id="facs_526_r1l23"/>
+<zone lrx="2575" lry="2907" rendition="Line" ulx="663" uly="2789" xml:id="facs_526_r1l24"/>
+<zone lrx="2663" lry="2991" rendition="Line" ulx="655" uly="2869" xml:id="facs_526_r1l25"/>
+<zone lrx="2638" lry="3092" rendition="Line" ulx="685" uly="2966" xml:id="facs_526_r1l26"/>
+<zone lrx="2573" lry="3186" rendition="Line" ulx="669" uly="3075" xml:id="facs_526_r1l27"/>
+<zone lrx="2729" lry="3285" rendition="Line" ulx="711" uly="3153" xml:id="facs_526_r1l28"/>
+<zone lrx="2691" lry="3377" rendition="Line" ulx="693" uly="3257" xml:id="facs_526_r1l30"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hanneman Echter von Mespelbrunn, Viztum von Aschaffenburg</head><p>Der Rat dankt für die Herausgabe der in Tauberbischofsheim aufgehaltenen Karren samt Ladung, teilt Bestrafung der am Handel beteiligten Nürnberger mit und weist darauf hin, dass der Verantwortliche aus Ingolstadt stammt und kein Bürger zu Nürnberg ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_526" id="262v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_526_r1l15">Hanman <expan>Echter<ex>n</ex></expan> vicʒtum </ab> <ab facs="#facs_526_r1l16">cʒu Aſſchaffenburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_526_r1l17"><expan>L<ex>ieber</ex></expan> her vıcʒtum Als Jr vns
+                                <expan>geſchrib<ex>e</ex>n</expan> habt von der karren vvegen </ab>
+<ab facs="#facs_526_r1l18">die cʒu Bẏſſchofſheim aufgehalten ſein vvorden / vnd
+                        vvie Jr den ~ </ab>
+<ab facs="#facs_526_r1l19"><expan>vnſ<ex>er</ex>n</expan> daʒ ir habt volgen
+                        laſſen durch <expan>vnſ<ex>er</ex>n</expan> vvillen / des
+                                <expan>dancke<ex>n</ex></expan> vvir </ab>
+<ab facs="#facs_526_r1l20"><expan>ewr<ex>er</ex></expan> erberkeit mit
+                                <expan>gancʒe<ex>m</ex></expan> fleiſʒ / vnd begern das v̈mb ew
+                                <expan>vvılliklıch<ex>e</ex>n</expan>
+</ab>
+<ab facs="#facs_526_r1l21">cʒu verdienen / vnd laſſen ewr
+                                <expan>Erb<ex>erkeit</ex></expan>
+<expan>vvıſſ<ex>en</ex></expan> daʒ die <expan>vnſ<ex>er</ex>n</expan> der </ab>
+<ab facs="#facs_526_r1l22">dieſelb habe ıſt für vns
+                            <expan>kume<ex>n</ex></expan> ſein vnd <expan>dieſelb<ex>e</ex>n</expan>
+                        habe vor </ab>
+<ab facs="#facs_526_r1l23">vns cʒu den <expan>heılıg<ex>en</ex></expan> behabt
+                                <expan>hab<ex>e</ex>n</expan> daʒ die Jr vnd
+                            <expan>ande<ex>r</ex></expan>
+</ab>
+<ab facs="#facs_526_r1l24"><expan>vnſ<ex>er</ex></expan>
+<expan>burge<ex>r</ex></expan> ſeẏ / Alſo daʒ dhein auſʒman vveder teil
+                        noch </ab>
+<ab facs="#facs_526_r1l25">gemain daran nıcht hab / vnd vvır
+                                <expan>hab<ex>e</ex>n</expan> auch die
+                            <expan>vnſ<ex>er</ex>n</expan>
+</ab>
+<ab facs="#facs_526_r1l26">die beẏ dem handel geweſen ſein vnd ſchuld daran ge </ab>
+<ab facs="#facs_526_r1l27">habt <expan>hab<ex>e</ex>n</expan>
+<expan>daru<ex>m</ex>b</expan> geſtrafft / Aber der recht ſchuldıg </ab>
+<ab facs="#facs_526_r1l28">der den handel <expan>erhab<ex>e</ex>n</expan> vnd
+                        gemacht hat ıſt <expan>vo<ex>n</ex></expan> Jngelſtat </ab>
+<ab facs="#facs_526_r1l30">vnd iſt nicht <expan>vnſ<ex>e</ex>r</expan>
+<expan>burg<ex>er</ex></expan> / vnd wo vvır etc
+                            <expan>Dat<ex>um</ex></expan> ut <expan>S<ex>upra</ex></expan>
+</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_526" id="262v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hanman <expan>Echter<ex>n</ex></expan>, vicztum czu Asschaffenburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> her vicztum, als ir uns
+                                <expan>geschrib<ex>e</ex>n</expan> habt von der karren wegen, die
+                        czu Bysschofsheim aufgehalten sein worden, und wie ir den
+                                <expan>uns<ex>er</ex>n</expan> daz ir habt volgen lassen durch
+                                <expan>uns<ex>er</ex>n</expan> willen, des
+                            <expan>dancke<ex>n</ex></expan> wir <expan>ewr<ex>er</ex></expan>
+                        erberkeit mit <expan>gancze<ex>m</ex></expan> fleisz und begern das ümb ew
+                                <expan>williklich<ex>e</ex>n</expan> czu verdienen; und lassen ewr
+                                <expan>erb<ex>erkeit</ex></expan>
+<expan>wiss<ex>en</ex></expan>, daz die <expan>uns<ex>er</ex>n</expan>, der
+                        dieselb habe ist, für uns <expan>kume<ex>n</ex></expan> sein und
+                                <expan>dieselb<ex>e</ex>n</expan> habe vor uns czu den
+                                <expan>heilig<ex>en</ex></expan> behabt
+                            <expan>hab<ex>e</ex>n</expan>, daz die ir und
+                            <expan>ande<ex>r</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>burge<ex>r</ex></expan> sey, also daz dhein auszman weder teil noch
+                        gemain daran nicht hab, und wir <expan>hab<ex>e</ex>n</expan> auch die
+                                <expan>uns<ex>er</ex>n</expan>, die bey dem handel gewesen sein und
+                        schuld daran gehabt <expan>hab<ex>e</ex>n,</expan>
+<expan>daru<ex>m</ex>b</expan> gestrafft; aber der recht schuldig, der den
+                        handel <expan>erhab<ex>e</ex>n</expan> und gemacht hat, ist
+                                <expan>vo<ex>n</ex></expan> Ingelstat und ist nicht
+                                <expan>uns<ex>e</ex>r</expan>
+<expan>burg<ex>er</ex></expan>. Und wo wir etc.
+                            <expan>Dat<ex>um</ex></expan> ut <expan>s<ex>upra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2444" xml:id="l2455" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2444 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>096r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2444.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Götzendorfer, Seitz</persName></ab><ab type="mention"><persName type="mention">Stör, N.</persName><persName type="mention">Stör, N., Vetter des Stör, N.</persName></ab><date from="23-10-1420" to="23-10-1420" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_194">
+<surface lrx="2644" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0100_right.png" width="2644px"/>
+<zone lrx="1358" lry="257" rendition="TextRegion" ulx="1141" uly="926" xml:id="facs_194_r1">
+<zone lrx="1358" lry="257" rendition="Line" ulx="654" uly="163" xml:id="facs_194_r1l1"/>
+<zone lrx="2403" lry="394" rendition="Line" ulx="406" uly="303" xml:id="facs_194_r1l2"/>
+<zone lrx="2408" lry="489" rendition="Line" ulx="435" uly="388" xml:id="facs_194_r1l3"/>
+<zone lrx="2437" lry="563" rendition="Line" ulx="428" uly="496" xml:id="facs_194_r1l4"/> <zone lrx="2421" lry="654" rendition="Line" ulx="441" uly="572" xml:id="facs_194_r1l6"/>
+<zone lrx="2371" lry="754" rendition="Line" ulx="441" uly="645" xml:id="facs_194_r1l7"/>
+<zone lrx="2403" lry="845" rendition="Line" ulx="448" uly="732" xml:id="facs_194_r1l8"/>
+<zone lrx="2451" lry="944" rendition="Line" ulx="442" uly="822" xml:id="facs_194_r1l9"/>
+<zone lrx="2362" lry="1043" rendition="Line" ulx="450" uly="926" xml:id="facs_194_r1l10"/> <zone lrx="1367" lry="587" rendition="Line" ulx="1141" uly="535" xml:id="facs_194_line_1577090170327_1809"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Seitz Götzendorfer</head><p>Der Rat teilt mit, dass N. Stör, Bürger zu Nürnberg, der den Adressaten angeblich verdächtigt, bereits verstorben ist, und versichert die Freundschaft.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_194" id="96r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_194_r1l1"><expan>Seıcʒe<ex>n</ex></expan> <expan>göcʒenſtorff<ex>er</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_194_r1l2"><expan>L<ex>ieber</ex></expan> ſeıcʒ als Jr vns <expan>verſchr<ex>iben</ex></expan> habt wıe eẅch <expan>ankome<ex>n</ex></expan> ſey . daʒ eẅch <expan>vnſ<ex>er</ex></expan> </ab>
+<ab facs="#facs_194_r1l3"><expan>b<ex>urger</ex></expan> / der Stör <expan>v<ex>er</ex>denken</expan> ſüll von guts <expan>vveg<ex>en</ex></expan> daʒ Jm <expan>genome<ex>n</ex></expan> ſey <expan>word<ex>en</ex></expan> etc </ab>
+<ab facs="#facs_194_r1l4">das <expan>hab<ex>e</ex>n</expan> wır <expan>vernom<ex>en</ex></expan> / Vnd <expan>hab<ex>e</ex>n</expan> / <expan>vnſer<ex>r</ex></expan> <expan>b<ex>urger</ex></expan> / <expan>eine<ex>m</ex></expan> ~ den Störn den wir </ab>
+<ab facs="#facs_194_r1l6"><expan>meynte<ex>n</ex></expan> den das angıeng . 
+<add><ab facs="#facs_194_line_1577090170327_1809">für vns </ab></add> beſandt vnd mit Jm <expan>dauo<ex>n</ex></expan> geredt / der hat </ab>
+<ab facs="#facs_194_r1l7">vns <expan>geantw<ex>ur</ex>t</expan> / daʒ ~ ſein <expan>vett<ex>er</ex></expan> der Stör dem gut <expan>genome<ex>n</ex></expan> ſey <expan>word<ex>en</ex></expan> </ab>
+<ab facs="#facs_194_r1l8">von tods <expan>weg<ex>en</ex></expan> <expan>abgang<ex>en</ex></expan> ſey . daʒ er vnd <expan>and<ex>er</ex></expan> ſein freẅnd ʒu der ſache </ab>
+<ab facs="#facs_194_r1l9">nıht <expan>wıſſ<ex>en</ex></expan> ʒutun . ſo <expan>wıſſ<ex>en</ex></expan> wır in <expan>ſund<ex>er</ex>heıt</expan> ʒu <expan>dıſ<ex>en</ex></expan> <expan>ʒeıt<ex>en</ex></expan> mıt eẅch auch </ab>
+<ab facs="#facs_194_r1l10">nıht ʒu <expan>ſchık<ex>en</ex></expan> <expan>hab<ex>e</ex>n</expan> denn guts / <expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi> <expan>p<ex>oſt</ex></expan> xȷ<hi rend="sup">M</hi> <expan>vırgınu<ex>m</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_194" id="96r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Seicze<ex>n</ex></expan>
+<expan>Göczenstorff<ex>er</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Seicz, als ir uns
+                            <expan>verschr<ex>iben</ex></expan> habt, wie ewch
+                                <expan>ankome<ex>n</ex></expan> sey, daz ewch
+                            <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan> der Stör <expan>v<ex>er</ex>denken</expan>
+                        süll von guts <expan>weg<ex>en</ex></expan>, daz im
+                            <expan>genome<ex>n</ex></expan> sey <expan>word<ex>en</ex></expan> etc.,
+                        das <expan>hab<ex>e</ex>n</expan> wir <expan>vernom<ex>en</ex></expan>. Und
+                                <expan>hab<ex>e</ex>n</expan>
+<expan>unser<ex>r</ex></expan>
+<expan>b<ex>urger</ex></expan>
+<expan>eine<ex>m</ex></expan> den Störn, den wir
+                            <expan>meynte<ex>n</ex></expan>, den das angieng, <add>für uns</add>
+                        besandt und mit im <expan>davo<ex>n</ex></expan> geredt; der hat uns
+                                <expan>geantw<ex>ur</ex>t</expan>, daz sein
+                            <expan>vett<ex>er</ex></expan> der Stör, dem gut
+                            <expan>genome<ex>n</ex></expan> sey <expan>word<ex>en</ex></expan>, von
+                        tods <expan>weg<ex>en</ex></expan>
+<expan>abgang<ex>en</ex></expan> sey, daz er und
+                            <expan>and<ex>er</ex></expan> sein frewnd zu der sache niht
+                                <expan>wiss<ex>en</ex></expan> zu tun. So
+                            <expan>wiss<ex>en</ex></expan> wir in <expan>sund<ex>er</ex>heit</expan>
+                        zu <expan>dis<ex>en</ex></expan>
+<expan>zeit<ex>en</ex></expan> mit ewch auch niht zu
+                            <expan>schik<ex>en</ex></expan>
+<expan>hab<ex>e</ex>n</expan> denn guts. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi>
+<expan>p<ex>ost</ex></expan> xi<hi rend="sup">m</hi>
+<expan>virginu<ex>m</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

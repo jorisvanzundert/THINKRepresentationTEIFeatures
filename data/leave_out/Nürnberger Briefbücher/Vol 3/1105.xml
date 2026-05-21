@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1105" xml:id="l1120" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1105 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>155r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1105.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q4126" type="recipient">Schweinfurt</placeName></ab><ab type="mention"><placeName type="mention">Franken (Region)</placeName><placeName ref="https://www.wikidata.org/wiki/Q153494" type="mention">Rothenburg o. d. Tauber</placeName><placeName ref="https://www.wikidata.org/wiki/Q132278" type="mention">Bad Windsheim</placeName><placeName ref="https://www.wikidata.org/wiki/Q44500" type="mention">Weißenburg in Bayern</placeName></ab><date from="27-07-1411" to="27-07-1411" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_311">
+<surface lrx="2797" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0157_right.png" width="2797px"/>
+<zone lrx="1502" lry="2115" rendition="TextRegion" ulx="1129" uly="3052" xml:id="facs_311_r3"> <zone lrx="1502" lry="2115" rendition="Line" ulx="1129" uly="2015" xml:id="facs_311_r3l16"/>
+<zone lrx="2363" lry="2241" rendition="Line" ulx="467" uly="2120" xml:id="facs_311_r3l17"/>
+<zone lrx="2398" lry="2319" rendition="Line" ulx="475" uly="2217" xml:id="facs_311_r3l18"/>
+<zone lrx="2422" lry="2395" rendition="Line" ulx="492" uly="2311" xml:id="facs_311_r3l19"/>
+<zone lrx="2469" lry="2462" rendition="Line" ulx="502" uly="2395" xml:id="facs_311_r3l20"/>
+<zone lrx="2445" lry="2549" rendition="Line" ulx="479" uly="2473" xml:id="facs_311_r3l21"/>
+<zone lrx="2429" lry="2625" rendition="Line" ulx="493" uly="2553" xml:id="facs_311_r3l22"/>
+<zone lrx="2520" lry="2701" rendition="Line" ulx="497" uly="2639" xml:id="facs_311_r3l23"/>
+<zone lrx="2519" lry="2778" rendition="Line" ulx="503" uly="2715" xml:id="facs_311_r3l24"/>
+<zone lrx="2546" lry="2870" rendition="Line" ulx="524" uly="2784" xml:id="facs_311_r3l25"/>
+<zone lrx="2469" lry="2957" rendition="Line" ulx="507" uly="2865" xml:id="facs_311_r3l26"/>
+<zone lrx="2654" lry="3045" rendition="Line" ulx="525" uly="2941" xml:id="facs_311_r3l27"/>
+<zone lrx="2603" lry="3147" rendition="Line" ulx="494" uly="3052" xml:id="facs_311_r3l28"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Schweinfurt</head><p>Der Rat teilt mit, dass er den Vorschlag einer Zusammenkunft der fränkischen Reichsstädte wegen der Königswahl in Frankfurt am Main begrüßt und die anderen drei Städte gebeten hat, am Dienstag in einer Woche Gesandte nach Nürnberg zu schicken.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_311" id="155r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_311_r3l16">Sweinfürt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_311_r3l17"><expan>L<ex>ieben</ex></expan> freund Als Jr vns <expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan> vnd ein abſchrifft in <expan>ewre<ex>m</ex></expan> brief </ab>
+<ab facs="#facs_311_r3l18">geſchıckt habt / des dancken vvir <expan>ewr<ex>er</ex></expan> freuntſchafft mit <expan>gancʒe<ex>m</ex></expan> fleiſʒ </ab>
+<ab facs="#facs_311_r3l19">vnd vvie wol vvir das vor gevviſſet <expan>hab<ex>e</ex>n</expan> ſo tut vns das doch von </ab>
+<ab facs="#facs_311_r3l20">ew ſanfft daʒ Jr vns das auch emboten habt vnd als ew <expan>dan<ex>n</ex></expan> vvol </ab>
+<ab facs="#facs_311_r3l21">geviel daʒ die Stete von francken cʒeſamen kömen vnd ſıch von </ab>
+<ab facs="#facs_311_r3l22">den ſachen etwas <expan>vnt<ex>er</ex>redten</expan> Alſo <expan>hab<ex>e</ex>n</expan> vvir den <expan>Stet<ex>e</ex>n</expan> <expan>Rotemb<ex>ur</ex>g</expan> </ab>
+<ab facs="#facs_311_r3l23"><expan>vvindſh<ex>eim</ex></expan> vnd <expan>vveiſſemb<ex>ur</ex>g</expan> <expan>geſchrıb<ex>e</ex>n</expan> vnd ſie <expan>gepet<ex>e</ex>n</expan> daʒ ſie Jr freund </ab>
+<ab facs="#facs_311_r3l24">auff den Montag als von hewt v̈ber acht tag cʒenacht her cʒu vns </ab>
+<ab facs="#facs_311_r3l25">ſchıcken vnd daʒ man ſich auff den Eritag frü etwas dauon <expan>vnt<ex>er</ex>rede</expan> </ab>
+<ab facs="#facs_311_r3l26">vnd <expan>bıtt<ex>en</ex></expan> <expan>ewr<ex>er</ex></expan> <expan>Erſamk<ex>eit</ex></expan> daʒ Jr die <expan>ewr<ex>e</ex>n</expan> alſo auch her cʒu vns </ab>
+<ab facs="#facs_311_r3l27">ſchicken vvöllet <expan>Alſu<ex>er</ex>re</expan> ew daʒ füglich ſeẏ vnd vvo wir <expan>ewr<ex>er</ex></expan> frunt - </ab>
+<ab facs="#facs_311_r3l28">ſchafft lieb vnd dınſt beweiſen / etc <expan>Dat<ex>um</ex></expan> <expan>fe<ex>r</ex>ıa</expan> <expan>ſ<ex>e</ex>c<ex>un</ex>da</expan> <expan>p<ex>oſt</ex></expan> Jacobi <expan>A<ex>nn</ex><hi rend="sup">o</hi></expan> xȷ<hi rend="sup">o</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_311" id="155r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Sweinfürt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan> freund, als ir uns
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> und ein abschrifft in
+                                <expan>ewre<ex>m</ex></expan> brief geschickt habt, des dancken wir
+                                <expan>ewr<ex>er</ex></expan> freuntschafft mit
+                                <expan>gancze<ex>m</ex></expan> fleisz. Und wie wol wir das vor
+                        gewisset <expan>hab<ex>e</ex>n</expan>, so tut uns das doch von ew sanfft,
+                        daz ir uns das auch emboten habt, und als ew <expan>dan<ex>n</ex></expan>
+                        wol geviel, daz die stete von Francken czesamen kömen und sich von den
+                        sachen etwas <expan>unt<ex>er</ex>redten</expan>, also
+                            <expan>hab<ex>e</ex>n</expan> wir den <expan>stet<ex>e</ex>n</expan>
+<expan>Rotemb<ex>ur</ex>g</expan>, <expan>Windsh<ex>eim</ex></expan> und
+                                <expan>Weissemb<ex>ur</ex>g</expan>
+<expan>geschrib<ex>e</ex>n</expan> und sie <expan>gepet<ex>e</ex>n</expan>,
+                        daz sie ir freund auff den <app><note><q type="date">montag als von hewt über acht tag</q>03.08.1411</note></app>  cze nacht her
+                        czu uns schicken und daz man sich auff den <app><note><q type="date">eritag</q>04.08.1411</note></app> frü etwas davon
+                                <expan>unt<ex>er</ex>rede</expan>. Und
+                            <expan>bitt<ex>en</ex></expan>
+<expan>ewr<ex>er</ex></expan>
+<expan>ersamk<ex>eit</ex></expan>, daz ir die <expan>ewr<ex>e</ex>n</expan>
+                        also auch her czu uns schicken wöllet, <expan>alsv<ex>er</ex>re</expan> ew
+                        daz füglich sey. Und wo wir <expan>ewr<ex>er</ex></expan> fruntschafft lieb
+                        und dinst beweisen etc. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>r</ex>ia</expan>
+<expan>s<ex>e</ex>c<ex>un</ex>da</expan>
+<expan>p<ex>ost</ex></expan> Jacobi <expan>a<ex>nn</ex><hi rend="sup">o</hi></expan> xi<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

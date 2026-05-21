@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1309" xml:id="l1324" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1309 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>208v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1309.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q7042" type="recipient">Amberg</placeName></ab><ab type="mention"><persName type="mention">Topler, Margarethe</persName><persName type="mention">Topler, Heinrich</persName></ab><date from="17-02-1412" to="16-03-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_418">
+<surface lrx="2761" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0211_left.png" width="2761px"/>
+<zone lrx="1380" lry="2021" rendition="TextRegion" ulx="1317" uly="2854" xml:id="facs_418_r1"> <zone lrx="2022" lry="2021" rendition="Line" subtype="paragraph" ulx="1303" uly="1940" xml:id="facs_418_r1l17"/>
+<zone lrx="2509" lry="2209" rendition="Line" subtype="paragraph" ulx="672" uly="2118" xml:id="facs_418_r1l18"/>
+<zone lrx="2562" lry="2328" rendition="Line" ulx="700" uly="2235" xml:id="facs_418_r1l19"/>
+<zone lrx="2533" lry="2444" rendition="Line" ulx="672" uly="2353" xml:id="facs_418_r1l20"/>
+<zone lrx="2637" lry="2553" rendition="Line" subtype="paragraph" ulx="669" uly="2442" xml:id="facs_418_r1l22"/>
+<zone lrx="1380" lry="2567" rendition="Line" ulx="1317" uly="2516" xml:id="facs_418_line_1576425586306_4996"/>
+<zone lrx="2555" lry="2643" rendition="Line" ulx="680" uly="2551" xml:id="facs_418_r1l23"/>
+<zone lrx="2544" lry="2738" rendition="Line" ulx="679" uly="2659" xml:id="facs_418_r1l24"/>
+<zone lrx="2516" lry="2842" rendition="Line" ulx="697" uly="2753" xml:id="facs_418_r1l25"/>
+<zone lrx="2588" lry="2957" rendition="Line" ulx="684" uly="2854" xml:id="facs_418_r1l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Amberg</head><p>Der Rat bittet um Auszahlung eines verbrieften Leibgedinges für Margarethe Topler, Witwe des Hans Topler, Bürgerin zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_418" id="208v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_418_r1l17">Der Stat cʒu <expan>Amb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_418_r1l18"><expan>Lieb<ex>e</ex>n</expan> <expan>fr<ex>eunde</ex></expan> vns hat fürgelegt fraw Margret des <expan>Heinr<ex>ich</ex></expan> </ab>
+<ab facs="#facs_418_r1l19">Toplers <expan>ſelıge<ex>n</ex></expan> witib <expan>vnſ<ex>er</ex></expan> burgerin / vvie daʒ ſıe leipgeding </ab>
+<ab facs="#facs_418_r1l20">von ew / hab / 
+<del rend="strikethrough">daſſelb Jr leipgeding Jr </del> als ſıe des gut brıef </ab>
+<ab facs="#facs_418_r1l22">vnd vrkunde hab / das Jr ir <expan>v<ex>er</ex>cʒiehet</expan> vnd Jr des niht <expan>becʒale<ex>n</ex></expan> </ab>
+<ab facs="#facs_418_r1l23">wöllet / Als <expan>dıeſelb<ex>e</ex>n</expan>
+<add><ab facs="#facs_418_line_1576425586306_4996">Jr </ab></add> brief auſʒvveyſen / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr der <expan>egen<ex>enanten</ex></expan> </ab>
+<ab facs="#facs_418_r1l24"><expan>vnſ<ex>er</ex>r</expan> burgerin / daſſelb Jr <expan>leipg<ex>eding</ex></expan> <expan>vnu<ex>er</ex>cʒogenlıch</expan> richten </ab>
+<ab facs="#facs_418_r1l25">vnd becʒalen wöllet / nach <expan>ır<ex>er</ex></expan> brief laut vnd ſag / Alſo </ab>
+<ab facs="#facs_418_r1l26">daʒ ſıe vnklaghaft darümb werde / Als etc das <expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_418" id="208v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat czu <expan>Amb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan>
+<expan>fr<ex>eunde</ex></expan>, uns hat fürgelegt fraw Margret, des
+                                <expan>Heinr<ex>ich</ex></expan> Toplers
+                            <expan>selige<ex>n</ex></expan> witib, <expan>uns<ex>er</ex></expan>
+                        burgerin, wie daz sie leipgeding von ew hab, als sie des gut brief und
+                        urkunde hab, das ir ir <expan>v<ex>er</ex>cziehet</expan> und ir des niht
+                                <expan>beczale<ex>n</ex></expan> wöllet, als
+                                <expan>dieselb<ex>e</ex>n</expan>
+<add>ir</add> brief auszweysen. <expan>Ro<ex>gamus</ex></expan>, daz ir der
+                                <expan>egen<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>r</expan> burgerin dasselb ir
+                                <expan>leipg<ex>eding</ex></expan>
+<expan>unv<ex>er</ex>czogenlich</expan> richten und beczalen wöllet nach
+                                <expan>ir<ex>er</ex></expan> brief laut und sag, also daz sie
+                        unklaghaft darümb werde. Als etc. Das <expan>wölle<ex>n</ex></expan>
+                        etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

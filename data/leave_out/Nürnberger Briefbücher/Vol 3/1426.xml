@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1426" xml:id="l1441" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1426 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>244r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1426.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Schenk v. Schenkenstein, Wilhelm, Vogt v. Cadolzburg</persName></ab><ab type="mention">-</ab><date from="8-07-1412" to="8-07-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_489">
+<surface lrx="2770" lry="3807" ulx="0" uly="0">
+<graphic height="3807px" url="Rst Nbg-Briefbücher-Nr 3_0246_right.png" width="2770px"/>
+<zone lrx="2113" lry="1261" rendition="TextRegion" ulx="1041" uly="1675" xml:id="facs_489_r1"> <zone lrx="2113" lry="1261" rendition="Line" ulx="1041" uly="1162" xml:id="facs_489_r1l9"/>
+<zone lrx="2541" lry="1403" rendition="Line" ulx="405" uly="1270" xml:id="facs_489_r1l10"/>
+<zone lrx="2592" lry="1505" rendition="Line" ulx="471" uly="1377" xml:id="facs_489_r1l11"/>
+<zone lrx="2461" lry="1607" rendition="Line" ulx="483" uly="1455" xml:id="facs_489_r1l12"/>
+<zone lrx="2535" lry="1709" rendition="Line" ulx="480" uly="1548" xml:id="facs_489_r1l13"/>
+<zone lrx="2348" lry="1817" rendition="Line" ulx="488" uly="1675" xml:id="facs_489_r1l14"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Wilhelm Schenk von Schenkenstein, Vogt von Cadolzburg</head><p>Der Rat teilt mit, dass er die genannten Armleute von Bürgern zu Nürnberg befragt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_489" id="244r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_489_r1l9"><expan>VVılh<ex>elm</ex></expan> Schenk vogt cʒü <expan>Kadolſp<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_489_r1l10"><expan>Lieb<ex>er</ex></expan> <expan>vvılh<ex>elm</ex></expan> / Als Jr vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> / vnd etlıch <expan>vnſ<ex>er</ex>r</expan> <expan>B<ex>ur</ex>g<ex>er</ex></expan> arm lewte </ab>
+<ab facs="#facs_489_r1l11">an <expan>ein<ex>er</ex></expan> Cʒedeln in <expan>ewre<ex>m</ex></expan> brief geſchickt habt / <expan>vvölle<ex>n</ex></expan> wir <expan>diſelb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_489_r1l12"><expan>arme<ex>n</ex></expan> lewte die Jr vns benant habt / <expan>g<ex>er</ex>n</expan> beſenden vnd Jr </ab>
+<ab facs="#facs_489_r1l13">rede <expan>höre<ex>n</ex></expan> vnd ew <expan>dan<ex>n</ex></expan> ein <expan>antw<ex>ur</ex>t</expan> <expan>vvıſſe<ex>n</ex></expan> <expan>laſſ<ex>en</ex></expan> / ob die <expan>yema<ex>n</ex>t</expan> </ab>
+<ab facs="#facs_489_r1l14"><expan>vo<ex>n</ex></expan> <expan>ew<ex>r</ex>n</expan> <expan>weg<ex>en</ex></expan> an vns <expan>vord<ex>er</ex>t</expan> / <expan>Dat<ex>um</ex></expan> <expan>i<ex>n</ex></expan> die <expan>ſ<ex>an</ex>c<ex>t</ex>ı</expan> Kylıanȷ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_489" id="244r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Wilh<ex>elm</ex></expan> Schenk, vogt czü
+                            <expan>Kadolsp<ex>ur</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan>
+<expan>Wilh<ex>elm</ex></expan>, als ir uns
+                                                  <expan>v<ex>er</ex>schr<ex>iben</ex></expan> und
+                                                etlich <expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex></expan> arm lewte an
+                                                  <expan>ein<ex>er</ex></expan> czedeln in
+                                                  <expan>ewre<ex>m</ex></expan> brief geschickt
+                                                habt, <expan>wölle<ex>n</ex></expan> wir
+                                                  <expan>diselb<ex>e</ex>n</expan>
+<expan>arme<ex>n</ex></expan> lewte, die ir uns
+                                                benant habt, <expan>g<ex>er</ex>n</expan> besenden
+                                                und ir rede <expan>höre<ex>n</ex></expan> und ew
+                                                  <expan>dan<ex>n</ex></expan> ein
+                                                  <expan>antw<ex>ur</ex>t</expan>
+<expan>wisse<ex>n</ex></expan>
+<expan>lass<ex>en</ex></expan>, ob die
+                                                  <expan>yema<ex>n</ex>t</expan>
+<expan>vo<ex>n</ex></expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>weg<ex>en</ex></expan> an uns
+                                                  <expan>vord<ex>er</ex>t</expan>.
+                                                  <expan>Dat<ex>um</ex></expan>
+<expan>i<ex>n</ex></expan> die
+                                                  <expan>s<ex>an</ex>c<ex>t</ex>i</expan>
+                                                Kyliani.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

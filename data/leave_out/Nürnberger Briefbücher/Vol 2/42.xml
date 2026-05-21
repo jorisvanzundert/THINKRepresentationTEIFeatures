@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="42" xml:id="l41" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 42 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>011v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 42.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q63884" type="recipient">Johann III. v. Hohenzollern, Bgf. v. Nürnberg</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q31503" type="mention">Neustadt a. d. Aisch</placeName><persName type="mention">Haller, Martin I.</persName><persName type="mention">Stromer (zur Rose), Ulrich IV.</persName><persName type="mention">Vorster, Erhard</persName><persName type="mention">Waltmann, Marquart</persName></ab><date from="14-03-1408" to="18-04-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_26">
+<surface lrx="2862" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0014_left.png" width="2862px"/>
+<zone lrx="1332" lry="327" rendition="TextRegion" ulx="1910" uly="1671" xml:id="facs_26_r1">
+<zone lrx="1663" lry="327" rendition="Line" ulx="1080" uly="249" xml:id="facs_26_r1l1"/>
+<zone lrx="2497" lry="531" rendition="Line" ulx="777" uly="428" xml:id="facs_26_r1l2"/>
+<zone lrx="2543" lry="627" rendition="Line" ulx="781" uly="556" xml:id="facs_26_r1l3"/>
+<zone lrx="2492" lry="666" rendition="Line" ulx="1910" uly="620" xml:id="facs_26_r1l4"/>
+<zone lrx="2493" lry="729" rendition="Line" ulx="797" uly="665" xml:id="facs_26_r1l5"/>
+<zone lrx="2537" lry="835" rendition="Line" ulx="789" uly="775" xml:id="facs_26_r1l6"/>
+<zone lrx="2446" lry="876" rendition="Line" ulx="1907" uly="835" xml:id="facs_26_r1l7"/>
+<zone lrx="2625" lry="958" rendition="Line" ulx="800" uly="888" xml:id="facs_26_r1l8"/>
+<zone lrx="2650" lry="1060" rendition="Line" ulx="798" uly="1005" xml:id="facs_26_r1l9"/>
+<zone lrx="1737" lry="1089" rendition="Line" ulx="1525" uly="1043" xml:id="facs_26_r1l10"/>
+<zone lrx="2613" lry="1171" rendition="Line" ulx="811" uly="1104" xml:id="facs_26_r1l11"/>
+<zone lrx="2618" lry="1298" rendition="Line" ulx="806" uly="1197" xml:id="facs_26_r1l12"/>
+<zone lrx="2553" lry="1403" rendition="Line" ulx="808" uly="1302" xml:id="facs_26_r1l13"/>
+<zone lrx="2583" lry="1524" rendition="Line" ulx="816" uly="1426" xml:id="facs_26_r1l14"/>
+<zone lrx="2561" lry="1618" rendition="Line" ulx="813" uly="1542" xml:id="facs_26_r1l15"/>
+<zone lrx="1332" lry="1745" rendition="Line" ulx="828" uly="1671" xml:id="facs_26_r1l16"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann III. von Hohenzollern, Burggraf von Nürnberg</head><p>Der Rat kündigt Marquart Waltmann, Diener der Stadt, wegen des Erhard Vorster an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_26" id="11v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_26_r1l1">Burgraf <expan>Joh<ex>anſen</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_26_r1l2"><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan> Als <del rend="strikethrough"> von
+                                    <expan>ew<ex>r</ex>n</expan>
+<expan>hochwirdik<ex>eit</ex></expan> wegen </del></ab>
+<ab facs="#facs_26_r1l3">
+<del rend="strikethrough">vns lıeb Burge </del>
+<expan>ew<ex>r</ex></expan>
+<expan>hochwırdık<ex>eit</ex></expan> mit <expan>Mert<ex>ein</ex></expan>
+<expan>h<ex>a</ex>ll<ex>e</ex>r</expan>
+</ab>
+<ab facs="#facs_26_r1l5">vnd <expan>Vlr<ex>ich</ex></expan>
+<expan>Strom<ex>er</ex></expan> cʒu der Roſen <add><ab facs="#facs_26_r1l4">
+<expan>vnſ<ex>er</ex></expan> lıeb <expan>b<ex>urger</ex></expan>
+                                vnd
+                            <expan>Rat<ex>geſellen</ex></expan>
+</ab></add>
+<del rend="strikethrough">ger </del> nehſt cʒu der </ab>
+<ab facs="#facs_26_r1l6">Newenſtat an der Ayſche geredt hat von Erhart </ab>
+<ab facs="#facs_26_r1l8">vorſters wegen / daſſelb ſıe alſo <add><ab facs="#facs_26_r1l7">von <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>wege<ex>n</ex></expan>
+</ab></add> an vns braht <expan>hab<ex>e</ex>n</expan>
+</ab>
+<ab facs="#facs_26_r1l9">vnd <expan>dar<ex>ümb</ex></expan> ſo
+                                <expan>ſende<ex>n</ex></expan> wir cʒu <expan>ew<ex>r</ex>n</expan>
+<expan>gnade<ex>n</ex></expan>
+<expan>M<ex>a</ex>r<ex>kart</ex></expan> waltman </ab>
+<ab facs="#facs_26_r1l11"><expan>vnſ<ex>er</ex>n</expan>
+<expan>dıen<ex>er</ex></expan> mit <expan>ew<ex>r</ex>n</expan>
+<del rend="strikethrough"><expan>hoch<ex>wirdikeit</ex></expan></del>
+<add><ab facs="#facs_26_r1l10">gnaden </ab></add> dauon cʒu
+                                <expan>rede<ex>n</ex></expan> / vnd <expan>Ro<ex>gamus</ex></expan>
+</ab>
+<ab facs="#facs_26_r1l12">waʒ <expan>derſ<ex>elb</ex></expan>
+<expan>vnſ<ex>er</ex></expan> dıener in <expan>derſ<ex>elben</ex></expan>
+                        ſache cʒu <expan>diſe<ex>m</ex></expan> man </ab>
+<ab facs="#facs_26_r1l13">an ewr gnade werb von <expan>vnſ<ex>er</ex>n</expan>
+<expan>wege<ex>n</ex></expan> / daʒ Jr Jm </ab>
+<ab facs="#facs_26_r1l14">des <expan>gelaub<ex>e</ex>n</expan> vnd Jn darynne
+                                <expan>gütlıch<ex>e</ex>n</expan>
+<expan>v<ex>er</ex>horen</expan> vnd </ab>
+<ab facs="#facs_26_r1l15">auch darümb <expan>gnedıkl<ex>ichen</ex></expan> von
+                        ew <expan>v<ex>er</ex>tıg<ex>en</ex></expan> wollet Als etc </ab>
+<ab facs="#facs_26_r1l16">das <expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_26" id="11v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burgraf <expan>Joh<ex>ansen</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als <expan>ew<ex>r</ex></expan>
+<expan>hochwirdik<ex>eit</ex></expan> mit <expan>Mert<ex>ein</ex></expan>
+<expan>H<ex>a</ex>ll<ex>e</ex>r</expan> und <expan>Ulr<ex>ich</ex></expan>
+<expan>Strom<ex>er</ex></expan> czu der rosen,
+                                <add><expan>uns<ex>er</ex></expan> lieb
+                                <expan>b<ex>urger</ex></expan> und
+                                <expan>rat<ex>gesellen</ex></expan></add>, nehst czu der Newenstat
+                        an der Aysche geredt hat von Erhart Vorsters wegen; dasselb sie also
+                            <add>von <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>wege<ex>n</ex></expan></add> an uns braht
+                            <expan>hab<ex>e</ex>n</expan> und <expan>dar<ex>umb</ex></expan> so
+                                <expan>sende<ex>n</ex></expan> wir czu <expan>ew<ex>r</ex>n</expan>
+<expan>gnade<ex>n</ex></expan>
+<expan>M<ex>a</ex>r<ex>kart</ex></expan> Waltman,
+                            <expan>uns<ex>er</ex>n</expan>
+<expan>dien<ex>er</ex></expan>, mit <expan>ew<ex>r</ex>n</expan>
+<add>gnaden</add> davon czu <expan>rede<ex>n</ex></expan> und
+                                <expan>ro<ex>gamus</ex></expan>, waz <expan>ders<ex>elb</ex></expan>
+<expan>uns<ex>er</ex></expan> diener in <expan>ders<ex>elben</ex></expan>
+                        sache czu <expan>dise<ex>m</ex></expan> man an ewr gnade werb von
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>wege<ex>n</ex></expan>, daz ir im des
+                            <expan>gelaub<ex>e</ex>n</expan> und in darynne
+                            <expan>gütlich<ex>e</ex>n</expan>
+<expan>v<ex>er</ex>horen</expan> und auch darümb
+                                <expan>gnedikl<ex>ichen</ex></expan> von ew
+                                <expan>v<ex>er</ex>tig<ex>en</ex></expan> wollet, als etc. Das
+                                <expan>wölle<ex>n</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

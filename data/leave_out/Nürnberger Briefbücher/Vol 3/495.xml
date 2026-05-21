@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="495" xml:id="l501" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 495 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>007v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 495.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q489902" type="recipient">Nördlingen</placeName></ab><ab type="mention"><persName ref="https://www.wikidata.org/wiki/Q57326" type="mention">Ruprecht I., dt. König</persName></ab><date from="13-09-1409" to="13-09-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_16">
+<surface lrx="2614" lry="3774" ulx="0" uly="0">
+<graphic height="3774px" url="Rst Nbg-Briefbücher-Nr 3_0010_left.png" width="2614px"/>
+<zone lrx="630" lry="877" rendition="TextRegion" ulx="470" uly="716" xml:id="facs_16_r2">
+<zone lrx="630" lry="877" rendition="Line" ulx="470" uly="716" xml:id="facs_16_r2l1"/>
+</zone>
+<zone lrx="1020" lry="260" rendition="TextRegion" ulx="1728" uly="1569" xml:id="facs_16_r3">
+<zone lrx="1174" lry="260" rendition="Line" ulx="840" uly="200" xml:id="facs_16_r3l1"/>
+<zone lrx="2549" lry="469" rendition="Line" ulx="556" uly="376" xml:id="facs_16_r3l2"/>
+<zone lrx="2538" lry="561" rendition="Line" ulx="707" uly="486" xml:id="facs_16_r3l3"/>
+<zone lrx="2435" lry="650" rendition="Line" ulx="688" uly="594" xml:id="facs_16_r3l4"/>
+<zone lrx="2494" lry="745" rendition="Line" ulx="704" uly="696" xml:id="facs_16_r3l6"/>
+<zone lrx="1856" lry="789" rendition="Line" ulx="1728" uly="749" xml:id="facs_16_r3l9"/>
+<zone lrx="2456" lry="840" rendition="Line" ulx="672" uly="801" xml:id="facs_16_r3l10"/>
+<zone lrx="2479" lry="944" rendition="Line" ulx="668" uly="899" xml:id="facs_16_r3l12"/>
+<zone lrx="2425" lry="1040" rendition="Line" ulx="679" uly="1005" xml:id="facs_16_r3l15"/>
+<zone lrx="2546" lry="1152" rendition="Line" ulx="686" uly="1082" xml:id="facs_16_line_1578385619006_351"/>
+<zone lrx="2478" lry="1239" rendition="Line" ulx="671" uly="1196" xml:id="facs_16_r3l22"/>
+<zone lrx="2388" lry="1336" rendition="Line" ulx="674" uly="1285" xml:id="facs_16_r3l23"/>
+<zone lrx="2355" lry="1438" rendition="Line" ulx="663" uly="1380" xml:id="facs_16_r3l24"/>
+<zone lrx="2497" lry="1533" rendition="Line" ulx="669" uly="1473" xml:id="facs_16_r3l25"/>
+<zone lrx="1020" lry="1614" rendition="Line" ulx="701" uly="1569" xml:id="facs_16_r3l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Nördlingen</head><p>Der Rat bittet um Entsendung von Ratsherren nach Nürnberg zur Besprechung des königlichen Schreibens wegen des Schismas.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_16" id="7v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_16_r3l1"><expan>Nördlıng<ex>en</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_16_r3l2"><expan>Lıeb<ex>e</ex>n</expan> frewnd / Als Jr vns <expan>v<ex>er</ex>ſchriben</expan> habt / wıe ew <expan>vnſ<ex>er</ex></expan> <expan>gnedıg<ex>er</ex></expan> </ab>
+<ab facs="#facs_16_r3l3"><expan>h<ex>e</ex>r</expan> der Römiſch künıg <expan>geſchrib<ex>e</ex>n</expan> hab / von der Pebſte <expan>vveg<ex>en</ex></expan> </ab>
+<ab facs="#facs_16_r3l4"> <expan>Laſſ<ex>en</ex></expan> vvir ewr frewntſchaft wiſſen / daʒ ſein gnade / 
+<del rend="strikethrough">vns </del></ab>
+<ab facs="#facs_16_r3l6">
+<del rend="strikethrough">vnd auch etlichen <expan>Stet<ex>e</ex>n</expan> / vmb vns / auch </del> in ſölicher maſſe </ab>
+<ab facs="#facs_16_r3l10">
+<add><ab facs="#facs_16_r2l1">auch </ab></add> <expan>geſchrıb<ex>e</ex>n</expan> hat / . vns vnd etlıchen 
+<add><ab facs="#facs_16_r3l9"><expan>and<ex>er</ex>n</expan> </ab></add> Steten vmb vns / die </ab>
+<ab facs="#facs_16_r3l12">darvmb Jr erber botscheft bey vns gehabt <expan>hab<ex>e</ex>n</expan> / vnd </ab>
+<ab facs="#facs_16_r3l15">mit den <expan>hab<ex>e</ex>n</expan> wir eins teils davon geredt / das doch </ab>
+<ab facs="#facs_16_line_1578385619006_351">noch kein end hat / . Nu fügt vns in ſölichen ſweren ſachen </ab>
+<ab facs="#facs_16_r3l22">nicht cʒü <expan>ſchreıb<ex>e</ex>n</expan> / Dann wer etwer <expan>ew<ex>r</ex>s</expan> Rates bey vns </ab>
+<ab facs="#facs_16_r3l23">mit dem <expan>vvolt<ex>e</ex>n</expan> wir <expan>g<ex>er</ex>ne</expan> davon reden / vnd wo vvir </ab>
+<ab facs="#facs_16_r3l24"><expan>ewr<ex>er</ex></expan> erſamkeit / lıeb vnd <expan>fruntſch<ex>aft</ex></expan> <expan>beweıſe<ex>n</ex></expan> <expan>möht<ex>e</ex>n</expan> / </ab>
+<ab facs="#facs_16_r3l25">Das <expan>tet<ex>e</ex>n</expan> vvir allcʒeit <expan>g<ex>er</ex>ne</expan> / . <expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> . vj̃ . <expan>An<ex>te</ex></expan> <expan>Exalt<ex>ationis</ex></expan> </ab>
+<ab facs="#facs_16_r3l26"><expan>ſ<ex>an</ex>c<ex>t</ex>e</expan> <expan>Cruc<ex>is</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_16" id="7v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Nördling<ex>en</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan> frewnd, als ir uns
+                                                  <expan>v<ex>er</ex>schriben</expan> habt, wie ew
+                                                  <expan>uns<ex>er</ex></expan>
+<expan>gnedig<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan>, der römisch künig,
+                                                  <expan>geschrib<ex>e</ex>n</expan> hab von der
+                                                pebste <expan>weg<ex>en</ex></expan>;
+                                                  <expan>lass<ex>en</ex></expan> wir ewr
+                                                frewntschaft wissen, daz sein gnade in sölicher
+                                                masse <add>auch</add>
+<expan>geschrib<ex>e</ex>n</expan> hat uns und
+                                                etlichen <add><expan>and<ex>er</ex>n</expan></add>
+                                                steten umb uns, die darumb ir erber botscheft bey
+                                                uns gehabt <expan>hab<ex>e</ex>n</expan>; und mit
+                                                den <expan>hab<ex>e</ex>n</expan> wir eins teils
+                                                davon geredt, das doch noch kein end hat. Nu fügt
+                                                uns in sölichen sweren sachen nicht czü
+                                                  <expan>schreib<ex>e</ex>n</expan>; dann wer etwer
+                                                  <expan>ew<ex>r</ex>s</expan> rates bey uns, mit
+                                                dem <expan>wolt<ex>e</ex>n</expan> wir
+                                                  <expan>g<ex>er</ex>ne</expan> davon reden. Und wo
+                                                wir <expan>ewr<ex>er</ex></expan> ersamkeit lieb und
+                                                  <expan>fruntsch<ex>aft</ex></expan>
+<expan>beweise<ex>n</ex></expan>
+<expan>möht<ex>e</ex>n</expan>, das
+                                                  <expan>tet<ex>e</ex>n</expan> wir allczeit
+                                                  <expan>g<ex>er</ex>ne</expan>.
+                                                  <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi
+                                                  <expan>an<ex>te</ex></expan>
+<expan>exalt<ex>ationis</ex></expan>
+<expan>s<ex>an</ex>c<ex>t</ex>e</expan>
+<expan>cruc<ex>is</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

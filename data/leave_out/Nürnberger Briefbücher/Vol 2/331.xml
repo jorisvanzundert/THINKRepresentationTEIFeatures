@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="331" xml:id="l335" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 331 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>093r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 331.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Pfinzing, Franz d. J.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q2090" type="mention">Nürnberg</placeName></ab><date from="19-03-1409" to="19-03-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_189">
+<surface lrx="2806" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0095_right.png" width="2806px"/>
+<zone lrx="1064" lry="802" rendition="TextRegion" ulx="916" uly="1306" xml:id="facs_189_r3"> <zone lrx="1800" lry="802" rendition="Line" ulx="916" uly="730" xml:id="facs_189_r3l7"/>
+<zone lrx="2420" lry="995" rendition="Line" ulx="374" uly="906" xml:id="facs_189_r3l8"/>
+<zone lrx="2383" lry="1089" rendition="Line" ulx="459" uly="998" xml:id="facs_189_r3l9"/>
+<zone lrx="2374" lry="1187" rendition="Line" ulx="465" uly="1095" xml:id="facs_189_r3l10"/>
+<zone lrx="2346" lry="1276" rendition="Line" ulx="463" uly="1190" xml:id="facs_189_r3l11"/>
+<zone lrx="1064" lry="1375" rendition="Line" ulx="499" uly="1306" xml:id="facs_189_r3l12"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Franz Pfinzing</head><p>Der Rat befiehlt Franz Pfinzing, Bürger zu Nürnberg, nach dem Ende der Messe unverzügliche Rückkehr nach Nürnberg und Vorsprache.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_189" id="93r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_189_r3l7"><expan>Francʒe<ex>n</ex></expan> Pfincʒing <expan>de<ex>m</ex></expan> <expan>Jung<ex>er</ex>n</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_189_r3l8">Lıeber Francʒ / . Wir heiſʒen dich / VVenn du yecʒunden aws <expan>d<ex>er</ex></expan> meſʒe vertig </ab>
+<ab facs="#facs_189_r3l9">werdeſt / daʒ du dann nyndert anderſwohin cʒieheſt / ſunder cʒeſtünde </ab>
+<ab facs="#facs_189_r3l10">her heim gen Nüremberg cʒü vns kumſt / . vnd das <expan>gepiet<ex>e</ex>n</expan> vvir dir </ab>
+<ab facs="#facs_189_r3l11">auch bey <expan>deine<ex>m</ex></expan> eıde als du vns geſworen haſt / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııȷ̃ . <expan>p<ex>oſt</ex></expan> </ab>
+<ab facs="#facs_189_r3l12"><expan>D<ex>omi</ex>nicam</expan> Letare / ıx<hi rend="sup">o</hi> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_189" id="93r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Francze<ex>n</ex></expan> Pfinczing <expan>de<ex>m</ex></expan>
+<expan>jung<ex>er</ex>n</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber Francz, wir heiszen dich, wenn du yeczunden aws
+                            <expan>d<ex>er</ex></expan> mesze vertig werdest, daz du dann nyndert
+                        anderswohin cziehest, sunder czestünde her heim gen Nüremberg czü uns kumst.
+                        Und das <expan>gepiet<ex>e</ex>n</expan> wir dir auch bey
+                                <expan>deine<ex>m</ex></expan> eide, als du uns gesworen hast.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii <expan>p<ex>ost</ex></expan>
+<expan>d<ex>omi</ex>nicam</expan> letare ix<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

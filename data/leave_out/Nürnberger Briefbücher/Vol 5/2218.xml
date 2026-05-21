@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2218" xml:id="l2230" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2218 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>034r–034v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2218.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1256975" type="recipient">Johann II. v. Brunn, Bf. v. Würzburg</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q2999" type="mention">Würzburg</placeName><placeName ref="https://www.wikidata.org/wiki/Q2090" type="mention">Nürnberg</placeName><persName type="mention">Gostenhofer, Magdalena</persName><persName type="mention">Derrer, Anton</persName><persName type="mention">Derrer, N., Ehefrau v. Anton</persName><persName type="mention">N., Barbara</persName></ab><date from="18-11-1419" to="18-11-1419" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_70">
+<surface lrx="2691" lry="3673" ulx="0" uly="0">
+<graphic height="3673px" url="Rst Nbg-Briefbücher-Nr 5_0037_right.png" width="2691px"/>
+<zone lrx="1826" lry="2765" rendition="TextRegion" ulx="899" uly="2699" xml:id="facs_70_r1">
+<zone lrx="1826" lry="2765" rendition="Line" ulx="899" uly="2699" xml:id="facs_70_r2l29"/>
+</zone>
+<zone lrx="2481" lry="2860" rendition="TextRegion" ulx="542" uly="3117" xml:id="facs_70_r2"> <zone lrx="2483" lry="2860" rendition="Line" ulx="542" uly="2757" xml:id="facs_70_r2l30"/>
+<zone lrx="2481" lry="2941" rendition="Line" ulx="541" uly="2837" xml:id="facs_70_r2l31"/>
+<zone lrx="2499" lry="3028" rendition="Line" ulx="537" uly="2929" xml:id="facs_70_r2l32"/>
+<zone lrx="2481" lry="3116" rendition="Line" ulx="532" uly="3030" xml:id="facs_70_r2l33"/>
+<zone lrx="2505" lry="3198" rendition="Line" ulx="533" uly="3117" xml:id="facs_70_r2l34"/>
+</zone>
+</surface>
+</facsimile><facsimile xml:id="facs_71">
+<surface lrx="2693" lry="3673" ulx="0" uly="0">
+<graphic height="3673px" url="Rst Nbg-Briefbücher-Nr 5_0038_left.png" width="2693px"/>
+<zone lrx="523" lry="824" rendition="TextRegion" ulx="194" uly="835" xml:id="facs_71_r1">
+<zone lrx="633" lry="824" rendition="Line" ulx="187" uly="788" xml:id="facs_71_r1l2"/>
+<zone lrx="523" lry="873" rendition="Line" ulx="194" uly="835" xml:id="facs_71_r1l3"/>
+</zone>
+<zone lrx="1264" lry="292" rendition="TextRegion" ulx="2060" uly="1901" xml:id="facs_71_r2">
+<zone lrx="2635" lry="292" rendition="Line" ulx="642" uly="222" xml:id="facs_71_r2l1"/>
+<zone lrx="2579" lry="375" rendition="Line" ulx="635" uly="330" xml:id="facs_71_r2l2"/>
+<zone lrx="2237" lry="412" rendition="Line" ulx="2060" uly="377" xml:id="facs_71_r2l3"/>
+<zone lrx="2559" lry="467" rendition="Line" ulx="645" uly="413" xml:id="facs_71_r2l4"/>
+<zone lrx="2607" lry="558" rendition="Line" ulx="648" uly="500" xml:id="facs_71_r2l5"/>
+<zone lrx="1264" lry="596" rendition="Line" ulx="819" uly="564" xml:id="facs_71_r2l6"/>
+<zone lrx="2579" lry="649" rendition="Line" ulx="660" uly="597" xml:id="facs_71_r2l7"/>
+<zone lrx="2612" lry="749" rendition="Line" ulx="651" uly="660" xml:id="facs_71_r2l8"/>
+<zone lrx="2615" lry="843" rendition="Line" ulx="662" uly="754" xml:id="facs_71_r2l9"/>
+<zone lrx="2609" lry="940" rendition="Line" ulx="660" uly="839" xml:id="facs_71_r2l10"/>
+<zone lrx="2619" lry="1035" rendition="Line" ulx="643" uly="935" xml:id="facs_71_r2l11"/>
+<zone lrx="2560" lry="1128" rendition="Line" ulx="661" uly="1033" xml:id="facs_71_r2l12"/>
+<zone lrx="2590" lry="1215" rendition="Line" ulx="666" uly="1128" xml:id="facs_71_r2l13"/>
+<zone lrx="2619" lry="1307" rendition="Line" ulx="660" uly="1218" xml:id="facs_71_r2l14"/>
+<zone lrx="2602" lry="1403" rendition="Line" ulx="668" uly="1315" xml:id="facs_71_r2l15"/>
+<zone lrx="2594" lry="1495" rendition="Line" ulx="661" uly="1403" xml:id="facs_71_r2l16"/>
+<zone lrx="2610" lry="1586" rendition="Line" ulx="662" uly="1501" xml:id="facs_71_r2l17"/>
+<zone lrx="2612" lry="1683" rendition="Line" ulx="654" uly="1599" xml:id="facs_71_r2l18"/>
+<zone lrx="2510" lry="1779" rendition="Line" ulx="654" uly="1697" xml:id="facs_71_r2l19"/>
+<zone lrx="2602" lry="1875" rendition="Line" ulx="662" uly="1797" xml:id="facs_71_r2l20"/> <zone lrx="1857" lry="1953" rendition="Line" ulx="659" uly="1901" xml:id="facs_71_line_1577025335708_3756"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II. von Brunn, Bischof von Würzburg</head><p>Der Rat teilt mit, dass die verstorbene Barbara N., Ehefrau des Anton Derrer, Bürger zu Nürnberg, zu Lebzeiten 22 Gulden übergeben hat, um diese im Todesfall an unterschiedliche Personen, nicht jedoch ihre Geschwister auszuzahlen und die Ehefrau Derrers die bestimmten Auszahlungen bereits vorgenommen hat bis auf sechs Gulden, die dem Beichtvater der Verstorbenen zustehen. Außerdem teilt der Rat mit, dass Magdalena Gostenhofer, Mutter der Verstorbenen und Bürgerin zu Würzburg, von Derrers Ehefrau aus dem Nachlass Gewänder und andere Habe ihrer Tochter erhalten hat, und verweist auf den Rechtsweg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_70" id="34r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_70_r2l29"><expan>H<ex>er</ex>n</expan> <expan>Johannſ<ex>en</ex></expan> Bıſchof ʒu <expan>VVırcʒb<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_70_r2l30"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> als vns eẅr <expan>hoch<ex>wirdikeit</ex></expan> <expan>verſchr<ex>iben</ex></expan> hat von Magdalena <expan>goſtenhof<ex>er</ex>ın</expan> </ab>
+<ab facs="#facs_70_r2l31"><expan>ewr<ex>er</ex></expan> <expan>gnad<ex>en</ex></expan> <expan>burg<ex>er</ex>ın</expan> ʒu <expan>vvırcʒb<ex>ur</ex>g</expan> vnd von Barbaren <expan>ır<ex>er</ex></expan> <expan>ſtıeftocht<ex>er</ex></expan> <expan>weg<ex>en</ex></expan> </ab>
+<ab facs="#facs_70_r2l32">dıe bey Anthonien <expan>derr<ex>er</ex>s</expan> <expan>vnſ<ex>er</ex>s</expan> <expan>b<ex>urgers</ex></expan> <expan>wırtin<ex>n</ex></expan> <expan>abgang<ex>en</ex></expan> ſey etc Das <expan>hab<ex>e</ex>n</expan> wır </ab>
+<ab facs="#facs_70_r2l33">wol <expan>v<ex>er</ex>nomen</expan> Vnd <expan>laſſ<ex>en</ex></expan> eẅr <expan>fürſtenl<ex>ich</ex></expan> gnade <expan>wıſſ<ex>en</ex></expan> / Daʒ wır <expan>deſſ<ex>elben</ex></expan> <expan>vnſ<ex>er</ex>s</expan> </ab>
+<ab facs="#facs_70_r2l34">lıeben <expan>b<ex>urgers</ex></expan> Anthonien <expan>derr<ex>er</ex>s</expan> wırtin für vns beſant vnd <expan>daru<ex>m</ex>b</expan> ʒu </ab>
+<pb facs="#facs_71" id="34v"/>
+<ab facs="#facs_71_r2l1">rede geſacʒt <expan>hab<ex>e</ex>n</expan> dıe hat vns <expan>geantw<ex>ur</ex>t</expan> / Daʒ Jr dıe <expan>eg<ex>enante</ex></expan> Barbara bey ıren </ab>
+<ab facs="#facs_71_r2l2"><expan>lebendıg<ex>en</ex></expan> <expan>ʒeıte<ex>n</ex></expan> niht mer denn xxij <expan>guld<ex>en</ex></expan> / <expan>eingeb<ex>e</ex>n</expan> hab vnd befulhe Jr </ab>
+<ab facs="#facs_71_r2l4">nemlıch . <expan>w<ex>er</ex>e</expan> daʒ ſıe ſturbe . daʒ ſıe ıren geſwıſtryden 
+<add><ab facs="#facs_71_r2l3"> <expan>ır<ex>er</ex></expan> hab </ab></add> nıchts 
+<del rend="strikethrough">dauon </del> <expan>geb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_71_r2l5">ſölt wan Jr vngütlıch von Jn beſchehen <expan>w<ex>er</ex>e</expan> Vnd hieſſ dıe <expan>obg<ex>e</ex>n<ex>ante</ex></expan> derrerin </ab>
+<ab facs="#facs_71_r2l7">Jr hab 
+<add><ab facs="#facs_71_r2l6">vmb gots <expan>wılle<ex>n</ex></expan> </ab></add> ʒu <expan>geb<ex>e</ex>n</expan> an ſölıch ſtette da ſıe es hın geſchıkt vnd benennet hab </ab>
+<ab facs="#facs_71_r2l8">Das hab auch ſıe getan vnd alſo auſʒgerıcht bıs an vȷ <expan>guld<ex>en</ex></expan> . Da 
+<del rend="strikethrough">ſprech </del></ab>
+<ab facs="#facs_71_r2l9">
+<add><ab facs="#facs_71_r1l2">noch <expan>vorhande<ex>n</ex></expan> ſeın </ab><ab facs="#facs_71_r1l3">da ſpreche </ab></add> der <expan>vorgen<ex>enanten</ex></expan> Barbarn <expan>Peıchtıg<ex>er</ex></expan> nach . ſıe hab Jm dıe <expan>v<ex>er</ex>ſchıkt</expan> als er das </ab>
+<ab facs="#facs_71_r2l10">wol brıngen well / Dıe <expan>obg<ex>enante</ex></expan> <expan>derr<ex>er</ex>ın</expan> hat vns auch geſagt wıe dıe <expan>eg<ex>ena</ex>nt<ex>e</ex></expan> </ab>
+<ab facs="#facs_71_r2l11">Magdalena <expan>goſtenhof<ex>er</ex>in</expan> . <expan>neẅlıch<ex>e</ex>n</expan> auch bey vns ʒu <expan>Nur<ex>emberg</ex></expan> <expan>geweſ<ex>en</ex></expan> ſey vnd </ab>
+<ab facs="#facs_71_r2l12">ſie <expan>daru<ex>m</ex>b</expan> anlanget . Das kem <expan>ſou<ex>er</ex>ren</expan> / daʒ ſıe Jr / der <expan>vorgen<ex>anten</ex></expan> Barbaren </ab>
+<ab facs="#facs_71_r2l13">gewand vnd <expan>plund<ex>er</ex>n</expan> der ʒu ırem leıb gehört hab vmb gots <expan>wıll<ex>e</ex>n</expan> hab </ab>
+<ab facs="#facs_71_r2l14"><expan>geb<ex>e</ex>n</expan> / da hett auch <expan>dıeſ<ex>elb</ex></expan> Magdalena von Jren vnd <expan>ır<ex>er</ex></expan> ſtıefkınd <expan>weg<ex>en</ex></expan> ein </ab>
+<ab facs="#facs_71_r2l15">gut genüg an . VVıe <expan>daru<ex>m</ex>b</expan> / Deẅht dıe <expan>obg<ex>ena</ex>n<ex>te</ex></expan> <expan>goſtenhof<ex>er</ex>in</expan> <expan>od<ex>er</ex></expan> ıre ſtıef </ab>
+<ab facs="#facs_71_r2l16">kınder . daʒ ſıe <expan>darüb<ex>er</ex></expan> ʒu der <expan>vorg<ex>enante</ex>n</expan> <expan>vnſ<ex>er</ex>r</expan> <expan>burg<ex>er</ex>ın</expan> ~ der <expan>derr<ex>er</ex>in</expan> ıcht ʒu </ab>
+<ab facs="#facs_71_r2l17"><expan>ſpreche<ex>n</ex></expan> <expan>hett<ex>en</ex></expan> / ſo <expan>well<ex>e</ex>n</expan> wır Jn <expan>od<ex>er</ex></expan> ırem <expan>ſcheınbott<ex>en</ex></expan> mıt ırem <expan>voll<ex>e</ex>n</expan> gwalt </ab>
+<ab facs="#facs_71_r2l18"><expan>freẅntl<ex>ich</ex></expan> ſleẅnıgs <expan>recht<ex>en</ex></expan> <expan>g<ex>er</ex>n</expan> von Jr <expan>helff<ex>en</ex></expan> vor des Reıchs <expan>Rıcht<ex>er</ex></expan> bey vns </ab>
+<ab facs="#facs_71_r2l19">ʒu <expan>Nur<ex>emberg</ex></expan> wenn wır des ermant <expan>w<ex>er</ex>den</expan> / ſo <expan>dıeſ<ex>elb</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>burg<ex>er</ex>ın</expan> bey vns </ab>
+<ab facs="#facs_71_r2l20">anheim ıſt on <expan>geu<ex>er</ex>de</expan> . Denn wo wır <expan>eẅr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> . dıenſt vnd <expan>wolgefall<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_71_line_1577025335708_3756">etc / <expan>Dat<ex>um</ex></expan> <expan>ſab<ex>at</ex>o</expan> <expan>an<ex>te</ex></expan> elıſabethe </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_70" id="34r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Johanns<ex>en</ex></expan>, bischof zu
+                            <expan>Wirczb<ex>ur</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als uns ewr
+                            <expan>hoch<ex>wirdikeit</ex></expan>
+<expan>verschr<ex>iben</ex></expan> hat von Magdalena
+                                <expan>Gostenhof<ex>er</ex>in</expan>, <expan>ewr<ex>er</ex></expan>
+<expan>gnad<ex>en</ex></expan>
+<expan>burg<ex>er</ex>in</expan> zu <expan>Wirczb<ex>ur</ex>g</expan>, und
+                        von Barbaren, <expan>ir<ex>er</ex></expan>
+<expan>stieftocht<ex>er</ex></expan>
+<expan>weg<ex>en</ex></expan>, die bey Anthonien
+                            <expan>Derr<ex>er</ex>s</expan>
+<expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>
+<expan>wirtin<ex>n</ex></expan>
+<expan>abgang<ex>en</ex></expan> sey etc., das <expan>hab<ex>e</ex>n</expan>
+                        wir wol <expan>v<ex>er</ex>nomen</expan> und <expan>lass<ex>en</ex></expan>
+                        ewr <expan>fürstenl<ex>ich</ex></expan> gnade
+                        <expan>wiss<ex>en</ex></expan>, daz wir <expan>dess<ex>elben</ex></expan>
+<expan>uns<ex>er</ex>s</expan> lieben <expan>b<ex>urgers</ex></expan>
+                        Anthonien <expan>Derr<ex>er</ex>s</expan> wirtin für uns besant und
+                                <expan>daru<ex>m</ex>b</expan> zu <pb facs="#facs_71" id="34v"/>rede gesaczt
+                                <expan>hab<ex>e</ex>n</expan>, die hat uns
+                            <expan>geantw<ex>ur</ex>t</expan>, daz ir die
+                            <expan>eg<ex>enante</ex></expan> Barbara bey iren
+                                <expan>lebendig<ex>en</ex></expan>
+<expan>zeite<ex>n</ex></expan> niht mer denn xxii
+                            <expan>guld<ex>en</ex></expan>
+<expan>eingeb<ex>e</ex>n</expan> hab und befulhe ir nemlich,
+                                <expan><ex>wer</ex>e</expan>, daz sie sturbe, daz sie iren
+                        geswistryden <add><expan>ir<ex>er</ex></expan> hab</add> nichts
+                                <expan>geb<ex>e</ex>n</expan> sölt, wan ir ungütlich von in
+                        beschehen <expan>w<ex>er</ex>e</expan>, und hiess die
+                                <expan>obg<ex>e</ex>n<ex>ante</ex></expan> Derrerin ir hab <add>umb
+                            gots <expan>wille<ex>n</ex></expan></add> zu
+                            <expan>geb<ex>e</ex>n</expan> an sölich stette, da sie es hin geschikt
+                        und benennet hab; das hab auch sie getan und also auszgericht bis an vi
+                                <expan>guld<ex>en</ex></expan>, da <add>noch
+                                    <expan>vorhande<ex>n</ex></expan> sein, da spreche</add> der
+                                <expan>vorgen<ex>enanten</ex></expan> Barbarn
+                                <expan>peichtig<ex>er</ex></expan> nach, sie hab im die
+                                <expan>v<ex>er</ex>schikt</expan>, als er das wol bringen well. Die
+                                <expan>obg<ex>enante</ex></expan>
+<expan>Derr<ex>er</ex>in</expan> hat uns auch gesagt, wie die
+                                <expan>eg<ex>ena</ex>nt<ex>e</ex></expan> Magdalena
+                                <expan>Gostenhof<ex>er</ex>in</expan>
+<expan>newlich<ex>e</ex>n</expan> auch bey uns zu
+                            <expan>Nur<ex>emberg</ex></expan>
+<expan>gewes<ex>en</ex></expan> sey und sie <expan>daru<ex>m</ex>b</expan>
+                        anlanget; das kem <expan>sov<ex>er</ex>ren</expan>, daz sie ir der
+                                <expan>vorgen<ex>anten</ex></expan> Barbaren gewand und
+                                <expan>plund<ex>er</ex>n</expan>, der zu irem leib gehört hab, umb
+                        gots <expan>will<ex>e</ex>n</expan> hab <expan>geb<ex>e</ex>n</expan>. Da
+                        hett auch <expan>dies<ex>elb</ex></expan> Magdalena von iren und
+                                <expan>ir<ex>er</ex></expan> stiefkind <expan>weg<ex>en</ex></expan>
+                        ein gut genüg an. Wie <expan>daru<ex>m</ex>b</expan> dewht die
+                                <expan>obg<ex>ena</ex>n<ex>te</ex></expan>
+<expan>Gostenhof<ex>er</ex>in</expan>
+<expan>od<ex>er</ex></expan> ire stiefkinder, daz sie
+                                <expan>darüb<ex>er</ex></expan> zu der
+                            <expan>vorg<ex>enante</ex>n</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>burg<ex>er</ex>in</expan> der <expan>Derr<ex>er</ex>in</expan> icht
+                        zu <expan>spreche<ex>n</ex></expan>
+<expan>hett<ex>en</ex></expan>, so <expan>well<ex>e</ex>n</expan> wir in
+                                <expan>od<ex>er</ex></expan> irem
+                            <expan>scheinbott<ex>en</ex></expan> mit irem
+                            <expan>voll<ex>e</ex>n</expan> gwalt <expan>frewntl<ex>ich</ex></expan>
+                        slewnigs <expan>recht<ex>en</ex></expan>
+<expan>g<ex>er</ex>n</expan> von ir <expan>helff<ex>en</ex></expan> vor des
+                        reichs <expan>richt<ex>er</ex></expan> bey uns zu
+                            <expan>Nur<ex>emberg</ex></expan>, wenn wir des ermant
+                                <expan>w<ex>er</ex>den</expan>, so <expan>dies<ex>elb</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex>in</expan> bey uns anheim ist, on
+                                <expan>gev<ex>er</ex>de</expan>. Denn wo wir
+                            <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> dienst und
+                            <expan>wolgefall<ex>e</ex>n</expan>etc. <expan>Dat<ex>um</ex></expan>
+<expan>sab<ex>at</ex>o</expan>
+<expan>an<ex>te</ex></expan> Elisabethe.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1394" xml:id="l1409" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1394 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>234v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1394.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q1729" type="recipient">Erfurt</placeName></ab><ab type="mention"><persName type="mention">Mayr, Jutta, Jüdin</persName><persName type="mention">Meyr, Joel, Jude</persName></ab><date from="4-05-1412" to="1-06-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_470">
+<surface lrx="2714" lry="3749" ulx="0" uly="0">
+<graphic height="3749px" url="Rst Nbg-Briefbücher-Nr 3_0237_left.png" width="2714px"/> <zone lrx="1395" lry="2822" rendition="TextRegion" ulx="1117" uly="3312" xml:id="facs_470_r2"> <zone lrx="1395" lry="2822" rendition="Line" ulx="1117" uly="2748" xml:id="facs_470_r2l24"/>
+<zone lrx="2580" lry="2981" rendition="Line" ulx="504" uly="2877" xml:id="facs_470_r2l25"/>
+<zone lrx="2494" lry="3092" rendition="Line" ulx="564" uly="2985" xml:id="facs_470_r2l26"/>
+<zone lrx="2518" lry="3191" rendition="Line" ulx="586" uly="3080" xml:id="facs_470_r2l27"/>
+<zone lrx="2524" lry="3301" rendition="Line" ulx="576" uly="3184" xml:id="facs_470_r2l28"/>
+<zone lrx="2066" lry="3408" rendition="Line" subtype="paragraph" ulx="551" uly="3312" xml:id="facs_470_r2l29"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Erfurt</head><p>Der Rat teilt mit, dass die Jüdin Jutta Mayr, Bürgerin zu Nürnberg, wegen ihres Sohns Joel nichts unternehmen will.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_470" id="234v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_470_r2l24">Erfürt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_470_r2l25"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> / Als Jr vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> habt von Juten Judin <expan>vnſ<ex>er</ex>r</expan> <expan>B<ex>ur</ex>g<ex>er</ex>in</expan> / vnd </ab>
+<ab facs="#facs_470_r2l26">Jöhel 
+<del rend="strikethrough">Jm </del> ewrs Judens irs Suns <expan>vveg<ex>en</ex></expan> / . Davon <expan>hab<ex>e</ex>n</expan> wir mit </ab>
+<ab facs="#facs_470_r2l27"><expan>d<ex>er</ex></expan> <expan>eg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>r</expan> Jüdin reden laſſen / vnd die ſprichet / Sie wölle die </ab>
+<ab facs="#facs_470_r2l28">ſache als gen <expan>de<ex>m</ex>ſelb<ex>e</ex>n</expan> Jrem Sun yecʒunden 
+<del rend="strikethrough"> beſtel </del> beſteen laſſen </ab>
+<ab facs="#facs_470_r2l29">vnd <expan>d<ex>er</ex></expan> cʒü der cʒeit nicht handeln / wo wir etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_470" id="234v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Erfürt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde,</ex></expan> als ir uns
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> habt von Juten, judin,
+                                <expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>in,</expan> und Jöhel, ewrs judens, irs suns,
+                                <expan>weg<ex>en</ex></expan>, davon <expan>hab<ex>e</ex>n</expan>
+                        wir mit <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>r</expan> jüdin reden lassen und die sprichet, sie
+                        wölle die sache als gen <expan>de<ex>m</ex>selb<ex>e</ex>n</expan> irem sun
+                        yeczunden besteen lassen und <expan>d<ex>er</ex></expan> czü der czeit nicht
+                        handeln. Wo wir etc. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

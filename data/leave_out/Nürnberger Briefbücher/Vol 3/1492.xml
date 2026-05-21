@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1492" xml:id="l1507" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1492 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>260v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1492.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q63884" type="recipient">Johann III. v. Hohenzollern, Bgf. v. Nürnberg</persName></ab><ab type="mention"><persName type="mention">Heyden, Ott</persName></ab><date from="28-09-1412" to="28-09-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_522">
+<surface lrx="2796" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0263_left.png" width="2796px"/>
+<zone lrx="1878" lry="351" rendition="TextRegion" ulx="1125" uly="1058" xml:id="facs_522_r1">
+<zone lrx="1878" lry="351" rendition="Line" ulx="1125" uly="271" xml:id="facs_522_r1l1"/>
+<zone lrx="2572" lry="577" rendition="Line" ulx="638" uly="490" xml:id="facs_522_r1l2"/>
+<zone lrx="2538" lry="690" rendition="Line" ulx="643" uly="576" xml:id="facs_522_r1l3"/>
+<zone lrx="2500" lry="782" rendition="Line" ulx="620" uly="675" xml:id="facs_522_r1l4"/>
+<zone lrx="2495" lry="883" rendition="Line" ulx="646" uly="764" xml:id="facs_522_r1l5"/>
+<zone lrx="2583" lry="977" rendition="Line" ulx="618" uly="868" xml:id="facs_522_r1l6"/>
+<zone lrx="2537" lry="1083" rendition="Line" ulx="646" uly="948" xml:id="facs_522_r1l7"/>
+<zone lrx="2331" lry="1183" rendition="Line" ulx="640" uly="1058" xml:id="facs_522_r1l8"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann III. von Hohenzollern, Burggraf von Nürnberg</head><p>Der Rat kündigt einen Gesandten wegen Otto Heyden, Bürger zu Nürnberg, an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_522" id="260v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_522_r1l1">Burggraf Johanſen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_522_r1l2"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / Als vns ewr <expan>hoch<ex>wirdikeit</ex></expan> <expan>geſchrib<ex>e</ex>n</expan> hat von Otten </ab>
+<ab facs="#facs_522_r1l3">Heydens wegen / das <expan>hab<ex>e</ex>n</expan> vvir wol vernomen / laſſen vvir <expan>ew<ex>r</ex></expan> </ab>
+<ab facs="#facs_522_r1l4">gnade wiſſen / daʒ vvir vnſerſelbs botſchaft <expan>kürcʒlıch<ex>e</ex>n</expan> von </ab>
+<ab facs="#facs_522_r1l5"><expan>derſelb<ex>e</ex>n</expan> ſach vvegen cʒu <expan>ew<ex>r</ex>n</expan> <expan>gnade<ex>n</ex></expan> ſchıcken <expan>wölle<ex>n</ex></expan> / müntlıch </ab>
+<ab facs="#facs_522_r1l6">mit <expan>ew<ex>r</ex>n</expan> gnaden dauon cʒureden / vnd wo vvir <expan>ewr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> lieb </ab>
+<ab facs="#facs_522_r1l7">vnd dinſte beweiſen <expan>möchte<ex>n</ex></expan> / des <expan>w<ex>er</ex>n</expan> vvir wıllig vnd teten </ab>
+<ab facs="#facs_522_r1l8">das <expan>allcʒ<ex>eit</ex></expan> <expan>g<ex>er</ex>n</expan> / <expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ıııj̃ <expan>an<ex>te</ex></expan> <expan>Mıchael<ex>is</ex></expan> Anno xij<hi rend="sup">o</hi> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_522" id="260v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burggraf Johansen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als uns ewr
+                            <expan>hoch<ex>wirdikeit</ex></expan>
+<expan>geschrib<ex>e</ex>n</expan> hat von Otten Heydens wegen, das
+                                <expan>hab<ex>e</ex>n</expan> wir wol vernomen; lassen wir
+                                <expan>ew<ex>r</ex></expan> gnade wissen, daz wir unserselbs
+                        botschaft <expan>kürczlich<ex>e</ex>n</expan> von
+                            <expan>derselb<ex>e</ex>n</expan> sach wegen czu
+                            <expan>ew<ex>r</ex>n</expan>
+<expan>gnade<ex>n</ex></expan> schicken <expan>wölle<ex>n,</ex></expan>
+                        müntlich mit <expan>ew<ex>r</ex>n</expan> gnaden davon czu reden; und wo wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> lieb und dinste beweisen
+                                <expan>möchte<ex>n</ex></expan>, des <expan>w<ex>er</ex>n</expan>
+                        wir willig und teten das <expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> iiii <expan>an<ex>te</ex></expan>
+<expan>Michael<ex>is</ex></expan> anno xii<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

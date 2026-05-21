@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1212" xml:id="l1228" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1212 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>183v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1212.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q12900863" type="recipient">Ludwig XI., Gf. v. Oettingen</persName></ab><ab type="mention"><persName type="mention">Stromer, N.</persName></ab><date from="28-10-1411" to="25-11-1411" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_368">
+<surface lrx="2729" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0186_left.png" width="2729px"/> <zone lrx="1647" lry="403" rendition="TextRegion" ulx="1806" uly="693" xml:id="facs_368_r2">
+<zone lrx="1647" lry="403" rendition="Line" ulx="828" uly="323" xml:id="facs_368_r2l1"/>
+<zone lrx="2636" lry="561" rendition="Line" ulx="649" uly="476" xml:id="facs_368_r2l2"/>
+<zone lrx="2660" lry="665" rendition="Line" ulx="657" uly="591" xml:id="facs_368_r2l3"/>
+<zone lrx="2029" lry="680" rendition="Line" ulx="1806" uly="627" xml:id="facs_368_r2l4"/>
+<zone lrx="2372" lry="763" rendition="Line" ulx="650" uly="693" xml:id="facs_368_r2l5"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ludwig XI., Graf von Oettingen</head><p>Der Rat teilt mit, dass N. Stromer, Bürgerin zu Nürnberg, selbst antwortet.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_368" id="183v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_368_r2l1">Graf <expan>Ludwıge<ex>n</ex></expan> von Ötingen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_368_r2l2">Gnedıger <expan>h<ex>er</ex>re</expan> / Als vns <expan>ew<ex>r</ex></expan> gnade <expan>verſchr<ex>iben</ex></expan> hat von der ~ Stromerin </ab>
+<ab facs="#facs_368_r2l3"><expan>vnſ<ex>er</ex>r</expan> burgerin wegen / dauon <expan>hab<ex>e</ex>n</expan> vvir mit Jr geredt vnd die ſpricht </ab>
+<ab facs="#facs_368_r2l5">Sıe vvölle <expan>ew<ex>r</ex>n</expan> gnaden ſelber ein <expan>Antvv<ex>ur</ex>t</expan>
+<add><ab facs="#facs_368_r2l4">darumb </ab></add> <expan>geb<ex>e</ex>n</expan> / vnd wo etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_368" id="183v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Graf <expan>Ludwige<ex>n</ex></expan> von Ötingen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Gnediger <expan>h<ex>er</ex>re</expan>, als uns <expan>ew<ex>r</ex></expan>
+                        gnade <expan>verschr<ex>iben</ex></expan> hat von der Stromerin,
+                                <expan>uns<ex>er</ex>r</expan> burgerin, wegen, davon
+                                <expan>hab<ex>e</ex>n</expan> wir mit ir geredt und die spricht, sie
+                        wölle <expan>ew<ex>r</ex>n</expan> gnaden selber ein
+                            <expan>antw<ex>ur</ex>t</expan>
+<add>darumb</add>
+<expan>geb<ex>e</ex>n</expan>. Und wo etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

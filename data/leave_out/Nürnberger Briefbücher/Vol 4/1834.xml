@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1834" xml:id="l1845" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1834 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>079r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1834.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Süppel, Peter</persName></ab><ab type="mention"><persName type="mention">Münich, Kunz</persName></ab><date from="29-04-1415" to="29-04-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_158">
+<surface lrx="2657" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0081_right.png" width="2657px"/>
+<zone lrx="849" lry="344" rendition="TextRegion" ulx="870" uly="620" xml:id="facs_158_r1">
+<zone lrx="1302" lry="344" rendition="Line" ulx="870" uly="264" xml:id="facs_158_r1l1"/>
+<zone lrx="2421" lry="475" rendition="Line" ulx="433" uly="371" xml:id="facs_158_r1l2"/>
+<zone lrx="2404" lry="554" rendition="Line" ulx="443" uly="455" xml:id="facs_158_r1l3"/>
+<zone lrx="2357" lry="642" rendition="Line" ulx="453" uly="544" xml:id="facs_158_r1l4"/>
+<zone lrx="849" lry="694" rendition="Line" ulx="452" uly="620" xml:id="facs_158_r1l5"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Peter Süppel</head><p>Der Rat teilt mit, dass er derzeit niemanden als Diener einstellt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_158" id="79r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_158_r1l1"><expan>Pet<ex>er</ex>n</expan> Süppel </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_158_r1l2"><expan>Vnſ<ex>er</ex></expan> <expan>freẅntſch<ex>aft</ex></expan> <expan>Pet<ex>er</ex></expan> Süppel . als du vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> haſt von Concʒ Münıchs </ab>
+<ab facs="#facs_158_r1l3"><expan>weg<ex>en</ex></expan> etc das <expan>hab<ex>e</ex>n</expan> wır <expan>vernom<ex>en</ex></expan> . vnd <expan>Laſſ<ex>en</ex></expan> dıch <expan>wıſſ<ex>en</ex></expan> daʒ wır ʒu <expan>dıſ<ex>en</ex></expan> </ab>
+<ab facs="#facs_158_r1l4"><expan>ʒeıt<ex>en</ex></expan> niht mer <expan>dien<ex>er</ex></expan> <expan>bedurff<ex>en</ex></expan> / <expan>Dat<ex>um</ex></expan> <expan>ſ<ex>ub</ex></expan> ſıgıllo <expan>m<ex>a</ex>g<ex>iſt</ex>ricıuıu<ex>m</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıȷ<hi rend="sup">a</hi></ab>
+<ab facs="#facs_158_r1l5"><expan>an<ex>te</ex></expan> / <expan>vvalpurg<ex>en</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_158" id="79r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Pet<ex>er</ex>n</expan> Süppel </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Uns<ex>er</ex></expan>
+<expan>frewntsch<ex>aft</ex></expan>. <expan>Pet<ex>er</ex></expan> Süppel,
+                        als du uns <expan>v<ex>er</ex>schr<ex>iben</ex></expan> hast von Concz
+                        Münichs <expan>weg<ex>en</ex></expan> etc., das
+                            <expan>hab<ex>e</ex>n</expan> wir <expan>vernom<ex>en</ex></expan> und
+                                <expan>lass<ex>en</ex></expan> dich <expan>wiss<ex>en,</ex></expan>
+                        daz wir zu <expan>dis<ex>en</ex></expan>
+<expan>zeit<ex>en</ex></expan> niht mer <expan>dien<ex>er</ex></expan>
+<expan>bedurff<ex>en.</ex></expan><expan> Dat<ex>um</ex></expan>
+<expan>s<ex>ub</ex></expan> sigillo <expan>m<ex>a</ex>g<ex>ist</ex>ri
+                                civiu<ex>m</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan>
+<expan>Walpurg<ex>en.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

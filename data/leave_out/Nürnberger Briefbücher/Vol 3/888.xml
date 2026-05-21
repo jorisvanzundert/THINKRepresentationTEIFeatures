@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="888" xml:id="l899" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 888 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>099v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 888.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q64286" type="recipient">Ludwig VII. v. Wittelsbach, Hzg. v. Bayern-Ingolstadt</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1726" type="mention">München</placeName><persName type="mention">Rot, Konrad</persName><persName type="mention">Schenk, Andreas</persName></ab><date from="3-12-1410" to="31-12-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_200">
+<surface lrx="2776" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0102_left.png" width="2776px"/>
+<zone lrx="1375" lry="327" rendition="TextRegion" ulx="931" uly="1002" xml:id="facs_200_r1">
+<zone lrx="1375" lry="327" rendition="Line" ulx="931" uly="232" xml:id="facs_200_r1l1"/>
+<zone lrx="2492" lry="477" rendition="Line" ulx="496" uly="373" xml:id="facs_200_r1l2"/>
+<zone lrx="2432" lry="573" rendition="Line" ulx="553" uly="463" xml:id="facs_200_r1l3"/>
+<zone lrx="2489" lry="683" rendition="Line" ulx="589" uly="563" xml:id="facs_200_r1l4"/>
+<zone lrx="2542" lry="788" rendition="Line" ulx="582" uly="666" xml:id="facs_200_r1l5"/>
+<zone lrx="2460" lry="891" rendition="Line" ulx="597" uly="763" xml:id="facs_200_r1l6"/>
+<zone lrx="2551" lry="996" rendition="Line" ulx="593" uly="860" xml:id="facs_200_r1l7"/>
+<zone lrx="1832" lry="1092" rendition="Line" ulx="593" uly="1002" xml:id="facs_200_r1l8"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Herzog Ludwig VII. von Wittelsbach, Herzog von Bayern-Ingolstadt</head><p>Der Rat bestätigt erneut Unkenntnis wegen Konrad Rot und verweist darauf, dass sich Andres Schenk aus Nürnberg in München aufhält.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_200" id="99v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_200_r1l1"><expan>H<ex>er</ex>cʒog</expan> <expan>Ludw<ex>ig</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_200_r1l2"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>e</ex>r</expan> / Als Jr vns <expan>ab<ex>er</ex></expan> <expan>geſchr<ex>iben</ex></expan> habt / von <expan>Conr<ex>ad</ex></expan> Roten </ab>
+<ab facs="#facs_200_r1l3">wegen / . als er mit Andres <expan>Schenke<ex>n</ex></expan> <expan>cʒeſchıcke<ex>n</ex></expan> hat / </ab>
+<ab facs="#facs_200_r1l4"><expan>hab<ex>e</ex>n</expan> wir <expan>ew<ex>r</ex>n</expan> <expan>gnad<ex>e</ex>n</expan> vor <expan>geantw<ex>ur</ex>t</expan> / daʒ Andres Schenk </ab>
+<ab facs="#facs_200_r1l5">nicht beÿ vns ſünder cʒu München ſeÿ / . vnd als ewr gnad </ab>
+<ab facs="#facs_200_r1l6">begert / daʒ wir den Roten <expan>ſıch<ex>er</ex>n</expan> ſüllen / . wiſſen wir cʒü </ab>
+<ab facs="#facs_200_r1l7">der cʒeit nichts / daʒ vvir <expan>vnſerhalb<ex>e</ex>n</expan> mit Jm cʒeſehen <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_200_r1l8">dann lieb vnd gut / vnd wo etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_200" id="99v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>czog</expan>
+<expan>Ludw<ex>ig</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan>, als ir uns <expan>ab<ex>er</ex></expan>
+<expan>geschr<ex>iben</ex></expan> habt von <expan>Conr<ex>ad</ex></expan>
+                        Roten wegen, als er mit Andres <expan>Schenke<ex>n</ex></expan>
+<expan>cze schicke<ex>n</ex></expan> hat, <expan>hab<ex>e</ex>n</expan> wir
+                                <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>e</ex>n</expan> vor <expan>geantw<ex>ur</ex>t</expan>, daz
+                        Andres Schenk nicht bey uns sünder czu München sey; und als ewr gnad begert,
+                        daz wir den Roten <expan>sich<ex>er</ex>n</expan> süllen, wissen wir czü der
+                        czeit nichts, daz wir <expan>unserhalb<ex>e</ex>n</expan> mit im cze sehen
+                                <expan>hab<ex>e</ex>n</expan> dann lieb und gut. Und wo etc. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,1621 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Electronic transcription of München, Bayerische Staatsbibliothek, Cgm 384</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Hyperdiplomatische Basistranskription der Handschrift München, Bayerische Staatsbibliothek, Cgm 384</edition>
+        <editor>
+          <forename>Astrid</forename>
+          <surname>Böhm</surname>
+        </editor>
+        <principal>
+          <forename>Helmut W.</forename>
+          <surname>Klug</surname>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+						Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+          <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+        </availability>
+        <date when="2020-02-20"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.m2</idno>
+        <ref target="context:corema" type="context"></ref>
+        <ref target="context:corema.glyph" type="context"></ref>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Deutschland</country>
+            <settlement>München</settlement>
+            <institution ref="https://www.bsb-muenchen.de">Bayerische Staatsbibliothek</institution>
+            <idno ref="https://daten.digitale-sammlungen.de/~db/0010/bsb00106933/images/">Cgm 384</idno>
+            <altIdentifier type="abbr">
+              <idno>M2</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <textLang ana="manuscript">
+              <lang ana="main" n="Q131339">Alemannic</lang>
+            </textLang>
+          </msContents>
+          <physDesc>
+            <objectDesc form="composite-Manuscript">
+              <supportDesc>
+                <extent>
+                  <measure type="leavesCount" unit="leaf">I+123</measure>
+                  <dimensions type="block" unit="mm">
+                    <height>215-220</height>
+                    <width>153</width>
+                  </dimensions>
+                </extent>
+                <foliation>
+                  <ab type="completeness">Neben einer alten Foliierung bis Blatt 77 existiert eine spätere Blattzählung.</ab>
+                </foliation>
+                <collation>
+                  <formula style="chroust">9 VI^108 + (VII+1)^123</formula>
+                  <ab>Um die erste und letzte Lage sind Pergamentstreifen aus einer lateinischen Bibelhandschrift aus dem 12. Jh. (1. Cor. 8,4 und 9,8) geklebt.</ab>
+                  <catchwords>Handschrift verfügt über Wortreklamanten.</catchwords>
+                </collation>
+                <condition>
+                  <material xml:lang="de">Papier</material>
+                  <material xml:lang="en">paper</material>
+                  <watermark xml:id="Kreis">Kreis mit Kreuz, ähnelt Briquet 3036 (München 1470). 
+									</watermark>
+                  <watermark xml:id="Ochsenkopf">Ochsenkopf mit Krone, ähnelt Piccard XV, 40 (Basel 1470).</watermark>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1">
+                  <p ana="measure">150-165 x 95 mm</p>   
+               <p ana="lines">24-28</p>
+                  <p ana="text">Verzierungen durch 1-4-zeilige rote Lombarden und roter Überschriften.<lb></lb>
+										Blatt Iv wird durch einen Vogel in primitiver Federzeichnung verziert.<lb></lb>
+										Auf beiden Spiegeln befinden sich Federproben und Kritzeleien aus dem 16. Jh.<lb></lb>
+										Im Text der Handschrift sind einzelne Buchstaben rot bzw. blau unterstrichen, Bedeutung unklar.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Die Handschrift ist durchgehend von einer Hand einspaltig in <term>Bastarda</term> geschrieben.<lb></lb>
+								Auf den Blättern Ir sowie 122v-123v sind Nachträge mehrerer Hände hinzugefügt.<lb></lb> 
+								Die vorhandenen Randbemerkungen stammen aus dem 16. Jahrhundert.</handNote>
+            </handDesc>
+            <scriptDesc facs="fol. 76r-78r, 103v-115v" resp="Astrid Böhm">
+              <scriptNote>
+                <desc>allgemeine Beobachtung</desc>
+                <p>klare Struktur, Rezepte abgesetzt, Überschriften mittig und rubriziert</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Duktus</desc>
+                <p>geübte Hand</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;a&gt;</desc>
+                <p>einstöckiges &lt;a&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;l&gt;</desc>
+                <p>mit Schleife</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;g&gt;</desc>
+                <p>Punze geschlossen, Unterbogen offen</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;e&gt;</desc>
+                <p>offene Punze</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                <p>in finaler Stellung teils Zierstrich am finalen Schaft (Unterlänge bzw. leichter Haken nach oben)</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                <p>&lt;b&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt; mit Schleife leicht nach rechts geneigt; &lt;d&gt; ohne Schleife</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                <p>‚normale‘ Unterlänge</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verschiedene r-Formen</desc>
+                <p>gerades &lt;r&gt;, vereinzelt rundes &lt;r&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verschiedene z-Formen</desc>
+                <p>geschwänztes &lt;z&gt; mit nur sehr kurzem Abstrich in die Unterlänge, </p>
+                <p>teils auf der Grundlinie mit dem nachfolgenden Graph verbunden</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final; </p>
+                <p>Doppel-s auslautend als Schaft-s realisiert</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>i-Markierung</desc>
+                <p>unregelmäßig, punkt-/strichförmig</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Besonderheiten anderer Grapheme</desc>
+                <p>auslautendes &lt;t&gt; häufig nicht zu unterscheiden, ob mit Zierstrich oder anschließende Virgel; teils ß-Ligatur; </p>
+                <p>initiale ‚cz‘-Kombination könnte auch &lt;z&gt; mit tiefem Anstrich sein; medial und final ‚cz/tz‘ nicht sicher unterscheidbar</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Zahlzeichen</desc>
+                <p>römische Ziffern/lat. Buchstaben</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Majuskeln (Verwendung)</desc>
+                <p>Rezeptbeginn; vereinzelt textintern</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verzierungen</desc>
+                <p>Initialen, teils rubriziert, häufiger allerdings einfache Ausgestaltung (vergrößerte Majuskel)</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Rubrizierung</desc>
+                <p>Überschriften</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Diakritika</desc>
+                <p>&lt;e&gt;, &lt;o&gt;, &lt;a&gt; und Doppelpunkt über Vokalen; über &lt;u&gt; tilden-/haken-, bogenförmiges Zeichen</p>
+                <p>Übergang zwischen hochgestelltem &lt;e&gt; und Strichen/Punkten fließend</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Abbreviaturen</desc>
+                <p>Kürzungsstrich, et cetera-Kürzung</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Interpunktion</desc>
+                <p>Virgel</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Terminatoren</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Worttrennung</desc>
+                <p>Doppelstrich, teils tildenförmig ausgeführt</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Korrekturen</desc>
+                <p>Streichungen, Einfügungen</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Offensichtliche Schreiberwechsel</desc>
+              </scriptNote>
+            </scriptDesc>
+            <bindingDesc>
+              <binding corresp="#Einband">
+                <condition>Handschrift weist alten Einband auf. Auf Iv gibt es einen Hinweis auf Docens Repertorium II: <q>Cod. germ. chart. cat. p.523</q>.</condition>
+                <decoNote type="bindingMaterial">Holzdeckel mit rotem Lederüberzug</decoNote>
+                <decoNote type="decoration">Streicheisenmuster und kleiner Stempel</decoNote>
+                <decoNote type="clasps">5 Beschläge und die Schließe fehlen. </decoNote>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>
+                <date notAfter="1500" notBefore="1450" xml:lang="de">2. Hälfte 15. Jh.</date>
+                <date xml:lang="en">2nd half of 15th c.</date>
+              </origDate>
+              <note>Vorbesitzereintrag auf Ir oben: <q>Ex Hb. Jacobi Berckmüller med.</q>
+              </note>
+              <origPlace>
+                <placeName xml:lang="de">südwestdeutscher Raum</placeName>
+                <placeName xml:lang="en">Southwest German region</placeName>
+              </origPlace>
+            </origin>
+          </history>
+          <msPart n="1r-2v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.1r-2v.1">
+                <locus ana="folio">1r-2v</locus>
+                <title>Macer floridus (Auszüge)</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="2v-8v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.2v-8v.2">
+                <locus ana="folio">2v-8v</locus>
+                <title>Rezepte zu Salben, Pflastern und Pulvern</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="8v-12r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_hum" xml:id="m2.8v-12r.3">
+                <locus ana="folio">8v-12r</locus>
+                <title>Pesttraktat</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="12r-15r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.12r-15r.4">
+                <locus ana="folio">12r-15r</locus>
+                <title>Liste von Pharmazeutica</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="15v-16r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.15v-16r.5">
+                <locus ana="folio">15v-16r</locus>
+                <title>Zwei med. Rezepte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="16r-42r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.16r-42r.6">
+                <locus ana="folio">16r-42r</locus>
+                <title>Macer floridus, unvollständig</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="42r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.42r.7">
+                <locus ana="folio">42r</locus>
+                <title>Pflaster</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="44r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="m2.44r.8">
+                <locus ana="folio">44r</locus>
+                <title>Messing oder Kupfer versilbern</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="45v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="m2.45v.9">
+                <locus ana="folio">45v</locus>
+                <title>Seifenrezept</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="46v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.46v.10">
+                <locus ana="folio">46v</locus>
+                <title>Liste von Heilmitteln</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="48v-49v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_hum" xml:id="m2.48v-49v.11">
+                <locus ana="folio">48v-49v</locus>
+                <title>Eichenmisteltraktat</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="55r-56r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.55r-56r.12">
+                <locus ana="folio">55r-56r</locus>
+                <title>einzelne Rezepte aus dem Bartholomäus</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="61v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="m2.61v.13">
+                <locus ana="folio">61v</locus>
+                <title>Rezept zu einem guldin tuoch</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="63v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="m2.63v.14">
+                <locus ana="folio">63v</locus>
+                <title>Fischköder</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="64v-65r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.64v-65r.15">
+                <locus ana="folio">64v-65r</locus>
+                <title>Verbena-Kapitel aus dem Bartholomäus</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="68r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#eso #theol" xml:id="m2.68r.16">
+                <locus ana="folio">68r</locus>
+                <title>Segen zum Blutstillen</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="68v, 71v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.68v71v.17">
+                <locus ana="folio">68v, 71v</locus>
+                <title>Salbenrezepte, Blutstillen (Ortolf von Baierland)</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="73v-75v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.73v-75v.18">
+                <locus ana="folio">73v-75v</locus>
+                <title>Ain wasser aller tugend</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart ana="cooking_recipes" n="76r-78r">
+            <head>Kochrezepttexte (I)</head>
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#cooking" xml:id="m2.76r-78r.19">
+                <locus ana="folio">76r-78r</locus>
+                <title>Kochrezepttexte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="78r-85v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.78r-85v.20">
+                <locus ana="folio">78r-85v</locus>
+                <title>Rezepte der Hausmedizin</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="85v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="" xml:id="m2.85v.21">
+                <locus ana="folio">85v</locus>
+                <title>zweizeiliger Reim</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="86r-87r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.86r-87r.22">
+                <locus ana="folio">86r-87r</locus>
+                <title>drei Wundrezepte (Ortolf von Baierland)</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="87">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#eso" xml:id="m2.87.23">
+                <locus ana="folio">87</locus>
+                <title>Beschwörungen</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="88v-89r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.88v-89r.24">
+                <locus ana="folio">88v-89r</locus>
+                <title>Weißes Pflaster Peters von Ulm</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="96v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m2.96v.25">
+                <locus ana="folio">96v</locus>
+                <title>Baderezept</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart ana="cooking_recipes" n="103v-115v">
+            <head>Kochrezepttexte (II)</head>
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#cooking" xml:id="m2.103v-115v.26">
+                <locus ana="folio">103v-115v</locus>
+                <title>Kochrezepttexte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="120v-122r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#med_vet" xml:id="m2.120v-122r.27">
+                <locus ana="folio">120v-122r</locus>
+                <title>Meister Albrant: Rossarzneibuch</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="120v-122r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#theol" xml:id="m2.120v-122r.28">
+                <locus ana="folio">120v-122r</locus>
+                <title>div. Segen</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="122v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="m2.122v.29">
+                <locus ana="folio">122v</locus>
+                <title>Zwei Anweisungen zur Holz- und Papiervergoldung</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="122v-123v">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q131339">Alemannic</lang>
+                <lang ana="main" n="Q9288">Hebrew</lang>
+              </textLang>
+              <msItem corresp="#eso #med_pharm" xml:id="m2.122v-123v.30">
+                <locus ana="folio">122v-123v</locus>
+                <title>Beschwörungen (hebräisch), medizinische Rezepte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+        </msDesc>
+        <listBibl type="catalogues">
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/JWMDBNVL" type="book" xml:id="Schneider1973">
+            <monogr>
+              <title level="m">Catalogus Codicum Manu Scriptorum Bibliothecae Monacensis: Tomus 5.
+								Die deutschen Handschriften der Bayerischen Staatsbibliothek München: Pars 3: Cgm
+								351-500 / Neu beschrieben von Karin Schneider</title>
+              <author>
+                <forename>Karin</forename>
+                <surname>Schneider</surname>
+              </author>
+              <edition>Editio Altera</edition>
+              <imprint>
+                <pubPlace>Wiesbaden</pubPlace>
+                <publisher>Harassowitz</publisher>
+                <date>1973</date>                
+<note type="url">http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0044.htm</note>
+              </imprint>
+            </monogr>
+            <citedRange unit="page">121-124</citedRange>
+            <note type="display">Schneider, K. (1973) <hi rend="italic">Catalogus Codicum Manu Scriptorum Bibliothecae Monacensis : Tomus 5. Die deutschen Handschriften der Bayerischen Staatsbibliothek München : Pars 3 : Cgm 351-500 / Neu beschrieben von Karin Schneider</hi>. Editio Altera. Wiesbaden: Harassowitz, cf. pp. 121-124. Available at: <ref target="http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0044.htm">http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0044.htm</ref>.
+						</note>
+          </biblStruct>
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/CVMZ2G46" type="webpage" xml:id="Küppers2018">
+            <analytic>
+              <title level="a">Handschriftencensus | München, Staatsbibl., Cgm 384</title>
+              <author>
+                <forename>Teresa Reinhild</forename>
+                <surname>Küppers</surname>
+              </author>
+            </analytic>
+            <monogr>
+              <title level="m">Handschriftencensus</title>
+              <imprint>
+                <date>2018</date>
+                <note type="accessed">2020-10-16T07:29:21Z</note>
+                <note type="url">https://handschriftencensus.de/9673</note>
+              </imprint>
+            </monogr>
+            <note type="display">Küppers, T. R. (2018) <hi rend="italic">Handschriftencensus | München, Staatsbibl., Cgm 384, Handschriftencensus</hi>. Available at: <ref target="https://handschriftencensus.de/9673">https://handschriftencensus.de/9673</ref> (Accessed: 16 October 2020).
+						</note>
+          </biblStruct>
+        </listBibl>
+        <listBibl type="digital facsimiles">
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/A5LJ6SBG" type="webpage" xml:id="zoteroItem_A5LJ6SBG">
+            <analytic>
+              <title level="a">BSB Cgm 384</title>
+            </analytic>
+            <monogr>
+              <title level="m">Digitale Bibliothek - Münchener Digitalisierungszentrum</title>
+              <imprint>
+                <date></date>
+                <note type="accessed">2020-10-16T07:39:17Z</note>
+                <note type="url">https://daten.digitale-sammlungen.de/~db/0010/bsb00106933/images/</note>
+              </imprint>
+            </monogr>
+            <note type="display">
+              <hi rend="italic">BSB Cgm 384</hi> (no date) <hi rend="italic">Digitale Bibliothek - Münchener Digitalisierungszentrum</hi>. Available at: <ref target="https://daten.digitale-sammlungen.de/~db/0010/bsb00106933/images/">https://daten.digitale-sammlungen.de/~db/0010/bsb00106933/images/</ref> (Accessed: 16 October 2020).
+						</note>
+          </biblStruct>
+        </listBibl>
+        <listBibl type="transcriptions">
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/ERVDJAZR" type="book" xml:id="Ehlert1999">
+            <monogr>
+              <title level="m">Münchner Kochbuchhandschriften aus dem 15. Jahrhundert. Cgm 349, 384,
+								467, 725, 811 und clm 15632. In Zusammenarbeit mit Gunhild Brembs, Marianne Honold,
+								Daniela Körner, Jörn Christoph Krüger, Robert Scheuble, Mirjam Schulz, Christian
+								Suda und Monika Ullrich</title>
+              <idno type="ISBN">3-403-03364-3</idno>
+              <idno type="callNumber">SBB-PK Berlin &lt;1+1A&gt; !2:HsLS! Hs LS HM 862 1 A 412720 !2!
+								1 A 413554</idno>
+              <author>
+                <forename>Trude</forename>
+                <surname>Ehlert</surname>
+              </author>
+              <imprint>
+                <pubPlace>Frankfurt a. M.</pubPlace>
+                <publisher>Tupperware</publisher>
+                <date>1999</date>
+              </imprint>
+            </monogr>
+            <note type="display">Ehlert, T. (1999) <hi rend="italic">Münchner Kochbuchhandschriften aus dem 15. Jahrhundert. Cgm 349, 384, 467, 725, 811 und clm 15632. In Zusammenarbeit mit Gunhild Brembs, Marianne Honold, Daniela Körner, Jörn Christoph Krüger, Robert Scheuble, Mirjam Schulz, Christian Suda und Monika Ullrich</hi>. Frankfurt a. M.: Tupperware.
+						</note>
+          </biblStruct>
+        </listBibl>
+        
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <note>Nur rubrizierte oder ausgestaltete Initialen als solche gekennzeichnet, vergrößerte Majuskeln nur als Majuskel transkribiert.</note>
+      </ab>
+    </encodingDesc>
+  </teiHeader>
+  <facsimile>
+    <surface start="#M2_076r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_076r.jpg" xml:id="IMG.076r"></graphic>
+    </surface>
+    <surface start="#M2_076v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_076v.jpg" xml:id="IMG.076v"></graphic>
+    </surface>
+    <surface start="#M2_077r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_077r.jpg" xml:id="IMG.077r"></graphic>
+    </surface>
+    <surface start="#M2_077v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_077v.jpg" xml:id="IMG.077v"></graphic>
+    </surface>
+    <surface start="#M2_078r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_078r.jpg" xml:id="IMG.078r"></graphic>
+    </surface>
+    <surface start="#M2_103v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_103v.jpg" xml:id="IMG.103v"></graphic>
+    </surface>
+    <surface start="#M2_104r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_104r.jpg" xml:id="IMG.104r"></graphic>
+    </surface>
+    <surface start="#M2_104v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_104v.jpg" xml:id="IMG.104v"></graphic>
+    </surface>
+    <surface start="#M2_105r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_105r.jpg" xml:id="IMG.105r"></graphic>
+    </surface>
+    <surface start="#M2_105v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_105v.jpg" xml:id="IMG.105v"></graphic>
+    </surface>
+    <surface start="#M2_106r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_106r.jpg" xml:id="IMG.106r"></graphic>
+    </surface>
+    <surface start="#M2_106v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_106v.jpg" xml:id="IMG.106v"></graphic>
+    </surface>
+    <surface start="#M2_107r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_107r.jpg" xml:id="IMG.107r"></graphic>
+    </surface>
+    <surface start="#M2_107v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_107v.jpg" xml:id="IMG.107v"></graphic>
+    </surface>
+    <surface start="#M2_108r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_108r.jpg" xml:id="IMG.108r"></graphic>
+    </surface>
+    <surface start="#M2_108v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_108v.jpg" xml:id="IMG.108v"></graphic>
+    </surface>
+    <surface start="#M2_109r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_109r.jpg" xml:id="IMG.109r"></graphic>
+    </surface>
+    <surface start="#M2_109v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_109v.jpg" xml:id="IMG.109v"></graphic>
+    </surface>
+    <surface start="#M2_110r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_110r.jpg" xml:id="IMG.110r"></graphic>
+    </surface>
+    <surface start="#M2_110v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_110v.jpg" xml:id="IMG.110v"></graphic>
+    </surface>
+    <surface start="#M2_111r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_111r.jpg" xml:id="IMG.111r"></graphic>
+    </surface>
+    <surface start="#M2_111v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_111v.jpg" xml:id="IMG.111v"></graphic>
+    </surface>
+    <surface start="#M2_112r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_112r.jpg" xml:id="IMG.112r"></graphic>
+    </surface>
+    <surface start="#M2_112v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_112v.jpg" xml:id="IMG.112v"></graphic>
+    </surface>
+    <surface start="#M2_113r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_113r.jpg" xml:id="IMG.113r"></graphic>
+    </surface>
+    <surface start="#M2_113v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_113v.jpg" xml:id="IMG.113v"></graphic>
+    </surface>
+    <surface start="#M2_114r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_114r.jpg" xml:id="IMG.114r"></graphic>
+    </surface>
+    <surface start="#M2_114v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_114v.jpg" xml:id="IMG.114v"></graphic>
+    </surface>
+    <surface start="#M2_115r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_115r.jpg" xml:id="IMG.115r"></graphic>
+    </surface>
+    <surface start="#M2_115v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_384_fol_115v.jpg" xml:id="IMG.115v"></graphic>
+    </surface>
+    <surface start="#">
+      <graphic url="cutouts/m2.jpg" xml:id="CUTOUT"></graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body xml:space="preserve"><ab>
+      	<milestone n="M2a" unit="collection"></milestone>
+			<pb n="076r" xml:id="M2_076r"></pb>
+			
+				<lb n="N001"></lb>
+				<lb n="N002"></lb>
+				<lb n="N003"></lb><note xml:lang="de">Hier endet ein Rezept zu &quot;Rotem Wasser&quot;.</note><note xml:lang="en">Here ends a recipe for &quot;Rotes Wasser&quot;.</note>
+<seg>				<lb n="N004"></lb><hi rend="textColour:RED;" style="heading">gebachen bu<g ref="#osup">o</g>ben pfulen</hi> 
+				<lb n="N005"></lb><hi>Cz</hi>u<g ref="#osup">o</g> a<g ref="#inodot">i</g>nem e<g ref="#slong">s</g><g ref="#slong">s</g>en hai<g ref="#slong">s</g><g ref="#slong">s</g>et a<g ref="#inodot">i</g>n bu<g ref="#osup">o</g>ben 
+				<lb n="N006"></lb>pfulwe nym a<g ref="#inodot">i</g>nes halbs<note xml:lang="de">Wohl: &apos;kalbs&apos;.</note><note xml:lang="en">Read: &apos;kalbs&apos;.</note> lungen vnd 
+				<lb n="N007"></lb><g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>s gar wol vnd <g ref="#slong">s</g>chnid <g ref="#slong">s</g>peck dar 
+				<lb n="N008"></lb>vnder vnd hack es gar wol vnd <g ref="#slong">s</g>chlach 
+				<lb n="N009"></lb>ayer darunder vnd pfeffer vnd <g ref="#slong">s</g>affran
+				<lb n="N010"></lb>vnd bach den d<g ref="#inodot">i</g>e m<g ref="#inodot">i</g>t mu<g ref="#combuml"></g>ntzen platt vnd 
+				<lb n="N011"></lb>bew<g ref="#inodot">i</g>ls darInn vnd be<g ref="#slong">s</g>tr<g ref="#inodot">i</g>chs vnd fu<g ref="#combuml"></g>ls 
+				<lb n="N012"></lb>mit ayer tottern vnd bach <g ref="#inodot">i</g>n <g ref="#slong">s</g>chmalcz</seg><seg> 
+				<lb n="N013"></lb><hi rend="textColour:RED;" style="heading">Sa<g ref="#combuml"></g>ltz</hi> 
+				<lb n="N014"></lb><hi><hi rend="textColour:RED;" style="heading">W</hi></hi><g ref="#inodot">i</g>lt du <g ref="#slong">s</g>a<g ref="#combuml"></g>ltz machen <g ref="#slong">s</g>o nym peterl<g ref="#inodot">i</g> 
+				<lb n="N015"></lb><g ref="#slong">s</g>elbin vnd rugin brot vnd ayer totter 
+				<lb n="N016"></lb>vnd b<g ref="#inodot">i</g>rnen czelten vnd <g ref="#slong">s</g>tos es wol klain 
+				<lb n="N017"></lb>vnd mer es m<g ref="#inodot">i</g>t e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd czu<g ref="#combuml"></g>chs durch</seg><seg> 
+				<lb n="N018"></lb><hi rend="textColour:RED;" style="heading"><del>S</del> Sa<g ref="#combuml"></g>ltz</hi> 
+				<lb n="N019"></lb>Ouch mit peterl<g ref="#inodot">i</g>n vnd mit rugim brott 
+				<lb n="N020"></lb>ge<g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g>en vnd durch gezogen mit e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch 
+				<lb n="N021"></lb>die <g ref="#slong">s</g>a<g ref="#esup">e</g>ltz <g ref="#inodot">i</g><g ref="#slong">s</g>t gu<g ref="#osup">o</g>t czu<g ref="#osup">o</g> aim brautten</seg><seg>
+				<lb n="N022"></lb><hi rend="textColour:RED;" style="heading">Sa<g ref="#combuml"></g>ltz</hi> 
+				<lb n="N023"></lb>Ouch nyem Jungen czu<g ref="#combuml"></g>belen oder 
+				<lb n="N024"></lb>peterl<g ref="#inodot">i</g> vnd <g ref="#slong">s</g>a<g ref="#combuml"></g>lbin vnd brott als vor 
+				<lb n="N025"></lb>ge<g ref="#slong">s</g>chr<g ref="#inodot">i</g>ben <g ref="#inodot">i</g><g ref="#slong">s</g>t <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+			
+			<pb n="076v" xml:id="M2_076v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">Sa<g ref="#combuml"></g>ltz</hi> 
+				<lb n="N002"></lb><hi>O</hi>uch <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g>et <g ref="#fracsol"></g>  man knobloch mit nu<g ref="#slong">s</g><g ref="#slong">s</g>en 
+				<lb n="N003"></lb>oder mandel vnd mit w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>em brott vnd 
+				<lb n="N004"></lb>mers mit win vnd mit hon<g ref="#inodot">i</g>g <g ref="#fracsol"></g></seg><seg>
+				<lb n="N005"></lb><hi rend="textColour:RED;" style="heading">Sa<g ref="#combuml"></g>ltz</hi> 
+				<lb n="N006"></lb>N<g ref="#inodot">i</g>em rebloub vnd d<g ref="#inodot">i</g>e l<g ref="#inodot">i</g>nde<g ref="#slong">s</g>t <g ref="#slong">s</g>tengel 
+				<lb n="N007"></lb>vnd ampffren<note>Teil des Wortes rot unterstrichen.</note> erb<g ref="#slong">s</g>al loub <g ref="#slong">s</g>eppl<g ref="#inodot">i</g>n peterl<g ref="#inodot">i</g> 
+				<lb n="N008"></lb>vnd <g ref="#slong">s</g>a<g ref="#esup">e</g>lbin gel<g ref="#inodot">i</g>ch v<g ref="#inodot">i</g>l vnd haks vnd 
+				<lb n="N009"></lb><g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> vnd czu<g ref="#combuml"></g>chs durch mit pfeffer brott <g ref="#fracsol"></g></seg><seg>
+				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">gumpo<g ref="#slong">s</g>t</hi> 
+				<lb n="N011"></lb><hi>W</hi><g ref="#inodot">i</g>lt du a<g ref="#inodot">i</g>nen <g ref="#slong">s</g>uren gumpo<g ref="#slong">s</g>t ha<g ref="#combuml"></g>n 
+				<lb n="N012"></lb><g ref="#slong">s</g>o gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch m<g ref="#inodot">i</g>t <g ref="#slong">s</g>urem heffel daran 
+				<lb n="N013"></lb>vnd gemalen <g ref="#slong">s</g>enff oder <g ref="#slong">s</g>u<g ref="#combuml"></g>d win oder 
+				<lb n="N014"></lb>wa<g ref="#slong">s</g><g ref="#slong">s</g>er mit win <g ref="#slong">s</g>tain vnd laus das luter <g ref="#fracsol"></g>
+				<lb n="N015"></lb>werden vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> das darunder m<g ref="#inodot">i</g>t 
+				<lb n="N016"></lb>rowem gehaktem czu<g ref="#combuml"></g>belen</seg><seg>
+				<lb n="N017"></lb><hi rend="textColour:RED;" style="heading">Su<g ref="#esup">e</g><g ref="#slong">s</g><g ref="#slong">s</g> gumpo<g ref="#slong">s</g>t</hi>
+				<lb n="N018"></lb>Su<g ref="#esup">e</g><g ref="#slong">s</g><g ref="#slong">s</g>en gumpo<g ref="#slong">s</g>t wa<g ref="#combuml"></g><g ref="#slong">s</g>ch Jungen 
+				<lb n="N019"></lb>mangolt vnd <g ref="#slong">s</g>chab d<g ref="#inodot">i</g>e wurtzen vnd 
+				<lb n="N020"></lb><g ref="#slong">s</g>u<g ref="#combuml"></g>d es in a<g ref="#inodot">i</g>nem ge<g ref="#slong">s</g>altzen wa<g ref="#slong">s</g><g ref="#slong">s</g>er vnd 
+				<lb n="N021"></lb>tu<g ref="#osup">o</g> es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> vff ain brett b<g ref="#inodot">i</g>s das es er<g ref="#slong">s</g><g ref="#inodot">i</g>ch
+				<lb n="N022"></lb>nym hon<g ref="#inodot">i</g>g vnd win gel<g ref="#inodot">i</g>ch v<g ref="#inodot">i</g>l vnd 
+				<lb n="N023"></lb>erwels darIn vnd f<g ref="#inodot">i</g>gen vnd ba<g ref="#inodot">i</g>derta<g ref="#inodot">i</g>l 
+				<lb n="N024"></lb>oder lay winber vnd fa<g ref="#combuml"></g>rbs vnd gu<g ref="#combuml"></g><g ref="#slong">s</g>z 
+				<lb n="N025"></lb>es alles vff den mangolt vnd <g ref="#slong">s</g>tro<g ref="#combuml"></g>w 
+				<lb n="N026"></lb>es vnd mandel darunder du macht <g ref="#fracsol"></g>
+			
+			<pb n="077r" xml:id="M2_077r"></pb>
+			
+				<lb n="N001"></lb>ouch ne<g ref="#slong">s</g>plan vnd b<g ref="#inodot">i</g>eren darIn tu<g ref="#osup">o</g>n 
+				<lb n="N002"></lb>ob du w<g ref="#inodot">i</g>lt <g ref="#fracsol"></g></seg><seg> <hi rend="textColour:RED;" style="heading">Schlech gumpo<g ref="#slong">s</g>t</hi> 
+				<lb n="N003"></lb>Schlech gumpo<g ref="#slong">s</g>t nym win vnd honig 
+				<lb n="N004"></lb>gel<g ref="#inodot">i</g>ch vil vnd erwels darnach nem 
+				<lb n="N005"></lb><g ref="#slong">s</g>chlechen wolberaittet vnd leg <g ref="#slong">s</g>y darIn 
+				<lb n="N006"></lb>al<g ref="#slong">s</g>o kalt ouch macht du b<g ref="#inodot">i</g>ren ne<g ref="#slong">s</g>plen 
+				<lb n="N007"></lb>b<g ref="#slong">s</g>tecken gewu<g ref="#combuml"></g>rtz ye nym <g ref="#slong">s</g>o v<g ref="#inodot">i</g>l als du 
+				<lb n="N008"></lb>an r<g ref="#inodot">i</g>chten w<g ref="#inodot">i</g>lt <g ref="#slong">s</g>o bel<g ref="#inodot">i</g>bt dem gewu<g ref="#combuml"></g>rtz 
+				<lb n="N009"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>n krafft vnd <g ref="#slong">s</g><g ref="#inodot">i</g>n gu<g ref="#esup">e</g>tin</seg><seg>
+				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">latwa<g ref="#esup">e</g>rin</hi> 
+				<lb n="N011"></lb>N<g ref="#inodot">i</g>em bura<g ref="#combuml"></g>tz latwa<g ref="#combuml"></g>rin nym <g ref="#inodot">i</g><g ref="#jnodot">j</g> <abbr>l<g ref="#inodot">i</g>b-?</abbr>###<note>modellierern: &apos;libra&apos;</note> bura<g ref="#combuml"></g>tz 
+				<lb n="N012"></lb>blu<g ref="#osup">o</g>men vnd hack d<g ref="#inodot">i</g>e clain nym <g ref="#jnodot">j</g> <abbr>l<g ref="#inodot">i</g>b-?</abbr>###<note>modellierern: &apos;libra&apos;</note> honig 
+				<lb n="N013"></lb>vnd <g ref="#jnodotstrok">1/2</g> ma<g ref="#combuml"></g><g ref="#slong">s</g>z win vnd <g ref="#slong">s</g>chum das hon<g ref="#inodot">i</g>g <g ref="#fracsol"></g>
+				<lb n="N014"></lb>vor h<g ref="#inodot">i</g>n gar wol vnd tu<g ref="#osup">o</g> d<g ref="#inodot">i</g>e blu<g ref="#osup">o</g>men 
+				<lb n="N015"></lb>darin vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d <g ref="#slong">s</g>y wol b<g ref="#inodot">i</g>s das es d<g ref="#inodot">i</g>ck 
+				<lb n="N016"></lb>werd dar nach czu<g ref="#combuml"></g>ch es durch bewu<g ref="#combuml"></g>rtz 
+				<lb n="N017"></lb>es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> w<g ref="#inodot">i</g>e du w<g ref="#inodot">i</g>lt vnd czu<g ref="#combuml"></g>ch es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> 
+				<lb n="N018"></lb>vff ain brett b<g ref="#inodot">i</g>s das es trucken werd</seg><seg>
+				<lb n="N019"></lb><hi rend="textColour:RED;" style="heading">nu<g ref="#slong">s</g>z latwa<g ref="#combuml"></g>re</hi> 
+				<lb n="N020"></lb>Nu<g ref="#slong">s</g><g ref="#slong">s</g> latwa<g ref="#combuml"></g>re nym bo<g ref="#combuml"></g>n nu<g ref="#slong">s</g>z d<g ref="#inodot">i</g>e w<g ref="#inodot">i</g>ll 
+				<lb n="N021"></lb>d<g ref="#inodot">i</g>e <g ref="#slong">s</g>challen n<g ref="#inodot">i</g>t anfauchent zu<g ref="#osup">o</g> herttend 
+				<lb n="N022"></lb>vnd durch <g ref="#slong">s</g>tichs m<g ref="#inodot">i</g>t a<g ref="#inodot">i</g>ner <g ref="#slong">s</g>u<g ref="#combuml"></g>llen und 
+				<lb n="N023"></lb>legs <g ref="#inodot">i</g>n ge<g ref="#slong">s</g>altzen wa<g ref="#slong">s</g><g ref="#slong">s</g>er achttag <g ref="#slong">s</g>o czu<g ref="#combuml"></g>cht 
+				<lb n="N024"></lb>es Im d<g ref="#inodot">i</g>e b<g ref="#inodot">i</g>ttrin v<g ref="#slong">s</g><g ref="#slong">s</g> darnach wa<g ref="#combuml"></g><g ref="#slong">s</g>ch 
+				<lb n="N025"></lb>vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d m<g ref="#inodot">i</g>t win vnd m<g ref="#inodot">i</g>t honig gar <g ref="#fracsol"></g>
+			
+			<pb n="077v" xml:id="M2_077v"></pb>
+			
+				<lb n="N001"></lb>wol vnd be<g ref="#slong">s</g>tecks mit gewu<g ref="#combuml"></g>rtz vnd 
+				<lb n="N002"></lb>bewu<g ref="#combuml"></g>rtz d<g ref="#inodot">i</g>e bru<g ref="#esup">e</g> vnd behaltz <g ref="#inodot">i</g>n der bru<g ref="#esup">e</g>ge 
+				<lb n="N003"></lb><g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem gelet<g ref="#slong">s</g>ten ge<g ref="#slong">s</g>ch<g ref="#inodot">i</g>er als das d<g ref="#inodot">i</g>e 
+				<lb n="N004"></lb>bru<g ref="#esup">e</g>ge d<g ref="#inodot">i</g>e nu<g ref="#slong">s</g>z bedeck damit <g ref="#slong">s</g>y nit <g ref="#slong">s</g>chiml<g ref="#inodot">i</g>t <g ref="#fracsol"></g></seg><seg>
+				<lb n="N005"></lb><hi rend="textColour:RED;" style="heading">Senff</hi> 
+				<lb n="N006"></lb>Zu<g ref="#osup">o</g> a<g ref="#inodot">i</g>nem gu<g ref="#osup">o</g>ten <g ref="#slong">s</g>enff nem <g ref="#slong">s</g>enff<g ref="#slong">s</g>o<g ref="#combuml"></g>men 
+				<lb n="N007"></lb>vnd do<g ref="#combuml"></g><g ref="#rrot">r</g>r den <g ref="#slong">s</g>uber vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z in <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> In 
+				<lb n="N008"></lb>a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er gar klain vnd czu<g ref="#combuml"></g>ch <g ref="#inodot">i</g>n <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> 
+				<lb n="N009"></lb>durch ain enges tu<g ref="#osup">o</g>ch czinm<g ref="#inodot">i</g>t plu<g ref="#osup">o</g>t vnd 
+				<lb n="N010"></lb>tu<g ref="#osup">o</g> es vnder den <g ref="#slong">s</g>enff vnd ru<g ref="#esup">e</g>r es mit 
+				<lb n="N011"></lb>hon<g ref="#inodot">i</g>g vnder ain ander recht als der 
+				<lb n="N012"></lb>wachs bertt vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du w<g ref="#inodot">i</g>lt <g ref="#slong">s</g>o niem 
+				<lb n="N013"></lb>des <g ref="#slong">s</g>elben enwenig vns r<g ref="#inodot">i</g>b es mit win
+				<lb n="N014"></lb><g ref="#slong">s</g>o hau<g ref="#slong">s</g>tu gu<g ref="#osup">o</g>ten czartten <g ref="#slong">s</g>enff</seg><seg>
+				<lb n="N015"></lb><hi rend="textColour:RED;" style="heading">wachtenlen krutt</hi> 
+				<lb n="N016"></lb><hi>W</hi>achtenlen krut darzu<g ref="#osup">o</g> nem 
+				<lb n="N017"></lb>peterlin vnd mangolt vnd <g ref="#slong">s</g>chnid es 
+				<lb n="N018"></lb>aines gel<g ref="#inodot">i</g>des lang vnd niem ain wachel 
+				<lb n="N019"></lb>oder me vnd das <g ref="#slong">s</g>y gewa<g ref="#inodot">i</g>dt <g ref="#slong">s</g><g ref="#inodot">i</g>gend vnd 
+				<lb n="N020"></lb>be<g ref="#slong">s</g>tro<g ref="#combuml"></g>w mit gewu<g ref="#combuml"></g>rtz vnd leg czw<g ref="#inodot">i</g>erend 
+				<lb n="N021"></lb>als v<g ref="#inodot">i</g>l krut als der wachtenlen <g ref="#slong">s</g><g ref="#inodot">i</g>nd 
+				<lb n="N022"></lb>in a<g ref="#inodot">i</g>nen haffen vnder ain andren 
+				<lb n="N023"></lb><g ref="#slong">s</g>o hau<g ref="#slong">s</g>t du ain gu<g ref="#osup">o</g>t krut</seg><seg>
+				<lb n="N024"></lb><hi rend="textColour:RED;" style="heading">krutt von louch</hi> 
+				<lb n="N025"></lb>N<g ref="#inodot">i</g>em louch krutt vnd ko<g ref="#combuml"></g>ll vnd <g ref="#slong">s</g>chnid
+			
+			<pb n="078r" xml:id="M2_078r"></pb>
+			
+				<lb n="N001"></lb>a<g ref="#inodot">i</g>nes gel<g ref="#inodot">i</g>des lang vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>t <g ref="#slong">s</g>y in aim 
+				<lb n="N002"></lb><g ref="#slong">s</g>chmaltz vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> ain wa<g ref="#slong">s</g><g ref="#slong">s</g>er daran 
+				<lb n="N003"></lb>vnd laus es erwallen vnd leg es in ain 
+				<lb n="N004"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>b <g ref="#slong">s</g>o r<g ref="#inodot">i</g>ndt das wa<g ref="#slong">s</g><g ref="#slong">s</g>er dauon <g ref="#slong">s</g>o leg es 
+				<lb n="N005"></lb>In ain haffen vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> m<g ref="#inodot">i</g>lch daran die mit 
+				<lb n="N006"></lb>w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>em brott durch ain tu<g ref="#osup">o</g>ch gezogen 
+				<lb n="N007"></lb><g ref="#slong">s</g>y vnd tu<g ref="#osup">o</g> <g ref="#slong">s</g>chmaltz daran</seg><seg>
+				<lb n="N008"></lb><hi rend="textColour:RED;" style="heading">bonen blu<g ref="#osup">o</g><g ref="#slong">s</g>t</hi>
+				<lb n="N009"></lb>N<g ref="#inodot">i</g>em bonen blu<g ref="#osup">o</g><g ref="#slong">s</g>t oder a<g ref="#combuml"></g>rw<g ref="#inodot">i</g>s blu<g ref="#osup">o</g><g ref="#slong">s</g>t 
+				<lb n="N010"></lb>w<g ref="#inodot">i</g>cken plu<g ref="#osup">o</g><g ref="#slong">s</g>t vnd do<g ref="#combuml"></g>r d<g ref="#inodot">i</g>e <g ref="#slong">s</g>uber am 
+				<lb n="N011"></lb>lufft vnd puluers d<g ref="#inodot">i</g>e <g ref="#slong">s</g>chon vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> 
+				<lb n="N012"></lb>du Indem <g ref="#inodot">i</g>aur <g ref="#slong">s</g>ultz w<g ref="#inodot">i</g>lt machen So 
+				<lb n="N013"></lb>nym des bu<g ref="#slong">s</g>ches ye vunder ain mau<g ref="#slong">s</g>z 
+				<lb n="N014"></lb><g ref="#inodot">i</g><g ref="#jnodotstrok">1/2</g> lott <g ref="#fracsol"></g> vnd b<g ref="#inodot">i</g>nd es in a<g ref="#inodot">i</g>n <g ref="#slong">s</g>uber tu<g ref="#combuml"></g>chlin 
+				<lb n="N015"></lb>vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es in der <g ref="#slong">s</g>ultz <g ref="#slong">s</g>o ge<g ref="#slong">s</g>taut d<g ref="#inodot">i</g>e <g ref="#slong">s</g>ultz 
+				<lb n="N016"></lb>ouch <g ref="#inodot">i</g><g ref="#slong">s</g>t hu<g ref="#slong">s</g><g ref="#slong">s</g>en pletter und allerlay f<g ref="#inodot">i</g><g ref="#slong">s</g>ch 
+				<lb n="N017"></lb>pletter gu<g ref="#osup">o</g>t in <g ref="#slong">s</g>ultzen <abbr>wan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <g ref="#slong">s</g>y ge<g ref="#slong">s</g>ta<g ref="#combuml"></g>nd 
+				<lb n="N018"></lb>dauon <g ref="#slong">s</g>ultzen <g ref="#slong">s</g><g ref="#inodot">i</g>nd ouch gu<g ref="#osup">o</g>t czeg<g ref="#inodot">i</g>e<g ref="#slong">s</g><g ref="#slong">s</g>end 
+				<lb n="N019"></lb>Ingelo<g ref="#combuml"></g><g ref="#slong">s</g>t ge<g ref="#slong">s</g>chier oder In <g ref="#slong">s</g>taini oder In 
+				<lb n="N020"></lb>czinny vnd <g ref="#slong">s</g>y kalt g<g ref="#inodot">i</g>e<g ref="#slong">s</g><g ref="#slong">s</g>en vnd d<g ref="#inodot">i</g>e ge<g ref="#slong">s</g>ch<g ref="#inodot">i</g>er 
+				<lb n="N021"></lb><g ref="#slong">s</g>ol man <g ref="#slong">s</g>etzen vff kalt <g ref="#slong">s</g>tain oder vff 
+				<lb n="N022"></lb>kalt ertr<g ref="#inodot">i</g>ch in kellern oder ander<g ref="#slong">s</g>chwa <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N023"></lb><hi><hi rend="textColour:RED;">W</hi></hi>egr<g ref="#inodot">i</g>ch <g ref="#slong">s</g>afft h<g ref="#inodot">i</g>lffet In vngeho<g ref="#combuml"></g>renden
+				<lb n="N024"></lb>oren gego<g ref="#slong">s</g><g ref="#slong">s</g>en vnd <g ref="#inodot">i</g><g ref="#slong">s</g>t ouch gu<g ref="#osup">o</g>t fu<g ref="#combuml"></g>r
+				<lb n="N025"></lb>das plu<g ref="#osup">o</g>t czu<g ref="#osup">o</g> ver<g ref="#slong">s</g>tellen</seg>
+			
+			<pb n="103v" xml:id="M2_103v"></pb>
+				<milestone n="M2b" unit="collection"></milestone>
+<seg>				<lb n="N001"></lb><hi><hi rend="textColour:RED;" style="heading">W</hi></hi><g ref="#inodot">i</g>ltu ain ba<g ref="#slong">s</g>teten machen <g ref="#slong">s</g>o nyem 
+				<lb n="N002"></lb>a<g ref="#inodot">i</g>nen gewelten ta<g ref="#inodot">i</g>g vnd mach daru<g ref="#slong">s</g>z 
+				<lb n="N003"></lb>a<g ref="#inodot">i</g>nen <g ref="#slong">s</g>cherben vnd hab a<g ref="#inodot">i</g>n Jung tuben 
+				<lb n="N004"></lb>oder ain Junges hu<g ref="#osup">o</g>n cze kla<g ref="#inodot">i</g>nen <g ref="#slong">s</g>tucken 
+				<lb n="N005"></lb>row vnd <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d den <g ref="#slong">s</g>peck wu<g ref="#combuml"></g>rfflot vnd 
+				<lb n="N006"></lb>leg es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> in den <g ref="#slong">s</g>cherben vnd bewu<g ref="#combuml"></g>rtz 
+				<lb n="N007"></lb>es wol vnd leg a<g ref="#inodot">i</g>n ander blat von gu<g ref="#osup">o</g>ten 
+				<lb n="N008"></lb>ayern daru<g ref="#combuml"></g>ber vnd bach es <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem 
+				<lb n="N009"></lb>ofen</seg><seg> <hi rend="textColour:RED;" style="heading">ba<g ref="#slong">s</g>tent <g ref="#fracsol"></g> </hi>
+				<lb n="N010"></lb>Ouch machet man ain ba<g ref="#slong">s</g>tent von ayer 
+				<lb n="N011"></lb>ka<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> vnd ander d<g ref="#inodot">i</g>ngen trucken oder na<g ref="#slong">s</g>z 
+				<lb n="N012"></lb>Ouch werdent <g ref="#slong">s</g>y gu<g ref="#osup">o</g>t von f<g ref="#inodot">i</g>gen vnd mit 
+				<lb n="N013"></lb>w<g ref="#inodot">i</g>nbern Ouch macht man <g ref="#slong">s</g>y mit gu<g ref="#osup">o</g>ten 
+				<lb n="N014"></lb>b<g ref="#inodot">i</g>ern vnd gewu<g ref="#combuml"></g>rtz Och verend morochen 
+				<lb n="N015"></lb>darIn tu<g ref="#osup">o</g>t vnd allerlay gewu<g ref="#combuml"></g>rtz</seg><seg>  
+				<lb n="N016"></lb><hi rend="textColour:RED;" style="heading">ba<g ref="#slong">s</g>tent</hi>
+				<lb n="N017"></lb>Ouch macht man ain ba<g ref="#slong">s</g>teten von 
+				<lb n="N018"></lb>f<g ref="#inodot">i</g><g ref="#slong">s</g>chen nyem wellerlay du w<g ref="#inodot">i</g>lt vnd tu<g ref="#osup">o</g> 
+				<lb n="N019"></lb>a<g ref="#inodot">i</g>n wen<g ref="#inodot">i</g>g gu<g ref="#osup">o</g>t<g ref="#inodot">i</g>n bru<g ref="#esup">e</g>gin darIn vnd win 
+				<lb n="N020"></lb>vnd <g ref="#slong">s</g>chmaltz vnd gewu<g ref="#combuml"></g>rtz darIn Es 
+				<lb n="N021"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>nd ouch allay fo<g ref="#combuml"></g>gel gros vnd kla<g ref="#inodot">i</g>n 
+				<lb n="N022"></lb>vnd ga<g ref="#combuml"></g>ns vnd entten gu<g ref="#osup">o</g>t darIn Ouch 
+				<lb n="N023"></lb>macht man kalbfla<g ref="#inodot">i</g><g ref="#slong">s</g>ch <g ref="#slong">s</g>peck vnd pe
+				<lb n="N024"></lb>terl<g ref="#inodot">i</g>n wol gehakt darIn</seg><seg>
+			
+			<pb n="104r" xml:id="M2_104r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">ba<g ref="#slong">s</g>tent</hi> 
+				<lb n="N002"></lb>A<g ref="#inodot">i</g>n ba<g ref="#slong">s</g>tet nyem a<g ref="#inodot">i</g>nen hertten <w>wolge<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>welten</w> ta<g ref="#inodot">i</g>g von ayern oder <g ref="#slong">s</g>u<g ref="#slong">s</g>z vnd 
+				<lb n="N004"></lb>mach ainen hochen <g ref="#slong">s</g>cherben daru<g ref="#slong">s</g><g ref="#slong">s</g> ainer 
+				<lb n="N005"></lb>hand ho<g ref="#combuml"></g>ch<g ref="#inodot">i</g>n oder w<g ref="#inodot">i</g>e hoch du w<g ref="#inodot">i</g>lt vnd 
+				<lb n="N006"></lb>hab a<g ref="#inodot">i</g>n Jung tuben oder ain Jung hu<g ref="#osup">o</g>n 
+				<lb n="N007"></lb>oder was du w<g ref="#inodot">i</g>lt von fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch oder machs 
+				<lb n="N008"></lb><g ref="#inodot">i</g>n der gro<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>n als ainen hafen brauten 
+				<lb n="N009"></lb>vnd hack <g ref="#slong">s</g>peck darIn vnd bewu<g ref="#combuml"></g>rtz vnd 
+				<lb n="N010"></lb>fa<g ref="#combuml"></g>rbs als row vnd tu<g ref="#osup">o</g> es <g ref="#inodot">i</g>n den <abbr><g ref="#slong">s</g>cherb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> 
+				<lb n="N011"></lb>vnd be<g ref="#slong">s</g>chlu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> es mit a<g ref="#inodot">i</g>nem ayer plat 
+				<lb n="N012"></lb>oder <g ref="#slong">s</g>u<g ref="#slong">s</g><g ref="#slong">s</g> m<g ref="#inodot">i</g>t a<g ref="#inodot">i</g>nem plat gar wol das 
+				<lb n="N013"></lb>ka<g ref="#inodot">i</g>n dampff noch n<g ref="#inodot">i</g>chtz dauon mug 
+				<lb n="N014"></lb>kumen vnd bach <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem ofen vnd 
+				<lb n="N015"></lb>mach ouch wol a<g ref="#inodot">i</g>n gu<g ref="#osup">o</g>ten fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch bru<g ref="#esup">e</g>ge 
+				<lb n="N016"></lb>oder gu<g ref="#osup">o</g>ten win ain ta<g ref="#inodot">i</g>l darIn be<g ref="#slong">s</g>chl<g ref="#inodot">i</g>e<g ref="#slong">s</g><g ref="#slong">s</g>en 
+				<lb n="N017"></lb>oder <g ref="#slong">s</g>chmaltz</seg><seg> <hi rend="textColour:RED;" style="heading">a<g ref="#inodot">i</g>nen pfeffer</hi> 
+				<lb n="N018"></lb>N<g ref="#inodot">i</g>em ain leber vnd braut d<g ref="#inodot">i</g>e vnd 
+				<lb n="N019"></lb><g ref="#slong">s</g>chnid darnach das v<g ref="#slong">s</g><g ref="#slong">s</g> darab vnd <g ref="#slong">s</g>chnid 
+				<lb n="N020"></lb>d<g ref="#inodot">i</g>e leber czu<g ref="#osup">o</g> <g ref="#slong">s</g>chnitlin vnd was darab 
+				<lb n="N021"></lb>ge<g ref="#slong">s</g>chnitten werd das <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> In a<g ref="#inodot">i</g>nem 
+				<lb n="N022"></lb>mor<g ref="#slong">s</g>er vnd tu<g ref="#osup">o</g> rugg<g ref="#inodot">i</g>n brott vnd bru<g ref="#esup">e</g>gin 
+				<lb n="N023"></lb>vnd win oder e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch darnach well 
+				<lb n="N024"></lb>es <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>ner pfannen das wirt ain leber 
+				<lb n="N025"></lb>pfeffer <g ref="#fracsol"></g></seg><seg> <hi rend="textColour:RED;" style="heading">pfeffer <g ref="#slong">s</g>chwartz</hi> 
+				<lb n="N026"></lb>A<g ref="#inodot">i</g>nen <g ref="#slong">s</g>chwartzen pfeffer al<g ref="#slong">s</g>o nyem   
+			
+			<pb n="104v" xml:id="M2_104v"></pb>
+			
+				<lb n="N001"></lb>geba<g ref="#combuml"></g>ttes brott rugg<g ref="#inodot">i</g>s vnd czu<g ref="#combuml"></g>ch es 
+				<lb n="N002"></lb>durch m<g ref="#inodot">i</g>t der bru<g ref="#esup">e</g>ge vnd m<g ref="#inodot">i</g>t w<g ref="#inodot">i</g>n 
+				<lb n="N003"></lb>vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch das es genu<g ref="#osup">o</g>g <g ref="#slong">s</g>y vnd bewu<g ref="#combuml"></g>rtz 
+				<lb n="N004"></lb>es vnd tu<g ref="#osup">o</g> <g ref="#slong">s</g>peck darIn als vor <g ref="#inodot">i</g><g ref="#slong">s</g>t <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N005"></lb><g ref="#slong">s</g>chr<g ref="#inodot">i</g>ben</w> vnd erwo<g ref="#combuml"></g>ll das w<g ref="#inodot">i</g>ld pra<g ref="#combuml"></g>tt <g ref="#fracsol"></g></seg><seg>
+				<lb n="N006"></lb><hi rend="textColour:RED;" style="heading">Rech leber</hi> 
+				<lb n="N007"></lb>A<g ref="#inodot">i</g>n e<g ref="#slong">s</g><g ref="#slong">s</g>en von a<g ref="#inodot">i</g>ner rehleber niem 
+				<lb n="N008"></lb>d<g ref="#inodot">i</g>e leber vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d <g ref="#slong">s</g>y oder braut <g ref="#slong">s</g>y oder 
+				<lb n="N009"></lb>ro<g ref="#combuml"></g><g ref="#slong">s</g>t <g ref="#slong">s</g>y darnach hack <g ref="#slong">s</g>y klain oder <g ref="#slong">s</g>to<g ref="#slong">s</g>z 
+				<lb n="N010"></lb><g ref="#slong">s</g>y klain oder <g ref="#slong">s</g>to<g ref="#slong">s</g>z <g ref="#slong">s</g>y m<g ref="#inodot">i</g>t a<g ref="#inodot">i</g>nem rugg<g ref="#inodot">i</g>n 
+				<lb n="N011"></lb>brott In a<g ref="#inodot">i</g>ner gu<g ref="#osup">o</g>ten bru<g ref="#esup">e</g>gin vnd nym 
+				<lb n="N012"></lb>w<g ref="#inodot">i</g>n vnd a<g ref="#inodot">i</g>n wenig e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch darIn vnd 
+				<lb n="N013"></lb><g ref="#slong">s</g>peck als vor ge<g ref="#slong">s</g>chr<g ref="#inodot">i</g>ben <g ref="#inodot">i</g><g ref="#slong">s</g>t vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d 
+				<lb n="N014"></lb>es vnd r<g ref="#inodot">i</g>cht es <g ref="#inodot">i</g>n <g ref="#slong">s</g>chu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>len vnd g<g ref="#inodot">i</g>b 
+				<lb n="N015"></lb>a<g ref="#inodot">i</g>n gebachen ayer plat daruff <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N016"></lb><hi rend="textColour:RED;" style="heading">leber</hi> 
+				<lb n="N017"></lb>N<g ref="#inodot">i</g>em a<g ref="#inodot">i</g>n <g ref="#slong">s</g>cha<g ref="#combuml"></g>ffin oder ain kelberlin 
+				<lb n="N018"></lb>leber vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> <g ref="#slong">s</g>y gar klain 
+				<lb n="N019"></lb>mit als v<g ref="#inodot">i</g>l brottes vnd gu<g ref="#combuml"></g><g ref="#slong">s</g>z win oder 
+				<lb n="N020"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch oder ba<g ref="#inodot">i</g>din darIn vnd czu<g ref="#combuml"></g>chs 
+				<lb n="N021"></lb>durch vnd bewu<g ref="#combuml"></g>rtz es vnd fa<g ref="#combuml"></g>rbs vnd 
+				<lb n="N022"></lb>laus es erwallen vnd g<g ref="#inodot">i</g>b fogel darIn 
+				<lb n="N023"></lb>w<g ref="#inodot">i</g>lt du aber es ge<g ref="#rrot">r</g>n va<g ref="#slong">s</g>t <g ref="#slong">s</g>u<g ref="#esup">e</g><g ref="#slong">s</g><g ref="#slong">s</g> machen 
+				<lb n="N024"></lb><g ref="#slong">s</g>o tu<g ref="#osup">o</g> gu<g ref="#osup">o</g>t hon<g ref="#inodot">i</g>g dar vnder nach d<g ref="#inodot">i</g>nem 
+				<lb n="N025"></lb>gefallen darIn nach du geben rebhu<g ref="#esup">e</g>nr 
+				<lb n="N026"></lb>fo<g ref="#combuml"></g>gel vnd czame hu<g ref="#esup">e</g>nr gebrauten
+			
+			<pb n="105r" xml:id="M2_105r"></pb>
+			
+				<lb n="N001"></lb>vnd a<g ref="#inodot">i</g>nen gebre<g ref="#slong">s</g><g ref="#slong">s</g>eten kopff ain <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N002"></lb>bra<g ref="#combuml"></g>ten</w> h<g ref="#inodot">i</g>erß leber oder ander d<g ref="#inodot">i</g>ng</seg><seg>
+				<lb n="N003"></lb><hi rend="textColour:RED;" style="heading"><g ref="#slong">s</g>chwartz pfeffer <g ref="#fracsol"></g></hi>
+				<lb n="N004"></lb>Ouch mach a<g ref="#inodot">i</g>n karpffen an brach<g ref="#slong">s</g>ne 
+				<lb n="N005"></lb>an <g ref="#slong">s</g>chl<g ref="#inodot">i</g>gen oder ander v<g ref="#inodot">i</g><g ref="#slong">s</g>ch a<g ref="#inodot">i</g>nen 
+				<lb n="N006"></lb><g ref="#slong">s</g>chwartzen pfeffer der d<g ref="#inodot">i</g>ck <g ref="#inodot">i</g><g ref="#slong">s</g>t als an 
+				<lb n="N007"></lb>a<g ref="#inodot">i</g>nem w<g ref="#inodot">i</g>ldpra<g ref="#esup">e</g>tt Ouch mach a<g ref="#inodot">i</g>nen 
+				<lb n="N008"></lb><g ref="#slong">s</g>chwartzen pfeffer m<g ref="#inodot">i</g>t hon<g ref="#inodot">i</g>g an gantz 
+				<lb n="N009"></lb>v<g ref="#inodot">i</g><g ref="#slong">s</g>ch groppen grundlen vnd an wellerlay 
+				<lb n="N010"></lb>du w<g ref="#inodot">i</g>lt <g ref="#slong">s</g>u<g ref="#slong">s</g><g ref="#slong">s</g> anderlay pfeffer an f<g ref="#inodot">i</g><g ref="#slong">s</g>ch 
+				<lb n="N011"></lb>vnd durch gezogen a<g ref="#combuml"></g>rw<g ref="#inodot">i</g><g ref="#slong">s</g>zen von 
+				<lb n="N012"></lb>pfefferbrott von mell vnd von 
+				<lb n="N013"></lb>czu<g ref="#combuml"></g>belen von pfeffer vnd du<g ref="#combuml"></g><g ref="#rrot">r</g>re pfeffer <g ref="#fracsol"></g>
+				<lb n="N014"></lb>Mach als d<g ref="#inodot">i</g>n gewonha<g ref="#inodot">i</g>t <g ref="#inodot">i</g><g ref="#slong">s</g>t <g ref="#fracsol"></g></seg><seg>
+				<lb n="N015"></lb><hi rend="textColour:RED;" style="heading">pfeffer <g ref="#fracsol"></g></hi>  
+				<lb n="N016"></lb>A<g ref="#inodot">i</g>n pfeffer an krep<g ref="#slong">s</g><g ref="#slong">s</g> mach al<g ref="#slong">s</g>o nyem 
+				<lb n="N017"></lb>kreps vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d <g ref="#slong">s</g>y als vor <g ref="#inodot">i</g><g ref="#slong">s</g>t <abbr>ge<g ref="#slong">s</g>chr<g ref="#inodot">i</g>b<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> 
+				<lb n="N018"></lb>vnd czu<g ref="#combuml"></g>ch <g ref="#slong">s</g>y durch m<g ref="#inodot">i</g>t win vnd 
+				<lb n="N019"></lb>m<g ref="#inodot">i</g>t e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd <g ref="#slong">s</g>chell <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> d<g ref="#inodot">i</g>e ge<g ref="#slong">s</g>otten 
+				<lb n="N020"></lb>kreps d<g ref="#inodot">i</g>e <g ref="#slong">s</g>cha<g ref="#combuml"></g>ren vnd d<g ref="#inodot">i</g>e bu<g ref="#combuml"></g>ch vnd 
+				<lb n="N021"></lb>d<g ref="#inodot">i</g>e <g ref="#slong">s</g>chwa<g ref="#combuml"></g>ntz vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e ba<g ref="#inodot">i</g>n von 
+				<lb n="N022"></lb>den bu<g ref="#combuml"></g>chen vnd tu<g ref="#osup">o</g> das <g ref="#inodot">i</g>n d<g ref="#inodot">i</g>e durch 
+				<lb n="N023"></lb>gezognen kreps vnd bewu<g ref="#combuml"></g>rtz es als 
+				<lb n="N024"></lb>du w<g ref="#inodot">i</g>lt vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es als du w<g ref="#inodot">i</g>lt als 
+				<lb n="N025"></lb>a<g ref="#inodot">i</g>nen pfeffer <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+			
+			<pb n="105v" xml:id="M2_105v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">gefu<g ref="#combuml"></g>lt krep<g ref="#slong">s</g><g ref="#slong">s</g> </hi>
+				<lb n="N002"></lb>N<g ref="#inodot">i</g>em gros krep<g ref="#slong">s</g><g ref="#slong">s</g> vnd nyem d<g ref="#inodot">i</g>e <w><g ref="#slong">s</g>chal<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>lan</w> al<g ref="#slong">s</g>o gantz dauon nyem das ynder 
+				<lb n="N004"></lb>daru<g ref="#slong">s</g><g ref="#slong">s</g> vnd w<g ref="#inodot">i</g>erff das bo<g ref="#esup">e</g><g ref="#combuml"></g><g ref="#slong">s</g>z dauon 
+				<lb n="N005"></lb>vnd hack das ander vff a<g ref="#inodot">i</g>nem <g ref="#slong">s</g>uberm 
+				<lb n="N006"></lb>brett vnd <g ref="#slong">s</g>chlach gebachen ayer darIn 
+				<lb n="N007"></lb>vnd hack es vnder a<g ref="#inodot">i</g>n andren vnd 
+				<lb n="N008"></lb>bewu<g ref="#combuml"></g>rtz vnd fa<g ref="#esup">e</g>rbs vnd fu<g ref="#combuml"></g>ll d<g ref="#inodot">i</g>e kreps 
+				<lb n="N009"></lb><g ref="#slong">s</g>challan damit vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> d<g ref="#inodot">i</g>e <g ref="#slong">s</g>challan 
+				<lb n="N010"></lb>v<g ref="#combuml"></g>ber ain andren vnd legs vff ain 
+				<lb n="N011"></lb>ro<g ref="#slong">s</g>t vnd brauts gar wol</seg><seg>
+				<lb n="N012"></lb><hi rend="textColour:RED;" style="heading">kreps pfeffer <g ref="#fracsol"></g></hi>
+				<lb n="N013"></lb>N<g ref="#inodot">i</g>em kreps vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e vnd <g ref="#slong">s</g>chels 
+				<lb n="N014"></lb>das d<g ref="#inodot">i</g>e ho<g ref="#combuml"></g>ls blo<g ref="#slong">s</g>z <g ref="#slong">s</g>y vnd d<g ref="#inodot">i</g>e <g ref="#slong">s</g>challan 
+				<lb n="N015"></lb>dauon komen darnach nyem row 
+				<lb n="N016"></lb>kreps vnd nyem czu<g ref="#osup">o</g> den augen v<g ref="#slong">s</g><g ref="#slong">s</g> 
+				<lb n="N017"></lb>vnd das kaut dauon vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> <g ref="#slong">s</g>y <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> 
+				<lb n="N018"></lb><g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er vnd <g ref="#slong">s</g>tr<g ref="#inodot">i</g>ch durch ain 
+				<lb n="N019"></lb>tu<g ref="#osup">o</g>ch oder durch a<g ref="#inodot">i</g>n <g ref="#slong">s</g><g ref="#inodot">i</g>b m<g ref="#inodot">i</g>t win oder <g ref="#fracsol"></g>
+				<lb n="N020"></lb>m<g ref="#inodot">i</g>t e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd bewu<g ref="#osup">o</g>rtz vnd mach 
+				<lb n="N021"></lb>ain pfeffer an d<g ref="#inodot">i</g>e ge<g ref="#slong">s</g>chelten krep<g ref="#slong">s</g><g ref="#slong">s</g></seg><seg>
+				<lb n="N022"></lb><hi rend="textColour:RED;" style="heading">pfeffer</hi> 
+				<lb n="N023"></lb>Bach ain plat in a<g ref="#inodot">i</g>ner pfannen 
+				<lb n="N024"></lb>vnd <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d daru<g ref="#slong">s</g><g ref="#slong">s</g> wu<g ref="#combuml"></g>rffelt vnd mach 
+				<lb n="N025"></lb>a<g ref="#inodot">i</g>nen <g ref="#slong">s</g>chwarczen pfeffer v<g ref="#slong">s</g><g ref="#slong">s</g> brott mell 
+				<lb n="N026"></lb>vnd v<g ref="#inodot">i</g><g ref="#slong">s</g>ch bru<g ref="#esup">e</g>ge vnd laus das gebachen 
+				<lb n="N027"></lb>darIn erwallen vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>t ain wenig 
+			
+			<pb n="106r" xml:id="M2_106r"></pb>
+			
+				<lb n="N001"></lb>w<g ref="#inodot">i</g><g ref="#slong">s</g>z brott mell oder In <g ref="#slong">s</g>chmaltz <w>wu<g ref="#combuml"></g>rff<g ref="#dbloblhyph">=</g>
+				<lb n="N002"></lb>lott</w> vnd <g ref="#slong">s</g>tro<g ref="#esup">e</g>w es darvff</seg><seg> 
+				<lb n="N003"></lb><hi rend="textColour:RED;" style="heading">fu<g ref="#combuml"></g>r he<g ref="#slong">s</g><g ref="#slong">s</g></hi>
+				<lb n="N004"></lb>Czu<g ref="#osup">o</g> a<g ref="#inodot">i</g>nem fu<g ref="#combuml"></g>rhe<g ref="#slong">s</g><g ref="#slong">s</g> niem d<g ref="#inodot">i</g>e lungen 
+				<lb n="N005"></lb>vnd d<g ref="#inodot">i</g>e lebren vnd d<g ref="#inodot">i</g>e we<g ref="#slong">s</g>t<g ref="#inodot">i</g>n von 
+				<lb n="N006"></lb>den ha<g ref="#slong">s</g><g ref="#slong">s</g>en vnd czer<g ref="#slong">s</g>chn<g ref="#inodot">i</g>d das <w>wu<g ref="#combuml"></g>rff<g ref="#dbloblhyph">=</g>
+				<lb n="N007"></lb>lott</w> vnd fauch den <g ref="#slong">s</g>chwa<g ref="#inodot">i</g><g ref="#slong">s</g>z vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d 
+				<lb n="N008"></lb>es dam<g ref="#inodot">i</g>t vnd tu<g ref="#osup">o</g> ain wen<g ref="#inodot">i</g>g bru<g ref="#esup">e</g>ge win 
+				<lb n="N009"></lb>vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd hon<g ref="#inodot">i</g>g vnd <g ref="#slong">s</g>peck dar 
+				<lb n="N010"></lb>czu<g ref="#osup">o</g> <g ref="#slong">s</g>o hau<g ref="#slong">s</g>t du a<g ref="#inodot">i</g>n gu<g ref="#osup">o</g>t fu<g ref="#combuml"></g>rhe<g ref="#slong">s</g><g ref="#slong">s</g> <g ref="#fracsol"></g></seg><seg>
+				<lb n="N011"></lb><hi rend="textColour:RED;" style="heading">fu<g ref="#combuml"></g>rhe<g ref="#slong">s</g><g ref="#slong">s</g> </hi>
+				<lb n="N012"></lb>A<g ref="#inodot">i</g>n fu<g ref="#combuml"></g>rhe<g ref="#slong">s</g><g ref="#slong">s</g> nyem d<g ref="#inodot">i</g>e lungen vnd 
+				<lb n="N013"></lb>lebren vnd fauch den <g ref="#slong">s</g>chwa<g ref="#inodot">i</g><g ref="#slong">s</g>z von 
+				<lb n="N014"></lb>a<g ref="#inodot">i</g>nem ha<g ref="#slong">s</g><g ref="#slong">s</g>en vnd hackes klain vnd 
+				<lb n="N015"></lb><g ref="#slong">s</g>ud es m<g ref="#inodot">i</g>t dem <g ref="#slong">s</g>chwa<g ref="#inodot">i</g>s m<g ref="#inodot">i</g>t dem <w>w<g ref="#inodot">i</g>ld<g ref="#dbloblhyph">=</g>
+				<lb n="N016"></lb>pra<g ref="#combuml"></g>tt</w> m<g ref="#inodot">i</g>t win vnd m<g ref="#inodot">i</g>t e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd mit 
+				<lb n="N017"></lb>gu<g ref="#osup">o</g>tter <del>gru<g ref="#combuml"></g></del>###<note>&apos;g&apos; zu &apos;b&apos; verbessert, dann gestrichen.</note> bru<g ref="#esup">e</g>gin vnd hack <g ref="#slong">s</g>peck gar <g ref="#fracsol"></g>
+				<lb n="N018"></lb>klain ouch darIn vnd laus <g ref="#inodot">i</g>n vor v<g ref="#slong">s</g><g ref="#slong">s</g> 
+				<lb n="N019"></lb>ga<g ref="#combuml"></g>n <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>ner pfannen czu<g ref="#combuml"></g>ch <g ref="#inodot">i</g>n den 
+				<lb n="N020"></lb>durch a<g ref="#inodot">i</g>n tu<g ref="#osup">o</g>ch m<g ref="#inodot">i</g>t geba<g ref="#combuml"></g>tem ruggin 
+				<lb n="N021"></lb>brott vnd bewu<g ref="#combuml"></g>rtz vnd laus ers erwallen</seg><seg>
+				<lb n="N022"></lb><hi rend="textColour:RED;" style="heading">Galray</hi> 
+				<lb n="N023"></lb><hi rend="textColour:RED;">Ouch macht</hi> nemen a<g ref="#inodot">i</g>n durch<g ref="#slong">s</g>lagen 
+				<lb n="N024"></lb>pfeffer brott vnd das fa<g ref="#combuml"></g>rb vnd bewu<g ref="#combuml"></g>rtz 
+				<lb n="N025"></lb>vnd v<g ref="#inodot">i</g>l e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch daran vnd o<g ref="#combuml"></g>pffel kla<g ref="#inodot">i</g>n 
+				<lb n="N026"></lb>ge<g ref="#slong">s</g>chnitten vnd gehakt daran vnd 
+			
+			<pb n="106v" xml:id="M2_106v"></pb>
+			
+				<lb n="N001"></lb>Vnd laus das ain wenig erwallen 
+				<lb n="N002"></lb>daran vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> das vff den kopff vnd 
+				<lb n="N003"></lb>g<g ref="#inodot">i</g>bs da m<g ref="#inodot">i</g>t <g ref="#fracsol"></g></seg><seg>
+				<lb n="N004"></lb>N<g ref="#inodot">i</g>em ain h<g ref="#inodot">i</g>ers leber vnd braut d<g ref="#inodot">i</g>e 
+				<lb n="N005"></lb>darnach <g ref="#slong">s</g>chnid das v<g ref="#slong">s</g><g ref="#slong">s</g>er darab vnd 
+				<lb n="N006"></lb><g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> es in a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er m<g ref="#inodot">i</g>t ruggim 
+				<lb n="N007"></lb>brott vnd hon<g ref="#inodot">i</g>g vnd win vnd tr<g ref="#inodot">i</g>b es 
+				<lb n="N008"></lb>durch ain tu<g ref="#osup">o</g>ch vnd bewu<g ref="#combuml"></g>rtz vnd <w>er<g ref="#dbloblhyph">=</g>
+				<lb n="N009"></lb>well</w> d<g ref="#inodot">i</g>e leber darnach vnd g<g ref="#inodot">i</g>b das kalt <g ref="#fracsol"></g>
+				<lb n="N010"></lb>czu<g ref="#osup">o</g> e<g ref="#slong">s</g><g ref="#slong">s</g>end das <g ref="#inodot">i</g><g ref="#slong">s</g>t a<g ref="#inodot">i</g>n leber galray</seg><seg> 
+				<lb n="N011"></lb><hi rend="textColour:RED;" style="heading">reckolter fogel</hi>
+				<lb n="N012"></lb>N<g ref="#inodot">i</g>em reckolter fogel d<g ref="#inodot">i</g>e <g ref="#slong">s</g>uber bera<g ref="#inodot">i</g>tt 
+				<lb n="N013"></lb><g ref="#slong">s</g>ind vnd <g ref="#slong">s</g>o du <g ref="#slong">s</g>y gewa<g ref="#inodot">i</g>de<g ref="#slong">s</g>t <g ref="#slong">s</g>o <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> den 
+				<lb n="N014"></lb>magen al<g ref="#slong">s</g>o gantz w<g ref="#inodot">i</g>der in vnd Erwelle 
+				<lb n="N015"></lb>in a<g ref="#inodot">i</g>ner gu<g ref="#osup">o</g>ten fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch bru<g ref="#esup">e</g>ge darnach 
+				<lb n="N016"></lb>ro<g ref="#combuml"></g><g ref="#slong">s</g>t in a<g ref="#inodot">i</g>nem <g ref="#slong">s</g>chmaltz vnd nyem 
+				<lb n="N017"></lb>aines kalbes oder aines <g ref="#slong">s</g>chauffes leber <g ref="#fracsol"></g>
+				<lb n="N018"></lb>vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z in ainem mor<g ref="#slong">s</g>er vnd als v<g ref="#inodot">i</g>l 
+				<lb n="N019"></lb>prottes darczu<g ref="#osup">o</g> vnd gu<g ref="#combuml"></g><g ref="#slong">s</g>z daran ain wen<g ref="#inodot">i</g>g 
+				<lb n="N020"></lb>win vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd <g ref="#slong">s</g>chlachs durch ain 
+				<lb n="N021"></lb>tu<g ref="#osup">o</g>ch bewu<g ref="#combuml"></g>rtz vnd fa<g ref="#combuml"></g>rbs wol vnd <w>er<g ref="#dbloblhyph">=</g>
+				<lb n="N022"></lb>wo<g ref="#combuml"></g>ls</w> in a<g ref="#inodot">i</g>ner pfannen vnd g<g ref="#inodot">i</g>b d<g ref="#inodot">i</g>e 
+				<lb n="N023"></lb>reckolter fogel darIn</seg><seg> <hi rend="textColour:RED;" style="heading">galray</hi> 
+				<lb n="N024"></lb><hi rend="textColour:RED;">Czu<g ref="#osup">o</g> ainem galray</hi> win e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd 
+				<lb n="N025"></lb>hon<g ref="#inodot">i</g>g vnd lepczelten vnd <g ref="#slong">s</g>tos es 
+				<lb n="N026"></lb>vnder ain ander vnd <g ref="#slong">s</g><g ref="#inodot">i</g>he es durch
+			
+			<pb n="107r" xml:id="M2_107r"></pb>
+			
+				<lb n="N001"></lb>a<g ref="#inodot">i</g>n tu<g ref="#osup">o</g>ch vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> 
+				<lb n="N002"></lb>etwar In vnd laus es kalt werden 
+				<lb n="N003"></lb><g ref="#slong">s</g>o wirt es gu<g ref="#osup">o</g>t <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg> <hi rend="textColour:RED;" style="heading">galray</hi>
+				<lb n="N004"></lb>Ain galray niem e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch win vnd hon<g ref="#inodot">i</g>g 
+				<lb n="N005"></lb>vnd pfeffer brott vnd <g ref="#slong">s</g>toß es vnder ain 
+				<lb n="N006"></lb>andren vnd czu<g ref="#combuml"></g>ch es durch vnd machs 
+				<lb n="N007"></lb><abbr>dan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> vnd bewu<g ref="#combuml"></g>rtz es vnd erwo<g ref="#combuml"></g>ls vnd 
+				<lb n="N008"></lb>g<g ref="#inodot">i</g>b es kalt <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du w<g ref="#inodot">i</g>lt m<g ref="#inodot">i</g>t v<g ref="#inodot">i</g><g ref="#slong">s</g>ch oder 
+				<lb n="N009"></lb>m<g ref="#inodot">i</g>t fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch w<g ref="#inodot">i</g>ltpra<g ref="#combuml"></g>t ge<g ref="#slong">s</g>ottes oder <abbr>gebrate<ex>n</ex><am><g ref="#bar_n"></g></am></abbr></seg><seg>
+				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">Galray</hi> 
+				<lb n="N011"></lb>Ouch mach ain galray von win e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch 
+				<lb n="N012"></lb>vnd von v<g ref="#inodot">i</g><g ref="#slong">s</g>ch bru<g ref="#esup">e</g>ge gewu<g ref="#combuml"></g>rtzt gefa<g ref="#combuml"></g>rbt <g ref="#fracsol"></g>
+				<lb n="N013"></lb>m<g ref="#inodot">i</g>t honig vnd pfefferbrott vnd blo<g ref="#slong">s</g>z 
+				<lb n="N014"></lb>erwo<g ref="#combuml"></g>lt vnd g<g ref="#inodot">i</g>bs kalt nebend v<g ref="#inodot">i</g><g ref="#slong">s</g>chen 
+				<lb n="N015"></lb>ge<g ref="#slong">s</g>otten oder gebrauten als ain <g ref="#slong">s</g>a<g ref="#combuml"></g>ltz</seg><seg> 
+				<lb n="N016"></lb><hi rend="textColour:RED;" style="heading">galray</hi> 
+				<lb n="N017"></lb>Ain galray an a<g ref="#inodot">i</g>n ha<g ref="#slong">s</g><g ref="#slong">s</g>enleber oder an 
+				<lb n="N018"></lb>ain ander leber gebrautten vnd <g ref="#slong">s</g>chnid 
+				<lb n="N019"></lb>das v<g ref="#slong">s</g><g ref="#slong">s</g>er darab vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z das wol m<g ref="#inodot">i</g>t 
+				<lb n="N020"></lb>rugg<g ref="#inodot">i</g>m brott vnd honig vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch 
+				<lb n="N021"></lb>vnd czu<g ref="#combuml"></g>ch es durch vnd bewu<g ref="#combuml"></g>rtz es 
+				<lb n="N022"></lb>vnd erwo<g ref="#combuml"></g>ll e<g ref="#slong">s</g> <g ref="#slong">s</g>o w<g ref="#inodot">i</g>ert es <g ref="#slong">s</g>chwartz 
+				<lb n="N023"></lb>vnd g<g ref="#inodot">i</g>bs kalt czu<g ref="#osup">o</g> der leber du <g ref="#slong">s</g>olt och 
+				<lb n="N024"></lb>d<g ref="#inodot">i</g>e leber darIn erwellen <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N025"></lb><hi rend="textColour:RED;" style="heading">galray an ain gan<g ref="#slong">s</g>z</hi>
+			
+			<pb n="107v" xml:id="M2_107v"></pb>
+			
+				<lb n="N001"></lb>A<g ref="#inodot">i</g>n knobloch galray an ain gan<g ref="#slong">s</g>z 
+				<lb n="N002"></lb>N<g ref="#inodot">i</g>em ain Jung gans d<g ref="#inodot">i</g>e wol vnd <g ref="#slong">s</g>cho<g ref="#combuml"></g>n 
+				<lb n="N003"></lb>bera<g ref="#inodot">i</g>t <g ref="#slong">s</g>y vnd gebrauten daran mach 
+				<lb n="N004"></lb>niem knobloch vnd w<g ref="#inodot">i</g><g ref="#slong">s</g>z brot gel<g ref="#inodot">i</g>ch v<g ref="#inodot">i</g>l 
+				<lb n="N005"></lb>vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z das wol vnd nyem den e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch 
+				<lb n="N006"></lb>daran vnd hon<g ref="#inodot">i</g>g vnd czu<g ref="#combuml"></g>ch es vor 
+				<lb n="N007"></lb>durch vnd bewu<g ref="#combuml"></g>rtz ob du w<g ref="#inodot">i</g>lt es <g ref="#inodot">i</g><g ref="#slong">s</g>t 
+				<lb n="N008"></lb>aber n<g ref="#inodot">i</g>t gewonl<g ref="#inodot">i</g>ch</seg><seg>
+				<lb n="N009"></lb><hi rend="textColour:RED;" style="heading">bern kopff</hi>
+				<lb n="N010"></lb>Ain bern kopff oder ain <g ref="#slong">s</g>chwin kopff 
+				<lb n="N011"></lb>bera<g ref="#inodot">i</g>t <g ref="#slong">s</g>uber vnd ta<g ref="#inodot">i</g>ll in enzway vnd 
+				<lb n="N012"></lb><g ref="#slong">s</g>u<g ref="#combuml"></g>d <g ref="#inodot">i</g>n gar wol vnd <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d d<g ref="#inodot">i</g>e hut <w>wu<g ref="#combuml"></g>rff<g ref="#dbloblhyph">=</g>
+				<lb n="N013"></lb>lott</w> al<g ref="#slong">s</g>o das <g ref="#slong">s</g>y an ain andren bel<g ref="#inodot">i</g>b vff 
+				<lb n="N014"></lb>dem bain vnd leg in vff ain ro<g ref="#slong">s</g>t <g ref="#fracsol"></g> vnd 
+				<lb n="N015"></lb>gu<g ref="#combuml"></g><g ref="#slong">s</g>z ha<g ref="#inodot">i</g><g ref="#slong">s</g>z <g ref="#slong">s</g>chmaltz daruff vnd be<g ref="#slong">s</g>a<g ref="#combuml"></g>yge 
+				<lb n="N016"></lb>es m<g ref="#inodot">i</g>t gewu<g ref="#combuml"></g>rtz <g ref="#inodot">i</g>n d<g ref="#inodot">i</g>e wunden vnd 
+				<lb n="N017"></lb>g<g ref="#inodot">i</g>bs trucken
+				<lb n="N018"></lb>N<g ref="#inodot">i</g>em ainen bern kopff vnd be<g ref="#slong">s</g>eng 
+				<lb n="N019"></lb>den gar wol vnd leg <g ref="#inodot">i</g>n vff a<g ref="#inodot">i</g>nen ro<g ref="#slong">s</g>t <g ref="#fracsol"></g>
+				<lb n="N020"></lb>vnd braut in gar wol vnd be<g ref="#slong">s</g>tro<g ref="#combuml"></g>w In 
+				<lb n="N021"></lb>gar wol m<g ref="#inodot">i</g>t gewu<g ref="#combuml"></g>rtz vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du in 
+				<lb n="N022"></lb>geben w<g ref="#inodot">i</g>lt <g ref="#slong">s</g>o g<g ref="#inodot">i</g>b ainen <g ref="#slong">s</g>chwartzen 
+				<lb n="N023"></lb>pfeffer darzu<g ref="#osup">o</g></seg><seg> <hi rend="textColour:RED;" style="heading">bern</hi>
+				<lb n="N024"></lb>Darnach aber von dem bern <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d 
+				<lb n="N025"></lb>hend fu<g ref="#esup">e</g><g ref="#slong">s</g>z vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d <g ref="#slong">s</g>y gar wol nauch
+			
+			<pb n="108r" xml:id="M2_108r"></pb>
+			
+				<lb n="N001"></lb>der lengi vnd <g ref="#slong">s</g>o es ge<g ref="#slong">s</g>chnitten werden 
+				<lb n="N002"></lb>nach den czechen vnd g<g ref="#inodot">i</g>b a<g ref="#inodot">i</g>nen galray 
+				<lb n="N003"></lb>pfeffer darzu<g ref="#osup">o</g> <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg> <hi rend="textColour:RED;" style="heading">brauten</hi> 
+				<lb n="N004"></lb>N<g ref="#inodot">i</g>em den ar<g ref="#slong">s</g>zdarm von dem kalb 
+				<lb n="N005"></lb>vnd mach den gar <g ref="#slong">s</g>uber vnd hack d<g ref="#inodot">i</g>e 
+				<lb n="N006"></lb>lungen vnd <g ref="#slong">s</g>peck vnder ain andren 
+				<lb n="N007"></lb>vnd fa<g ref="#slong">s</g>z <g ref="#inodot">i</g>n den darm vnd bewu<g ref="#combuml"></g>rtz 
+				<lb n="N008"></lb>vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es vnd leg <g ref="#inodot">i</g>n <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> vff a<g ref="#inodot">i</g>nen 
+				<lb n="N009"></lb>ro<g ref="#slong">s</g>t vnd braut Inn</seg><seg> 
+				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">Spanfa<g ref="#combuml"></g>rl<g ref="#inodot">i</g>n bra<g ref="#combuml"></g>ten</hi> 
+				<lb n="N011"></lb>A<g ref="#inodot">i</g>n Jung <g ref="#slong">s</g>panfa<g ref="#combuml"></g>rlin fu<g ref="#combuml"></g>ll al<g ref="#slong">s</g>o nyem 
+				<lb n="N012"></lb>a<g ref="#inodot">i</g>ger vnd <g ref="#slong">s</g>chlach d<g ref="#inodot">i</g>e In <g ref="#slong">s</g>chmaltz vnd 
+				<lb n="N013"></lb>ru<g ref="#combuml"></g>r <g ref="#slong">s</g>y wol va<g ref="#slong">s</g>t darnach nyem d<g ref="#inodot">i</g>e 
+				<lb n="N014"></lb>lungen vnd das leberl<g ref="#inodot">i</g>n vnd d<g ref="#inodot">i</g>e niern 
+				<lb n="N015"></lb>oder allain d<g ref="#inodot">i</g>e lunggen vnd hack <g ref="#slong">s</g>y 
+				<lb n="N016"></lb>gar wol vnder ain andren vnd <w>be<g ref="#dbloblhyph">=</g>
+				<lb n="N017"></lb>wu<g ref="#combuml"></g>rtz</w> vnd fa<g ref="#combuml"></g>rbs vnd er<g ref="#slong">s</g>treks das fa<g ref="#combuml"></g>rchl<g ref="#inodot">i</g>n 
+				<lb n="N018"></lb>wol <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem ke<g ref="#slong">s</g><g ref="#slong">s</g>el vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> es denn 
+				<lb n="N019"></lb>an a<g ref="#inodot">i</g>nen langen <g ref="#slong">s</g>p<g ref="#inodot">i</g>s vnd <g ref="#slong">s</g>alb das 
+				<lb n="N020"></lb>fa<g ref="#combuml"></g>rchlin v<g ref="#slong">s</g><g ref="#slong">s</g>wenig <g ref="#slong">s</g>ta<g ref="#combuml"></g>ttencl<g ref="#inodot">i</g>chen das 
+				<lb n="N021"></lb>Im d<g ref="#inodot">i</g>e hutt n<g ref="#inodot">i</g>t verbrin noch cze hertt 
+				<lb n="N022"></lb>werd Ouch macht du es fu<g ref="#combuml"></g>llen wa
+				<lb n="N023"></lb>mit du w<g ref="#inodot">i</g>lt als a<g ref="#inodot">i</g>n gan<g ref="#slong">s</g>z vnd czu<g ref="#combuml"></g>h 
+				<lb n="N024"></lb>Im ain gebrauten wur<g ref="#slong">s</g>t nach der 
+				<lb n="N025"></lb>leng<g ref="#inodot">i</g> durch das mull <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+			
+			<pb n="108v" xml:id="M2_108v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">brauten ga<g ref="#combuml"></g>n<g ref="#slong">s</g>z galray</hi> 
+				<lb n="N002"></lb>N<g ref="#inodot">i</g>em ain Jung gan<g ref="#slong">s</g>z <g ref="#slong">s</g>o <g ref="#slong">s</g>y wol <g ref="#slong">s</g>y <w>be<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>ra<g ref="#inodot">i</g>tt</w> vnd braut d<g ref="#inodot">i</g>e gar <g ref="#slong">s</g>chon vnd 
+				<lb n="N004"></lb>nym knobloch vnd als v<g ref="#inodot">i</g>l w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>es brottes 
+				<lb n="N005"></lb>vnd <g ref="#slong">s</g>tos das in a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er vnd gu<g ref="#combuml"></g><g ref="#slong">s</g>z 
+				<lb n="N006"></lb>win vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch daran vnd czu<g ref="#combuml"></g>ch es 
+				<lb n="N007"></lb>###<note>kleines Kreuz am Zeilenbeginn.</note> durch ain tu<g ref="#osup">o</g>ch darnach gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> honig 
+				<lb n="N008"></lb>daran vnd erwo<g ref="#combuml"></g>ll es vnd bewu<g ref="#combuml"></g>rtz es 
+				<lb n="N009"></lb>wol <g ref="#slong">s</g>o hau<g ref="#slong">s</g>t ain gu<g ref="#osup">o</g>t galray czu<g ref="#osup">o</g> der 
+				<lb n="N010"></lb>gan<g ref="#slong">s</g>z</seg><seg> <hi rend="textColour:RED;" style="heading">gefu<g ref="#combuml"></g>lt gen<g ref="#slong">s</g>z</hi> 
+				<lb n="N011"></lb>N<g ref="#inodot">i</g>em aber a<g ref="#inodot">i</g>n gan<g ref="#slong">s</g>z als vor oder 
+				<lb n="N012"></lb>d<g ref="#inodot">i</g>e elter <g ref="#slong">s</g>y vnd bera<g ref="#inodot">i</g>t <g ref="#slong">s</g>y vnd begr<g ref="#inodot">i</g>ff 
+				<lb n="N013"></lb>d<g ref="#inodot">i</g>e czu<g ref="#combuml"></g><g ref="#slong">s</g>end hutt vnd fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch als a<g ref="#inodot">i</g>n 
+				<lb n="N014"></lb>hu<g ref="#osup">o</g>n vnd nyem knobloch vnd <g ref="#slong">s</g>peck 
+				<lb n="N015"></lb>vnd pfeffer vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> vnd fu<g ref="#combuml"></g>ls vnd braut 
+				<lb n="N016"></lb><g ref="#slong">s</g>y gar wol</seg><seg> <hi rend="textColour:RED;" style="heading">ain fu<g ref="#combuml"></g>llen czu<g ref="#osup">o</g> ainer gan<g ref="#slong">s</g>z</hi> 
+				<lb n="N017"></lb>Ain fu<g ref="#combuml"></g>llin czu<g ref="#osup">o</g> a<g ref="#inodot">i</g>ner gan<g ref="#slong">s</g>z be<g ref="#rrot">r</g>riffen 
+				<lb n="N018"></lb>ain gan<g ref="#slong">s</g>z vnd fu<g ref="#combuml"></g>ll d<g ref="#inodot">i</g>e mit knobloch 
+				<lb n="N019"></lb>ge<g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g>en <g ref="#slong">s</g>peck vnd pfeffer ouch mach 
+				<lb n="N020"></lb>ain fu<g ref="#combuml"></g>llin von reckolterber vnd <g ref="#slong">s</g>peck 
+				<lb n="N021"></lb>vnd ayer vnd ain wen<g ref="#inodot">i</g>g brott vnd 
+				<lb n="N022"></lb>gewu<g ref="#combuml"></g>rtz Ouch niem <g ref="#slong">s</g>peck darczu<g ref="#osup">o</g> vnd 
+				<lb n="N023"></lb>gru<g ref="#esup">e</g>n b<g ref="#inodot">i</g>eren vnd reckolterber vnd 
+				<lb n="N024"></lb>peterlin gehakt oder czu<g ref="#combuml"></g>belen</seg><seg>
+				<lb n="N025"></lb><hi rend="textColour:RED;" style="heading">braten bo<g ref="#combuml"></g>ck lebren</hi> 
+      		  <lb n="N026"></lb><fw type="catchword">niem aines bockes</fw>
+			
+			<pb n="109r" xml:id="M2_109r"></pb>
+			
+				<lb n="N001"></lb>N<g ref="#inodot">i</g>em a<g ref="#inodot">i</g>nes bockes leber vnd hack es 
+				<lb n="N002"></lb>klain al<g ref="#slong">s</g>o gru<g ref="#esup">e</g>n vnd hak darczu<g ref="#osup">o</g> ayer <g ref="#fracsol"></g>
+				<lb n="N003"></lb>vnd wy<g ref="#slong">s</g>z brot vnd bewu<g ref="#combuml"></g>rtz es vnd w<g ref="#inodot">i</g>nd 
+				<lb n="N004"></lb>es In ain netz vnd brates al<g ref="#slong">s</g>o <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N005"></lb><hi rend="textColour:RED;" style="heading">braten hecht</hi> 
+				<lb n="N006"></lb>N<g ref="#inodot">i</g>em hecht oder ander gros v<g ref="#inodot">i</g><g ref="#slong">s</g>ch vnd 
+				<lb n="N007"></lb>tu<g ref="#osup">o</g> d<g ref="#inodot">i</g>e hut dauon al<g ref="#slong">s</g>o row vnd czu<g ref="#combuml"></g>ch 
+				<lb n="N008"></lb>d<g ref="#inodot">i</g>e gar ouch dauon vnd hack das gebra<g ref="#combuml"></g>t <g ref="#fracsol"></g>
+				<lb n="N009"></lb>klain vnd bewu<g ref="#combuml"></g>rtz es vnd truck es In 
+				<lb n="N010"></lb>ain Ingraben form w<g ref="#inodot">i</g>e du w<g ref="#inodot">i</g>lt es <g ref="#slong">s</g>y f<g ref="#inodot">i</g><g ref="#slong">s</g>ch 
+				<lb n="N011"></lb>alder rebhu<g ref="#esup">e</g>ner fogel oder ander ding 
+				<lb n="N012"></lb>gel<g ref="#inodot">i</g>ch vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es darIn darnach tu<g ref="#osup">o</g> es v<g ref="#slong">s</g><g ref="#slong">s</g> 
+				<lb n="N013"></lb>der form vnd braut <g ref="#slong">s</g>y an <g ref="#slong">s</g>p<g ref="#inodot">i</g><g ref="#slong">s</g>en oder <g ref="#fracsol"></g>
+				<lb n="N014"></lb><g ref="#slong">s</g>us darnach <g ref="#slong">s</g>chnid von den v<g ref="#inodot">i</g><g ref="#slong">s</g>chen 
+				<lb n="N015"></lb>bratten lenglecht als <g ref="#slong">s</g>peck vnd er<g ref="#slong">s</g>p<g ref="#inodot">i</g>ck 
+				<lb n="N016"></lb>es damit <g ref="#inodot">i</g>n der w<g ref="#inodot">i</g><g ref="#slong">s</g>z nach a<g ref="#inodot">i</g>nem rechten 
+				<lb n="N017"></lb>braten daru<g ref="#slong">s</g><g ref="#slong">s</g> <abbr>wan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> das du a<g ref="#inodot">i</g>n bro<g ref="#slong">s</g>em 
+				<lb n="N018"></lb>w<g ref="#inodot">i</g><g ref="#slong">s</g>z brotes darunder tu<g ref="#osup">o</g><g ref="#slong">s</g>t <g ref="#fracsol"></g> vnd tu<g ref="#osup">o</g> es cze 
+				<lb n="N019"></lb><g ref="#slong">s</g>amend m<g ref="#inodot">i</g>t czwain na<g ref="#slong">s</g>chen me<g ref="#slong">s</g><g ref="#slong">s</g>e<g ref="#rrot">r</g>n 
+				<lb n="N020"></lb>In der form als a<g ref="#inodot">i</g>n brot vnder wel<g ref="#slong">s</g>z<note>Gemeint: &apos;vnd erwells‘.</note> In 
+				<lb n="N021"></lb>ainer pfannen vnd braut es an a<g ref="#inodot">i</g>nem 
+				<lb n="N022"></lb><g ref="#slong">s</g>p<g ref="#inodot">i</g><g ref="#slong">s</g>zlin als vorge<g ref="#slong">s</g>chr<g ref="#inodot">i</g>ben <g ref="#inodot">i</g><g ref="#slong">s</g>t <g ref="#fracsol"></g></seg><seg>  <hi rend="textColour:RED;" style="heading">ayer e<g ref="#slong">s</g><g ref="#slong">s</g>en</hi> 
+				<lb n="N023"></lb><hi>V</hi>on ayern ain e<g ref="#slong">s</g><g ref="#slong">s</g>en nyem xx ayer 
+				<lb n="N024"></lb>vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e in a<g ref="#inodot">i</g>nem <del>nu<g ref="#combuml"></g>wen</del> wa<g ref="#slong">s</g><g ref="#slong">s</g>er 
+				<lb n="N025"></lb>al<g ref="#slong">s</g>o das der totter gel<g ref="#inodot">i</g>ch du<g ref="#combuml"></g>nn bel<g ref="#inodot">i</g>b 
+				<lb n="N026"></lb>vnd das<note>Revision: &apos;d&apos; aus &apos;v&apos;.</note> w<g ref="#inodot">i</g><g ref="#slong">s</g>z hert bel<g ref="#inodot">i</g>b vnd nyem
+			
+			<pb n="109v" xml:id="M2_109v"></pb>
+			
+				<lb n="N001"></lb><g ref="#slong">s</g>y den her v<g ref="#slong">s</g><g ref="#slong">s</g> vnd <g ref="#slong">s</g>chlach <g ref="#slong">s</g>y vff an dem 
+				<lb n="N002"></lb><g ref="#slong">s</g>p<g ref="#inodot">i</g>tz vnd <g ref="#slong">s</g>chu<g ref="#combuml"></g>tt den totter her v<g ref="#slong">s</g><g ref="#slong">s</g> in 
+				<lb n="N003"></lb>ain pfannen vnd tu<g ref="#osup">o</g> darczu<g ref="#osup">o</g> <g ref="#slong">s</g>chmaltz 
+				<lb n="N004"></lb>oder o<g ref="#combuml"></g>ll vnd tu<g ref="#osup">o</g> es vnder ain andren 
+				<lb n="N005"></lb>ob dem fu<g ref="#combuml"></g>rr b<g ref="#inodot">i</g>s das es keck werd 
+				<lb n="N006"></lb>vnd nyem es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> heru<g ref="#slong">s</g>z vnd leg es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> 
+				<lb n="N007"></lb>vff ain <g ref="#slong">s</g>uber ta<g ref="#combuml"></g>ller vnd hack es klain 
+				<lb n="N008"></lb>vnd nyem <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> a<g ref="#inodot">i</g>nen lo<g ref="#combuml"></g>ffel mit ymbe<g ref="#rrot">r</g>n 
+				<lb n="N009"></lb>vnd a<g ref="#inodot">i</g>nen lo<g ref="#combuml"></g>ffel mit czymitr<g ref="#inodot">i</g>nden 
+				<lb n="N010"></lb>vnd ain wen<g ref="#inodot">i</g>g <g ref="#slong">s</g>affran als a<g ref="#inodot">i</g>n bon 
+				<lb n="N011"></lb>vnd a<g ref="#inodot">i</g>n lo<g ref="#combuml"></g>ffel fol ba<g ref="#combuml"></g>r<g ref="#inodot">i</g><g ref="#slong">s</g>zko<g ref="#combuml"></g>rner vnd 
+				<lb n="N012"></lb>czucker vnd ain wenig <g ref="#slong">s</g>altz vnd mach 
+				<lb n="N013"></lb>das vnder ain andrer vnd nyem dar 
+				<lb n="N014"></lb>nach czway rowe ayer vnd <g ref="#slong">s</g>chlach 
+				<lb n="N015"></lb>d<g ref="#inodot">i</g>e dar vnder vnd tu<g ref="#osup">o</g> es alles czu<g ref="#osup">o</g> <g ref="#slong">s</g>amend 
+				<lb n="N016"></lb>vnd nyem <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> darnach das gehacketes 
+				<lb n="N017"></lb>vnd <del>f</del> fu<g ref="#combuml"></g>ll es w<g ref="#inodot">i</g>der <g ref="#fracsol"></g> <g ref="#inodot">i</g>n d<g ref="#inodot">i</g>e er<g ref="#slong">s</g>ten <g ref="#slong">s</g>chalen 
+				<lb n="N018"></lb>da das w<g ref="#inodot">i</g><g ref="#slong">s</g>z In bel<g ref="#inodot">i</g>ben <g ref="#inodot">i</g><g ref="#slong">s</g>t vnd mach for 
+				<lb n="N019"></lb>ain ha<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g> wa<g ref="#slong">s</g><g ref="#slong">s</g>er w<g ref="#inodot">i</g>erff d<g ref="#inodot">i</g>e ayer dar 
+				<lb n="N020"></lb>In vnd laus <g ref="#slong">s</g>y <g ref="#slong">s</g><g ref="#inodot">i</g>eden das <g ref="#slong">s</g>y wol hert 
+				<lb n="N021"></lb>werdent <g ref="#fracsol"></g> vnd darnach <g ref="#slong">s</g>chell <g ref="#slong">s</g>y gar 
+				<lb n="N022"></lb><g ref="#slong">s</g>chon vnd mach a<g ref="#inodot">i</g>n du<g ref="#combuml"></g>nnen ta<g ref="#inodot">i</g>gl<g ref="#inodot">i</g>n 
+				<lb n="N023"></lb>mit ayern <g ref="#slong">s</g>affran czucker vnd czu<g ref="#combuml"></g>ch 
+				<lb n="N024"></lb>d<g ref="#inodot">i</g>e ge<g ref="#slong">s</g>chelten ayer dardurch vnd bach 
+				<lb n="N025"></lb><g ref="#slong">s</g>y <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> In a<g ref="#inodot">i</g>ner pfannen oder ee du <g ref="#slong">s</g>y 
+				<lb n="N026"></lb>bach<g ref="#inodot">i</g><g ref="#slong">s</g>t <g ref="#slong">s</g>o <g ref="#slong">s</g>toß <g ref="#slong">s</g>y an<note>Revision (Bleichung<g ref="#fracsol"></g>Rasur): &apos;n&apos; aus &apos;m&apos;.</note> a<g ref="#inodot">i</g>n <g ref="#slong">s</g>p<g ref="#inodot">i</g><g ref="#slong">s</g>zlin vnd
+			
+			<pb n="110r" xml:id="M2_110r"></pb>
+			
+				<lb n="N001"></lb>vnd braut <g ref="#slong">s</g>y vff a<g ref="#inodot">i</g>nem ro<g ref="#slong">s</g>t l<g ref="#inodot">i</g>gen So 
+				<lb n="N002"></lb>laus daruff lauffen von a<g ref="#inodot">i</g>nem ay den 
+				<lb n="N003"></lb>totter vnd <g ref="#slong">s</g>a<g ref="#combuml"></g>yge ymber daruff vnd 
+				<lb n="N004"></lb>g<g ref="#inodot">i</g>b es fu<g ref="#combuml"></g>r a<g ref="#inodot">i</g>n brates vnd mach <g ref="#slong">s</g>y In 
+				<lb n="N005"></lb>ain du<g ref="#combuml"></g>nn pfefferlin <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N006"></lb><hi rend="textColour:RED;" style="heading"><g ref="#slong">s</g>eltz von a<g ref="#inodot">i</g>m lentpraten</hi> 
+				<lb n="N007"></lb>N<g ref="#inodot">i</g>em a<g ref="#inodot">i</g>nen lentbrauten von a<g ref="#inodot">i</g>nem 
+				<lb n="N008"></lb>kalb vnd braut den vnd nym ain ruggy 
+				<lb n="N009"></lb>brot vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd peterlin vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> 
+				<lb n="N010"></lb>das in a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er <g ref="#fracsol"></g> vnd tr<g ref="#inodot">i</g>bs durch 
+				<lb n="N011"></lb>a<g ref="#inodot">i</g>n tu<g ref="#osup">o</g>ch das wirt ein <g ref="#slong">s</g>a<g ref="#combuml"></g>ltz das g<g ref="#inodot">i</g>b zu<g ref="#osup">o</g> 
+				<lb n="N012"></lb>dem brauten</seg><seg> <hi rend="textColour:RED;" style="heading">Mu<g ref="#osup">o</g><g ref="#slong">s</g>z</hi>
+				<lb n="N013"></lb>Gebrauten mu<g ref="#osup">o</g><g ref="#slong">s</g>z nym ytalayer vnd 
+				<lb n="N014"></lb>als v<g ref="#inodot">i</g>l <g ref="#slong">s</g>chmaltz vnd <g ref="#slong">s</g>altz es vnd mach 
+				<lb n="N015"></lb>das <g ref="#slong">s</g>chmaltz n<g ref="#inodot">i</g>t cze ha<g ref="#inodot">i</g><g ref="#slong">s</g>z vnd tu<g ref="#osup">o</g> es In 
+				<lb n="N016"></lb>ain pfanen vnd braut es damit <g ref="#fracsol"></g>
+				<lb n="N017"></lb>Vnd mach a<g ref="#inodot">i</g>nen kecken ayer ta<g ref="#inodot">i</g>g vnd 
+				<lb n="N018"></lb>w<g ref="#inodot">i</g>ll In gar du<g ref="#combuml"></g>nne bletter daru<g ref="#slong">s</g><g ref="#slong">s</g> vnd 
+				<lb n="N019"></lb>bach <g ref="#inodot">i</g>n <g ref="#slong">s</g>chmaltz darnach haks va<g ref="#slong">s</g>t <g ref="#fracsol"></g>
+				<lb n="N020"></lb>klain vnd mach m<g ref="#inodot">i</g>t ayern vnd m<g ref="#inodot">i</g>lch</seg><seg>
+				<lb n="N021"></lb><hi rend="textColour:RED;" style="heading">Mu<g ref="#osup">o</g><g ref="#slong">s</g>z von gebachem</hi> 
+				<lb n="N022"></lb>N<g ref="#inodot">i</g>em gebachen <g ref="#slong">s</g>trubeten vnd hack 
+				<lb n="N023"></lb>d<g ref="#inodot">i</g>e kla<g ref="#inodot">i</g>n vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>ner d<g ref="#inodot">i</g>cken 
+				<lb n="N024"></lb>milch vnd kopff czway ayer darJn 
+				<lb n="N025"></lb>vnd fa<g ref="#combuml"></g>rbs vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du anr<g ref="#inodot">i</g>chten 
+			
+			<pb n="110v" xml:id="M2_110v"></pb>
+			
+				<lb n="N001"></lb>w<g ref="#inodot">i</g>lt <g ref="#slong">s</g>o tu<g ref="#osup">o</g> gewu<g ref="#combuml"></g>rtz daruff <g ref="#slong">s</g>o w<g ref="#inodot">i</g>rt es 
+				<lb n="N002"></lb>va<g ref="#slong">s</g>t gu<g ref="#osup">o</g>t 
+				<lb n="N003"></lb>Struben hak gar wol vnd tu<g ref="#osup">o</g> m<g ref="#inodot">i</g>ch 
+				<lb n="N004"></lb>vnder ayer darczu<g ref="#osup">o</g> vnd mach ain mu<g ref="#osup">o</g><g ref="#slong">s</g>z 
+				<lb n="N005"></lb>w<g ref="#inodot">i</g>lt du <g ref="#slong">s</g>o bewu<g ref="#combuml"></g>rtz vnd fa<g ref="#combuml"></g>rbs</seg><seg>
+				<lb n="N006"></lb><hi rend="textColour:RED;" style="heading">ka<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> mu<g ref="#osup">o</g><g ref="#slong">s</g>z</hi> 
+				<lb n="N007"></lb>Ouch mach a<g ref="#inodot">i</g>n mu<g ref="#osup">o</g><g ref="#slong">s</g>z von ger<g ref="#inodot">i</g>bem 
+				<lb n="N008"></lb>ka<g ref="#combuml"></g><g ref="#slong">s</g>z vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d den vnd tu<g ref="#osup">o</g> m<g ref="#inodot">i</g>lch vnd ayer <g ref="#fracsol"></g>
+				<lb n="N009"></lb>darczu<g ref="#osup">o</g> vnd las es w<g ref="#inodot">i</g><g ref="#slong">s</g>z</seg><seg> 
+				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">mu<g ref="#osup">o</g><g ref="#slong">s</g>z von f<g ref="#inodot">i</g><g ref="#slong">s</g>chrogen</hi> 
+				<lb n="N011"></lb>Ouch czu<g ref="#combuml"></g>ch row v<g ref="#inodot">i</g><g ref="#slong">s</g>ch roggen m<g ref="#inodot">i</g>lch 
+				<lb n="N012"></lb>vnd lebren durch m<g ref="#inodot">i</g>t wi<g ref="#slong">s</g><g ref="#slong">s</g>em brot vnd 
+				<lb n="N013"></lb>hack das <g ref="#inodot">i</g>nga<g ref="#combuml"></g>der gar klain darIn vnd 
+				<lb n="N014"></lb>mach a<g ref="#inodot">i</g>n mu<g ref="#osup">o</g><g ref="#slong">s</g>z daru<g ref="#slong">s</g><g ref="#slong">s</g> m<g ref="#inodot">i</g>t mandell 
+				<lb n="N015"></lb>vnd m<g ref="#inodot">i</g>t czucker das w<g ref="#inodot">i</g>rt das edle<g ref="#slong">s</g>t mu<g ref="#osup">o</g><g ref="#slong">s</g>z</seg><seg> 
+				<lb n="N016"></lb><hi rend="textColour:RED;" style="heading">mu<g ref="#osup">o</g><g ref="#slong">s</g>z von h<g ref="#inodot">i</g>ern</hi>
+				<lb n="N017"></lb>H<g ref="#inodot">i</g>ern czu<g ref="#combuml"></g>ch durch m<g ref="#inodot">i</g>t brott vnd
+				<lb n="N018"></lb>mach mu<g ref="#osup">o</g><g ref="#slong">s</g>z daru<g ref="#slong">s</g>z m<g ref="#inodot">i</g>t ayern vnd mit <g ref="#fracsol"></g>
+				<lb n="N019"></lb>m<g ref="#inodot">i</g>lch ob du w<g ref="#inodot">i</g>lt w<g ref="#inodot">i</g><g ref="#slong">s</g>z oder gefa<g ref="#esup">e</g>rbt <g ref="#fracsol"></g></seg><seg>
+				<lb n="N020"></lb><hi rend="textColour:RED;" style="heading">mu<g ref="#osup">o</g><g ref="#slong">s</g>z von a<g ref="#combuml"></g>rw<g ref="#inodot">i</g><g ref="#slong">s</g>z</hi>
+				<lb n="N021"></lb>A<g ref="#esup">e</g>rwi<g ref="#slong">s</g>z mu<g ref="#osup">o</g><g ref="#slong">s</g>z von wy<g ref="#slong">s</g>en durch gezogen
+				<lb n="N022"></lb>one alle merung von roten e<g ref="#asup">a</g>rw<g ref="#inodot">i</g><g ref="#slong">s</g>z
+				<lb n="N023"></lb>durch gezogen on ander d<g ref="#inodot">i</g>ng wol
+				<lb n="N024"></lb>mach du es m<g ref="#inodot">i</g>t honig <g ref="#slong">s</g>u<g ref="#esup">e</g><g ref="#slong">s</g><g ref="#slong">s</g> machen</seg><seg>
+			
+			<pb n="111r" xml:id="M2_111r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">Mu<g ref="#osup">o</g><g ref="#slong">s</g>z leber</hi> 
+				<lb n="N002"></lb>N<g ref="#inodot">i</g>em a<g ref="#inodot">i</g>n rech leber vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d <g ref="#slong">s</g>y gar 
+				<lb n="N003"></lb>wol darnach czerhack <g ref="#slong">s</g>y gar kla<g ref="#inodot">i</g>n 
+				<lb n="N004"></lb>In a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er mit der bru<g ref="#combuml"></g>ge mit 
+				<lb n="N005"></lb>rugim brott <g ref="#fracsol"></g> w<g ref="#inodot">i</g>n vnd e<g ref="#slong">s</g><g ref="#slong">s</g>ich vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d 
+				<lb n="N006"></lb>es darnach In a<g ref="#inodot">i</g>nem haffen <g ref="#slong">s</g>o w<g ref="#inodot">i</g>ertz 
+				<lb n="N007"></lb>es <g ref="#slong">s</g>chwartz hack auch <g ref="#slong">s</g>peck klain darIn 
+				<lb n="N008"></lb><abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> das ge<g ref="#slong">s</g><g ref="#inodot">i</g>ed <g ref="#slong">s</g>o mach ain plat mit <g ref="#fracsol"></g>
+				<lb n="N009"></lb>ayer <g ref="#fracsol"></g> in a<g ref="#inodot">i</g>ner pfannen vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du 
+				<lb n="N010"></lb>es anr<g ref="#inodot">i</g>chten w<g ref="#inodot">i</g>lt <g ref="#slong">s</g>o leg das plat daruff</seg><seg> 
+				<lb n="N011"></lb><hi rend="textColour:RED;" style="heading">mu<g ref="#osup">o</g><g ref="#slong">s</g>z von krep<g ref="#slong">s</g><g ref="#slong">s</g>en</hi> 
+				<lb n="N012"></lb>Zu<g ref="#osup">o</g> a<g ref="#inodot">i</g>nem kreps mu<g ref="#osup">o</g><g ref="#slong">s</g>z nym kreps  vnd
+				<lb n="N013"></lb>vnd <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d das bo<g ref="#combuml"></g><g ref="#slong">s</g>z czu<g ref="#osup">o</g> den augen dauon 
+				<lb n="N014"></lb>vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z das ander <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem mor<g ref="#slong">s</g>er <g ref="#fracsol"></g>
+				<lb n="N015"></lb>vnd nyem a<g ref="#inodot">i</g>n w<g ref="#inodot">i</g><g ref="#slong">s</g>z bro<g ref="#slong">s</g>em darunder <g ref="#fracsol"></g>
+				<lb n="N016"></lb>vnd tr<g ref="#inodot">i</g>b es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> durch m<g ref="#inodot">i</g>t m<g ref="#inodot">i</g>lch vnd 
+				<lb n="N017"></lb>tu<g ref="#osup">o</g> es den <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>n pfanen vnd mach a<g ref="#inodot">i</g>n 
+				<lb n="N018"></lb>mu<g ref="#osup">o</g><g ref="#slong">s</g>z daru<g ref="#slong">s</g>z <add>das</add> ward rott <g ref="#fracsol"></g></seg><seg>
+				<lb n="N019"></lb><hi rend="textColour:RED;" style="heading">mu<g ref="#osup">o</g><g ref="#slong">s</g>z vnd  von b<g ref="#inodot">i</g>ern</hi> 
+				<lb n="N020"></lb>B<g ref="#inodot">i</g>eren mu<g ref="#osup">o</g><g ref="#slong">s</g>z czu<g ref="#combuml"></g>ch b<g ref="#inodot">i</g>eren durch 
+				<lb n="N021"></lb>wolge<g ref="#slong">s</g>otten vnd du<g ref="#osup">o</g> ger<g ref="#inodot">i</g>ben bimezelten 
+				<lb n="N022"></lb>daran vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d es wol vnd tu<g ref="#osup">o</g> hon<g ref="#inodot">i</g>g vnd 
+				<lb n="N023"></lb>gwu<g ref="#combuml"></g>rtz daran</seg><seg> <hi rend="textColour:RED;" style="heading">M<g ref="#inodot">i</g>lch bra<g ref="#combuml"></g>ten</hi> 
+				<lb n="N024"></lb>Gebrauten m<g ref="#inodot">i</g>lch nyem ayer vnd 
+				<lb n="N025"></lb>m<g ref="#inodot">i</g>lch gel<g ref="#inodot">i</g>ch v<g ref="#inodot">i</g>l vnd <g ref="#slong">s</g>chlach es durch 
+				<lb n="N026"></lb>ainander vnd tu<g ref="#osup">o</g> <g ref="#slong">s</g>altz vnd <g ref="#slong">s</g>afran dar 
+				<lb n="N027"></lb>an als v<g ref="#inodot">i</g>l es bedarff vnd tu<g ref="#osup">o</g> es In a<g ref="#inodot">i</g>nen
+			
+			<pb n="111v" xml:id="M2_111v"></pb>
+			
+				<lb n="N001"></lb>haffen vnd henk den haffen In a<g ref="#inodot">i</g>nen 
+				<lb n="N002"></lb>ke<g ref="#slong">s</g><g ref="#slong">s</g>el vol wa<g ref="#slong">s</g><g ref="#slong">s</g>er al<g ref="#slong">s</g>o das das wa<g ref="#slong">s</g><g ref="#slong">s</g>er 
+				<lb n="N003"></lb>nit dar In mug In den haffen vnd laus 
+				<lb n="N004"></lb>es wol <g ref="#slong">s</g><g ref="#inodot">i</g>eden b<g ref="#inodot">i</g>s es vor <del><g ref="#slong">s</g>tellt</del> ge<g ref="#slong">s</g>tekin 
+				<lb n="N005"></lb>vnd g<g ref="#inodot">i</g>bs fu<g ref="#combuml"></g>r ain ayer mu<g ref="#osup">o</g><g ref="#slong">s</g>z wo<g ref="#combuml"></g>ll man 
+				<lb n="N006"></lb>es aber brauten <g ref="#slong">s</g>o zu<g ref="#combuml"></g>h es vff ain <g ref="#slong">s</g>uber 
+				<lb n="N007"></lb>tu<g ref="#osup">o</g>ch vntz es wol er<g ref="#slong">s</g>yhe darnach tu<g ref="#osup">o</g> das 
+				<lb n="N008"></lb>tu<g ref="#osup">o</g>ch ouch daru<g ref="#combuml"></g>ber be<g ref="#slong">s</g>chwa<g ref="#combuml"></g>r es 
+				<lb n="N009"></lb>mit a<g ref="#inodot">i</g>nem brett <g ref="#fracsol"></g> m<g ref="#inodot">i</g>t <g ref="#slong">s</g>ta<g ref="#inodot">i</g>nen <g ref="#slong">s</g>o wirt es 
+				<lb n="N010"></lb>keck als ain ka<g ref="#combuml"></g><g ref="#slong">s</g>z darnach czer<g ref="#slong">s</g>chnid es 
+				<lb n="N011"></lb>mit a<g ref="#inodot">i</g>nem faden vnd legs vff a<g ref="#inodot">i</g>nen 
+				<lb n="N012"></lb>ro<g ref="#slong">s</g>t als ain v<g ref="#combuml"></g>tterlin vnd ber<g ref="#slong">s</g>tro<g ref="#combuml"></g>w es mit <g ref="#fracsol"></g>
+				<lb n="N013"></lb>gewu<g ref="#combuml"></g>rtz oder m<g ref="#inodot">i</g>t czucker Ouch macht 
+				<lb n="N014"></lb>ha<g ref="#inodot">i</g><g ref="#slong">s</g>z <g ref="#slong">s</g>chmaltz daruff g<g ref="#inodot">i</g>e<g ref="#slong">s</g><g ref="#slong">s</g>en du macht <g ref="#fracsol"></g>
+				<lb n="N015"></lb>ouch es in a<g ref="#inodot">i</g>nen pfeffer oder in ainer 
+				<lb n="N016"></lb>bru<g ref="#esup">e</g>ge geben ob du w<g ref="#inodot">i</g>lt <g ref="#fracsol"></g></seg><seg>
+				<lb n="N017"></lb><hi rend="textColour:RED;" style="heading">bry von bonen</hi> 
+				<lb n="N018"></lb>Ainen bonen bry mach von ge<g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g>nen 
+				<lb n="N019"></lb>bonen vnd durch gezognen bonen 
+				<lb n="N020"></lb>vnd r<g ref="#inodot">i</g>cht in als den mandelcz<g ref="#inodot">i</g>ger 
+				<lb n="N021"></lb>mit allen d<g ref="#inodot">i</g>ngen</seg><seg> <hi rend="textColour:RED;" style="heading">holder mu<g ref="#osup">o</g><g ref="#slong">s</g>z</hi> 
+				<lb n="N022"></lb>N<g ref="#inodot">i</g>em holder blu<g ref="#osup">o</g><g ref="#slong">s</g>t <g ref="#fracsol"></g> vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e In milch 
+				<lb n="N023"></lb>vnd czu<g ref="#combuml"></g>ch es durch ain tu<g ref="#osup">o</g>ch vnd mach 
+				<lb n="N024"></lb>damit ain mu<g ref="#osup">o</g><g ref="#slong">s</g>z w<g ref="#inodot">i</g>e du w<g ref="#inodot">i</g>lt vnd mit <g ref="#fracsol"></g>
+				<lb n="N025"></lb>ger<g ref="#inodot">i</g>ben w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>em brot <g ref="#fracsol"></g> alder von ande<g ref="#rrot">r</g>n 
+				<lb n="N026"></lb>dingen das w<g ref="#inodot">i</g>rt gar wol ge<g ref="#slong">s</g>chmack <g ref="#fracsol"></g>
+			
+			<pb n="112r" xml:id="M2_112r"></pb>
+			
+				<lb n="N001"></lb>Vnd ouch ge<g ref="#slong">s</g>und ouch macht du es
+				<lb n="N002"></lb>wol fa<g ref="#combuml"></g>rben vnd bewu<g ref="#combuml"></g>rczen ob du 
+				<lb n="N003"></lb>w<g ref="#inodot">i</g>lt aber es haut <g ref="#slong">s</g>elber gu<g ref="#osup">o</g>ten <g ref="#slong">s</g>chmak <g ref="#fracsol"></g>
+				<lb n="N004"></lb>vnd h<g ref="#inodot">i</g>e nach mengerlay mu<g ref="#esup">e</g><g ref="#slong">s</g>er <g ref="#fracsol"></g></seg><seg> 
+				<lb n="N005"></lb><hi rend="textColour:RED;" style="heading">mu<g ref="#osup">o</g><g ref="#slong">s</g>z von bora<g ref="#combuml"></g>tt<g ref="#slong">s</g>ch</hi> 
+				<lb n="N006"></lb>Ouch mach ain bora<g ref="#combuml"></g>tt<g ref="#slong">s</g>ch von den 
+				<lb n="N007"></lb>blu<g ref="#osup">o</g>men als von holdermu<g ref="#osup">o</g><g ref="#slong">s</g>z</seg><seg> 
+				<lb n="N008"></lb><hi rend="textColour:RED;" style="heading">e<g ref="#slong">s</g><g ref="#slong">s</g>en</hi> 
+				<lb n="N009"></lb><hi>W</hi><g ref="#inodot">i</g>lt du ain hoffl<g ref="#inodot">i</g>ch e<g ref="#slong">s</g><g ref="#slong">s</g>en machen 
+				<lb n="N010"></lb>darzu<g ref="#osup">o</g> man allerlay fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch brucht es 
+				<lb n="N011"></lb><g ref="#slong">s</g>y w<g ref="#inodot">i</g>ld oder cza<g ref="#combuml"></g>m ge<g ref="#slong">s</g>otten oder <abbr>gebraute<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N012"></lb>So nym v<g ref="#inodot">i</g>er kalb<g ref="#slong">s</g>fu<g ref="#esup">e</g><g ref="#slong">s</g>z oder me vnd 
+				<lb n="N013"></lb><g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e b<g ref="#inodot">i</g>s das bain dauon fallend 
+				<lb n="N014"></lb>mit ainer bru<g ref="#esup">e</g>ge vnd nym <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch 
+				<lb n="N015"></lb>als v<g ref="#inodot">i</g>l als der bru<g ref="#esup">e</g>ge vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> d<g ref="#inodot">i</g>e fu<g ref="#esup">e</g><g ref="#slong">s</g><g ref="#slong">s</g> 
+				<lb n="N016"></lb><g ref="#slong">s</g>o d<g ref="#inodot">i</g>e bain dauon komend in a<g ref="#inodot">i</g>nem 
+				<lb n="N017"></lb>mor<g ref="#slong">s</g>er vnd <g ref="#slong">s</g>tr<g ref="#inodot">i</g>ch es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> als <g ref="#slong">s</g>amend 
+				<lb n="N018"></lb>al<g ref="#slong">s</g>o ha<g ref="#inodot">i</g><g ref="#slong">s</g>z durch a<g ref="#inodot">i</g>n tu<g ref="#osup">o</g>ch vnd tu<g ref="#osup">o</g> dar 
+				<lb n="N019"></lb>nach a<g ref="#inodot">i</g>n gu<g ref="#osup">o</g>tten lo<g ref="#combuml"></g>ffel vol hon<g ref="#inodot">i</g>g dar 
+				<lb n="N020"></lb>an be<g ref="#slong">s</g>cha<g ref="#inodot">i</g>denl<g ref="#inodot">i</g>ch vnd ouch ander <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N021"></lb>wu<g ref="#combuml"></g>rtz</w> vnd <g ref="#slong">s</g>chu<g ref="#combuml"></g>tt es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> vff ain <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N022"></lb>brauten</w> fla<g ref="#inodot">i</g><g ref="#slong">s</g>ch <g ref="#inodot">i</g><g ref="#slong">s</g>t es aber ge<g ref="#slong">s</g>otten 
+				<lb n="N023"></lb><g ref="#slong">s</g>o ro<g ref="#combuml"></g><g ref="#slong">s</g>t es vnd aber daru<g ref="#combuml"></g>ber <g ref="#slong">s</g>chu<g ref="#combuml"></g>tten 
+				<lb n="N024"></lb><g ref="#slong">s</g>o ge<g ref="#slong">s</g>taut es <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N025"></lb><hi rend="textColour:RED;" style="heading">angeleten hu<g ref="#esup">e</g>rn</hi>
+			
+			<pb n="112v" xml:id="M2_112v"></pb>
+			
+				<lb n="N001"></lb><hi>Z</hi>u<g ref="#osup">o</g> angeleten hu<g ref="#esup">e</g>nern nyem alte hu<g ref="#esup">e</g>nr
+				<lb n="N002"></lb>vnd klub d<g ref="#inodot">i</g>e von ain andren nach der 
+				<lb n="N003"></lb>lengin vnd <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d das gebra<g ref="#combuml"></g>tt dauon 
+				<lb n="N004"></lb>al<g ref="#slong">s</g>o das d<g ref="#inodot">i</g>e bain an ain andren bel<g ref="#inodot">i</g>bend 
+				<lb n="N005"></lb>vnd czerhack das gebra<g ref="#combuml"></g>tt vnd tu<g ref="#osup">o</g> brott 
+				<lb n="N006"></lb>darzu<g ref="#osup">o</g> vnd <g ref="#slong">s</g>peck vnd gewu<g ref="#combuml"></g>rtz vnd 
+				<lb n="N007"></lb>leg es w<g ref="#inodot">i</g>der an d<g ref="#inodot">i</g>e bain vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d das 
+				<lb n="N008"></lb><g ref="#slong">s</g>o hau<g ref="#slong">s</g>tu angela<g ref="#inodot">i</g>te hu<g ref="#esup">e</g>ner vnd tu<g ref="#osup">o</g> d<g ref="#inodot">i</g>e 
+				<lb n="N009"></lb>hutt daru<g ref="#combuml"></g>ber vnd hefft <g ref="#slong">s</g>y vnd <g ref="#slong">s</g>u<g ref="#osup">o</g>d <g ref="#slong">s</g>y 
+				<lb n="N010"></lb><abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <g ref="#slong">s</g>chon ouch mach ayer oder peterlin 
+				<lb n="N011"></lb>oder ander d<g ref="#inodot">i</g>ng darunder da wa<g ref="#combuml"></g>rend 
+				<lb n="N012"></lb>kla<g ref="#inodot">i</g>ne winber gu<g ref="#osup">o</g>t</seg><seg> 
+				<lb n="N013"></lb><hi rend="textColour:RED;" style="heading">frowen e<g ref="#slong">s</g><g ref="#slong">s</g>en</hi> 
+				<lb n="N014"></lb><hi>W</hi><g ref="#inodot">i</g>lt du machen ain frowen e<g ref="#slong">s</g><g ref="#slong">s</g>en 
+				<lb n="N015"></lb><g ref="#slong">s</g>o <g ref="#slong">s</g>u<g ref="#combuml"></g>d ain v<g ref="#combuml"></g>tter von a<g ref="#inodot">i</g>ner ku<g ref="#osup">o</g> das 
+				<lb n="N016"></lb>nit hab ain bru<g ref="#esup">e</g>ge cze v<g ref="#inodot">i</g>l vnd nyem 
+				<lb n="N017"></lb>d<g ref="#inodot">i</g>e<g ref="#slong">s</g>elben bru<g ref="#esup">e</g>ge halb vnd nym zwu<g ref="#osup">o</g> 
+				<lb n="N018"></lb><g ref="#slong">s</g>chnitten von a<g ref="#inodot">i</g>nem w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>en brott vnd 
+				<lb n="N019"></lb>ba<g ref="#combuml"></g>ge d<g ref="#inodot">i</g>e vff ainem ro<g ref="#slong">s</g>t vnd be<g ref="#slong">s</g>tr<g ref="#inodot">i</g>chs 
+				<lb n="N020"></lb>mit dry ayern tottern m<g ref="#inodot">i</g>t der bru<g ref="#esup">e</g>ge 
+				<lb n="N021"></lb>durch a<g ref="#inodot">i</g>n tu<g ref="#osup">o</g>ch vnd <g ref="#slong">s</g>chnid das v<g ref="#combuml"></g>tter 
+				<lb n="N022"></lb>czu<g ref="#osup">o</g> <g ref="#slong">s</g>chnitten vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>t es vff a<g ref="#inodot">i</g>nem ro<g ref="#slong">s</g>t <g ref="#fracsol"></g>
+				<lb n="N023"></lb>vnd <g ref="#slong">s</g>chnid es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> klain in ain bru<g ref="#esup">e</g>ge darIn 
+				<lb n="N024"></lb>es ge<g ref="#slong">s</g>otten <g ref="#slong">s</g>y vnd nyem a<g ref="#inodot">i</g>n <g ref="#slong">s</g>chu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>el<g ref="#inodot">i</g>n 
+				<lb n="N025"></lb>vnd tu<g ref="#osup">o</g> <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> ymber vnd <g ref="#slong">s</g>affran daran 
+				<lb n="N026"></lb>vnd werm es al<g ref="#slong">s</g>o ain rechty du<g ref="#combuml"></g>nny 
+				<lb n="N027"></lb>gewynn <g ref="#slong">s</g>o <g ref="#inodot">i</g><g ref="#slong">s</g>t es gerecht <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+			
+			<pb n="113r" xml:id="M2_113r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">kalbs kopff</hi> 
+				<lb n="N002"></lb>Zu<g ref="#osup">o</g> a<g ref="#inodot">i</g>nem gu<g ref="#osup">o</g>ten kalbs kopff <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d d<g ref="#inodot">i</g>e 
+				<lb n="N003"></lb>vndren keln daruon vnd nyem den 
+				<lb n="N004"></lb>andern vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d in gar wol durch br<g ref="#inodot">i</g>ch 
+				<lb n="N005"></lb>d<g ref="#inodot">i</g>e h<g ref="#inodot">i</g>ern <g ref="#slong">s</g>challen vff vnd tu<g ref="#osup">o</g> gu<g ref="#osup">o</g>t gewu<g ref="#combuml"></g>rtz 
+				<lb n="N006"></lb>darIn vnd gu<g ref="#osup">o</g>t ha<g ref="#inodot">i</g><g ref="#slong">s</g>z <g ref="#slong">s</g>chmalcz darInn 
+				<lb n="N007"></lb>vnd braut in vff a<g ref="#inodot">i</g>nem rost <g ref="#fracsol"></g></seg><seg>
+				<lb n="N008"></lb><hi rend="textColour:RED;" style="heading">ku<g ref="#combuml"></g>gell<g ref="#inodot">i</g>n von kalbfla<g ref="#inodot">i</g><g ref="#slong">s</g>ch</hi> 
+				<lb n="N009"></lb><hi><hi rend="textColour:RED;">K</hi></hi>u<g ref="#combuml"></g>gelin von kalbfla<g ref="#inodot">i</g><g ref="#slong">s</g>ch mach al<g ref="#slong">s</g>o 
+				<lb n="N010"></lb>nyem des fla<g ref="#inodot">i</g>sches vnd brott vnd 
+				<lb n="N011"></lb>an wen<g ref="#inodot">i</g>g ayer das es dauon haffte vnd 
+				<lb n="N012"></lb>haks vnd bewu<g ref="#combuml"></g>rtz vnd machs <g ref="#slong">s</g>ynwelle 
+				<lb n="N013"></lb>ku<g ref="#combuml"></g>glin als ku<g ref="#esup">e</g>chlin vnd w<g ref="#inodot">i</g>erffs in ain 
+				<lb n="N014"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>edent wa<g ref="#slong">s</g><g ref="#slong">s</g>er vnd laus es wol <g ref="#slong">s</g><g ref="#inodot">i</g>eden 
+				<lb n="N015"></lb>vnd g<g ref="#inodot">i</g>bs trucken m<g ref="#inodot">i</g>t peterlin oder In 
+				<lb n="N016"></lb>a<g ref="#inodot">i</g>nem Ju<g ref="#slong">s</g>el oder bachs <g ref="#inodot">i</g>n a<g ref="#inodot">i</g>nem <g ref="#slong">s</g>chmalcz 
+				<lb n="N017"></lb>vnd g<g ref="#inodot">i</g>bs in ainem pfeffer <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+				<lb n="N018"></lb><hi rend="textColour:RED;" style="heading">ainen darm fu<g ref="#combuml"></g>llen</hi> 
+				<lb n="N019"></lb><hi>N</hi><g ref="#inodot">i</g>em a<g ref="#inodot">i</g>nen h<g ref="#inodot">i</g>ndern darm fu<g ref="#combuml"></g>ll also 
+				<lb n="N020"></lb>hack ain lungen vnd <g ref="#slong">s</g>peck vnd gewu<g ref="#combuml"></g>rtz 
+				<lb n="N021"></lb>es <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> vnd fu<g ref="#combuml"></g>ls Ouch nyem ain h<g ref="#inodot">i</g>ern 
+				<lb n="N022"></lb>ayer vnd brott <g ref="#fracsol"></g> vnd bewu<g ref="#combuml"></g>rtz es denn 
+				<lb n="N023"></lb>vnd fu<g ref="#combuml"></g>ls ouch nyem ouch macht du 
+				<lb n="N024"></lb>a<g ref="#inodot">i</g>n wen<g ref="#inodot">i</g>g hon<g ref="#inodot">i</g>g darvnder tu<g ref="#osup">o</g>n ob 
+				<lb n="N025"></lb>du w<g ref="#inodot">i</g>lt <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg> <hi rend="textColour:RED;" style="heading">klob wur<g ref="#slong">s</g>t</hi>
+				<lb n="N026"></lb>N<g ref="#inodot">i</g>em a<g ref="#inodot">i</g>nes <del>klobes</del> bockes leber vnd
+				<lb n="N027"></lb>hack <g ref="#slong">s</g>y klain al<g ref="#slong">s</g>o gru<g ref="#esup">e</g>n mit ayern vnd
+				<lb n="N028"></lb>m<g ref="#inodot">i</g>t w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>em brot vnd bewu<g ref="#combuml"></g>rtz es
+			
+			<pb n="113v" xml:id="M2_113v"></pb>
+			
+				<lb n="N001"></lb>vnd fa<g ref="#combuml"></g>rbs vnd bew<g ref="#inodot">i</g>nd es m<g ref="#inodot">i</g>t a<g ref="#inodot">i</g>nem 
+				<lb n="N002"></lb>netz vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>chs oder brauts du macht 
+				<lb n="N003"></lb>ouch darIn hacken <g ref="#slong">s</g>peck vnd peterl<g ref="#inodot">i</g>n</seg><seg>
+				<lb n="N004"></lb><hi rend="textColour:RED;" style="heading">mandel cz<g ref="#inodot">i</g>ger </hi>
+				<lb n="N005"></lb><hi rend="textColour:RED;">N<g ref="#inodot">i</g>em mandel vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z <g ref="#inodot">i</g>n gar wol</hi> 
+				<lb n="N006"></lb>vnd mach ain gu<g ref="#osup">o</g>t m<g ref="#inodot">i</g>lch daru<g ref="#slong">s</g><g ref="#slong">s</g> vnd 
+				<lb n="N007"></lb>tr<g ref="#inodot">i</g>b d<g ref="#inodot">i</g>e m<g ref="#inodot">i</g>t ain wen<g ref="#inodot">i</g>g wins brottes 
+				<lb n="N008"></lb>durch oder tu<g ref="#osup">o</g> w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g> ger<g ref="#inodot">i</g>ben brot <w>dar<g ref="#dbloblhyph">=</g>
+				<lb n="N009"></lb>vnder</w> vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> a<g ref="#inodot">i</g>n wen<g ref="#inodot">i</g>g w<g ref="#inodot">i</g>ns <w>dar<g ref="#dbloblhyph">=</g>
+				<lb n="N010"></lb>vnder</w> vnd laus es erwallen vntz es 
+				<lb n="N011"></lb>d<g ref="#inodot">i</g>ck werd vnd czu<g ref="#combuml"></g>ch es vff ain <g ref="#slong">s</g><g ref="#inodot">i</g>b 
+				<lb n="N012"></lb>oder vff ain tu<g ref="#osup">o</g>ch als v<g ref="#inodot">i</g>l als ander 
+				<lb n="N013"></lb>cz<g ref="#inodot">i</g>ger oder m<g ref="#inodot">i</g>lch vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du es 
+				<lb n="N014"></lb>an r<g ref="#inodot">i</g>chten w<g ref="#inodot">i</g>ld <g ref="#slong">s</g>o <g ref="#slong">s</g>tr<g ref="#inodot">i</g>ch es lenglocht <g ref="#fracsol"></g>
+				<lb n="N015"></lb>vff a<g ref="#inodot">i</g>n rott <g ref="#slong">s</g>chu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>el mit ainem na<g ref="#slong">s</g><g ref="#slong">s</g>en 
+				<lb n="N016"></lb>me<g ref="#slong">s</g><g ref="#slong">s</g>er <g ref="#fracsol"></g> oder m<g ref="#inodot">i</g>t a<g ref="#inodot">i</g>ner <g ref="#slong">s</g>ch<g ref="#inodot">i</g>ndel vnd 
+				<lb n="N017"></lb>be<g ref="#slong">s</g>tro<g ref="#combuml"></g>wbs mit mandelkernen vnd 
+				<lb n="N018"></lb>gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> yetwedertt halb mandel m<g ref="#inodot">i</g>lch 
+				<lb n="N019"></lb>darczvff mit czucker be<g ref="#slong">s</g>tro<g ref="#combuml"></g>wet <g ref="#fracsol"></g></seg><seg>
+				<lb n="N020"></lb><hi rend="textColour:RED;" style="heading">geha<g ref="#combuml"></g>ckt <g ref="#inodot">i</g>n der va<g ref="#slong">s</g>ten </hi>
+				<lb n="N021"></lb><hi rend="textColour:RED;">A<g ref="#inodot">i</g>n geha<g ref="#combuml"></g>kt <g ref="#inodot">i</g>n der va<g ref="#slong">s</g>ten mach von</hi> 
+				<lb n="N022"></lb>gehacktem mandel vnd fa<g ref="#combuml"></g>rb aintail 
+				<lb n="N023"></lb>vnd das ander laus w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g> vnd <g ref="#slong">s</g>tro<g ref="#combuml"></g>w 
+				<lb n="N024"></lb>czucker daruff vnd czu<g ref="#osup">o</g> dem dr<g ref="#inodot">i</g>tten 
+				<lb n="N025"></lb>ta<g ref="#inodot">i</g>ll <g ref="#slong">s</g>o nym klain win berlin ge<g ref="#slong">s</g>chu<g ref="#combuml"></g>lt 
+				<lb n="N026"></lb>in a<g ref="#inodot">i</g>nem wen<g ref="#inodot">i</g>g wins in a<g ref="#inodot">i</g>ner pfannen</seg><seg>
+			
+			<pb n="114r" xml:id="M2_114r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">gru<g ref="#combuml"></g>ben in der va<g ref="#slong">s</g>ten</hi>
+				<lb n="N002"></lb>Schn<g ref="#inodot">i</g>d w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g> brott wu<g ref="#combuml"></g>rfflot als <g ref="#slong">s</g>peck 
+				<lb n="N003"></lb>vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>t <g ref="#slong">s</g>y in <g ref="#slong">s</g>chmaltz oder in o<g ref="#combuml"></g>ll 
+				<lb n="N004"></lb>vntz es bra<g ref="#combuml"></g>n werd vnd <g ref="#slong">s</g>tro<g ref="#combuml"></g>w es 
+				<lb n="N005"></lb>vff d<g ref="#inodot">i</g>e mu<g ref="#esup">e</g><g ref="#slong">s</g>er als d<g ref="#inodot">i</g>e gru<g ref="#combuml"></g>ben das 
+				<lb n="N006"></lb><g ref="#inodot">i</g><g ref="#slong">s</g>t hoffl<g ref="#inodot">i</g>ch o<g ref="#combuml"></g>pffel <g ref="#slong">s</g>chrott ouch al<g ref="#slong">s</g>o vnd 
+				<lb n="N007"></lb>ro<g ref="#combuml"></g><g ref="#slong">s</g>ts <g ref="#inodot">i</g>n dem <g ref="#slong">s</g>chmaltz vnd g<g ref="#inodot">i</g>bs ouch 
+				<lb n="N008"></lb>vff mu<g ref="#esup">e</g><g ref="#slong">s</g>zern In der va<g ref="#slong">s</g>ten</seg><seg>
+				<lb n="N009"></lb><hi rend="textColour:RED;" style="heading"><g ref="#slong">s</g>u<g ref="#esup">e</g><g ref="#slong">s</g>z <g ref="#slong">s</g>a<g ref="#combuml"></g>ltz</hi> 
+				<lb n="N010"></lb>A<g ref="#inodot">i</g>n fo<g ref="#combuml"></g>rchenen oder a<g ref="#inodot">i</g>nen la<g ref="#slong">s</g>ch oder 
+				<lb n="N011"></lb>ainen Inlancken mach al<g ref="#slong">s</g>o In ain <g ref="#slong">s</g>u<g ref="#esup">e</g><g ref="#slong">s</g>z 
+				<lb n="N012"></lb><g ref="#slong">s</g>a<g ref="#combuml"></g>ltz m<g ref="#inodot">i</g>t v<g ref="#inodot">i</g><g ref="#slong">s</g>ch lebren vnd mit ger<g ref="#inodot">i</g>bem 
+				<lb n="N013"></lb>leppczelten oder m<g ref="#inodot">i</g>t pfeffer brott oder <g ref="#fracsol"></g>
+				<lb n="N014"></lb>mit gebrentem mell vnd hon<g ref="#inodot">i</g>g als vor <g ref="#fracsol"></g>
+				<lb n="N015"></lb><g ref="#inodot">i</g><g ref="#slong">s</g>t ge<g ref="#slong">s</g>chriben tu<g ref="#osup">o</g> mandelkeren vnd <w>bay<g ref="#dbloblhyph">=</g>
+				<lb n="N016"></lb>derlay</w> winber darIn vnd f<g ref="#inodot">i</g>gen vnd 
+				<lb n="N017"></lb>r<g ref="#inodot">i</g>cht das an vff an f<g ref="#inodot">i</g><g ref="#slong">s</g>ch kalt oder leg 
+				<lb n="N018"></lb>d<g ref="#inodot">i</g>e f<g ref="#inodot">i</g><g ref="#slong">s</g>ch darIn</seg><seg> <hi rend="textColour:RED;" style="heading"><g ref="#slong">s</g>ultz</hi> 
+				<lb n="N019"></lb>Sultz v<g ref="#inodot">i</g><g ref="#slong">s</g>ch mach al<g ref="#slong">s</g>o N<g ref="#inodot">i</g>em win 
+				<lb n="N020"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch vnd wa<g ref="#slong">s</g><g ref="#slong">s</g>er vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d d<g ref="#inodot">i</g>e v<g ref="#inodot">i</g><g ref="#slong">s</g>ch 
+				<lb n="N021"></lb>darInn vnd leg <g ref="#slong">s</g>y In kaltes wa<g ref="#slong">s</g><g ref="#slong">s</g>er 
+				<lb n="N022"></lb>vnd wa<g ref="#combuml"></g><g ref="#slong">s</g>ch d<g ref="#inodot">i</g>e v<g ref="#inodot">i</g><g ref="#slong">s</g>ch vnd d<g ref="#inodot">i</g>e <g ref="#slong">s</g>chu<g ref="#esup">e</g>ppeln 
+				<lb n="N023"></lb>damit <g ref="#fracsol"></g> ab den v<g ref="#inodot">i</g><g ref="#slong">s</g>chen vnd <g ref="#slong">s</g><g ref="#inodot">i</g>ch d<g ref="#inodot">i</g>e 
+				<lb n="N024"></lb><g ref="#slong">s</g>uppen durch vnd al<g ref="#slong">s</g>o leg d<g ref="#inodot">i</g>e f<g ref="#inodot">i</g><g ref="#slong">s</g>ch 
+				<lb n="N025"></lb>darInn vnd <g ref="#slong">s</g>altz es gar Lu<g ref="#esup">e</g>tzel <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg><seg>
+			
+			<pb n="114v" xml:id="M2_114v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">f<g ref="#inodot">i</g>gen<g ref="#slong">s</g>ultz</hi>
+				<lb n="N002"></lb>Sto<g ref="#slong">s</g>z d<g ref="#inodot">i</g>e f<g ref="#inodot">i</g>gen an <g ref="#slong">s</g>p<g ref="#inodot">i</g><g ref="#slong">s</g>zlin als v<g ref="#inodot">i</g>l du 
+				<lb n="N003"></lb>w<g ref="#inodot">i</g>lt vnd <g ref="#slong">s</g>u<g ref="#combuml"></g>d den f<g ref="#inodot">i</g>gen In ainem ke<g ref="#slong">s</g><g ref="#slong">s</g>el 
+				<lb n="N004"></lb>oder in a<g ref="#inodot">i</g>nem haffen vnd gu<g ref="#combuml"></g><g ref="#slong">s</g>z gel<g ref="#inodot">i</g>ch 
+				<lb n="N005"></lb>v<g ref="#inodot">i</g>l win vnd wa<g ref="#slong">s</g><g ref="#slong">s</g>er daran vnd 
+				<lb n="N006"></lb>darnach nyem brott vnd lepczelten 
+				<lb n="N007"></lb>ger<g ref="#inodot">i</g>ben vnd tu<g ref="#osup">o</g> es an d<g ref="#inodot">i</g>e bru<g ref="#esup">e</g>ge f<g ref="#inodot">i</g>gen 
+				<lb n="N008"></lb>hong vnd e<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>ch durch ain tu<g ref="#osup">o</g>ch <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N009"></lb>czogen</w> vnd bewu<g ref="#combuml"></g>rtzt <g ref="#fracsol"></g> vnd fa<g ref="#combuml"></g>rbs vnd 
+				<lb n="N010"></lb>erwels als vnder a<g ref="#inodot">i</g>n andren vnd 
+				<lb n="N011"></lb>leg d<g ref="#inodot">i</g>e f<g ref="#inodot">i</g>gen In ain ge<g ref="#slong">s</g>ch<g ref="#inodot">i</g>er vnd gu<g ref="#combuml"></g><g ref="#slong">s</g>z 
+				<lb n="N012"></lb><abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> d<g ref="#inodot">i</g>e bru<g ref="#esup">e</g>ge daran vnd <abbr>wen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> du 
+				<lb n="N013"></lb>wo<g ref="#combuml"></g>lle<g ref="#slong">s</g>t an r<g ref="#inodot">i</g>chten <g ref="#slong">s</g>o <g ref="#slong">s</g>tro<g ref="#combuml"></g>w daru<g ref="#combuml"></g>ber 
+				<lb n="N014"></lb>winber vnd g<g ref="#inodot">i</g>bs al<g ref="#slong">s</g>o</seg><seg> 
+				<lb n="N015"></lb><hi rend="textColour:RED;" style="heading">krum krapffen</hi>
+				<lb n="N016"></lb><hi rend="textColour:RED;">CZu<g ref="#osup">o</g> krumen</hi> krapffen als ro<g ref="#slong">s</g>y<g ref="#slong">s</g>en 
+				<lb n="N017"></lb><g ref="#slong">s</g>olt du r<g ref="#inodot">i</g>ben gu<g ref="#osup">o</g>ten ka<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> vnd nyem 
+				<lb n="N018"></lb>halb als v<g ref="#inodot">i</g>l mell vnd <g ref="#slong">s</g>chlach ayer <w>dar<g ref="#dbloblhyph">=</g>
+				<lb n="N019"></lb>vnder</w> <g ref="#fracsol"></g> das es <g ref="#slong">s</g><g ref="#inodot">i</g>ch de<g ref="#slong">s</g>ter ba<g ref="#slong">s</g>z wellen 
+				<lb n="N020"></lb>laus vnd bewu<g ref="#combuml"></g>rtz es gnu<g ref="#osup">o</g>g vnd w<g ref="#inodot">i</g>ll 
+				<lb n="N021"></lb>es vff a<g ref="#inodot">i</g>nem brett das es werd als 
+				<lb n="N022"></lb>wu<g ref="#combuml"></g>r<g ref="#slong">s</g>t daru<g ref="#slong">s</g><g ref="#slong">s</g> mach <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> krum krapffen 
+				<lb n="N023"></lb>als ro<g ref="#slong">s</g>zy<g ref="#slong">s</g>en d<g ref="#inodot">i</g>e werdent gar gu<g ref="#osup">o</g>t vnd 
+				<lb n="N024"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>nd va<g ref="#slong">s</g>t ge<g ref="#slong">s</g>und vnd <g ref="#slong">s</g>ol <g ref="#slong">s</g>y bachen 
+				<lb n="N025"></lb><g ref="#inodot">i</g>n <g ref="#slong">s</g>chmaltz</seg><seg> 
+			
+			<pb n="115r" xml:id="M2_115r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">krapffen <g ref="#inodot">i</g>n der va<g ref="#slong">s</g>ten</hi>
+				<lb n="N002"></lb><hi>K</hi>rapffen <g ref="#inodot">i</g>n der va<g ref="#slong">s</g>ten mach al<g ref="#slong">s</g>o
+				<lb n="N003"></lb>nyem gru<g ref="#esup">e</g>n nu<g ref="#slong">s</g>z vnd figen vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> 
+				<lb n="N004"></lb>d<g ref="#inodot">i</g>e vnder ain andren vnd bewu<g ref="#combuml"></g>rtz d<g ref="#inodot">i</g>e 
+				<lb n="N005"></lb>vnd legs in ain pfannen In o<g ref="#combuml"></g>ll oder In 
+				<lb n="N006"></lb><g ref="#slong">s</g>chmaltz das es erwalle darnach bewollen 
+				<lb n="N007"></lb>mit erhabem ta<g ref="#inodot">i</g>g In <del>j</del><note xml:lang="de">Falscher Ansatz.</note><note xml:lang="en">Wrong start.</note> krapfen w<g ref="#inodot">i</g><g ref="#slong">s</g>z vnd bach 
+				<lb n="N008"></lb>es vnd g<g ref="#inodot">i</g>bs kalt oder In a<g ref="#inodot">i</g>nem pfeffer</seg><seg>
+				<lb n="N009"></lb><hi rend="textColour:RED;" style="heading">baches In ainem Ju<g ref="#slong">s</g><g ref="#slong">s</g>el</hi>
+				<lb n="N010"></lb>CZu<g ref="#osup">o</g> a<g ref="#inodot">i</g>nem bachem In a<g ref="#inodot">i</g>nem Ju<g ref="#slong">s</g><g ref="#slong">s</g>el nyem 
+				<lb n="N011"></lb>geryben ka<g ref="#combuml"></g><g ref="#slong">s</g>z vnd mell vnd <g ref="#slong">s</g>chlach daran 
+				<lb n="N012"></lb>ayer vnd bewu<g ref="#combuml"></g>rtz es wol vnd knytz 
+				<lb n="N013"></lb>vnder ain andren vnd w<g ref="#inodot">i</g>ll es vff a<g ref="#inodot">i</g>nem 
+				<lb n="N014"></lb>brett vnd mach daru<g ref="#slong">s</g><g ref="#slong">s</g> lang <g ref="#slong">s</g>chrentzen 
+				<lb n="N015"></lb>vnd du<g ref="#combuml"></g>nne vnd bachs In <g ref="#slong">s</g>chmaltz dar 
+				<lb n="N016"></lb>nach <g ref="#slong">s</g>o <g ref="#slong">s</g>chnu<g ref="#combuml"></g>tz in a<g ref="#inodot">i</g>nen Ju<g ref="#slong">s</g><g ref="#slong">s</g>el</seg><seg> 
+				<lb n="N017"></lb><hi rend="textColour:RED;" style="heading">baches v<g ref="#slong">s</g><g ref="#slong">s</g> v<g ref="#inodot">i</g><g ref="#slong">s</g>ch rogen</hi> 
+				<lb n="N018"></lb>N<g ref="#inodot">i</g>em a<g ref="#inodot">i</g>n v<g ref="#inodot">i</g><g ref="#slong">s</g>chrogen vnd czu<g ref="#combuml"></g>ch den 
+				<lb n="N019"></lb>row durch ain wen<g ref="#inodot">i</g>g w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>es brots oder 
+				<lb n="N020"></lb><g ref="#slong">s</g>us mells mit gu<g ref="#osup">o</g>tem w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>em mell als 
+				<lb n="N021"></lb>a<g ref="#inodot">i</g>n <g ref="#slong">s</g>truben ta<g ref="#inodot">i</g>g vnd fa<g ref="#combuml"></g>rbs ain wenig 
+				<lb n="N022"></lb>ob du w<g ref="#inodot">i</g>lt darv<g ref="#slong">s</g><g ref="#slong">s</g> mach gu<g ref="#osup">o</g>t <g ref="#slong">s</g>truben 
+				<lb n="N023"></lb>oder anderlay gu<g ref="#osup">o</g>t gebaches oder <w>be<g ref="#dbloblhyph">=</g>
+				<lb n="N024"></lb>wu<g ref="#combuml"></g>rtz</w> es vnd mach fla<g ref="#combuml"></g>dlin daru<g ref="#slong">s</g>z In 
+				<lb n="N025"></lb>a<g ref="#inodot">i</g>nem ofen gebachen oder mach <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N026"></lb>bru<g ref="#esup">e</g>te</w> ku<g ref="#esup">e</g>chl<g ref="#inodot">i</g>n daru<g ref="#slong">s</g>z als von ayer</seg><seg>
+			
+			<pb n="115v" xml:id="M2_115v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">baches von kro<g ref="#slong">s</g>zayer</hi> 
+				<lb n="N002"></lb>CZu<g ref="#osup">o</g> kro<g ref="#slong">s</g>z ayer <g ref="#slong">s</g>chlach ayer vff czu<g ref="#osup">o</g> dem 
+				<lb n="N003"></lb>gro<g ref="#slong">s</g><g ref="#slong">s</g>en <g ref="#slong">s</g>p<g ref="#inodot">i</g>tz vnd kropff d<g ref="#inodot">i</g>e gar wol tu<g ref="#osup">o</g> 
+				<lb n="N004"></lb>pfeffer vnd <g ref="#slong">s</g>affran vnd gehakten peterly 
+				<lb n="N005"></lb>vnd <g ref="#slong">s</g>a<g ref="#combuml"></g>lbin vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>chs in a<g ref="#inodot">i</g>nem ku<g ref="#osup">o</g>chen 
+				<lb n="N006"></lb>vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>z es vff ain ro<g ref="#slong">s</g>t vnd brauts al<g ref="#slong">s</g>o</seg><seg> 
+				<lb n="N007"></lb><hi rend="textColour:RED;" style="heading">kro<g ref="#slong">s</g>z ayer <g ref="#fracsol"></g></hi>
+				<lb n="N008"></lb>CZu<g ref="#osup">o</g> kro<g ref="#slong">s</g>z ayer br<g ref="#inodot">i</g>ch vff an dem <g ref="#slong">s</g>p<g ref="#inodot">i</g>tz 
+				<lb n="N009"></lb>vnd la<g ref="#combuml"></g>r d<g ref="#inodot">i</g>e <g ref="#slong">s</g>challen gantz vnd nym 
+				<lb n="N010"></lb>ytal ayer totter vnd klopff d<g ref="#inodot">i</g>e wol 
+				<lb n="N011"></lb>In a<g ref="#inodot">i</g>ner <g ref="#slong">s</g>chu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>el vnd bewu<g ref="#combuml"></g>rtz vnd <g ref="#slong">s</g>altz 
+				<lb n="N012"></lb>vnd fa<g ref="#combuml"></g>rbs vnd tu<g ref="#osup">o</g> gehakten peterl<g ref="#inodot">i</g>n 
+				<lb n="N013"></lb>vnd <g ref="#slong">s</g>a<g ref="#combuml"></g>lbin oder bra<g ref="#combuml"></g>nwurtzen oder 
+				<lb n="N014"></lb>ander d<g ref="#inodot">i</g>ng darIn was du w<g ref="#inodot">i</g>lt vnd ro<g ref="#combuml"></g><g ref="#slong">s</g>t <g ref="#fracsol"></g>
+				<lb n="N015"></lb>es vnd hack es klain vnd tu<g ref="#osup">o</g> es w<g ref="#inodot">i</g>der 
+				<lb n="N016"></lb><g ref="#inodot">i</g>n d<g ref="#inodot">i</g>e <g ref="#slong">s</g>challen vnd <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g> es an <g ref="#slong">s</g>p<g ref="#inodot">i</g><g ref="#slong">s</g>zl<g ref="#inodot">i</g>n 
+				<lb n="N017"></lb>vnd brauts vff a<g ref="#inodot">i</g>nem ro<g ref="#slong">s</g>t <g ref="#fracsol"></g></seg><seg>
+				<lb n="N018"></lb><hi rend="textColour:RED;" style="heading">bachen morochen</hi> 
+				<lb n="N019"></lb>N<g ref="#inodot">i</g>em klain morochen vnd wa<g ref="#combuml"></g><g ref="#slong">s</g>ch d<g ref="#inodot">i</g>e 
+				<lb n="N020"></lb>gar <g ref="#slong">s</g>uber vnd <g ref="#slong">s</g>chn<g ref="#inodot">i</g>d d<g ref="#inodot">i</g>e butzen dauon 
+				<lb n="N021"></lb>vnd mach ainen du<g ref="#combuml"></g>nen ta<g ref="#inodot">i</g>g von w<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>em 
+				<lb n="N022"></lb>mell vnd gu<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g> ain wenig wins darIn 
+				<lb n="N023"></lb>vnd fa<g ref="#esup">e</g>rbs vnd bewu<g ref="#combuml"></g>rtz vnd czu<g ref="#combuml"></g>ch d<g ref="#inodot">i</g>e 
+				<lb n="N024"></lb>morochen dardurch vnd bach es In 
+				<lb n="N025"></lb>ainer pfannen <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg>
+			
+		</ab></body>
+  </text>
+</TEI>

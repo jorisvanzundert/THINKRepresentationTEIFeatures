@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2011" xml:id="l2023" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2011 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>123r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2011.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Rosenberg, Hans v.</persName></ab><ab type="mention"><persName type="mention">Maurer, Hans</persName></ab><date from="26-11-1415" to="26-11-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_246">
+<surface lrx="2638" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0126_right.png" width="2638px"/>
+<zone lrx="781" lry="1256" rendition="TextRegion" ulx="828" uly="2179" xml:id="facs_246_r1"> <zone lrx="1739" lry="1256" rendition="Line" ulx="828" uly="1183" xml:id="facs_246_r1l11"/>
+<zone lrx="2502" lry="1360" rendition="Line" ulx="508" uly="1279" xml:id="facs_246_r1l12"/>
+<zone lrx="2479" lry="1442" rendition="Line" ulx="510" uly="1366" xml:id="facs_246_r1l13"/>
+<zone lrx="2471" lry="1532" rendition="Line" ulx="521" uly="1461" xml:id="facs_246_r1l14"/>
+<zone lrx="2481" lry="1624" rendition="Line" ulx="519" uly="1548" xml:id="facs_246_r1l15"/>
+<zone lrx="2448" lry="1720" rendition="Line" ulx="521" uly="1639" xml:id="facs_246_r1l16"/>
+<zone lrx="2486" lry="1813" rendition="Line" ulx="528" uly="1729" xml:id="facs_246_r1l17"/>
+<zone lrx="2473" lry="1902" rendition="Line" ulx="526" uly="1818" xml:id="facs_246_r1l18"/>
+<zone lrx="2507" lry="1991" rendition="Line" ulx="520" uly="1907" xml:id="facs_246_r1l19"/>
+<zone lrx="2476" lry="2084" rendition="Line" ulx="512" uly="1998" xml:id="facs_246_r1l20"/>
+<zone lrx="2424" lry="2175" rendition="Line" subtype="paragraph" ulx="514" uly="2098" xml:id="facs_246_r1l21"/>
+<zone lrx="781" lry="2261" rendition="Line" ulx="519" uly="2179" xml:id="facs_246_r1l22"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans von Rosenberg</head><p>Der Rat bittet um Bezahlung des zu Michaelstag fällig gewesenen Zinses, ansonsten müsse man die Bürgen mahnen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_246" id="123r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_246_r1l11"><expan>H<ex>er</ex>n</expan> <expan>Hannſ<ex>en</ex></expan> von <expan>Roſemb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_246_r1l12"><expan>L<ex>ieber</ex></expan> <expan>h<ex>e</ex>r</expan> Hanns als wır nehſt <expan>vnſ<ex>er</ex>n</expan> dıener <expan>Hannſ<ex>en</ex></expan> <expan>Mawr<ex>er</ex></expan> ʒu <expan>eẅr<ex>er</ex></expan> </ab>
+<ab facs="#facs_246_r1l13"><expan>erberk<ex>eit</ex></expan> geſchıkt <expan>hab<ex>e</ex>n</expan> / Von <expan>vnſ<ex>er</ex>n</expan> <expan>weg<ex>en</ex></expan> an eẅch ʒu <expan>vord<ex>er</ex>n</expan> . den ʒınſe </ab>
+<ab facs="#facs_246_r1l14">der vns nach vnſers brıefs lawt vnd ſag auf ſand Mıchelſtag </ab>
+<ab facs="#facs_246_r1l15"><expan>nehſtuergang<ex>en</ex></expan> / von eẅch <expan>verfall<ex>e</ex>n</expan> vnd noch niht becʒalt ıſt . Alſo </ab>
+<ab facs="#facs_246_r1l16"><expan>bıtt<ex>en</ex></expan> wır eẅr <expan>erberk<ex>eit</ex></expan> mıt fleıſſ . daʒ Jr vns <expan>denſ<ex>elben</ex></expan> ʒinſe . noch </ab>
+<ab facs="#facs_246_r1l17"><expan>vnuercʒogenl<ex>ich</ex></expan> auſrıchtet vnd becʒalet vnd kein <expan>v<ex>er</ex>cʒıehen</expan> mer daran </ab>
+<ab facs="#facs_246_r1l18">tut . das <expan>well<ex>e</ex>n</expan> wır allcʒeıt <expan>g<ex>er</ex>n</expan> vmb eẅch <expan>v<ex>er</ex>dıenen</expan> . VVan beſchech </ab>
+<ab facs="#facs_246_r1l19">des niht . ſölten wır denn <expan>vnſ<ex>er</ex>n</expan> <expan>bürg<ex>en</ex></expan> . nach des <expan>vorg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>s</expan> brıefs </ab>
+<ab facs="#facs_246_r1l20">ſag <expan>ʒuſprech<ex>en</ex></expan> vnd manen . das teten wır wıder eẅr <expan>erberk<ex>eit</ex></expan> niht <expan>g<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_246_r1l21">ſo <expan>möchte<ex>n</ex></expan> wır des doch niht <expan>v̈berhabe<ex>n</ex></expan> ſein . <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııȷ<hi rend="sup">a</hi> poſt </ab>
+<ab facs="#facs_246_r1l22"><expan>Kath<ex>er</ex>ıne</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_246" id="123r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Hanns<ex>en</ex></expan> von <expan>Rosemb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan> Hanns, als wir nehst
+                            <expan>uns<ex>er</ex>n</expan> diener <expan>Hanns<ex>en</ex></expan>
+<expan>Mawr<ex>er</ex></expan> zu <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> geschikt <expan>hab<ex>e</ex>n</expan>,
+                        von <expan>uns<ex>er</ex>n</expan>
+<expan>weg<ex>en</ex></expan> an ewch zu <expan>vord<ex>er</ex>n</expan> den
+                        zinse, der uns nach unsers briefs lawt und sag auf <app><note><q type="date">sand Michelstag
+                            <expan>nehstvergang<ex>en</ex></expan></q>29.09.1415</note></app> von ewch
+                                <expan>verfall<ex>e</ex>n</expan> und noch niht beczalt ist, also
+                                <expan>bitt<ex>en</ex></expan> wir ewr
+                            <expan>erberk<ex>eit</ex></expan> mit fleiss, daz ir uns
+                                <expan>dens<ex>elben</ex></expan> zinse noch
+                                <expan>unverczogenl<ex>ich</ex></expan> ausrichtet und beczalet und
+                        kein <expan>v<ex>er</ex>cziehen</expan> mer daran tut. Das
+                                <expan>well<ex>e</ex>n</expan> wir allczeit
+                            <expan>g<ex>er</ex>n</expan> umb ewch <expan>v<ex>er</ex>dienen</expan>.
+                        Wan beschech des niht, sölten wir denn <expan>uns<ex>er</ex>n</expan>
+<expan>bürg<ex>en</ex></expan> nach des <expan>vorg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>s</expan> briefs sag <expan>zusprech<ex>en</ex></expan>
+                        und manen, das teten wir wider ewr <expan>erberk<ex>eit</ex></expan> niht
+                                <expan>g<ex>er</ex>n</expan>, so <expan>möchte<ex>n</ex></expan> wir
+                        des doch niht <expan>überhabe<ex>n</ex></expan> sein.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii<hi rend="sup">a</hi> post
+                                <expan>Kath<ex>er</ex>ine.</expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

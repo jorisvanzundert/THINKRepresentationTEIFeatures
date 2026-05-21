@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1335" xml:id="l1350" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1335 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>215v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1335.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q1720" type="recipient">Mainz</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1794" type="mention">Frankfurt am Main</placeName><persName type="mention">Hanau, Herren v.</persName></ab><date from="17-02-1412" to="16-03-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_432">
+<surface lrx="2748" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0218_left.png" width="2748px"/>
+<zone lrx="1881" lry="2089" rendition="TextRegion" ulx="1241" uly="2650" xml:id="facs_432_r1"> <zone lrx="1881" lry="2089" rendition="Line" ulx="1241" uly="2005" xml:id="facs_432_r1l19"/>
+<zone lrx="2461" lry="2182" rendition="Line" ulx="619" uly="2084" xml:id="facs_432_r1l20"/>
+<zone lrx="2503" lry="2269" rendition="Line" ulx="605" uly="2181" xml:id="facs_432_r1l21"/>
+<zone lrx="2535" lry="2358" rendition="Line" ulx="627" uly="2273" xml:id="facs_432_r1l22"/>
+<zone lrx="2637" lry="2453" rendition="Line" ulx="612" uly="2361" xml:id="facs_432_r1l23"/>
+<zone lrx="2588" lry="2554" rendition="Line" ulx="606" uly="2463" xml:id="facs_432_r1l24"/>
+<zone lrx="2530" lry="2630" rendition="Line" ulx="627" uly="2555" xml:id="facs_432_r1l25"/>
+<zone lrx="2663" lry="2723" rendition="Line" ulx="629" uly="2650" xml:id="facs_432_r1l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Mainz</head><p>Der Rat bittet um Entsendung einiger Ratsherren zum Schiedsgericht nach Frankfurt am Main und zur Unterstützung der Nürnberger Gesandten wegen der Herren von Hanau.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_432" id="215v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_432_r1l19">Der Stat Meıncʒ </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_432_r1l20"><expan>Lıeb<ex>e</ex>n</expan> freunde / Es haben ewr vnd vnſer guten freund die </ab>
+<ab facs="#facs_432_r1l21">von franckfürt / cʒwiſchen den Edeln <expan>h<ex>er</ex>ren</expan> den von hanaw vnd </ab>
+<ab facs="#facs_432_r1l22">vnſer einen gütlichen tag gemachet der da ſein ſol doſelbſt </ab>
+<ab facs="#facs_432_r1l23">cʒu franckfürt auf den Mıtwochen vor dem Palmtag nu ſchierſt </ab>
+<ab facs="#facs_432_r1l24"><expan>Ro<ex>gamus</ex></expan> / daʒ Jr vns ettlich ewrs Rates leihen vnd ſchıcken wöllet </ab>
+<ab facs="#facs_432_r1l25">auf <expan>de<ex>n</ex></expan> <expan>eg<ex>enanten</ex></expan> tag gen franckfurt die den <expan>vnſ<ex>er</ex>n</expan> beẏ geſtendig </ab>
+<ab facs="#facs_432_r1l26">furderlich geraten vnd beholffen ſein / Als etc vnd das in <expan>ſolıch<ex>e</ex>n</expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_432" id="215v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat Meincz </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan> freunde, es haben ewr und unser guten freund,
+                        die von Franckfürt, czwischen den edeln <expan>h<ex>er</ex>ren</expan> den
+                        von Hanaw und unser einen gütlichen tag gemachet, der da sein sol doselbst
+                        czu Franckfürt <app><note><q type="date">auf den mitwochen vor dem palmtag nu schierst</q>23.03.1412</note></app>.
+                                <expan>Ro<ex>gamus</ex></expan>, daz ir uns ettlich ewrs rates
+                        leihen und schicken wöllet auf <expan>de<ex>n</ex></expan>
+<expan>eg<ex>enanten</ex></expan> tag gen Franckfurt, die den
+                                <expan>uns<ex>er</ex>n</expan> beygestendig, furderlich, geraten und
+                        beholffen sein. Als etc. Und das in <expan>solich<ex>e</ex>n</expan>.<app><note><q type="endnote">...</q>Text bricht hier ab.</note></app></ab>
+</div>
+</div></body>
+</text>
+</TEI>

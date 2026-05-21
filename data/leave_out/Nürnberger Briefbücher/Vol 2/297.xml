@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="297" xml:id="l301" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 297 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>083v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 297.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Frickenhofer, Heinrich</persName></ab><ab type="mention"><persName type="mention">Lutz, Peter</persName><persName type="mention">Widenpaur, Konrad</persName></ab><date from="8-02-1409" to="8-02-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_170">
+<surface lrx="2810" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0086_left.png" width="2810px"/>
+<zone lrx="2287" lry="1711" rendition="TextRegion" ulx="972" uly="2581" xml:id="facs_170_r2"> <zone lrx="2287" lry="1711" rendition="Line" ulx="972" uly="1616" xml:id="facs_170_r2l15"/>
+<zone lrx="2718" lry="1907" rendition="Line" ulx="670" uly="1828" xml:id="facs_170_r2l16"/>
+<zone lrx="2660" lry="1995" rendition="Line" ulx="686" uly="1916" xml:id="facs_170_r2l17"/>
+<zone lrx="2714" lry="2092" rendition="Line" ulx="694" uly="2012" xml:id="facs_170_r2l18"/>
+<zone lrx="2647" lry="2185" rendition="Line" ulx="680" uly="2105" xml:id="facs_170_r2l19"/>
+<zone lrx="2617" lry="2279" rendition="Line" ulx="688" uly="2197" xml:id="facs_170_r2l20"/>
+<zone lrx="2610" lry="2367" rendition="Line" ulx="700" uly="2283" xml:id="facs_170_r2l21"/>
+<zone lrx="2633" lry="2461" rendition="Line" ulx="694" uly="2371" xml:id="facs_170_r2l22"/>
+<zone lrx="2579" lry="2549" rendition="Line" ulx="685" uly="2473" xml:id="facs_170_r2l23"/>
+<zone lrx="2713" lry="2644" rendition="Line" ulx="697" uly="2581" xml:id="facs_170_r2l24"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich Frickenhofer, Schultheiß von Neumarkt in der Oberpfalz</head><p>Der Rat teilt wegen des am Mittwoch vor Fasnacht zwischen Peter Lutz, Bürger zu Nürnberg, und Konrad Widenpaur angesetzten Rechtstags mit, dass Peter Lutz wegen eines dringenden Geschäfts nicht anwesend sein kann, und bittet um Verlegung auf Montag nach dem Weißen Sonntag.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_170" id="83v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_170_r2l15"><expan>Heinr<ex>ich</ex></expan> Frıckenhofer <expan>Schulth<ex>eiſʒ</ex></expan> cʒüm <expan>Newe<ex>n</ex>markt</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_170_r2l16"><expan>Lıeb<ex>er</ex></expan> <expan>Frıckenhof<ex>er</ex></expan> / Als Jr vns <expan>geſchrıb<ex>e</ex>n</expan> habt von <expan>Pet<ex>er</ex></expan> Lucʒen <expan>vnſ<ex>er</ex>s</expan> <expan>B<ex>ur</ex>g<ex>er</ex>s</expan> </ab>
+<ab facs="#facs_170_r2l17"><expan>wege<ex>n</ex></expan> / vvie Jr dem von <expan>Conr<ex>ad</ex></expan> vvidempawr / eins <expan>recht<ex>e</ex>n</expan> helffen wöllet </ab>
+<ab facs="#facs_170_r2l18">am Mitwochen vor <expan>h<ex>er</ex>ren</expan> vaſnacht / . Das <expan>hab<ex>e</ex>n</expan> vvir mit dem <expan>vnſ<ex>er</ex>n</expan> geredt </ab>
+<ab facs="#facs_170_r2l19">vnd der ſprichet / daʒ er <expan>deſſelb<ex>e</ex>n</expan> tages von ſeins nötlıchen geſchefts </ab>
+<ab facs="#facs_170_r2l20"> <expan>vvege<ex>n</ex></expan> nicht <expan>gewart<ex>e</ex>n</expan> müg / Aber er vvölle 
+<del rend="strikethrough">n </del> auf den Montag nach </ab>
+<ab facs="#facs_170_r2l21">dem vveiſſen ſuntag / <expan>g<ex>er</ex>ne</expan> cʒü ew kumen / daʒ Jr Jm eins <expan>rechte<ex>n</ex></expan> helffet </ab>
+<ab facs="#facs_170_r2l22">als Jr vns <expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan> habt / . vnd het <expan>dan<ex>n</ex></expan> der ewr cʒü dem <expan>vnſ<ex>er</ex>n</expan> icht </ab>
+<ab facs="#facs_170_r2l23">cʒuſprechen / Darvmb wöllen wir Jm hynnach / eins fruntlıchen </ab>
+<ab facs="#facs_170_r2l24">rechten auch on wıderrecht <expan>g<ex>er</ex>ne</expan> helffen / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> vȷ̃ . <expan>p<ex>oſt</ex></expan> dorothee </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_170" id="83v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Heinr<ex>ich</ex></expan> Frickenhofer,
+                            <expan>Schulth<ex>eisz</ex></expan> czüm
+                            <expan>Newe<ex>n</ex>markt</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan>
+<expan>Frickenhof<ex>er</ex></expan>, als ir uns
+                            <expan>geschrib<ex>e</ex>n</expan> habt von
+                            <expan>Pet<ex>er</ex></expan> Luczen, <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>s</expan>, <expan>wege<ex>n</ex></expan>, wie
+                        ir dem von <expan>Conr<ex>ad</ex></expan> Widempawr eins
+                                <expan>recht<ex>e</ex>n</expan> helffen wöllet am <app><note><q type="date">mitwochen vor
+                                    <expan>h<ex>er</ex>ren</expan> vasnacht</q>13.02.1409</note></app>, das
+                            <expan>hab<ex>e</ex>n</expan> wir mit dem <expan>uns<ex>er</ex>n</expan>
+                        geredt und der sprichet, daz er <expan>desselb<ex>e</ex>n</expan> tages von
+                        seins nötlichen geschefts <expan>wege<ex>n</ex></expan> nicht
+                        <expan>gewart<ex>e</ex>n</expan> müg. Aber er wölle auf den <app><note><q type="date">montag
+                            nach dem weissen suntag</q>25.02.1409</note></app> <expan>g<ex>er</ex>ne</expan> czü ew kumen, daz ir
+                        im eins <expan>rechte<ex>n</ex></expan> helffet, als ir uns
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> habt. Und het
+                                <expan>dan<ex>n</ex></expan> der ewr czü dem
+                            <expan>uns<ex>er</ex>n</expan> icht czusprechen, darumb wöllen wir im
+                        hynnach eins fruntlichen rechten auch on widerrecht
+                            <expan>g<ex>er</ex>ne</expan> helffen. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi <expan>p<ex>ost</ex></expan> Dorothee.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="802" xml:id="l811" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 802 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>078r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 802.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q153494" type="recipient">Rothenburg o. d. Tauber</placeName></ab><ab type="mention"><persName type="mention">Topler, Jakob</persName><persName type="mention">Maßbach, Balthasar v.</persName></ab><date from="10-09-1410" to="8-10-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_157">
+<surface lrx="2806" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0080_right.png" width="2806px"/>
+<zone lrx="773" lry="2717" rendition="TextRegion" ulx="1637" uly="3485" xml:id="facs_157_r2"> <zone lrx="1223" lry="2717" rendition="Line" ulx="968" uly="2653" xml:id="facs_157_r2l26"/>
+<zone lrx="2484" lry="2943" rendition="Line" ulx="408" uly="2846" xml:id="facs_157_line_1576582718605_4741"/>
+<zone lrx="1041" lry="2940" rendition="Line" ulx="562" uly="2877" xml:id="facs_157_line_1576582722094_4746"/>
+<zone lrx="2501" lry="3026" rendition="Line" ulx="397" uly="2961" xml:id="facs_157_r2l29"/>
+<zone lrx="1450" lry="3045" rendition="Line" ulx="1382" uly="2995" xml:id="facs_157_line_1584967922092_156"/>
+<zone lrx="1813" lry="3042" rendition="Line" ulx="1637" uly="3011" xml:id="facs_157_r2l30"/>
+<zone lrx="2438" lry="3121" rendition="Line" ulx="397" uly="3029" xml:id="facs_157_r2l31"/>
+<zone lrx="2468" lry="3202" rendition="Line" ulx="403" uly="3123" xml:id="facs_157_r2l32"/>
+<zone lrx="2502" lry="3290" rendition="Line" ulx="398" uly="3214" xml:id="facs_157_r2l33"/>
+<zone lrx="2508" lry="3380" rendition="Line" ulx="384" uly="3306" xml:id="facs_157_r2l34"/>
+<zone lrx="2479" lry="3469" rendition="Line" ulx="392" uly="3397" xml:id="facs_157_r2l35"/>
+<zone lrx="773" lry="3558" rendition="Line" ulx="396" uly="3485" xml:id="facs_157_r2l36"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Rothenburg ob der Tauber</head><p>Der Rat bittet nach Verkauf von dem von Balthasar von Maßbach zu Lehen rührenden Gütern durch Jakob Topler und seinen Schwager, Bürger zu Nürnberg, an einige Bürger zu Rothenburg ob der Tauber um Anweisung, dass diese die Bürgen noch nicht mahnen, da die Verkäufer mit Balthasar im Rechtsstreit stehen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_157" id="78r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_157_r2l26"><expan>Rotemb<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_157_line_1576582718605_4741"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan> / Als Jr vns nehſt <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> habt von Jacob Toplers vnd ~ <expan>ſeın<ex>er</ex></expan> <expan>Svveg<ex>er</ex></expan> </ab>
+<ab facs="#facs_157_r2l29"><expan>vvege<ex>n</ex></expan>
+<add><ab facs="#facs_157_line_1576582722094_4746"><expan>vnſ<ex>e</ex>r</expan> burger dauon </ab></add>
+<del rend="strikethrough"> darumb </del> etlıch dıe <expan>ewre<ex>n</ex></expan> gut gekaufft <expan>hab<ex>e</ex>n</expan>
+<del rend="strikethrough"> vnd </del> daʒ dıe ewren Jr </ab>
+<ab facs="#facs_157_r2l31"> <expan>pürge<ex>n</ex></expan> von der werſchaft wegen 
+<del rend="strikethrough">cʒe</del>
+<add><ab facs="#facs_157_line_1584967922092_156">ʒe </ab></add> manen 
+<del rend="strikethrough"><expan>wolle<ex>n</ex></expan> </del>
+<add><ab facs="#facs_157_r2l30">mainen </ab></add> / darümb <expan>hab<ex>e</ex>n</expan> vvir </ab>
+<ab facs="#facs_157_r2l32">mit <expan>denſelb<ex>e</ex>n</expan> ~ <expan>vnſ<ex>er</ex>n</expan> <expan>burg<ex>er</ex>n</expan> geredt / vnd die <expan>hab<ex>e</ex>n</expan> vns <expan>geantvv<ex>ur</ex>t</expan> / daʒ ſie </ab>
+<ab facs="#facs_157_r2l33"><expan>yecʒund<ex>en</ex></expan> in recht ſten von <expan>derſelb<ex>e</ex>n</expan> gute <expan>wege<ex>n</ex></expan> mit <expan>de<ex>m</ex></expan> von Maſpach / <expan>Dar<ex>ümb</ex></expan> </ab>
+<ab facs="#facs_157_r2l34"><expan>Ro<ex>gamus</ex></expan> / daʒ Jr dıe ewren durch <expan>vnſ<ex>er</ex>n</expan> <expan>wille<ex>n</ex></expan> daran vveẏſen wollet / daʒ ſie </ab>
+<ab facs="#facs_157_r2l35">die pürgen dieweil vngemant laſſen / biſʒ dieſelb
+<del rend="strikethrough">n</del> ſach <expan>auſʒgetrage<ex>n</ex></expan> vvirdt </ab>
+<ab facs="#facs_157_r2l36">das <expan>vvölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_157" id="78r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Rotemb<ex>ur</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns nehst
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> habt von Jacob Toplers
+                        und <expan>sein<ex>er</ex></expan>
+<expan>sweg<ex>er</ex></expan>
+<expan>wege<ex>n</ex></expan>, <add><expan>uns<ex>e</ex>r</expan> burger,
+                            davon</add> etlich die <expan>ewre<ex>n</ex></expan> gut gekaufft
+                                <expan>hab<ex>e</ex>n</expan>, daz die ewren ir
+                                <expan>pürge<ex>n</ex></expan> von der werschaft wegen <add>ze</add>
+                        manen <add>mainen</add>; darümb <expan>hab<ex>e</ex>n</expan> wir mit
+                                <expan>denselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>burg<ex>er</ex>n</expan> geredt und die <expan>hab<ex>e</ex>n</expan>
+                        uns <expan>geantw<ex>ur</ex>t</expan>, daz sie
+                            <expan>yeczund<ex>en</ex></expan> in recht sten von
+                                <expan>derselb<ex>e</ex>n</expan> gute <expan>wege<ex>n</ex></expan>
+                        mit <expan>de<ex>m</ex></expan> von Maspach. <expan>Dar<ex>umb</ex></expan>
+<expan>ro<ex>gamus</ex></expan>, daz ir die ewren durch
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> daran weysen wollet, daz sie die pürgen
+                        dieweil ungemant lassen, bisz dieselb sach
+                            <expan>auszgetrage<ex>n</ex></expan> wirdt. Das
+                            <expan>wölle<ex>n</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

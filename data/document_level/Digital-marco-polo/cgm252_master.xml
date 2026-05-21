@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="punteggiatura.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:p="punteggiatura">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cgm 252</title>
+                <respStmt>
+                    <resp>Edited by</resp>
+                    <name ref="#elisa">Elisa Cugliana</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <p>Doctoral dissertation</p>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement>München</settlement>
+                        <repository>BSB</repository>
+                        <idno>cgm 252</idno>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body xml:id="cgm252_body">
+            <div type="chapter" n="2" xml:id="cgm252_ch2" corresp="#cgm696_ch2">
+                <pb ed="#cgm252" facs="images/cgm252_fol90r.jpg" n="90r"/>
+                <p>
+                <lb n="1"/>Durch kainerlaÿ sache vnd paß zū wege<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="2"/>pringen müg Dann Inkauffmans weӳſe<pc p:n1-subst="|" p:n2-subst=","/>
+                    <lb n="3"/>wann Ir wol wiſſent<pc p:n1-subst="" p:n2-subst=","/> das kainerlaÿ volck
+                <lb n="4"/>ferreꝛ vnd weӳtter die wellt pauwt dann
+                    <lb n="5"/>kauffleütt tuͦn<pc p:n1-subst="" p:n2-subst=","/> Sunderliche <term ref="#venetians">Venedigeꝛ</term><pc p:n1-subst="·" p:n2-subst="."/>
+                    <lb n="6"/>Darumb diſe zwen prüder weiſe<pc p:n1-subst="" p:n2-subst=","/> kluͦg vnd
+                    <lb n="7"/>wol uerſtanden<pc p:n1-subst="" p:n2-subst=","/> durch ander ſyn oder Iren
+                    <lb n="8"/>willen Ee vnd paß möchten ain genügen tuͦn<pc p:n1-subst="" p:n2-subst=","/>
+                    <lb n="9"/>diſe wellt zŭ ſehen<pc p:n1-subst="" p:n2-subst=","/> Dann mitt kauffmanſchatz
+                    <lb n="10"/>oder In kauffmansweiſe<pc p:n1-subst="·" p:n2-subst="."/> Alſo <persName ref="#nicolau">Nicholo pollo</persName>
+                <lb n="11"/>vnd <persName ref="#mafeu">Maffeo</persName> ſein pruͦder mitt Ireꝛ kauffman
+                    <lb n="12"/>ſchatze aufſaſſen<pc p:n1-subst="" p:n2-subst=","/> Ire Segel gericht Geg͠n
+                    <lb n="13"/>Dem auffgang Der Sun͠nen<pc p:n1-subst="" p:n2-subst=","/> In kurtzen tag͠n
+                    <lb n="14"/>sie gen <placeName ref="#gostantinople">Conſtantinoppel</placeName> kom͠en<pc p:n1-subst="|" p:n2-subst=""/> vnd Ire ſach
+                <lb n="15"/>palde geendet hetten vnd wideꝛ umb kauf͞ft͞e
+                    <lb n="16"/>Coſtliche clainet vnd fu̇rbaß zügen<pc p:n1-subst="" p:n2-subst=","/> vnd<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="17"/>koment Inn das lanndt <placeName ref="#soldadie" ana="#subVar">Seldania</placeName><pc p:n1-subst="·" p:n2-subst="."/> da won͠te
+                    <lb n="18"/>ſie ettliche zeitt<pc p:n1-subst="" p:n2-subst=","/> Darnach weitter begeꝛt͠te
+                    <lb n="19"/>Inn die <placeName ref="#tatarstan">Tartareӳ</placeName><pc p:n1-subst="·" p:n2-subst="."/> Sie komen Inn ain statt<pc p:n1-subst="" p:n2-subst=":"/>
+                    <lb n="20"/>DarInn wonet ain heꝛre<pc p:n1-subst="" p:n2-subst=","/> dar was genant
+                    <lb n="21"/><persName ref="#barchaKaan">Bochaam</persName><pc p:n1-subst="·" p:n2-subst="."/> Do komen die zwen pruͦdeꝛ fur
+                    <lb n="22"/>den heꝛren<pc p:n1-subst="" p:n2-subst=","/> von dem gerne geſehen vnd frunt⸗
+                <lb n="23"/>lich empfang͠n wurden<pc p:n1-subst="" p:n2-subst=",">,</pc> Als dann groſſer
+                <lb  n="24"/>herren gewonhaitt iſt<pc p:n1-subst="" p:n2-subst=",">,</pc> fremde vnd seltza͠m
+                <lb n="25"/>laütte zu’ ſehen<pc p:n1-subst="|" p:n2-subst=";">,</pc> Alſo was auch dem herren<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="26"/><persName ref="#barchaKaan">Bochaam</persName><pc p:n1-subst="" p:n2-subst=","/> wann er kainen <term ref="#latins">latteiniſchen m͠a</term>
+                    <lb n="27"/>vor nie mer geſehen hette<pc p:n1-subst="|" p:n2-subst="."/> Darumbe er
+                <lb n="28"/>den zwaӳen prüdern groſſe zucht vnd eꝛe
+                    <lb n="29"/>erpotte<pc p:n1-subst="|" p:n2-subst=",">,</pc> Inn ſolicher maſſe<pc p:n1-subst="" p:n2-subst=","/> Das ſie dem<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="30"/>herren alle IreClainet ſchanckten<pc p:n1-subst="·" p:n2-subst="."/> Der
+                <lb n="31"/>heꝛre Ir ſchanckung nicht außſchluͦge
+                <lb n="32"/>vnd die auff name vnd durch der groß͠n
+                <lb n="33"/>miltigkait willen<pc p:n1-subst="" p:n2-subst=",">,</pc> Die er an den zwaӳen
+                <lb n="34"/>prüdern ſach<pc p:n1-subst="" p:n2-subst=",">,</pc> Er In mere dann zwӳꝛent
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol90v.jpg" n="90v"/>
+                    <lb n="1"/>so vil hin wider gab vnd ſchanckte<pc p:n1-subst="·" p:n2-subst="."/> Darnach
+                    <lb n="2"/>mitt des heꝛren vrlaube sie uon dann ſchie͞de
+                    <lb n="3"/>vnd furbaß zugen u̇beꝛ lanndt vnd kom͞en
+                    <lb n="4"/>zŭ der groſſen statt genant <placeName ref="#barcha" corresp="#barchaKaan">Barcha</placeName><pc p:n1-subst="·" p:n2-subst=".">,</pc> Da
+                <lb n="5"/>wonten ſie auch ettliche zeitt vnd nicht zū
+                <lb n="6"/>rucke mochten komen<pc p:n1-subst="|" p:n2-subst=",">,</pc> von kriegs wegen<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="7"/>sich angefang͠n vnd verlauffen hette zwiſch͠e
+                <lb n="8"/><placeName ref="#barcha" corresp="#barchaKaan">Barcha</placeName> vnd aines heꝛn genant <persName ref="#alau">Elaw</persName><pc p:n1-subst="|" p:n2-subst=",">,</pc> wa͠n
+                <lb n="9"/>er heꝛre was Inn dem ſelben taile der <placeName ref="#tatarstan">tar⸗
+                    <lb n="10"/>taꝛeӳ</placeName><pc p:n1-subst="" p:n2-subst=","/> Gegen dem auffgange Der
+                    <lb n="11"/>sun͠nen<pc p:n1-subst="·" p:n2-subst=".">,</pc> Darumb die zwen prŭder ſtetti⸗
+                    <lb n="12"/>klich furbaß zug͠n<pc p:n1-subst="" p:n2-subst=","/> gegen dem auffgang
+                    <lb n="13"/>der Sun͞nen<pc p:n1-subst="" p:n2-subst=","/> Darnach Ir maӳnumg was<pc p:n1-subst="" p:n2-subst=","/>
+                <lb n="14"/>gegen dem mittentag keren vnd ainen andn͛
+                    <lb n="15"/>weg wider gem <placeName ref="#gostantinople">Conſtantinoppel</placeName> komen<pc p:n1-subst="·" p:n2-subst="."/>
+                <lb n="16"/>Alſo ſie ſchieden von <placeName ref="#barcha" corresp="#barchaKaan">Barcha</placeName> vnd fu̇rbaß zug͡n
+                    <lb n="17"/>zŭ ainer statt<pc p:n1-subst="" p:n2-subst=","/> die iſt gehaӳſſen <placeName ref="#oucaca">Euciacha</placeName><pc p:n1-subst="|" p:n2-subst="">,</pc> 
+                <lb n="18"/>vnd fu̇rbaß darnach ſie fuͦren u̇beꝛ das
+                    <lb n="19"/>waſſer <placeName ref="#tigri">Tӳgriſs</placeName><pc p:n1-subst="" p:n2-subst=","/> der vieꝛtten waſſeꝛ ain̄̇s
+                    <lb  n="20"/>die auß dem <placeName ref="#paradise">paradeӳß</placeName> komen<pc p:n1-subst="·" p:n2-subst=".">,</pc> darnach ſie
+                    <lb n="21"/>zugen durch ain groſſe wŭſtnüß<pc p:n1-subst="" p:n2-subst=","/> die weret
+                <lb n="22"/>wol sibentzehen tag Ee ſie durch die wüſt⸗
+                    <lb n="23"/>nüſs komen<pc p:n1-subst="|" p:n2-subst=";"/> vnd darInn nicht funden weẟ
+                <lb n="24"/>stett noch doꝛffer<pc p:n1-subst="" p:n2-subst=",">,</pc> Aber großer volck sie
+                    <lb n="25"/>funden uon <term ref="#tartars">Tattern</term><pc p:n1-subst="" p:n2-subst=","/> die da wonten In den
+                    <lb n="26"/>felden bey Irem viche ȼ<pc p:n1-subst="·" p:n2-subst="."/> </p></div>
+            <!-- no new line here -->
+            <div type="chapter" n="3" xml:id="cgm252_ch3" corresp="#cgm696_ch3">
+                <head type="rubrica" n="1" xml:id="cgm252_rub1" corresp="#cgm696_rub3">Dann die zwen pru̇de͛
+                <lb n="27"/>Gefaren ſind durch die wüſtin vnd kom͠en In
+                    <lb n="28"/>die peſten ſtatt des lanndes <placeName ref="#persie">perſia</placeName><pc p:n1-subst="|" p:n2-subst="."/> darnach
+                <lb n="29"/>komen sie zü des groſſen herren der gant͠ze
+                    <lb n="30"/><placeName ref="#tatarstan">Tartareӳ</placeName><pc p:n1-subst="" p:n2-subst=","/> genant der groß <term ref="#kaan">kame</term> vnd kaӳſeꝛ
+                    <lb n="31"/>von <placeName ref="#catai">Cathaӳ</placeName> vnd <placeName ref="#persie">perſia</placeName> ȼ<pc p:n1-subst="·" p:n2-subst="."/>
+                </head>
+                <p>
+                <lb n="32"/>Die zwen prŭder die groſſen wüſte
+                <lb n="33"/>zŭ rucke gelaſſen haben vnd zŭ
+                <lb n="34"/>handt funden ain Edel vnd reӳche
+
+                    <pb ed="#cgm252" facs="images/cgm252_fol91r.jpg" n="91r"/>
+                    <lb n="1"/>Statt genant <placeName ref="#bucara">Büchera</placeName><pc p:n1-subst="|" p:n2-subst=":"/> Der künig In der<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="2"/>ſelben statt was gehaiſſen <persName ref="#barac">Barachbucheꝛa</persName><pc p:n1-subst="·" p:n2-subst="."/>
+                    <lb n="3"/>Das iſt die schönſte statt, In allem <placeName ref="#persie">perſia</placeName><pc p:n1-subst="·" p:n2-subst="."/>
+                <lb n="4"/>Inn der statt wotten die zwen prüder drew
+                    <lb n="5"/>gantze Jare<pc p:n1-subst="·" p:n2-subst=".">,</pc> Inn diſeꝛ zeitt es ſich füget<pc p:n1-subst="" p:n2-subst=","/> Das
+                <lb n="6"/>durch Die statt zoche ain pottſchafft Des
+                <lb n="7"/>fürſten vnd heꝛn͛ genant <persName ref="#allauello" corresp="#alau">Allauello</persName> vnd ge⸗
+                <lb n="8"/>ſandt was von ſeinem heꝛn͛ zŭ dem groſſen
+                    <lb n="9"/>vnd hochgepoꝛnen kaÿſer <persName>Alan</persName><pc p:n1-subst="" p:n2-subst=","/> ain heꝛre deꝛ<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="10"/>gantzen <placeName ref="#tatarstan">Tartareÿ</placeName> vnd genant der groſs <term ref="#kaan">kam</term>
+                    <lb n="11"/>von <placeName ref="#catai">Cathaӳ</placeName><pc p:n1-subst="·" p:n2-subst=".">,</pc> Der vorgen͠at rautheꝛe͛ odeꝛ
+                    <lb n="12"/>bottſchafft<pc p:n1-subst="" p:n2-subst="">,</pc> <pc p:n1-subst="" p:n2-subst="">,</pc> schafften<pc p:n1-subst="" p:n2-subst=","/> das fu̇r ſie kom͠en diſe
+                    <lb n="13"/>zwen prüder vnd mitt In fro͠ude hetten<pc p:n1-subst="|" p:n2-subst=","/> wa͠n
+                <lb n="14"/>sie auch kainen man auß vnnſn͛ lan͞n͞dn nie
+                <lb n="15"/>mer geſehen hetten<pc p:n1-subst="" p:n2-subst="">,</pc> vnd mitt Inanhuͦben zŭ
+                <lb n="16"/>reden vndvon vnſern lannden zŭ frag͠n<pc p:n1-subst="" p:n2-subst=".">,</pc> dar⸗
+                    <lb n="17"/>nach ain rauttherre ſprach<pc p:n1-subst="|" p:n2-subst=":">,</pc> <pc p:n1-subst="" p:n2-subst="“"/> lieben fründe
+                    <lb n="18"/>vnd günneꝛ<pc p:n1-subst="" p:n2-subst=","/> volgent mir vnd mein͠e rautt<pc p:n1-subst="|" p:n2-subst=","/>
+                    <lb n="19"/>Dauon Ir haben ſollt groſſe fröude<pc p:n1-subst="" p:n2-subst=","/> ere vnd
+                    <lb n="20"/>reӳchtumbe<pc p:n1-subst="|" p:n2-subst=","/> wann der groſſe kayſer vnd
+                <lb n="21"/><term ref="#kaan">Cham</term> von Cathaӳ<pc p:n1-subst="" p:n2-subst="">,</pc> kainen <term ref="#latins">lateiniſchen ma͞n</term>
+                    <lb n="22"/>auß ewern lannden nie geſehen hette<pc p:n1-subst="·" p:n2-subst="."/> Dar⸗
+                <lb n="23"/>vmb volgent mir vnd koment<pc p:n1-subst="" p:n2-subst=",">,</pc> wann Ich euch
+                <lb n="24"/>füren will sichere laӳbs vnd guͦttes vnd vonn
+                    <lb n="25"/>miꝛ haben ſu̇llent guͦtte geſellſchafft<pc p:n1-subst="" p:n2-subst=".">,</pc> vnd
+                    <lb n="26"/>mer ich euch verſpriche<pc p:n1-subst="|" p:n2-subst=":"/> von diſer raÿſe Ir
+                    <lb n="27"/>empfahen ſolltt groſſen nutze<pc p:n1-subst="" p:n2-subst=","/> fröude vnd eꝛe<pc p:n1-subst="·" p:n2-subst="”"/><pc p:n1-subst="" p:n2-subst="."/>
+                <lb n="28"/>Die zwen prüder das heꝛren wortt ver⸗
+                    <lb n="29"/>nomen hetten vnd alles Ir geuallen was<pc p:n1-subst="" p:n2-subst=","/> daz
+                <lb n="30"/>ſie mit den heꝛn͛ ains wurden mitt In diefaꝛtt
+                <lb n="31"/>zuͦuer pringen<pc p:n1-subst="|" p:n2-subst=",">.</pc> Sich auff den wege rich͠te
+                    <lb n="32"/>vndain gantzes Jar zugen<pc p:n1-subst="" p:n2-subst=","/> Ee ſie komen do
+                    <lb n="33"/>der groß <term ref="#kaan">Cham</term><pc p:n1-subst="" p:n2-subst=","/> kayſer uon <placeName ref="#catai">kathaӳ</placeName><pc p:n1-subst="" p:n2-subst=","/> ſeẏn
+                    <lb n="34"/>wonung hette<pc p:n1-subst="·" p:n2-subst=".">,</pc> Auff demſelben wege sie
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol91v.jpg" n="91v"/>
+                <lb n="1"/>maniche groſſe wunder von lannden vnd leuͨttn
+                    <lb n="2"/>funden vnd ſahen<pc p:n1-subst="" p:n2-subst=","/> Inn dem mere vnd auff dem
+                <lb n="3"/>lannde<pc p:n1-subst="|" p:n2-subst=",">,</pc> Als Ir denn furbaß Inn diſem buͦche
+                    <lb n="4"/>vernem͠en wertt<pc p:n1-subst="·" p:n2-subst=".">,</pc> Do sie nu gen <placeName ref="#catai">Cathaӳ</placeName>
+                <lb n="5"/>kom͠en vnd der voꝛgen͠at heꝛre die zwen mit
+                <lb n="6"/> ӳm fuͦrtte fu̇r den kaӳſer vnd ſie Im zŭ er⸗
+                <lb n="7"/>kennen gabe<pc p:n1-subst="|" p:n2-subst=",">.</pc>Wann er auch kainen man nie
+                    <lb n="8"/>geſehen hette auß vnnſn͛ lannden<pc p:n1-subst="" p:n2-subst=";"/> vnd vmbe
+                    <lb n="9"/>der seltzam willen Er an ſie begeꝛet<pc p:n1-subst="" p:n2-subst=","/> beӳ Im
+                <lb n="10"/>zü beleiben<pc p:n1-subst="|" p:n2-subst=",">.</pc> Wann ſie uon Im nicht andeꝛs
+                <lb n="11"/>dann eꝛe vnd nutze haben ſüllten<pc p:n1-subst="|" p:n2-subst=".">,</pc> vnd der
+                <lb n="12"/>heꝛre mitt diſen zwaӳen prüdern groſſe<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="13"/>fröude hätte vnd ſie waꝛd frag͠n von vnſn͛
+                    <lb n="14"/>lannden<pc p:n1-subst="" p:n2-subst=","/> ſitten vnd gewonhaitt<pc p:n1-subst="|" p:n2-subst="">,</pc> <pc p:n1-subst="" p:n2-subst=",">.</pc> Sundeꝛ⸗
+                    <lb n="15"/>lichen von den groſſen fu̇rſten vnd herren<pc p:n1-subst="" p:n2-subst=","/>
+                <lb n="16"/>als von dem babſt vnd dem kaӳſer vnd wie
+                    <lb n="17"/>ſie die gerechtigkait hiellten In Iren lan͠dn<pc p:n1-subst="" p:n2-subst=","/>
+                    <lb n="18"/>Sundeꝛliche das kaÿſerthuͦ͠me<pc p:n1-subst="·" p:n2-subst="."/> Auch meꝛe
+                <lb n="19"/>er ſie fraget von der gewonhait vnnſeꝛ<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="20"/>kriege vnd wie ſie Iren streӳtt fŭrtten Inn
+                    <lb n="21"/>Iꝛen kriegen<pc p:n1-subst="·" p:n2-subst=".">,</pc> Auff das die zwen prüder<pc p:n1-subst="" p:n2-subst="">,</pc> dem
+                <lb n="22"/>kaӳſer anttwurtte͠tt/auff alle artickel<pc p:n1-subst="" p:n2-subst=",">,</pc> die
+                    <lb n="23"/>er dann gefraget hette<pc p:n1-subst="|" p:n2-subst=","/> Als denn weiſe vnd
+                <lb n="24"/>cluͦge man͡n waren<pc p:n1-subst="" p:n2-subst="">,</pc> vnd auch die ſprache
+                <lb n="25"/>gantz wol kunden<pc p:n1-subst="" p:n2-subst=",">,</pc> vnd dem kayſer kundt
+                <lb n="26"/>tätten<pc p:n1-subst="" p:n2-subst="">,</pc> alle gewonhaitt vnnſeꝛs lanndes
+                <lb n="27"/>vnd heꝛren<pc p:n1-subst="|" p:n2-subst=",">,</pc> Das dem kaӳſeꝛ alles ain groſes
+                <lb n="28"/>geuallen was vnd dauon beſunder <choice><sic>fremd</sic><corr>freud</corr></choice>
+                    <lb n="29"/>hette<pc p:n1-subst="·" p:n2-subst="."/> Alſo die zwen prüder ettliche zeit
+                <lb n="30"/>an das kaÿſeꝛs hofe vertriben hetten<pc p:n1-subst="" p:n2-subst="">,</pc> vnd
+                    <lb n="31"/>von Im nicht my͞n͞deꝛ gehallten waren<pc p:n1-subst="" p:n2-subst=","/> als
+                    <lb n="32"/>ſein andeꝛ lanndtheꝛren<pc p:n1-subst="·" p:n2-subst=".">,</pc> Darnach es
+                    <lb n="33"/>ſich füget<pc p:n1-subst="" p:n2-subst=","/> das der kaӳſer ſein rătt<!-- 4 dots above the word ratt --> beӳ
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol92r.jpg" n="92r"/>
+                <lb n="1"/>ain ander hette vnd In fu̇rleget ſein mainu͞g
+                    <lb n="2"/>vnd willen<pc p:n1-subst="|" p:n2-subst=","/> wie er ſein bottſchafft ſenden
+                <lb n="3"/>wöllte zū dem hailig͡n vatter dem babſte<pc p:n1-subst="|" p:n2-subst=",">,</pc> 
+                    <lb n="4"/>Das Im ſeinrautt nicht abſchlüge<pc p:n1-subst="" p:n2-subst=","/> Aber In dez
+                    <lb n="5"/>troſten vnd Im nicht andeꝛs dann große eꝛe we͛<pc p:n1-subst="·" p:n2-subst=".">,</pc> 
+                <lb n="6"/>Alſo deꝛ Groß <term ref="#kaan">Chame</term> an die zwen prüdeꝛ be⸗
+                    <lb n="7"/>geꝛet<pc p:n1-subst="" p:n2-subst=","/> mitt ſampt ainem ſeinem lanntherren<pc p:n1-subst="" p:n2-subst="">‧</pc> 
+                    <lb n="8"/>willig weren<pc p:n1-subst="|" p:n2-subst=","/> ſein bottſchafft zŭ dem bapſte<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="9"/>zŭ werben vnd ſeiṅe potten zŭ ſein<pc p:n1-subst="|" p:n2-subst=","/> des ſie u͠o <!--maybe von? check!! -->
+                    <lb n="10"/>heꝛtzen fro vnd willig waren<pc p:n1-subst="" p:n2-subst=","/> alle zeitt ſein ge⸗
+                    <lb n="11"/>pott zuͦuolbring͠n <pc p:n1-subst="·" p:n2-subst=".">‧</pc> Von ſtund an der kaẏſer ſein
+                <lb n="12"/>briefe zuͦ dem hailigen vatter dem bapſt ließe
+                <lb n="13"/>machen Vnd an In begeret wolgeleꝛtte ma͞n͞n
+                    <lb n="14"/>vnd maiſter Des Criſtenlichen glaubens<pc p:n1-subst="|" p:n2-subst=","/> Die
+                    <lb n="15"/>ӳm vnd allem ſeinem volcke<pc p:n1-subst="" p:n2-subst=","/> die denn die <term ref="#ydres">Ab⸗
+                        <lb n="16"/>götten</term> anpetten<pc p:n1-subst="" p:n2-subst=","/> lere vnd anwe<hi rend="superscript">i</hi>ſu͞ng mȯchten
+                    <lb n="17"/>geben<pc p:n1-subst="" p:n2-subst="">,</pc> des rechten Criſtenlichen glauben<pc p:n1-subst="·" p:n2-subst=".">.</pc> Vnd
+                    <lb n="18"/>auch mere Er begerett des Öles der Ampeln<pc p:n1-subst="" p:n2-subst=","/>
+                    <lb n="19"/>die da prunn͞en zŭ <placeName ref="#jerusalen">Iheruſalem</placeName><pc p:n1-subst="" p:n2-subst=","/> uor dem haӳ⸗
+                    <lb n="20"/>ligen grabe vnnſeꝛs herren <persName ref="#jesus">Iheſu</persName> <persName ref="#christ">Criſti</persName> ȼ <pc p:n1-subst="·" p:n2-subst=".">‧</pc> 
+                </p>
+            </div>
+            <div type="chapter" n="4" xml:id="cgm252_ch4" corresp="#cgm696_ch4">
+                <head type="rubrica" n="2"  xml:id="cgm252_rub2" corresp="#cgm696_rub4">
+                <lb n="21"/>Wie der Groſs <term ref="#kaan">Chame</term> vnd kaӳſer von
+                    <lb n="22"/><placeName ref="#catai">Chataӳ</placeName> Sendet <persName ref="#nicolau">Nicholo</persName> vnd <persName ref="#mafeu">maffeo</persName><pc p:n1-subst="" p:n2-subst=","/> mitt
+                <lb n="23"/>sampt ainem ſeinem lanntheꝛren potſchaft
+                <lb n="24"/>gen <placeName ref="#rome">rome</placeName> zü dem haylig͠n vatter dem babſt
+                    <lb n="25"/>vnd wie es in ergieng<pc p:n1-subst="" p:n2-subst=",">,</pc> in diſer raӳſe gen <placeName ref="#rome">ro͠m</placeName><pc p:n1-subst="·" p:n2-subst="."/>
+                </head>
+                <p>
+                <lb n="26"/>NVn der Groß <term ref="#kaan">Chame</term> vnd kayſer von
+                <lb n="27"/><placeName ref="#catai">Chathaӳ</placeName> seiner bottſchafft vnd alle ſache
+                    <lb n="28"/>empfohlen vnd ſein briefe geben hette<pc p:n1-subst="|" p:n2-subst=","/>
+                <lb n="29"/>Darzŭ die gu̇ldin taueln ſeines ge⸗
+                    <lb n="30"/>walltes<pc p:n1-subst="|" p:n2-subst="."/> darauff geſchriben waren seine ge⸗
+                    <lb n="31"/>pott durch alle ſein lanndt vnd künigreiche<pc p:n1-subst="|" p:n2-subst=","/>
+                <lb n="32"/>wie furſehen vnd erenſollte sein dreӳ rätte
+                    <lb n="33"/>Oder pottſchaffte nach alle nott<pc p:n1-subst="|" p:n2-subst=","/> als dan͠n
+                    <lb n="34"/>ſein gewonhaitt was<pc p:n1-subst="" p:n2-subst=","/> wa ſein ratt odeꝛ bott
+                <lb n="35"/>ſchafft hinkom͞en, Inn allen ſeinen lannden<pc p:n1-subst="|" p:n2-subst=",">,</pc> 
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol92v.jpg" n="92v"/>
+                <lb n="1"/>man ſie fu̇r ſehen muͦſt nach aller nottu̇ꝛfft
+                    <lb n="2"/>vnd Irem gepott<pc p:n1-subst="" p:n2-subst=","/> als weꝛe der kaӳſer leӳp⸗
+                <lb n="3"/>lich<pc p:n1-subst="" p:n2-subst=".">,</pc> Da nu die zwen prüder mit ſampt
+                    <lb n="4"/>dem lantheꝛr͠en ſein beraitt<pc p:n1-subst="|" p:n2-subst=","/> der mitt
+                <lb n="5"/>namen was <persName ref="#cogotal">Ghalgathalle</persName><pc p:n1-subst="|" p:n2-subst=",">,</pc> das vrlaub
+                <lb n="6"/>von dem kaӳſer namen auff ſaſſen vnd rit͠te
+                <lb n="7"/>vnd an dem zwaintzigiſten tagc raӳſe deꝛ<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="8"/>herꝛ <persName ref="#cogotal">Ghalgathal</persName> kranck warde vnd
+                    <lb n="9"/>starbe <pc p:n1-subst="·" p:n2-subst=".">‧</pc> Alſo die zwen prüder Iꝛen ge⸗
+                <lb n="10"/>ſellen lieſſen vnd Irs heꝛren gepott zŭ⸗
+                <lb n="11"/>verprin͠gn sie ſtettlichen fu̇rbaß zu͠gn
+                <lb n="12"/>vnd an allen enden Inn das Kaӳſeꝛs lanndt
+                    <lb n="13"/>sie Ire tafeln zaigten<pc p:n1-subst="|" p:n2-subst=":"/> von ſtundt man In
+                    <lb n="14"/>vndeꝛtänig was nach allem Irem gepet͠tn<pc p:n1-subst="·" p:n2-subst="."/>
+                    <lb n="15"/>vnd alſo ritten ſie<pc p:n1-subst="" p:n2-subst=","/> das ſie komen zŭ der
+                    <lb n="16"/>statt genant <placeName ref="#laias">Allagyazza</placeName><pc p:n1-subst="|" p:n2-subst=";"/> vnd ain gantzes
+                    <lb n="17"/>Jare geritten waren<pc p:n1-subst="" p:n2-subst=","/> Ee ſie zŭ deꝛ gena͞te
+                <lb n="18"/>statt komen<pc p:n1-subst="|" p:n2-subst=",">,</pc> Aber nicht ſtettigklichen
+                <lb n="19"/>geritt͠n waren vnd das uon urſache deꝛ
+                    <lb n="20"/>groſſen waſſer<pc p:n1-subst="" p:n2-subst=","/> regen vnd schnee weg͠n<pc p:n1-subst="|" p:n2-subst=":"/>
+                <lb n="21"/>darumbe ſie nicht stettiglichen gereitt͠n
+                    <lb n="22"/>mochten<pc p:n1-subst="·" p:n2-subst="."/> vnd von der statt <placeName ref="#laias">Gyazza</placeName> ſie
+                    <lb n="23"/>kom͞en in <placeName ref="#syria">Soria</placeName><pc p:n1-subst="" p:n2-subst=","/> In die statt genant <placeName ref="#acri">Acrӳ</placeName><pc p:n1-subst="" p:n2-subst=","/>
+                    <lb n="24"/>vnd das geſchach zŭ mitten apprille<pc p:n1-subst="·" p:n2-subst="."/> do
+                <lb n="25"/>ſie uon erſten begunden zū frag͠n nach
+                    <lb n="26"/>dem haӳligen vatter dem babſte<pc p:n1-subst="" p:n2-subst=","/> wan͠n
+                <lb n="27"/>das lanndt uon <placeName ref="#syria">Soria</placeName> Criſten ſindt
+                <lb n="28"/>vnd das geleg͠n iſt zwiſchen dem hailig͠n
+                    <lb n="29"/>lanndt vnd der <placeName ref="#turcomanie"><choice><orig>wrcken</orig><reg>türcken</reg></choice></placeName><pc p:n1-subst="·" p:n2-subst="."/> Der me͛r taӳl
+                <lb n="30"/>des lannds iſt des Soldons uon <placeName ref="#babelonie">Babilo⸗
+                    <lb n="31"/>nẏa</placeName><pc p:n1-subst="" p:n2-subst=","/> der da heꝛre zŭ <placeName ref="#damasco">Damaſto</placeName> iſt <pc p:n1-subst="" p:n2-subst="">‧</pc> 
+                    <lb n="32"/>vnd zŭ <placeName ref="#jerusalen">Jheruſalem</placeName> <choice><orig>Cayer</orig><reg>Cayſer</reg></choice> vnd <placeName ref="#alexandre">Allexan⸗
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol93r.jpg" n="93r"/>
+                    <lb n="1"/>dria</placeName><pc p:n1-subst="·" p:n2-subst="."/> Den zwaӳen prüdn͛ man auff Ir
+                <lb n="2"/>fragen antwurtt<pc p:n1-subst="|" p:n2-subst=",">,</pc> wie dere haӳlig vatt ̾
+                    <lb n="3"/>Der babſt<pc p:n1-subst="" p:n2-subst=","/> genant <persName ref="#clement">Clem͠et</persName><pc p:n1-subst="" p:n2-subst=","/> todt were<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="4"/>vnd wie die hailig kyꝛche wittibe weꝛe<pc p:n1-subst="|" p:n2-subst="."/>
+                <lb n="5"/>zŭ diſen zeitten von der <term ref="#roman">römiſchen</term> kӳꝛc͠he
+                    <lb n="6"/>wegen <pc p:n1-subst="" p:n2-subst="|">‧</pc> In <placeName ref="#acri">Acrӳ</placeName> was ain groſſeꝛ prieſter<pc p:n1-subst="" p:n2-subst=",">,</pc>
+                    <lb n="7"/>oder prelatt<pc p:n1-subst="" p:n2-subst=","/> zū ainem verweſer des
+                <lb n="8"/>Criſtenlichen gelaub͞es vnd gaiſtlicher
+                    <lb n="9"/>rechte<pc p:n1-subst="|" p:n2-subst=","/> der was genant <persName ref="#teald">Miſeꝛe Dye⸗
+                        <lb n="10"/>baldo uon <placeName ref="#plajence">pӳazenza</placeName></persName><pc p:n1-subst="|" p:n2-subst="."/> zū dem die zwen
+                <lb n="11"/>prüder komen<pc p:n1-subst="" p:n2-subst=",">,</pc> Seines rattes begeꝛt͠te
+                    <lb n="12"/>von geſchäffte des groſſen <term ref="#kaan">ka͞ms</term><pc p:n1-subst="" p:n2-subst=","/> kaӳſeꝛ
+                <lb n="13"/>uon <placeName ref="#catai">Kathaӳ</placeName> Irs heꝛren weg͠n vnd Im Iꝛe
+                    <lb n="14"/>ſache fu̇rlegten<pc p:n1-subst="|" p:n2-subst=",">,</pc> Das dem prelatten wol
+                    <lb n="15"/>geniele vnd in ratt gabe<pc p:n1-subst="|" p:n2-subst=","/> Sie beӳtten<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="16"/>sollten der gepu̇rrt vnd hoffn͡ug des
+                <lb n="17"/>newen Babſts vnd dem uerkuͦnden Iꝛs hn͛
+                    <lb n="18"/>geſchăffte<pc p:n1-subst="|" p:n2-subst=",">,</pc> Das der zweӳeꝛ prüder <pc p:n1-subst="" p:n2-subst="">‧</pc> 
+                    <lb n="19"/>wolgeuallen was<pc p:n1-subst="·" p:n2-subst="."/> vnd von <placeName ref="#acri">Acrӳ</placeName> ſchieden
+                    <lb n="20"/>gen <placeName ref="#cyprus">Cӳprӳ</placeName> komen<pc p:n1-subst="" p:n2-subst=",">,</pc> Darnach gen <placeName ref="#rhodes">rodes</placeName><pc p:n1-subst="" p:n2-subst=","/>
+                    <lb n="21"/><placeName ref="#longado" ana="undefined">longado</placeName><pc p:n1-subst="" p:n2-subst=","/> <placeName ref="#negrepont">Nӳgroponte</placeName><pc p:n1-subst="" p:n2-subst=","/> <placeName ref="#heraclion">Chandie</placeName><pc p:n1-subst="" p:n2-subst=","/> <placeName ref="#methone">Modona</placeName><pc p:n1-subst="|" p:n2-subst=";"/>
+                <lb n="22"/>Darnach gen <placeName ref="#venese">Venedig</placeName><pc p:n1-subst="" p:n2-subst=",">,</pc> Ire vetteꝛliche
+                    <lb n="23"/>eꝛbe zŭ ſehen<pc p:n1-subst="" p:n2-subst=","/> Sundeꝛlich weib vnd
+                    <lb n="24"/>kinde<pc p:n1-subst="·" p:n2-subst="."/> Aber <persName ref="#nicolau">Nicholo polo</persName><pc p:n1-subst="" p:n2-subst="">,</pc> sein haußfraw͠e
+                    <lb n="25"/>todt fandt<pc p:n1-subst="" p:n2-subst=","/> Die er schwangeꝛ gelaſſ͠e
+                    <lb n="26"/>hette<pc p:n1-subst="|" p:n2-subst=",">,</pc> ainen Iung͠n suͦn<pc p:n1-subst="" p:n2-subst=","/> der gehaӳſſen
+                <lb n="27"/>was <persName ref="#marcoPolo">Maꝛcho polo</persName><pc p:n1-subst="" p:n2-subst=",">,</pc> den ſein vatter noch
+                    <lb n="28"/>nicht geſehen hette<pc p:n1-subst="|" p:n2-subst=","/> wann er In <add place="above">Inn</add> muͦtter
+                    <lb n="29"/>laӳbe verſchloſſen lieſſe<pc p:n1-subst="" p:n2-subst=",">,</pc> Do er uon erſ͞te
+                    <lb n="30"/>außfuͦre<pc p:n1-subst="·" p:n2-subst="."/> Als Iꝛ vorvenom͞e͞n habent<pc p:n1-subst="" p:n2-subst=","/>
+                <lb n="31"/>Das iſt<pc p:n1-subst="" p:n2-subst="">,</pc> der Edel kaӳſeꝛlich ritter <persName ref="#marcoPolo">Marcho
+                    <lb n="32"/>polo</persName> vnd landtfarer<pc p:n1-subst="" p:n2-subst=","/> der diſes puͦche ge⸗
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol93v.jpg" n="93v"/>
+                <lb n="1"/>macht <pc p:n1-subst="" p:n2-subst="">.</pc> Vnd die wunder der wellte geſchri⸗
+                    <lb n="2"/>ben hatt <pc p:n1-subst="|" p:n2-subst=",">,</pc> <pc p:n1-subst="" p:n2-subst="">.</pc> Wan͠n er uon dem groſſen <term ref="#kaan">Cha͠m</term>
+                <lb n="3"/>kaÿſer uon <placeName ref="#catai">Kathaÿ</placeName> zü ainem ritter gemacht
+                    <lb n="4"/>ward<pc p:n1-subst="·" p:n2-subst="."/> Die uorgenanten zwen prüder ~
+                <lb n="5"/>zwaÿ gantze Jar <sic>warttotten</sic> der erwelu͠g
+                <lb n="6"/>des Babſts vnd hailigen vatteꝛs<pc p:n1-subst="|" p:n2-subst=",">,</pc> Abeꝛ es
+                <lb n="7"/>ſich veꝛzoch<pc p:n1-subst="|" p:n2-subst=",">,</pc> zuͦ lang waꝛd vnd nicht lengeꝛ<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="8"/>paidten mocht<pc p:n1-subst="|" p:n2-subst=",">,</pc> <unclear>au</unclear>fſaſſen <add place="above">und</add> uon dannen<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                <lb n="9"/>fuͦren vnd mitt In fuͦrrren den Iungen uoꝛ
+                    <lb n="10"/>genanten <persName ref="#marcoPolo">Marcho polo</persName><pc p:n1-subst="|" p:n2-subst=","/> <persName ref="#nicolau">Nicholo polo</persName> suͦn
+                    <lb n="11"/>was<pc p:n1-subst="·" p:n2-subst=".">,</pc> vnd wideꝛ hindeꝛ ſich fuͦꝛen gein <pc p:n1-subst="" p:n2-subst="">‧</pc> 
+                    <lb n="12"/><placeName ref="#acri">Acrӳ</placeName><pc p:n1-subst="" p:n2-subst=","/> In <placeName ref="#syria">Soria</placeName><pc p:n1-subst="" p:n2-subst=",">,</pc> Darnach gem <placeName ref="#jerusalen">Iheruſal͠e</placeName>
+                    <lb n="13"/>zuͦ nemen des öls uon den Ampeln<pc p:n1-subst="" p:n2-subst=","/> die
+                    <lb n="14"/>da prunn͠en uor dem hailigen grabe<pc p:n1-subst="|" p:n2-subst=","/> als
+                <lb n="15"/>In von Irem heꝛren dem kaӳſer gepott͠n
+                    <lb n="16"/>ward<pc p:n1-subst="·" p:n2-subst=".">,</pc> Darnach wider In <placeName ref="#acri">Acry</placeName> kom͞en<pc p:n1-subst="|" p:n2-subst=","/>
+                <lb n="17"/>wann <placeName ref="#jerusalen">Iheruſalem</placeName> nicht feꝛr auß dem
+                <lb n="18"/>wege was<pc p:n1-subst="" p:n2-subst=",">,</pc> vnd urlaube zū nemen uon
+                <lb n="19"/>dem uerweſer<pc p:n1-subst="" p:n2-subst="">,</pc> vnd legatten des <term ref="#roman">römiſch͠e</term>
+                    <lb n="20"/>stuͦles vnd ſeine briefe nä͞men Irem hn͛
+                    <lb n="21"/>vnd zü ainer gezu̇cknüſs Ireꝛ pottſchafft<pc p:n1-subst="|" p:n2-subst=","/>
+                    <lb n="22"/>Aber die nicht verpracht ward<pc p:n1-subst="|" p:n2-subst=",">,</pc> wan͠n
+                    <lb n="23"/>die römiſche͡nkyꝛchen on Babſte was<pc p:n1-subst="·" p:n2-subst="."/>
+                    <lb n="24"/>Darumbe Ir bottſchafft nach Irem will͠e
+                <lb n="25"/>nicht verpꝛacht möcht weꝛden<pc p:n1-subst="|" p:n2-subst=",">,</pc> Alſo
+                    <lb n="26"/>ſie uon <placeName ref="#acri">Acrӳ</placeName> ſchieden<pc p:n1-subst="·" p:n2-subst=".">,</pc> zŭ handt in den<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="27"/>ſelben tagen dem legatten die mere kom͠e<pc p:n1-subst="" p:n2-subst=","/>
+                <lb n="28"/>wie er erwellt wer zū ainem babſte
+                <lb n="29"/>vnd hailigen vatter<pc p:n1-subst="" p:n2-subst="">,</pc> vnd ſein name we͛
+                    <lb n="30"/><persName ref="#gregor">Gregorio</persName><pc p:n1-subst="·" p:n2-subst="."/> von ſtund an er nach ſandte
+                <lb n="31"/>den zwaӳen prüdern vnd In zŭ wiſſen
+                    <lb n="32"/>tätt<pc p:n1-subst="|" p:n2-subst=","/> wie er babſt weꝛe vnd genant <persName ref="#gregor">Gre
+                        <lb n="33"/>gorio uon pyazenza</persName><pc p:n1-subst="·" p:n2-subst="."/> Also des kaӳſeꝛs dez
+    
+                    <pb ed="#cgm252" facs="images/cgm252_fol94r.jpg" n="94r"/>
+                <lb n="1"/>Groſſen <term ref="#kaan">Chams</term> uon <placeName ref="#catai">Kathaӳ</placeName> pottſchafft<pc p:n2-subst="" p:n1-subst="">,</pc>
+                <lb n="2"/>widerumb keret zü dem hayligen vatteꝛ<pc p:n1-subst="" p:n2-subst="">,</pc> 
+                    <lb n="3"/>in <placeName ref="#acri">Acrӳ</placeName> kom͠en<pc p:n1-subst="|" p:n2-subst="">,</pc> vnd der kunig uon <placeName ref="#armenie">Arme⸗
+                        <lb n="4"/>nia</placeName> in beraitten lieſſe ain gallen<pc p:n1-subst="|" p:n2-subst=":"/> darauff<pc p:n1-subst="" p:n2-subst="">,</pc>
+                    <lb n="5"/>ſie fuͦren gem <placeName ref="#acri">Acry</placeName> zū dem hailigen vatt ̾
+                <lb n="6"/><persName ref="#gregor">Gregorӳ</persName> <pc p:n1-subst="" p:n2-subst="">‧</pc> vnd wurdent uon neu̇wem u͠o
+                <lb n="7"/>ӳm mitt groſſen frouden vnd eꝛen empfang͠e
+                <lb n="8"/>Vnd Im ȧndre briefe machet zŭ Irem heꝛn͛
+                    <lb n="9"/>dem kaӳſer uon <placeName ref="#catai">Kathaӳ</placeName><pc p:n1-subst="·" p:n2-subst=".">.</pc> Er Im auch gabe
+                    <lb n="10"/>zwen münch prediger ordens<pc p:n1-subst="|" p:n2-subst=":">,</pc> der ain
+                    <lb n="11"/>was gena͞nt pruͦder <persName ref="#nicVicense">Nicholo uon Venedig</persName><pc p:n1-subst="|" p:n2-subst=","/>
+                    <lb n="12"/>Der ander pruͦder <persName ref="#guilTripule">Wilhalm uon trypolӳ</persName><pc p:n1-subst="" p:n2-subst=","/>
+                    <lb n="13"/>zwen redlich vnd kunſtreych ma͞n<pc p:n1-subst="·" p:n2-subst=".">,</pc> der
+                <lb n="14"/>hailigen geſchrifft Alle mitt ain ander
+                <lb n="15"/>auffſaſſen<pc p:n1-subst="" p:n2-subst="">,</pc> vnd wider komen gen <placeName ref="#laias">Giaſſa</placeName>
+                <lb n="16"/>Vnd Inn dem lanndt de͛ kunig Soldan
+                <lb n="17"/>uon <placeName ref="#babelonie">Babilonia</placeName> lag mitt groſſem volcke vnd
+                    <lb n="18"/>alle Straſſen geprochen waꝛent<pc p:n1-subst="|" p:n2-subst=","/> Inn ſoliche͛
+                    <lb n="19"/>maſſe<pc p:n1-subst="" p:n2-subst=","/> das deskayſeꝛsbottſchafft In͠e ſelbs
+                    <lb n="20"/>nicht v͛trautten<pc p:n1-subst="" p:n2-subst=","/> die zwen münich mitt
+                <lb n="21"/>Inen durch ze pring͠n <pc p:n1-subst="" p:n2-subst=",">‧</pc> vnd lieſſen die ze
+                <lb n="22"/><placeName ref="#laias">Gyaſſa</placeName><pc p:n1-subst="" p:n2-subst=",">,</pc> bey den obröſten uon dem tem⸗
+                    <lb n="23"/>pel<pc p:n1-subst="·" p:n2-subst=".">,</pc> vnd ouch briefe uon dem Soldan<pc p:n1-subst="" p:n2-subst="">|</pc> na⸗
+                    <lb n="24"/>men vnd furbaß Irem wege nach folg͠te<pc p:n1-subst="" p:n2-subst=","/>
+                <lb n="25"/>wann die zwen münich mer uon foꝛcht
+                <lb n="26"/>weg͠n beliben <pc p:n1-subst="" p:n2-subst=",">‧</pc> dann durch ander ſache
+                <lb n="27"/>willen<pc p:n1-subst="|" p:n2-subst=",">,</pc> Do fur In die bottſchafft nicht
+                <lb n="28"/>mocht ſein<pc p:n1-subst="" p:n2-subst=".">,</pc> Alſo die zwen prüdeꝛ <persName ref="#marcoPolo">Mar⸗
+                    <lb n="29"/>cho</persName><pc p:n1-subst="" p:n2-subst=","/> <persName ref="#nicolau">Nicholo pollo</persName> ſün<pc p:n1-subst="" p:n2-subst=","/> ſolanng rӳtten
+                <lb n="30"/>vnd zugen<pc p:n1-subst="|" p:n2-subst=",">,</pc> das ſie bekom͞en zū der edeln
+                    <lb n="31"/>statt gena͠nt <placeName ref="#curmos">Cremeſſu</placeName><pc p:n1-subst="·" p:n2-subst=".">,</pc> Inn der statt<pc p:n1-subst="" p:n2-subst="..."/>
+                </p>
+            </div>
+        </body>
+        
+        <back>
+            <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="./realiaDI.xml"
+                xpointer="lists">
+                <xi:fallback>
+                    <body>
+                        <p>
+                            <emph>FIXME: MISSING XINCLUDE CONTENT</emph>
+                        </p>
+                    </body>
+                </xi:fallback>
+            </xi:include>
+        </back>
+    </text>
+</TEI>

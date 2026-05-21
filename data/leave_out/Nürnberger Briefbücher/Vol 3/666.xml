@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="666" xml:id="l675" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 666 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>049v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 666.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q158181" type="recipient">Jobst, Mgf. v. Mähren, späterer dt. Kg.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q14960" type="mention">Brünn (Tschechien)</placeName><persName type="mention">Imhoff, Paulus</persName><persName type="mention">Risbeck, Ulrich</persName></ab><date from="26-03-1410" to="23-04-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_100">
+<surface lrx="2767" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0052_left.png" width="2767px"/>
+<zone lrx="1539" lry="353" rendition="TextRegion" ulx="1095" uly="1212" xml:id="facs_100_r1">
+<zone lrx="1635" lry="353" rendition="Line" ulx="1095" uly="277" xml:id="facs_100_r1l1"/>
+<zone lrx="1539" lry="439" rendition="Line" ulx="1078" uly="365" xml:id="facs_100_r1l2"/>
+<zone lrx="2260" lry="604" rendition="Line" ulx="643" uly="522" xml:id="facs_100_r1l3"/>
+<zone lrx="2360" lry="681" rendition="Line" ulx="646" uly="603" xml:id="facs_100_r1l4"/>
+<zone lrx="2277" lry="771" rendition="Line" ulx="634" uly="685" xml:id="facs_100_r1l5"/>
+<zone lrx="2262" lry="858" rendition="Line" ulx="640" uly="781" xml:id="facs_100_r1l6"/>
+<zone lrx="2195" lry="944" rendition="Line" ulx="645" uly="875" xml:id="facs_100_r1l7"/>
+<zone lrx="2390" lry="1044" rendition="Line" ulx="639" uly="960" xml:id="facs_100_r1l8"/>
+<zone lrx="2290" lry="1123" rendition="Line" ulx="658" uly="1049" xml:id="facs_100_r1l9"/>
+<zone lrx="2392" lry="1212" rendition="Line" ulx="646" uly="1130" xml:id="facs_100_r1l10"/>
+<zone lrx="1759" lry="1294" rendition="Line" ulx="625" uly="1212" xml:id="facs_100_r1l11"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Jobst, Markgraf von Mähren</head><p>Der Rat bittet um Herausgabe beschlagnahmter Waren Nürnberger Bürger und Kaufleute in Brünn und kündigt Paulus Imhoff, Bürger zu Nürnberg, und Ulrich Risbeck an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_100" id="49v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_100_r1l1">Margraf Jobſen </ab>
+<ab facs="#facs_100_r1l2">von Merhern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_100_r1l3"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / von der habe vnd kauffmanſchaft wegen </ab>
+<ab facs="#facs_100_r1l4">Als den <expan>vnſ<ex>er</ex>n</expan> ~ <expan>vorcʒeite<ex>n</ex></expan> in <expan>ewr<ex>er</ex></expan> Stat cʒu Prunne ge = </ab>
+<ab facs="#facs_100_r1l5">nomen iſt vvoꝛden / Darümb ~ die <expan>vnſ<ex>er</ex>n</expan> Pawlus Jm hof </ab>
+<ab facs="#facs_100_r1l6"><expan>vnſ<ex>er</ex>m</expan> <expan>burg<ex>er</ex></expan> vnd vlrıch Ryſbecken gevvalt <expan>geb<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_100_r1l7">Als ſie <expan>ew<ex>r</ex>n</expan> gnaden ſelber wol <expan>fürgeb<ex>e</ex>n</expan> werden </ab>
+<ab facs="#facs_100_r1l8"><expan>Ro<ex>gamus</ex></expan> / daʒ Jr ewr <expan>fürſtenl<ex>ich</ex></expan> gnade darcʒu vvenden vnd <expan>ſchike<ex>n</ex></expan> </ab>
+<ab facs="#facs_100_r1l9">vnd <expan>beſtelle<ex>n</ex></expan> wöllet / daʒ den ~ <expan>vnſ<ex>er</ex>n</expan> dieſelb Jr habe vnd </ab>
+<ab facs="#facs_100_r1l10">kauffmanſchaft gnedıklich gekert vnd vergolten werde </ab>
+<ab facs="#facs_100_r1l11">Als vvir <expan>ew<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> etc das <expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_100" id="49v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Margraf Jobsen von Merhern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, von der habe und kauffmanschaft wegen, als
+                        den <expan>uns<ex>er</ex>n</expan>
+<expan>vorczeite<ex>n</ex></expan> in <expan>ewr<ex>er</ex></expan> stat czu
+                        Prunne genomen ist worden, darümb die <expan>uns<ex>er</ex>n</expan> Pawlus
+                        Im hof, <expan>uns<ex>er</ex>m</expan>
+<expan>burg<ex>er</ex></expan>, und Ulrich Rysbecken gewalt
+                                <expan>geb<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan>, als sie <expan>ew<ex>r</ex>n</expan> gnaden
+                        selber wol <expan>fürgeb<ex>e</ex>n</expan> werden.
+                            <expan>Ro<ex>gamus</ex></expan>, daz ir ewr
+                            <expan>fürstenl<ex>ich</ex></expan> gnade darczu wenden und
+                                <expan>schike<ex>n</ex></expan> und
+                            <expan>bestelle<ex>n</ex></expan> wöllet, daz den
+                            <expan>uns<ex>er</ex>n</expan> dieselb ir habe und kauffmanschaft
+                        gnediklich gekert und vergolten werde, als wir <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> etc. Das <expan>wölle<ex>n</ex></expan>
+                        etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

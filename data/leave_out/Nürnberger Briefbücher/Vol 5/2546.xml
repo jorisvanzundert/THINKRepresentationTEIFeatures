@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2546" xml:id="l2557" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2546 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>122r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2546.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Landschad v. Steinach, Dieter II.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3942" type="mention">Aschaffenburg</placeName><persName type="mention">Pützel, Josef, Jude</persName><persName type="mention">Pützel, Seligman, Jude</persName><persName type="mention">Reichertshofer, Burkhard</persName></ab><date from="14-03-1421" to="14-03-1421" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_246">
+<surface lrx="2619" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0126_right.png" width="2619px"/>
+<zone lrx="2047" lry="297" rendition="TextRegion" ulx="647" uly="935" xml:id="facs_246_r2">
+<zone lrx="2047" lry="297" rendition="Line" ulx="647" uly="207" xml:id="facs_246_r2l1"/>
+<zone lrx="2422" lry="411" rendition="Line" ulx="392" uly="322" xml:id="facs_246_r2l2"/>
+<zone lrx="2425" lry="499" rendition="Line" ulx="482" uly="402" xml:id="facs_246_r2l3"/>
+<zone lrx="2411" lry="573" rendition="Line" ulx="485" uly="489" xml:id="facs_246_r2l4"/>
+<zone lrx="2443" lry="662" rendition="Line" ulx="487" uly="565" xml:id="facs_246_r2l5"/>
+<zone lrx="2429" lry="755" rendition="Line" ulx="497" uly="651" xml:id="facs_246_r2l6"/>
+<zone lrx="2421" lry="841" rendition="Line" ulx="483" uly="740" xml:id="facs_246_r2l7"/>
+<zone lrx="2441" lry="926" rendition="Line" ulx="488" uly="833" xml:id="facs_246_r2l8"/>
+<zone lrx="2165" lry="1016" rendition="Line" ulx="479" uly="935" xml:id="facs_246_r2l9"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Dieter II. Landschad von Steinach</head><p>Der Rat kündigt Burkhard Reichertshofer, Diener der Stadt, wegen der Juden Josef und Seligman Pützel an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_246" id="122r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_246_r2l1"><expan>Dıeth<ex>er</ex>n</expan> <expan>lantſchad<ex>en</ex></expan> <expan>vıcʒtu<ex>m</ex></expan> ʒu <expan>Aſchaffemb<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_246_r2l2"><expan>L<ex>ieber</ex></expan> <expan>h<ex>e</ex>r</expan> vıcʒtum als Jr vns nehſt <expan>verſchr<ex>iben</ex></expan> habt von Yoſep pücʒels </ab>
+<ab facs="#facs_246_r2l3">vnd <expan>ſelıgma<ex>n</ex>s</expan> ſeıns <expan>brud<ex>er</ex>s</expan> der Juden <expan>weg<ex>en</ex></expan> etc Alſo <expan>ſend<ex>en</ex></expan> wır ʒu </ab>
+<ab facs="#facs_246_r2l4"><expan>eẅr<ex>er</ex></expan> <expan>erberk<ex>eit</ex></expan> <expan>Burkart<ex>en</ex></expan> <expan>Reıkarcʒhof<ex>er</ex></expan> <expan>vnſ<ex>er</ex>n</expan> <expan>dıen<ex>er</ex></expan> dem wır <expan>befolhe<ex>n</ex></expan> </ab>
+<ab facs="#facs_246_r2l5"><expan>habe<ex>n</ex></expan> mıt eẅ <expan>dauo<ex>n</ex></expan> ʒureden Vnd <expan>bıtt<ex>en</ex></expan> eẅr <expan>erberk<ex>eit</ex></expan> mıt fleıſſ vvas </ab>
+<ab facs="#facs_246_r2l6"><expan>derſ<ex>elb</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>dıen<ex>er</ex></expan> in den <expan>egen<ex>anten</ex></expan> ſachen ʒu dıſem mal von <expan>vnſ<ex>er</ex>n</expan> <expan>weg<ex>en</ex></expan> </ab>
+<ab facs="#facs_246_r2l7">an eẅ werbe . Daʒ Jr Jm das <expan>gencʒl<ex>ich</ex></expan> <expan>gelawbe<ex>n</ex></expan> vnd gütlıch <expan>daru<ex>m</ex>b</expan> </ab>
+<ab facs="#facs_246_r2l8">von eẅ <expan>fertıg<ex>en</ex></expan> wellet . als etc / Denn wo wır <expan>eẅr<ex>er</ex></expan> <expan>erberk<ex>eit</ex></expan> lıeb </ab>
+<ab facs="#facs_246_r2l9"><expan>od<ex>er</ex></expan> dıenſt etc <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> vȷ<hi rend="sup">a</hi> <expan>an<ex>te</ex></expan> <expan>d<ex>omi</ex>nicam</expan> <expan>Palma<ex>rum</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_246" id="122r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Dieth<ex>er</ex>n</expan>
+<expan>Lantschad<ex>en</ex></expan>, <expan>vicztu<ex>m</ex></expan> zu
+                                <expan>Aschaffemb<ex>ur</ex>g</expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan> vicztum, als ir uns nehst
+                                <expan>verschr<ex>iben</ex></expan> habt von Yosep Püczels und
+                                <expan>Seligma<ex>n</ex>s</expan> seins
+                            <expan>brud<ex>er</ex>s</expan> der juden <expan>weg<ex>en</ex></expan>
+                        etc., also <expan>send<ex>en</ex></expan> wir zu
+                            <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan>
+<expan>Burkart<ex>en</ex></expan>
+<expan>Reikarczhof<ex>er</ex></expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>dien<ex>er</ex></expan>, dem wir <expan>befolhe<ex>n</ex></expan>
+<expan>habe<ex>n</ex></expan>, mit ew <expan>davo<ex>n</ex></expan> zu
+                        reden, und <expan>bitt<ex>en</ex></expan> ewr
+                            <expan>erberk<ex>eit</ex></expan> mit fleiss, was
+                                <expan>ders<ex>elb</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>dien<ex>er</ex></expan> in den <expan>egen<ex>anten</ex></expan>
+                        sachen zu disem mal von <expan>uns<ex>er</ex>n</expan>
+<expan>weg<ex>en</ex></expan> an ew werbe, daz ir im das
+                                <expan>genczl<ex>ich</ex></expan>
+<expan>gelawbe<ex>n</ex></expan> und gütlich <expan>daru<ex>m</ex>b</expan>
+                        von ew <expan>fertig<ex>en</ex></expan> wellet. Als etc. Denn wo wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> lieb <expan>od<ex>er</ex></expan> dienst
+                        etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan>
+<expan>d<ex>omi</ex>nicam</expan>
+<expan>palma<ex>rum</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

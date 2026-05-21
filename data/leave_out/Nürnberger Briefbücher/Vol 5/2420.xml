@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2420" xml:id="l2431" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2420 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>088v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2420.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Johann III., Lgf. v. Leuchtenberg</persName></ab><ab type="mention"><placeName type="mention">Hals, Gft.</placeName><persName type="mention">Glockengießer, Ulrich</persName></ab><date from="4-10-1420" to="4-10-1420" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_179">
+<surface lrx="2653" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0093_left.png" width="2653px"/>
+<zone lrx="1926" lry="2065" rendition="TextRegion" ulx="1176" uly="3270" xml:id="facs_179_r1">
+<zone lrx="2456" lry="2065" rendition="Line" ulx="1162" uly="1972" xml:id="facs_179_r1l20"/> <zone lrx="1989" lry="2146" rendition="Line" ulx="1176" uly="2062" xml:id="facs_179_r1l22"/>
+<zone lrx="2421" lry="2307" rendition="Line" ulx="695" uly="2217" xml:id="facs_179_r1l23"/>
+<zone lrx="2421" lry="2403" rendition="Line" ulx="685" uly="2291" xml:id="facs_179_r1l24"/>
+<zone lrx="2477" lry="2486" rendition="Line" ulx="689" uly="2367" xml:id="facs_179_r1l25"/>
+<zone lrx="2385" lry="2567" rendition="Line" ulx="683" uly="2456" xml:id="facs_179_r1l26"/>
+<zone lrx="2459" lry="2645" rendition="Line" ulx="707" uly="2529" xml:id="facs_179_r1l27"/>
+<zone lrx="2413" lry="2734" rendition="Line" ulx="702" uly="2607" xml:id="facs_179_r1l28"/>
+<zone lrx="2535" lry="2817" rendition="Line" ulx="692" uly="2689" xml:id="facs_179_r1l29"/>
+<zone lrx="2498" lry="2899" rendition="Line" ulx="702" uly="2770" xml:id="facs_179_r1l30"/>
+<zone lrx="2398" lry="2975" rendition="Line" ulx="713" uly="2862" xml:id="facs_179_r1l31"/>
+<zone lrx="2456" lry="3053" rendition="Line" ulx="696" uly="2936" xml:id="facs_179_r1l32"/>
+<zone lrx="2394" lry="3128" rendition="Line" ulx="708" uly="3012" xml:id="facs_179_r1l33"/>
+<zone lrx="2492" lry="3207" rendition="Line" ulx="704" uly="3090" xml:id="facs_179_r1l34"/>
+<zone lrx="2415" lry="3290" rendition="Line" ulx="700" uly="3185" xml:id="facs_179_r1l35"/>
+<zone lrx="1926" lry="3366" rendition="Line" ulx="707" uly="3270" xml:id="facs_179_r1l36"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann III., Landgraf von Leuchtenberg und Graf von Hals</head><p>Der Rat bittet um Bezahlung der Schulden bei Ulrich Glockengießer, Bürger zu Nürnberg, für die Anfertigung einer Büchse.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_179" id="88v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_179_r1l20">Lantgraf <expan>Johan<ex>n</ex>s</expan> cʒum 
+<del rend="strikethrough">Leuh </del> <expan>Lewtemb<ex>er</ex>g</expan> </ab>
+<ab facs="#facs_179_r1l22">vnd Grafen cʒu halls / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_179_r1l23">Gnediger <expan>h<ex>er</ex>re</expan> Als vvir <expan>ewr<ex>er</ex></expan> Edell vormals <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> </ab>
+<ab facs="#facs_179_r1l24"><expan>hab<ex>e</ex>n</expan> von Meiſter <expan>vlr<ex>ich</ex></expan> Glockengieſʒers <expan>vnſ<ex>er</ex>s</expan> <expan>B<ex>urgers</ex></expan> vnd </ab>
+<ab facs="#facs_179_r1l25">der ſchulde wegen Als Jm ewr edell ſchuldig bleib 
+<del rend="strikethrough">t </del></ab>
+<ab facs="#facs_179_r1l26">von <expan>ein<ex>er</ex></expan> püchſen wegen die Er euch gemacht / hat </ab>
+<ab facs="#facs_179_r1l27">Alſo iſt derſelb <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> <expan>yecʒund<ex>en</ex></expan> aber für vns <expan>kume<ex>n</ex></expan> </ab>
+<ab facs="#facs_179_r1l28">vnd hat vns fürbraht / wie Jm dıeſelb ſein ſchulde </ab>
+<ab facs="#facs_179_r1l29">noch von euch auſſenſtee vnd niht becʒalt kunn <expan>vverde<ex>n</ex></expan> </ab>
+<ab facs="#facs_179_r1l30">des Er vaſt ſchaden <expan>genome<ex>n</ex></expan> hab . vnd neme / hyrümb </ab>
+<ab facs="#facs_179_r1l31"><expan>bitte<ex>n</ex></expan> vvir <expan>ew<ex>r</ex></expan> edel mit <expan>gancʒe<ex>m</ex></expan> fleiſʒ . daʒ Jr noch </ab>
+<ab facs="#facs_179_r1l32">von <expan>ew<ex>r</ex>n</expan> gnaden ſchicken vnd beſtellen wöllet / daʒ </ab>
+<ab facs="#facs_179_r1l33">dem <expan>vorgen<ex>anten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> dieſelb ſein ſchulde 
+<del rend="strikethrough"> noch </del> on </ab>
+<ab facs="#facs_179_r1l34"><expan>leng<ex>er</ex></expan> <expan>vercʒieh<ex>e</ex>n</expan> gericht vnd becʒalt / vnd auch <expan>fürb<ex>aʒ</ex></expan> </ab>
+<ab facs="#facs_179_r1l35">darümb vnklaghaft werde Als etc Das wöllen etc </ab>
+<ab facs="#facs_179_r1l36"><expan>Dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> vj̃ in die <expan>ſ<ex>an</ex>c<ex>t</ex>ı</expan> franciſci A xx<hi rend="sup">o</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_179" id="88v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Lantgraf <expan>Johan<ex>n</ex>s</expan> czum
+                            <expan>Lewtemb<ex>er</ex>g</expan> und grafen czu Halls</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Gnediger <expan>h<ex>er</ex>re</expan>, als wir <expan>ewr<ex>er</ex></expan> edell
+            vormals <expan>v<ex>er</ex>schr<ex>iben</ex></expan>
+<expan>hab<ex>e</ex>n</expan> von meister <expan>Ulr<ex>ich</ex></expan>
+            Glockengieszers, <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>, und der schulde wegen, als im ewr edell schuldig bleib
+            von <expan>ein<ex>er</ex></expan> püchsen wegen, die er euch gemacht hat, also ist
+            derselb <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>
+<expan>yeczund<ex>en</ex></expan> aber für uns <expan>kume<ex>n</ex></expan> und hat uns
+            fürbraht, wie im dieselb sein schulde noch von euch aussenstee und niht beczalt kunn
+                <expan>werde<ex>n</ex></expan>, des er vast schaden <expan>genome<ex>n</ex></expan>
+            hab und neme. Hyrümb <expan>bitte<ex>n</ex></expan> wir <expan>ew<ex>r</ex></expan> edel
+            mit <expan>gancze<ex>m</ex></expan> fleisz, daz ir noch von <expan>ew<ex>r</ex>n</expan>
+            gnaden schicken und bestellen wöllet, daz dem <expan>vorgen<ex>anten</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan> dieselb sein schulde on <expan>leng<ex>er</ex></expan>
+<expan>verczieh<ex>e</ex>n</expan> gericht und beczalt und auch
+              <expan>fürb<ex>as</ex></expan> darümb unklaghaft werde. Als etc. Das wöllen etc.
+                <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> vi in die <expan>s<ex>an</ex>c<ex>t</ex>i</expan>
+            Francisci <expan>a<ex>nno</ex></expan> xx<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

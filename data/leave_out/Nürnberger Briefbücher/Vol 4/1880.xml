@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1880" xml:id="l1891" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1880 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>091r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1880.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q503633" type="recipient">Sulzbach-Rosenberg (Stadt, Lk. Amberg-Sulzbach)</placeName><persName type="recipient">Kemnat, Altmann v., Ldr. v. Sulzbach</persName></ab><ab type="mention"><persName type="mention">Vogelsang, N.</persName></ab><date from="8-06-1415" to="8-06-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_182">
+<surface lrx="2645" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0093_right.png" width="2645px"/>
+<zone lrx="664" lry="298" rendition="TextRegion" ulx="1283" uly="1170" xml:id="facs_182_r1">
+<zone lrx="1770" lry="298" rendition="Line" ulx="679" uly="234" xml:id="facs_182_r1l1"/>
+<zone lrx="2424" lry="404" rendition="Line" ulx="469" uly="355" xml:id="facs_182_r1l2"/> <zone lrx="2446" lry="482" rendition="Line" ulx="495" uly="438" xml:id="facs_182_r1l4"/> <zone lrx="2419" lry="578" rendition="Line" ulx="482" uly="501" xml:id="facs_182_r1l5"/>
+<zone lrx="2403" lry="666" rendition="Line" ulx="521" uly="589" xml:id="facs_182_r1l6"/>
+<zone lrx="2403" lry="744" rendition="Line" ulx="515" uly="691" xml:id="facs_182_r1l7"/>
+<zone lrx="1936" lry="775" rendition="Line" ulx="1283" uly="738" xml:id="facs_182_r1l8"/>
+<zone lrx="2367" lry="830" rendition="Line" ulx="516" uly="778" xml:id="facs_182_r1l9"/>
+<zone lrx="2370" lry="925" rendition="Line" ulx="532" uly="843" xml:id="facs_182_r1l10"/>
+<zone lrx="2347" lry="1013" rendition="Line" ulx="529" uly="932" xml:id="facs_182_r1l11"/>
+<zone lrx="1998" lry="1101" rendition="Line" ulx="530" uly="1026" xml:id="facs_182_r1l12"/>
+<zone lrx="1822" lry="1230" rendition="Line" ulx="557" uly="1170" xml:id="facs_182_r1l13"/> <zone lrx="859" lry="439" rendition="Line" ulx="705" uly="382" xml:id="facs_182_line_1576739688302_654"/><zone lrx="664" lry="525" rendition="Line" ulx="590" uly="471" xml:id="facs_182_line_1576739698852_665"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Altmann von Kemnat, Landrichter zu Sulzbach, und Sulzbach</head><p>Der Rat bittet um Übersendung der Aussage des in Sulzbach hingerichteten N. Vogelsang, da er des Diebstahls von Pferden eines Bürgers zu Nürnberg verdächtigt wird.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_182" id="91r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_182_r1l1">Altman <expan>kemnat<ex>er</ex></expan> <expan>pfleg<ex>er</ex></expan> ʒu Sulcʒbach </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_182_r1l2"><expan>L<ex>ieber</ex></expan> <expan>h<ex>e</ex>r</expan> <expan>pfleg<ex>er</ex></expan> es ıſt vor etlıchen <expan>ʒeıt<ex>en</ex></expan> <expan>eine<ex>m</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> etwıeuıl pferd <expan>genome<ex>n</ex></expan> </ab>
+<ab facs="#facs_182_r1l4"> <expan>worde<ex>n</ex></expan> . 
+<del rend="strikethrough">Nu ıſt </del>
+<add><ab facs="#facs_182_line_1576739688302_654"><expan>Daru<ex>m</ex>b</expan> </ab></add> der vogelſang der ʒu Sulcʒbach <expan>v<ex>er</ex>derbet</expan> ward in <expan>v<ex>er</ex>dechtnuſſ</expan> </ab>
+<ab facs="#facs_182_r1l5">
+<del rend="strikethrough"><expan>daru<ex>m</ex>b</expan></del>
+<add><ab facs="#facs_182_line_1576739698852_665">ıſt </ab></add> <expan>geweſ<ex>en</ex></expan> daʒ er vnd etlıch ander das <expan>ſull<ex>e</ex>n</expan> getan <expan>habe<ex>n</ex></expan> . <expan>Bıtt<ex>en</ex></expan> wır eẅr </ab>
+<ab facs="#facs_182_r1l6"><expan>erberk<ex>eit</ex></expan> mıt fleıſſ . daʒ Jr <expan>beſtell<ex>e</ex>n</expan> . vnd vns bey dıſem <expan>vnſ<ex>er</ex>m</expan> botten <expan>v<ex>er</ex>ſchrıben</expan> </ab>
+<ab facs="#facs_182_r1l7">ſchaffen wellet dıe bekentnuſſ als der <expan>vorg<ex>enante</ex></expan> vogelſank . in der fenknuſſ </ab>
+<ab facs="#facs_182_r1l9">geſagt hat . wan wır etlıch 
+<del rend="strikethrough">darumb </del>
+<add><ab facs="#facs_182_r1l8">von der <expan>vorg<ex>eſchriben</ex></expan> pferd <expan>weg<ex>en</ex></expan> </ab></add> in <expan>v<ex>er</ex>dechtnuſſ</expan> haben . daʒ vns ~ des </ab>
+<ab facs="#facs_182_r1l10"><expan>eg<ex>enanten</ex></expan> vogelſangs bekentnuſſ ein notdurft wer <expan>ʒuwıſſ<ex>en</ex></expan> daʒ wır vns deſt </ab>
+<ab facs="#facs_182_r1l11">bas darnach <expan>weſt<ex>en</ex></expan> ʒu <expan>rıchte<ex>n</ex></expan> Vnd beweıſet vns in den <expan>ſach<ex>e</ex>n</expan> <expan>eẅ<ex>r</ex>n</expan> </ab>
+<ab facs="#facs_182_r1l12">guten <expan>wıll<ex>e</ex>n</expan> . als etc das <expan>well<ex>e</ex>n</expan> . etc . <expan>dat<ex>um</ex></expan> ut <expan>ſup<ex>ra</ex></expan> </ab>
+</div> <div type="similiter"><ab facs="#facs_182_r1l13">Der Stat ʒu Sulcʒbach <expan>ſı<ex>mi</ex>l<ex>ite</ex>r</expan> <expan>mutat<ex>is</ex></expan> <expan>muta<ex>n</ex>dıs</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_182" id="91r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Altman <expan>Kemnat<ex>er</ex></expan>, <expan>pfleg<ex>er</ex></expan> zu
+                        Sulczbach </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan>
+<expan>pfleg<ex>er,</ex></expan> es ist vor etlichen
+                            <expan>zeit<ex>en</ex></expan>
+<expan>eine<ex>m</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan> etwievil pferd
+                            <expan>genome<ex>n</ex></expan>
+<expan>worde<ex>n</ex></expan>, <add><expan>daru<ex>m</ex>b</expan></add>
+                        der Vogelsang, der zu Sulczbach <expan>v<ex>er</ex>derbet</expan> ward, in
+                                <expan>v<ex>er</ex>dechtnuss</expan>
+<add>ist</add>
+<expan>gewes<ex>en</ex></expan>, daz er und etlich ander das
+                                <expan>sull<ex>e</ex>n</expan> getan <expan>habe<ex>n</ex></expan>.
+                                <expan>Bitt<ex>en</ex></expan> wir ewr
+                            <expan>erberk<ex>eit</ex></expan> mit fleiss, daz ir
+                                <expan>bestell<ex>e</ex>n</expan> und uns bey disem
+                                <expan>uns<ex>er</ex>m</expan> botten
+                            <expan>v<ex>er</ex>schriben</expan> schaffen wellet die bekentnuss, als
+                        der <expan>vorg<ex>enante</ex></expan> Vogelsank in der fenknuss gesagt hat,
+                        wan wir etlich <add>von der <expan>vorg<ex>eschriben</ex></expan> pferd
+                                    <expan>weg<ex>en</ex></expan></add> in
+                            <expan>v<ex>er</ex>dechtnuss</expan> haben, daz uns des
+                                <expan>eg<ex>enanten</ex></expan> Vogelsangs bekentnuss ein notdurft
+                        wer <expan>zu wiss<ex>en,</ex></expan> daz wir uns dest bas darnach
+                                <expan>west<ex>en</ex></expan> zu <expan>richte<ex>n;</ex></expan>
+                        und beweiset uns in den <expan>sach<ex>e</ex>n</expan>
+<expan>ew<ex>r</ex>n</expan> guten <expan>will<ex>e</ex>n</expan>, als etc.
+                        Das <expan>well<ex>e</ex>n</expan> etc. <expan>Dat<ex>um</ex></expan> ut
+                                <expan>sup<ex>ra.</ex></expan>
+<lb/><div type="similiter"> Der stat zu Sulczbach
+                                    <expan>si<ex>mi</ex>l<ex>ite</ex>r</expan>
+<expan>mutat<ex>is</ex></expan>
+<expan>muta<ex>n</ex>dis</expan>. </div>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

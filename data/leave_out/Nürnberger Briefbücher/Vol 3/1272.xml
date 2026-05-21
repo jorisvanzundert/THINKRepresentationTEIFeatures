@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1272" xml:id="l1287" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1272 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>200r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1272.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender">-</ab><ab type="recipient">-</ab><ab type="mention"><persName type="mention">Ebner, Albrecht</persName><persName type="mention">Koler, Stefan</persName></ab><date from="20-01-1412" to="20-01-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_401">
+<surface lrx="2748" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0202_right.png" width="2748px"/>
+<zone lrx="1562" lry="1027" rendition="TextRegion" ulx="891" uly="1146" xml:id="facs_401_r1"> <zone lrx="1949" lry="1027" rendition="Line" ulx="862" uly="938" xml:id="facs_401_r1l6"/>
+<zone lrx="2129" lry="1128" rendition="Line" ulx="891" uly="1034" xml:id="facs_401_r1l7"/>
+<zone lrx="1562" lry="1223" rendition="Line" ulx="890" uly="1146" xml:id="facs_401_r1l8"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="mayor">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über die aktuelle Bürgermeisterfrage</head><p>Amtierende Bürgermeister sind seit dem 20. Januar 1412 Albrecht Ebner und Stefan Koler.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_401" id="200r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_401_r1l6"><expan>Burg<ex>er</ex>meiſt<ex>er</ex></expan> Her <expan>Albr<ex>echt</ex></expan> Ebner </ab>
+<ab facs="#facs_401_r1l7">vnd her Steffan Coler / in die <expan>ſebaſtıa<ex>n</ex>ı</expan> </ab>
+<ab facs="#facs_401_r1l8">Anno etc <expan>duodecı<ex>m</ex>o</expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_401" id="200r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Burg<ex>er</ex>meist<ex>er</ex></expan> her
+                            <expan>Albr<ex>echt</ex></expan> Ebner und her Steffan Coler in die
+                                <expan>Sebastia<ex>n</ex>i</expan> anno etc.
+                                <expan>duodeci<ex>m</ex>o</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

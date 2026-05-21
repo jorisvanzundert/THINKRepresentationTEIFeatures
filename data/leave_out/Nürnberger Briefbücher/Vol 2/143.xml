@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="143" xml:id="l143" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 143 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>040v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 143.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Gewolf v. Degenberg, Hans II.</persName></ab><ab type="mention"><persName type="mention">Maurer, Hans</persName><persName type="mention">Stromer, Georg I.</persName></ab><date from="13-06-1408" to="11-07-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_84">
+<surface lrx="2833" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0043_left.png" width="2833px"/>
+<zone lrx="986" lry="1335" rendition="TextRegion" ulx="1500" uly="1858" xml:id="facs_84_r1"> <zone lrx="2250" lry="1335" rendition="Line" ulx="1481" uly="1252" xml:id="facs_84_r1l9"/>
+<zone lrx="2089" lry="1421" rendition="Line" ulx="1500" uly="1346" xml:id="facs_84_r1l10"/>
+<zone lrx="2620" lry="1571" rendition="Line" ulx="814" uly="1486" xml:id="facs_84_r1l11"/>
+<zone lrx="2572" lry="1660" rendition="Line" ulx="853" uly="1572" xml:id="facs_84_r1l12"/>
+<zone lrx="2584" lry="1751" rendition="Line" ulx="854" uly="1656" xml:id="facs_84_r1l13"/>
+<zone lrx="2575" lry="1832" rendition="Line" ulx="842" uly="1734" xml:id="facs_84_r1l14"/>
+<zone lrx="986" lry="1915" rendition="Line" ulx="850" uly="1858" xml:id="facs_84_r1l15"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans II. von Degenberg, Viztum von Amberg</head><p>Der Rat kündigt Hans Maurer, Diener der Stadt, wegen eines Hofs Georg Stromers, Bürger zu Nürnberg, an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_84" id="40v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_84_r1l9"><expan>h<ex>er</ex>n</expan> hanſen vom degenberg</ab>
+<ab facs="#facs_84_r1l10">vicʒtumb cʒu Amperg</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_84_r1l11"><expan>L<ex>ieber</ex></expan> <expan>h<ex>er</ex></expan> wicʒtumb wicʒtumb wir ſenden cʒu ew hanſen Mawrer </ab>
+<ab facs="#facs_84_r1l12"><expan>vnſ<ex>er</ex>n</expan> dẏener mit ew cʒu reden von <expan>ein<ex>er</ex></expan> kuntſchafft wegen / </ab>
+<ab facs="#facs_84_r1l13">deʒ hofs / da 
+<del rend="strikethrough">vormals </del> Görg 
+<del rend="strikethrough"> er </del> Stromeyr <expan>vnſ<ex>er</ex></expan> lieber Burger </ab>
+<ab facs="#facs_84_r1l14">vnd Ratgeſelle vormals mit ewch auch von geredt hat / . vnd </ab>
+<ab facs="#facs_84_r1l15"><expan>Ro<ex>gamus</ex></expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_84" id="40v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Hansen vom Degenberg, vicztumb czu Amperg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>er</ex></expan> wicztumb, wir senden czu
+                                                ew Hansen Mawrer, <expan>uns<ex>er</ex>n</expan>
+                                                dyener, mit ew czu reden von
+                                                  <expan>ein<ex>er</ex></expan> kuntschafft wegen
+                                                dez hofs, da Görg Stromeyr,
+                                                  <expan>uns<ex>er</ex></expan> lieber burger und
+                                                ratgeselle, vormals mit ewch auch von geredt hat und
+                                                  <expan>ro<ex>gamus</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

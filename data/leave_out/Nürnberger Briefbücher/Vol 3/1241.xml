@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1241" xml:id="l1257" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1241 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>192r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1241.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q16116" type="recipient">Forchheim</placeName><persName type="recipient">Egloffstein, Albrecht v.</persName></ab><ab type="mention"><persName type="mention">Liebhart, Hans</persName><persName type="mention">Lochner, N.</persName></ab><date from="25-11-1411" to="23-12-1411" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_385">
+<surface lrx="2775" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0194_right.png" width="2775px"/>
+<zone lrx="1257" lry="378" rendition="TextRegion" ulx="955" uly="1210" xml:id="facs_385_r1">
+<zone lrx="1631" lry="378" rendition="Line" ulx="779" uly="277" xml:id="facs_385_r1l2"/>
+<zone lrx="2447" lry="557" rendition="Line" ulx="403" uly="418" xml:id="facs_385_r1l3"/>
+<zone lrx="2443" lry="670" rendition="Line" ulx="424" uly="526" xml:id="facs_385_line_1576482261952_1820"/>
+<zone lrx="1257" lry="674" rendition="Line" ulx="819" uly="605" xml:id="facs_385_line_1576482265560_1825"/>
+<zone lrx="2437" lry="770" rendition="Line" ulx="423" uly="638" xml:id="facs_385_r1l6"/>
+<zone lrx="2456" lry="889" rendition="Line" ulx="431" uly="727" xml:id="facs_385_r1l7"/>
+<zone lrx="2540" lry="994" rendition="Line" ulx="453" uly="834" xml:id="facs_385_r1l8"/>
+<zone lrx="2406" lry="1099" rendition="Line" ulx="455" uly="942" xml:id="facs_385_r1l9"/>
+<zone lrx="2111" lry="1198" rendition="Line" ulx="475" uly="1050" xml:id="facs_385_r1l10"/>
+<zone lrx="1832" lry="1339" rendition="Line" ulx="955" uly="1210" xml:id="facs_385_r1l11"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Albrecht von Egloffstein und Forchheim</head><p>Der Rat teilt mit, dass er N. Lochner, Bürgerin zu Nürnberg, angewiesen hat, die Klage gegen die Vormunde der Kinder des verstorbenen Hans Liebhart zurückzunehmen, und bittet um Herausgabe ihres Eigentums.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_385" id="192r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_385_r1l2"><expan>H<ex>er</ex>n</expan> <expan>Albr<ex>echt</ex></expan> <expan>vo<ex>n</ex></expan> <expan>Eglolfſt<ex>ein</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_385_r1l3"><expan>Lıeb<ex>er</ex></expan> her <expan>Albr<ex>echt</ex></expan> / Als Jr vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> habt <expan>vo<ex>n</ex></expan> des Hanſen </ab>
+<ab facs="#facs_385_line_1576482261952_1820">Lıebharts ſelıgen kinder vormünd <expan>vvege<ex>n</ex></expan> / vmb die ladung als </ab>
+<ab facs="#facs_385_r1l6">die Lochnerin 
+<add><ab facs="#facs_385_line_1576482265560_1825">vnſer Burgerin </ab></add> der kind <expan>müt<ex>er</ex></expan> getan hab / . <expan>Dieſelb<ex>e</ex>n</expan> <expan>vnſ<ex>er</ex></expan> <expan>B<ex>ur</ex>g<ex>er</ex>in</expan> </ab>
+<ab facs="#facs_385_r1l7"><expan>hab<ex>e</ex>n</expan> wir beſant vnd ſie durch <expan>ew<ex>r</ex>n</expan> vvıllen daran geweıſet </ab>
+<ab facs="#facs_385_r1l8">daʒ ſie cʒü der cʒeit von der ladung laſſen wil / . vnd wir <expan>Ro<ex>gamus</ex></expan> </ab>
+<ab facs="#facs_385_r1l9">daʒ Jr die vormünde daran weiſen vvöllet / daʒ ſie <expan>vnſ<ex>er</ex>r</expan> </ab>
+<ab facs="#facs_385_r1l10"><expan>Burg<ex>er</ex>in</expan> das Jr volgen <expan>laſſe<ex>n</ex></expan> / . Das <expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+<div type="similiter"><ab facs="#facs_385_r1l11"><expan>Jt<ex>em</ex></expan> <expan>d<ex>er</ex></expan> Stat <expan>vorch<ex>eim</ex></expan> <expan>ſı<ex>mi</ex>l<ex>ite</ex>r</expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_385" id="192r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Albr<ex>echt</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>Eglolfst<ex>ein</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> her <expan>Albr<ex>echt</ex></expan>, als ir
+                        uns <expan>v<ex>er</ex>schr<ex>iben</ex></expan> habt
+                            <expan>vo<ex>n</ex></expan> des Hansen Liebharts seligen kinder vormünd
+                                <expan>wege<ex>n</ex></expan> umb die ladung, als die Lochnerin,
+                            <add>unser burgerin</add>, der kind <expan>müt<ex>er</ex></expan> getan
+                        hab, <expan>dieselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex></expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>in</expan>
+<expan>hab<ex>e</ex>n</expan> wir besant und sie durch
+                            <expan>ew<ex>r</ex>n</expan> willen daran geweiset, daz sie czü der
+                        czeit von der ladung lassen wil. Und wir <expan>ro<ex>gamus</ex></expan>,
+                        daz ir die vormünde daran weisen wöllet, daz sie
+                            <expan>uns<ex>er</ex>r</expan>
+<expan>burg<ex>er</ex>in</expan> das ir volgen
+                            <expan>lasse<ex>n</ex></expan>. Das <expan>wölle<ex>n</ex></expan>
+                        etc.</ab>
+</div>
+<div type="similiter">
+<ab><expan>It<ex>em</ex></expan>
+<expan>d<ex>er</ex></expan> stat <expan>Vorch<ex>eim</ex></expan>
+<expan>si<ex>mi</ex>l<ex>ite</ex>r</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

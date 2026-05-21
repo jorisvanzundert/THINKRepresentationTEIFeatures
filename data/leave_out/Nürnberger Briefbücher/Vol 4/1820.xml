@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1820" xml:id="l1831" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1820 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>075r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1820.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Johann II., Gf. v. Wertheim</persName></ab><ab type="mention"><persName type="mention">Barbierer, Klas</persName></ab><date from="11-04-1415" to="11-04-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_150">
+<surface lrx="2621" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0077_right.png" width="2621px"/>
+<zone lrx="1394" lry="1424" rendition="TextRegion" ulx="969" uly="2205" xml:id="facs_150_r2"> <zone lrx="1432" lry="1424" rendition="Line" ulx="968" uly="1358" xml:id="facs_150_r2l11"/>
+<zone lrx="1394" lry="1507" rendition="Line" ulx="969" uly="1437" xml:id="facs_150_r2l12"/>
+<zone lrx="2359" lry="1695" rendition="Line" ulx="477" uly="1617" xml:id="facs_150_r2l13"/>
+<zone lrx="2312" lry="1777" rendition="Line" ulx="477" uly="1705" xml:id="facs_150_r2l14"/>
+<zone lrx="2350" lry="1865" rendition="Line" ulx="483" uly="1788" xml:id="facs_150_r2l15"/>
+<zone lrx="2320" lry="1950" rendition="Line" ulx="498" uly="1871" xml:id="facs_150_r2l16"/>
+<zone lrx="2310" lry="2039" rendition="Line" ulx="496" uly="1958" xml:id="facs_150_r2l17"/>
+<zone lrx="2364" lry="2126" rendition="Line" ulx="490" uly="2045" xml:id="facs_150_r2l18"/>
+<zone lrx="2302" lry="2204" rendition="Line" ulx="491" uly="2133" xml:id="facs_150_r2l19"/>
+<zone lrx="2014" lry="2296" rendition="Line" ulx="486" uly="2205" xml:id="facs_150_r2l20"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II., Graf von Wertheim</head><p>Der Rat bittet um Aufschub für Meister Klas Barbierer.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_150" id="75r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_150_r2l11">Graf Johanſen </ab>
+<ab facs="#facs_150_r2l12">von wertheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_150_r2l13"><expan>Gnedıg<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan> Als vns ewr gnade vormals von Meiſter Claſen </ab>
+<ab facs="#facs_150_r2l14">Parbẏrers wegen
+                            <expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> hat / Darümb iſt derſelb
+                        Meiſter Clas </ab>
+<ab facs="#facs_150_r2l15">yecʒund für vns kumen / vnd hat vns gebeten
+                                <expan>ewr<ex>er</ex></expan> edell von
+                            <expan>ſeine<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_150_r2l16">wegen cʒubiten vnd
+                            <expan>cʒuverſchreib<ex>e</ex>n</expan> . daʒ Jr Jm
+                            <expan>ew<ex>r</ex></expan> gnade beweiſen </ab>
+<ab facs="#facs_150_r2l17">vnd Jm <expan>eine<ex>n</ex></expan> gerawmen cʒug
+                        vnd friſt / <expan>geb<ex>e</ex>n</expan> wöllet / Alſo
+                                <expan>Ro<ex>gamus</ex></expan> . </ab>
+<ab facs="#facs_150_r2l18">daʒ Jr das alſo durch <expan>vnſ<ex>er</ex>n</expan>
+                        vvillen tun vvöllet / <expan>Alſu<ex>er</ex>re</expan>
+<expan>ewr<ex>er</ex></expan> edell </ab>
+<ab facs="#facs_150_r2l19">das füglich ſeẏ / das wöllen vvir v̈mb ewr gnade
+                                <expan>allcʒ<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n</expan>
+<expan>v<ex>er</ex>d<ex>ienen</ex></expan>
+</ab>
+<ab facs="#facs_150_r2l20"><expan>dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> ṽ <expan>an<ex>te</ex></expan>
+<expan>do<ex>min</ex>ıcam</expan>
+<expan>M<ex>isericord</ex>ia</expan>
+<expan>d<ex>omi</ex>nj</expan> Anno etc xv<hi rend="sup">to</hi> $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_150" id="75r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Graf Johansen von Wertheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als uns ewr gnade vormals von meister Clasen
+                        Parbyrers wegen <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> hat, darümb ist
+                        derselb meister Clas yeczund für uns kumen und hat uns gebeten,
+                                <expan>ewr<ex>er</ex></expan> edell von
+                            <expan>seine<ex>n</ex></expan> wegen czu biten und <expan>czu
+                                verschreib<ex>e</ex>n</expan>, daz ir im <expan>ew<ex>r</ex></expan>
+                        gnade beweisen und im <expan>eine<ex>n</ex></expan> gerawmen czug und frist
+                                <expan>geb<ex>e</ex>n</expan> wöllet. Also
+                            <expan>ro<ex>gamus</ex></expan>, daz ir das also durch
+                                <expan>uns<ex>er</ex>n</expan> willen tun wöllet,
+                                <expan>alsv<ex>er</ex>re</expan>
+<expan>ewr<ex>er</ex></expan> edell das füglich sey; das wöllen wir ümb ewr
+                        gnade <expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n</expan>
+<expan>v<ex>er</ex>d<ex>ienen</ex></expan>. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> v <expan>an<ex>te</ex></expan>
+<expan>do<ex>min</ex>icam</expan>
+<expan>m<ex>isericord</ex>ia</expan>
+<expan>d<ex>omi</ex>ni</expan> anno etc. xv<hi rend="sup">to</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1805" xml:id="l1816" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1805 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>071v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1805.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wacker, Peter, kgl.-dt. Hofschreiber</persName></ab><ab type="mention"><persName ref="https://www.wikidata.org/wiki/Q57124" type="mention">Sigismund v. Luxemburg, dt. König</persName><persName type="mention">Grabner, Sebald</persName><persName type="mention">Kiesling, Andreas</persName></ab><date from="1-04-1415" to="1-04-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_143">
+<surface lrx="2610" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0074_left.png" width="2610px"/>
+<zone lrx="592" lry="756" rendition="TextRegion" ulx="388" uly="599" xml:id="facs_143_r1">
+<zone lrx="592" lry="756" rendition="Line" ulx="388" uly="599" xml:id="facs_143_r1l1"/>
+</zone>
+<zone lrx="844" lry="282" rendition="TextRegion" ulx="1735" uly="1173" xml:id="facs_143_r2">
+<zone lrx="1943" lry="282" rendition="Line" ulx="821" uly="221" xml:id="facs_143_r2l1"/>
+<zone lrx="1836" lry="358" rendition="Line" ulx="850" uly="290" xml:id="facs_143_r2l2"/>
+<zone lrx="2576" lry="478" rendition="Line" ulx="636" uly="392" xml:id="facs_143_r2l3"/>
+<zone lrx="2532" lry="558" rendition="Line" ulx="618" uly="470" xml:id="facs_143_r2l4"/>
+<zone lrx="2522" lry="646" rendition="Line" ulx="622" uly="551" xml:id="facs_143_r2l5"/>
+<zone lrx="2484" lry="728" rendition="Line" ulx="629" uly="646" xml:id="facs_143_r2l6"/>
+<zone lrx="2520" lry="813" rendition="Line" ulx="604" uly="728" xml:id="facs_143_r2l7"/> <zone lrx="2509" lry="906" rendition="Line" ulx="612" uly="812" xml:id="facs_143_r2l8"/>
+<zone lrx="2514" lry="987" rendition="Line" ulx="614" uly="899" xml:id="facs_143_r2l9"/>
+<zone lrx="2564" lry="1067" rendition="Line" ulx="610" uly="980" xml:id="facs_143_r2l10"/>
+<zone lrx="2527" lry="1155" rendition="Line" ulx="612" uly="1065" xml:id="facs_143_r2l11"/>
+<zone lrx="2537" lry="1238" rendition="Line" ulx="1735" uly="1143" xml:id="facs_143_r2l12"/>
+<zone lrx="1187" lry="1246" rendition="Line" ulx="611" uly="1173" xml:id="facs_143_r2l13"/> <zone lrx="844" lry="849" rendition="Line" ulx="789" uly="794" xml:id="facs_143_line_1572938737482_115"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Peter Wacker, Hofschreiber König Sigismunds I.</head><p>Der Rat kündigt Andreas Kiesling an, der für Sebald Grabner, Bürger zu Nürnberg, einige Vorladungen des königlichen Hofgerichts zugestellt hat.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_143" id="71v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_143_r2l1">Petro waker <expan>vnſ<ex>er</ex>s</expan> gnedıgıſten <expan>h<ex>er</ex>ren</expan> </ab>
+<ab facs="#facs_143_r2l2">~ des <expan>Römiſch<ex>en</ex></expan> künıgs etc <expan>hofſchreıb<ex>er</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_143_r2l3"><expan>L<ex>ieber</ex></expan> Petre . Vns hat
+                        furgelegt Sebolt Grabner <expan>vnſ<ex>er</ex></expan>
+<expan>B<ex>urger</ex></expan> / vvıe daʒ er dıe für = </ab>
+<ab facs="#facs_143_r2l4">pott dıe er nehſt . vor <expan>vnſ<ex>er</ex>s</expan>
+<expan>gnedıgıſt<ex>en</ex></expan>
+<expan>h<ex>er</ex>ren</expan> ~ des <expan>Römıſch<ex>en</ex></expan>
+                        künıgs hofgerıcht </ab>
+<ab facs="#facs_143_r2l5">auf ettlıch erlangt hab als Jr wol wıſʒt . bey
+                                <expan>dıſ<ex>em</ex></expan>
+<expan>gegenw<ex>er</ex>tıg<ex>en</ex></expan>
+<expan>bott<ex>en</ex></expan>
+<expan>endr<ex>es</ex></expan>
+</ab>
+<ab facs="#facs_143_r2l6">
+<add><ab facs="#facs_143_r1l1">kıſlıng </ab></add>
+<expan>antwurt<ex>er</ex></expan> dıſʒ <expan>br<ex>iefs</ex></expan>
+                        hingeſchıkt hab . <expan>daru<ex>m</ex>b</expan> er
+                                <expan>denſ<ex>elben</ex></expan>
+<expan>bott<ex>en</ex></expan> ʒu eẅch ſchıke </ab>
+<ab facs="#facs_143_r2l7">daʒ er vor gerıcht <expan>od<ex>er</ex></expan> wa des
+                        not ıſt . mıt <expan>ſeine<ex>n</ex></expan> rechten
+                                <expan>erweıſe<ex>n</ex></expan> ſülle </ab>
+<ab facs="#facs_143_r2l8">daʒ er <add><ab facs="#facs_143_line_1572938737482_115">Jn </ab></add> dıe fürpott
+                                <expan>geantw<ex>ur</ex>t</expan> hab . ʒe hawſe vnd ʒu hof vnd
+                                <expan>ettlıche<ex>n</ex></expan>
+<expan>vnt<ex>er</ex></expan>
+</ab>
+<ab facs="#facs_143_r2l9"><expan>awg<ex>en</ex></expan> als ewch das der bott
+                        wol ercʒeln wırdet / <expan>Bıtt<ex>en</ex></expan> wır eẅch mıt </ab>
+<ab facs="#facs_143_r2l10">fleıſſ von des <expan>vorg<ex>enanten</ex></expan>
+<expan>vnſ<ex>er</ex>s</expan>
+<expan>B<ex>urgers</ex></expan>
+<expan>weg<ex>en</ex></expan> . daʒ Jr dem
+                            <expan>obg<ex>enanten</ex></expan>
+<expan>bott<ex>en</ex></expan> eẅr <expan>freẅntl<ex>ich</ex></expan>
+</ab>
+<ab facs="#facs_143_r2l11"><expan>anweıſu<ex>n</ex>g</expan> tun vnd eẅch
+                                <expan>vnſ<ex>er</ex>s</expan>
+<expan>B<ex>urgers</ex></expan> ſache laſſet befolhen ſein als etc </ab>
+<ab facs="#facs_143_r2l13">das <expan>well<ex>e</ex>n</expan> wır etc </ab>
+<ab facs="#facs_143_r2l12"><expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ıa</expan> ij<hi rend="sup">a</hi>
+<expan>ı<ex>n</ex></expan> feſto paſche </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_143" id="71v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Petro Waker, <expan>uns<ex>er</ex>s</expan> gnedigisten
+                            <expan>h<ex>er</ex>ren</expan>, des <expan>römisch<ex>en</ex></expan>
+                        künigs, etc. <expan>hofschreib<ex>er</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Petre, uns hat furgelegt Sebolt Grabner,
+                                <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>, wie daz er die fürpott, die er nehst vor
+                                <expan>uns<ex>er</ex>s</expan>
+<expan>gnedigist<ex>en</ex></expan>
+<expan>h<ex>er</ex>ren,</expan> des <expan>römisch<ex>en</ex></expan>
+                        künigs, hofgericht auf ettlich erlangt hab, als ir wol wiszt, bey
+                                <expan>dis<ex>em</ex></expan>
+<expan>gegenw<ex>er</ex>tig<ex>en</ex></expan>
+<expan>bott<ex>en</ex></expan>
+<expan>Endr<ex>es</ex></expan>
+<add>Kisling</add>, <expan>antwurt<ex>er</ex></expan> disz
+                                <expan>br<ex>iefs</ex></expan>, hingeschikt hab,
+                                <expan>daru<ex>m</ex>b</expan> er <expan>dens<ex>elben</ex></expan>
+<expan>bott<ex>en</ex></expan> zu ewch schike, daz er vor gericht
+                                <expan>od<ex>er,</ex></expan> wa des not ist, mit
+                                <expan>seine<ex>n</ex></expan> rechten
+                            <expan>erweise<ex>n</ex></expan> sülle, daz er <add>in</add> die fürpott
+                                <expan>geantw<ex>ur</ex>t</expan> hab ze hawse und zu hof und
+                                <expan>ettliche<ex>n</ex></expan>
+<expan>unt<ex>er</ex></expan>
+<expan>awg<ex>en</ex></expan>, als ewch das der bott wol erczeln wirdet;
+                                <expan>bitt<ex>en</ex></expan> wir ewch mit fleiss von des
+                                <expan>vorg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>
+<expan>weg<ex>en</ex></expan>, daz ir dem <expan>obg<ex>enanten</ex></expan>
+<expan>bott<ex>en</ex></expan> ewr <expan>frewntl<ex>ich</ex></expan>
+<expan>anweisu<ex>n</ex>g</expan> tun und ewch
+                            <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan> sache lasset befolhen sein, als etc. Das
+                                <expan>well<ex>e</ex>n</expan> wir etc.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii<hi rend="sup">a</hi>
+<expan>i<ex>n</ex></expan> festo pasche. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dunhuang-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zho-Hant">修心要論── 敦煌遺書Dh.1996B+Dh.2006B（L2642）的數位版本</title>
+        <title type="simple" xml:lang="zho-Hant">修心要論 Dh.1996B+Dh.2006B</title>
+        <title xml:lang="eng">Treatise on the Principles of Training the Mind - A Transcription of the Dunhuang Manuscript Dh.1996B+Dh.2006B (L2642)</title>
+        <author xml:lang="zho-Hant">弘忍</author>
+        <author xml:lang="zho-Latn">Hongren</author>
+        <respStmt><name>Chang, Po-Yung 張伯雍</name><resp>Transcription</resp></respStmt>
+        <principal>Marcus Bingenheimer 馬德偉</principal>
+        <funder>Chung-hwa Institute of Buddhist Studies 中華佛學研究所</funder>
+      </titleStmt>
+      <publicationStmt>
+        <p>This XML/TEI transcription is made available under a Creative Commons License (Attribution-ShareAlike 4.0 International)</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>The transcription was done from digital facsimiles distributed by the International Dunhuang Project and the Bibliothèque nationale de France. For a detailed description of a ms from the Pelliot collection please refer to the "Catalogue des manuscrits chinois de Touen-Houang" Paris 1970-2001. For mss from the Stein collection try Lionel Giles "Descriptive Catalogue of the Chinese Manuscripts from Tunhuang in the British Museum." London: British Museum, 1957.
+        </p>
+      </sourceDesc>
+    </fileDesc>
+    <xi:include href="00-encodingDesc.xml"/>
+  </teiHeader>
+  <text>
+    <body><div xml:id="wrap-Dh1996BrDh2006Br-0001-0007">
+      <ab xml:id="xxyl-Dh-2006B-01"><lb xml:id="Dh1996BrDh2006Br-0001"/>問曰<pc>：「</pc>何知守心<ptr target="#n114"/>
+      <lb xml:id="Dh1996BrDh2006Br-0002"/><damage unit="char" extent="20"/><unclear reason="damage">我</unclear>心<orig reg="既"><g ref="#A01770-008"/></orig><orig reg="真"><g ref="#A02768-018"/></orig><pc>，</pc><orig reg="妄"><g ref="#A00880-004"/></orig><orig reg="想"><g ref="#Dh1996B-2-06"/></orig>
+      <lb xml:id="Dh1996BrDh2006Br-0003"/><damage unit="char" extent="17"/><unclear reason="damage" unit="char" extent="3">照智生</unclear><pc>；</pc>故<pc>，</pc><orig reg="即"><g ref="#P3294-009-06"/></orig>
+      <lb xml:id="Dh1996BrDh2006Br-0004"/><damage unit="char" extent="6"/><orig reg="性"><g ref="#A01328-006"/></orig>故<ptr target="#n55"/><damage unit="char" extent="16"/><ptr target="#n56"/>何<unclear reason="damage" unit="char" extent="5">知守心是入</unclear>
+      <lb xml:id="Dh1996BrDh2006Br-0005"/><damage unit="char" extent="25"/>
+      <lb xml:id="Dh1996BrDh2006Br-0006"/><damage unit="char" extent="2"/>教<orig reg="導">道</orig><ptr target="#n101"/>無智<unclear reason="damage">眾</unclear><damage unit="char" extent="20"/>
+      <lb xml:id="Dh1996BrDh2006Br-0007"/><orig reg="成"><g ref="#P3664-552-23"/></orig><unclear reason="damage" unit="char" extent="2">佛者<pc>，</pc></unclear><orig reg="會"><g ref="#A01840-006"/></orig><orig reg="是"><g ref="#S0646-014-26"/></orig>守自<unclear reason="damage">真</unclear></ab></div>
+      </body>
+  </text>
+</TEI>

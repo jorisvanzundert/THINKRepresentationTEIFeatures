@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2012" xml:id="l2024" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2012 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>123r–123v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2012.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q1794" type="recipient">Frankfurt am Main</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q9009" type="mention">Schaffhausen (Schweiz)</placeName><persName type="mention">Hafner, Niklas</persName><persName type="mention">Gartner, Ulrich</persName><persName type="mention">Gartner, Heinrich</persName><persName type="mention">Gartner, Christiane</persName></ab><date from="26-11-1415" to="26-11-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_246">
+<surface lrx="2638" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0126_right.png" width="2638px"/>
+<zone lrx="1160" lry="2542" rendition="TextRegion" ulx="1022" uly="3125" xml:id="facs_246_r1"> <zone lrx="1787" lry="2542" rendition="Line" ulx="892" uly="2489" xml:id="facs_246_r1l23"/>
+<zone lrx="1160" lry="2571" rendition="Line" ulx="1022" uly="2534" xml:id="facs_246_r1l24"/>
+<zone lrx="2510" lry="2624" rendition="Line" ulx="495" uly="2565" xml:id="facs_246_r1l25"/>
+<zone lrx="2453" lry="2709" rendition="Line" ulx="511" uly="2640" xml:id="facs_246_r1l26"/>
+<zone lrx="2462" lry="2791" rendition="Line" ulx="514" uly="2716" xml:id="facs_246_r1l27"/>
+<zone lrx="2431" lry="2871" rendition="Line" ulx="510" uly="2801" xml:id="facs_246_r1l28"/>
+<zone lrx="2450" lry="2950" rendition="Line" ulx="505" uly="2883" xml:id="facs_246_r1l29"/>
+<zone lrx="2440" lry="3027" rendition="Line" ulx="499" uly="2958" xml:id="facs_246_r1l30"/>
+<zone lrx="2486" lry="3110" rendition="Line" ulx="502" uly="3041" xml:id="facs_246_r1l31"/>
+<zone lrx="2462" lry="3196" rendition="Line" ulx="522" uly="3125" xml:id="facs_246_r1l32"/>
+</zone>
+</surface>
+</facsimile><facsimile xml:id="facs_247">
+<surface lrx="2619" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0127_left.png" width="2619px"/>
+<zone lrx="1132" lry="365" rendition="TextRegion" ulx="680" uly="630" xml:id="facs_247_r1">
+<zone lrx="2472" lry="365" rendition="Line" ulx="622" uly="268" xml:id="facs_247_r1l1"/>
+<zone lrx="2464" lry="447" rendition="Line" ulx="656" uly="348" xml:id="facs_247_r1l2"/>
+<zone lrx="2460" lry="537" rendition="Line" ulx="661" uly="430" xml:id="facs_247_r1l3"/>
+<zone lrx="2409" lry="619" rendition="Line" ulx="657" uly="504" xml:id="facs_247_r1l4"/>
+<zone lrx="1132" lry="711" rendition="Line" subtype="paragraph" ulx="680" uly="630" xml:id="facs_247_r1l5"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Frankfurt am Main</head><p>Der Rat teilt mit, dass der zu Frankfurt am Main getraute Niklas Hafner von Schaffhausen seit langem mit Christiane Gartner verheiratet ist, mit ihr lange zu Nürnberg gelebt hat und sie noch am Leben ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_246" id="123r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_246_r1l23">Der Stat ʒu frankenfört </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_246_r1l25"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> als Jr vns 
+<add><ab facs="#facs_246_r1l24">nehſt </ab></add> <expan>verſchr<ex>iben</ex></expan> habt / vvıe dem Nıclas <expan>hafn<ex>er</ex></expan> von ſchaf = </ab>
+<ab facs="#facs_246_r1l26"><expan>hawſ<ex>en</ex></expan> <expan>eine<ex>m</ex></expan> helmſmıd ein Junkfraw bey eẅch gelobt vnd getreẅt </ab>
+<ab facs="#facs_246_r1l27">ſey . vnd Jr <expan>v<ex>er</ex>nomen</expan> habt / daʒ derſelb . ein elıche hauſſfrawn . ʒuuor </ab>
+<ab facs="#facs_246_r1l28">bey vns gehabt hab etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> Vnd <expan>laſſ<ex>en</ex></expan> </ab>
+<ab facs="#facs_246_r1l29">eẅr <expan>weıſh<ex>eit</ex></expan> <expan>wıſſ<ex>en</ex></expan> / daʒ . <expan>vlr<ex>ich</ex></expan> <expan>gartn<ex>er</ex></expan> . vnd <expan>heınr<ex>ich</ex></expan> <expan>Gartn<ex>er</ex></expan> ſein ſun </ab>
+<ab facs="#facs_246_r1l30">beıd <expan>vnſ<ex>er</ex></expan> <expan>b<ex>urger</ex></expan> / ettwıeuıl <expan>erb<ex>er</ex>r</expan> leẅt <expan>vnſ<ex>er</ex>r</expan> <expan>eingeſeſſ<ex>en</ex></expan> <expan>b<ex>urger</ex></expan> . für vns </ab>
+<ab facs="#facs_246_r1l31">bracht . vnd dıe auf ır eyd geſagt <expan>habe<ex>n</ex></expan> / daʒ Jn kunt vnd <expan>gwıſſe<ex>n</ex></expan> </ab>
+<ab facs="#facs_246_r1l32">ſey . daʒ der <expan>vorg<ex>enante</ex></expan> Nıclas hafner / dıe Crıſtein . der <expan>obg<ex>enanten</ex></expan> ʒweyer </ab>
+<pb facs="#facs_247" id="123v"/>
+<ab facs="#facs_247_r1l1">gartner tochter vnd ſweſter <expan>elıche<ex>n</ex></expan> <expan>genome<ex>n</ex></expan> vnd bey vns ʒu </ab>
+<ab facs="#facs_247_r1l2"> <expan>kırche<ex>n</ex></expan> vnd ʒu <expan>ſtraſſ<ex>en</ex></expan> gefürt 
+<del rend="strikethrough">hab </del> vnd darnach etwıelang hıe </ab>
+<ab facs="#facs_247_r1l3">weſenlıch bey Jr gewont hab / vnd daʒ auch dıeſelb Crıſtein </ab>
+<ab facs="#facs_247_r1l4">noch bey leben ſey / Denn wo wır <expan>ewr<ex>er</ex></expan> <expan>erſamk<ex>eit</ex></expan> etc </ab>
+<ab facs="#facs_247_r1l5"><expan>Dat<ex>um</ex></expan> ut <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_246" id="123r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat zu Frankenfört </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns <add>nehst</add>
+<expan>verschr<ex>iben</ex></expan> habt, wie dem Niclas
+                                <expan>Hafn<ex>er</ex></expan> von
+                            Schaf<expan>haws<ex>en,</ex></expan>
+<expan>eine<ex>m</ex></expan> helmsmid, ein junkfraw bey ewch gelobt und
+                        getrewt sey und ir <expan>v<ex>er</ex>nomen</expan> habt, daz derselb ein
+                        eliche haussfrawn zuvor bey uns gehabt hab etc., das
+                            <expan>hab<ex>e</ex>n</expan> wir wol <expan>vernom<ex>en</ex></expan>
+                        und <expan>lass<ex>en</ex></expan> ewr <expan>weish<ex>eit</ex></expan>
+<expan>wiss<ex>en,</ex></expan> daz <expan>Ulr<ex>ich</ex></expan>
+<expan>Gartn<ex>er</ex></expan> und <expan>Heinr<ex>ich</ex></expan>
+<expan>Gartn<ex>er</ex></expan>, sein sun, beid
+                            <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>, ettwievil <expan>erb<ex>er</ex>r</expan>
+                        lewt, <expan>uns<ex>er</ex>r</expan>
+<expan>eingesess<ex>en</ex></expan>
+<expan>b<ex>urger</ex></expan>, für uns bracht und die auf ir eyd gesagt
+                                <expan>habe<ex>n</ex></expan>, daz in kunt und
+                                <expan>gwisse<ex>n</ex></expan> sey, daz der
+                                <expan>vorg<ex>enante</ex></expan> Niclas Hafner die Cristein, der
+                                <expan>obg<ex>enanten</ex></expan> zweyer<pb facs="#facs_247" id="123v"/>
+                        Gartner tochter und swester, <expan>eliche<ex>n</ex></expan>
+<expan>genome<ex>n</ex></expan> und bey uns zu
+                            <expan>kirche<ex>n</ex></expan> und zu <expan>strass<ex>en</ex></expan>
+                        gefürt und darnach etwielang hie wesenlich bey ir gewont hab und daz auch
+                        dieselb Cristein noch bey leben sey. Denn wo wir
+                            <expan>ewr<ex>er</ex></expan>
+<expan>ersamk<ex>eit</ex></expan> etc. <expan>Dat<ex>um</ex></expan> ut
+                                <expan>sup<ex>ra</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

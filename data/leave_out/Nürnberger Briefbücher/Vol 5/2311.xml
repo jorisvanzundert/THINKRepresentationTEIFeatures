@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2311" xml:id="l2323" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2311 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>059v–060r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2311.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Teufel, Benz</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q14887" type="mention">Neumarkt i. d. Oberpfalz</placeName><persName type="mention">Schürstab, Erhard I.</persName></ab><date from="10-05-1420" to="10-05-1420" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_121">
+<surface lrx="2630" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0063_left.png" width="2630px"/>
+<zone lrx="408" lry="2719" rendition="TextRegion" ulx="184" uly="2562" xml:id="facs_121_r1">
+<zone lrx="408" lry="2719" rendition="Line" ulx="184" uly="2562" xml:id="facs_121_r1l2"/>
+</zone>
+<zone lrx="2012" lry="2545" rendition="TextRegion" ulx="1033" uly="3028" xml:id="facs_121_r2"> <zone lrx="2012" lry="2545" rendition="Line" ulx="1033" uly="2469" xml:id="facs_121_r2l24"/>
+<zone lrx="2565" lry="2677" rendition="Line" ulx="631" uly="2581" xml:id="facs_121_r2l25"/>
+<zone lrx="2543" lry="2768" rendition="Line" ulx="653" uly="2672" xml:id="facs_121_r2l26"/>
+<zone lrx="2567" lry="2864" rendition="Line" ulx="651" uly="2765" xml:id="facs_121_r2l27"/>
+<zone lrx="2553" lry="2956" rendition="Line" ulx="643" uly="2848" xml:id="facs_121_r2l28"/>
+<zone lrx="2524" lry="3047" rendition="Line" ulx="650" uly="2937" xml:id="facs_121_r2l29"/>
+<zone lrx="2549" lry="3142" rendition="Line" ulx="639" uly="3028" xml:id="facs_121_r2l30"/>
+</zone>
+</surface>
+</facsimile><facsimile xml:id="facs_122">
+<surface lrx="2667" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0063_right.png" width="2667px"/>
+<zone lrx="927" lry="312" rendition="TextRegion" ulx="442" uly="409" xml:id="facs_122_r2">
+<zone lrx="2407" lry="312" rendition="Line" ulx="437" uly="246" xml:id="facs_122_r2l1"/>
+<zone lrx="2418" lry="402" rendition="Line" ulx="442" uly="330" xml:id="facs_122_r2l2"/>
+<zone lrx="927" lry="479" rendition="Line" ulx="441" uly="409" xml:id="facs_122_r2l3"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Benz Teufel zu Neumarkt in der Oberpfalz</head><p>Der Rat teilt wegen des geforderten Sicherns Unkenntnis über die Betroffenen mit und gewährt dem Adressaten bis Jakobstag vier Tage Geleit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_121" id="59v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_121_r2l24">Bencʒen teẅffel <expan>vom<ex>m</ex></expan> Neẅnmarkt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><note place="margınleft"><ab facs="#facs_121_r1l2">Jn bapıro </ab></note>
+<ab facs="#facs_121_r2l25">Bencʒ teẅfel als du vns <expan>verſchr<ex>iben</ex></expan> haſt von rede <expan>weg<ex>en</ex></expan> dıe an dıch komen </ab>
+<ab facs="#facs_121_r2l26">ſey . daʒ wır dıch für vns vnd dıe <expan>vnſ<ex>er</ex>n</expan> ſıcher <expan>ſölte<ex>n</ex></expan> etc . das <expan>hab<ex>e</ex>n</expan> wır </ab>
+<ab facs="#facs_121_r2l27">wol <expan>vernom<ex>en</ex></expan> . Nu haſt du vns nıht benennet welh dıe <expan>vnſ<ex>er</ex>n</expan> das an = </ab>
+<ab facs="#facs_121_r2l28">treffe daʒ wır darcʒu nıht <expan>wıſſe<ex>n</ex></expan> ʒu <expan>antw<ex>ur</ex>ten</expan> / VVıe <expan>daru<ex>m</ex>b</expan> wenn du </ab>
+<ab facs="#facs_121_r2l29"><expan>hıeʒwıſch<ex>e</ex>n</expan> ſand Jacobs tag ſchıerıſt ʒu vns <expan>kome<ex>n</ex></expan> wılt . ſo ſolt du </ab>
+<ab facs="#facs_121_r2l30">ʒu vnd von vns . für vns vnd dıe <expan>vnſ<ex>er</ex>n</expan> on geuerd vnd bey vns für </ab>
+<pb facs="#facs_122" id="60r"/>
+<ab facs="#facs_122_r2l1"><expan>all<ex>er</ex>meniklıch<ex>e</ex>n</expan> vıer tag geleyt <expan>hab<ex>e</ex>n</expan> / alſdenn <expan>well<ex>e</ex>n</expan> wır dein rede </ab>
+<ab facs="#facs_122_r2l2"><expan>daru<ex>m</ex>b</expan> <expan>g<ex>er</ex>n</expan> hören . <expan>dat<ex>um</ex></expan> <expan>ſ<ex>ub</ex></expan> ſıgıllo Erhardȷ Schürſtab <expan>m<ex>a</ex>g<ex>iſt</ex>rıciuıu<ex>m</ex></expan> </ab>
+<ab facs="#facs_122_r2l3"><expan>f<ex>er</ex>ıa</expan> vȷ<hi rend="sup">a</hi> ut <expan>ſ<ex>upra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_121" id="59v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Benczen Tewffel <expan>vom<ex>m</ex></expan> Newnmarkt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab><app>
+<note place="marginleft">In bapiro. </note>
+</app>Bencz Tewfel, als du uns <expan>verschr<ex>iben</ex></expan> hast von
+                        rede <expan>weg<ex>en</ex></expan>, die an dich komen sey, daz wir dich für
+                        uns und die <expan>uns<ex>er</ex>n</expan> sicher
+                            <expan>sölte<ex>n</ex></expan> etc., das <expan>hab<ex>e</ex>n</expan>
+                        wir wol <expan>vernom<ex>en</ex></expan>. Nu hast du uns niht benennet, welh
+                        die <expan>uns<ex>er</ex>n</expan> das antreffe, daz wir darczu niht
+                                <expan>wisse<ex>n</ex></expan> zu <expan>antw<ex>ur</ex>ten</expan>;
+                        wie <expan>daru<ex>m</ex>b</expan> wenn du
+                            <expan>hiezwisch<ex>e</ex>n</expan>
+<app>
+<note><q type="date">sand Jacobs tag schierist</q>25.07.1420</note>
+</app> zu uns <expan>kome<ex>n</ex></expan> wilt, so solt du zu und von uns
+                        für uns und die <expan>uns<ex>er</ex>n</expan> on geverd und bey uns für <pb facs="#facs_122" id="60r"/>
+<expan>all<ex>er</ex>meniklich<ex>e</ex>n</expan> vier tag geleyt
+                                <expan>hab<ex>e</ex>n</expan>, alsdenn
+                            <expan>well<ex>e</ex>n</expan> wir dein rede
+                            <expan>daru<ex>m</ex>b</expan>
+<expan>g<ex>er</ex>n</expan> hören. <expan>Dat<ex>um</ex></expan>
+<expan>s<ex>ub</ex></expan> sigillo Erhardi Schürstab
+                                <expan>m<ex>a</ex>g<ex>ist</ex>ri civiu<ex>m</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi<hi rend="sup">a</hi> ut
+                                <expan>s<ex>upra</ex>.</expan>
+</ab></div>
+</div></body>
+</text>
+</TEI>

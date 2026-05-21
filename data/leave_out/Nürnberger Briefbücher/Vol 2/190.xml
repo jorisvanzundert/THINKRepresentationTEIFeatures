@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="190" xml:id="l192" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 190 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>052v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 190.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Markgraf, Konrad</persName></ab><ab type="mention"><placeName type="mention">Trockau (Gt. d. Stadt Pegnitz, Lk. Bayreuth)</placeName><persName type="mention">Kösel, Hermann</persName></ab><date from="17-09-1408" to="17-09-1408" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_108">
+<surface lrx="2832" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0055_left.png" width="2832px"/> <zone lrx="1862" lry="1468" rendition="TextRegion" ulx="1489" uly="2167" xml:id="facs_108_r3"> <zone lrx="2125" lry="1468" rendition="Line" ulx="1475" uly="1415" xml:id="facs_108_r3l16"/>
+<zone lrx="1862" lry="1555" rendition="Line" ulx="1489" uly="1504" xml:id="facs_108_r3l17"/>
+<zone lrx="2459" lry="1733" rendition="Line" ulx="777" uly="1687" xml:id="facs_108_r3l18"/>
+<zone lrx="2480" lry="1815" rendition="Line" ulx="761" uly="1760" xml:id="facs_108_r3l19"/>
+<zone lrx="2442" lry="1889" rendition="Line" ulx="761" uly="1836" xml:id="facs_108_r3l20"/>
+<zone lrx="2557" lry="1967" rendition="Line" ulx="774" uly="1904" xml:id="facs_108_r3l21"/>
+<zone lrx="2553" lry="2045" rendition="Line" ulx="767" uly="1967" xml:id="facs_108_r3l22"/>
+<zone lrx="2586" lry="2120" rendition="Line" ulx="753" uly="2032" xml:id="facs_108_r3l23"/>
+<zone lrx="2494" lry="2191" rendition="Line" ulx="757" uly="2101" xml:id="facs_108_r3l24"/>
+<zone lrx="2429" lry="2261" rendition="Line" ulx="759" uly="2167" xml:id="facs_108_r3l25"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Konrad Markgraf zu Trockau</head><p>Der Rat erklärt die Bereitschaft des Hermann Kösel, Diener der Stadt, zum Austrag vor dem Stadtgericht zu Nürnberg bis Michaelstag.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_108" id="52v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_108_r3l16"><expan>Cunrad<ex>en</ex></expan> Margkgrafen </ab>
+<ab facs="#facs_108_r3l17">cʒu Trogkaw . /</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_108_r3l18"><expan>L<ex>ieber</ex></expan> . Cunrad . / Als Jr vns geſchriben habt / von herman Köſels </ab>
+<ab facs="#facs_108_r3l19">vnſers dẏeners wegen / 
+<del rend="strikethrough">daʒ </del> <expan>Dar<ex>umb</ex></expan> haben wir 
+<del rend="strikethrough"> den </del> mit demſelben </ab>
+<ab facs="#facs_108_r3l20">vnſerm / dẏener geredt vnd Jn daran geweiſet / 
+<del rend="strikethrough">Alſo wenn </del></ab>
+<ab facs="#facs_108_r3l21">
+<del rend="strikethrough">Jr oder ewr ſcheinpot mit <expan>ew<ex>r</ex>m</expan> vollen gewalte her kumet hieʒwiſchen </del></ab>
+<ab facs="#facs_108_r3l22">
+<del rend="strikethrough">vnd ſant Michels tag ſchierſt . ſo wi </del> daʒ er ew / deʒ rechten <expan>ge<ex>r</ex>n</expan> ſein / </ab>
+<ab facs="#facs_108_r3l23">wil hie nach vnſer ſtat recht . / Alſo wenn Jr oder aber ewr ſcheinpot </ab>
+<ab facs="#facs_108_r3l24">mit <expan>ew<ex>r</ex>m</expan> vollen gewalte hieʒwiſchen vnd ſant Michels tag ſchierſt </ab>
+<ab facs="#facs_108_r3l25">herkumet ongeuerde / <expan>Dat<ex>um</ex></expan> . Jn die ſancti Lampertj Anno vııȷ<hi rend="sup">o</hi> - / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_108" id="52v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Cunrad<ex>en</ex></expan>, margkgrafen czu Trogkaw</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Cunrad, als ir uns geschriben habt von Herman
+                        Kösels, unsers dyeners, wegen. <expan>Dar<ex>umb</ex></expan> haben wir mit
+                        demselben unserm dyener geredt und in daran geweiset, daz er ew dez rechten
+                                <expan>ge<ex>r</ex>n</expan> sein wil hie nach unser stat recht.
+                        Also wenn ir oder aber ewr scheinpot mit <expan>ew<ex>r</ex>m</expan> vollen
+                        gewalte hiezwischen und <app><note><q type="date">sant Michels tag schierst</q> 29.09.1408</note></app> herkumet ongeverde.
+                                <expan>Dat<ex>um</ex></expan> in die sancti Lamperti anno viii<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="605" xml:id="l614" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 605 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>036v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 605.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wiesenthau, Heinrich v., Pfl. v. Wernfels</persName></ab><ab type="mention"><placeName type="mention">Beerbach (Gt. d. Stadt Abenberg, Lk. Roth)</placeName><placeName type="mention">Wernfels, Bg. (Lk. Roth)</placeName><placeName type="mention">Siechkobel St. Johannis (Nürnberg)</placeName><persName type="mention">Steinlinger, Heinz</persName><persName type="mention">Schmidt, Hermann</persName></ab><date from="13-01-1410" to="13-01-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_74">
+<surface lrx="2775" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0039_left.png" width="2775px"/>
+<zone lrx="1436" lry="383" rendition="TextRegion" ulx="1371" uly="1062" xml:id="facs_74_r2">
+<zone lrx="1678" lry="383" rendition="Line" ulx="1067" uly="323" xml:id="facs_74_r2l1"/>
+<zone lrx="1605" lry="446" rendition="Line" ulx="1104" uly="385" xml:id="facs_74_r2l2"/>
+<zone lrx="2658" lry="639" rendition="Line" ulx="521" uly="567" xml:id="facs_74_r2l3"/>
+<zone lrx="2686" lry="718" rendition="Line" ulx="538" uly="634" xml:id="facs_74_r2l4"/>
+<zone lrx="1436" lry="729" rendition="Line" ulx="1371" uly="679" xml:id="facs_74_line_1573048858612_44"/>
+<zone lrx="2686" lry="801" rendition="Line" ulx="547" uly="692" xml:id="facs_74_r2l5"/>
+<zone lrx="2724" lry="866" rendition="Line" ulx="528" uly="775" xml:id="facs_74_r2l6"/>
+<zone lrx="2726" lry="938" rendition="Line" ulx="522" uly="840" xml:id="facs_74_r2l7"/>
+<zone lrx="2676" lry="1018" rendition="Line" ulx="518" uly="911" xml:id="facs_74_r2l8"/>
+<zone lrx="2671" lry="1093" rendition="Line" ulx="509" uly="990" xml:id="facs_74_r2l9"/>
+<zone lrx="1883" lry="1124" rendition="Line" ulx="494" uly="1062" xml:id="facs_74_r2l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich von Wiesenthau, Vogt von Wernfels</head><p>Der Rat bittet nach Klage des Heinz Steinlinger, Pfleger der siechen Frauen zu St. Johannis bei Nürnberg, den Armmann Hermann Schmidt von Beerbach zu sichern.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_74" id="36v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_74_r2l1"><expan>Heinr<ex>ich</ex></expan> von vviſentawe / </ab>
+<ab facs="#facs_74_r2l2">vogt cʒu vverdenfels / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_74_r2l3">Lieber <expan>vviſentaw<ex>er</ex></expan> / vns hat fürgelegt Heintʒ <expan>Steinling<ex>er</ex></expan> vnſer <expan>Burg<ex>er</ex></expan> / pfleger der </ab>
+<ab facs="#facs_74_r2l4">ſiehen frawen cʒu ſant Johans beÿ vns / wie Jm <expan>H<ex>er</ex>man</expan> Smÿdt von perbach / <expan>derſelb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_74_r2l5">ſichen Armman geklagt hab / 
+<del rend="strikethrough">wie </del>
+<add><ab facs="#facs_74_line_1573048858612_44">daʒ </ab></add> er vor euch vnſicher ſeÿ / <expan>Rog<ex>amus</ex></expan> / daʒ Jr Jn <expan>ſich<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_74_r2l6">wöllet auf frewntlich recht / das wöllen etc / het Jr dann cʒu <expan>demſelbe<ex>n</ex></expan> <expan>H<ex>er</ex>man</expan> Smÿdt </ab>
+<ab facs="#facs_74_r2l7">icht cʒu ſprechen / darv̈mb ſo wil 
+<del rend="strikethrough">ent </del> der <expan>egen<ex>an</ex>t<ex>e</ex></expan> vnſer Burger ew / <expan>od<ex>er</ex></expan> <expan>ew<ex>r</ex>m</expan> ſchein = </ab>
+<ab facs="#facs_74_r2l8">boten mit <expan>ew<ex>r</ex>m</expan> vollen gewalt / von Jm vnuertʒogen <expan>ſlewnig<ex>en</ex></expan> <expan>rechte<ex>n</ex></expan> <expan>g<ex>er</ex>n</expan> helffen / </ab>
+<ab facs="#facs_74_r2l9">vvenn er des ermant wirt / vnd laſʒt vns des ewr <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> <expan>antvv<ex>ur</ex>t</expan> wider wiſʒen / </ab>
+<ab facs="#facs_74_r2l10"><expan>Dat<ex>um</ex></expan> feria <expan>S<ex>e</ex>c<ex>un</ex>da</expan> <expan>an<ex>te</ex></expan> Anthonj / Anno etc decimo $ $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_74" id="36v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Heinr<ex>ich</ex></expan> von Wisentawe, vogt czu Werdenfels </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber <expan>Wisentaw<ex>er</ex></expan>, uns hat fürgelegt Heincz
+                                <expan>Steinling<ex>er</ex></expan>, unser
+                            <expan>burg<ex>er</ex></expan>, pfleger der siehen frawen czu sant
+                        Johans bey uns, wie im <expan>H<ex>er</ex>man</expan> Smydt von Perbach,
+                                <expan>derselb<ex>e</ex>n</expan> sichen armman, geklagt hab,
+                            <add>daz</add> er vor euch unsicher sey.
+                        <expan>Rog<ex>amus</ex></expan>, daz ir in <expan>sich<ex>er</ex>n</expan>
+                        wöllet auf frewntlich recht, das wöllen etc. Het ir dann czu
+                                <expan>demselbe<ex>n</ex></expan>
+<expan>H<ex>er</ex>man</expan> Smydt icht czu sprechen, darümb so wil der
+                                <expan>egen<ex>an</ex>t<ex>e</ex></expan> unser burger ew
+                                <expan>od<ex>er</ex></expan>
+<expan>ew<ex>r</ex>m</expan> scheinboten mit <expan>ew<ex>r</ex>m</expan>
+                        vollen gewalt von im unverczogen <expan>slewnig<ex>en</ex></expan>
+<expan>rechte<ex>n</ex></expan>
+<expan>g<ex>er</ex>n</expan> helffen, wenn er des ermant wirt; und laszt uns
+                        des ewr <expan>v<ex>er</ex>schr<ex>iben</ex></expan>
+<expan>antw<ex>ur</ex>t</expan> wider wiszen. <expan>Dat<ex>um</ex></expan>
+                        feria <expan>s<ex>e</ex>c<ex>un</ex>da</expan>
+<expan>an<ex>te</ex></expan> Anthoni anno etc. decimo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

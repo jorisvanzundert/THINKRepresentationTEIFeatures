@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1960" xml:id="l1972" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1960 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>110r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1960.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q7042" type="recipient">Amberg</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1538632" type="mention">Gostenhof (Gt. d. Stadt Nürnberg)</placeName><persName type="mention">Kromer, Eberhard</persName><persName type="mention">Mauerer, Heinrich</persName><persName type="mention">Vorster, N.</persName></ab><date from="11-09-1415" to="11-09-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_220">
+<surface lrx="2622" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0113_right.png" width="2622px"/>
+<zone lrx="1598" lry="1144" rendition="TextRegion" ulx="1706" uly="2010" xml:id="facs_220_r1"> <zone lrx="1625" lry="1144" rendition="Line" ulx="867" uly="1061" xml:id="facs_220_r1l9"/>
+<zone lrx="2496" lry="1226" rendition="Line" ulx="572" uly="1138" xml:id="facs_220_r1l10"/>
+<zone lrx="2410" lry="1311" rendition="Line" ulx="568" uly="1220" xml:id="facs_220_r1l11"/>
+<zone lrx="2385" lry="1408" rendition="Line" ulx="570" uly="1303" xml:id="facs_220_r1l12"/>
+<zone lrx="2415" lry="1501" rendition="Line" ulx="568" uly="1393" xml:id="facs_220_r1l13"/>
+<zone lrx="2455" lry="1594" rendition="Line" ulx="568" uly="1480" xml:id="facs_220_r1l14"/>
+<zone lrx="2459" lry="1691" rendition="Line" ulx="585" uly="1577" xml:id="facs_220_r1l15"/>
+<zone lrx="2429" lry="1787" rendition="Line" ulx="594" uly="1682" xml:id="facs_220_r1l16"/>
+<zone lrx="2401" lry="1881" rendition="Line" ulx="576" uly="1786" xml:id="facs_220_r1l17"/>
+<zone lrx="2113" lry="1974" rendition="Line" ulx="1706" uly="1885" xml:id="facs_220_r1l18"/>
+<zone lrx="1598" lry="1971" rendition="Line" ulx="589" uly="1899" xml:id="facs_220_r1l19"/>
+<zone lrx="2425" lry="2110" rendition="Line" ulx="585" uly="2010" xml:id="facs_220_r1l20"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Amberg</head><p>Der Rat bittet um Freilassung des Eberhard Kromer von Gostenhof und Festhaltung des Heinrich Maurer, der N. Vorster ermordet hat, und kündigt seine Gesandtschaft an. Im beigefügten Zettel wird die Zahlung des Botenlohns bestätigt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_220" id="110r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_220_r1l9">Der Stat ʒu Amberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_220_r1l10"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> als Jr vns <expan>verſchr<ex>iben</ex></expan> habt wıe <expan>Eberh<ex>art</ex></expan> <expan>krom<ex>er</ex></expan> vom goſten = </ab>
+<ab facs="#facs_220_r1l11">hof . den <expan>Heinr<ex>ich</ex></expan> <expan>Mawr<ex>er</ex></expan> der den vorſter bey vns ermortt hat . ın </ab>
+<ab facs="#facs_220_r1l12"><expan>eẅr<ex>er</ex></expan> fenknuſſ bracht vnd ſıch in fenknuſſ ʒu Jm gelegt hab etc </ab>
+<ab facs="#facs_220_r1l13">das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> . Vnd <expan>dank<ex>en</ex></expan> <expan>eẅr<ex>er</ex></expan> <expan>freẅntſch<ex>aft</ex></expan> des mıt </ab>
+<ab facs="#facs_220_r1l14">fleıſſ . Vnd <expan>bıtt<ex>en</ex></expan> eẅr <expan>weıſh<ex>eit</ex></expan> . daʒ Jr den <expan>vorg<ex>enante</ex>n</expan> <expan>Eberh<ex>art</ex></expan> kromer </ab>
+<ab facs="#facs_220_r1l15">der fenknuſſ ledıg laſſet Vnd vns <expan>denſ<ex>elben</ex></expan> <expan>Heınr<ex>ich</ex></expan> <expan>Mawr<ex>er</ex></expan> haltet </ab>
+<ab facs="#facs_220_r1l16">alſlang bıs wır <expan>vnſ<ex>er</ex></expan> ſelbs <expan>botſch<ex>aft</ex></expan> ʒu eẅch <expan>daru<ex>m</ex>b</expan> <expan>ſchık<ex>en</ex></expan> der </ab>
+<ab facs="#facs_220_r1l17">wır <expan>vnſ<ex>er</ex></expan> <expan>meynu<ex>n</ex>g</expan> <expan>aıgenl<ex>ich</ex></expan> <expan>empfelhe<ex>n</ex></expan> <expan>well<ex>e</ex>n</expan> . Vnd tut darinn </ab>
+<ab facs="#facs_220_r1l19">als etc . Das <expan>well<ex>e</ex>n</expan> etc . </ab>
+<ab facs="#facs_220_r1l18"><expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi></ab>
+</div>
+<div type="cedula"><ab facs="#facs_220_r1l20">Cettula <expan>ınt<ex>er</ex></expan> cluſa . Auch <expan>hab<ex>e</ex>n</expan> wır dem botten das lon <expan>geb<ex>e</ex>n</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_220" id="110r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat zu Amberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde,</ex></expan> als ir uns
+                                                  <expan>verschr<ex>iben</ex></expan> habt, wie
+                                                  <expan>Eberh<ex>art</ex></expan>
+<expan>Krom<ex>er</ex></expan> vom Gostenhof den
+                                                  <expan>Heinr<ex>ich</ex></expan>
+<expan>Mawr<ex>er</ex></expan>, der den Vorster bey
+                                                uns ermortt hat, in <expan>ewr<ex>er</ex></expan>
+                                                fenknuss bracht und sich in fenknuss zu im gelegt
+                                                hab etc., das <expan>hab<ex>e</ex>n</expan> wir wol
+                                                  <expan>vernom<ex>en</ex></expan> und
+                                                  <expan>dank<ex>en</ex></expan>
+<expan>ewr<ex>er</ex></expan>
+<expan>frewntsch<ex>aft</ex></expan> des mit fleiss.
+                                                Und <expan>bitt<ex>en</ex></expan> ewr
+                                                  <expan>weish<ex>eit</ex></expan>, daz ir den
+                                                  <expan>vorg<ex>enante</ex>n</expan>
+<expan>Eberh<ex>art</ex></expan> Kromer der fenknuss
+                                                ledig lasset und uns
+                                                  <expan>dens<ex>elben</ex></expan>
+<expan>Heinr<ex>ich</ex></expan>
+<expan>Mawr<ex>er</ex></expan> haltet, alslang bis
+                                                wir <expan>uns<ex>er</ex></expan> selbs
+                                                  <expan>botsch<ex>aft</ex></expan> zu ewch
+                                                  <expan>daru<ex>m</ex>b</expan>
+<expan>schik<ex>en</ex></expan>, der wir
+                                                  <expan>uns<ex>er</ex></expan>
+<expan>meynu<ex>n</ex>g</expan>
+<expan>aigenl<ex>ich</ex></expan>
+<expan>empfelhe<ex>n</ex></expan>
+<expan>well<ex>e</ex>n</expan>. Und tut darinn, als
+                                                etc. Das <expan>well<ex>e</ex>n</expan> etc.
+                                                  <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi>. </ab>
+</div>
+<div type="cedula">
+<ab>Cettula <expan>int<ex>er</ex></expan>clusa: Auch
+                            <expan>hab<ex>e</ex>n</expan> wir dem botten das lon
+                                <expan>geb<ex>e</ex>n.</expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1962" xml:id="l1974" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1962 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>110v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1962.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q7042" type="recipient">Amberg</placeName><persName type="recipient">Gewolf v. Degenberg, Hans II.</persName><persName type="recipient">Wolfring, Ruprecht v.<noteGrp><note type="footnote">Der vollständige Name des Landschreibers zu Amberg geht hervor aus Krenz u. a., Nürnberger Briefbücher V, Nr. 2934.</note></noteGrp></persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1538632" type="mention">Gostenhof (Gt. d. Stadt Nürnberg)</placeName><persName type="mention">Waltmann, Marquart</persName><persName type="mention">Kromer, Eberhard</persName><persName type="mention">Mauerer, Heinrich</persName></ab><date from="11-09-1415" to="11-09-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_221">
+<surface lrx="2597" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0114_left.png" width="2597px"/>
+<zone lrx="437" lry="436" rendition="TextRegion" ulx="175" uly="445" xml:id="facs_221_r1">
+<zone lrx="437" lry="436" rendition="Line" ulx="175" uly="380" xml:id="facs_221_r1l1"/>
+<zone lrx="517" lry="500" rendition="Line" ulx="173" uly="445" xml:id="facs_221_r1l2"/>
+</zone>
+<zone lrx="926" lry="353" rendition="TextRegion" ulx="630" uly="827" xml:id="facs_221_r2">
+<zone lrx="2510" lry="353" rendition="Line" ulx="610" uly="290" xml:id="facs_221_r2l1"/>
+<zone lrx="2518" lry="433" rendition="Line" ulx="601" uly="368" xml:id="facs_221_r2l2"/>
+<zone lrx="2510" lry="531" rendition="Line" ulx="611" uly="451" xml:id="facs_221_r2l3"/>
+<zone lrx="2519" lry="629" rendition="Line" ulx="622" uly="529" xml:id="facs_221_r2l4"/>
+<zone lrx="2541" lry="722" rendition="Line" ulx="616" uly="614" xml:id="facs_221_r2l5"/>
+<zone lrx="2492" lry="809" rendition="Line" ulx="626" uly="706" xml:id="facs_221_r2l6"/>
+<zone lrx="926" lry="881" rendition="Line" ulx="630" uly="827" xml:id="facs_221_r2l7"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über Ausstellung dreier Kredenzbriefe</head><p>Drei Kredenzbriefe für Marquart Waltmann an Hans II. Gewolf, Viztum von Amberg, Ruprecht N., Landschreiber, und Amberg wegen Heinrich Maurer und dessen Gefangennahme durch Eberhard Kromer von Gostenhof.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_221" id="110v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_221_r2l1"><expan>Jt<ex>em</ex></expan> drey credencʒ eıne an
+                                <expan>h<ex>er</ex>n</expan>
+<expan>Hanſ<ex>en</ex></expan> gebolf vom <expan>tegemb<ex>er</ex>g</expan>
+                        vıcʒtum </ab>
+<ab facs="#facs_221_r2l2">. eine . an ~ den <add><ab facs="#facs_221_r1l1">Ruprecht </ab><ab facs="#facs_221_r1l2"><expan>lantſchreıb<ex>er</ex></expan>
+</ab></add>
+<del rend="strikethrough"><expan>Berchtolcʒhof<ex>er</ex></expan></del> Rıchter . Vnd eine an ~
+                        dıe Stat </ab>
+<ab facs="#facs_221_r2l3">ʒu Amberg . auf <expan>markart<ex>en</ex></expan>
+<expan>waltma<ex>n</ex></expan> ʒu reden . als von ~ des </ab>
+<ab facs="#facs_221_r2l4"><expan>gefang<ex>en</ex></expan>
+<expan>weg<ex>en</ex></expan>
+<expan>Heınr<ex>ich</ex></expan>
+<expan>Mawr<ex>er</ex>s</expan> . . den <expan>Eberh<ex>art</ex></expan>
+<expan>krom<ex>er</ex></expan> vom goſtenhof </ab>
+<ab facs="#facs_221_r2l5">ʒu Amberg ʒu fenknuſſ . bracht hat / Doch den von
+                        Amberg </ab>
+<ab facs="#facs_221_r2l6"><expan>mutat<ex>is</ex></expan>
+<expan>muta<ex>n</ex>dıs</expan> . auf den brıef . als man Jn heẅt
+                                <expan>geantw<ex>ur</ex>t</expan> hat </ab>
+<ab facs="#facs_221_r2l7"><expan>act<ex>um</ex></expan> ut
+                            <expan>ſ<ex>upra</ex></expan>
+</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_221" id="110v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>It<ex>em</ex></expan> drey credencz, eine an
+                            <expan>h<ex>er</ex>n</expan>
+<expan>Hans<ex>en</ex></expan> Gebolf vom <expan>Tegemb<ex>er</ex>g,</expan>
+                        vicztum, eine an den
+                            <add>Ruprecht,<expan>lantschreib<ex>er</ex></expan></add>, richter, und
+                        eine an die stat zu Amberg, auf <expan>Markart<ex>en</ex></expan>
+<expan>Waltma<ex>n</ex></expan> zu reden als von des
+                                <expan>gefang<ex>en</ex></expan>
+<expan>weg<ex>en</ex></expan>
+<expan>Heinr<ex>ich</ex></expan>
+<expan>Mawr<ex>er</ex>s</expan>, den <expan>Eberh<ex>art</ex></expan>
+<expan>Krom<ex>er</ex></expan> vom Gostenhof zu Amberg zu fenknuss bracht
+                        hat. Doch den von Amberg <expan>mutat<ex>is</ex></expan>
+<expan>muta<ex>n</ex>dis</expan>: auf den brief, als man in hewt
+                                <expan>geantw<ex>ur</ex>t</expan> hat. <expan>Act<ex>um</ex></expan>
+                        ut <expan>s<ex>upra.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1789" xml:id="l1800" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1789 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>068r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1789.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q57124" type="recipient">Sigismund v. Luxemburg, dt. König</persName></ab><ab type="mention"><persName type="mention">N., Judel, Jude</persName><persName type="mention">Kragen, Peter</persName></ab><date from="9-03-1415" to="9-03-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_136">
+<surface lrx="2634" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0070_right.png" width="2634px"/>
+<zone lrx="410" lry="1866" rendition="TextRegion" ulx="86" uly="1707" xml:id="facs_136_r1">
+<zone lrx="410" lry="1866" rendition="Line" ulx="86" uly="1707" xml:id="facs_136_r1l1"/>
+</zone>
+<zone lrx="775" lry="1454" rendition="TextRegion" ulx="843" uly="2623" xml:id="facs_136_r2"> <zone lrx="2129" lry="1454" rendition="Line" ulx="843" uly="1376" xml:id="facs_136_r2l12"/>
+<zone lrx="2409" lry="1589" rendition="Line" ulx="527" uly="1510" xml:id="facs_136_r2l13"/>
+<zone lrx="2424" lry="1673" rendition="Line" ulx="519" uly="1602" xml:id="facs_136_r2l14"/>
+<zone lrx="2412" lry="1759" rendition="Line" ulx="528" uly="1677" xml:id="facs_136_r2l15"/>
+<zone lrx="2402" lry="1850" rendition="Line" ulx="547" uly="1773" xml:id="facs_136_r2l16"/>
+<zone lrx="2419" lry="1946" rendition="Line" ulx="546" uly="1857" xml:id="facs_136_r2l17"/>
+<zone lrx="2426" lry="2040" rendition="Line" ulx="544" uly="1953" xml:id="facs_136_r2l18"/>
+<zone lrx="2379" lry="2135" rendition="Line" ulx="539" uly="2049" xml:id="facs_136_r2l19"/>
+<zone lrx="2408" lry="2224" rendition="Line" ulx="566" uly="2141" xml:id="facs_136_r2l20"/>
+<zone lrx="2420" lry="2313" rendition="Line" ulx="570" uly="2234" xml:id="facs_136_r2l21"/>
+<zone lrx="2440" lry="2405" rendition="Line" ulx="560" uly="2330" xml:id="facs_136_r2l22"/>
+<zone lrx="2443" lry="2501" rendition="Line" ulx="567" uly="2429" xml:id="facs_136_r2l23"/>
+<zone lrx="2308" lry="2600" rendition="Line" ulx="563" uly="2521" xml:id="facs_136_r2l24"/>
+<zone lrx="775" lry="2694" rendition="Line" ulx="567" uly="2623" xml:id="facs_136_r2l25"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an König Sigismund I.</head><p>Der Rat kündigt Peter Kragen, Diener der Stadt, wegen des Juden Judel N. und der Judenschaft zu Nürnberg an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_136" id="68r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><del rend="crossout"><ab facs="#facs_136_r2l12"><expan>H<ex>er</ex>n</expan> <expan>Sıg<ex>mund</ex></expan> <expan>Römıſch<ex>en</ex></expan> künıg ʒu <expan>all<ex>e</ex>n</expan> ʒeıten etc</ab>
+</del></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><note place="marginleft">
+<ab facs="#facs_136_r1l1"><expan>no<ex>n</ex></expan> <expan>e<ex>ſt</ex></expan> <expan>p<ex>raeſe</ex>ntata</expan> </ab>
+</note><del rend="crossout"><ab facs="#facs_136_r2l13">Aller <expan>durchl<ex>euhtigster</ex></expan> . <expan>f<ex>ürſt</ex></expan> . vnd <expan>h<ex>er</ex>re</expan> . <expan>Vnſ<ex>er</ex></expan> <expan>vn<ex>ternikeit</ex></expan> . <expan>ſch<ex>uldig</ex></expan> vnd <expan>w<ex>illig</ex></expan> . <expan>d<ex>ienſt</ex></expan> . ſein <expan>eẅr<ex>er</ex></expan> <expan>künıgl<ex>ich</ex></expan> </ab>
+<ab facs="#facs_136_r2l14">. <expan>ma<ex>iestat</ex></expan> . allcʒeıt mıt . <expan>g<ex>ancʒem</ex></expan> . <expan>f<ex>leiſʒ</ex></expan> . voran bereıt . <expan>Gnedıgſt<ex>er</ex></expan> fürſt vnd <expan>h<ex>er</ex>re</expan> . als </ab>
+<ab facs="#facs_136_r2l15">vns eẅr <expan>kunıgl<ex>ich</ex></expan> <expan>durchl<ex>euhtikeit</ex></expan> . von der <expan>Jüdıſch<ex>eit</ex></expan> bey vns vnd von Jüdel </ab>
+<ab facs="#facs_136_r2l16">Juden <expan>weg<ex>en</ex></expan> <expan>yecʒ<ex>unden</ex></expan> <expan>verſchr<ex>iben</ex></expan> hat etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>v<ex>er</ex>nom<ex>en</ex></expan> Vnd </ab>
+<ab facs="#facs_136_r2l17"><expan>ſchık<ex>en</ex></expan> <expan>daru<ex>m</ex>b</expan> ʒu <expan>eẅr<ex>er</ex></expan> <expan>künıgl<ex>ich</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> <expan>vnſ<ex>er</ex>n</expan> <expan>dıen<ex>er</ex></expan> <expan>pet<ex>er</ex></expan> <expan>krag<ex>en</ex></expan> <expan>weıſ<ex>er</ex></expan> </ab>
+<ab facs="#facs_136_r2l18">dıſʒ <expan>br<ex>iefs</ex></expan> . dem wır befolhen <expan>habe<ex>n</ex></expan> mıt <expan>eẅr<ex>er</ex></expan> <expan>durchl<ex>euhtikeit</ex></expan> dauon ʒureden </ab>
+<ab facs="#facs_136_r2l19">Vnd <expan>bıtt<ex>en</ex></expan> eẅr <expan>künıgl<ex>ich</ex></expan> . <expan>ma<ex>iestat</ex></expan> . <expan>demütıkl<ex>ich</ex></expan> vnd mıt <expan>g<ex>ancʒem</ex></expan> . <expan>f<ex>leiſʒ</ex></expan> . vvas der </ab>
+<ab facs="#facs_136_r2l20"><expan>obg<ex>enante</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>dıen<ex>er</ex></expan> <expan>daru<ex>m</ex>b</expan> ʒu dıſem mal an eẅr <expan>hoch<ex>wirdikeit</ex></expan> werbe vnd bıtte </ab>
+<ab facs="#facs_136_r2l21">daʒ eẅr <expan>künıgl<ex>ich</ex></expan> gnade . Jn darinn gütlıch <expan>v<ex>er</ex>hören</expan> . <expan>gencʒl<ex>ich</ex></expan> <expan>gelawbe<ex>n</ex></expan> </ab>
+<ab facs="#facs_136_r2l22">vnd auch <expan>daru<ex>m</ex>b</expan> <expan>gnedıkl<ex>ich</ex></expan> von <expan>eẅr<ex>er</ex></expan> <expan>durchl<ex>euhtikeit</ex></expan> <expan>fertıg<ex>en</ex></expan> welle . als wır </ab>
+<ab facs="#facs_136_r2l23">des <expan>denſ<ex>elben</ex></expan> <expan>eẅ<ex>r</ex>n</expan> <expan>künıgl<ex>ichen</ex></expan> <expan>gnad<ex>en</ex></expan> wol getrawen . das <expan>well<ex>e</ex>n</expan> wır vmb </ab>
+<ab facs="#facs_136_r2l24">eẅr <expan>künıgl<ex>ich</ex></expan> . <expan>ma<ex>ieſtat</ex></expan> . allcʒeıt <expan>wıllıkl<ex>ich</ex></expan> vnd <expan>g<ex>er</ex>n</expan> <expan>v<ex>er</ex>dıenen</expan> . <expan>dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_136_r2l25">ut <expan>ſup<ex>ra</ex></expan> </ab>
+</del>
+</div>
+</div><div type="regularised"><pb facs="#facs_136" id="68r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><del rend="crossout"><expan>H<ex>er</ex>n</expan>
+<expan>Sig<ex>mund,</ex></expan>
+<expan>römisch<ex>en</ex></expan> künig, zu
+                                <expan>all<ex>e</ex>n</expan> zeiten etc. </del></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab><app>
+<note place="marginleft">
+<expan>No<ex>n</ex></expan>
+<expan>e<ex>st</ex></expan>
+<expan>p<ex>raese</ex>ntata</expan>. </note>
+</app><del rend="crossout">Aller <expan>durchl<ex>euhtigster</ex></expan>
+<expan>f<ex>ürst</ex></expan> und <expan>h<ex>er</ex>re</expan>,
+                                    <expan>uns<ex>er</ex></expan>
+<expan>un<ex>ternikeit</ex></expan>
+<expan>sch<ex>uldig</ex></expan> und <expan>w<ex>illig</ex></expan>
+<expan>d<ex>ienst</ex></expan> sein <expan>ewr<ex>er</ex></expan>
+<expan>künigl<ex>ich</ex></expan>
+<expan>ma<ex>iestat</ex></expan> allczeit mit
+                                <expan>g<ex>anczem</ex></expan>
+<expan>f<ex>leisz</ex></expan> voran bereit.
+                                <expan>Gnedigst<ex>er</ex></expan> fürst und
+                                <expan>h<ex>er</ex>re</expan>, als uns ewr
+                                <expan>kunigl<ex>ich</ex></expan>
+<expan>durchl<ex>euhtikeit</ex></expan> von der
+                                    <expan>jüdisch<ex>eit</ex></expan> bey uns und von Jüdel, juden,
+                                    <expan>weg<ex>en</ex></expan>
+<expan>yecz<ex>unden</ex></expan>
+<expan>verschr<ex>iben</ex></expan> hat etc., das
+                                <expan>hab<ex>e</ex>n</expan> wir wol
+                                    <expan>v<ex>er</ex>nom<ex>en</ex></expan> und
+                                    <expan>schik<ex>en</ex></expan>
+<expan>daru<ex>m</ex>b</expan> zu <expan>ewr<ex>er</ex></expan>
+<expan>künigl<ex>ich</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>dien<ex>er</ex></expan>
+<expan>Pet<ex>er</ex></expan>
+<expan>Krag<ex>en</ex></expan>, <expan>weis<ex>er</ex></expan> disz
+                                    <expan>br<ex>iefs</ex></expan>, dem wir befolhen
+                                    <expan>habe<ex>n</ex></expan>, mit <expan>ewr<ex>er</ex></expan>
+<expan>durchl<ex>euhtikeit</ex></expan> davon zu reden; und
+                                    <expan>bitt<ex>en</ex></expan> ewr
+                                <expan>künigl<ex>ich</ex></expan>
+<expan>ma<ex>iestat</ex></expan>
+<expan>demütikl<ex>ich</ex></expan> und mit
+                                <expan>g<ex>anczem</ex></expan>
+<expan>f<ex>leisz</ex></expan>, was der
+                                <expan>obg<ex>enante</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>dien<ex>er</ex></expan>
+<expan>daru<ex>m</ex>b</expan> zu disem mal an ewr
+                                    <expan>hoch<ex>wirdikeit</ex></expan> werbe und bitte, daz ewr
+                                    <expan>künigl<ex>ich</ex></expan> gnade in darinn gütlich
+                                    <expan>v<ex>er</ex>hören</expan>,
+                                <expan>genczl<ex>ich</ex></expan>
+<expan>gelawbe<ex>n</ex></expan> und auch <expan>daru<ex>m</ex>b</expan>
+<expan>gnedikl<ex>ich</ex></expan> von <expan>ewr<ex>er</ex></expan>
+<expan>durchl<ex>euhtikeit</ex></expan>
+<expan>fertig<ex>en</ex></expan> welle, als wir des
+                                    <expan>dens<ex>elben</ex></expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>künigl<ex>ichen</ex></expan>
+<expan>gnad<ex>en</ex></expan> wol getrawen. Das
+                                <expan>well<ex>e</ex>n</expan> wir umb ewr
+                                <expan>künigl<ex>ich</ex></expan>
+<expan>ma<ex>iestat</ex></expan> allczeit
+                                <expan>willikl<ex>ich</ex></expan> und <expan>g<ex>er</ex>n</expan>
+<expan>v<ex>er</ex>dienen</expan>. <expan>Dat<ex>um</ex></expan> ut
+                                    <expan>sup<ex>ra.</ex></expan>
+</del></ab></div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="636" xml:id="l645" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 636 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>043r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 636.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient">-</ab><ab type="mention"><persName type="mention">Hund v. Wenkheim, Balthasar</persName><persName type="mention">Lantmann, Heinrich</persName><persName type="mention">Scheffer, Ulrich</persName><persName type="mention">Scheffer, Fritz</persName></ab><date from="19-02-1410" to="19-02-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_87">
+<surface lrx="2787" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0045_right.png" width="2787px"/>
+<zone lrx="1879" lry="3011" rendition="TextRegion" ulx="1175" uly="3585" xml:id="facs_87_r3"> <zone lrx="1879" lry="3011" rendition="Line" ulx="1175" uly="2933" xml:id="facs_87_r3l33"/>
+<zone lrx="2620" lry="3181" rendition="Line" ulx="347" uly="3091" xml:id="facs_87_r3l34"/>
+<zone lrx="2447" lry="3265" rendition="Line" ulx="369" uly="3177" xml:id="facs_87_r3l35"/>
+<zone lrx="2428" lry="3350" rendition="Line" ulx="377" uly="3264" xml:id="facs_87_r3l36"/>
+<zone lrx="2524" lry="3430" rendition="Line" ulx="369" uly="3351" xml:id="facs_87_r3l37"/>
+<zone lrx="2590" lry="3509" rendition="Line" ulx="365" uly="3420" xml:id="facs_87_r3l38"/>
+<zone lrx="2539" lry="3583" rendition="Line" ulx="361" uly="3506" xml:id="facs_87_r3l39"/>
+<zone lrx="2271" lry="3658" rendition="Line" ulx="371" uly="3585" xml:id="facs_87_r3l40"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="open letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Offener Brief des Rates</head><p>Der Rat verkündet nach Freilassung von Fritz und Ulrich Scheffer, Armleute des Heinrich Lantmann, Bürger zu Nürnberg, die Freundschaft mit Balthasar Hund von Wenkheim und seinen Verbündeten.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_87" id="43r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="head">
+<ab facs="#facs_87_r3l33">Vercʒeihbrıf in
+                                                  <expan>eod<ex>em</ex></expan>
+<expan>F<ex>a</ex>c<ex>t</ex>o</expan>
+</ab>
+</div>
+<div type="content"><ab facs="#facs_87_r3l34">Wir ~ die <expan>B<ex>urger</ex></expan> . deʒ Rats <expan>d<ex>er</ex></expan> etc <expan>Bek<ex>ennen</ex></expan> etc / Als <expan>d<ex>er</ex></expan> erber vnd veſte Balthaſar </ab>
+<ab facs="#facs_87_r3l35">von wenkheim / <expan>gevange<ex>n</ex></expan> het f . Scheffer vnd <expan>vlr<ex>ich</ex></expan> ſeinen Sun / deʒ <expan>h<ex>einrich</ex></expan> </ab>
+<ab facs="#facs_87_r3l36">Lantmans <expan>vnſ<ex>er</ex>s</expan> <expan>B<ex>ur</ex>g<ex>er</ex>s</expan> knechte / . die er <expan>wid<ex>er</ex></expan> ledig gelaſſen hat / als </ab>
+<ab facs="#facs_87_r3l37">vns <expan>d<ex>er</ex></expan> <expan>eg<ex>enante</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> geſagt vnd <expan>gepete<ex>n</ex></expan> hat / . daʒ wir darvmb des <expan>eg<ex>enanten</ex></expan> </ab>
+<ab facs="#facs_87_r3l38"><expan>vo<ex>n</ex></expan> wenkheim frewnd <expan>w<ex>er</ex>den</expan> <expan>wolt<ex>e</ex>n</expan> / Alſo <expan>w<ex>er</ex>den</expan> wir <expan>deſſelb<ex>e</ex>n</expan> Balthaſars </ab>
+<ab facs="#facs_87_r3l39">von <expan>vvenkh<ex>eim</ex></expan> / <expan>ſein<ex>er</ex></expan> <expan>helff<ex>er</ex></expan> <expan>dien<ex>er</ex></expan> vnd <expan>all<ex>er</ex></expan> der die <expan>darunt<ex>er</ex></expan> <expan>v<ex>er</ex>dacht</expan> ſind güt </ab>
+<ab facs="#facs_87_r3l40">frewnd vmb die tat <expan>vngeu<ex>er</ex>l<ex>ich</ex></expan> . Mıt <expan>vrk<ex>unde</ex></expan> <expan>at<ex>er</ex>go</expan> / <expan>Dat<ex>um</ex></expan> vt <expan>ſup<ex>ra</ex></expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_87" id="43r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="head">
+<ab>Verczeihbrif in <expan>eod<ex>em</ex></expan>
+<expan>f<ex>a</ex>c<ex>t</ex>o</expan>
+</ab>
+</div>
+<div type="content">
+<ab>Wir, die <expan>b<ex>urger</ex></expan> dez rats
+                                                  <expan>d<ex>er</ex></expan> etc.,
+                                                  <expan>bek<ex>ennen</ex></expan> etc., als
+                                                  <expan>d<ex>er</ex></expan> erber und veste
+                                                Balthasar von Wenkheim
+                                                  <expan>gevange<ex>n</ex></expan> het
+                                                  <expan>F<ex>ritz</ex></expan> Scheffer und
+                                                  <expan>Ulr<ex>ich</ex></expan>, seinen sun, dez
+                                                  <expan>H<ex>einrich</ex></expan> Lantmans,
+                                                  <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>s</expan>, knechte,
+                                                die er <expan>wid<ex>er</ex></expan> ledig gelassen
+                                                hat, als uns <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enante</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan> gesagt und
+                                                  <expan>gepete<ex>n</ex></expan> hat, daz wir
+                                                darumb des <expan>eg<ex>enanten</ex></expan>
+<expan>vo<ex>n</ex></expan> Wenkheim frewnd
+                                                  <expan>w<ex>er</ex>den</expan>
+<expan>wolt<ex>e</ex>n</expan>. Also
+                                                  <expan>w<ex>er</ex>den</expan> wir
+                                                  <expan>desselb<ex>e</ex>n</expan> Balthasars von
+                                                  <expan>Wenkh<ex>eim</ex></expan>,
+                                                  <expan>sein<ex>er</ex></expan>
+<expan>helff<ex>er</ex></expan>,
+                                                  <expan>dien<ex>er</ex></expan> und
+                                                  <expan>all<ex>er</ex></expan> der, die
+                                                  <expan>darunt<ex>er</ex></expan>
+<expan>v<ex>er</ex>dacht</expan> sind, güt frewnd
+                                                umb die tat
+                                                  <expan>ungev<ex>er</ex>l<ex>ich</ex></expan>. Mit
+                                                  <expan>urk<ex>unde</ex></expan>
+<expan>at<ex>er</ex>go</expan>.
+                                                  <expan>Dat<ex>um</ex></expan> ut
+                                                  <expan>sup<ex>ra</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

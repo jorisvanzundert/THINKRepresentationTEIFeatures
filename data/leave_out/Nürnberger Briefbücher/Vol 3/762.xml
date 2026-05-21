@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="762" xml:id="l771" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 762 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>070v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 762.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q2749" type="recipient">Augsburg</placeName></ab><ab type="mention"><persName type="mention">Sarwurt, Kunz</persName><persName type="mention">Rothans, Jobst</persName></ab><date from="18-06-1410" to="16-07-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_142">
+<surface lrx="2762" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0073_left.png" width="2762px"/>
+<zone lrx="1610" lry="1122" rendition="TextRegion" ulx="1288" uly="1913" xml:id="facs_142_r2"> <zone lrx="1610" lry="1122" rendition="Line" ulx="1288" uly="1033" xml:id="facs_142_r2l7"/>
+<zone lrx="2653" lry="1328" rendition="Line" ulx="674" uly="1179" xml:id="facs_142_r2l8"/>
+<zone lrx="2657" lry="1417" rendition="Line" ulx="674" uly="1269" xml:id="facs_142_r2l9"/>
+<zone lrx="2721" lry="1508" rendition="Line" ulx="687" uly="1366" xml:id="facs_142_r2l10"/>
+<zone lrx="2579" lry="1588" rendition="Line" ulx="667" uly="1457" xml:id="facs_142_r2l11"/>
+<zone lrx="2537" lry="1668" rendition="Line" ulx="664" uly="1552" xml:id="facs_142_r2l12"/>
+<zone lrx="2632" lry="1746" rendition="Line" ulx="682" uly="1639" xml:id="facs_142_r2l13"/>
+<zone lrx="2576" lry="1830" rendition="Line" ulx="683" uly="1724" xml:id="facs_142_r2l14"/>
+<zone lrx="2512" lry="1911" rendition="Line" ulx="678" uly="1820" xml:id="facs_142_r2l15"/>
+<zone lrx="2709" lry="1998" rendition="Line" subtype="paragraph" ulx="681" uly="1913" xml:id="facs_142_r2l16"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Augsburg</head><p>Der Rat bittet um Herausgabe beschlagnahmter Waren des Kunz Sarwurt, Bürger zu Nürnberg, durch einen ihrer Bürger aus dem Nachlass von Jobst Rothans, Bürger zu Nürnberg, und verweist auf den Rechtsweg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_142" id="70v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_142_r2l7">Augſpurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_142_r2l8"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan> / Vns hat fürgelegt Chuncʒ Sarvvurt <expan>vnſ<ex>er</ex></expan> <expan>burg<ex>er</ex></expan> / vvie daʒ Jm </ab>
+<ab facs="#facs_142_r2l9"><expan>ein<ex>er</ex></expan> <expan>ewr<ex>er</ex></expan> mitburger ſein habe beẏ ew bekumert hab von eins geſcheffts </ab>
+<ab facs="#facs_142_r2l10">vvegen / das vorcʒeiten Jobs Rothans <expan>vnſ<ex>er</ex></expan> burger beẏ vns getan het das </ab>
+<ab facs="#facs_142_r2l11">
+<del rend="strikethrough">vnd daʒ auch </del> in <expan>vnſ<ex>er</ex>m</expan> Rate abgeteilt warde / 
+<del rend="strikethrough"><expan>vvan<ex>n</ex></expan> das <expan>vnredlich<ex>e</ex>n</expan></del></ab>
+<ab facs="#facs_142_r2l12">
+<del rend="strikethrough">vnd nach <expan>vnſ<ex>er</ex>r</expan> Stat recht vnd leuffen niht <expan>cʒugange<ex>n</ex></expan> vvas </del> / <expan>Ro<ex>gamus</ex></expan> </ab>
+<ab facs="#facs_142_r2l13">daʒ Jr den ~ <expan>ew<ex>r</ex>n</expan> daran vveiſen wöllet / daʒ Er dem <expan>egen<ex>anten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> </ab>
+<ab facs="#facs_142_r2l14">ſein habe ledig vnd vnbekümert laſſe / das <expan>wölle<ex>n</ex></expan> etc / vnd het </ab>
+<ab facs="#facs_142_r2l15"><expan>dan<ex>n</ex></expan> ~ derſelb <expan>ew<ex>r</ex></expan> <expan>mitburg<ex>er</ex></expan> cʒu <expan>de<ex>m</ex></expan> <expan>vorg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> icht <expan>cʒeſpr<ex>echen</ex></expan> </ab>
+<ab facs="#facs_142_r2l16"><expan>dar<ex>ümb</ex></expan> <expan>vvölle<ex>n</ex></expan> wir Jm <expan>od<ex>er</ex></expan> <expan>ſeine<ex>m</ex></expan> <expan>ſcheimbot<ex>en</ex></expan> mıt <expan>ſeine<ex>m</ex></expan> <expan>volle<ex>n</ex></expan> gevvalt etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_142" id="70v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Augspurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, uns hat fürgelegt Chuncz Sarwurt,
+                                <expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>, wie daz im <expan>ein<ex>er</ex></expan>
+<expan>ewr<ex>er</ex></expan> mitburger sein habe bey ew bekumert hab von
+                        eins gescheffts wegen, das vorczeiten Jobs Rothans,
+                            <expan>uns<ex>er</ex></expan> burger, bey uns getan het, das in
+                                <expan>uns<ex>er</ex>m</expan> rate abgeteilt warde.
+                                <expan>Ro<ex>gamus</ex></expan>, daz ir den
+                            <expan>ew<ex>r</ex>n</expan> daran weisen wöllet, daz er dem
+                                <expan>egen<ex>anten</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan> sein habe ledig und unbekümert lasse. Das
+                                <expan>wölle<ex>n</ex></expan> etc. Und het
+                            <expan>dan<ex>n</ex></expan> derselb <expan>ew<ex>r</ex></expan>
+<expan>mitburg<ex>er</ex></expan> czu <expan>de<ex>m</ex></expan>
+<expan>vorg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan> icht <expan>czespr<ex>echen</ex></expan>,
+                                <expan>dar<ex>umb</ex></expan>
+<expan>wölle<ex>n</ex></expan> wir im <expan>od<ex>er</ex></expan>
+<expan>seine<ex>m</ex></expan>
+<expan>scheimbot<ex>en</ex></expan> mit <expan>seine<ex>m</ex></expan>
+<expan>volle<ex>n</ex></expan> gewalt etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

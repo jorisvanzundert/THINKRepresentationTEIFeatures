@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2234" xml:id="l2246" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2234 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>038r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2234.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Goss, Ortolf</persName></ab><ab type="mention"><placeName type="mention">Ydem (unklar)</placeName><persName type="mention">Goss, Georg</persName><persName type="mention">Fladnitz, Friedrich v.</persName></ab><date from="18-12-1419" to="18-12-1419" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_78">
+<surface lrx="2713" lry="3673" ulx="0" uly="0">
+<graphic height="3673px" url="Rst Nbg-Briefbücher-Nr 5_0041_right.png" width="2713px"/>
+<zone lrx="1858" lry="940" rendition="TextRegion" ulx="717" uly="1906" xml:id="facs_78_r1">
+<zone lrx="1858" lry="940" rendition="Line" ulx="717" uly="865" xml:id="facs_78_r1l6"/> <zone lrx="2425" lry="1054" rendition="Line" ulx="475" uly="961" xml:id="facs_78_r1l7"/>
+<zone lrx="2444" lry="1140" rendition="Line" ulx="503" uly="1046" xml:id="facs_78_r1l8"/>
+<zone lrx="2405" lry="1229" rendition="Line" ulx="487" uly="1139" xml:id="facs_78_r1l9"/>
+<zone lrx="2445" lry="1319" rendition="Line" ulx="481" uly="1230" xml:id="facs_78_r1l10"/>
+<zone lrx="2444" lry="1411" rendition="Line" ulx="481" uly="1325" xml:id="facs_78_r1l11"/>
+<zone lrx="2462" lry="1506" rendition="Line" ulx="492" uly="1424" xml:id="facs_78_r1l12"/>
+<zone lrx="2389" lry="1599" rendition="Line" ulx="489" uly="1513" xml:id="facs_78_r1l13"/>
+<zone lrx="2449" lry="1694" rendition="Line" ulx="518" uly="1604" xml:id="facs_78_r1l14"/>
+<zone lrx="2495" lry="1793" rendition="Line" ulx="503" uly="1709" xml:id="facs_78_r1l15"/>
+<zone lrx="2480" lry="1887" rendition="Line" ulx="498" uly="1809" xml:id="facs_78_r1l16"/> <zone lrx="2205" lry="1992" rendition="Line" ulx="496" uly="1906" xml:id="facs_78_line_1577025839562_4169"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ortolf Goss zu "Ydem"</head><p>Der Rat teilt Unkenntnis von der Fehdeansage des verstorbenen Friedrich von Fladnitz unter Beteiligung des Georg Goss, Sohn des Adressaten, mit und versichert Freundschaft.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_78" id="38r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_78_r1l6">Rıtter <expan>H<ex>er</ex>n</expan> Ortolff göſſen ʒu ydem </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_78_r1l7"><expan>L<ex>ieber</ex></expan> <expan>h<ex>e</ex>r</expan> Ortolff / als Jr vns <expan>verſchr<ex>iben</ex></expan> habt / es ſey an eẅch <expan>kome<ex>n</ex></expan> wıe eẅr </ab>
+<ab facs="#facs_78_r1l8">ſun Görg Göſſ in einr abſag ſüll <expan>geſchrıb<ex>e</ex>n</expan> ſteen dıe vns <expan>h<ex>e</ex>r</expan> <expan>frıdr<ex>ich</ex></expan> </ab>
+<ab facs="#facs_78_r1l9">von flednicʒ ſelıg geſant ſüll <expan>hab<ex>e</ex>n</expan> vnd Jm doch nıht <expan>wıſſenl<ex>ich</ex></expan> ſey </ab>
+<ab facs="#facs_78_r1l10">vmb ſölıch <expan>entſag<ex>en</ex></expan> vnd er meyne vns vnd den <expan>vnſ<ex>er</ex>n</expan> <expan>lıeb<ex>er</ex></expan> ʒu dıenen etc </ab>
+<ab facs="#facs_78_r1l11">Das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> Vnd <expan>laſſ<ex>en</ex></expan> eẅr <expan>erberk<ex>eit</ex></expan> <expan>wıſſ<ex>en</ex></expan> / daʒ vns auch </ab>
+<ab facs="#facs_78_r1l12">niht <expan>wıſſenl<ex>ich</ex></expan> ıſt daʒ der <expan>vorg<ex>enante</ex></expan> eẅr ſune görg göſſ in keinr abſag gen </ab>
+<ab facs="#facs_78_r1l13">vns begrıffen ſey vnd wır <expan>wıſſ<ex>en</ex></expan> ʒu dıſen <expan>ʒeıt<ex>en</ex></expan> mıt Jm <expan>and<ex>er</ex>s</expan> niht ʒu </ab>
+<ab facs="#facs_78_r1l14"><expan>ſchık<ex>en</ex></expan> <expan>hab<ex>e</ex>n</expan> denn <expan>freẅntſch<ex>aft</ex></expan> vnd guts / <expan>deſgleıche<ex>n</ex></expan> wır vns ʒu Jm auch </ab>
+<ab facs="#facs_78_r1l15"><expan>v<ex>er</ex>ſehen</expan> / Vnd getrawen eẅch auch wol Jr wellet den <expan>vnſ<ex>er</ex>n</expan> eẅr <expan>fürdru<ex>n</ex>g</expan> </ab>
+<ab facs="#facs_78_r1l16">vnd <expan>freẅntſch<ex>aft</ex></expan> tun wo das an eẅch gelange . / Denn wo wır <expan>eẅr<ex>er</ex></expan> <expan>erberk<ex>eit</ex></expan> </ab>
+<ab facs="#facs_78_line_1577025839562_4169">lıeb <expan>od<ex>er</ex></expan> dıenſt etc <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ij<hi rend="sup">a</hi> <expan>an<ex>te</ex></expan> thome <expan>app<ex>oſto</ex>lȷ</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_78" id="38r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Ritter <expan>h<ex>er</ex>n</expan> Ortolff Gössen zu Ydem</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan> Ortolff, als ir uns
+                            <expan>verschr<ex>iben</ex></expan> habt, es sey an ewch
+                                <expan>kome<ex>n</ex></expan>, wie ewr sun Görg Göss in einr absag
+                        süll <expan>geschrib<ex>e</ex>n</expan> steen, die uns
+                            <expan>h<ex>e</ex>r</expan>
+<expan>Fridr<ex>ich</ex></expan> von Flednicz selig gesant süll
+                                <expan>hab<ex>e</ex>n</expan>, und im doch niht
+                                <expan>wissenl<ex>ich</ex></expan> sey umb sölich
+                                <expan>entsag<ex>en</ex></expan> und er meyne, uns und den
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>lieb<ex>er</ex></expan> zu dienen, etc., das
+                            <expan>hab<ex>e</ex>n</expan> wir wol <expan>vernom<ex>en</ex></expan>
+                        und <expan>lass<ex>en</ex></expan> ewr <expan>erberk<ex>eit</ex></expan>
+<expan>wiss<ex>en</ex></expan> daz, uns auch niht
+                            <expan>wissenl<ex>ich</ex></expan> ist, daz der
+                                <expan>vorg<ex>enante</ex></expan>, ewr sune Görg Göss, in keinr
+                        absag gen uns begriffen sey und wir <expan>wiss<ex>en</ex></expan> zu disen
+                                <expan>zeit<ex>en</ex></expan> mit im <expan>and<ex>er</ex>s</expan>
+                        niht zu <expan>schik<ex>en</ex></expan>
+<expan>hab<ex>e</ex>n</expan>, denn <expan>frewntsch<ex>aft</ex></expan> und
+                        guts, <expan>desgleiche<ex>n</ex></expan> wir uns zu im auch
+                                <expan>v<ex>er</ex>sehen</expan>. Und getrawen ewch auch wol, ir
+                        wellet den <expan>uns<ex>er</ex>n</expan> ewr
+                            <expan>fürdru<ex>n</ex>g</expan> und
+                            <expan>frewntsch<ex>aft</ex></expan> tun, wo das an ewch gelange. Denn
+                        wo wir <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> lieb <expan>od<ex>er</ex></expan> dienst
+                        etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan> Thome <expan>App<ex>osto</ex>li</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

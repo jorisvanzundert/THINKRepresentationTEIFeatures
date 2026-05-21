@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2279" xml:id="l2291" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2279 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>051r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2279.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient">-</ab><ab type="mention"><persName type="mention">Gültlingen, Hans v.</persName></ab><date from="21-02-1420" to="20-03-1420" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_104">
+<surface lrx="2668" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0054_right.png" width="2668px"/>
+<zone lrx="660" lry="401" rendition="TextRegion" ulx="488" uly="865" xml:id="facs_104_r1">
+<zone lrx="2400" lry="401" rendition="Line" ulx="457" uly="306" xml:id="facs_104_r1l2"/>
+<zone lrx="2404" lry="488" rendition="Line" ulx="468" uly="398" xml:id="facs_104_r1l3"/>
+<zone lrx="2481" lry="585" rendition="Line" ulx="480" uly="487" xml:id="facs_104_r1l4"/>
+<zone lrx="2451" lry="674" rendition="Line" ulx="477" uly="583" xml:id="facs_104_r1l5"/>
+<zone lrx="2445" lry="771" rendition="Line" ulx="483" uly="687" xml:id="facs_104_r1l6"/>
+<zone lrx="2439" lry="866" rendition="Line" ulx="476" uly="783" xml:id="facs_104_r1l7"/>
+<zone lrx="660" lry="963" rendition="Line" ulx="488" uly="865" xml:id="facs_104_r1l8"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="open letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Offener Brief des Rates</head><p>Der Rat verkündet die Freundschaft mit Hans von Gültlingen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_104" id="51r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_104_r1l2">Wır ~ dıe
+                                                  <expan>Burge<ex>r</ex></expan> etc Bekennen etc /
+                                                Vmb ſölıch veyntſchaft als der veſt </ab>
+<ab facs="#facs_104_r1l3">hanns von Gıltlıngen gen vns
+                                                gehabt vnd dıe er gen vns gencʒlıch </ab>
+<ab facs="#facs_104_r1l4">abgetan hat / Daʒ wır
+                                                  <expan>daru<ex>m</ex>b</expan> vnd darcʒu vmb all
+                                                ſache dıe ſıch <expan>ʒwıſche<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_104_r1l5">vns vnd Jm
+                                                  <expan>v<ex>er</ex>loffen</expan> hat bıs auf den
+                                                heẅtıgen tag als dirr brıef
+                                                  <expan>geb<ex>e</ex>n</expan>
+</ab>
+<ab facs="#facs_104_r1l6">ıſt / gen Jm vnd
+                                                  <expan>all<ex>e</ex>n</expan> den ſeinen . vnd
+                                                alle dıe darinn <expan>v<ex>er</ex>dacht</expan>
+                                                ſınd auf </ab>
+<ab facs="#facs_104_r1l7">beıd ſeıten
+                                                  <expan>vngeuerlıche<ex>n</ex></expan> . gar vnd
+                                                gancʒ <expan>v<ex>er</ex>rıcht</expan> ſein / Mıt
+                                                  <expan>vrk<ex>unde</ex></expan> etc </ab>
+<ab facs="#facs_104_r1l8"><expan>Dat<ex>um</ex></expan>
+</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_104" id="51r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Wir die <expan>burge<ex>r</ex></expan> etc., bekennen
+                                                etc., umb sölich veyntschaft als der vest Hanns von
+                                                Giltlingen gen uns gehabt und die er gen uns
+                                                genczlich abgetan hat, daz wir
+                                                  <expan>daru<ex>m</ex>b</expan> und darczu umb all
+                                                sache die sich <expan>zwische<ex>n</ex></expan> uns
+                                                und im <expan>v<ex>er</ex>loffen</expan> hat bis auf
+                                                den hewtigen tag als dirr brief
+                                                  <expan>geb<ex>e</ex>n</expan> ist, gen im und
+                                                  <expan>all<ex>e</ex>n</expan> den seinen und alle
+                                                die darinn <expan>v<ex>er</ex>dacht</expan> sind auf
+                                                beid seiten <expan>ungeverliche<ex>n</ex></expan>
+                                                gar und gancz <expan>v<ex>er</ex>richt</expan> sein.
+                                                Mit <expan>urk<ex>unde</ex></expan> etc.
+                                                  <expan>Dat<ex>um</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

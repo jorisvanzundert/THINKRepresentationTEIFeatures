@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1094" xml:id="l1109" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1094 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>152r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1094.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Treuchtlingen, Wirich IV. v.</persName></ab><ab type="mention"><persName type="mention">Hohenlohe, N. v.</persName></ab><date from="21-07-1411" to="21-07-1411" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_305">
+<surface lrx="2795" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0154_right.png" width="2795px"/>
+<zone lrx="1595" lry="361" rendition="TextRegion" ulx="772" uly="797" xml:id="facs_305_r1">
+<zone lrx="1595" lry="361" rendition="Line" ulx="772" uly="275" xml:id="facs_305_r1l2"/>
+<zone lrx="2428" lry="517" rendition="Line" ulx="287" uly="404" xml:id="facs_305_r1l3"/>
+<zone lrx="2441" lry="618" rendition="Line" ulx="329" uly="495" xml:id="facs_305_r1l4"/>
+<zone lrx="2352" lry="718" rendition="Line" ulx="347" uly="598" xml:id="facs_305_r1l5"/>
+<zone lrx="2419" lry="824" rendition="Line" ulx="350" uly="699" xml:id="facs_305_r1l6"/>
+<zone lrx="2375" lry="921" rendition="Line" ulx="355" uly="797" xml:id="facs_305_r1l7"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Wirich IV. von Treuchtlingen</head><p>Der Rat bittet um Besiegelung der beiden übersandten Friedbriefe, um Weiterleitung zur Besiegelung an N. von Hohenlohe und um anschließende Rückgabe eines der Exemplare.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_305" id="152r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_305_r1l2"><expan>h<ex>er</ex>n</expan> <expan>vvirıch<ex>e</ex>n</expan> <expan>vo<ex>n</ex></expan> <expan>Trewtl<ex>ingen</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_305_r1l3"><expan>Lıeb<ex>er</ex></expan> her VVirıch / Als Jr vns <expan>embot<ex>e</ex>n</expan> / vnd cʒwen frıdbrief / vnd auch </ab>
+<ab facs="#facs_305_r1l4">als ew vnſer <expan>h<ex>er</ex>re</expan> von Hohenloch <expan>geſchrıb<ex>e</ex>n</expan> hat geſant habt / Alſo </ab>
+<ab facs="#facs_305_r1l5">vvöllen wir das aufnemen / . vnd <expan>bit<ex>e</ex>n</expan> ew / daʒ Jr die ſıgelt vnd </ab>
+<ab facs="#facs_305_r1l6">fürbas ſchıcket / daʒ ſie <expan>vnſ<ex>er</ex></expan> <expan>h<ex>e</ex>r</expan> <expan>vo<ex>n</ex></expan> Hohenloch auch ſıgel / vnd vns </ab>
+<ab facs="#facs_305_r1l7">der ein <expan>geantw<ex>ur</ex>t</expan> werde / . <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııj̃ . <expan>an<ex>te</ex></expan> Marie Magdalene </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_305" id="152r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Wirich<ex>e</ex>n</expan>
+<expan>vo<ex>n</ex></expan>
+<expan>Trewtl<ex>ingen</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> her Wirich, als ir uns
+                            <expan>embot<ex>e</ex>n</expan> und czwen fridbrief und auch, als ew
+                        unser <expan>h<ex>er</ex>re</expan> von Hohenloch
+                            <expan>geschrib<ex>e</ex>n</expan> hat, gesant habt, also wöllen wir das
+                        aufnemen, und <expan>bit<ex>e</ex>n</expan> ew, daz ir die sigelt und fürbas
+                        schicket, daz sie <expan>uns<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan>
+<expan>vo<ex>n</ex></expan> Hohenloch auch sigel und uns der ein
+                                <expan>geantw<ex>ur</ex>t</expan> werde.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii <expan>an<ex>te</ex></expan> Marie
+                        Magdalene.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

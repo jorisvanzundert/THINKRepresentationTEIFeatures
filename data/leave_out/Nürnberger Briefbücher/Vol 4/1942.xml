@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1942" xml:id="l1953" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1942 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>106r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1942.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Seckendorff, Wilhelm v.</persName></ab><ab type="mention"><placeName type="mention">Dürrnbuch (Gt. d. Markts Emskirchen, Lk. Neustadt a. d. Aisch-Bad Windsheim)</placeName><placeName type="mention">Windsbach (Stadt, Lk. Ansbach)</placeName><placeName type="mention">Bertholdsdorf (Gt. d. Stadt Windsbach, Lk. Ansbach)</placeName><persName type="mention">Schwab, Georg</persName></ab><date from="16-08-1415" to="16-08-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_212">
+<surface lrx="2606" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0109_right.png" width="2606px"/>
+<zone lrx="683" lry="422" rendition="TextRegion" ulx="1954" uly="1074" xml:id="facs_212_r1">
+<zone lrx="2064" lry="422" rendition="Line" ulx="899" uly="351" xml:id="facs_212_r1l2"/>
+<zone lrx="1438" lry="485" rendition="Line" ulx="891" uly="419" xml:id="facs_212_r1l3"/>
+<zone lrx="2301" lry="637" rendition="Line" ulx="348" uly="551" xml:id="facs_212_r1l4"/>
+<zone lrx="2347" lry="704" rendition="Line" ulx="344" uly="623" xml:id="facs_212_r1l5"/>
+<zone lrx="2294" lry="772" rendition="Line" ulx="352" uly="696" xml:id="facs_212_r1l6"/>
+<zone lrx="2251" lry="847" rendition="Line" ulx="358" uly="771" xml:id="facs_212_r1l7"/>
+<zone lrx="2270" lry="927" rendition="Line" ulx="356" uly="845" xml:id="facs_212_r1l8"/>
+<zone lrx="2274" lry="1005" rendition="Line" ulx="366" uly="920" xml:id="facs_212_r1l9"/>
+<zone lrx="1390" lry="1007" rendition="Line" ulx="1313" uly="955" xml:id="facs_212_line_1576674711153_11098"/>
+<zone lrx="2033" lry="1019" rendition="Line" ulx="1954" uly="967" xml:id="facs_212_line_1576674708133_11093"/>
+<zone lrx="2264" lry="1081" rendition="Line" ulx="374" uly="997" xml:id="facs_212_r1l10"/>
+<zone lrx="683" lry="1081" rendition="Line" ulx="565" uly="1030" xml:id="facs_212_line_1576674713838_11103"/>
+<zone lrx="2356" lry="1157" rendition="Line" ulx="361" uly="1074" xml:id="facs_212_r1l12"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Wilhelm von Seckendorff zu Dürrnbuch, Vogt zu Windsbach</head><p>Der Rat teilt mit, dass der von Georg Schwab, Bürger zu Nürnberg, in Bertholdsdorf Gefangene ein ehemaliger Diener Schwabs und schon freigelassen worden ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_212" id="106r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_212_r1l2">VVılhelm <expan>vo<ex>n</ex></expan> Seckkendorff von Dürnbuch </ab>
+<ab facs="#facs_212_r1l3">vogt cʒu vvinſbach / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_212_r1l4"><expan>Lıeb<ex>er</ex></expan> wılhelm / Als Jr vns <expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan> habt / von <expan>vnſ<ex>er</ex>s</expan> <expan>burg<ex>er</ex>s</expan> Gorgen </ab>
+<ab facs="#facs_212_r1l5">Swaben vvegen / vvie der <expan>eıne<ex>n</ex></expan> <expan>ſchedlıche<ex>n</ex></expan> <expan>man<ex>n</ex></expan> <expan>gefange<ex>n</ex></expan> vnd cʒu Berch - </ab>
+<ab facs="#facs_212_r1l6">tolcʒdorff in fenknüſʒ <expan>gehalte<ex>n</ex></expan> <expan>hab<ex>e</ex>n</expan> ſull etc / das <expan>hab<ex>e</ex>n</expan> wir wol <expan>v<ex>er</ex>nome<ex>n</ex></expan> </ab>
+<ab facs="#facs_212_r1l7">Vnd laſſen ewr Erberkeit wiſſen / daʒ vvir <expan>denſelb<ex>e</ex>n</expan> Gorgen Swaben </ab>
+<ab facs="#facs_212_r1l8"><expan>vnſ<ex>er</ex>n</expan> <expan>burg<ex>er</ex></expan>
+<del rend="strikethrough"><expan>daru<ex>m</ex>b</expan></del> fur vns beſant vnd <expan>daru<ex>m</ex>b</expan> cʒu rede geſecʒt <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_212_r1l9">vnd der hat vns <expan>geantw<ex>ur</ex>t</expan> / vvie das er einen gefangen het / der ſeẏ </ab>
+<ab facs="#facs_212_r1l10">ſein diener geweſt 
+<del rend="strikethrough">vnd hab auch </del>
+<add><ab facs="#facs_212_line_1576674711153_11098">der </ab></add> etwas vvider Jn getan 
+<del rend="strikethrough">gehabt </del>
+<add><ab facs="#facs_212_line_1576674708133_11093">het </ab></add> / den </ab>
+<ab facs="#facs_212_r1l12">hab er 
+<add><ab facs="#facs_212_line_1576674713838_11103">auch </ab></add> wider ledig gelaſſen / <expan>dan<ex>n</ex></expan> wo / <expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> vj̃ <expan>p<ex>oſt</ex></expan> <expan>aſſumpc<ex>ionis</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_212" id="106r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Wilhelm <expan>vo<ex>n</ex></expan> Seckkendorff von Dürnbuch, vogt czu
+                        Winsbach </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> Wilhelm, als ir uns
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> habt von
+                                <expan>uns<ex>er</ex>s</expan>
+<expan>burg<ex>er</ex>s</expan> Gorgen Swaben wegen, wie der
+                                <expan>eine<ex>n</ex></expan>
+<expan>schedliche<ex>n</ex></expan>
+<expan>man<ex>n</ex></expan>
+<expan>gefange<ex>n</ex></expan> und czu Berchtolczdorff in fenknüsz
+                                <expan>gehalte<ex>n</ex></expan>
+<expan>hab<ex>e</ex>n</expan> sull etc., das <expan>hab<ex>e</ex>n</expan>
+                        wir wol <expan>v<ex>er</ex>nome<ex>n</ex></expan> und lassen ewr erberkeit
+                        wissen, daz wir <expan>denselb<ex>e</ex>n</expan> Gorgen Swaben,
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>burg<ex>er</ex></expan>, fur uns besant und
+                            <expan>daru<ex>m</ex>b</expan> czu rede geseczt
+                            <expan>hab<ex>e</ex>n</expan>, und der hat uns
+                            <expan>geantw<ex>ur</ex>t</expan>, wie das er einen gefangen het, der
+                        sey sein diener gewest, <add>der</add> etwas wider in getan <add>het</add>,
+                        den hab er <add>auch</add> wider ledig gelassen,
+                            <expan>dan<ex>n</ex></expan> wo. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi <expan>p<ex>ost</ex></expan>
+<expan>assumpc<ex>ionis.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

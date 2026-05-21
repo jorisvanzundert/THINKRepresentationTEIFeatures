@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="162" xml:id="l162" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 162 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>045v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 162.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Bickenbach, Konrad VI. d. Ä.</persName><persName type="recipient">Echter v. Mespelbrunn, Hanneman</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1794" type="mention">Frankfurt am Main</placeName></ab><date from="11-07-1408" to="8-08-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_94">
+<surface lrx="2864" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0048_left.png" width="2864px"/>
+<zone lrx="2098" lry="2285" rendition="TextRegion" ulx="2619" uly="2803" xml:id="facs_94_r2"> <zone lrx="2352" lry="2285" rendition="Line" ulx="1667" uly="2204" xml:id="facs_94_r2l18"/>
+<zone lrx="2714" lry="2459" rendition="Line" ulx="788" uly="2368" xml:id="facs_94_r2l19"/>
+<zone lrx="2714" lry="2535" rendition="Line" ulx="787" uly="2471" xml:id="facs_94_r2l20"/>
+<zone lrx="2807" lry="2543" rendition="Line" ulx="2619" uly="2495" xml:id="facs_94_r2l21"/>
+<zone lrx="2780" lry="2621" rendition="Line" ulx="778" uly="2555" xml:id="facs_94_r2l22"/>
+<zone lrx="2098" lry="2645" rendition="Line" subtype="paragraph" ulx="1153" uly="2591" xml:id="facs_94_r2l23"/>
+<zone lrx="2330" lry="2700" rendition="Line" ulx="744" uly="2633" xml:id="facs_94_r2l24"/>
+<zone lrx="2738" lry="2787" rendition="Line" ulx="2198" uly="2724" xml:id="facs_94_r2l25"/>
+<zone lrx="2664" lry="2862" rendition="Line" ulx="2194" uly="2803" xml:id="facs_94_r2l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Konrad VI. von Bickenbach, Burggraf von Miltenberg, und Hanneman Echter, Viztum zu Aschaffenburg</head><p>Der Rat bittet um Geleit für Nürnberger Bürger und Kaufleute auf dem Weg zu und von der Frankfurter Herbstmesse.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_94" id="45v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_94_r2l18">Burgraf cʒu <expan>Mıltemb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_94_r2l19">Lieber etc / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> vnd <expan>kauffl<ex>eute</ex></expan> etc / in dıe <expan>nehſtk<ex>ünfftige</ex></expan> </ab>
+<ab facs="#facs_94_r2l20">herbſtmeſſe gen frankfurt / vnd vvıder darauſʒ / <expan>vven<ex>n</ex></expan> ſıe cʒu ew 
+<del rend="strikethrough"><expan><ex>r</ex>n</expan></del></ab>
+<ab facs="#facs_94_r2l22">oder aber den <expan>ew<ex>r</ex>n</expan> <expan>kume<ex>n</ex></expan> vnd des begern mit ſıcherm geleẏte <expan>gnedıkl<ex>ich</ex></expan>
+<add><ab facs="#facs_94_r2l21"><expan>günſtikl<ex>ich</ex></expan> </ab></add> </ab>
+<ab facs="#facs_94_r2l24"> <expan>fürſeh<ex>e</ex>n</expan> wollet 
+<add><ab facs="#facs_94_r2l23"><expan>alſu<ex>er</ex>re</expan> <expan>dan<ex>n</ex></expan> <expan>ew<ex>r</ex></expan> geleit vnd gepiete geet </ab></add> / Als etc / das wollen etc / <expan>Antvv<ex>ur</ex>t</expan> etc </ab>
+</div>
+<div type="similiter"><ab facs="#facs_94_r2l25"><expan>ſı<ex>mi</ex>l<ex>ite</ex>r</expan> <expan>vıcʒtume<ex>n</ex></expan> von </ab>
+<ab facs="#facs_94_r2l26">Aſſchaffemburgk </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_94" id="45v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burgraf czu <expan>Miltemb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber etc. <expan>Ro<ex>gamus</ex></expan>, daz ir
+                            <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan> und <expan>kauffl<ex>eute</ex></expan> etc.
+                        in die <expan>nehstk<ex>ünfftige</ex></expan> herbstmesse gen Frankfurt und
+                        wider darausz ,<expan>wen<ex>n</ex></expan> sie czu ew oder aber den
+                                <expan>ew<ex>r</ex>n</expan>
+<expan>kume<ex>n</ex></expan> und des begern, mit sicherm geleyte
+                                <expan>gnedikl<ex>ich</ex></expan>
+<add><expan>günstikl<ex>ich</ex></expan></add>
+<expan>fürseh<ex>e</ex>n</expan> wollet,
+                                <add><expan>alsv<ex>er</ex>re</expan>
+<expan>dan<ex>n</ex></expan>
+<expan>ew<ex>r</ex></expan> geleit und gepiete geet</add>, als etc. Das
+                        wollen etc. <expan>Antw<ex>ur</ex>t</expan> etc.</ab>
+</div>
+<div type="similiter">
+<ab><expan>Si<ex>mi</ex>l<ex>ite</ex>r</expan>
+<expan>vicztume<ex>n</ex></expan> von Asschaffemburgk.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

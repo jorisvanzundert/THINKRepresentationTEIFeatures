@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="572" xml:id="l581" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 572 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>028r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 572.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q2978" type="recipient">Regensburg</placeName></ab><ab type="mention"><persName type="mention">Woltzhofer, Christian</persName><persName type="mention">Woltzhofer, Kathrin</persName></ab><date from="28-11-1409" to="28-11-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_57">
+<surface lrx="2797" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0030_right.png" width="2797px"/>
+<zone lrx="1150" lry="2280" rendition="TextRegion" ulx="1237" uly="3028" xml:id="facs_57_r2"> <zone lrx="1150" lry="2280" rendition="Line" ulx="969" uly="2216" xml:id="facs_57_r2l24"/>
+<zone lrx="2474" lry="2451" rendition="Line" ulx="381" uly="2375" xml:id="facs_57_r2l25"/>
+<zone lrx="2588" lry="2538" rendition="Line" ulx="385" uly="2464" xml:id="facs_57_r2l26"/>
+<zone lrx="1491" lry="2583" rendition="Line" ulx="1237" uly="2539" xml:id="facs_57_r2l27"/>
+<zone lrx="2545" lry="2640" rendition="Line" ulx="399" uly="2546" xml:id="facs_57_r2l28"/>
+<zone lrx="2423" lry="2750" rendition="Line" ulx="408" uly="2630" xml:id="facs_57_r2l29"/>
+<zone lrx="2521" lry="2856" rendition="Line" ulx="406" uly="2736" xml:id="facs_57_r2l30"/>
+<zone lrx="2580" lry="2956" rendition="Line" ulx="401" uly="2829" xml:id="facs_57_r2l31"/>
+<zone lrx="2502" lry="3049" rendition="Line" ulx="397" uly="2922" xml:id="facs_57_r2l32"/>
+<zone lrx="2527" lry="3144" rendition="Line" ulx="399" uly="3028" xml:id="facs_57_r2l33"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Regensburg</head><p>Der Rat bittet, das Leibgedinge für Christian Woltzhofer, Bürger zu Nürnberg, ein Jahr lang zwischen ihm und seiner Frau Kathrin hälftig zu teilen, weil sie wegen Zwietracht derzeit nicht zusammen sind.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_57" id="28r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_57_r2l24"><expan>Reg<ex>enſburg</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_57_r2l25"><expan>Lıeb<ex>e</ex>n</expan> <expan>fr<ex>ewnde</ex></expan> / Es ıſt etwas cʒwitracht cʒwiſchen Criſtan <expan>VVolcʒhof<ex>er</ex></expan> <expan>vnſ<ex>er</ex>m</expan> </ab>
+<ab facs="#facs_57_r2l26"><expan>Burg<ex>er</ex></expan> vnd kathreın <expan>ſein<ex>er</ex></expan> <expan>elıch<ex>e</ex>n</expan> hawſfrawn / daʒ ſie nicht als wol <expan>miteinand<ex>er</ex></expan> </ab>
+<ab facs="#facs_57_r2l28">leben als wir <expan>g<ex>er</ex>n</expan> <expan>ſeh<ex>e</ex>n</expan> / vnd 
+<add><ab facs="#facs_57_r2l27">ſünderlıch </ab></add> cʒü der cʒeit / nicht <expan>beyeinand<ex>er</ex></expan>
+<del rend="strikethrough"> ge </del> ſein 
+<del rend="strikethrough"> mügen </del> / </ab>
+<ab facs="#facs_57_r2l29">Nu <expan>hab<ex>e</ex>n</expan> wir <expan>cʒwiſch<ex>e</ex>n</expan> Jn beredt / daʒ ſie ein Jare / Jr <expan>yetwed<ex>er</ex>s</expan> das </ab>
+<ab facs="#facs_57_r2l30"><expan>leipg<ex>eding</ex></expan> das ſie beÿ ew <expan>hab<ex>e</ex>n</expan> / halbes einnemen vnd <expan>hab<ex>e</ex>n</expan> ſol / . <expan>Davo<ex>n</ex></expan> </ab>
+<ab facs="#facs_57_r2l31"><expan>Ro<ex>gamus</ex></expan> /daʒ Jr / daſſelb <expan>leipg<ex>eding</ex></expan> was des vervallen ſeÿ / vnd auch das Jar </ab>
+<ab facs="#facs_57_r2l32">hinfür / Jr <expan>yetwed<ex>er</ex>m</expan> halbes raichen vnd <expan>geb<ex>e</ex>n</expan> wöllet / wenn <expan>dan<ex>n</ex></expan> </ab>
+<ab facs="#facs_57_r2l33">Jr yedes ſeinen teil an ew vorder / . <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> . ṽ . <expan>an<ex>te</ex></expan> Andree <expan>Ap<ex>oſto</ex>lj</expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_57" id="28r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Reg<ex>ensburg</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan>
+<expan>fr<ex>eunde</ex></expan>, es ist etwas
+                                                czwitracht czwischen Cristan
+                                                  <expan>Wolczhof<ex>er</ex></expan>,
+                                                  <expan>uns<ex>er</ex>m</expan>
+<expan>burg<ex>er</ex></expan>, und Kathrein,
+                                                  <expan>sein<ex>er</ex></expan>
+<expan>elich<ex>e</ex>n</expan> hawsfrawn, daz sie
+                                                nicht als wol <expan>miteinand<ex>er</ex></expan>
+                                                leben, als wir <expan>g<ex>er</ex>n</expan>
+<expan>seh<ex>e</ex>n</expan>, und
+                                                  <add>sünderlich</add> czü der czeit nicht
+                                                  <expan>beyeinand<ex>er</ex></expan> sein. Nu
+                                                  <expan>hab<ex>e</ex>n</expan> wir
+                                                  <expan>czwisch<ex>e</ex>n</expan> in beredt, daz
+                                                sie ein jare ir <expan>yetwed<ex>er</ex>s</expan>
+                                                das <expan>leipg<ex>eding</ex></expan>, das sie bey
+                                                ew <expan>hab<ex>e</ex>n</expan>, halbes einnemen
+                                                und <expan>hab<ex>e</ex>n</expan> sol.
+                                                  <expan>Davo<ex>n</ex></expan>
+<expan>ro<ex>gamus</ex></expan>, daz ir dasselb
+                                                  <expan>leipg<ex>eding</ex></expan>, was des
+                                                vervallen sey, und auch das jar hinfür ir
+                                                  <expan>yetwed<ex>er</ex>m</expan> halbes raichen
+                                                und <expan>geb<ex>e</ex>n</expan> wöllet, wenn
+                                                  <expan>dan<ex>n</ex></expan> ir yedes seinen teil
+                                                an ew vorder. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> v
+                                                  <expan>an<ex>te</ex></expan> Andree
+                                                  <expan>ap<ex>osto</ex>li</expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

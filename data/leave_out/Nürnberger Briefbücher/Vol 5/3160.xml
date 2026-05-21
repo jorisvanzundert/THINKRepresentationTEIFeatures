@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="3160" xml:id="l3172" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 3160 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>293r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_11"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 3160.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Knoblach, Hans</persName></ab><ab type="mention"><placeName type="mention">Escherndorf (Gt. d. Stadt Volkach, Lk. Kitzingen)</placeName><persName type="mention">Ammann, Michael</persName></ab><date from="15-02-1423" to="15-02-1423" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_588">
+<surface lrx="2610" lry="3701" ulx="0" uly="0">
+<graphic height="3701px" url="Rst Nbg-Briefbücher-Nr 5_0297_right.png" width="2610px"/>
+<zone lrx="827" lry="384" rendition="TextRegion" ulx="842" uly="1094" xml:id="facs_588_r1">
+<zone lrx="1781" lry="384" rendition="Line" ulx="842" uly="291" xml:id="facs_588_r1l2"/>
+<zone lrx="2507" lry="547" rendition="Line" ulx="278" uly="428" xml:id="facs_588_r1l3"/>
+<zone lrx="2480" lry="627" rendition="Line" ulx="341" uly="510" xml:id="facs_588_r1l4"/>
+<zone lrx="2507" lry="710" rendition="Line" ulx="368" uly="598" xml:id="facs_588_r1l5"/>
+<zone lrx="2507" lry="782" rendition="Line" ulx="366" uly="676" xml:id="facs_588_r1l6"/>
+<zone lrx="2391" lry="861" rendition="Line" ulx="363" uly="758" xml:id="facs_588_r1l7"/>
+<zone lrx="2489" lry="955" rendition="Line" ulx="348" uly="841" xml:id="facs_588_r1l8"/>
+<zone lrx="2408" lry="1036" rendition="Line" ulx="357" uly="928" xml:id="facs_588_r1l9"/>
+<zone lrx="2438" lry="1124" rendition="Line" ulx="365" uly="1006" xml:id="facs_588_r1l10"/>
+<zone lrx="827" lry="1163" rendition="Line" ulx="335" uly="1094" xml:id="facs_588_r1l11"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans Knoblach zu Escherndorf</head><p>Der Rat teilt mit, dass Michael Ammann, Bürger zu Nürnberg, den Wein des Adressaten nicht für 15 Gulden pro Fuder, sondern nach geschätztem Marktwert gekauft hat, und verweist auf den Rechtsweg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_588" id="293r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab facs="#facs_588_r1l2"><expan>Han<ex>n</ex>s</expan> knoblach cʒü
+                        Eſſcherdorff </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_588_r1l3"><expan>L<ex>ieber</ex></expan> hanns als dü vns <expan>verſchr<ex>iben</ex></expan> haſt von Michel <expan>Amman<ex>n</ex>s</expan> <expan>vnſ<ex>er</ex>s</expan> burgers <expan>wege<ex>n</ex></expan> </ab>
+<ab facs="#facs_588_r1l4">etc Das <expan>hab<ex>e</ex>n</expan> wir wol vernomen . Vnd <expan>hab<ex>e</ex>n</expan> <expan>denſelb<ex>e</ex>n</expan> <expan>vnſ<ex>er</ex>n</expan> burger darumb </ab>
+<ab facs="#facs_588_r1l5">für vns beſandt . vnd mit Jm <expan>dauo<ex>n</ex></expan> geredt der hat vns geantwürt . das er der </ab>
+<ab facs="#facs_588_r1l6">wein von dir nicht kaufft hab ein fuder vmb <expan>funfcʒeh<ex>e</ex>n</expan> guldein ſünder er hab </ab>
+<ab facs="#facs_588_r1l7">die von dir <expan>genome<ex>n</ex></expan> auf ein <expan>gemeine<ex>n</ex></expan> anſlag vnd hat vns auch dein brief </ab>
+<ab facs="#facs_588_r1l8">geweiſet den dü Jm geſandt haſt von gelts vnd anſlags wegen . wie darumb </ab>
+<ab facs="#facs_588_r1l9">deucht dich aber das dü darüber cʒü dem <expan>vorgenan<ex>ten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>burg<ex>er</ex></expan> icht cʒü </ab>
+<ab facs="#facs_588_r1l10">ſprechen heſt So <expan>woll<ex>e</ex>n</expan> wir dir oder deinem ſcheinbotten mit <expan>deıne<ex>m</ex></expan> vollen </ab>
+<ab facs="#facs_588_r1l11">gewalt ut <expan>infor<ex>ma</ex></expan> <expan>Dat<ex>um</ex></expan> <expan>fe<ex>r</ex>ıa</expan> ıȷ<hi rend="sup">a</hi> <expan>p<ex>oſt</ex></expan> <expan>valent<ex>ini</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_588" id="293r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Han<ex>n</ex>s</expan> Knoblach czü Esscherdorff </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Hanns, als dü uns
+                            <expan>verschr<ex>iben</ex></expan> hast von Michel
+                                <expan>Amman<ex>n</ex>s</expan>, <expan>uns<ex>er</ex>s</expan>
+                        burgers, <expan>wege<ex>n</ex></expan> etc., das
+                            <expan>hab<ex>e</ex>n</expan> wir wol vernomen und
+                            <expan>hab<ex>e</ex>n</expan>
+<expan>denselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>n</expan> burger darumb für uns besandt und mit im
+                                <expan>davo<ex>n</ex></expan> geredt. Der hat uns geantwürt, das er
+                        der wein von dir nicht kaufft hab ein fuder umb
+                            <expan>funfczeh<ex>e</ex>n</expan> guldein, sünder er hab die von dir
+                                <expan>genome<ex>n</ex></expan> auf ein
+                            <expan>gemeine<ex>n</ex></expan> anslag; und hat uns auch dein brief
+                        geweiset, den dü im gesandt hast von gelts und anslags wegen. Wie darumb
+                        deucht dich aber, das dü darüber czü dem
+                            <expan>vorgenan<ex>ten</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>burg<ex>er</ex></expan> icht czü sprechen hest, so
+                                <expan>woll<ex>e</ex>n</expan> wir dir oder deinem scheinbotten mit
+                                <expan>deine<ex>m</ex></expan> vollen gewalt ut <expan>in
+                                for<ex>ma</ex></expan>. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>r</ex>ia</expan> ii<hi rend="sup">a</hi>
+<expan>p<ex>ost</ex></expan>
+<expan>Valent<ex>ini</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1111" xml:id="l1127" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1111 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>156v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1111.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Seinsheim, Erkinger v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q15855640" type="mention">Zell (Gt. d. Stadt Hilpoltstein, Lk. Roth)<noteGrp><note type="footnote">Die Identifizierung von "Czelle" als Zell im Landkreis Roth erfolgte aufgrund der geografischen Nähe zu den im vorhergehenden Brief genannten Orte Massendorf und Großweingarten.</note></noteGrp></placeName><persName type="mention">Mendel, Konrad I.</persName><persName type="mention">Paumgartner, Konrad IV.</persName><persName type="mention">Weng, Konrad v., Kp. in St. Sebald (Nürnberg)</persName><persName type="mention">Meyr, N.</persName></ab><date from="8-07-1411" to="5-08-1411" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_314">
+<surface lrx="2763" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0159_left.png" width="2763px"/>
+<zone lrx="1572" lry="2632" rendition="TextRegion" ulx="2515" uly="3233" xml:id="facs_314_r1"> <zone lrx="1572" lry="2632" rendition="Line" ulx="1408" uly="2561" xml:id="facs_314_r1l21"/>
+<zone lrx="2429" lry="2724" rendition="Line" ulx="2004" uly="2646" xml:id="facs_314_r1l22"/>
+<zone lrx="2586" lry="2791" rendition="Line" ulx="777" uly="2714" xml:id="facs_314_r1l23"/>
+<zone lrx="2679" lry="2803" rendition="Line" ulx="2515" uly="2764" xml:id="facs_314_r1l24"/>
+<zone lrx="2594" lry="2885" rendition="Line" ulx="750" uly="2814" xml:id="facs_314_r1l25"/>
+<zone lrx="2592" lry="2987" rendition="Line" ulx="768" uly="2877" xml:id="facs_314_r1l26"/>
+<zone lrx="2560" lry="3070" rendition="Line" ulx="766" uly="2981" xml:id="facs_314_r1l27"/>
+<zone lrx="2150" lry="3077" rendition="Line" ulx="1831" uly="3034" xml:id="facs_314_r1l28"/>
+<zone lrx="2609" lry="3165" rendition="Line" ulx="773" uly="3060" xml:id="facs_314_r1l29"/>
+<zone lrx="2598" lry="3260" rendition="Line" ulx="779" uly="3116" xml:id="facs_314_r1l30"/>
+<zone lrx="2273" lry="3336" rendition="Line" ulx="793" uly="3233" xml:id="facs_314_r1l31"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Erkinger von Seinsheim zu Kottenheim</head><p>Der Rat bittet um Herausgabe von fünf Kühen und zwei Kälbern des Armmanns N. Meyr von Zell von Konrad von Menig, Kaplan zu St. Sebald in Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_314" id="156v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_314_r1l21">eydem </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_314_r1l23">Lıeber <expan>Erk<ex>inger</ex></expan> Als vvır ew 
+<del rend="strikethrough"> vormals </del> von 
+<del rend="strikethrough"><expan>etlıch<ex>er</ex></expan></del>
+<add><ab facs="#facs_314_r1l22">C M et C <expan>paumg<ex>artner</ex></expan> </ab></add> <expan>vnſ<ex>er</ex>r</expan> <expan>burge<ex>r</ex></expan> </ab>
+<ab facs="#facs_314_r1l25">
+<del rend="strikethrough"><expan>wege<ex>n</ex></expan> <expan>v<ex>er</ex>ſc</expan></del> Armenleute <expan>wege<ex>n</ex></expan> <expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> / Alſo iſt 
+<del rend="strikethrough"> yecʒ </del>
+<add><ab facs="#facs_314_r1l24">darnach </ab></add> </ab>
+<ab facs="#facs_314_r1l26">auch für vns <expan>kume<ex>n</ex></expan> her <expan>Conr<ex>ad</ex></expan> von Meng <expan>vıcar<ex>ier</ex></expan> auf <expan>vnſ<ex>er</ex>r</expan> </ab>
+<ab facs="#facs_314_r1l27"><expan>fr<ex>awen</ex></expan> Altar in ſant <expan>Seb<ex>olt</ex></expan> pfarr <expan>vnſ<ex>er</ex></expan> Caplan vnd hat vns <expan>fürg<ex>elegt</ex></expan> </ab>
+<ab facs="#facs_314_r1l29"> vvie Jr dem <expan cert="unknown">H</expan> Meyr von Cʒelle 
+<add><ab facs="#facs_314_r1l28"><expan>ſeine<ex>m</ex></expan> Armman </ab></add> auch <expan>genome<ex>n</ex></expan> habt . v . kẅ </ab>
+<ab facs="#facs_314_r1l30">vnd cʒwu <expan>kalb<ex>e</ex>n</expan>
+<del rend="strikethrough"><expan>genome<ex>n</ex></expan> habt </del> / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr Jm <expan>daſſ<ex>elb</ex></expan> ſein </ab>
+<ab facs="#facs_314_r1l31">vihe auch <expan>vvıderg<ex>eben</ex></expan> wöllet Als etc das <expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_314" id="156v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Eydem </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber <expan>Erk<ex>inger</ex></expan>, als wir ew von
+                                    <add><expan>C<ex>onrad</ex></expan>
+<expan>M<ex>endell</ex></expan> et <expan>C<ex>onrad</ex></expan>
+<expan>Paumg<ex>artner</ex></expan></add>,
+                            <expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan>, armenleute <expan>wege<ex>n</ex></expan>
+<expan>v<ex>er</ex>schrib<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan>, also ist <add>darnach</add> auch für uns
+                                <expan>kume<ex>n</ex></expan> her <expan>Conr<ex>ad</ex></expan> von
+                        Meng, <expan>vicar<ex>ier</ex></expan> auf <expan>uns<ex>er</ex>r</expan>
+<expan>fr<ex>awen</ex></expan> altar in sant <expan>Seb<ex>olt</ex></expan>
+                        pfarr, <expan>uns<ex>er</ex></expan> caplan, und hat uns
+                                <expan>fürg<ex>elegt</ex></expan>, wie ir dem <expan cert="unknown">H.</expan> Meyr von Czelle, <add><expan>seine<ex>m</ex></expan>
+                            armman</add>, auch <expan>genome<ex>n</ex></expan> habt v kw und czwu
+                                <expan>kalb<ex>e</ex>n</expan>. <expan>Ro<ex>gamus</ex></expan>, daz
+                        ir im <expan>dass<ex>elb</ex></expan> sein vihe auch
+                                <expan>widerg<ex>eben</ex></expan> wöllet. Als etc. Das
+                                <expan>wölle<ex>n</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

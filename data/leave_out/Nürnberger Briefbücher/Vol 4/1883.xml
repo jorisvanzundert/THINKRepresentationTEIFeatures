@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1883" xml:id="l1894" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1883 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>091v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1883.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Hermann II. v. Cilli</persName></ab><ab type="mention"><placeName type="mention">Seger a. d. Sau (Slowenien)</placeName><placeName ref="https://www.wikidata.org/wiki/Q193478" type="mention">Ofen (Ungarn)</placeName><persName type="mention">Mehlmeister, N.</persName></ab><date from="11-06-1414" to="11-06-1414" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_183">
+<surface lrx="2622" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0094_left.png" width="2622px"/>
+<zone lrx="975" lry="2117" rendition="TextRegion" ulx="1778" uly="2965" xml:id="facs_183_r1">
+<zone lrx="2297" lry="2117" rendition="Line" ulx="854" uly="2045" xml:id="facs_183_r1l20"/> <zone lrx="2035" lry="2197" rendition="Line" ulx="952" uly="2142" xml:id="facs_183_r1l21"/>
+<zone lrx="2553" lry="2305" rendition="Line" ulx="679" uly="2236" xml:id="facs_183_r1l22"/>
+<zone lrx="2553" lry="2389" rendition="Line" ulx="689" uly="2325" xml:id="facs_183_r1l23"/>
+<zone lrx="2554" lry="2470" rendition="Line" ulx="686" uly="2430" xml:id="facs_183_r1l24"/>
+<zone lrx="2225" lry="2514" rendition="Line" ulx="1778" uly="2476" xml:id="facs_183_r1l25"/>
+<zone lrx="2556" lry="2563" rendition="Line" ulx="698" uly="2510" xml:id="facs_183_r1l26"/>
+<zone lrx="2560" lry="2660" rendition="Line" ulx="690" uly="2585" xml:id="facs_183_r1l27"/>
+<zone lrx="2578" lry="2750" rendition="Line" ulx="698" uly="2670" xml:id="facs_183_r1l28"/>
+<zone lrx="2576" lry="2838" rendition="Line" ulx="701" uly="2764" xml:id="facs_183_r1l29"/>
+<zone lrx="2540" lry="2935" rendition="Line" ulx="702" uly="2865" xml:id="facs_183_r1l30"/>
+<zone lrx="975" lry="3023" rendition="Line" ulx="696" uly="2965" xml:id="facs_183_r1l31"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hermann II., Graf von Cilli und Seger a. d. Sau</head><p>Der Rat teilt die Übersendung zweier Panzer nach Ofen als Geschenk für den Adressaten mit und bittet, den Nürnbergern gewogen zu sein.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_183" id="91v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_183_r1l20">Dem <expan>Hochgeborn<ex>en</ex></expan> vnd mechtıgen <expan>h<ex>er</ex>ren</expan> . <expan>H<ex>er</ex>n</expan> <expan>Herman<ex>n</ex></expan> </ab>
+<ab facs="#facs_183_r1l21">Grafen ʒu Ʒıly vnd ın dem Seger etc </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_183_r1l22"><expan>Vnſ<ex>er</ex></expan> wıllıg <expan>vnd<ex>er</ex>tenig</expan> dıenſt ſein <expan>ewr<ex>er</ex></expan> <expan>mechtık<ex>eit</ex></expan> allcʒeıt voran bereyt </ab>
+<ab facs="#facs_183_r1l23"><expan>Hochgeborn<ex>er</ex></expan> <expan>gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> . vvır <expan>hab<ex>e</ex>n</expan> <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> ʒu eren ʒwey <expan>bancʒ<ex>er</ex></expan> </ab>
+<ab facs="#facs_183_r1l24">bey vns machen <expan>laſſ<ex>en</ex></expan> . Dıe wır ~ dem <expan>melmeıſt<ex>er</ex></expan> gen Ofen geſchıkt </ab>
+<ab facs="#facs_183_r1l26"><expan>hab<ex>e</ex>n</expan> . <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> dıe von <expan>vnſ<ex>er</ex>n</expan> <expan>weg<ex>en</ex></expan>
+<add><ab facs="#facs_183_r1l25">ʒu <expan>antwurte<ex>n</ex></expan> vnd </ab></add> von vns ʒu <expan>ſchenk<ex>en</ex></expan>
+<del rend="strikethrough"> vnd ʒu </del></ab>
+<ab facs="#facs_183_r1l27">
+<del rend="strikethrough"><expan>antwurte<ex>n</ex></expan></del> . Vnd <expan>bıtt<ex>en</ex></expan> eẅr <expan>hoch<ex>wirdikeit</ex></expan> mıt <expan>gancʒe<ex>m</ex></expan> fleıſʒ . Daʒ Jr das ın gut </ab>
+<ab facs="#facs_183_r1l28">von vns <expan>aufneme<ex>n</ex></expan> wellet . Vnd vns vnd dıe <expan>vnſ<ex>er</ex>n</expan> <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> hinfür </ab>
+<ab facs="#facs_183_r1l29">laſſet <expan>befolhe<ex>n</ex></expan> ſein als Jr bıſher <expan>gnedıkl<ex>ich</ex></expan> getan habt das <expan>well<ex>e</ex>n</expan> wır </ab>
+<ab facs="#facs_183_r1l30">vmb eẅr <expan>hoch<ex>wirdikeit</ex></expan> allcʒeıt <expan>wıllıkl<ex>ich</ex></expan> vnd <expan>g<ex>er</ex>n</expan> <expan>v<ex>er</ex>dıenen</expan> . <expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııȷ<hi rend="sup">a</hi></ab>
+<ab facs="#facs_183_r1l31"><expan>an<ex>te</ex></expan> vıtȷ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_183" id="91v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Dem <expan>hochgeborn<ex>en</ex></expan> und mechtigen
+                            <expan>h<ex>er</ex>ren</expan>, <expan>h<ex>er</ex>n</expan>
+<expan>Herman<ex>n,</ex></expan> grafen zu Zily und in dem Seger etc. </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Uns<ex>er</ex></expan> willig, <expan>und<ex>er</ex>tenig</expan>
+                        dienst sein <expan>ewr<ex>er</ex></expan>
+<expan>mechtik<ex>eit</ex></expan> allczeit voran bereyt.
+                                <expan>Hochgeborn<ex>er,</ex></expan>
+<expan>gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, wir <expan>hab<ex>e</ex>n</expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> zu eren zwey <expan>bancz<ex>er</ex></expan>
+                        bey uns machen <expan>lass<ex>en</ex></expan>, die wir dem
+                                <expan>Melmeist<ex>er</ex></expan> gen Ofen geschikt
+                                <expan>hab<ex>e</ex>n</expan>, <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> die von <expan>uns<ex>er</ex>n</expan>
+<expan>weg<ex>en</ex></expan>
+<add>zu <expan>antwurte<ex>n</ex></expan> und</add> von uns zu
+                                <expan>schenk<ex>en</ex></expan>. Und <expan>bitt<ex>en</ex></expan>
+                        ewr <expan>hoch<ex>wirdikeit</ex></expan> mit
+                            <expan>gancze<ex>m</ex></expan> fleisz, daz ir das in gut von uns
+                                <expan>aufneme<ex>n</ex></expan> wellet und uns und die
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> hinfür lasset
+                            <expan>befolhe<ex>n</ex></expan> sein, als ir bisher
+                                <expan>gnedikl<ex>ich</ex></expan> getan habt. Das
+                                <expan>well<ex>e</ex>n</expan> wir umb ewr
+                                <expan>hoch<ex>wirdikeit</ex></expan> allczeit
+                                <expan>willikl<ex>ich</ex></expan> und <expan>g<ex>er</ex>n</expan>
+<expan>v<ex>er</ex>dienen</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan> Viti. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

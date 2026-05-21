@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1300" xml:id="l1315" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1300 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>207r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1300.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Lichtenstein, Georg v.</persName><persName type="recipient">Fuchs, Eberhard</persName><persName type="recipient">Lichtenstein, Matthias v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1729" type="mention">Erfurt</placeName><placeName ref="https://www.wikidata.org/wiki/Q2090" type="mention">Nürnberg</placeName><persName type="mention">Mayr, Jutta, Jüdin</persName><persName type="mention">Mayr, N., Sohn v. Jutta</persName><persName type="mention">Zentgref, Hans</persName><persName type="mention">Zentgref, Eberhard</persName><persName type="mention">Zentgref, Andreas</persName></ab><date from="9-02-1412" to="9-02-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_415">
+<surface lrx="2748" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0209_right.png" width="2748px"/>
+<zone lrx="993" lry="360" rendition="TextRegion" ulx="1916" uly="1913" xml:id="facs_415_r1">
+<zone lrx="1884" lry="360" rendition="Line" ulx="738" uly="283" xml:id="facs_415_r1l1"/>
+<zone lrx="2040" lry="436" rendition="Line" ulx="766" uly="364" xml:id="facs_415_r1l2"/>
+<zone lrx="993" lry="507" rendition="Line" ulx="813" uly="446" xml:id="facs_415_r1l3"/>
+<zone lrx="1325" lry="523" rendition="Line" ulx="1103" uly="478" xml:id="facs_415_r1l4"/>
+<zone lrx="2429" lry="578" rendition="Line" ulx="319" uly="512" xml:id="facs_415_r1l5"/>
+<zone lrx="2439" lry="667" rendition="Line" ulx="419" uly="584" xml:id="facs_415_r1l6"/>
+<zone lrx="2298" lry="648" rendition="Line" ulx="1916" uly="613" xml:id="facs_415_r1l7"/>
+<zone lrx="2400" lry="748" rendition="Line" ulx="403" uly="658" xml:id="facs_415_r1l8"/>
+<zone lrx="2427" lry="820" rendition="Line" ulx="415" uly="711" xml:id="facs_415_r1l9"/>
+<zone lrx="2441" lry="900" rendition="Line" ulx="402" uly="779" xml:id="facs_415_r1l10"/>
+<zone lrx="2363" lry="971" rendition="Line" ulx="400" uly="855" xml:id="facs_415_r1l11"/>
+<zone lrx="2411" lry="1035" rendition="Line" ulx="402" uly="926" xml:id="facs_415_r1l12"/>
+<zone lrx="2494" lry="1108" rendition="Line" ulx="397" uly="992" xml:id="facs_415_r1l13"/>
+<zone lrx="2450" lry="1183" rendition="Line" ulx="407" uly="1066" xml:id="facs_415_r1l14"/>
+<zone lrx="2427" lry="1258" rendition="Line" ulx="423" uly="1142" xml:id="facs_415_r1l15"/>
+<zone lrx="2529" lry="1335" rendition="Line" ulx="435" uly="1203" xml:id="facs_415_r1l16"/>
+<zone lrx="2446" lry="1409" rendition="Line" ulx="429" uly="1269" xml:id="facs_415_r1l17"/>
+<zone lrx="2382" lry="1485" rendition="Line" ulx="435" uly="1332" xml:id="facs_415_r1l18"/>
+<zone lrx="2414" lry="1570" rendition="Line" subtype="paragraph" ulx="421" uly="1394" xml:id="facs_415_r1l19"/>
+<zone lrx="2362" lry="1649" rendition="Line" ulx="404" uly="1485" xml:id="facs_415_r1l20"/>
+<zone lrx="2498" lry="1711" rendition="Line" ulx="414" uly="1564" xml:id="facs_415_r1l21"/>
+<zone lrx="2406" lry="1782" rendition="Line" ulx="400" uly="1635" xml:id="facs_415_r1l22"/>
+<zone lrx="2272" lry="1857" rendition="Line" ulx="421" uly="1698" xml:id="facs_415_r1l23"/>
+<zone lrx="2614" lry="1894" rendition="Line" ulx="1801" uly="1835" xml:id="facs_415_r1l24"/>
+<zone lrx="1293" lry="1937" rendition="Line" ulx="429" uly="1840" xml:id="facs_415_r1l25"/>
+<zone lrx="2633" lry="1972" rendition="Line" ulx="1806" uly="1913" xml:id="facs_415_r1l26"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Georg von Lichtenstein, Ritter, Eberhard Fuchs und Matthias von Lichtenstein</head><p>Der Rat bittet um Fürsprache bei Andreas, Hans und Eberhard Zentgref wegen der vor kurzem in das Nürnberger Bürgerrecht aufgenommenen Jüdin Jutta Mayr, der bei ihrer Reise von Erfurt nach Nürnberg von den drei Brüdern Zentgref 500 Gulden geraubt und ihr kleiner Sohn entführt worden ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_415" id="207r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_415_r1l1"><expan>H<ex>er</ex>n</expan> Gorgen von Liechtenſtein <expan>Ritt<ex>er</ex></expan> . </ab>
+<ab facs="#facs_415_r1l2">Eberhart Fuchs vnd Mathes <expan>vo<ex>n</ex></expan> liechtenſtein </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_415_r1l5"><expan>Lieb<ex>e</ex>n</expan> <expan>h<ex>er</ex>ren</expan> vvir 
+<add><ab facs="#facs_415_r1l3">
+<del rend="strikethrough"><expan>erberk<ex>eit</ex></expan></del></ab></add> laſʒen <expan>ew<ex>r</ex></expan>
+<add><ab facs="#facs_415_r1l4"><expan>erberk<ex>eit</ex></expan> </ab></add> vviſʒen / daʒ rede an vns kom <expan>vo<ex>n</ex></expan> Jutten Mayrin </ab><ab facs="#facs_415_r1l6">Jüdin / daʒ die vnſer <expan>Burg<ex>er</ex>ın</expan> cʒu werden / vnd ſich cʒu vns cʒe cʒiehent </ab><ab facs="#facs_415_r1l8">maint / . Alſo kömen vvir mit den / die mit vns redten 
+<add><ab facs="#facs_415_r1l7">von <expan>ıre<ex>n</ex></expan> wegen </ab></add> v̈berein / deʒ nu </ab><ab facs="#facs_415_r1l9">bey acht vvochen ſind vnd namen ſıe auff vnd ward auch das cʒwiſchen </ab><ab facs="#facs_415_r1l10">vns vnd Jr vmb purgkreht vnd ander dinge auf ein gancʒ ende beredt </ab><ab facs="#facs_415_r1l11">waʒ ſie vns dann tun 
+<del rend="strikethrough">ſolt </del> vnd vvie vvir ſie halten ſolten in <expan>ſölich<ex>er</ex></expan> maſʒ </ab><ab facs="#facs_415_r1l12">als vvir es dann mit <expan>and<ex>er</ex>n</expan> Juden bey vns halten . / Nu iſt die <expan>vorg<ex>enante</ex></expan> Jutt </ab><ab facs="#facs_415_r1l13">Jüdin cʒu vns kumen vnd hat vns furbracht / vvie ſie darauff Jr purkrecht </ab><ab facs="#facs_415_r1l14">cʒu Erfurtt aufgeben vnd herberg vnd ander Jr notdurfft hie bey vns </ab><ab facs="#facs_415_r1l15">cʒu Nüremberg beſtellt vnd auch ir habe hergeſchickt hab . / Vnd als </ab><ab facs="#facs_415_r1l16">ſie nach dem <expan>ẏecʒund<ex>en</ex></expan> mit Jr ſelbs leibe her gevaren ſeẏ vnd auch etwieuil </ab><ab facs="#facs_415_r1l17">gelts vnd ander ding beẏ Jr gehabt / vnd mit Jr gefurt hab / da 
+<del rend="strikethrough">ʒ </del> ſein an </ab><ab facs="#facs_415_r1l18">ſie komen Andres / Hans / vnd <expan>Eb<ex>erhart</ex></expan> die Cʒentgrefen geprüder vnd </ab><ab facs="#facs_415_r1l19"><expan>hab<ex>e</ex>n</expan> Jr <expan>genome<ex>n</ex></expan> an paren guldein vnd ander dinge / beẏ v<hi rend="sup">C</hi> <expan>guld<ex>en</ex></expan> wert </ab><ab facs="#facs_415_r1l20">vnd darcʒu einen knaben Jr kind hingefurt . / <expan>Ro<ex>gamus</ex></expan> . daʒ Jr <expan>d<ex>ur</ex>ch</expan> vnſern </ab><ab facs="#facs_415_r1l21">willen derſelben Jütten <expan>vnſ<ex>er</ex>r</expan> Jüdin / ewr fürdrung vnd hılffe beweiſen </ab><ab facs="#facs_415_r1l22">vnd mit den <expan>egen<ex>anten</ex></expan> Cʒentgrefen beſtellen vvöllet / daʒ ſie Jr Jr gelt vnd </ab><ab facs="#facs_415_r1l23">hab wider geben vnd auch den knaben ledig laſʒen / Als vvir etc </ab><ab facs="#facs_415_r1l25"><expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııȷ <expan>p<ex>oſt</ex></expan> Dorothee <expan>v<ex>ir</ex>g<ex>inis</ex></expan> </ab>
+</div>
+<div type="similiter"><del rend="crossout"><ab facs="#facs_415_r1l24"><expan>Erharte<ex>n</ex></expan> vom Liehtenſtein <expan>ſı<ex>mi</ex>l<ex>ite</ex>r</expan> </ab>
+<ab facs="#facs_415_r1l26">vt <expan>ſup<ex>ra</ex></expan> <expan>dat<ex>um</ex></expan> ut 
+<del rend="strikethrough"> infra </del> infra </ab>
+</del>
+</div>
+</div><div type="regularised"><pb facs="#facs_415" id="207r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Gorgen von Liechtenstein,
+                                <expan>ritt<ex>er</ex></expan>, Eberhart Fuchs und Mathes
+                                <expan>vo<ex>n</ex></expan> Liechtenstein</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan>
+<expan>h<ex>er</ex>ren</expan>, wir laszen <expan>ew<ex>r</ex></expan>
+<add><expan>erberk<ex>eit</ex></expan></add> wiszen, daz rede an uns kom
+                                <expan>vo<ex>n</ex></expan> Jutten Mayrin, jüdin, daz die unser
+                                <expan>burg<ex>er</ex>in</expan> czu werden und sich czu uns cze
+                        cziehent maint. Also kömen wir mit den, die mit uns redten, <add>von
+                                    <expan>ire<ex>n</ex></expan> wegen</add> überein, dez nu bey
+                        acht wochen sind, und namen sie auff und ward auch das czwischen uns und ir
+                        umb purgkreht und ander dinge auf ein gancz ende beredt, waz sie uns dann
+                        tun und wie wir sie halten solten in <expan>sölich<ex>er</ex></expan> masz,
+                        als wir es dann mit <expan>and<ex>er</ex>n</expan> juden bey uns halten. Nu
+                        ist die <expan>vorg<ex>enante</ex></expan> Jutt, jüdin, czu uns kumen und
+                        hat uns furbracht, wie sie darauff ir purkrecht czu Erfurtt aufgeben und
+                        herberg und ander ir notdurfft hie bey uns czu Nüremberg bestellt und auch
+                        ir habe hergeschickt hab. Und als sie nach dem
+                            <expan>yeczund<ex>en</ex></expan> mit ir selbs leibe her gevaren sey und
+                        auch etwievil gelts und ander ding bey ir gehabt und mit ir gefurt hab, da
+                        sein an sie komen Andres, Hans und <expan>Eb<ex>erhart</ex></expan> die
+                        Czentgrefen, geprüder, und <expan>hab<ex>e</ex>n</expan> ir
+                                <expan>genome<ex>n</ex></expan> an paren guldein und ander dinge bey
+                            v<hi rend="sup">c</hi>
+<expan>guld<ex>en</ex></expan> wert und darczu einen knaben, ir kind,
+                        hingefurt. <expan>Ro<ex>gamus</ex></expan>, daz ir
+                            <expan>d<ex>ur</ex>ch</expan> unsern willen derselben Jütten,
+                                <expan>uns<ex>er</ex>r</expan> jüdin, ewr fürdrung und hilffe
+                        beweisen und mit den <expan>egen<ex>anten</ex></expan> Czentgrefen bestellen
+                        wöllet, daz sie ir ir gelt und hab wider geben und auch den knaben ledig
+                        laszen. Als wir etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii <expan>p<ex>ost</ex></expan> Dorothee
+                                <expan>v<ex>ir</ex>g<ex>inis.</ex></expan></ab>
+</div>
+</div></body>
+</text>
+</TEI>

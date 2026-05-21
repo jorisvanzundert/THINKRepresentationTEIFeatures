@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="639" xml:id="l648" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 639 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>044r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 639.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1666235" type="recipient">Johann I. v. Egloffstein, Bf. v. Würzburg</persName></ab><ab type="mention"><placeName type="mention">Hausen bei Würzburg (Gem., Lk. Würzburg)</placeName><persName type="mention">Topler, Jakob</persName><persName type="mention">N., N., Pf. v. Hausen bei Würzburg</persName></ab><date from="28-02-1410" to="28-02-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_89">
+<surface lrx="2797" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0046_right.png" width="2797px"/>
+<zone lrx="1194" lry="364" rendition="TextRegion" ulx="627" uly="743" xml:id="facs_89_r2">
+<zone lrx="1194" lry="364" rendition="Line" ulx="627" uly="293" xml:id="facs_89_r2l2"/>
+<zone lrx="2512" lry="513" rendition="Line" ulx="327" uly="395" xml:id="facs_89_r2l3"/>
+<zone lrx="2530" lry="604" rendition="Line" ulx="325" uly="473" xml:id="facs_89_r2l4"/>
+<zone lrx="2448" lry="696" rendition="Line" ulx="347" uly="563" xml:id="facs_89_r2l5"/>
+<zone lrx="2452" lry="797" rendition="Line" ulx="323" uly="649" xml:id="facs_89_r2l6"/>
+<zone lrx="2478" lry="896" rendition="Line" ulx="357" uly="743" xml:id="facs_89_r2l7"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann I. von Egloffstein, Bischof von Würzburg</head><p>Der Rat teilt mit, dass Jakob Topler, Bürger zu Nürnberg, wegen des Pfarrers zu Hausen bei Würzburg selbst antworten wird.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_89" id="44r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_89_r2l2">Byſchof cʒü <expan>Wircʒb<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_89_r2l3"><expan>Gnedig<ex>er</ex></expan> <expan>h<ex>e</ex>r</expan> Als vns ewr gnad <expan>verſchr<ex>iben</ex></expan> hat von des <expan>Pfarr<ex>er</ex>s</expan> <expan>vveg<ex>en</ex></expan> cʒü Hawſen </ab>
+<ab facs="#facs_89_r2l4">darvmb <expan>hab<ex>e</ex>n</expan> vvir den Jacob Topler <expan>vnſ<ex>er</ex>n</expan> <expan>Burg<ex>er</ex></expan> cʒü rede geſacʒt / . vnd der ſprichet </ab>
+<ab facs="#facs_89_r2l5">Er wöll <expan>ew<ex>r</ex>n</expan> gnaden <expan>ſelb<ex>er</ex></expan> <expan>eıgentlıch<ex>e</ex>n</expan> <expan>v<ex>er</ex>ſchreib<ex>e</ex>n</expan> / . wie es vmb <expan>dıeſelb<ex>e</ex>n</expan> ſache </ab>
+<ab facs="#facs_89_r2l6"><expan>gelege<ex>n</ex></expan> ſeÿ / . vnd vvo wir <expan>ew<ex>r</ex>n</expan> <expan>gnad<ex>e</ex>n</expan> lieb vnd dıenſt <expan>beweıſe<ex>n</ex></expan> <expan>möht<ex>en</ex></expan> / des </ab>
+<ab facs="#facs_89_r2l7"><expan>w<ex>er</ex>n</expan> vvır vvıllıg vnd <expan>tet<ex>e</ex>n</expan> das <expan>allcʒ<ex>eit</ex></expan> <expan>g<ex>er</ex>ne</expan> / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> <expan>vj̃</expan> . <expan>An<ex>te</ex></expan> Letare / x<hi rend="sup">o</hi> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_89" id="44r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Byschof czü <expan>Wirczb<ex>ur</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan>, als uns ewr gnad
+                            <expan>verschr<ex>iben</ex></expan> hat von des
+                            <expan>pfarr<ex>er</ex>s</expan>
+<expan>weg<ex>en</ex></expan> czü Hawsen, darumb
+                            <expan>hab<ex>e</ex>n</expan> wir den Jacob Topler,
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>burg<ex>er</ex></expan>, czü rede gesaczt und der sprichet, er wöll
+                                <expan>ew<ex>r</ex>n</expan> gnaden <expan>selb<ex>er</ex></expan>
+<expan>eigentlich<ex>e</ex>n</expan>
+<expan>v<ex>er</ex>schreib<ex>e</ex>n</expan>, wie es umb
+                                <expan>dieselb<ex>e</ex>n</expan> sache
+                            <expan>gelege<ex>n</ex></expan> sey. Und wo wir
+                            <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>e</ex>n</expan> lieb und dienst
+                            <expan>beweise<ex>n</ex></expan>
+<expan>möht<ex>en</ex></expan>, des <expan>w<ex>er</ex>n</expan> wir willig
+                        und <expan>tet<ex>e</ex>n</expan> das <expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>ne</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan>
+<expan>vi</expan>
+<expan>an<ex>te</ex></expan> letare x<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

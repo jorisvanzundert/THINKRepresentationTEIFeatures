@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="3140" xml:id="l3151" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 3140 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>287v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 3140.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q44500" type="recipient">Weißenburg in Bayern</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3012" type="mention">Ulm</placeName><placeName ref="https://www.wikidata.org/wiki/Q3834" type="mention">Konstanz</placeName><placeName type="mention">Schwaben (Region)</placeName><persName type="mention">Konrad III. v. Dhaun, Ebf. v. Mainz</persName></ab><date from="20-01-1423" to="17-02-1423" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_577">
+<surface lrx="2581" lry="3701" ulx="0" uly="0">
+<graphic height="3701px" url="Rst Nbg-Briefbücher-Nr 5_0292_left.png" width="2581px"/> <zone lrx="1166" lry="1390" rendition="TextRegion" ulx="1719" uly="2338" xml:id="facs_577_r2"> <zone lrx="1647" lry="1390" rendition="Line" ulx="836" uly="1314" xml:id="facs_577_r2l13"/>
+<zone lrx="2526" lry="1499" rendition="Line" ulx="542" uly="1380" xml:id="facs_577_r2l14"/>
+<zone lrx="2490" lry="1578" rendition="Line" ulx="549" uly="1502" xml:id="facs_577_r2l15"/>
+<zone lrx="1755" lry="1627" rendition="Line" ulx="1719" uly="1557" xml:id="facs_577_r2l16"/>
+<zone lrx="2529" lry="1683" rendition="Line" ulx="546" uly="1570" xml:id="facs_577_r2l17"/>
+<zone lrx="2538" lry="1776" rendition="Line" ulx="558" uly="1663" xml:id="facs_577_r2l18"/>
+<zone lrx="2445" lry="1862" rendition="Line" ulx="564" uly="1765" xml:id="facs_577_r2l19"/>
+<zone lrx="2538" lry="1953" rendition="Line" ulx="561" uly="1850" xml:id="facs_577_r2l20"/>
+<zone lrx="2499" lry="2052" rendition="Line" ulx="560" uly="1941" xml:id="facs_577_r2l21"/>
+<zone lrx="2508" lry="2143" rendition="Line" ulx="558" uly="2041" xml:id="facs_577_r2l22"/>
+<zone lrx="2502" lry="2230" rendition="Line" ulx="564" uly="2149" xml:id="facs_577_r2l23"/>
+<zone lrx="2460" lry="2329" rendition="Line" ulx="552" uly="2239" xml:id="facs_577_r2l24"/>
+<zone lrx="1166" lry="2425" rendition="Line" ulx="537" uly="2338" xml:id="facs_577_r2l25"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Weißenburg</head><p>Der Rat übersendet Abschriften vertraulicher Beschlüsse von der kürzlichen Zusammenkunft der Städte zu Ulm.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_577" id="287v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_577_r2l13">Den von weıſſemburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_577_r2l14"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> / als <expan>vnſ<ex>er</ex>r</expan> guten <expan>fr<ex>ewnde</ex></expan> von etwıeuıl ſtetten vnd auch vnſer </ab>
+<ab facs="#facs_577_r2l15"><expan>erb<ex>er</ex>n</expan> botten <expan>yecʒ<ex>unden</ex></expan> ʒu vlme bey <expan>eınand<ex>er</ex></expan> <expan>geweſ<ex>en</ex></expan> ſınd / alſo haben </ab>
+<ab facs="#facs_577_r2l17">vns <expan>vnſ<ex>er</ex></expan> freẅnde geſagt . daʒ ſıch 
+<add><ab facs="#facs_577_r2l16">da </ab></add> vmb dıe ſache <expan>daru<ex>m</ex>b</expan> dıe ſtett </ab>
+<ab facs="#facs_577_r2l18"><expan>vnſ<ex>er</ex>m</expan> <expan>h<ex>er</ex>ren</expan> von Meincʒ . nehſt auf Nıcolaȷ <expan>geantw<ex>ur</ex>tt</expan> haben . Vnd </ab>
+<ab facs="#facs_577_r2l19">auch vmb dıe ſache . <expan>daru<ex>m</ex>b</expan> vormals bey vns vnd ʒu Coſtencʒ / </ab>
+<ab facs="#facs_577_r2l20">ʒaichnuſſ <expan>begrıffe<ex>n</ex></expan> ſeyn / <expan>mang<ex>er</ex>ley</expan> rede vnd <expan>wıd<ex>er</ex>rede</expan> <expan>ergang<ex>en</ex></expan> <expan>habe<ex>n</ex></expan> </ab>
+<ab facs="#facs_577_r2l21">Vnd auf das lecʒ ſo haben dıe ſtette der <expan>v<ex>er</ex>eynung</expan> in ſwoben der </ab>
+<ab facs="#facs_577_r2l22"><expan>and<ex>er</ex>n</expan> ſtette <expan>botte<ex>n</ex></expan> / ein ſchrıft <expan>Jr<ex>er</ex></expan> meynung geben / Darnach ſey </ab>
+<ab facs="#facs_577_r2l23">ein ſchrıft vnd ratſlagung <expan>begrıff<ex>en</ex></expan> <expan>word<ex>en</ex></expan> . von <expan>vnſ<ex>er</ex>s</expan> <expan>h<ex>er</ex>ren</expan> </ab>
+<ab facs="#facs_577_r2l24">von Meincʒ ſache <expan>weg<ex>en</ex></expan> / <expan>derſ<ex>elben</ex></expan> <expan>beıd<ex>er</ex></expan> ſchrıft . <expan>ſchık<ex>en</ex></expan> wır </ab>
+<ab facs="#facs_577_r2l25">et <expan>p<ex>er</ex></expan> <expan>o<ex>mn</ex>ıa</expan> ut <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_577" id="287v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Den von Weissemburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als <expan>uns<ex>er</ex>r</expan> guten
+                                <expan>fr<ex>eunde</ex></expan> von etwievil stetten und auch unser
+                                <expan>erb<ex>er</ex>n</expan> botten
+                            <expan>yecz<ex>unden</ex></expan> zu Ulme
+                            bey<expan>einand<ex>er</ex></expan>
+<expan>gewes<ex>en</ex></expan> sind, also haben uns
+                            <expan>uns<ex>er</ex></expan> frewnde gesagt, daz sich <add>da</add> umb
+                        die sache, <expan>daru<ex>m</ex>b</expan> die stett
+                            <expan>uns<ex>er</ex>m</expan>
+<expan>h<ex>er</ex>ren</expan> von Meincz nehst auf <app><note><q type="date">Nicolai</q>06.12.1422</note></app>
+<expan>geantw<ex>ur</ex>tt</expan> haben, und auch umb die sache,
+                                <expan>daru<ex>m</ex>b</expan> vormals bey uns und zu Costencz
+                        zaichnuss <expan>begriffe<ex>n</ex></expan> seyn,
+                            <expan>mang<ex>er</ex>ley</expan> rede und
+                            <expan>wid<ex>er</ex>rede</expan>
+<expan>ergang<ex>en</ex></expan>
+<expan>habe<ex>n</ex></expan>; und auf das lecz so haben die stette der
+                                <expan>v<ex>er</ex>eynung</expan> in Swoben der
+                                <expan>and<ex>er</ex>n</expan> stette <expan>botte<ex>n</ex></expan>
+                        ein schrift <expan>ir<ex>er</ex></expan> meynung geben, darnach sey ein
+                        schrift und ratslagung <expan>begriff<ex>en</ex></expan>
+<expan>word<ex>en</ex></expan> von <expan>uns<ex>er</ex>s</expan>
+<expan>h<ex>er</ex>ren</expan> von Meincz sache
+                            <expan>weg<ex>en</ex></expan>; <expan>ders<ex>elben</ex></expan>
+<expan>beid<ex>er</ex></expan> schrift <expan>schik<ex>en</ex></expan> wir
+                        et <expan>p<ex>er</ex></expan>
+<expan>o<ex>mn</ex>ia</expan> ut <expan>sup<ex>ra</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

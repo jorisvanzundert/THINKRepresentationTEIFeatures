@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="620" xml:id="l629" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 620 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche
+                        Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier
+                    </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und
+                        Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander
+                        Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY NC 4.0
+                    </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>039v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 620.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q641" type="recipient">Venedig (Italien)</placeName><persName type="recipient">Steno, Michele, Doge v. Venedig</persName></ab><ab type="mention"><persName type="mention">Hirsvogel, Ulrich</persName><persName type="mention">Pfinzing, Franz d. Ä.</persName></ab><date from="7-02-1410" to="7-02-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_80">
+<surface lrx="2768" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0042_left.png" width="2768px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_80_r1">
+</zone>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_80_r2">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Michele Steno, Doge von Venedig, und Venedig</head>
+<p>Der Rat bittet um Herausgabe beschlagnahmter Rosenkränze aus gedrechselten Knochen verpackt in zwei Ballen aus rötlichem Fell und um Silber im Gewicht von 24 Mark und sechs Lot des Ulrich Hirsvogel, Bürger zu Nürnberg, die lediglich Beipack bei den Waren des Franz Pfinzing waren.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis">
+<ab><w join="" lemma="" msd="" part="" pos=""><fLib>
+<f name=" "/>
+</fLib></w></ab>
+</div>
+</front>
+<body>
+<div type="diplomatic">
+<pb facs="#facs_80" id="39v"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich
+                    normalisiert transkribiert.
+                </div>
+</div>
+<div type="regularised">
+<pb facs="#facs_80" id="39v"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Magnifico <expan>et</expan> excellenti
+                            <expan>d<ex>o</ex>m<ex>in</ex>io</expan>, <expan>d<ex>omi</ex>no</expan>
+                        Michaeli Steno, duci <expan>Venet<ex>iarum</ex></expan>
+<expan>e<ex>t</ex>c</expan>., nec non <expan>spectab<ex>i</ex>libus</expan>
+<expan>et</expan>
+<expan>p<ex>rae</ex>potentib<ex>us</ex></expan>
+<expan>d<ex>omi</ex>nis</expan>
+<expan>ei<ex>us</ex></expan> consilio venerando</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>
+<add><expan>Pr<ex>o</ex>mpt<ex>is</ex></expan></add>
+<expan>et</expan>
+<expan>indefess<ex>is</ex></expan> serviciis <expan>v<ex>est</ex>ris</expan>
+                        excellentiis <expan>cu<ex>m</ex></expan> debita
+                                <expan>subiect<ex>i</ex>o<ex>n</ex>e</expan>
+<expan>p<ex>rae</ex>miss<ex>is</ex></expan>. Magnifice et excelse,
+                                <expan>spectab<ex>i</ex>lesq<ex>ue</ex></expan>
+<expan>p<ex>rae</ex>potent<ex>es</ex></expan>
+<expan>d<ex>omi</ex>ni</expan>. <expan>P<ex>ro</ex>posuit</expan> nobis
+                        Ulricus <expan>d<ex>i</ex>c<ex>t</ex>us</expan> Hirsvogell concivis
+                                <expan>n<ex>oste</ex>r</expan> se
+                                    <add><expan>qua<ex>m</ex>d<ex>am</ex></expan></add>
+<expan>p<ex>ar</ex>va<ex>m</ex></expan>
+<expan>palla<ex>m</ex></expan>
+<expan>duab<ex>us</ex></expan> pelliculis rubeis
+                                <expan>circu<ex>m</ex>tecta<ex>m</ex></expan> pridem certis
+                                <expan>reb<ex>us</ex></expan>
+<expan>mercimonialib<ex>us</ex></expan> Francisci
+                                <expan>d<ex>i</ex>c<ex>t</ex>i</expan> Pfinczing applicuisse et
+                                <expan>cu<ex>m</ex></expan>
+<expan>eisde<ex>m</ex></expan> ad <expan>p<ex>ar</ex>tes</expan>
+<expan>v<ex>est</ex>ras</expan>
+<expan>et</expan>
+<expan>civitate<ex>m</ex></expan>
+<expan>Venet<ex>iarum</ex></expan>
+<expan>t<ex>ra</ex>nsmisisse</expan>. In qua <expan>quid<ex>em</ex></expan>
+                        pallula reconderit viginti quatuor marcas <expan>et</expan> lotones sex
+                        argenti deaurati <expan>et</expan> in <expan>q<ex>ua</ex>ntitate</expan>
+                        modica de <expan>instrument<ex>is</ex></expan>
+<expan>f<ex>a</ex>c<ex>t</ex>i<ex>s</ex></expan> ex
+                            <expan>ossib<ex>us</ex></expan>, in <expan>quib<ex>us</ex></expan>
+                        vulgares numerare ac notare solent
+                            <expan>orat<ex>i</ex>on<ex>em</ex></expan>
+<expan>domi<ex>ni</ex>cam</expan>
+<expan>sc<ex>ilicet</ex></expan>
+<expan>pat<ex>er</ex>noster</expan>, que <expan>o<ex>mn</ex>ia</expan>
+<expan>si<ex>mu</ex>l</expan>
+<expan>habea<ex>n</ex>t</expan> in <expan>ponde<ex>re</ex></expan> libras
+                                <expan>qui<ex>n</ex>quaginta</expan>
+<expan>v<ex>e</ex>l</expan>
+<expan>q<ex>uasi</ex></expan>. <expan>Eademq<ex>ue</ex></expan>
+<expan>iamd<ex>i</ex>c<ex>t</ex>a</expan>, <expan>videlicet</expan>
+<expan>argent<ex>um</ex></expan>
+<expan>et</expan> paternoster, penes vos in <expan>Venec<ex>iis</ex></expan>
+                        arrestata sint <expan>p<ex>re</ex>textu</expan>,
+                            <expan>q<ex>uasi</ex></expan>
+<expan>d<ex>i</ex>c<ex>t</ex>o</expan> Francisco debeant
+                                <expan>attine<ex>re</ex></expan>.
+                                <expan>P<ex>rae</ex>d<ex>i</ex>c<ex>t</ex>us</expan>
+<expan>aut<ex>em</ex></expan>
+<expan>Ulr<ex>icus</ex></expan> civis <expan>n<ex>oste</ex>r</expan>
+<expan>corp<ex>or</ex>ale</expan>
+<expan>iurame<ex>n</ex>t<ex>um</ex></expan>
+<expan>p<ex>rae</ex>stitit</expan>
+<expan>cora<ex>m</ex></expan> nobis <expan>d<ex>i</ex>c<ex>t</ex>am</expan>
+<expan>pallula<ex>m</ex></expan>
+<expan>cu<ex>m</ex></expan>
+<expan>p<ex>rae</ex>no<ex>m</ex>i<ex>n</ex>at<ex>is</ex></expan> argento
+                            <expan>et</expan> paternoster fore <expan>sua<ex>m</ex></expan>
+<expan>et</expan>
+<expan>fratr<ex>um</ex></expan>
+<expan>suor<ex>um</ex></expan>, <expan>etia<ex>m</ex></expan>
+<expan>conciviu<ex>m</ex></expan>
+<expan>n<ex>ost</ex>ror<ex>um</ex></expan>, dicto Francisco in eisdem
+                        pallula, argento ac paternoster <expan>atq<ex>ue</ex></expan>
+<expan>cu<ex>m</ex></expan>
+<expan>p<ex>rae</ex>d<ex>i</ex>c<ex>t</ex>o</expan> Ulrico <expan>et</expan>
+<expan>fr<ex>atr</ex>ib<ex>us</ex></expan> suis
+                                <expan>n<ex>u</ex>lla<ex>m</ex></expan>
+<expan>p<ex>ar</ex>tem</expan>, <expan>
+<ex>com</ex>m<ex>u</ex>ni<ex>onem</ex></expan> seu
+                                <expan>societate<ex>m</ex></expan>
+<expan>h<ex>abe</ex>nte</expan>. Unde
+                            <expan>v<ex>est</ex>ra<ex>m</ex></expan>
+<expan>excellen<ex>tiam</ex></expan>
+<expan>p<ex>re</ex>cib<ex>us</ex></expan>
+<expan>p<ex>re</ex>attent<ex>is</ex></expan>
+<expan>duxi<ex>mus</ex></expan>
+<expan>exorand<ex>um</ex></expan>, <expan>q<ex>ua</ex>t<ex>enu</ex>s</expan>
+<expan><ex>con</ex>te<ex>m</ex>plat<ex>i</ex>o<ex>n</ex>e</expan>
+<expan>n<ex>ost</ex>ri</expan> de <expan>benigni<ex>ta</ex><hi rend="sup">te</hi></expan>
+<expan>v<ex>est</ex>ra</expan>
+<expan>dispone<ex>re</ex></expan>
+<expan>dignemi<ex>ni</ex></expan>, uti
+                            <expan>p<ex>re</ex>tact<ex>is</ex></expan>
+<expan>concivib<ex>us</ex></expan>
+<expan>n<ex>ost</ex>ris</expan>
+<expan>p<ex>re</ex>no<ex>m</ex>i<ex>n</ex>ata</expan>
+<add><expan>ip<ex>s</ex>or<ex>um</ex></expan></add>
+<expan>mercimo<ex>n</ex>ia</expan>
+<expan>dearresten<ex>tur</ex></expan>
+<expan>ip<ex>s</ex>a</expan>
+<add><expan>eis</expan></add>
+<expan>libe<ex>re</ex></expan>
+<expan>et</expan> sine <expan>impedime<ex>n</ex>to</expan>
+<expan>penit<ex>us</ex></expan>
+<expan>p<ex>er</ex>mittant<ex>ur</ex></expan>. In eo nobis <expan>et</expan>
+<expan>p<ex>rae</ex>tact<ex>is</ex></expan>
+<expan>concivib<ex>us</ex></expan>
+<expan>n<ex>ost</ex>ris</expan>
+<expan>v<ex>est</ex>r<ex>u</ex>m</expan>
+<expan>p<ex>ro</ex>mot<ex>io</ex>n<ex>i</ex>s</expan>
+<expan>effc<ex>tu</ex>m</expan>
+<expan>o<ex>ste</ex>ndet<ex>is</ex></expan>, <expan>p<ex>ro</ex></expan>
+<expan>v<ex>est</ex>ris</expan>
+<expan>magnifit<ex>atibus</ex></expan>
+<expan>iugit<ex>er</ex></expan>
+<expan>reme<ex>re</ex>nd<ex>um</ex></expan>.
+                                <expan>Sc<ex>ri</ex>pt<ex>um</ex></expan>
+<expan>vii</expan> die februarii anno a
+                            <expan>na<ex>t</ex>ivi<ex>tate</ex></expan>
+<expan>d<ex>omi</ex>ni</expan>
+<expan>m<hi rend="sup">o</hi>cccc deci<ex>m</ex>o</expan>.</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2932" xml:id="l2943" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2932 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>227v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2932.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Aulenbach, Hans v.</persName></ab><ab type="mention"><placeName type="mention">Schweinberg (Gt. d. Gem. Hardheim, Lk. Neckar-Odenwald, Baden-Württemberg)</placeName><persName type="mention">Wiese, Fritz</persName></ab><date from="6-06-1422" to="6-06-1422" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_457">
+<surface lrx="2653" lry="3745" ulx="0" uly="0">
+<graphic height="3745px" url="Rst Nbg-Briefbücher-Nr 5_0232_left.png" width="2653px"/>
+<zone lrx="1287" lry="2628" rendition="TextRegion" ulx="1243" uly="3224" xml:id="facs_457_r1">
+<zone lrx="1883" lry="2628" rendition="Line" ulx="1243" uly="2565" xml:id="facs_457_r1l30"/> <zone lrx="1977" lry="2703" rendition="Line" ulx="1234" uly="2640" xml:id="facs_457_r1l31"/>
+<zone lrx="2454" lry="2824" rendition="Line" ulx="662" uly="2752" xml:id="facs_457_r1l32"/>
+<zone lrx="2434" lry="2904" rendition="Line" ulx="666" uly="2829" xml:id="facs_457_r1l33"/>
+<zone lrx="2392" lry="2991" rendition="Line" ulx="676" uly="2904" xml:id="facs_457_r1l34"/>
+<zone lrx="2408" lry="3069" rendition="Line" ulx="688" uly="2981" xml:id="facs_457_r1l35"/>
+<zone lrx="2460" lry="3141" rendition="Line" ulx="684" uly="3062" xml:id="facs_457_r1l36"/>
+<zone lrx="2456" lry="3221" rendition="Line" ulx="684" uly="3138" xml:id="facs_457_r1l37"/>
+<zone lrx="1287" lry="3295" rendition="Line" ulx="691" uly="3224" xml:id="facs_457_r1l38"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans von Aulenbach, Amtmann zu Schweinberg</head><p>Der Rat teilt Unkenntnis über seinen angeblichen Kundschafter Fritz Wiese mit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_457" id="227v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_457_r1l30">Hanſen von Vlnbach </ab>
+<ab facs="#facs_457_r1l31">Amptman cʒu <expan>Sweÿnb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_457_r1l32"><expan>L<ex>ieber</ex></expan> <expan>Han<ex>n</ex>s</expan> Als Jr vns <expan>verſchr<ex>iben</ex></expan> habt von eins wegen genant </ab>
+<ab facs="#facs_457_r1l33">fricʒ vvyſe vvie der 
+<del rend="strikethrough">bey ew danyden cʒu lande </del> beleument vnd </ab>
+<ab facs="#facs_457_r1l34">gecʒigen ſey worden . daʒ Er vns bey euch danyden cʒulande </ab>
+<ab facs="#facs_457_r1l35">kuntſchaft verſpehe / . dauon vviſſen vvir nihtʒ vnd <expan>kenne<ex>n</ex></expan> </ab>
+<ab facs="#facs_457_r1l36">auch des <expan>egen<ex>anten</ex></expan> fricʒen vvyſen niht / Vnd wo vvir euch <expan>gute<ex>n</ex></expan> </ab>
+<ab facs="#facs_457_r1l37">vvıllen beweiſen möhten das teten vvir gern . <expan>Dat<ex>um</ex></expan> <expan>Sabb<ex>a</ex>to</expan> </ab>
+<ab facs="#facs_457_r1l38"><expan>an<ex>te</ex></expan> <expan>do<ex>min</ex>ic<ex>am</ex></expan> <expan>Trinitat<ex>em</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_457" id="227v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hansen von Ulnbach, amptman czu <expan>Sweynb<ex>er</ex>g</expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>Han<ex>n</ex>s</expan>, als ir uns
+                            <expan>verschr<ex>iben</ex></expan> habt von eins wegen genant Fricz
+                        Wyse, wie der beleument und geczigen sey worden, daz er uns bey euch danyden
+                        czulande kuntschaft verspehe, davon wissen wir nihcz und
+                                <expan>kenne<ex>n</ex></expan> auch des
+                            <expan>egen<ex>anten</ex></expan> Friczen Wysen niht. Und wo wir euch
+                                <expan>gute<ex>n</ex></expan> willen beweisen möhten, das teten wir
+                        gern. <expan>Dat<ex>um</ex></expan>
+<expan>sabb<ex>a</ex>to</expan>
+<expan>an<ex>te</ex></expan>
+<expan>do<ex>min</ex>ic<ex>am</ex></expan>
+<expan>trinitat<ex>em</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

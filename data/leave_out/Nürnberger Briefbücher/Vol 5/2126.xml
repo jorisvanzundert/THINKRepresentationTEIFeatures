@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2126" xml:id="l2138" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2126 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>008r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2126.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wolf, Ortlieb</persName></ab><ab type="mention"><placeName type="mention">Murach, Bg. (Lk. Schwandorf)</placeName><persName type="mention">Cham, Friedrich v.<noteGrp><note type="footnote">Sein vollständiger Name geht hervor aus Nr. 2155.</note></noteGrp></persName></ab><date from="16-06-1419" to="16-06-1419" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_18">
+<surface lrx="2679" lry="3566" ulx="0" uly="0">
+<graphic height="3566px" url="Rst Nbg-Briefbücher-Nr 5_0011_right.png" width="2679px"/>
+<zone lrx="316" lry="1859" rendition="TextRegion" ulx="30" uly="1884" xml:id="facs_18_r1">
+<zone lrx="410" lry="1859" rendition="Line" ulx="16" uly="1814" xml:id="facs_18_r1l2"/>
+<zone lrx="316" lry="1934" rendition="Line" ulx="30" uly="1884" xml:id="facs_18_r1l3"/>
+</zone>
+<zone lrx="1286" lry="297" rendition="TextRegion" ulx="791" uly="1384" xml:id="facs_18_r2">
+<zone lrx="1286" lry="297" rendition="Line" ulx="791" uly="219" xml:id="facs_18_r2l1"/>
+<zone lrx="1363" lry="376" rendition="Line" ulx="781" uly="309" xml:id="facs_18_r2l3"/>
+<zone lrx="2368" lry="615" rendition="Line" ulx="343" uly="475" xml:id="facs_18_r2l4"/>
+<zone lrx="2375" lry="715" rendition="Line" ulx="428" uly="575" xml:id="facs_18_r2l5"/>
+<zone lrx="2339" lry="803" rendition="Line" ulx="452" uly="666" xml:id="facs_18_r2l6"/>
+<zone lrx="2294" lry="895" rendition="Line" ulx="439" uly="757" xml:id="facs_18_r2l7"/>
+<zone lrx="2261" lry="975" rendition="Line" ulx="413" uly="852" xml:id="facs_18_r2l8"/>
+<zone lrx="2269" lry="1061" rendition="Line" ulx="431" uly="943" xml:id="facs_18_r2l9"/>
+<zone lrx="2327" lry="1142" rendition="Line" ulx="438" uly="1027" xml:id="facs_18_r2l10"/>
+<zone lrx="2339" lry="1222" rendition="Line" ulx="445" uly="1119" xml:id="facs_18_r2l11"/>
+<zone lrx="2297" lry="1310" rendition="Line" ulx="441" uly="1205" xml:id="facs_18_r2l12"/>
+<zone lrx="2275" lry="1393" rendition="Line" ulx="442" uly="1296" xml:id="facs_18_r2l13"/>
+<zone lrx="2297" lry="1491" rendition="Line" ulx="443" uly="1384" xml:id="facs_18_r2l14"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ortlieb Wolf, Pfleger zu Murach</head><p>Der Rat teilt wegen des Diebstahls an Friedrich [von Cham], Bürger zu Nürnberg, seine schon lange andauernde Abwesenheit mit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_18" id="8r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_18_r2l1"><expan>Ortlıeb<ex>e</ex>n</expan> wolff </ab>
+<ab facs="#facs_18_r2l3">pfleger cʒu Murach </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_18_r2l4"><expan>L<ex>ieber</ex></expan> her pfleger Als Jr vns <expan>verſchrib<ex>e</ex>n</expan> habt von fridrich Cramers </ab>
+<ab facs="#facs_18_r2l5"><expan>vnſ<ex>er</ex>s</expan> Burgers vnd eins <expan>and<ex>er</ex>n</expan> wegen ~ der Jm ſein kremereÿ ver </ab>
+<ab facs="#facs_18_r2l6">ſtoln hab etc . dauon <expan>hab<ex>e</ex>n</expan> vvir vormals niht gevviſʒt noch <expan>v<ex>er</ex>nome<ex>n</ex></expan> </ab>
+<ab facs="#facs_18_r2l7"><expan>dan<ex>n</ex></expan> vvir dancken <expan>ewr<ex>er</ex></expan> erberkeit fleiſſıklıch ſölichs <expan>v<ex>er</ex>ſchreıbens</expan> vnd </ab>
+<ab facs="#facs_18_r2l8">gutenvvillens . Vnd thun euch cʒevviſſen . daʒ vvir nach dem <expan>egen<ex>an</ex>t<ex>en</ex></expan> </ab>
+<ab facs="#facs_18_r2l9">Fricʒen Cramer <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> geſant heten vnd Jm das alſo cʒevviſſen </ab>
+<ab facs="#facs_18_r2l10">getan <expan>hab<ex>e</ex>n</expan> wolten . So iſt Er cʒu dercʒeit niht anheim . vnd iſt auch </ab>
+<ab facs="#facs_18_r2l11">etvvielange niht anheim geweſen . Vnd iſt vns geſagt worden daʒ Er </ab>
+<ab facs="#facs_18_r2l12">in <expan>etvvielang<ex>er</ex></expan> cʒeit niht herheim kumen werde . da mügt Jr ew wol </ab>
+<ab facs="#facs_18_r2l13">nach richten . <expan>dan<ex>n</ex></expan> vvo vvir <expan>ewr<ex>er</ex></expan> erberkeit auch lieb <expan>od<ex>er</ex></expan> freuntſchaft </ab>
+<ab facs="#facs_18_r2l14">beweiſen möchten . das teten vvir <expan>g<ex>er</ex>n</expan> . <expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> vj̃ <expan>p<ex>oſt</ex></expan> <expan>Corp<ex>or</ex>is</expan> xpi </ab>
+<note place="bottomleft">
+<ab facs="#facs_18_r1l2"><expan>no<ex>ta</ex></expan> <expan>l<ex>itte</ex>r<ex>am</ex></expan> <expan>ſup<ex>ra</ex></expan> <expan>ſc<ex>ri</ex>pt<ex>am</ex></expan> </ab>
+<ab facs="#facs_18_r1l3"><expan>p<ex>er</ex>tin<ex>emus</ex></expan> infra</ab>
+</note>
+</div>
+</div><div type="regularised"><pb facs="#facs_18" id="8r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Ortlieb<ex>e</ex>n</expan> Wolff, pfleger czu Murach </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab><expan>L<ex>ieber</ex></expan> her pfleger, als ir uns <expan>verschrib<ex>e</ex>n</expan> habt
+                        von Fridrich Cramers, <expan>uns<ex>er</ex>s</expan> burgers, und eins
+                                <expan>and<ex>er</ex>n</expan> wegen, der im sein kremerey verstoln
+                        hab etc., davon <expan>hab<ex>e</ex>n</expan> wir vormals niht gewiszt noch
+                                <expan>v<ex>er</ex>nome<ex>n</ex></expan>.
+                            <expan>Dan<ex>n</ex></expan> wir dancken <expan>ewr<ex>er</ex></expan>
+                        erberkeit fleissiklich sölichs <expan>v<ex>er</ex>schreibens</expan> und
+                        guten willens und thun euch cze wissen, daz wir nach dem
+                                <expan>egen<ex>an</ex>t<ex>en</ex></expan> Friczen Cramer
+                                <expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan> gesant heten und im das also czewissen getan
+                                <expan>hab<ex>e</ex>n</expan> wolten. So ist er czu derczeit niht
+                        anheim und ist auch etwielange niht anheim gewesen; und ist uns gesagt
+                        worden, daz er in <expan>etwielang<ex>er</ex></expan> czeit niht herheim
+                        kumen werde. Da mügt ir ew wol nach richten. <expan>Dan<ex>n</ex></expan> wo
+                        wir <expan>ewr<ex>er</ex></expan> erberkeit auch lieb
+                            <expan>od<ex>er</ex></expan> freuntschaft beweisen möchten das teten wir
+                                <expan>g<ex>er</ex>n</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> vi <expan>p<ex>ost</ex></expan>
+<expan>corp<ex>or</ex>is</expan> Christi. <app>
+<note place="bottomleft">
+<expan>No<ex>ta</ex></expan>
+<expan>l<ex>itte</ex>r<ex>am</ex></expan>
+<expan>sup<ex>ra</ex></expan>
+<expan>sc<ex>ri</ex>pt<ex>am</ex></expan>
+<expan>p<ex>er</ex>tin<ex>emus</ex></expan> infra </note>
+</app></ab></div>
+</div></body>
+</text>
+</TEI>

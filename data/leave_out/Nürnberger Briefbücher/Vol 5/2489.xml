@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2489" xml:id="l2500" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2489 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>107v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2489.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName type="recipient">Brüx (Tschechien)</placeName></ab><ab type="mention"><placeName type="mention">Totzau (Tschechien)</placeName><placeName type="mention">Saaz (Tschechien)</placeName><persName type="mention">Kaufungen, Heinrich v.</persName><persName type="mention">Castell, Wilhelm v.</persName><persName type="mention">Lobkowitz-Hassenstein, Nikolaus I. v.</persName></ab><date from="18-12-1420" to="18-12-1420" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_217">
+<surface lrx="2587" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0112_left.png" width="2587px"/>
+<zone lrx="1774" lry="803" rendition="TextRegion" ulx="1157" uly="2128" xml:id="facs_217_r1">
+<zone lrx="1830" lry="803" rendition="Line" ulx="1157" uly="728" xml:id="facs_217_r1l5"/> <zone lrx="2320" lry="973" rendition="Line" ulx="624" uly="882" xml:id="facs_217_r1l6"/>
+<zone lrx="2184" lry="1053" rendition="Line" ulx="656" uly="979" xml:id="facs_217_r1l7"/>
+<zone lrx="2226" lry="1150" rendition="Line" ulx="643" uly="1071" xml:id="facs_217_r1l8"/>
+<zone lrx="2248" lry="1220" rendition="Line" ulx="629" uly="1151" xml:id="facs_217_r1l9"/>
+<zone lrx="2316" lry="1305" rendition="Line" ulx="613" uly="1225" xml:id="facs_217_r1l10"/>
+<zone lrx="2308" lry="1380" rendition="Line" ulx="633" uly="1307" xml:id="facs_217_r1l11"/>
+<zone lrx="2302" lry="1458" rendition="Line" ulx="630" uly="1390" xml:id="facs_217_r1l12"/>
+<zone lrx="2364" lry="1544" rendition="Line" ulx="611" uly="1472" xml:id="facs_217_r1l13"/>
+<zone lrx="2309" lry="1629" rendition="Line" ulx="621" uly="1555" xml:id="facs_217_r1l14"/>
+<zone lrx="2319" lry="1715" rendition="Line" ulx="617" uly="1638" xml:id="facs_217_r1l15"/>
+<zone lrx="2283" lry="1794" rendition="Line" ulx="626" uly="1716" xml:id="facs_217_r1l16"/>
+<zone lrx="2270" lry="1868" rendition="Line" ulx="639" uly="1799" xml:id="facs_217_r1l17"/>
+<zone lrx="2332" lry="1955" rendition="Line" ulx="629" uly="1878" xml:id="facs_217_r1l18"/>
+<zone lrx="2329" lry="2041" rendition="Line" ulx="616" uly="1960" xml:id="facs_217_r1l19"/>
+<zone lrx="2296" lry="2119" rendition="Line" ulx="624" uly="2042" xml:id="facs_217_r1l20"/>
+<zone lrx="1774" lry="2206" rendition="Line" ulx="609" uly="2128" xml:id="facs_217_r1l21"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Brüx</head><p>Der Rat bittet um Fürsprache bei Heinrich von Kaufungen, Hauptmann zu Totzau, und Nikolaus I. von Lobkowitz-Hassenstein, Hauptmann des Landfriedens zu Saaz, wegen Freilassung des Wilhelm von Castell, Herausgabe seiner Habe und Ledigsagen der Bürgen, da er nicht Bürger zu Meißen sondern zu Nürnberg ist,</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_217" id="107v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_217_r1l5">Der Stat cʒu Brüx </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_217_r1l6"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan> / Als Jr vns <expan>geſchrib<ex>e</ex>n</expan> habt von vvılhelms von </ab>
+<ab facs="#facs_217_r1l7">Caſtell <expan>vnſ<ex>er</ex>s</expan> <expan>B<ex>urgers</ex></expan> wegen . Als den Heinrich von <expan>kauffu<ex>n</ex>g</expan> </ab>
+<ab facs="#facs_217_r1l8">hauptman cʒu dacʒaw gefangen hat etc / Das <expan>hab<ex>e</ex>n</expan> wir </ab>
+<ab facs="#facs_217_r1l9">wol <expan>v<ex>er</ex>nomen</expan> / Vnd danken <expan>ewr<ex>er</ex></expan> erſamkeit <expan>deſſelb<ex>e</ex>n</expan> <expan>ew<ex>r</ex>s</expan> </ab>
+<ab facs="#facs_217_r1l10"><expan>v<ex>er</ex>ſchreybens</expan> vnd guten vvıllens den Jr cʒu vns vnd <expan>de<ex>n</ex></expan> <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_217_r1l11">habt <expan>fleiſſıklıch<ex>e</ex>n</expan> / Vnd tun euch darauff cʒuvviſſen daʒ der </ab>
+<ab facs="#facs_217_r1l12"><expan>eg<ex>enante</ex></expan> vvılhelm von Caſtell <expan>vnſ<ex>er</ex></expan> rehter ynvvonender <expan>burg<ex>er</ex></expan> ıſt </ab>
+<ab facs="#facs_217_r1l13">vnd ſüſt <expan>nymand<ex>em</ex></expan> <expan>and<ex>er</ex>s</expan> <expan>cʒuverſprech<ex>e</ex>n</expan> ſtet / <expan>dan<ex>n</ex></expan> vns . Als vvir </ab>
+<ab facs="#facs_217_r1l14">das dem <expan>eg<ex>enanten</ex></expan> <expan>heinr<ex>ich</ex></expan> von <expan>kauffu<ex>n</ex>g<ex>en</ex></expan> ſelber cʒu guter maſʒ wol </ab>
+<ab facs="#facs_217_r1l15"><expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> vnd <expan>ʒuvviſſe<ex>n</ex></expan> getan <expan>hab<ex>e</ex>n</expan> / . <expan>Dan<ex>n</ex></expan> vvir <expan>Ro<ex>gamus</ex></expan> / daʒ Jr </ab>
+<ab facs="#facs_217_r1l16">dem <expan>vorg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> ewr günſtige <expan>furdru<ex>n</ex>g</expan> gen dem 
+<del rend="strikethrough"><expan>eg<ex>enanten</ex></expan></del> ~ </ab>
+<ab facs="#facs_217_r1l17">hauptman des lantfrids cʒacʒer kreiſʒes etc vnd auch <expan>de<ex>m</ex></expan> </ab>
+<ab facs="#facs_217_r1l18"><expan>vorg<ex>enanten</ex></expan> <expan>h<ex>einrich</ex></expan> von <expan>kauffu<ex>n</ex>g</expan> bevveiſen wöllet durch <expan>vnſ<ex>er</ex>n</expan> <expan>vvılle<ex>n</ex></expan> </ab>
+<ab facs="#facs_217_r1l19">daʒ derſelb ~ <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> vnd ſein <expan>pürge<ex>n</ex></expan> ledig vnd 
+<del rend="strikethrough"> ob den <expan>vnſ<ex>er</ex>n</expan></del></ab>
+<ab facs="#facs_217_r1l20">ob <expan>de<ex>m</ex></expan> <expan>vnſ<ex>er</ex>n</expan> icht <expan>genome<ex>n</ex></expan> wer <expan>worde<ex>n</ex></expan> auch wıder <expan>vverd<ex>en</ex></expan> </ab>
+<ab facs="#facs_217_r1l21">Als etc Das <expan>wölle<ex>n</ex></expan> etc <expan>Dat<ex>um</ex></expan> vt <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_217" id="107v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat czu Brüx</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns
+                            <expan>geschrib<ex>e</ex>n</expan> habt von Wilhelms von Castell
+                                <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan> wegen, als den Heinrich von
+                                <expan>Kauffu<ex>n</ex>g</expan>, hauptman czu Daczaw, gefangen hat
+                        etc., das <expan>hab<ex>e</ex>n</expan> wir wol
+                            <expan>v<ex>er</ex>nomen</expan> und danken
+                            <expan>ewr<ex>er</ex></expan> ersamkeit,
+                            <expan>desselb<ex>e</ex>n</expan>
+<expan>ew<ex>r</ex>s</expan>
+<expan>v<ex>er</ex>schreybens</expan> und guten willens, den ir czu uns und
+                                <expan>de<ex>n</ex></expan>
+<expan>uns<ex>er</ex>n</expan> habt <expan>fleissiklich<ex>e</ex>n</expan>;
+                        und tun euch darauff czuwissen, daz der <expan>eg<ex>enante</ex></expan>
+                        Wilhelm von Castell <expan>uns<ex>er</ex></expan> rehter ynwonender
+                                <expan>burg<ex>er</ex></expan> ist und süst
+                            <expan>nymand<ex>em</ex></expan>
+<expan>and<ex>er</ex>s</expan>
+<expan>czu versprech<ex>e</ex>n</expan> stet <expan>dan<ex>n</ex></expan>
+                        uns, als wir das dem <expan>eg<ex>enanten</ex></expan>
+<expan>Heinr<ex>ich</ex></expan> von
+                            <expan>Kauffu<ex>n</ex>g<ex>en</ex></expan> selber czu guter masz wol
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> und
+                                <expan>zuwisse<ex>n</ex></expan> getan
+                        <expan>hab<ex>e</ex>n</expan>. <expan>Dan<ex>n</ex></expan> wir
+                                <expan>ro<ex>gamus</ex></expan>, daz ir dem
+                                <expan>vorg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan> ewr günstige <expan>furdru<ex>n</ex>g</expan>
+                        gen dem hauptman des lantfrids Czaczer kreiszes etc. und auch
+                                <expan>de<ex>m</ex></expan>
+<expan>vorg<ex>enanten</ex></expan>
+<expan>H<ex>einrich</ex></expan> von <expan>Kauffu<ex>n</ex>g</expan>
+                        beweisen wöllet durch <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan>, daz derselb <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan> und sein <expan>pürge<ex>n</ex></expan> ledig
+                        und, ob <expan>de<ex>m</ex></expan>
+<expan>uns<ex>er</ex>n</expan> icht <expan>genome<ex>n</ex></expan> wer
+                                <expan>worde<ex>n</ex></expan>, auch wider
+                            <expan>werd<ex>en</ex></expan>. Als etc. Das
+                            <expan>wölle<ex>n</ex></expan> etc. <expan>Dat<ex>um</ex></expan> ut
+                                <expan>sup<ex>ra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2077" xml:id="l2089" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2077 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>138r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2077.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q1794" type="recipient">Frankfurt am Main</placeName></ab><ab type="mention"><persName type="mention">Eppstein, Eberhard II. v.</persName></ab><date from="23-03-1416" to="23-03-1416" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_276">
+<surface lrx="2600" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0141_right.png" width="2600px"/>
+<zone lrx="1360" lry="2399" rendition="TextRegion" ulx="1449" uly="3017" xml:id="facs_276_r1"> <zone lrx="1627" lry="2399" rendition="Line" ulx="862" uly="2327" xml:id="facs_276_r1l21"/>
+<zone lrx="2421" lry="2484" rendition="Line" ulx="496" uly="2379" xml:id="facs_276_r1l22"/>
+<zone lrx="2410" lry="2567" rendition="Line" ulx="472" uly="2461" xml:id="facs_276_r1l23"/>
+<zone lrx="2424" lry="2660" rendition="Line" ulx="504" uly="2547" xml:id="facs_276_r1l24"/>
+<zone lrx="2410" lry="2750" rendition="Line" ulx="512" uly="2636" xml:id="facs_276_r1l25"/>
+<zone lrx="2418" lry="2842" rendition="Line" ulx="502" uly="2724" xml:id="facs_276_r1l26"/>
+<zone lrx="2388" lry="2929" rendition="Line" ulx="498" uly="2815" xml:id="facs_276_r1l27"/>
+<zone lrx="2334" lry="3012" rendition="Line" ulx="506" uly="2902" xml:id="facs_276_r1l28"/>
+<zone lrx="2102" lry="3079" rendition="Line" ulx="1449" uly="2998" xml:id="facs_276_r1l29"/>
+<zone lrx="1360" lry="3094" rendition="Line" ulx="516" uly="3017" xml:id="facs_276_r1l30"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Frankfurt am Main</head><p>Der Rat dankt für die Unterstützung der Bürger zu Nürnberg, deren Habe von Eberhard II. von Eppstein beschlagnahmt worden ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_276" id="138r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_276_r1l21">Der Stat ʒu frankenfurt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_276_r1l22"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> vns <expan>hab<ex>e</ex>n</expan> etlıch <expan>vnſ<ex>er</ex></expan> <expan>burge<ex>r</ex></expan> . den der edel <expan>h<ex>er</ex>re</expan> <expan>h<ex>e</ex>r</expan> <expan>Eberh<ex>art</ex></expan> <expan>h<ex>er</ex>re</expan> ʒu </ab>
+<ab facs="#facs_276_r1l23">Eppenſtein / ettwıeuıl <expan>Jr<ex>er</ex></expan> hab vnd <expan>kawffmanſch<ex>aft</ex></expan> nehſt <expan>aufgehalt<ex>en</ex></expan> hett </ab>
+<ab facs="#facs_276_r1l24">wol fürbracht vnd geſagt / vvıe Jr Jn vnd den iren in <expan>denſ<ex>elben</ex></expan> <expan>ſach<ex>e</ex>n</expan> . gar </ab>
+<ab facs="#facs_276_r1l25">hılfflıch vnd <expan>furderl<ex>ich</ex></expan> <expan>geweſ<ex>en</ex></expan> ſeyt vnd eẅch ſer <expan>darunt<ex>er</ex></expan> gemüet habt </ab>
+<ab facs="#facs_276_r1l26">daʒ Jn vnd den Jren gar auſʒtregenlıch <expan>geweſ<ex>en</ex></expan> vnd ʒu <expan>gute<ex>m</ex></expan> nucʒ <expan>kome<ex>n</ex></expan> </ab>
+<ab facs="#facs_276_r1l27">ſey / Des <expan>dank<ex>en</ex></expan> wır <expan>eẅr<ex>er</ex></expan> <expan>fürſıchtık<ex>eit</ex></expan> mıt <expan>gancʒe<ex>m</ex></expan> fleıſſ / vnd begern </ab>
+<ab facs="#facs_276_r1l28">das vmb eẅch vnd dıe <expan>eẅ<ex>r</ex>n</expan> . 
+<del rend="strikethrough">wa </del> ʒu verdıenen / Denn wo wır <expan>eẅr<ex>er</ex></expan> </ab>
+<ab facs="#facs_276_r1l30"><expan>erſamk<ex>eit</ex></expan> lıeb <expan>od<ex>er</ex></expan> dıenſt etc . </ab>
+<ab facs="#facs_276_r1l29"><expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ij<hi rend="sup">a</hi> <expan>p<ex>oſt</ex></expan> Oculȷ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_276" id="138r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat zu Frankenfurt </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde,</ex></expan> uns <expan>hab<ex>e</ex>n</expan> etlich
+                                <expan>uns<ex>er</ex></expan>
+<expan>burge<ex>r</ex></expan>, den der edel <expan>h<ex>er</ex>re</expan>
+<expan>h<ex>e</ex>r</expan>
+<expan>Eberh<ex>art,</ex></expan>
+<expan>h<ex>er</ex>re</expan> zu Eppenstein, ettwievil
+                            <expan>ir<ex>er</ex></expan> hab und
+                            <expan>kawffmansch<ex>aft</ex></expan> nehst
+                            <expan>aufgehalt<ex>en</ex></expan> hett, wol fürbracht und gesagt, wie
+                        ir in und den iren in <expan>dens<ex>elben</ex></expan>
+<expan>sach<ex>e</ex>n</expan> gar hilfflich und
+                            <expan>furderl<ex>ich</ex></expan>
+<expan>gewes<ex>en</ex></expan> seyt und ewch ser
+                            <expan>darunt<ex>er</ex></expan> gemüet habt, daz in und den iren gar
+                        ausztregenlich <expan>gewes<ex>en</ex></expan> und zu
+                            <expan>gute<ex>m</ex></expan> nucz <expan>kome<ex>n</ex></expan> sey,
+                        des <expan>dank<ex>en</ex></expan> wir <expan>ewr<ex>er</ex></expan>
+<expan>fürsichtik<ex>eit</ex></expan> mit <expan>gancze<ex>m</ex></expan>
+                        fleiss und begern das umb ewch und die <expan>ew<ex>r</ex>n</expan> zu
+                        verdienen. Denn wo wir <expan>ewr<ex>er</ex></expan>
+<expan>ersamk<ex>eit</ex></expan> lieb <expan>od<ex>er</ex></expan> dienst
+                        etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii<hi rend="sup">a</hi>
+<expan>p<ex>ost</ex></expan> oculi. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

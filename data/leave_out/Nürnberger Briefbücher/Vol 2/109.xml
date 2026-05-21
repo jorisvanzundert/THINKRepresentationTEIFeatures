@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="109" xml:id="l109" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 109 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>032r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 109.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext><ref ref="http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/90.xml" xml:id="90">Text 90</ref></correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q44500" type="recipient">Weißenburg in Bayern</placeName></ab><ab type="mention"><persName type="mention">Weißenburger, Kunz</persName><persName type="mention">Wenger, Georg</persName></ab><date from="8-06-1408" to="8-06-1408" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_67">
+<surface lrx="2857" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0034_right.png" width="2857px"/>
+<zone lrx="449" lry="1714" rendition="TextRegion" ulx="68" uly="1554" xml:id="facs_67_r1">
+<zone lrx="449" lry="1714" rendition="Line" subtype="paragraph" ulx="68" uly="1554" xml:id="facs_67_r1l1"/>
+</zone>
+<zone lrx="667" lry="390" rendition="TextRegion" ulx="2103" uly="2043" xml:id="facs_67_r2">
+<zone lrx="1240" lry="390" rendition="Line" ulx="878" uly="330" xml:id="facs_67_r2l1"/>
+<zone lrx="2430" lry="610" rendition="Line" ulx="566" uly="543" xml:id="facs_67_r2l2"/>
+<zone lrx="2548" lry="696" rendition="Line" ulx="600" uly="628" xml:id="facs_67_r2l3"/>
+<zone lrx="2460" lry="794" rendition="Line" ulx="600" uly="714" xml:id="facs_67_r2l4"/>
+<zone lrx="2529" lry="879" rendition="Line" ulx="586" uly="809" xml:id="facs_67_r2l5"/>
+<zone lrx="2580" lry="966" rendition="Line" subtype="paragraph" ulx="607" uly="904" xml:id="facs_67_r2l6"/>
+<zone lrx="1574" lry="982" rendition="Line" ulx="1330" uly="924" xml:id="facs_67_line_1574319945167_42"/>
+<zone lrx="2597" lry="1061" rendition="Line" ulx="597" uly="979" xml:id="facs_67_r2l10"/>
+<zone lrx="2621" lry="1159" rendition="Line" ulx="601" uly="1065" xml:id="facs_67_r2l11"/>
+<zone lrx="2563" lry="1261" rendition="Line" ulx="599" uly="1149" xml:id="facs_67_r2l12"/>
+<zone lrx="2543" lry="1360" rendition="Line" ulx="577" uly="1242" xml:id="facs_67_r2l13"/>
+<zone lrx="2621" lry="1446" rendition="Line" ulx="624" uly="1329" xml:id="facs_67_r2l14"/>
+<zone lrx="667" lry="1435" rendition="Line" ulx="565" uly="1385" xml:id="facs_67_line_1574320131583_88"/>
+<zone lrx="2599" lry="1516" rendition="Line" ulx="577" uly="1440" xml:id="facs_67_r2l15"/>
+<zone lrx="2279" lry="1545" rendition="Line" ulx="2103" uly="1484" xml:id="facs_67_line_1574320205569_106"/>
+<zone lrx="2585" lry="1622" rendition="Line" ulx="574" uly="1511" xml:id="facs_67_r2l17"/>
+<zone lrx="2581" lry="1713" rendition="Line" ulx="589" uly="1601" xml:id="facs_67_r2l18"/>
+<zone lrx="2643" lry="1788" rendition="Line" ulx="560" uly="1711" xml:id="facs_67_r2l19"/>
+<zone lrx="855" lry="1794" rendition="Line" ulx="713" uly="1730" xml:id="facs_67_line_1574320343846_136"/>
+<zone lrx="1461" lry="1787" rendition="Line" ulx="1098" uly="1749" xml:id="facs_67_r2l20"/>
+<zone lrx="2654" lry="1868" rendition="Line" ulx="574" uly="1794" xml:id="facs_67_r2l21"/>
+<zone lrx="1032" lry="1868" rendition="Line" ulx="665" uly="1833" xml:id="facs_67_r2l22"/>
+<zone lrx="2593" lry="1960" rendition="Line" ulx="573" uly="1882" xml:id="facs_67_r2l23"/>
+<zone lrx="2581" lry="2056" rendition="Line" ulx="547" uly="1946" xml:id="facs_67_r2l24"/>
+<zone lrx="2658" lry="2146" rendition="Line" subtype="paragraph" ulx="550" uly="2043" xml:id="facs_67_r2l25"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Weißenburg</head><p>Der Rat teilt wegen Kunz Weißenburger, Bürger zu Nürnberg, mit, dass ihm Georg Wenger, Bürger zu Weißenburg, schweren Schaden zugefügt hat, und bittet um Anweisung des Georg Wenger um unverzügliche Entschädigung, andernfalls erhebt Weißenburger Klage.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_67" id="32r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><del rend="crossout"><ab facs="#facs_67_r2l1">VVeiſʒemburg</ab>
+</del></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<del rend="crossout"><ab facs="#facs_67_r2l2">Lıeben freunde
+                                                  / <del rend="strikethrough">Als wir
+                                                  <expan>ewr<ex>er</ex></expan> vveiſheit voꝛmals
+                                                  geſchrıb<ex>e</ex>n
+                                                  <expan>hab<ex>e</ex>n</expan></del></ab>
+<ab facs="#facs_67_r2l3">von Chuncʒen von
+                                                  weiſʒemburg <del rend="strikethrough">kürſners </del>
+<expan>vnſ<ex>er</ex>s</expan>
+<expan>Burg<ex>er</ex>s</expan>
+<del rend="strikethrough"> vvegen </del></ab>
+<ab facs="#facs_67_r2l4">vnd des Görgen <del rend="strikethrough">wegen </del> Wengers ewrs
+                                                  mitburgers wegen / </ab>
+<ab facs="#facs_67_r2l5">Alſo hat vns der
+                                                  <expan>egen<ex>ante</ex></expan>
+<expan>vnſ<ex>er</ex></expan> Burger aber fürbraht
+                                                  vnd geklagt </ab>
+<ab facs="#facs_67_r2l6">vvie daʒ Jm ſölch glimpf
+                                                  als Er <expan>dan<ex>n</ex></expan>
+<del rend="strikethrough"> dem </del> von
+                                                  <expan>de<ex>m</ex></expan> ~
+                                                  <expan>ew<ex>r</ex>n</expan>
+<expan>gepote<ex>n</ex></expan> hat </ab>
+<ab facs="#facs_67_r2l10">
+<del rend="strikethrough">niht widerfaren künne
+                                                  vnd </del>
+<add><ab facs="#facs_67_line_1574319945167_42">noch ſüſt </ab></add> weder gleich noch mẏnne
+                                                  <del rend="strikethrough">wıder gen </del></ab>
+<ab facs="#facs_67_r2l11">
+<del rend="strikethrough">wıder von
+                                                  <expan>de<ex>m</ex></expan>
+<expan>ew<ex>r</ex>n</expan></del> widerfaren
+                                                  künne / das vns etwaʒ vncʒimlich </ab>
+<ab facs="#facs_67_r2l12">dunkt / <del rend="strikethrough">vvo dem alſo were /
+                                                  <expan>Ro<ex>gamus</ex></expan> /
+                                                  <expan>dar<ex>ümb</ex></expan>
+<expan>Dar<ex>ümb</ex></expan></del>
+<expan>Ro<ex>gamus</ex></expan> / daʒ Jr durch </ab>
+<ab facs="#facs_67_r2l13"><expan>vnſ<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> mit
+                                                  <expan>de<ex>m</ex></expan> ~
+                                                  <expan>ew<ex>r</ex>n</expan> ſchicken vnd
+                                                  beſtellen wollet / daʒ </ab>
+<ab facs="#facs_67_r2l14"><expan>de<ex>m</ex></expan>
+<expan>egen<ex>anten</ex></expan>
+<expan>vnſ<ex>er</ex>m</expan>
+<expan>B<ex>urger</ex></expan> noch on
+                                                  <expan>v<ex>er</ex>cʒieh<ex>e</ex>n</expan> gleich
+                                                  vnd mẏnne von <del rend="strikethrough"><expan>de<ex>m</ex></expan></del> ~ </ab>
+<ab facs="#facs_67_r2l15">
+<del rend="strikethrough"><expan>ew<ex>r</ex>n</expan></del>
+<add><ab facs="#facs_67_line_1574320131583_88">Jm
+                                                  </ab></add> widerfare / <del rend="strikethrough"><expan>vvan<ex>n</ex></expan> dem ~
+                                                  vnſ<ex>er</ex>n niht füglich wer das reht beẏ
+                                                  </del></ab>
+<ab facs="#facs_67_r2l17">
+<del rend="strikethrough">ew von dem ~
+                                                  <expan>ew<ex>r</ex>n</expan> /
+                                                  <expan>vvan<ex>n</ex></expan> ge </del> nach
+                                                  <expan>ſölche<ex>m</ex></expan> glimpf <del rend="strikethrough"> als
+                                                  <expan>dan<ex>n</ex></expan> der
+                                                  <expan>vnſ<ex>er</ex></expan></del>
+<add><ab facs="#facs_67_line_1574320205569_106">den Er </ab></add>
+</ab>
+<ab facs="#facs_67_r2l18">gepoten hat / als wir
+                                                  <expan>ewr<ex>er</ex></expan> vveıſheit
+                                                  <expan>dan<ex>n</ex></expan> vormals
+                                                  <expan>geſ<ex>chriben</ex></expan>
+<expan>hab<ex>e</ex>n</expan>
+<add><ab facs="#facs_67_r1l1">das
+                                                  <expan>wolle<ex>n</ex></expan> etc </ab></add>
+<expan>vvan<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_67_r2l19">geſchehe des niht / So
+                                                  müſten wir <expan>de<ex>m</ex></expan> ~
+                                                  <expan>vnſ<ex>er</ex>n</expan> geſtatten / vvie
+                                                  <del rend="strikethrough">daʒ </del> Er </ab>
+<ab facs="#facs_67_r2l21">den ~ <del rend="strikethrough"><expan>egen<ex>anten</ex></expan></del>
+<add><ab facs="#facs_67_line_1574320343846_136">
+<del rend="strikethrough"><expan>egen<ex>anten</ex></expan></del></ab></add>
+                                                  ~ <expan>ew<ex>r</ex>n</expan>
+<del rend="strikethrough"> mıtburger </del>
+<add><ab facs="#facs_67_r2l20">
+<del rend="strikethrough">mitburger
+                                                  </del></ab></add> darcʒu breͣht / daʒ Jm <del rend="strikethrough"> gleich </del> von
+                                                  <expan>de<ex>m</ex>ſ<ex>elben</ex></expan>
+</ab>
+<ab facs="#facs_67_r2l23"><expan>ew<ex>r</ex>n</expan>
+<add><ab facs="#facs_67_r2l22">mitburger
+                                                  </ab></add> widerfüre vvarcʒu Er
+                                                  <expan>dan<ex>n</ex></expan> reht het / das vns
+                                                  doch niht lieb </ab>
+<ab facs="#facs_67_r2l24">were / daʒ es
+                                                  <expan>ſou<ex>er</ex>re</expan> kumen ſölt / ewr
+                                                  freuntlich
+                                                  <expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan>
+<expan>antvv<ex>ur</ex>t</expan>
+</ab>
+<ab facs="#facs_67_r2l25">lat vns darauff wıder
+                                                  wiſſen / <expan>Dat<ex>um</ex></expan>
+                                                  fe<ex>r</ex>ıa vȷ̃ <expan>an<ex>te</ex></expan>
+<expan>do<ex>min</ex>ıca<ex>m</ex></expan>
+<expan>Trınıtat<ex>is</ex></expan>
+</ab>
+</del>
+</div>
+</div><div type="regularised"><pb facs="#facs_67" id="32r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><del rend="crossout">Weiszemburg </del></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><del rend="crossout">Lieben freunde, von Chunczen von Weiszemburg,
+                                    <expan>uns<ex>er</ex>s</expan>
+<expan>burg<ex>er</ex>s</expan>, und des Görgen Wengers, ewrs
+                            mitburgers, wegen. Also hat uns der <expan>egen<ex>ante</ex></expan>,
+                                    <expan>uns<ex>er</ex></expan> burger, aber fürbraht und geklagt,
+                            wie daz im sölch glimpf, als er <expan>dan<ex>n</ex></expan> von
+                                    <expan>de<ex>m</ex></expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>gepote<ex>n</ex></expan> hat, <add>noch süst</add> weder gleich
+                            noch mynne widerfaren künne, das uns etwaz unczimlich dunkt.
+                                    <expan>Ro<ex>gamus</ex></expan>, daz ir durch
+                                    <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> mit <expan>de<ex>m</ex></expan>
+<expan>ew<ex>r</ex>n</expan> schicken und bestellen wollet, daz
+                                    <expan>de<ex>m</ex></expan>
+<expan>egen<ex>anten</ex></expan>, <expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan>, noch on
+                                    <expan>v<ex>er</ex>czieh<ex>e</ex>n</expan> gleich und mynne von
+                                <add>im</add> widerfare nach <expan>sölche<ex>m</ex></expan> glimpf,
+                                <add>den er</add> gepoten hat, als wir <expan>ewr<ex>er</ex></expan>
+                            weisheit <expan>dan<ex>n</ex></expan> vormals
+                                <expan>ges<ex>chriben</ex></expan>
+<expan>hab<ex>e</ex>n</expan>. <add>Das <expan>wolle<ex>n</ex></expan>
+                                etc.</add>
+<expan>Wan<ex>n</ex></expan> geschehe des niht, so müsten wir
+                                    <expan>de<ex>m</ex></expan>
+<expan>uns<ex>er</ex>n</expan> gestatten, wie er den
+                                <expan>ew<ex>r</ex>n</expan> darczu breͣht, daz im von
+                                    <expan>de<ex>m</ex>s<ex>elben</ex></expan>
+<expan>ew<ex>r</ex>n</expan>
+<add>mitburger</add> widerfüre, warczu er <expan>dan<ex>n</ex></expan>
+                            reht het, das uns doch niht lieb were, daz es
+                                <expan>sov<ex>er</ex>re</expan> kumen sölt. Ewr freuntlich
+                                    <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan>
+<expan>antw<ex>ur</ex>t</expan> lat uns darauff wider wissen.
+                                    <expan>Dat<ex>um</ex></expan> fe<ex>r</ex>ia vi
+                                    <expan>an<ex>te</ex></expan>
+<expan>do<ex>min</ex>ica<ex>m</ex></expan>
+<expan>Trinitat<ex>is</ex></expan>.</del></ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,122 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">A joke recipe</title>
+        <title xml:lang="de-x-enh">Ein guot gerihte der ez gern izzet</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Semantic annotation of the recipe &quot;A joke recipe&quot; (m11.57)</edition>
+        <respStmt>
+          <resp>edition</resp>
+          <persName>Julia Eibinger</persName>
+          <persName>Helmut W. Klug</persName>
+        </respStmt>
+        <respStmt>
+          <resp>transcription</resp>
+          <persName>Astrid Böhm</persName>
+        </respStmt>
+        <respStmt>
+          <resp>digital processing</resp>
+          <persName>Christian Steiner</persName>
+        </respStmt>
+        <principal>
+          <persName>Helmut W. Klug</persName>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+          <licence n="facsimile" target="https://creativecommons.org/publicdomain/zero/1.0/deed.en">CC0 1.0 Universal</licence>
+        </availability>
+        <date when="2022-03-25"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.m11.57</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <ab>
+          <title ref="http://gams.uni-graz.at/corema">CoReMA - Cooking Recipes of the Middle Ages: Corpus, Analysis, Visualisation</title>
+          <ref target="http://gams.uni-graz.at/o:corema.about/TEI_SOURCE">About the project &quot;CoReMA&quot;</ref>
+          <ref target="http://gams.uni-graz.at/o:corema.imprint/TEI_SOURCE">Imprint of the project &quot;CoReMA&quot;</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl type="corresponding_manuscript">
+          <msIdentifier>
+            <country>Deutschland</country>
+            <settlement>München</settlement>
+            <institution ref="https://www.ub.uni-muenchen.de/index.html">Universitätsbibl.</institution>
+            <idno ref="https://epub.ub.uni-muenchen.de/10638/">Cim. 4 (= 2° Cod. ms. 731)</idno>
+            <msName>Hausbuch Michaels de Leone – Würzburger Liederhandschrift</msName>
+            <altIdentifier type="abbr">
+              <idno>M11</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="corresponding_collection">
+          <msIdentifier>
+            <altIdentifier type="collection">
+              <idno>M11</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="manuscript_page">
+          <title>page in corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.m11#M11_162r" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_tei_source">
+          <title>TEI source of corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.m11/TEI_SOURCE" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_context">
+          <title>context of corresponding manuscript/collection</title>
+          <ref target="info:fedora/context:corema.m11" type="context">Context for all recipes in manuscript &quot;M11&quot;</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <desc>References to the editorial principles and practices for this TEI file and the project CoReMA</desc>
+        <ref target="https://gams.uni-graz.at/o:corema.semanticdec/TEI_SOURCE">details of editorial principles and practices for the semantic annotation</ref>
+      </ab>
+    </encodingDesc>
+    <profileDesc>
+      <textClass ana="#m11.57">
+        <keywords>
+          <term>parody</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <origDate>
+          <date notAfter="1354" notBefore="1345" xml:lang="de">ca. 1345-1354</date>
+          <date notAfter="1354" notBefore="1345" xml:lang="en">approx. 1345-1354</date>
+        </origDate>
+        <origDate corresp="#43ra-47rb">1350</origDate>
+        <origPlace>
+          <placeName xml:lang="de">Würzburg</placeName>
+          <placeName xml:lang="en">Würzburg</placeName>
+								Michael de Leone hat das Hausbuch vermutlich als Nachschlagewerk für sich und seine Nachfahren in Auftrag gegeben.</origPlace>
+      </creation>
+      <langUsage>
+        <language ident="de-x-enh" source="http://medieval-plants.org/mps-daten/inhalt/">East Franconian </language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:space="preserve"><div n="57" type="parody" xml:id="m11.57" xml:lang="de-x-enh"> <note xml:lang="de">Hier handelt es sich möglicherweise um ein Scherzrezept.</note><note xml:lang="en">Can be interpreted as a joke recipe.</note><title key="A joke recipe">Ein guot gerihte der ez gern izzet</title> <opener>Wilt du machen ein guot bigeriht . so</opener> <instruction>nim sydeln <ingredient commodity="Q3503092" en="sweat">sweyz</ingredient> . <dietetics>daz macht den magen gar heiz</dietetics></instruction> . vnd <instruction>nim <ingredient commodity="Q0" en="unsolved">kiselinges smaltz</ingredient> . daz ist den meiden guot die do sin hueffehaltz</instruction> . vnd <instruction>nim <ingredient commodity="Q19842373" en="bramble">bromber</ingredient> vnd <ingredient commodity="Q146684" en="strawberry">bresteling</ingredient> . daz ist daz aller beste ding</instruction> . <instruction>bist du niht an sinnen taup . so nim gruen <ingredient commodity="Q4820063" en="grape leaf">wingart laup</ingredient></instruction> . <instruction>du solt nemen <ingredient commodity="Q158480" en="cane">binzen</ingredient> . <ingredient commodity="Q27615" en="lovage">luebstikel</ingredient> vnd <ingredient commodity="Q27640062" en="mint">minzzen</ingredient> . daz sint guote <ingredient commodity="Q42527" en="spice">wuertze</ingredient> . fuer die grozzen furtze</instruction> <instruction>nim <ingredient commodity="Q107246623" en="goldfinch heel">stigelitzes versen</ingredient> . vnd <ingredient commodity="Q107246612" en="flie&apos;s feet">mucken fuozze</ingredient> . daz macht das koestlin allez suezze</instruction> . daz ist guot vnd mag wol sin . ein guot lecker spigerihtelin . <kitchenTip>Ach vnd versaltz nuer niht . wanne ez ist ein guot geriht</kitchenTip> . <closer>Diz ist ein guot lere von guoter spise</closer></div></body>
+  </text>
+</TEI>

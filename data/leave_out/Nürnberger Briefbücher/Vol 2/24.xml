@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="24" xml:id="l23" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 24 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>007r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 24.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q2749" type="recipient">Augsburg</placeName></ab><ab type="mention">-</ab><date from="29-02-1408" to="29-02-1408" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_17">
+<surface lrx="2867" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0009_right.png" width="2867px"/>
+<zone lrx="1328" lry="372" rendition="TextRegion" ulx="950" uly="1124" xml:id="facs_17_r2"> <zone lrx="1328" lry="372" rendition="Line" ulx="950" uly="275" xml:id="facs_17_r2l2"/>
+<zone lrx="2453" lry="570" rendition="Line" ulx="597" uly="480" xml:id="facs_17_r2l3"/>
+<zone lrx="2379" lry="689" rendition="Line" ulx="601" uly="588" xml:id="facs_17_r2l4"/>
+<zone lrx="2551" lry="794" rendition="Line" ulx="607" uly="700" xml:id="facs_17_r2l5"/>
+<zone lrx="2483" lry="906" rendition="Line" ulx="611" uly="808" xml:id="facs_17_r2l6"/>
+<zone lrx="2661" lry="1019" rendition="Line" ulx="583" uly="910" xml:id="facs_17_r2l7"/>
+<zone lrx="2508" lry="1120" rendition="Line" ulx="610" uly="1015" xml:id="facs_17_r2l8"/>
+<zone lrx="2194" lry="1222" rendition="Line" ulx="619" uly="1124" xml:id="facs_17_r2l9"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Augsburg</head><p>Der Rat übersendet Abschriften von Fehdebriefen, die am Matthiastag zugegangen sind, und bittet um Unterrichtung anderer Reichsstädte.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_17" id="7r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_17_r2l2">Augſpurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_17_r2l3"><expan>L<ex>ieben</ex></expan> frewnde / vns ſind etlich entſagſbrief an ſant </ab>
+<ab facs="#facs_17_r2l4">Matheis abent des <expan>ʒwelfbote<ex>n</ex></expan> nehſt vergangen ge </ab>
+<ab facs="#facs_17_r2l5">antvvurtt worden / der wır <expan>ewr<ex>er</ex></expan> <expan>weiſh<ex>eit</ex></expan> abſchrifft <expan>ſende<ex>n</ex></expan> </ab>
+<ab facs="#facs_17_r2l6">hirẏnne <expan>v<ex>er</ex>ſloſſen</expan> / vnd <expan>Ro<ex>gamus</ex></expan> / daʒ Jr das <expan>and<ex>er</ex>n</expan> ewrn </ab>
+<ab facs="#facs_17_r2l7">vnd <expan>vnſ<ex>er</ex>n</expan> <expan>gute<ex>n</ex></expan> freunden des Reichs Steten v̈mb ew / auch </ab>
+<ab facs="#facs_17_r2l8">alſo verkünden wöllet / daʒ ſie ſich darnach wiſſen </ab>
+<ab facs="#facs_17_r2l9">cʒu richten / <expan>Dat<ex>um</ex></expan> in die <expan>ciner<ex>is</ex></expan> Anno octauo </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_17" id="7r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Augspurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan> frewnde, uns sind etlich entsagsbrief an <app>
+<note><q type="date">sant Matheis abent, des
+                                        <expan>zwelfbote<ex>n</ex></expan> nehst
+                                vergangen</q>25.02.1408</note>
+</app>, geantwurtt worden, der wir <expan>ewr<ex>er</ex></expan>
+<expan>weish<ex>eit</ex></expan> abschrifft <expan>sende<ex>n</ex></expan>
+                        hirynne <expan>v<ex>er</ex>slossen</expan>, und
+                            <expan>ro<ex>gamus</ex></expan>, daz ir das
+                            <expan>and<ex>er</ex>n</expan> ewrn und <expan>uns<ex>er</ex>n</expan>
+<expan>gute<ex>n</ex></expan> freunden, des reichs steten, ümb ew auch also
+                        verkünden wöllet, daz sie sich darnach wissen czu richten.
+                                <expan>Dat<ex>um</ex></expan> in die <expan>ciner<ex>is</ex></expan>
+                        anno octavo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

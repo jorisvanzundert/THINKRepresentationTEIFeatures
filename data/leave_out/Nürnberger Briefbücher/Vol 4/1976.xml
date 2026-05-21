@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1976" xml:id="l1988" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1976 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>113r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1976.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Tenner, Nickel</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q14821" type="mention">Coburg</placeName><persName type="mention">Schleh, Seitz</persName><persName type="mention">Meißen, Mgfen. v.</persName><persName type="mention">Gräfenberger, Ott</persName></ab><date from="28-09-1415" to="28-09-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_226">
+<surface lrx="2639" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0116_right.png" width="2639px"/>
+<zone lrx="481" lry="3245" rendition="TextRegion" ulx="252" uly="3091" xml:id="facs_226_r1">
+<zone lrx="481" lry="3245" rendition="Line" ulx="252" uly="3091" xml:id="facs_226_r1l1"/>
+</zone>
+<zone lrx="819" lry="2232" rendition="TextRegion" ulx="1308" uly="3245" xml:id="facs_226_r2">
+<zone lrx="1496" lry="2232" rendition="Line" ulx="1038" uly="2167" xml:id="facs_226_r2l21"/> <zone lrx="2154" lry="2375" rendition="Line" ulx="380" uly="2300" xml:id="facs_226_r2l22"/>
+<zone lrx="2161" lry="2449" rendition="Line" ulx="401" uly="2374" xml:id="facs_226_r2l23"/>
+<zone lrx="2147" lry="2528" rendition="Line" ulx="403" uly="2444" xml:id="facs_226_r2l24"/>
+<zone lrx="2159" lry="2608" rendition="Line" ulx="399" uly="2524" xml:id="facs_226_r2l25"/>
+<zone lrx="2183" lry="2689" rendition="Line" ulx="385" uly="2597" xml:id="facs_226_r2l26"/>
+<zone lrx="2194" lry="2766" rendition="Line" ulx="412" uly="2673" xml:id="facs_226_r2l27"/>
+<zone lrx="2223" lry="2842" rendition="Line" ulx="391" uly="2752" xml:id="facs_226_r2l28"/>
+<zone lrx="2194" lry="2916" rendition="Line" ulx="404" uly="2822" xml:id="facs_226_r2l29"/>
+<zone lrx="1566" lry="2934" rendition="Line" ulx="1121" uly="2878" xml:id="facs_226_line_1576672599250_10073"/>
+<zone lrx="2188" lry="3002" rendition="Line" ulx="396" uly="2901" xml:id="facs_226_r2l30"/>
+<zone lrx="2246" lry="3065" rendition="Line" ulx="395" uly="3000" xml:id="facs_226_r2l31"/>
+<zone lrx="1927" lry="3081" rendition="Line" ulx="1308" uly="3022" xml:id="facs_226_line_1576672606542_10078"/>
+<zone lrx="2238" lry="3161" rendition="Line" ulx="410" uly="3077" xml:id="facs_226_r2l34"/>
+<zone lrx="819" lry="3170" rendition="Line" ulx="763" uly="3120" xml:id="facs_226_line_1576672609226_10083"/>
+<zone lrx="2192" lry="3236" rendition="Line" ulx="419" uly="3148" xml:id="facs_226_r2l35"/>
+<zone lrx="1683" lry="3328" rendition="Line" ulx="411" uly="3245" xml:id="facs_226_r2l36"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Nickel Tenner</head><p>Der Rat teilt Unkenntnis vom Halten auf den Adressaten und vom Wohnsitz des Seitz Schleh in Coburg mit, ist dieser doch seit dem Nereus-und-Achilleus-Tag Bürger zu Nürnberg, und bittet um Herausgabe der Habe des Seitz Schleh und Ott Gräfenberger, Bürger zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_226" id="113r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_226_r2l21">Nẏckel Tenner </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_226_r2l22"><expan>Lieb<ex>er</ex></expan> Tenner / Als Jr vns <expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan> habt / vvie die <expan>vnſ<ex>er</ex>n</expan> auf </ab>
+<ab facs="#facs_226_r2l23">ew gehalten ſullen <expan>hab<ex>e</ex>n</expan> etc das <expan>hab<ex>e</ex>n</expan> wir wol <expan>v<ex>er</ex>nome<ex>n</ex></expan> / vnd </ab>
+<ab facs="#facs_226_r2l24">wiſſen / 
+<del rend="strikethrough">dauon </del> nicht / daʒ <expan>dhein<ex>er</ex></expan> der <expan>vnſ<ex>er</ex>n</expan> auf ew <expan>gehalte<ex>n</ex></expan> hab / </ab>
+<ab facs="#facs_226_r2l25">vnd als Jr ſchreibt von des Seicʒen Slehen <expan>vnſ<ex>er</ex>s</expan> <expan>burg<ex>er</ex>s</expan> <expan>wege<ex>n</ex></expan> </ab>
+<ab facs="#facs_226_r2l26">vvie der vnſer <expan>gnedıge<ex>n</ex></expan> <expan>h<ex>er</ex>ren</expan> der Marggrafen cʒu Meichſſen man </ab>
+<ab facs="#facs_226_r2l27">ſeẏ vnd hauſʒ vnd hof cʒu koburg hab / dauon wiſſen wir auch </ab>
+<ab facs="#facs_226_r2l28">nicht / <expan>dan<ex>n</ex></expan> wir laſſen euch wiſſen daʒ der <expan>egen<ex>an</ex>t<ex>e</ex></expan> Seicʒ Slehe </ab>
+<ab facs="#facs_226_r2l29">vnſer burger vvorden iſt auf den nechſten Mitwochen vor ſant </ab>
+<ab facs="#facs_226_r2l30">Nereẏ vnd Achılleẏ tag 
+<add><ab facs="#facs_226_line_1576672599250_10073">nechſt <expan>v<ex>er</ex>gangen</expan> </ab></add> / 
+<del rend="strikethrough"> Nach criſts gepürt xıııȷ<hi rend="sup">C</hi> vnd in <expan>de<ex>m</ex></expan></del></ab>
+<ab facs="#facs_226_r2l31">
+<del rend="strikethrough"> funffcʒehenden Jar </del> / vnd 
+<del rend="strikethrough">auch </del> auch noch <expan>vnſ<ex>e</ex>r</expan> burger iſt / <expan>dar<ex>umb</ex></expan> </ab>
+<ab facs="#facs_226_r2l34"><expan>Ro<ex>gamus</ex></expan> / daʒ Jr <expan>de<ex>m</ex></expan> <expan>eg<ex>enanten</ex></expan> Seicʒ Slehen 
+<add><ab facs="#facs_226_line_1576672606542_10078"><expan>vn<ex>d</ex></expan> Otten <expan>Grefemb<ex>er</ex>g<ex>er</ex>n</expan>
+<del rend="strikethrough">Jr</del></ab></add> <expan>vnſ<ex>er</ex>n</expan> <expan>burg<ex>er</ex>n</expan>
+<del rend="strikethrough"> ſein habe die Jr </del></ab>
+<ab facs="#facs_226_r2l35">
+<add><ab facs="#facs_226_r1l1">Jr habe </ab></add>
+<del rend="strikethrough"> der </del> die 
+<del rend="strikethrough"> habe </del>
+<add><ab facs="#facs_226_line_1576672609226_10083">Jr </ab></add> beder geweſen iſt vvıder <expan>geb<ex>e</ex>n</expan> wollet / Als etc </ab>
+<ab facs="#facs_226_r2l36">Das <expan>wolle<ex>n</ex></expan> / etc <expan>Dat<ex>um</ex></expan> <expan>Sabb<ex>a</ex>to</expan> <expan>an<ex>te</ex></expan> <expan>Mıchael<ex>is</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_226" id="113r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Nyckel Tenner </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> Tenner, als ir uns
+                                                  <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> habt,
+                                                wie die <expan>uns<ex>er</ex>n</expan> auf ew
+                                                gehalten sullen <expan>hab<ex>e</ex>n</expan> etc.,
+                                                das <expan>hab<ex>e</ex>n</expan> wir wol
+                                                  <expan>v<ex>er</ex>nome<ex>n</ex></expan> und
+                                                wissen nicht, daz <expan>dhein<ex>er</ex></expan>
+                                                der <expan>uns<ex>er</ex>n</expan> auf ew
+                                                  <expan>gehalte<ex>n</ex></expan> hab; und als ir
+                                                schreibt von des Seiczen Slehen,
+                                                  <expan>uns<ex>er</ex>s</expan>
+<expan>burg<ex>er</ex>s,</expan>
+<expan>wege<ex>n,</ex></expan> wie der unser
+                                                  <expan>gnedige<ex>n</ex></expan>
+<expan>h<ex>er</ex>ren</expan> der marggrafen czu
+                                                Meichssen man sey und hausz und hof czu Koburg hab,
+                                                davon wissen wir auch nicht.
+                                                  <expan>Dan<ex>n</ex></expan> wir lassen euch
+                                                wissen, daz der
+                                                  <expan>egen<ex>an</ex>t<ex>e</ex></expan> Seicz
+                                                Slehe unser burger worden ist auf den <app>
+<note><q type="date">nechsten mitwochen vor sant
+                                                  Nerey und Achilley tag <add>nechst
+                                                  <expan>v<ex>er</ex>gangen</expan></add></q>12.05.1415</note>
+</app> und auch noch <expan>uns<ex>e</ex>r</expan>
+                                                burger ist. <expan>Dar<ex>umb</ex></expan>
+<expan>ro<ex>gamus,</ex></expan> daz ir
+                                                  <expan>de<ex>m</ex></expan>
+<expan>eg<ex>enanten</ex></expan> Seicz Slehen
+                                                  <add><expan>un<ex>d</ex></expan> Otten
+                                                  <expan>Grefemb<ex>er</ex>g<ex>er</ex>n</expan></add>,
+                                                  <expan>uns<ex>er</ex>n</expan>
+<expan>burg<ex>er</ex>n,</expan>
+<add>ir habe</add>, die <add>ir</add> beder gewesen
+                                                ist, wider <expan>geb<ex>e</ex>n</expan> wollet, als
+                                                etc. Das <expan>wolle<ex>n</ex></expan> etc.
+                                                  <expan>Dat<ex>um</ex></expan>
+<expan>sabb<ex>a</ex>to</expan>
+<expan>an<ex>te</ex></expan>
+<expan>Michael<ex>is</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

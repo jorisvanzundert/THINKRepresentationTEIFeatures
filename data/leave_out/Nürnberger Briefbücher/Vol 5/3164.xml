@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="3164" xml:id="l3176" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 3164 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>293v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 3164.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Giech, Hans d. J. v.</persName></ab><ab type="mention"><persName type="mention">Göldlein, Hans</persName></ab><date from="17-02-1423" to="17-03-1423" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_589">
+<surface lrx="2639" lry="3725" ulx="0" uly="0">
+<graphic height="3725px" url="Rst Nbg-Briefbücher-Nr 5_0299_left.png" width="2639px"/>
+<zone lrx="1493" lry="2353" rendition="TextRegion" ulx="1277" uly="2698" xml:id="facs_589_r1"> <zone lrx="1493" lry="2353" rendition="Line" ulx="1277" uly="2275" xml:id="facs_589_r1l20"/>
+<zone lrx="2502" lry="2534" rendition="Line" ulx="717" uly="2428" xml:id="facs_589_r1l21"/>
+<zone lrx="2463" lry="2621" rendition="Line" ulx="729" uly="2523" xml:id="facs_589_r1l22"/>
+<zone lrx="2475" lry="2710" rendition="Line" subtype="paragraph" ulx="720" uly="2608" xml:id="facs_589_r1l23"/>
+<zone lrx="2106" lry="2800" rendition="Line" ulx="735" uly="2698" xml:id="facs_589_r1l24"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans d. J. von Giech</head><p>Der Rat kündigt Hans Göldlein, Diener der Stadt, wegen des Angriffs des Adressaten an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_589" id="293v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_589_r1l20">eydem </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_589_r1l21">VVir ſenden cʒu euch Hanſen Göldlein <expan>vnſ<ex>er</ex>n</expan> dẏener </ab>
+<ab facs="#facs_589_r1l22">mit euch ʒu reden als von des cʒugriffs wegen / den Jr </ab>
+<ab facs="#facs_589_r1l23"><expan>yecʒund<ex>en</ex></expan> getan habt / dabey etliche dıe <expan>vnſ<ex>er</ex>n</expan> auch <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_589_r1l24">als vns geſagt iſt / Vnd <expan>Ro<ex>gamus</ex></expan> vt in <expan>for<ex>ma</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_589" id="293v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Eydem</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Wir senden czu euch Hansen Göldlein,
+                                                  <expan>uns<ex>er</ex>n</expan> dyener, mit euch zu
+                                                reden als von des czugriffs wegen, den ir
+                                                  <expan>yeczund<ex>en</ex></expan> getan habt,
+                                                dabey etliche die <expan>uns<ex>er</ex>n</expan>
+                                                auch <expan>hab<ex>e</ex>n</expan>, als uns gesagt
+                                                ist. Und <expan>ro<ex>gamus</ex></expan> ut in
+                                                  <expan>for<ex>ma</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

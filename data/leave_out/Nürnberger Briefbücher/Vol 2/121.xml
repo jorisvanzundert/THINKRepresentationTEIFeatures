@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="121" xml:id="l121" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 121 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>035r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 121.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q63884" type="recipient">Johann III. v. Hohenzollern, Bgf. v. Nürnberg</persName></ab><ab type="mention"><persName type="mention">Nürnberger, Hans</persName><persName type="mention">Haller, Peter III.</persName><persName type="mention">Ebner, Albrecht</persName><persName type="mention">Flursteter, N.</persName></ab><date from="13-06-1408" to="11-07-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_73">
+<surface lrx="2854" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0037_right.png" width="2854px"/>
+<zone lrx="675" lry="1326" rendition="TextRegion" ulx="1005" uly="1964" xml:id="facs_73_r1"> <zone lrx="1745" lry="1326" rendition="Line" ulx="1005" uly="1244" xml:id="facs_73_r1l10"/>
+<zone lrx="2373" lry="1470" rendition="Line" ulx="485" uly="1392" xml:id="facs_73_r1l11"/>
+<zone lrx="2373" lry="1545" rendition="Line" ulx="525" uly="1455" xml:id="facs_73_r1l12"/>
+<zone lrx="2384" lry="1612" rendition="Line" ulx="521" uly="1530" xml:id="facs_73_r1l13"/>
+<zone lrx="675" lry="1629" rendition="Line" ulx="603" uly="1573" xml:id="facs_73_line_1570708630395_235"/>
+<zone lrx="2366" lry="1679" rendition="Line" ulx="504" uly="1602" xml:id="facs_73_r1l14"/>
+<zone lrx="2360" lry="1746" rendition="Line" ulx="518" uly="1670" xml:id="facs_73_r1l15"/>
+<zone lrx="2356" lry="1816" rendition="Line" ulx="537" uly="1739" xml:id="facs_73_r1l16"/>
+<zone lrx="2342" lry="1890" rendition="Line" ulx="522" uly="1797" xml:id="facs_73_r1l17"/>
+<zone lrx="2343" lry="1974" rendition="Line" ulx="542" uly="1874" xml:id="facs_73_r1l18"/>
+<zone lrx="1654" lry="2044" rendition="Line" ulx="549" uly="1964" xml:id="facs_73_r1l19"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann III. von Hohenzollern, Burggraf von Nürnberg</head><p>Der Rat kündigt Hans Nürnberger, Bürger zu Nürnberg, wegen eines Unrechts an, das Peter Haller und Albrecht Ebner, Ratsherren zu Nürnberg, schon dem N. Flursteter, Diener des Adressaten, mitgeteilt haben, und bittet um gütliche Anhörung.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_73" id="35r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_73_r1l10">Burgkgrafe Johanns / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_73_r1l11">Genediger herre. Es kumpt cʒü <expan>ew<ex>r</ex>n</expan> hochwirdikeit . hans Nüremberger </ab>
+<ab facs="#facs_73_r1l12">vnſer burger von ſache wegen / darynnen Jm gar vngutlichen geſchehen iſt </ab>
+<ab facs="#facs_73_r1l13">als er <expan>ew<ex>r</ex>n</expan> genaden / daʒ muntlichen ſelber wol erʒelen vnd fürgeben ſol . / vnd </ab>
+<ab facs="#facs_73_r1l14">als 
+<add><ab facs="#facs_73_line_1570708630395_235">
+<del rend="strikethrough">daʒ </del></ab></add> Peter haller vnd <expan>Albr<ex>echt</ex></expan> Ebner vnſer lieb Burger vnd Ratgeſellen </ab>
+<ab facs="#facs_73_r1l15">daʒ dem ~ flurſteter <expan>ew<ex>r</ex>m</expan> dyener auch wol ercʒelt haben . / darumb <expan>Ro<ex>gamus</ex></expan> </ab>
+<ab facs="#facs_73_r1l16">daʒ ewr genade den <expan>egen<ex>an</ex>t<ex>en</ex></expan> ~ vnſern Burger durch <expan>vnſ<ex>er</ex>n</expan> willen in </ab>
+<ab facs="#facs_73_r1l17">denſelben ſachen gütlichen verhören / vnd Jn darumb genedigklichen </ab>
+<ab facs="#facs_73_r1l18">von ew vertigen wellet / Als wir <expan>ew<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> deʒ wol getrawen </ab>
+<ab facs="#facs_73_r1l19">daʒ wollen wir vmb ewr <expan>hochwirdik<ex>eit</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_73" id="35r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burgkgrafe Johanns</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Genediger herre, es kumpt czü <expan>ew<ex>r</ex>n</expan> hochwirdikeit
+                        Hans Nüremberger, unser burger, von sache wegen darynnen im gar ungutlichen
+                        geschehen ist, als er <expan>ew<ex>r</ex>n</expan> genaden daz muntlichen
+                        selber wol erzelen und fürgeben sol und als Peter Haller und
+                                <expan>Albr<ex>echt</ex></expan> Ebner, unser lieb burger und
+                        ratgesellen, daz dem Flursteter, <expan>ew<ex>r</ex>m</expan> dyener, auch
+                        wol erczelt haben. Darumb <expan>ro<ex>gamus</ex></expan>, daz ewr genade
+                        den <expan>egen<ex>an</ex>t<ex>en</ex></expan>, unsern burger, durch
+                                <expan>uns<ex>er</ex>n</expan> willen in denselben sachen gütlichen
+                        verhören und in darumb genedigklichen von ew vertigen wellet, als wir
+                                <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> dez wol getrawen. Daz wollen wir umb ewr
+                                <expan>hochwirdik<ex>eit</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="474" xml:id="l481" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 474 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>003r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 474.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q504334" type="recipient">Lauf a. d. Pegnitz (Stadt, Lk. Nürnberger Land)</placeName></ab><ab type="mention"><persName type="mention">Möler, Clas</persName><persName type="mention">Achtoler, Kunz<noteGrp><note type="footnote">Der Name des Gefangenen geht hervor aus Brief Nr. 477.</note></noteGrp></persName></ab><date from="31-07-1409" to="28-08-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_7">
+<surface lrx="2628" lry="3711" ulx="0" uly="0">
+<graphic height="3711px" url="Rst Nbg-Briefbücher-Nr 3_0005_right.png" width="2628px"/>
+<zone lrx="1693" lry="2137" rendition="TextRegion" ulx="1222" uly="2682" xml:id="facs_7_r1"> <zone lrx="1693" lry="2137" rendition="Line" ulx="1222" uly="2066" xml:id="facs_7_r1l23"/>
+<zone lrx="2407" lry="2285" rendition="Line" ulx="583" uly="2218" xml:id="facs_7_r1l24"/>
+<zone lrx="2313" lry="2350" rendition="Line" ulx="601" uly="2295" xml:id="facs_7_r1l25"/>
+<zone lrx="2362" lry="2411" rendition="Line" ulx="611" uly="2362" xml:id="facs_7_r1l26"/>
+<zone lrx="2421" lry="2487" rendition="Line" ulx="599" uly="2417" xml:id="facs_7_r1l27"/>
+<zone lrx="2375" lry="2553" rendition="Line" ulx="614" uly="2483" xml:id="facs_7_line_1573460768828_123"/>
+<zone lrx="2367" lry="2626" rendition="Line" ulx="603" uly="2549" xml:id="facs_7_line_1573460775155_128"/>
+<zone lrx="2364" lry="2685" rendition="Line" ulx="583" uly="2622" xml:id="facs_7_r1l30"/>
+<zone lrx="1759" lry="2757" rendition="Line" ulx="593" uly="2682" xml:id="facs_7_r1l32"/>
+</zone>
+<zone lrx="480" lry="2577" rendition="TextRegion" ulx="228" uly="2637" xml:id="facs_7_region_1578387971627_951">
+<zone lrx="605" lry="2577" rendition="Line" ulx="228" uly="2510" xml:id="facs_7_line_1578387976802_954"/>
+<zone lrx="588" lry="2654" rendition="Line" ulx="148" uly="2581" xml:id="facs_7_line_1578387981018_959"/>
+<zone lrx="480" lry="2706" rendition="Line" ulx="157" uly="2637" xml:id="facs_7_line_1578387984698_964"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Lauf an der Pegnitz</head><p>Der Rat teilt die Gefangennahme eines Mannes mit, der Clas Möler, Bürger zu Lauf an der Pegnitz, einen Panzer und zwei silberne Spangen gestohlen hat, und weist auf den Rechtsweg hin.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_7" id="3r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><del rend="crossout"><ab facs="#facs_7_r1l23">der Stat Lauff </ab>
+</del></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<del rend="crossout"><ab facs="#facs_7_r1l24"><expan>Lieb<ex>e</ex>n</expan>
+<expan>fr<ex>eunde</ex></expan> . Es iſt <expan>ein<ex>er</ex></expan>
+                            beẏ vns hie cʒu venknuſʒe kumen . / der hat bekant </ab>
+<ab facs="#facs_7_r1l25">daʒ er <expan>ew<ex>r</ex>m</expan> mitburger
+                            Claſen Maͤler ein Pancʒer vnd cʒwu Sılbrein </ab>
+<ab facs="#facs_7_r1l26">ſpangen geſtolen hab . daʒ mugt Jr Jm alſo wol cʒu
+                            vviſʒen tun . / Vnd </ab>
+<ab facs="#facs_7_r1l27">wil der dem dann nach kumen mit dem rehten So <del rend="strikethrough">mag er vvol </del> ſchi<gap reason="damaged"/></ab>
+<ab facs="#facs_7_line_1573460768828_123">
+<add><ab facs="#facs_7_line_1578387976802_954">auf den mon </ab><ab facs="#facs_7_line_1578387981018_959">tag ſchierſt / cʒu
+                                    </ab><ab facs="#facs_7_line_1578387984698_964">vns herein /
+                                </ab></add>
+<del rend="strikethrough">darumb cʒu vns kumen </del> . / ſo wollen wir
+                            Jm des <expan>recht<ex>en</ex></expan>
+<expan>vnu<ex>er</ex>cʒogenlich</expan>
+</ab>
+<ab facs="#facs_7_line_1573460775155_128">
+<del rend="strikethrough">rech </del> helffen / vnd er bedarf auch Jn
+                            nicht v̈berſıben wann er des </ab>
+<ab facs="#facs_7_r1l30">vnbetwungenlichen bekant hat . Vnd ſol Jn auch vmb
+                            die acʒung vnd </ab>
+<ab facs="#facs_7_r1l32">gen dem cʒüchtiger nichtʒ koſten . antvvurt . /
+                        </ab>
+</del>
+</div>
+</div><div type="regularised"><pb facs="#facs_7" id="3r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><del rend="crossout">Der stat Lauff </del></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab><del rend="crossout"><expan>Lieb<ex>e</ex>n</expan>
+<expan>fr<ex>eunde</ex></expan>, es ist <expan>ein<ex>er</ex></expan>
+                            bey uns hie czu venknusze kumen, der hat bekant, daz er
+                                    <expan>ew<ex>r</ex>m</expan> mitburger Clasen Maͤler ein panczer
+                            und czwu silbrein spangen gestolen hab. Daz mugt ir im also wol czu
+                            wiszen tun. Und wil der dem dann nach kumen mit dem rehten so schi<app>
+<note><gap reason="damaged"/></note>
+</app>
+<add><app><note><q type="date">auf den montag schierst</q>Möglich sind 05./12./19./26.08./01.09.1409</note></app> czu uns herein</add>, so wollen wir im des
+                                    <expan>recht<ex>en</ex></expan>
+<expan>unv<ex>er</ex>czogenlich</expan> helffen und er bedarf auch in
+                            nicht übersiben, wann er des unbetwungenlichen bekant hat, und sol in
+                            auch umb die aczung und gen dem czüchtiger nichcz kosten. Antwurt.
+                        </del></ab></div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,1792 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title type="main" ref="http://d-nb.info/gnd/4691277-0">Die Chronik des Konzils von Konstanz</title>
+            <title type="sub">Text der Konstanzer Chronikversion</title>
+            <title type="sub_short">K-Version</title>
+            <author ref="http://d-nb.info/gnd/100968570">Ulrich Richental</author>
+            <editor ref="http://d-nb.info/gnd/120875179">Thomas Martin Buck</editor>
+            <respStmt>
+               <resp>Datenverarbeitung und digitale Präsentation</resp>
+               <name ref="http://d-nb.info/gnd/1079565140">Bernd Posselt</name>
+               <name ref="http://d-nb.info/gnd/1075263921">Clemens Radl</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Monumenta Germaniae Historica</publisher>
+            <pubPlace>München</pubPlace>
+            <address>
+               <name type="institution">Monumenta Germaniae Historica</name>
+               <street>Ludwigstraße 16</street>
+               <postCode>80539</postCode>
+               <name type="city">München</name>
+               <name type="country">Deutschland</name>
+               <idno type="DOI"/>
+               <idno type="MGH">MGH Digitale Editionen 1</idno>
+            </address>
+            <availability status="free">
+               <licence target="http://creativecommons.org/licenses/by/4.0/">
+                  <p>Published under a Creative Commons Attribution 4.0 International (CC BY 4.0)
+                     license.</p>
+                  <p>If you distribute a copy or a derivative version of this file, please indicate
+                     the source of the file by mentioning the editor and the Monumenta Germaniae
+                     Historica (MGH).</p>
+               </licence>
+            </availability>
+            <date when="2019">2019</date>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Monumenta Germaniae Historica - Digitale Editionen</title>
+            <biblScope unit="volume">1</biblScope>
+         </seriesStmt>
+         <sourceDesc>
+            <p>Digital edition based on the text and introduction files prepared by the editor.</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <refsDecl>
+            <p> The chapter numbering is designed in a way to ensure that all chapters in all
+               manuscripts/recensions that share the same chapter number also share more or less the
+               same text. Thus <att>cRef</att> attributes never specify a recension or a single
+               manuscript, but always point to all three recensions (A, K, and G) collectively. </p>
+            <p> The chapter number can be found in a <gi>div</gi> with
+               <att>type</att>="div" in the <att>n</att> attribute. If the <att>n</att> attribute 
+               contains more than a single number (or in some cases a number followed by a 
+               single letter, e.g. '517a'), the chapter number is given in two different forms. 
+               In the first form (e.g. '1_1') any comma or whitespace present in the chapter number 
+               is replaced by an underscore, in the second form, which starts after the first whitespace, 
+               any comma or whitespace is retained (e.g. '1,1'). </p>
+            <p> The <gi>linkGrp</gi> elements underneath the <gi>div</gi> provide additional
+               information about synchronisation by giving the unique ids of correpsonding chapters.</p>
+         </refsDecl>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body n="edition">
+         <head xml:id="head_k"><hi rend="italics">Text der Konstanzer Chronikversion</hi></head>
+         <div type="div" n="0 Psalmvorspruch (lat.)" xml:id="k0_0">
+            <linkGrp type="synch">
+               <link target="K:k0_0|G/D:g63a"/>
+            </linkGrp>
+            <p>
+               <hi><pb n="Fol. 2*v"/> In</hi>
+               <note type="ftn" xml:id="ftn_k1">
+                  <hi rend="italics ">Der Psalmvorspruch (Ps 18,5; siehe auch Röm 10,18), der die
+                     ebenso stadthistoriographische wie die latent panegyrische Intention der
+                     Konstanzer Handschrift im explizit auf die Konzilsstadt bezogenen Nachsatz
+                     unterstreicht, findet sich auch in E und D</hi>
+                  <hi rend="italics sub ">1</hi>
+                  <hi rend="italics ">, in A, Pr, W, Wo und St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi rend="italics "> fehlt er, in G ist er wohl wegen des fragmentarischen
+                     Texteinsatzes ausgefallen, in D</hi>
+                  <hi rend="italics sub ">1</hi>
+                  <hi rend="italics "> ist er aus dem Lateinischen ins Deutsche übertragen worden.
+                     Vgl. hierzu O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 150; W. </hi>
+                  <hi rend="italics smallcaps ">Matthiessen</hi>
+                  <hi rend="italics ">, Ulrich Richentals Chronik S. 399f.; Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics "> / H. </hi>
+                  <hi rend="italics smallcaps ">Kraume</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 313f.; Th. </hi>
+                  <hi rend="italics smallcaps ">Bruggisser-Lanker</hi>
+                  <hi rend="italics ">, Music goes public S. 349f. mit Anm. 1. Die Ansicht von G. </hi>
+                  <hi rend="italics smallcaps ">Wacker</hi>
+                  <hi rend="italics ">, Ulrich Richentals Chronik S. 1, der Psalm sei der
+                     „Konzilsgeschichte“ als „Motto“ vorangestellt, geht in ihrer Allgemeinheit
+                     fehl, da sich der Psalm nicht in allen Versionen findet und wohl gar nicht auf
+                     den Chronisten zurückgeht, der in K zudem nicht explizit als Autor der Chronik
+                     erscheint</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> omnem terram exivit sonus eorum, et in fines orbis terre verba eorum. Scribitur
+                  psalmo decimo octavo, et hec verba proprie apponuntur appostolis, qui et
+                  ewangelium predicaverunt in universo mundo. Eciam digne potest apponi civitati
+                  Constanciensi in Almania, provincie Maguntinensis; quasi diceret civitas
+                  Constanciensis de se ipsa cum mansueto propheta David: In omnem terram exivit
+                  nomen Constancie, et divulgatum est nomen eius in universa terra. </hi>
+               <hi rend="italics " ana="metatext">Darunter in anderer Schrift</hi>
+               <hi>: PSALMUS: LAUS EIUS IN ECCLESIA SANCTORUM.</hi>
+            </p>
+         </div>
+         <div type="div" n="0a Invokation" xml:id="k0_1">
+            <linkGrp type="synch">
+               <link target="K:k0_1"/>
+            </linkGrp>
+            <p>
+               <hi><pb n="Fol. 1r"/> Omnipotens</hi>
+               <note type="ftn" xml:id="ftn_k2">
+                  <hi rend="italics ">Die Invokation, die auch für W und E bezeugt ist, fehlt in A,
+                     Pr, Wo, St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi rend="italics "> und D</hi>
+                  <hi rend="italics sub ">1</hi>
+                  <hi rend="italics "> an dieser Stelle. Ebenfalls eine Anrufung Gottes findet sich
+                     in einem lateinisch-deutschen Prooem zu Anfang der Innsbrucker und ersten
+                     Zürcher Handschrift (Ms. A 172): </hi>
+                  <hi>Sumum bonum, o tu, qui mundum ratione gubernas […]. </hi>
+                  <hi rend="italics ">Vgl. zur Invokation der Konstanzer Handschrift O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 151; H. </hi>
+                  <hi rend="italics smallcaps ">Wenzel</hi>
+                  <hi rend="italics ">, Autorenbilder. Zur Ausdifferenzierung von Autorenfunktionen
+                     in mittelalterlichen Miniaturen, in: Autor und Autorschaft im Mittelalter.
+                     Kolloquium Meißen 1995, hg. von E. </hi>
+                  <hi rend="italics smallcaps ">Andersen</hi>
+                  <hi rend="italics "> u.a. (1998) S. 9–12</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> Deus, qui es retributor omnium bonorum, vindictor malorum, da michi viam recte
+                  scribendi</hi>
+               <note type="app" xml:id="app_k1">
+                  <hi>scribende </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, qui es trinus et unus.</hi>
+            </p>
+         </div>
+         <div type="div" n="1_1 1,1" xml:id="k1">
+            <linkGrp type="synch">
+               <link target="A:a1|K:k1|G/D:g64"/>
+            </linkGrp>
+            <p>
+               <hi>Hie vachet</hi>
+               <note type="app" xml:id="app_k2">
+                  <hi>vacht </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> an, wie das concilium gelait ist worden gen Costentz, und wie es dar kam, und
+                  wie es anfieng, und was sachen dozemaͧ</hi>
+               <hi>l in</hi>
+               <note type="app" xml:id="app_k3">
+                  <hi>zuͦ </hi>
+                  <hi rend="italics ">EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> dem concilio volgiengen und beschachen, und wie es zergieng, und wie vil herren
+                  dar kament, sy warent gaistlich oder weltlich, und mit wie vil jeglicher her dar
+                  kam und mit wie vil lüten und personen und pfäritten und mit iro wapen, die sy ze
+                  Costentz an ir herberg anschluͦ</hi>
+               <hi>gen; als das ettlich erber lüt</hi>
+               <note type="ftn" xml:id="ftn_k3">
+                  <hi rend="italics ">Vgl. zu dem Begriff </hi>
+                  <hi>erber lüt </hi>
+                  <hi rend="italics ">auch die cc. 2,2, 38 und 91. Zum </hi>
+                  <hi>cives</hi>
+                  <hi rend="italics ">-Begriff siehe auch Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics ">, Der Codex Salemitanus S. 255, 258, 260</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> von gedachtnusse</hi>
+               <note type="app" xml:id="app_k4">
+                  <hi>gedächtnuß </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> wegen</hi>
+               <note type="ftn" xml:id="ftn_k4">
+                  <hi rend="italics ">Die Konstanzer Chronikversion versteht sich gemäß dieser
+                     Wendung dezidiert als „Selbstgedächnis der Stadt“</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> zuͦ</hi>
+               <hi>samen haben erfraget</hi>
+               <note type="ftn" xml:id="ftn_k5">
+                  <hi rend="italics ">Man beachte, dass hier im Verhältnis zur New Yorker und Prager
+                     Chronikversion (Cod. XVI A 17) nicht Ulrich Richental, sondern die </hi>
+                  <hi>erber lüt</hi>
+                  <hi rend="italics "> der Stadt Konstanz explizit als Verfasser der Chronik
+                     auftreten. Es gibt mithin eine gegenüber A und Pr veränderte Strategie von
+                     Autorschaft. Der Name des Chronisten wird – anders als in c. 1,1 der New Yorker
+                     Version – gar nicht (mehr) erwähnt, der Verfasser geht in K vielmehr in einer
+                     ebenso anonymen wie pluralisierten Autorengemeinschaft auf, die das Werk gemäß
+                     fol. 1</hi>
+                  <hi rend="italics sup ">r</hi>
+                  <hi rend="italics "> </hi>
+                  <hi>von gedachtnusse wegen</hi>
+                  <hi rend="italics "> </hi>
+                  <hi>zuͦsamen haben erfraget</hi>
+                  <hi rend="italics ">. Die historiographische Konzeption der objektivierten
+                     K-Version verzichtet mithin auf die Authentizität der Ich-Rede, zielt vielmehr
+                     auf eine kollektive „Erinnerungsgemeinschaft“, die mit der Stadtgemeinschaft (=
+                     Bürgerschaft) identisch ist. Anders formuliert: Die Stadt Konstanz inszeniert
+                     in der Handschrift ihre historiographische Selbstdarstellung, die Chronik wird
+                     gewissermaßen „kommunalisiert“. Vgl. M. R. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics ">, Chronik des Constanzer Concils, Vorwort S. 5; O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Die Konzilchronik des Ulrich Richental S. 25, 113; W. </hi>
+                  <hi rend="italics smallcaps ">Matthiessen</hi>
+                  <hi rend="italics ">, Ulrich Richentals Chronik S. 116; Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics ">, Der Codex Salemitanus S. 258, 260, 262, 278; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Mythos Richental S. 77 mit Anm. 38; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Ein Buch prägt die Erinnerung S. 50; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics "> / H. </hi>
+                  <hi rend="italics smallcaps ">Kraume</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 199f., 314; P. </hi>
+                  <hi rend="italics smallcaps ">Johanek</hi>
+                  <hi rend="italics ">, Städtische Geschichtsschreibung im Spätmittelalter und in
+                     der Frühen Neuzeit, hg. von P. </hi>
+                  <hi rend="italics smallcaps ">Johanek</hi>
+                  <hi rend="italics "> (2000) S. VII–XIX; G. </hi>
+                  <hi rend="italics smallcaps ">Wacker</hi>
+                  <hi rend="italics ">, Ulrich Richentals Chronik S. 202, 235; P. </hi>
+                  <hi rend="italics smallcaps ">Eckhart</hi>
+                  <hi rend="italics "> / B. </hi>
+                  <hi rend="italics smallcaps ">Studt</hi>
+                  <hi rend="italics ">, Das Konzil im Gedächtnis der Stadt S. 88, 90</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="1_2 1,2" xml:id="k2">
+            <linkGrp type="synch">
+               <link target="A:a2|K:k2|G/D:g65"/>
+            </linkGrp>
+            <linkGrp type="corresp">
+               <link target="G/D:g97" n="G/D: 1,2, 41,2 und 87"/>
+            </linkGrp>
+            <p>
+               <hi>Und hierumb, das man denn alle sachen desterbas verston müg, wie die ding
+                  zuͦ</hi>
+               <hi>gangen syen, so ist zuͦ</hi>
+               <hi> wissen, das alle cristenhait in fünff tail getailt ist</hi>
+               <note type="ftn" xml:id="ftn_k6">
+                  <hi rend="italics ">Zu dieser Fünfteilung der christlichen Welt vgl. K. </hi>
+                  <hi rend="italics smallcaps ">Oschema</hi>
+                  <hi rend="italics ">, Eine Christenheit und streitende Nationen S. 39</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, und die tail haissend in der latin naciones, das ist des ersten Ytalici, das
+                  ist Romerland, Lamparten, und sollich land, so zu dem tail</hi>
+               <note type="app" xml:id="app_k5">
+                  <hi>lande </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; land </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gehörend. Der ander tail, das sind Germani, das sind tütschi</hi>
+               <note type="app" xml:id="app_k6">
+                  <hi>tüsche </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> land, und alle, die zuͦ</hi>
+               <hi> in gehörend. Die dritt nacion, das sind Franciony, das ist Franckrich, und
+                  die</hi>
+               <note type="app" xml:id="app_k7">
+                  <hi rend="italics ">fehlt EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ouch zuͦ</hi>
+               <hi> in gehörend. Die vierd, das sind Hyspani, das ist hyspanger land und die
+                  küngrich, so darin gehörent, als ir hienach sehen werdend. Die fünft nacio, das
+                  sind Anglici, das ist Engelland</hi>
+               <note type="app" xml:id="app_k8">
+                  <hi>Engenland </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und Schotten, und die ouch zuͦ</hi>
+               <hi> in gehörend. Die selben Engelschen hatten vor dem concilio ze Costentz kain
+                  nacion, wann das sy gehorten under die nacion Germani, und ward in die nacion erst
+                  zuͦ</hi>
+               <hi> Costentz geben, als man das hienach findet</hi>
+               <note type="ftn" xml:id="ftn_k7">
+                  <hi rend="italics ">Diese Information zu den </hi>
+                  <hi>Anglici </hi>
+                  <hi rend="italics ">bringt A nicht schon in c. 1,2, sondern erst in c. 1,3</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="1_3 1,3" xml:id="k3">
+            <linkGrp type="synch">
+               <link target="A:a3|K:k3|G/D:g66"/>
+            </linkGrp>
+            <p>
+               <hi>Und was nun küngrich und land in yegliche nacion gehör, das findet man hienach;
+                  und umb das die Engelschen ain sunder nacion geben ward ze Costentz, das beschach
+                  darumb, das sich die von Hyspania so lang sumpten, das sy nit gen Costentz kament
+                  nach dem und in verkündt ward, dar ze komen.</hi>
+            </p>
+         </div>
+         <div type="div" n="2_1 2,1" xml:id="k4">
+            <linkGrp type="synch">
+               <link target="A:a4|K:k4|G/D:g67"/>
+            </linkGrp>
+            <p>
+               <hi>Do der hailig vatter und her bapst Allixander</hi>
+               <note type="app" xml:id="app_k9">
+                  <hi>Allexander </hi>
+                  <hi rend="italics ">WE</hi>
+                  <hi>; Alexander </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> zuͦ</hi>
+               <hi> bapst erwelt ward, der was des ordens fratrum minorum, das sind barfuͦ</hi>
+               <hi>ssen, do er nun erwelt ward, darnach ward ain gemain concilium tzuͦ</hi>
+               <hi> Pisanensis, das ist zuͦ</hi>
+               <hi> Piß in Lamparten.</hi>
+            </p>
+         </div>
+         <div type="div" n="2_2 2,2" xml:id="k5">
+            <linkGrp type="synch">
+               <link target="A:a5|K:k5|G/D:g68"/>
+            </linkGrp>
+            <p>
+               <hi>In dem selben</hi>
+               <note type="app" xml:id="app_k10">
+                  <hi rend="italics ">fehlt W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> concilio lobt und verhieß der selb bapst Allexander dem selben concilio, das da
+                  was, das er wolt darzuͦ</hi>
+               <hi> all sin vermügen tuͦ</hi>
+               <hi>n inwendig dry den nachsten jaren nach dem selben concilio, das ainikait, frid
+                  und gnad der cristenhait geben wurd; wan er dozemaͧ</hi>
+               <hi>l zwen widersachen hett, dero was der ain der hochgeborn fürst Petrus de Luna,
+                  ain gefürster her und graͧ</hi>
+               <hi>ff von geschlächt, der sich nampt in siner obedientz, das ist als vil gesprochen:
+                  in siner gehorsami <pb n="1v"/>, die in hielten, Benedictus der drytzehend. Der
+                  ander hieß Angelus de Corwario, by nach ritter oder erber lüt geschlacht, und der
+                  sich nampt in siner obedientz, das ist in siner gehorsamkait, Gregorius der
+                  zwelft. Und also, e das sich die drüw jar ergiengen und die sach angefangen wurd,
+                  do starb der selb bapst Allexander und lag die sach gantz danider</hi>
+               <note type="ftn" xml:id="ftn_k8">
+                  <hi rend="italics ">Zu den Päpsten Alexander V. und Johannes XXIII. siehe auch:
+                     Die Chroniken der oberrheinischen Städte. Straßburg 2, 2, hg. von C. </hi>
+                  <hi rend="italics smallcaps ">Hegel</hi>
+                  <hi rend="italics "> (</hi>
+                  <hi rend="italics sup ">2</hi>
+                  <hi rend="italics ">1961) S. 615–617</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Und das groß irrung in der cristenhait ward, wan das der almachtig gott das
+                  schiff sines fürsten, des apposteln Sant Peters, nit lat</hi>
+               <note type="app" xml:id="app_k11">
+                  <hi>laut </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; latt </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; laßt </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ertrincken noch versincken.</hi>
+            </p>
+         </div>
+         <div type="div" n="3_1 3,1" xml:id="k6">
+            <linkGrp type="synch">
+               <link target="A:a6|K:k6|G/D:g69"/>
+            </linkGrp>
+            <p>
+               <hi>Darnach ward ze bapst erwelt der ersam her Balthasar</hi>
+               <note type="app" xml:id="app_k12">
+                  <hi>Baltisar </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> de Chossis, das ist der von dem gelid erber burger geschlächt, do der nun erwelt
+                  ward, do nampt er sich in siner obedientz Johannes der dry und zwaintzgost an dem
+                  namen. Der selb bapst Johannes, als der nun erwelt ward, do swuͦ</hi>
+               <hi>r er ouch gantzem collegio, das ist ze wissen, wenn man schribet oder nemet das
+                  collegium, das sind die cardinäl, die da hand ain bapst zuͦ</hi>
+               <hi> erwelen; wenn man aber schribt oder nemmet das concilium, das sind die cardinal,
+                  ertzbischoff, bischoff, patriarchen, schuͦ</hi>
+               <hi>len und ander gelert pfaffhait und örden, die besamnot werdend umb not und
+                  sachen, die der cristenhait anligend, das er auch sin gantz vermügen tuͦ</hi>
+               <hi>n wölt, das frid und ainikait der cristenhait wurd.</hi>
+            </p>
+         </div>
+         <div type="div" n="3_2 3,2" xml:id="k7">
+            <linkGrp type="synch">
+               <link target="A:a7|K:k7|G/D:g70"/>
+            </linkGrp>
+            <p>
+               <hi>Der selb bapst Johannes der XXIII., der ließ die sach also beston und wolt sich
+                  villicht laussen benuͦ</hi>
+               <hi>gen an sollicher wirdikait, die im geben</hi>
+               <note type="app" xml:id="app_k13">
+                  <hi>gegeben </hi>
+                  <hi rend="italics ">WSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und uff in gelait was, wann er vast genaigt was uff zitlich er und guͦ</hi>
+               <hi>t, und verlangt sich das also lang, das grosser gebrest und red uffstuͦ</hi>
+               <hi>nd zwischen gaistlichen und weltlichen fürsten und herren, und das die
+                  churfürsten darumb dick zuͦ</hi>
+               <hi> red gesetzt wurden. Nun die selben churfürsten dick und vil zuͦ</hi>
+               <hi>samen kamen mit ir selbs liben</hi>
+               <note type="app" xml:id="app_k14">
+                  <hi rend="italics ">davor </hi>
+                  <hi>selb </hi>
+                  <hi rend="italics ">wohl von späterer Hand ausgestr.</hi>
+                  <hi> </hi>
+                  <hi rend="italics ">K</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und ouch mit iren recht</hi>
+               <note type="app" xml:id="app_k15">
+                  <hi rend="italics ">fehlt W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> treffenlich botschaft gen Franckenfurt, gen Puͦ</hi>
+               <hi>chparten</hi>
+               <note type="ftn" xml:id="ftn_k9">
+                  <hi rend="italics ">Boppard am Rhein</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, gen Oppenhaim, gen Wesell</hi>
+               <note type="ftn" xml:id="ftn_k10">
+                  <hi rend="italics ">Wesel am Niederrhein</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und sust in manig des richs stet an</hi><note corresp="#appref_k1" type="app" xml:id="app_k16">
+                  <hi>an dem Rin – richs stett</hi>
+                  <hi>] </hi>
+                  <hi rend="italics ">fehlt EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note><hi> dem Rin und darumb gelegen. Und ouch des selben römschen richs stett</hi>
+               <ref xml:id="appref_k1" type="appref" target="#app_k16"/>
+               <hi> mit in und sich da vil mitainander under retten, wie man verkomen möcht, das
+                  sollich ierrung nit in der cristenhait inbrach und sollicher zisma, das ist
+                  ierrung, wurd</hi>
+               <note type="ftn" xml:id="ftn_k11">
+                  <hi rend="italics ">Am Ende von c. 3,2 bringt A das Motiv der Kirche als Schiff
+                     Petri, das K und W bereits am Ende von c. 2,2 gebracht hatten; vgl. auch c. 8.
+                     Siehe zu dieser Schiffs- und Steuermannsmetaphorik in diesem Zusammenhang auch:
+                     Die Berner-Chronik des Conrad Justinger, hg. von G. </hi>
+                  <hi rend="italics smallcaps ">Studer</hi>
+                  <hi rend="italics "> (1871) c. 346. Vgl. U. </hi>
+                  <hi rend="italics smallcaps ">Gießmann</hi>
+                  <hi rend="italics ">, Der letzte Gegenpapst S. 112f</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="4_1 4,1" xml:id="k8">
+            <linkGrp type="synch">
+               <link target="A:a8|K:k8"/>
+            </linkGrp>
+            <p>
+               <hi>Nun sind das die, die</hi>
+               <note type="app" xml:id="app_k17">
+                  <hi rend="italics ">fehlt W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ainen römschen küng ze erwelen hand, so ain küng abgat von tod und entsetzt
+                  wirt, oder ainen romschen küng ze entsetzen und ain andern ze erwelen, ob er
+                  missetät an cristam globen und an andern stucken und ouch</hi>
+               <note type="app" xml:id="app_k18">
+                  <hi rend="italics ">fehlt W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> artickeln, so darumb im rechten verschriben ist.</hi>
+            </p>
+         </div>
+         <div type="div" n="4_2 4,2" xml:id="k9">
+            <linkGrp type="synch">
+               <link target="A:a9|K:k9"/>
+            </linkGrp>
+            <p>
+               <hi><pb n="2r"/> Der ertzbischoff von Mentz. </hi>
+               <hi rend="italics " ana="figure">Darunter Wappen. </hi><hi rend="italics " ana="metatext">Daneben der nachstehende Text</hi>
+               <hi>. Der erst churfürst ist der ertzbischoff von Mentz. Wer denn da ertzbischoff
+                  ist, der selb ist under in als ain techan in ainem thuͦ</hi>
+               <hi>m oder cappittel und der haut den gewalt, ze beruͦ</hi>
+               <hi>ffen all</hi>
+               <note type="app" xml:id="app_k19">
+                  <hi rend="italics ">korr. aus</hi>
+                  <hi> als </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; als </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; alle </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ander churfürsten und erweler des hailigen romschen richs. Die sond und müssend
+                  im gehorsam sin ze komen by dem aid, so sy dem rich gesworn hand, umb alle die
+                  sachen, so dem rich und der cristenhait anliget. Und ob das wär, das ain römscher
+                  küng abzesetzen wurd, und umb alle ander sach des glichen. Und der selb
+                  ertzbischoff ist ain obrister ertzkantzler über alle tütschi</hi>
+               <note type="app" xml:id="app_k20">
+                  <hi>tüschi </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> land und über die nacion, die man da nempt die nacion germanica, und die
+                  darzuͦ</hi>
+               <hi> ze gebietten und ze ruͦ</hi>
+               <hi>ffen, das alle fürsten und herren, so in den selben landen sitzent, komen
+                  muͦ</hi>
+               <hi>sent und sond zuͦ</hi>
+               <hi> iren gebotten, wenn sy von im beruͦ</hi>
+               <hi>ft werdent an ain gevellig stat, da hin sy dann komen sond, wenn dem rich not
+                  anlit, und het ouch des römschen richs maiestat insigel.</hi>
+            </p>
+         </div>
+         <div type="div" n="4_3 4,3" xml:id="k10">
+            <linkGrp type="synch">
+               <link target="A:a10|K:k10"/>
+            </linkGrp>
+            <p>
+               <hi>Der ander churfürst ist der ertzbischoff von Köln. </hi>
+               <hi rend="italics " ana="figure">Darunter Wappen</hi>
+               <hi>. </hi>
+               <hi rend="italics " ana="metatext">Daneben der nachstehende Text</hi>
+               <hi>. Der ander ist der ertzbischoff von Köln, der ist ain ertzkantzler des hailigen
+                  römschen richs und ist als ain tuͦ</hi>
+               <hi>mbropst uff ainer stift</hi>
+               <note type="app" xml:id="app_k21">
+                  <hi>ainem gestift </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und haut ze beruͦ</hi>
+               <hi>ffen alle die küng, fürsten und herren, die da sitzen und wonhaft sind in aller
+                  nacion, die man nempt Ytalia, das ist in Lamparten, so das rich not angaͧ</hi>
+               <hi>t, als da vor geschriben stat, und in dem kaisertuͦ</hi>
+               <hi>m zuͦ</hi>
+               <hi> Constantinoppel, das da</hi>
+               <note type="app" xml:id="app_k22">
+                  <hi rend="italics ">fehlt W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> lit in Kriechenland und über alle küngrich, die da cristan sind und enend mers
+                  ligend, und wahin also siner gewalt langot; dem sond sy gehorsam sin, wenn er sy
+                  manot</hi>
+               <note type="app" xml:id="app_k23">
+                  <hi>manet </hi>
+                  <hi rend="italics ">WSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>; manott </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und dem rich not wirt.</hi>
+            </p>
+         </div>
+         <div type="div" n="4_4 4,4" xml:id="k11">
+            <linkGrp type="synch">
+               <link target="A:a11|K:k11"/>
+            </linkGrp>
+            <p>
+               <hi>Der drit der ertzbischoff von Triel</hi>
+               <note type="ftn" xml:id="ftn_k12">
+                  <hi rend="italics ">Trier</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. </hi>
+               <hi rend="italics " ana="figure">Darunter Wappen</hi>
+               <hi>. </hi>
+               <hi rend="italics " ana="metatext">Daneben der nachstehende Text</hi>
+               <hi>. Der drit gaistlich churfürst und ouch erweler ist der ertzbischoff von Triel,
+                  der ist ain obrister ertzkantzler des hailigen römschen richs und hat ze ruͦ</hi>
+               <hi>ffen und ze manen alle des römschen richs küng, fürsten und herren, so da sind in
+                  der nacion zuͦ</hi>
+               <hi> Franckrich, zuͦ</hi>
+               <hi> Hyspania, zu Portigal, was da ist in der nacion, die man nemmet <pb n="2v"/>
+                  Francioni, so dem rich not wirt. Und ist des hailigen römschen richs ain
+                  chuster</hi>
+               <note type="app" xml:id="app_k24">
+                  <hi>chustor </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>; custer </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; custos </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, das ist ain behalter oder ain huͦ</hi>
+               <hi>tter des hailigen römschen richs.</hi>
+            </p>
+         </div>
+         <div type="div" n="5_1 5,1" xml:id="k12">
+            <linkGrp type="synch">
+               <link target="A:a12|K:k12"/>
+            </linkGrp>
+            <p>
+               <hi>So sind diß die weltlichen churfürsten, die da och erwelen sond ain romschen
+                  küng, so das rich entsetzt wirt, oder ainen römschen küng zu entsetzen, ob er
+                  missetät.</hi>
+            </p>
+         </div>
+         <div type="div" n="5_2 5,2" xml:id="k13">
+            <linkGrp type="synch">
+               <link target="A:a15|K:k13"/>
+            </linkGrp>
+            <p>
+               <hi>Der hertzog von Payer. </hi>
+               <hi rend="italics " ana="figure">Darunter Wappen. </hi><hi rend="italics " ana="metatext">Daneben der nachstehende Text</hi>
+               <hi>. Der hertzog von Payer</hi>
+               <note type="ftn" xml:id="ftn_k13">
+                  <hi rend="italics ">Die weltlichen Kürfürsten bringen A und Pr – anders als K, W,
+                     E und Wo – in der umgekehrten Reihenfolge, zuerst den Markgrafen von
+                     Brandenburg, dann den Herzog von Sachsen, schließlich den Herzog von
+                     Bayern</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, der</hi>
+               <note type="app" xml:id="app_k25">
+                  <hi>das </hi>
+                  <hi rend="italics ">EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ist ain churfürst, welher hertzog von Payer die pfallentz an dem Rin</hi>
+               <note type="app" xml:id="app_k26">
+                  <hi>Rein </hi>
+                  <hi rend="italics ">EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> inhett und die besitzet. Und der ist ouch der oberist</hi>
+               <note type="app" xml:id="app_k27">
+                  <hi>obrest </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> truchsäs des römschen künges und riches, das ist sin ampt, das er das besechen
+                  sol durch sich selb oder durch ainen fromen herren, das er mit frid sin mal nemen
+                  müg. Und hat ouch gewalt, welher zuͦ</hi>
+               <hi> dem römschen</hi>
+               <note type="app" xml:id="app_k28">
+                  <hi rend="italics ">folgt</hi>
+                  <hi> künig </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ze clagen het, dem sol er über in mit dem rechten richten, und ouch über</hi>
+               <note type="app" xml:id="app_k29">
+                  <hi>über über </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> all ander fürsten des römschen richs, und ob sy nit gehorsam wären, so mag er sy
+                  wol in</hi>
+               <note type="app" xml:id="app_k30">
+                  <hi rend="italics ">folgt</hi>
+                  <hi> die </hi>
+                  <hi rend="italics ">EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> aucht</hi>
+               <note type="ftn" xml:id="ftn_k14">
+                  <hi rend="italics ">Reichsacht</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> tuͦ</hi>
+               <hi>n.</hi>
+            </p>
+         </div>
+         <div type="div" n="5_3 5,3" xml:id="k14">
+            <linkGrp type="synch">
+               <link target="A:a14|K:k14"/>
+            </linkGrp>
+            <p>
+               <hi>Der ander layen churfürst ist der hertzog von Sachsen, der ist des römschen richs
+                  marschalck. </hi>
+               <hi rend="italics " ana="figure">Darunter Wappen</hi>
+               <hi>. </hi>
+               <hi rend="italics " ana="metatext">Daneben der nachstehende Text</hi>
+               <hi>. Der hertzog von Sachsen, wer dann ye das selb hertzogthuͦ</hi>
+               <hi>m ze Sachsen inne hett, der ist ain weltlich churfürst und ist des hailigen
+                  romschen richs obroster marschalck, besorger und behuͦ</hi>
+               <hi>tter sines hoffes mit pfaritten, mit diensten und mit andern sachen. Und sol
+                  weren alle unzucht und frävel, so in dem hoff beschehen und vo[r]komen</hi>
+               <note type="app" xml:id="app_k31">
+                  <hi>verkomen </hi>
+                  <hi rend="italics ">WE</hi>
+                  <hi>; verkommen </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; vorkommen </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, alle böse spil in dem hoff und all unfuͦ</hi>
+               <hi>r mit frowen</hi>
+               <note type="ftn" xml:id="ftn_k15">
+                  <hi rend="italics ">Das ist wohl auch der Grund, warum Herzog Rudolf von Sachsen
+                     die Zählung der „offenen“ Frauen im Konstanz der Konzilszeit veranlasst hat; </hi>
+                  <hi rend="italics ">vgl. c. </hi><ref xml:id="internal_k1" cRef="406" type="internal"><hi rend="italics ">406</hi></ref><hi rend="italics ">
+                     in A und G</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> oder sust. Und mag ouch richten in des römschen küngs hoff mit dem swert und mit
+                  dem strick über alle verschult sachen; und sol vortragen dem römschen küng ain
+                  blos swert, wa er by im ist und mit im gaͧ</hi>
+               <hi>t.</hi>
+            </p>
+         </div>
+         <div type="div" n="5_4 5,4" xml:id="k15">
+            <linkGrp type="synch">
+               <link target="A:a13|K:k15"/>
+            </linkGrp>
+            <p>
+               <hi>Der drit layen churfürst ist der marggrauff von Brandenburg. </hi>
+               <hi rend="italics " ana="figure">Darunter Wappen</hi>
+               <hi>. </hi>
+               <hi rend="italics " ana="metatext">Daneben der nachstehende Text</hi>
+               <hi>. Der marggraͧ</hi>
+               <hi>ff von Brandenburg, der ist der oberost fürtrager</hi>
+               <note type="ftn" xml:id="ftn_k16">
+                  <hi rend="italics ">Dieses Amt hatte A in c. 5,2 für den Herzog von Bayern
+                     reserviert</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und bropst und der oberost kamerer des römschen richs, inzenemen und ußzegeben.
+                  Und sol dem römschen küng vortragen das zepter, und sol ouch pflegen der römschen
+                  küngin hoff und sy besorgen mit allen dingen, so zu irem hoff und zu irem lib
+                  gehört mit allen sachen.</hi>
+            </p>
+         </div>
+         <div type="div" n="6_1 6,1" xml:id="k16">
+            <linkGrp type="synch">
+               <link target="A:a16|K:k16"/>
+            </linkGrp>
+            <p>
+               <hi><pb n="3r"/> Diß sechs</hi>
+               <note type="app" xml:id="app_k32">
+                  <hi>sind </hi>
+                  <hi rend="italics ">ESt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>; sindt </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gaistlich und weltlich churfürsten hand macht und gewalt, ainen römschen küng ze
+                  erwelen, so das römsch rich asetzt wirdet, und ain küng ze entsetzen, ob das wär,
+                  das er unrecht tät, und ouch zesamen ze komen und ainander ze beruͦ</hi>
+               <hi>ffen, wahin und an welhe stat sy wend und wie dick sy wend, und da betrachten des
+                  hailigen römschen richs notdurft</hi>
+               <note type="app" xml:id="app_k33">
+                  <hi>not </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; nott </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; noth </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="6_2 6,2" xml:id="k17">
+            <linkGrp type="synch">
+               <link target="A:a17|K:k17"/>
+            </linkGrp>
+            <p>
+               <hi rend="italics " ana="figure"> Wappen</hi>
+               <hi> </hi>
+               <hi rend="italics " ana="figure">ohne Überschrift. Daneben der nachstehende Text</hi>
+               <hi>. Der küng von Beham</hi>
+               <note type="ftn" xml:id="ftn_k17">
+                  <hi rend="italics ">Böhmen</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, der ist als ain gemain man und als ain schidman und ist nit ain churfürst,
+                  dann</hi><note corresp="#appref_k2" type="app" xml:id="app_k34">
+                  <hi>dann – wurden</hi>
+                  <hi>] dann ob sy sechs schrytten wurden </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>; wann ob die sechs schritten wurden </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; wann ob di sechs sritten wurden</hi>
+                  <hi rend="italics "> Wo</hi>
+                  <hi>; wann ob die sechs strittig wurden </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note><hi> ob sy sechs sthritten wurden</hi>
+               <ref xml:id="appref_k2" type="appref" target="#app_k34"/>
+               <hi>. Wär aber, das die sechs an der wal ains römschen künges sthritten wurden, also
+                  das dry ainen nämen und dry den andern und also das maist nit under in werden
+                  möcht, so sond sy den küng von Beham beschicken</hi>
+               <note type="app" xml:id="app_k35">
+                  <hi>schicken </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, der ist denn als ain obervogt und ain gemainer man, und dem iren strit
+                  fürlegen. Und welhem er under den zwainen, umb die sy denn strittig sind, sin stim
+                  gibt, der ist dann romscher küng. Der sol denn ziehen für Franckenfurt und da
+                  ligen sechs wochen, ob er ain widersachen entsitzet. Wurd aber ain maistes</hi>
+               <note type="app" xml:id="app_k36">
+                  <hi>maister </hi>
+                  <hi rend="italics ">Feger</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> under den sechsen, so bedurffent sy des küngs von Beham nit.</hi>
+            </p>
+         </div>
+         <div type="div" n="6_3 6,3" xml:id="k18">
+            <linkGrp type="synch">
+               <link target="A:a18|K:k18"/>
+            </linkGrp>
+            <p>
+               <hi>Dise ordnung und diß gemächt hat geordnet der hailig her und fürst kaiser
+                  Karolus</hi>
+               <note type="ftn" xml:id="ftn_k18">
+                  <hi rend="italics ">Gemeint ist wohl Kaiser Karl IV. (1346–1378), der 1356 die
+                     „Goldene Bulle“ erließ. Vgl. O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 153; S. </hi>
+                  <hi rend="italics smallcaps ">Weinfurter</hi>
+                  <hi rend="italics ">, Zum Gestaltungsprinzip der Chronik des Ulrich Richental S.
+                     525; P. </hi>
+                  <hi rend="italics smallcaps ">Hoffmann</hi>
+                  <hi rend="italics ">, Die bildlichen Darstellungen des Kurfürstenkollegiums von
+                     den Anfängen bis zum Ende des Hl. Römischen Reiches (13.–18. Jahrhundert)
+                     (1982) S. 62f</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, römscher kaiser, küng zu Beham, geborn ain küng von Franckrich, mit rat und
+                  underwisung siner fürsten und herren, der ouch das römsch rich den Römern nam und
+                  es den Tütschen</hi>
+               <note type="app" xml:id="app_k37">
+                  <hi>Tüschen </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gab</hi>
+               <note type="ftn" xml:id="ftn_k19">
+                  <hi rend="italics ">Dieser latente Hinweis auf die Theorie von der </hi>
+                  <hi>translatio imperii</hi>
+                  <hi rend="italics ">, der sich auch in W findet, fehlt in A und zeigt, dass mit </hi>
+                  <hi>Sanctus Carolus</hi>
+                  <hi rend="italics ">, wie es in c. 6,3 in A heißt, auch durchaus Karl der Große
+                     gemeint sein könnte. Vgl. E. E. </hi>
+                  <hi rend="italics smallcaps ">Stengel</hi>
+                  <hi rend="italics ">, Der Ursprung der Fabel von der Begründung der Königswahl und
+                     der Stiftung des Kurfürstenkollegiums durch Karl den Großen, in: </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Den Kaiser macht das Heer (1910) Exkurs 2 S. 75–96; M. </hi>
+                  <hi rend="italics smallcaps ">Buchner</hi>
+                  <hi rend="italics ">, Die Entstehung und Ausbildung der Kurfürstenfabel. Eine
+                     historiographische Studie (1912) S. 12–15; O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 152f.; P. </hi>
+                  <hi rend="italics smallcaps ">Hoffmann</hi>
+                  <hi rend="italics ">, Die bildlichen Darstellungen des Kurfürstenkollegiums von
+                     den Anfängen bis zum Ende des Hl. Römischen Reiches (13.–18. Jahrhundert)
+                     (1982) S. 45, 62f., 114; W. </hi>
+                  <hi rend="italics smallcaps ">Matthiessen</hi>
+                  <hi rend="italics ">, Ulrich Richentals Chronik S. 141, 168, 189, 340–346; G. </hi>
+                  <hi rend="italics smallcaps ">Wacker</hi>
+                  <hi rend="italics ">, Ulrich Richentals Chronik S. 48. Grundsätzlich zur
+                     Translationstheorie W. </hi>
+                  <hi rend="italics smallcaps ">Goez</hi>
+                  <hi rend="italics ">, Translatio imperii. Ein Beitrag zur Geschichte des
+                     Geschichtsdenkens und der politischen Theorien im Mittelalter und in der frühen
+                     Neuzeit (1958)</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="7" xml:id="k19">
+            <linkGrp type="synch">
+               <link target="A:a19|K:k19|G/D:g71"/>
+            </linkGrp>
+            <p>
+               <hi>Und als die selben fürsten von sollichs grossen gebresten wegen, so der
+                  cristenhait an lag, als dick und vil zesamen kam</hi>
+               <note type="app" xml:id="app_k38">
+                  <hi>khamen </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, und das villicht beschach von ermanung und inspreches wegen des hailigen
+                  gaistes oder von der hailigen drivaltikait, do wurden sy gemainlich zu raͧ</hi>
+               <hi>t, das sy diß sach luter enpfalhent dem allerdurchlüchtigosten fürsten und herren
+                  küng Sigmunden, römscher küng, den sy ouch vormals alle sechs zuͦ</hi>
+               <hi> römschem küng erwelt hatten an sins bruͦ</hi>
+               <hi>ders stat, küng Wentzelaus, römscher küng und küng zu Beham, den sy entsetzet
+                  hatten von siner missetat wegen</hi>
+               <note type="ftn" xml:id="ftn_k20">
+                  <hi rend="italics ">Anders als M. R. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics ">, Chronik des Constanzer Concils S. 17 Anm. 1 angibt und Th. </hi>
+                  <hi rend="italics smallcaps ">Vogel</hi>
+                  <hi rend="italics ">, Studien zu Richentalʼs Konzilschronik S. 11 wiederholt, hat
+                     K keinen „leeren Platz“ für die nachzutragende Jahreszahl, wie das in A
+                     durchaus der Fall ist</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Der selb küng Sigmund, römscher küng, was do zemal römscher küng zu Hungern,
+                  zuͦ</hi>
+               <hi> Dalmatzi, zuͦ</hi>
+               <hi> Wassen</hi>
+               <note type="app" xml:id="app_k39">
+                  <hi>Wossen </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, zuͦ</hi>
+               <hi> Croatzi, die da noch haidesch sind, und marggraff zuͦ</hi>
+               <hi> der marck zuͦ</hi>
+               <hi> Brandenburg. Die selben marggraffschaft er aber do ze</hi>
+               <note type="app" xml:id="app_k40">
+                  <hi>zemal </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> Costentz uffgab, und gab die sinem öham, burggraff Fridrichen von Nüremberg, und
+                  lech im die offenlich zuͦ</hi>
+               <hi> Costentz an dem obern marckt, als hienach geschriben und <pb n="3v"/> ouch</hi>
+               <note type="app" xml:id="app_k41">
+                  <hi>und ouch </hi>
+                  <hi rend="italics ">K</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gemalt stat</hi>
+               <note type="ftn" xml:id="ftn_k21">
+                  <hi rend="italics ">Vgl. cc. 219–224,1</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Und darnach sins bruders küng Wentzlaus tod ward er küng ze Beham und nach dem
+                  concilio wol im zehenden jar</hi>
+               <note type="ftn" xml:id="ftn_k22">
+                  <hi>Diese</hi>
+                  <hi rend="italics "> Bemerkung, die sich auch in W findet, fehlt in A. M. R. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics ">, Chronik des Constanzer Concils, Vorwort S. 5, 17 Anm. 2 leitet hieraus ab, dass die K-Version nach 1433
+                     geschrieben sein muß, also jünger ist als A</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> ward er römscher kaiser</hi>
+               <note type="app" xml:id="app_k42">
+                  <hi>kaiser] küng </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; künig </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="8" xml:id="k20">
+            <linkGrp type="synch">
+               <link target="A:a20|K:k20|G/D:g72"/>
+            </linkGrp>
+            <p>
+               <hi>Also do im nun die sach enpfolhen ward, do enbot der selb unnser her der römsch
+                  küng dem selben unserm hailigen vatter bapst Johannsen dem XXIII. an dem namen,
+                  das er dem aid gnuͦ</hi>
+               <hi>g tät, so er vormals dem concilio gesworn het, und der hailigen cristenhait frid
+                  und ruͦ</hi>
+               <hi>w tät durch vil swär botschaft, das verzoch er im von ainer zit zuͦ</hi>
+               <hi> der andern. Und an dem letzsten, do es füro nit mer verzogen kund noch mocht
+                  werden, und das gaistlich und weltlich fürsten, herren und stet wurdent mercken,
+                  das der hailigen cristenhait grosser inbruch wolt werden und daz das hailig
+                  schiflin Sant Peters von sollichem unwetter wolt versoft sin</hi>
+               <note type="ftn" xml:id="ftn_k23">
+                  <hi rend="italics ">Vgl. c. </hi><ref xml:id="internal_k2" cRef="3,2" type="internal"><hi rend="italics ">3,2</hi></ref><hi rend="italics ">
+                     in A und c. </hi><ref xml:id="internal_k3" cRef="2,2" type="internal"><hi rend="italics ">2,2</hi></ref><hi rend="italics ">
+                     in K</hi>
+                  <hi rend="italics ">. Zu dieser Metaphorik etwa: Die Berner-Chronik Conrad
+                     Justingers, hg. von G. </hi>
+                  <hi rend="italics smallcaps ">Studer</hi>
+                  <hi rend="italics "> (1871) c. 346</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, do ward erst der selb bapst Johannes ze rat, do er marckt, das man sin hoff nit
+                  als vast suͦ</hi>
+               <hi>chen wolt, und enbott dem selben unserm herren küng Sigmunden, das er zu im käm
+                  zuͦ</hi>
+               <hi> Lodus</hi>
+               <note type="ftn" xml:id="ftn_k24">
+                  <hi rend="italics ">Lodi</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, da ist ain bystum und ist ain stat in Lamparten, da wolt er mit im ain
+                  verhörung tuͦ</hi>
+               <hi>n und nach sinem und ander herren und gelerter lüt rat bedencken, was zuͦ</hi>
+               <hi> der sach zuͦ</hi>
+               <hi> tuͦ</hi>
+               <hi>nd wär.</hi>
+            </p>
+         </div>
+         <div type="div" n="9" xml:id="k21">
+            <linkGrp type="synch">
+               <link target="A:a21|K:k21|G/D:g73"/>
+            </linkGrp>
+            <p>
+               <hi>Und also kam unser herre der römsch küng Sigmund mit sinen räten, rittern und
+                  dienern gen Lodus in Lamparten, und unser hailiger vatter der</hi>
+               <note type="app" xml:id="app_k43">
+                  <hi rend="italics ">fehlt EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> bapst Johannes der XXIII. ouch dahin; und kament zesamen in ainen witten
+                  sal</hi>
+               <note type="app" xml:id="app_k44">
+                  <hi>saul </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>; saal </hi>
+                  <hi rend="italics ">WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, und was da ain langer stuͦ</hi>
+               <hi>l berait, und saß unser hailiger vatter der bapst mit siner ynfalen</hi>
+               <note type="app" xml:id="app_k45">
+                  <hi>infel </hi>
+                  <hi rend="italics ">A</hi>
+                  <hi>; ynfelen </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> und mit sinem habit an ainem ort, und unser her der küng mit siner kron und
+                  habit als ain ewangelier an dem andern ort, doch ain michels von ainander, und
+                  redten vil mit ainander in latin, und wurden diß mit ainander ze rat</hi>
+               <note type="ftn" xml:id="ftn_k25">
+                  <hi rend="italics ">Zu den Verhandlungen von Lodi vgl. H. </hi>
+                  <hi rend="italics smallcaps ">Finke</hi>
+                  <hi rend="italics ">, ACC 1 (1896) S. 174–179; O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil und die Stadt Konstanz S. 311; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 154f.; L. </hi>
+                  <hi rend="italics smallcaps ">Fischel</hi>
+                  <hi rend="italics ">, Die Bilderfolge der Richental-Chronik S. 37; M. </hi>
+                  <hi rend="italics smallcaps ">Holzmann</hi>
+                  <hi rend="italics ">, Die Konzilchronik des Ulrich Richental S. 75; J. </hi>
+                  <hi rend="italics smallcaps ">Helmrath</hi>
+                  <hi rend="italics ">, Locus concilii S. 593, 611–613; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Das Konzil von Konstanz und die Epoche der Konzilien S. 23
+                     mit Anm. 19; Th. </hi>
+                  <hi rend="italics smallcaps ">Cramer</hi>
+                  <hi rend="italics ">, Bilder erzählen Geschichte S. 333–342; Th. </hi>
+                  <hi rend="italics smallcaps ">Rathmann</hi>
+                  <hi rend="italics ">, Geschehen und Geschichten des Konstanzer Konzils S.
+                     241–244; Ph. H. </hi>
+                  <hi rend="italics smallcaps ">Stump</hi>
+                  <hi rend="italics ">, The Council of Constance (1414–1418) and the End of the
+                     Schism, in: A Companion to the Great Western Schism (1378–1417), hg. von J. </hi>
+                  <hi rend="italics smallcaps ">Rollo-Koster</hi>
+                  <hi rend="italics "> u.a. (2009) S. 402f.; A. </hi>
+                  <hi rend="italics smallcaps ">Frenken</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 51f.; J. </hi>
+                  <hi rend="italics smallcaps ">Miethke</hi>
+                  <hi rend="italics ">, </hi>
+                  <hi>Via Concilii:</hi>
+                  <hi rend="italics "> Der Weg des Konstanzer Konzils aus der Krise des Schismas S.
+                     77</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="10" xml:id="k22">
+            <linkGrp type="synch">
+               <link target="A:a22|K:k22|G/D:g74"/>
+            </linkGrp>
+            <p>
+               <hi>Do sy nun ze Loden zesamen komen warend, do sprach unser her der römsch küng:
+                  Hailiger vatter, ob er dem</hi>
+               <note type="app" xml:id="app_k46">
+                  <hi rend="italics ">folgt </hi>
+                  <hi>ayd </hi>
+                  <hi rend="italics ">G</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> wolte gnuͦ</hi>
+               <hi>g tuͦ</hi>
+               <hi>n, so er gesworn het dem concilio. Antwurt der bapst, er wolt gern stät
+                  haben</hi>
+               <note type="app" xml:id="app_k47">
+                  <hi>hallten </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; halten </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, was er gesworn und verhaissen hett, und wolt ain concilium gern gemacht haben
+                  in sin land, in Lamparten, wa oder in welher stat der küng wolt, won es wär
+                  zuͦ</hi>
+               <hi> fürchten, das er sin cardinall noch sin patriarchen, die ertzbischoff und
+                  bischoff, so zuͦ</hi>
+               <hi> dem concilio gehörend, über das gebierg</hi>
+               <note type="ftn" xml:id="ftn_k26">
+                  <hi rend="italics ">Alpen</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> usser sinem land nit bringen möcht. Da wider antwurt unser her der küng: Er hett
+                  dry gaistlich churfürsten, die erweler wärend des hailigen römschen richs küng,
+                  die großmächtig fürsten wären, und die habent macht, ain küng ze welen und ze
+                  entsetzen, so es asätz wirdet, die er och kumerlich über das bierg</hi>
+               <note type="app" xml:id="app_k48">
+                  <hi>gebirg </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>; birg </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>; gebirge </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> bringen möcht oder villicht niemer tätten. Und da zwischen gieng vil red umb
+                  zuͦ</hi>
+               <hi> baider syt, wa man das concilium hinlegen wölt. Und nach sollicher vil red, do
+                  fragt unser her der römsch küng sin herren, die da umbstuͦ</hi>
+               <hi>nden <pb n="4r"/> und mit im</hi>
+               <note type="app" xml:id="app_k49">
+                  <hi rend="italics ">folgt </hi>
+                  <hi>dar kommen waren </hi>
+                  <hi rend="italics ">G</hi>
+                  <hi>;</hi>
+                  <hi rend="italics "> folgt </hi>
+                  <hi>waren</hi>
+                  <hi rend="italics "> WoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, ob dehain stat läg an dem berg oder nach daby, die dem römschen rich zuͦ</hi>
+               <hi>gehorty. Und stuͦ</hi>
+               <hi>nd zegegen der edel hertzog Uͦ</hi>
+               <hi>lrich von Teck</hi>
+               <note type="ftn" xml:id="ftn_k27">
+                  <hi rend="italics ">Herzog Ulrich von Teck, aus einer Nebenlinie der Herzöge von
+                     Zähringen, königlicher Rat. Vgl. B. </hi>
+                  <hi rend="italics smallcaps ">Falk</hi>
+                  <hi rend="italics ">, Das Ravensburger „Mohrenfresko“ von 1417/31. Eine
+                     Verherrlichung des Konstanzer Konzils in der Firmenzentrale der
+                     Humpisgesellschaft?, in: SVG Bodensee 132 (2014) S. 63f</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, dozemaͧ</hi>
+               <hi>l diener unnsers herren des künges, und sprach: Da läg ain stat, die wäre des
+                  richs und hieß Kempten, und läg an dem fuͦ</hi>
+               <hi>s des bergs, den man nemmet der</hi>
+               <note type="app" xml:id="app_k50">
+                  <hi>der Ver] der Verr </hi>
+                  <hi rend="italics ">WEWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>; </hi>
+                  <hi rend="italics ">davor </hi>
+                  <hi>Kempten </hi>
+                  <hi rend="italics ">ausgestr. K</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> Ver</hi>
+               <note type="ftn" xml:id="ftn_k28">
+                  <hi rend="italics ">Fernpass. Vgl. O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 155</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Dawider aber der erborn her graff Eberhart von Nellemburg</hi>
+               <note type="ftn" xml:id="ftn_k29">
+                  <hi rend="italics ">Graf Eberhard von Nellenburg, Landgraf im Hegau, königlicher
+                     Rat</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, lantgraff, der och zegegen was, antwurt und sprach: Wie wol das sig</hi>
+               <note type="app" xml:id="app_k51">
+                  <hi>sy </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, das Kempten ain richsstat sig, aber da wär kain genuchsami nit, das man da
+                  beston küne noch mug von dehainerlay narung; wol da läg ain stat ain tagwaid ver
+                  von Kempten oder ettwas mer, da wär alle genuchsami, und hieß Costentz, und wär
+                  des römschen richs und läg an dem Bodensew, und rünne der Rin an der stat hin und
+                  durch die stat. Der selb Bodemsew wär by acht mil wegs verre und an der wite dry
+                  mil wegs, das man mit grossen schiffen daruff faren müg und zuͦ</hi>
+               <hi>füren alle genuchsami, und wider da von faren, wie man will. Und wär da ain
+                  bistum und gehorte in das ertzbistum zuͦ</hi>
+               <hi> Mäntz. Darzuͦ</hi>
+               <hi> wär och sy ain wol erbuwne</hi>
+               <note type="app" xml:id="app_k52">
+                  <hi>gebuwne </hi>
+                  <hi rend="italics ">EWo</hi>
+                  <hi>; gebaute </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> stat und vil gemacher und stallung darinne</hi>
+               <note type="ftn" xml:id="ftn_k30">
+                  <hi rend="italics ">Zur Entscheidung für Konstanz als Konzilsort vgl. H. </hi>
+                  <hi rend="italics smallcaps ">Finke</hi>
+                  <hi rend="italics ">, ACC 1 (1896) S. 170–174; U. </hi>
+                  <hi rend="italics smallcaps ">Crämer</hi>
+                  <hi rend="italics ">, Kempten oder Konstanz als Konzilsort (1413), in:
+                     Alemannisches Jahrbuch 1954 S. 447–450; O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil und die Stadt Konstanz S. 310–312; H. </hi>
+                  <hi rend="italics smallcaps ">Maurer</hi>
+                  <hi rend="italics ">, Konstanz im Mittelalter 2 S. 10; J. </hi>
+                  <hi rend="italics smallcaps ">Helmrath</hi>
+                  <hi rend="italics ">, Locus concilii S. 610–615; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Das Konzil von Konstanz und die Epoche der Konzilien S. 23
+                     Anm. 19; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Papst und Konzil. Von Pisa 1409 bis zum V. Lateranum
+                     1512–1517, in: Die Päpste der Renaissance. Politik, Kunst und Musik, hg. von M. </hi>
+                  <hi rend="italics smallcaps ">Matheus</hi>
+                  <hi rend="italics "> u.a. (2017) S. 276; W. </hi>
+                  <hi rend="italics smallcaps ">Brandmüller</hi>
+                  <hi rend="italics ">, Das Konzil von Konstanz 1 S. 54; H. </hi>
+                  <hi rend="italics smallcaps ">Maurer</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil als städtisches Ereignis S.
+                     150–154;</hi>
+                  <hi rend="italics "> </hi>
+                  <hi rend="italics ">A. </hi>
+                  <hi rend="italics smallcaps ">Frenken</hi>
+                  <hi rend="italics ">, Wohnraumbewirtschaftung S. 112–116; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Konstanz und der Thurgau S. 37; Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics "> / H. </hi>
+                  <hi rend="italics smallcaps ">Kraume</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 80–84; Th. </hi>
+                  <hi rend="italics smallcaps ">Zotz</hi>
+                  <hi rend="italics ">, Der deutsche Südwesten S. 139; H. </hi>
+                  <hi rend="italics smallcaps ">Fidler</hi>
+                  <hi rend="italics ">, Ohne Hegau kein Konzil, in: Hegau-Jahrbuch 72 (2015) S.
+                     82–84, 100</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Und das man das wisse, vor yetz unlanger zit, do hätten die puren von Appenzell
+                  und etlich von Schwitz und die puren, die by in in dem bierg sitzent, groß
+                  stechent krieg mit den von Costentz</hi>
+               <note type="ftn" xml:id="ftn_k31">
+                  <hi rend="italics ">Gemeint sind die Appenzellerkriege (1401–1429) zwischen dem
+                     Fürstabt von St. Gallen und den Appenzellern. Die Auseinandersetzung mündete in
+                     den „Konstanzer Frieden“ vom 4. April 1408, flammte in den 1420er Jahren aber
+                     wieder auf. Vgl. Die Berner-Chronik des Conrad Justinger, hg. von G. </hi>
+                  <hi rend="italics smallcaps ">Studer</hi>
+                  <hi rend="italics "> (1871) c. 314; W. </hi>
+                  <hi rend="italics smallcaps ">Ehrenzeller</hi>
+                  <hi rend="italics ">, Kloster und Stadt St. Gallen im Spätmittelalter (1931) S.
+                     61–290; R. </hi>
+                  <hi rend="italics smallcaps ">Fischer</hi>
+                  <hi rend="italics "> u.a., Appenzeller Geschichte 1: Das ungeteilte Land
+                     (1964) S. 121–225; H. </hi>
+                  <hi rend="italics smallcaps ">Maurer</hi>
+                  <hi rend="italics ">, Konstanz im Mittelalter 1 S. 231–237; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Konstanz im Mittelalter 2 S. 9, 79f.; R. </hi>
+                  <hi rend="italics smallcaps ">Fischer</hi>
+                  <hi rend="italics ">, Art. Appenzell, in: Historisches Lexikon der Schweiz 1
+                     (2002) S. 386f.; A. </hi>
+                  <hi rend="italics smallcaps ">Bihrer</hi>
+                  <hi rend="italics ">, Konstanz und die Appenzellerkriege, in: Die
+                     Appenzellerkriege – eine Krisenzeit am Bodensee?, hg. von P. </hi>
+                  <hi rend="italics smallcaps ">Niederhäuser</hi>
+                  <hi rend="italics "> und A. </hi>
+                  <hi rend="italics smallcaps ">Niederstätter</hi>
+                  <hi rend="italics "> (2006) S. 81–115; Th. </hi>
+                  <hi rend="italics smallcaps ">Zotz</hi>
+                  <hi rend="italics ">, Der deutsche Südwesten S. 139, 142</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Do kamend den von Costentz ze hilff all grafen, fryen, ritter und knecht, und
+                  da der selb hertzog von Teck und sust gantze ritterschaft, die mit macht by in in
+                  ir stat lagent. Und wär unser noch dristund mer gesin, wir hetten herberg und
+                  stallung gnuͦ</hi>
+               <hi>g gehept</hi>
+               <note type="ftn" xml:id="ftn_k32">
+                  <hi rend="italics ">Stärker als in A dringt hier der apologetisch-panegyrische
+                     Charakter der Konstanzer Handschrift durch, die die Leistung der Stadt ganz
+                     anders und deutlicher ins Licht stellt, als dies noch in c. 10 in A der Fall
+                     ist</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Und kam och dar der allerdurchluchtigist fürst, küng Ruprecht sälig, üwer
+                  vorfar, mitt gantzem sinem volck und lag da in der stat sechs wochen, und gebrast
+                  niemand, und ward die sach mit eren verricht und wer dahin in den krieg kam, der
+                  hett herberg, essen und trincken, fuͦ</hi>
+               <hi>ter, höw und strow, als in gemainem und glichem koff, das es uns alle wunder nam,
+                  das wir alle ding also nach mochten haben. Und visch und flaisch wär da
+                  überigs</hi>
+               <note type="app" xml:id="app_k53">
+                  <hi>übrig </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gnuͦ</hi>
+               <hi>g. Dar zuͦ</hi>
+               <hi> wär es ain sollich stat, die von alter dem adel hold und getrüw ist gesin und
+                  mit dem adel nie krieg noch stöß gehept hab, und das man gewonlich alle tag
+                  richtungen dahin layt.</hi>
+            </p>
+         </div>
+         <div type="div" n="11" xml:id="k23">
+            <linkGrp type="synch">
+               <link target="A:a23|K:k23|G/D:g75"/>
+            </linkGrp>
+            <p>
+               <hi>Do kart sich unser her der römsch küng umb zuͦ</hi>
+               <hi> unserm hailigen vatter dem bapst und sprach in latin: Syder da ain bistum ist
+                  und dem rich zuͦ </hi>
+               <hi>gehört, ist dann üwer hailigkait gevellig die stat Costentz, von der man so vil
+                  guͦ</hi>
+               <hi>ts sait. Do nam sich unser hailiger vatter der bapst ain bedencknuß mit sinen
+                  herren und räten; die rietten im, das er die stat uffnäm, won sy doch ain
+                  sollichen namen hett</hi>
+               <note type="ftn" xml:id="ftn_k33">
+                  <hi rend="italics ">Vgl. den Psalmvorspruch zu Anfang der Konstanzer Handschrift
+                     (</hi>
+                  <hi>nomen Constancie</hi>
+                  <hi rend="italics ">) sowie c. 305</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, das niemer unglick darzuͦ</hi>
+               <hi> schlachen sölt. Und also nam er Costentz uff und sant uff die selben stund sin
+                  e[x]ploratores</hi>
+               <note type="app" xml:id="app_k54">
+                  <hi>ploratores </hi>
+                  <hi rend="italics ">EWo</hi>
+                  <hi>; exploratores </hi>
+                  <hi rend="italics ">St</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> uß, das haissend beschower des landes.</hi>
+            </p>
+         </div>
+         <div type="div" n="12_1 12,1" xml:id="k24">
+            <linkGrp type="synch">
+               <link target="A:a24|K:k24|G/D:g76"/>
+            </linkGrp>
+            <p>
+               <hi> Uff</hi>
+               <note type="ftn" xml:id="ftn_k34">
+                  <hi rend="italics ">Am Beispiel dieses Kapitels kann man den Prozess der
+                     „Objektivierung“, wie er sich von A nach K vollzog, sehr gut studieren</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> das enbot der wolgeborn her graͧ</hi>
+               <hi>f Eberhart von Nellenburg heruß Ulrichen von Richental, wie sich die sachen
+                  zuͦ</hi>
+               <hi> Loden ergangen hetten, und das daz concilium für sich müste gon, das er sich
+                  nach fuͦ</hi>
+               <hi>ter, höw, strow und betten richte</hi>
+               <note type="ftn" xml:id="ftn_k35">
+                  <hi rend="italics ">Zu dieser Textstelle Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics "> / H. </hi>
+                  <hi rend="italics smallcaps ">Kraume</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 78f.; H. </hi>
+                  <hi rend="italics smallcaps ">Derschka</hi>
+                  <hi rend="italics ">, Die Großeltern des Konzilschronisten S. 46</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Und kam die botschaft vor winächten anno Dni. MCCCCXIII</hi>
+               <note type="app" xml:id="app_k55">
+                  <hi rend="italics ">folgt </hi>
+                  <hi>und torst es nieman sagen</hi>
+                  <hi rend="italics "> A</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="12_2 12,2" xml:id="k25">
+            <linkGrp type="synch">
+               <link target="A:a25|K:k25|G/D:g77"/>
+            </linkGrp>
+            <p>
+               <hi>
+                  <pb n="4v"/> Nun</hi>
+               <note type="app" xml:id="app_k56">
+                  <hi>Und </hi>
+                  <hi rend="italics ">ESt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>; Unnd </hi>
+                  <hi rend="italics ">Wo</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> uff das do koment dieselben exploratores</hi>
+               <note type="ftn" xml:id="ftn_k36">
+                  <hi rend="italics ">Vgl. c. </hi><ref xml:id="internal_k4" cRef="11" type="internal"><hi rend="italics ">11</hi></ref>
+                  <hi>.</hi>
+               </note>
+               <hi> und och ir diener mit in und wolten besechen und beschowen diß lannd und och diß
+                  gegni, ob das concilium ze Costentz beston möcht oder nit. Und under den warend
+                  zwen Walchen</hi>
+               <note type="app" xml:id="app_k57">
+                  <hi>Lampartern </hi>
+                  <hi rend="italics ">A</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, doch kunden sy latin, und batten Ulrichen Richental, das er mit in ritt in das
+                  Thurgöw, das lannd zuͦ</hi>
+               <hi> besechen</hi>
+               <note type="ftn" xml:id="ftn_k37">
+                  <hi rend="italics ">Es handelte sich wohl um die päpstlichen Beamten Giovanni da
+                     Montepulciano und Bartolomeo del Lante da Pisa, die mit den päpstlichen </hi>
+                  <hi>exploratores</hi>
+                  <hi rend="italics "> aus den cc. 11 und 12,2 identisch sein dürften. Vgl. H. </hi>
+                  <hi rend="italics smallcaps ">Finke</hi>
+                  <hi rend="italics ">, ACC 1 (1896) S. 180, 250f. mit Anm. 1 auf S. 251; J. </hi>
+                  <hi rend="italics smallcaps ">Riegel</hi>
+                  <hi rend="italics ">, Die Teilnehmerlisten des Konstanzer Konzils S. 3; O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konzil zu Konstanz 2 S. 156; J. </hi>
+                  <hi rend="italics smallcaps ">Helmrath</hi>
+                  <hi rend="italics ">, Locus concilii S. 614f., 615 Anm. 87; W. </hi>
+                  <hi rend="italics smallcaps ">Brandmüller</hi>
+                  <hi rend="italics ">, Das Konzil von Konstanz 1 S. 76, 86f.; A. </hi>
+                  <hi rend="italics smallcaps ">Frenken</hi>
+                  <hi rend="italics ">, Wohnraumbewirtschaftung S. 113, 117; Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics "> / H. </hi>
+                  <hi rend="italics smallcaps ">Kraume</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 75–80, 225; A. </hi>
+                  <hi rend="italics smallcaps ">Bihrer</hi>
+                  <hi rend="italics ">, Eine Feier ohne den Hausherrn S. 25 mit Anm. 58</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. Die sprachen, daz das concilium da nit beston möcht</hi>
+               <note type="ftn" xml:id="ftn_k38">
+                  <hi rend="italics ">Zu dieser Textstelle, die zeigt, dass der Konzilsort von den </hi>
+                  <hi>exploratores</hi>
+                  <hi rend="italics "> als ungeeignet empfunden wurde, vgl. Th. </hi>
+                  <hi rend="italics smallcaps ">Vogel</hi>
+                  <hi rend="italics ">, Studien zu Richentalʼs Konzilschronik S. 78; O. </hi>
+                  <hi rend="italics smallcaps ">Feger</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil und die Stadt Konstanz S. 321; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Die Konzilchronik des Ulrich Richental S. 31; W. </hi>
+                  <hi rend="italics smallcaps ">Brandmüller</hi>
+                  <hi rend="italics ">, Das Konzil von Konstanz 1 S. 86f.; A. </hi>
+                  <hi rend="italics smallcaps ">Frenken</hi>
+                  <hi rend="italics ">, Wohnraumbewirtschaftung S. 117; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 56f. mit Anm. 35 auf S. 165</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, wann doch von allen lannden lüt dar komen mustend, die nit halb herberg möchten
+                  han. Sy saitten aber daran nit recht, wann es belaib mangklich in der stat; doch
+                  lagent vil Unger ze Peterßhusen, ettlich beliben zum Paradiß</hi>
+               <note type="ftn" xml:id="ftn_k39">
+                  <hi rend="italics ">Stadtteil von Konstanz</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, etlich zuͦ</hi>
+               <hi> Gotlieben, aber wänig</hi>
+               <note type="app" xml:id="app_k58">
+                  <hi>wenig </hi>
+                  <hi rend="italics ">EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, als ir hie nach hören werdent</hi>
+               <note type="ftn" xml:id="ftn_k40">
+                  <hi rend="italics ">Die Redewendung lässt darauf schließen, dass der Text der
+                     Konstanzer Handschrift eventuell (öffentlich) vorgetragen oder verlesen wurde.
+                     Das würde die expliziten Worterläuterungen in den cc. 2,2 (</hi>
+                  <hi>obedientz</hi>
+                  <hi rend="italics ">), 3,1 (</hi>
+                  <hi>collegio</hi>
+                  <hi rend="italics ">), 3,2 (</hi>
+                  <hi>zisma</hi>
+                  <hi rend="italics ">), 93,2 (</hi>
+                  <hi>conclave</hi>
+                  <hi rend="italics ">), 235,1 (</hi>
+                  <hi>conclavi</hi>
+                  <hi rend="italics ">) und 252 (</hi>
+                  <hi>generalis sessio</hi>
+                  <hi rend="italics ">) erklären, die sich an ein volkssprachliches,
+                     nicht-geistliches Publikum richten; </hi>
+                  <hi rend="italics ">vgl. c. </hi><ref xml:id="internal_k5" cRef="12,2" type="internal"><hi rend="italics ">12,2</hi></ref><hi rend="italics "> in G</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="13" xml:id="k26">
+            <linkGrp type="synch">
+               <link target="A:a26|K:k26|G/D:g78"/>
+            </linkGrp>
+            <p>
+               <hi>Also sant unnser hailiger vatter bapst Johannes der XXIII. diß bull, die hie nach
+                  diser gemäld stat, allen ertzbischoffen, das sy das concilium iren suffraganien,
+                  irn bischoffen kund tatten, das sy also berait wärend zuͦ dem concilio ze Costentz
+                  ze komen; und sunderlich dem ertzbischoff ze Mäntz, under des ertzbistum Costentz
+                  lit und dahin gehört und sin oberer ist. Und die bull stat hernach geschriben</hi>
+               <note type="ftn" xml:id="ftn_k41">
+                  <hi rend="italics ">Bezieht sich auf die Konvokationsbulle foll. 7</hi>
+                  <hi rend="italics sup ">r</hi>
+                  <hi rend="italics ">–8</hi>
+                  <hi rend="italics sup ">r</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="14_1 14,1" xml:id="k27">
+            <linkGrp type="synch">
+               <link target="A:a27|K:k27|G/D:g79"/>
+            </linkGrp>
+            <p>
+               <hi>Nun also berait sich bapst Johannes mit den sinen uff gen Costentz ze faren. Nu
+                  ist ze wissen, das man ainem bapst, so er über land riten wil, ain sollichen
+                  huͦ</hi>
+               <hi>t</hi>
+               <note type="ftn" xml:id="ftn_k42">
+                  <hi rend="italics ">Gemeint ist der Papstschirm bzw. -hut (</hi>
+                  <hi>conopeum</hi>
+                  <hi rend="italics ">/</hi>
+                  <hi>soliculum</hi>
+                  <hi rend="italics ">); vgl. cc. 14,3, 23, 24 und 308</hi>
+                  <hi>. </hi>
+                  <hi rend="italics ">Hierzu P. E. </hi>
+                  <hi rend="italics smallcaps ">Schramm</hi>
+                  <hi rend="italics ">, Der Schirm. Herrschafts-, Würde- und Rangzeichen in drei
+                     Erdteilen, in: Festschrift für Hermann Heimpel 3 (1972) S. 567–593; W. </hi>
+                  <hi rend="italics smallcaps ">Brandmüller</hi>
+                  <hi rend="italics ">, Das Konzil von Konstanz 1 S. 151; G. J. </hi>
+                  <hi rend="italics smallcaps ">Schenk</hi>
+                  <hi rend="italics ">, Zeremoniell und Politik S. 449–451; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Zeremonielle und Rituale auf dem Konstanzer Konzil S. 24; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics ">, Die Lesbarkeit von Zeichen der Macht S. 288–299; M. A. </hi>
+                  <hi rend="italics smallcaps ">Bojcov</hi>
+                  <hi rend="italics ">, Der Schirm des Papstes, der Sonnengott und die historischen
+                     Wege Russlands, in: Prozessionen, Wallfahrten, Aufmärsche. Bewegung zwischen
+                     Religion und Politik in Europa und Asien seit dem Mittelalter, hg. von J. </hi>
+                  <hi rend="italics smallcaps ">Gengnagel </hi>
+                  <hi rend="italics ">u.a. (2008) S. 163–166; U. </hi>
+                  <hi rend="italics smallcaps ">Gießmann</hi>
+                  <hi rend="italics ">, Der letzte Gegenpapst S. 174, 183; A. </hi>
+                  <hi rend="italics smallcaps ">Frenken</hi>
+                  <hi rend="italics ">, Zeremoniell, Ritual und andere Formen symbolischer
+                     Kommunikation S. 49; Th. M. </hi>
+                  <hi rend="italics smallcaps ">Buck</hi>
+                  <hi rend="italics ">, Ein Buch prägt die Erinnerung S. 49; </hi>
+                  <hi rend="italics smallcaps ">ders.</hi>
+                  <hi rend="italics "> / H. </hi>
+                  <hi rend="italics smallcaps ">Kraume</hi>
+                  <hi rend="italics ">, Das Konstanzer Konzil S. 85</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> vorfüret; und fürt in ain starcher</hi>
+               <note type="app" xml:id="app_k59">
+                  <hi>starcker </hi>
+                  <hi rend="italics ">EWoSt</hi>
+                  <hi rend="italics sub ">2</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gewapnoter man uff ainem wissen roß verteckt mit ainem roten tuͦ</hi>
+               <hi>ch, gesprengt mit gold. Und der ist rot und gell, und fürt man in für den regen
+                  und die sunen, das er sich darunder enthalten müg. Und ist obnan uff dem huͦ</hi>
+               <hi>t ain guldiner engel, und der hat ain guldin crütz in der hand. Der huͦ</hi>
+               <hi>t was unden wol so wyt als by viertzig guͦ</hi>
+               <hi>tter schuͦ</hi>
+               <hi>ch, als der da an dem nachsten plat gemalt stat</hi>
+               <note type="ftn" xml:id="ftn_k43">
+                  <hi rend="italics ">Bezieht sich auf das Bild in K fol. 5</hi>
+                  <hi rend="italics sup ">r</hi>
+                  <hi rend="italics ">, in W fol. 30</hi>
+                  <hi rend="italics sup ">v</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="14_2 14,2" xml:id="k28">
+            <linkGrp type="synch">
+               <link target="A:a28|K:k28|G/D:g80"/>
+            </linkGrp>
+            <p>
+               <hi>Och stat darnach gemalt an dem blat, wie unser hailiger vatter der bapst und der
+                  römsch küng by ainander ze Loden sassen</hi>
+               <note type="ftn" xml:id="ftn_k44">
+                  <hi rend="italics ">Bezieht sich auf das Doppelbild in K foll. 5</hi>
+                  <hi rend="italics sup ">v</hi>
+                  <hi rend="italics ">–6</hi>
+                  <hi rend="italics sup ">r</hi>
+                  <hi rend="italics ">, in W foll. 31</hi>
+                  <hi rend="italics sup ">r–v</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>.</hi>
+            </p>
+         </div>
+         <div type="div" n="14_3 14,3" xml:id="k29">
+            <linkGrp type="synch">
+               <link target="K:k29"/>
+            </linkGrp>
+            <p>
+               <hi>Darnach</hi>
+               <note type="ftn" xml:id="ftn_k45">
+                  <hi rend="italics ">Das c. 14,3 fehlt in A</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> stat</hi>
+               <note type="app" xml:id="app_k60">
+                  <hi rend="italics ">fehlt E</hi>
+                  <hi>.</hi>
+               </note>
+               <hi> gemalt, wie man dem bapst das hailig sacrament vor fürt, so er rittet uff ainem
+                  wißen roß, verdeckt mit ainem roten guldin tuͦ</hi>
+               <hi>ch</hi>
+               <note type="app" xml:id="app_k61">
+                  <hi rend="italics ">davor </hi>
+                  <hi>crütz </hi>
+                  <hi rend="italics ">ausgestr. K</hi>
+                  <hi>; crütztuͦch </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, und brinend kertzen och da by uff dem roß. </hi>
+               <hi rend="italics " ana="figure">Bezieht sich auf das Bild fol. 6</hi>
+               <hi rend="italics sup " ana="figure">v</hi>
+               <hi>.</hi>
+            </p>
+            <p ana="figure">
+               <hi rend="italics "> Der Hut, fol. 5</hi>
+               <hi rend="italics sup ">r</hi>
+               <hi rend="italics ">. Dazu fol. 4</hi>
+               <hi rend="italics sup ">v</hi>
+               <hi rend="italics "> unten der einzeilige Bildtext: </hi>
+               <hi ana="text">Diß ist der huͦt, so man im vor fürt. </hi>
+               <hi rend="italics ">Zentriert über dem Bild: </hi>
+               <hi ana="text">Des bapsts huͦt</hi>
+               <note type="app" xml:id="app_k62">
+                  <hi>Des bapsts huͦt] </hi>
+                  <hi rend="italics ">fehlt E</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>. </hi>
+               <hi rend="italics ">Darunter der Reiter mit dem Papstschirm</hi>
+               <hi>.</hi>
+            </p>
+            <p ana="figure">
+               <hi rend="italics "> Zusammenkunft in Lodi, foll. 5</hi>
+               <hi rend="italics sup ">v</hi>
+               <hi rend="italics ">–6</hi>
+               <hi rend="italics sup ">r</hi>
+               <hi rend="italics ">, fol. 5</hi>
+               <hi rend="italics sup ">v</hi>
+               <hi rend="italics ">: der Papst, fol. 6</hi>
+               <hi rend="italics sup ">r</hi>
+               <hi rend="italics ">: der König. Bildüberschrift:</hi>
+               <hi ana="text"> Sancte pater, eligite Constanciam. </hi>
+               <hi rend="italics ">Dazu der zwischen den Bildseiten changierende Bildtext.</hi>
+            </p>
+         </div>
+         <div type="div" n="14_4 14,4" xml:id="k30">
+            <linkGrp type="synch">
+               <link target="A:a29|K:k30|G/D:g81"/>
+            </linkGrp>
+            <p>
+               <hi rend="italics " ana="figure"> Der König, fol. 6</hi>
+               <hi rend="italics sup " ana="figure">r</hi>
+               <hi rend="italics " ana="figure">: </hi>
+               <hi>Der romsch küng sprach zum bapst: Hailiger vatter, wil üwer hailikait laisten,
+                  das in dem concilio versprochen ist, so machend ain concilium in tütsche land</hi>
+               <note type="app" xml:id="app_k63">
+                  <hi>tüschen landen </hi>
+                  <hi rend="italics ">W</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>, das es gemain müg sin. </hi>
+               <hi rend="italics " ana="figure">Der Papst, fol. 5</hi>
+               <hi rend="italics sup " ana="figure">v</hi>
+               <hi rend="italics " ana="figure">: </hi>
+               <hi>Lieber sun, ich sol und wil halten, was ich verhaissen und versprochen hab, und
+                  wil das concilium machen in Lamparten, wann ich min cardinal all über das birg nit
+                  mag bringen. </hi>
+               <hi rend="italics " ana="figure">Der König, fol. 6</hi>
+               <hi rend="italics sup " ana="figure">r</hi>
+               <hi rend="italics " ana="figure">: </hi>
+               <hi>Aber sprach der romsch küng: So ist noch mer ze fürchten, das ich die dry
+                  gaistlich churfürsten, die machtig sind, und an denen stat, zuͦ</hi>
+               <hi> setzen und entsetzen ain römschen küng, und die och gewalt hand, allen
+                  cristenfürsten zuͦ</hi>
+               <hi> gebieten und zuͦ</hi>
+               <hi> bannen, das ich die villicht niemer über das birg bringen müg. Und sy taten es
+                  och nit, wenn sy groß herren sind und vil gewalt an in stat. Da mit do fragt er
+                  hertzog Ulrichen von Teck, ob kain stat an dem birg läg? Der sprach</hi>
+               <note type="app" xml:id="app_k64">
+                  <hi>Der sprach] Do sprach er </hi>
+                  <hi rend="italics ">E</hi>
+                  <hi>.</hi>
+               </note>
+               <hi>: Kempten, die lit an dem fuͦ</hi>
+               <hi>s des bergs Feren</hi>
+               <note type="ftn" xml:id="ftn_k46">
+                  <hi rend="italics ">Fernpass; </hi>
+                  <hi rend="italics ">vgl. c. </hi><ref xml:id="internal_k6" cRef="10" type="internal"><hi rend="italics ">10</hi></ref>
+                  <hi>.</hi>
+               </note>
+               <hi>. Do sprach graͧ</hi>
+               <hi>f Eberhart von Nellenburg: Nain, mächtiger küng, da ist kain genuchsami, da lit
+                  ain stat etwas mer denn ain tagwaid darvon, haist Costentz, ist ain richsstat und
+                  hat ain bistum. Da ist alle genuchsami. </hi>
+               <hi rend="italics " ana="figure">Der Papst, fol. 5</hi>
+               <hi rend="italics sup " ana="figure">v</hi>
+               <hi rend="italics " ana="figure">: </hi>
+               <hi>Do fragt der bapst sin rät, die rietten im das. </hi>
+               <hi rend="italics " ana="figure">Dieser Rat steht dem linken Bild als imperativische
+                  Überschrift voran</hi>
+               <hi>. </hi>
+               <hi rend="italics " ana="figure">Es folgt die Antwort des Papstes: </hi>
+               <hi>Fili, Constancia placet michi.</hi>
+            </p>
+            <p ana="figure">
+               <hi rend="italics ">Monstranz, fol. 6</hi>
+               <hi rend="italics sup ">v</hi>
+               <hi rend="italics ">. Zentriert über dem Bild:</hi>
+            </p>
+         </div>
+         <div type="div" n="14_5 14,5" xml:id="k31">
+            <linkGrp type="synch">
+               <link target="A:a30|K:k31"/>
+            </linkGrp>
+            <p>
+               <hi>Also fürt man unserm hailigen vatter dem bapst das sacrament vor, wenn er rit. </hi>
+               <hi rend="italics " ana="figure">Darunter drei Pferde, ein geistlicher Reiter und
+                  Monstranz</hi>
+               <hi>.</hi>
+            </p>
+         </div>
+         
+         <!-- all the rest of the edition was cut from here to the end for sampling purposes. You can download the whole thing here if you wanted it complete: https://edition.mgh.de/001/html/download/richental.zip --> 
+      </body>
+   </text>
+</TEI>

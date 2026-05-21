@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2500" xml:id="l2511" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2500 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>110r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2500.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Johann von Wittelsbach, Herzog von Pfalz-Neumarkt</persName><persName type="recipient">Otto I. v. Wittelsbach, Hzg. v. Pfalz-Mosbach</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q191097" type="mention">Tachau (Tschechien)</placeName></ab><date from="11-01-1421" to="11-01-1421" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_222">
+<surface lrx="2642" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0114_right.png" width="2642px"/>
+<zone lrx="1817" lry="310" rendition="TextRegion" ulx="575" uly="1148" xml:id="facs_222_r1">
+<zone lrx="1933" lry="310" rendition="Line" ulx="549" uly="235" xml:id="facs_222_r1l1"/>
+<zone lrx="1817" lry="402" rendition="Line" ulx="575" uly="321" xml:id="facs_222_r1l3"/>
+<zone lrx="2388" lry="528" rendition="Line" ulx="417" uly="457" xml:id="facs_222_r1l4"/>
+<zone lrx="2443" lry="622" rendition="Line" ulx="423" uly="542" xml:id="facs_222_r1l5"/>
+<zone lrx="2439" lry="725" rendition="Line" ulx="447" uly="641" xml:id="facs_222_r1l6"/>
+<zone lrx="2376" lry="824" rendition="Line" ulx="419" uly="737" xml:id="facs_222_r1l7"/>
+<zone lrx="2387" lry="923" rendition="Line" ulx="446" uly="833" xml:id="facs_222_r1l8"/>
+<zone lrx="2397" lry="1021" rendition="Line" ulx="420" uly="938" xml:id="facs_222_r1l9"/>
+<zone lrx="2387" lry="1122" rendition="Line" ulx="451" uly="1040" xml:id="facs_222_r1l10"/> <zone lrx="2049" lry="1220" rendition="Line" ulx="462" uly="1148" xml:id="facs_222_line_1577133727691_1581"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann von Wittelsbach, Herzog von Pfalz-Neumarkt, und Otto I. von Wittelsbach, Herzog von Pfalz-Mosbach</head><p>Der Rat teilt mit, dass er seit der Übermittlung der Abschrift eines Briefs von Tachau durch die Adressaten nicht getagt hat und kündigt seine baldige Gesandtschaft an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_222" id="110r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_222_r1l1"><expan>H<ex>er</ex>n</expan> <expan>Johannſ<ex>en</ex></expan> vnd <expan>H<ex>er</ex>n</expan> Otten Pfallncʒgrafen </ab>
+<ab facs="#facs_222_r1l3">bey Reyn vnd <expan>hercʒog<ex>en</ex></expan> in Peyern etc </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_222_r1l4">Gnedıgen <expan>h<ex>er</ex>ren</expan> als vns eẅr <expan>hoch<ex>wirdikeit</ex></expan> <expan>verſchr<ex>iben</ex></expan> vnd ein <expan>abſchr<ex>ift</ex></expan> wıe dıe </ab>
+<ab facs="#facs_222_r1l5">von Tachaw vnd etlıch <expan>and<ex>er</ex></expan> <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> <expan>geſchr<ex>iben</ex></expan> <expan>hab<ex>e</ex>n</expan> . damıt ge = </ab>
+<ab facs="#facs_222_r1l6">ſandt habt etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> Vnd tun <expan>eẅ<ex>r</ex>n</expan> für = </ab>
+<ab facs="#facs_222_r1l7"><expan>ſtenlıche<ex>n</ex></expan> <expan>gnad<ex>en</ex></expan> ʒu <expan>wıſſ<ex>en</ex></expan> daʒ auf dıſʒ ʒeıt niht rat bey vns was </ab>
+<ab facs="#facs_222_r1l8">alſo <expan>well<ex>e</ex>n</expan> wır <expan>dıeſelb<ex>e</ex>n</expan> <expan>eẅr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> brıef an <expan>vnſ<ex>er</ex></expan> freẅnde des </ab>
+<ab facs="#facs_222_r1l9">Rats <expan>brıng<ex>en</ex></expan> / vnd <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> bey <expan>vnſ<ex>er</ex></expan> ſelbs <expan>botſch<ex>aft</ex></expan> in kürcʒ ein </ab>
+<ab facs="#facs_222_r1l10">antwurt <expan>daru<ex>m</ex>b</expan> tun / Denn wo wır <expan>eẅ<ex>r</ex>n</expan> <expan>fürſtenl<ex>ichen</ex></expan> <expan>gnad<ex>en</ex></expan> dıenſt </ab>
+<ab facs="#facs_222_line_1577133727691_1581">vnd <expan>wolgefall<ex>e</ex>n</expan> etc / <expan>Dat<ex>um</ex></expan> <expan>ſab<ex>at</ex>o</expan> poſt Erhardj </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_222" id="110r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Johanns<ex>en</ex></expan> und <expan>h<ex>er</ex>n</expan> Otten,
+                        pfallnczgrafen bey Reyn und <expan>herczog<ex>en</ex></expan> in Peyern
+                        etc.</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Gnedigen <expan>h<ex>er</ex>ren</expan>, als uns ewr
+                                <expan>hoch<ex>wirdikeit</ex></expan>
+<expan>verschr<ex>iben</ex></expan> und ein
+                            <expan>abschr<ex>ift</ex></expan>, wie die von Tachaw und etlich
+                                <expan>and<ex>er</ex></expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan>
+<expan>geschr<ex>iben</ex></expan>
+<expan>hab<ex>e</ex>n</expan>, damit gesandt habt etc., das
+                                <expan>hab<ex>e</ex>n</expan> wir wol
+                            <expan>vernom<ex>en</ex></expan> und tun <expan>ew<ex>r</ex>n</expan>
+<expan>fürstenliche<ex>n</ex></expan>
+<expan>gnad<ex>en</ex></expan> zu <expan>wiss<ex>en</ex></expan>, daz auf
+                        disz zeit niht rat bey uns was; also <expan>well<ex>e</ex>n</expan> wir
+                                <expan>dieselb<ex>e</ex>n</expan>
+<expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> brief an <expan>uns<ex>er</ex></expan>
+                        frewnde des rats <expan>bring<ex>en</ex></expan> und
+                            <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> bey <expan>uns<ex>er</ex></expan> selbs
+                                <expan>botsch<ex>aft</ex></expan> in kürcz ein antwurt
+                                <expan>daru<ex>m</ex>b</expan> tun. Denn wo wir
+                            <expan>ew<ex>r</ex>n</expan>
+<expan>fürstenl<ex>ichen</ex></expan>
+<expan>gnad<ex>en</ex></expan> dienst und
+                            <expan>wolgefall<ex>e</ex>n</expan> etc. <expan>Dat<ex>um</ex></expan>
+<expan>sab<ex>at</ex>o</expan> post Erhardi.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

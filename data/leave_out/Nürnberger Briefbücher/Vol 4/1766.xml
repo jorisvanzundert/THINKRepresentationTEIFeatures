@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1766" xml:id="l1777" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1766 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>061v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1766.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wertheim, Heinrich v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q715" type="mention">Heilbronn</placeName><persName type="mention">Büches, Gilbrecht v.</persName></ab><date from="13-02-1415" to="13-02-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_123">
+<surface lrx="2585" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0064_left.png" width="2585px"/>
+<zone lrx="1441" lry="1413" rendition="TextRegion" ulx="1133" uly="1925" xml:id="facs_123_r1"> <zone lrx="2540" lry="1550" rendition="Line" ulx="692" uly="1453" xml:id="facs_123_r1l12"/>
+<zone lrx="2546" lry="1633" rendition="Line" ulx="703" uly="1540" xml:id="facs_123_r1l13"/>
+<zone lrx="2544" lry="1726" rendition="Line" ulx="710" uly="1626" xml:id="facs_123_r1l14"/>
+<zone lrx="2542" lry="1817" rendition="Line" ulx="706" uly="1714" xml:id="facs_123_r1l15"/>
+<zone lrx="2526" lry="1912" rendition="Line" ulx="704" uly="1810" xml:id="facs_123_r1l16"/>
+<zone lrx="1441" lry="1997" rendition="Line" ulx="712" uly="1925" xml:id="facs_123_r1l17"/>
+<zone lrx="1775" lry="1413" rendition="Line" ulx="1133" uly="1355" xml:id="facs_123_line_1576739400002_482"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich von Wertheim</head><p>Der Rat teilt mit, dass seine Knechte nicht nach dem Adressaten streifen, da er mit Gilbrecht von Büches ausgerichtet ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_123" id="61v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_123_line_1576739400002_482">Heincʒen von Bertheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_123_r1l12"><expan>L<ex>ieber</ex></expan> Heincʒ als Jr vns <expan>verſchr<ex>iben</ex></expan> habt . wıe <expan>vnſ<ex>er</ex></expan> knecht nehſt ʒu <expan>Heılprunn<ex>en</ex></expan> </ab>
+<ab facs="#facs_123_r1l13">nach eẅch gefragt <expan>ſull<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> vnd daʒ eẅch <expan>fürkome<ex>n</ex></expan> ſey daʒ Jr nıht </ab>
+<ab facs="#facs_123_r1l14">ſıcher vor vns vnd den <expan>vnſ<ex>er</ex>n</expan> ſeyt von der nom <expan>weg<ex>en</ex></expan> dıe vns Geılbrecht </ab>
+<ab facs="#facs_123_r1l15">von Püchıs tet etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> . Vnd <expan>hab<ex>e</ex>n</expan> <expan>vnſ<ex>er</ex>n</expan> <expan>knecht<ex>en</ex></expan> </ab>
+<ab facs="#facs_123_r1l16">niht <expan>befolhe<ex>n</ex></expan> nach eẅch <expan>ʒufrage<ex>n</ex></expan> . VVan wır mıt dem <expan>vorg<ex>enanten</ex></expan> <expan>Geılbr<ex>echt</ex></expan> </ab>
+<ab facs="#facs_123_r1l17">vt <expan>ſup<ex>ra</ex></expan> . <expan>dat<ex>um</ex></expan> vt <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_123" id="61v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Heinczen von Bertheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Heincz, als ir uns
+                                <expan>verschr<ex>iben</ex></expan> habt, wie
+                            <expan>uns<ex>er</ex></expan> knecht nehst zu
+                                <expan>Heilprunn<ex>en</ex></expan> nach ewch gefragt
+                                <expan>sull<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan> und daz ewch <expan>fürkome<ex>n</ex></expan>
+                        sey, daz ir niht sicher vor uns und den <expan>uns<ex>er</ex>n</expan> seyt
+                        von der nom <expan>weg<ex>en,</ex></expan> die uns Geilbrecht von Püchis tet
+                        etc., das <expan>hab<ex>e</ex>n</expan> wir wol
+                            <expan>vernom<ex>en</ex></expan>. Und <expan>hab<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>knecht<ex>en</ex></expan> niht <expan>befolhe<ex>n,</ex></expan> nach
+                        ewch <expan>zu frage<ex>n</ex></expan>, wan wir mit dem
+                                <expan>vorg<ex>enanten</ex></expan>
+<expan>Geilbr<ex>echt</ex></expan> ut <expan>sup<ex>ra</ex></expan>.
+                                <expan>Dat<ex>um</ex></expan> ut <expan>sup<ex>ra.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

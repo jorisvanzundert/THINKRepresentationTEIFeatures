@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dunhuang-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zho-Hant">楞伽師資記── 敦煌遺書北敦.9933的數位版本</title>
+        <title type="simple" xml:lang="zho-Hant">楞伽師資記 北敦.9933</title>
+        <title xml:lang="eng">The Record of the Masters and Disciples of the Laṅkāvatāra - A Transcription of the Dunhuang Manuscript BD.9933</title>
+        <author xml:lang="zho-Hant">淨覺</author>
+        <author xml:lang="zho-Latn">Jing Jue</author>
+        <respStmt><name>Chang, Po-Yung 張伯雍</name><resp>Transcription</resp></respStmt>
+        <principal>Marcus Bingenheimer 馬德偉</principal>
+        <funder>Chung-hwa Institute of Buddhist Studies 中華佛學研究所</funder>
+      </titleStmt>
+      <publicationStmt>
+        <p>This XML/TEI transcription is made available under a Creative Commons License (Attribution-ShareAlike 4.0 International)</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>The transcription was done from digital facsimiles distributed by the International Dunhuang Project and the Bibliothèque nationale de France. For a detailed description of a ms from the Pelliot collection please refer to the "Catalogue des manuscrits chinois de Touen-Houang" Paris 1970-2001. For mss from the Stein collection try Lionel Giles "Descriptive Catalogue of the Chinese Manuscripts from Tunhuang in the British Museum." London: British Museum, 1957.</p>
+      </sourceDesc>
+    </fileDesc>
+    <xi:include href="00-encodingDesc.xml"/>
+  </teiHeader>
+  <text>
+    <body><div xml:id="wrap-BD9933v-0001-0007">
+      <ab xml:id="lqszj-BD-9933-01"><lb xml:id="BD9933v-0001"/><!--anchor corresp="T85n2837_p1285b18"/--><ptr target="#n273"/><damage>達</damage>
+      <lb xml:id="BD9933v-0002"/><damage unit="char" extent="18"/><damage>偽</damage><unclear>造<pc>《</pc>達</unclear><damage>摩</damage><damage unit="char" extent="1"/><pc>》</pc>三<orig reg="卷"><g ref="#A00454-010"/></orig><pc>，</pc><unclear>文</unclear>
+      <lb xml:id="BD9933v-0003"/><damage unit="char" extent="11"/><!--anchor corresp="T85n2837_p1285b21"/--><damage unit="char" extent="17"/><damage>換物</damage>名<pc>，</pc><orig reg="變"><g ref="#A03897-025"/></orig><orig reg="易"><g ref="#A01780-002"/></orig><unclear>問</unclear><damage>之</damage><pc>。</pc><damage unit="char" extent="2"/>
+      <lb xml:id="BD9933v-0004"/><damage unit="char" extent="18"/><damage>汙</damage><unclear>虛</unclear>空<pc>；</pc><damage>然</damage><reg>能</reg><unclear>翳虛</unclear><damage>空</damage><pc>，</pc>
+      <lb xml:id="BD9933v-0005"/><damage unit="char" extent="19"/>故<pc>，</pc>名<unclear>為</unclear>𠂝<damage>道</damage><pc>。」</pc></ab><ab xml:id="lqszj-BD-9933-02"><damage unit="char" extent="4"/>
+      <lb xml:id="BD9933v-0006"/><damage unit="char" extent="13"/><damage>可禪師俗</damage><damage unit="char" extent="5"/>
+      <lb xml:id="BD9933v-0007"/><damage unit="char" extent="15"/><damage>精究</damage></ab></div>
+      </body>
+   </text>
+</TEI>

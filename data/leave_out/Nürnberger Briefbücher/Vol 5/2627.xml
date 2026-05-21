@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2627" xml:id="l2638" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2627 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>142v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2627.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Landschad v. Steinach, Dieter II.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3942" type="mention">Aschaffenburg</placeName><persName type="mention">Pützel, Josef, Jude</persName></ab><date from="16-06-1421" to="16-06-1421" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_287">
+<surface lrx="2586" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0147_left.png" width="2586px"/>
+<zone lrx="1453" lry="314" rendition="TextRegion" ulx="770" uly="803" xml:id="facs_287_r1">
+<zone lrx="2051" lry="314" rendition="Line" ulx="770" uly="225" xml:id="facs_287_r1l1"/>
+<zone lrx="2529" lry="478" rendition="Line" ulx="727" uly="374" xml:id="facs_287_r1l2"/>
+<zone lrx="2528" lry="571" rendition="Line" ulx="697" uly="476" xml:id="facs_287_r1l3"/>
+<zone lrx="2504" lry="674" rendition="Line" ulx="693" uly="581" xml:id="facs_287_r1l4"/>
+<zone lrx="2451" lry="773" rendition="Line" ulx="707" uly="689" xml:id="facs_287_r1l5"/>
+<zone lrx="1453" lry="886" rendition="Line" ulx="722" uly="803" xml:id="facs_287_r1l6"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Dieter II. Landschad von Steinach, Viztum zu Aschaffenburg</head><p>Der Rat kündigt baldige Antwort wegen des Juden Josef Pützel an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_287" id="142v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_287_r1l1"><expan>Dıeth<ex>er</ex>n</expan> <expan>lantſchad<ex>en</ex></expan> <expan>vıcʒtu<ex>m</ex></expan> ʒu <expan>Aſchaffemb<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_287_r1l2"><expan>L<ex>ieber</ex></expan> <expan>h<ex>e</ex>r</expan> <expan>vıcʒtu<ex>m</ex></expan> als Jr vns <expan>ab<ex>er</ex></expan> <expan>verſchr<ex>iben</ex></expan> habt von yoſep Pücʒels des </ab>
+<ab facs="#facs_287_r1l3">Juden <expan>weg<ex>en</ex></expan> etc das haben wır wol <expan>vernom<ex>en</ex></expan> / Vnd wellen <expan>eẅr<ex>er</ex></expan> </ab>
+<ab facs="#facs_287_r1l4"><expan>erberk<ex>eit</ex></expan> kürcʒlıchen / <expan>daru<ex>m</ex>b</expan> ein <expan>antw<ex>ur</ex>t</expan> tun vnd mıt eẅch <expan>dauo<ex>n</ex></expan> </ab>
+<ab facs="#facs_287_r1l5">reden <expan>laſſ<ex>en</ex></expan> / Denn wo wır <expan>eẅr<ex>er</ex></expan> <expan>erberk<ex>eit</ex></expan> lıeb <expan>od<ex>er</ex></expan> dıenſt etc </ab>
+<ab facs="#facs_287_r1l6"><expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıȷ<hi rend="sup">a</hi> <expan>P<ex>oſt</ex></expan> Vıtȷ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_287" id="142v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Dieth<ex>er</ex>n</expan>
+<expan>Lantschad<ex>en</ex></expan>, <expan>vicztu<ex>m</ex></expan> zu
+                                <expan>Aschaffemb<ex>ur</ex>g</expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan>
+<expan>vicztu<ex>m</ex></expan>, als ir uns <expan>ab<ex>er</ex></expan>
+<expan>verschr<ex>iben</ex></expan> habt von Yosep Püczels des juden
+                                <expan>weg<ex>en</ex></expan> etc., das haben wir wol
+                                <expan>vernom<ex>en</ex></expan> und wellen
+                            <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> kürczlichen <expan>daru<ex>m</ex>b</expan>
+                        ein <expan>antw<ex>ur</ex>t</expan> tun und mit ewch
+                            <expan>davo<ex>n</ex></expan> reden <expan>lass<ex>en</ex></expan>. Denn
+                        wo wir <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> lieb <expan>od<ex>er</ex></expan> dienst
+                        etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii<hi rend="sup">a</hi>
+<expan>p<ex>ost</ex></expan> Viti.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

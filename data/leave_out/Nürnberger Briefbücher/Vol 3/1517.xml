@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1517" xml:id="l1532" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1517 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>266v–267r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1517.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Eyring, Otto</persName></ab><ab type="mention"><persName type="mention">Pfinzing, Wenzel</persName><persName type="mention">Derrer, Anton</persName><persName type="mention">Haller, Konrad II.</persName></ab><date from="31-10-1412" to="31-10-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_534">
+<surface lrx="2805" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0269_left.png" width="2805px"/>
+<zone lrx="1311" lry="2269" rendition="TextRegion" ulx="1605" uly="3393" xml:id="facs_534_r1"> <zone lrx="2372" lry="2269" rendition="Line" ulx="1349" uly="2184" xml:id="facs_534_r1l19"/>
+<zone lrx="2676" lry="2497" rendition="Line" subtype="paragraph" ulx="616" uly="2400" xml:id="facs_534_r1l20"/>
+<zone lrx="1311" lry="2503" rendition="Line" ulx="1046" uly="2462" xml:id="facs_534_r1l21"/>
+<zone lrx="2646" lry="2603" rendition="Line" ulx="642" uly="2492" xml:id="facs_534_r1l22"/>
+<zone lrx="2628" lry="2719" rendition="Line" subtype="paragraph" ulx="677" uly="2589" xml:id="facs_534_r1l23"/>
+<zone lrx="2638" lry="2823" rendition="Line" subtype="paragraph" ulx="657" uly="2688" xml:id="facs_534_r1l24"/>
+<zone lrx="2754" lry="2931" rendition="Line" ulx="680" uly="2792" xml:id="facs_534_r1l25"/>
+<zone lrx="2686" lry="3031" rendition="Line" ulx="722" uly="2902" xml:id="facs_534_r1l26"/>
+<zone lrx="2714" lry="3128" rendition="Line" ulx="694" uly="2994" xml:id="facs_534_r1l27"/>
+<zone lrx="2692" lry="3236" rendition="Line" ulx="699" uly="3103" xml:id="facs_534_r1l28"/>
+<zone lrx="2738" lry="3328" rendition="Line" subtype="paragraph" ulx="713" uly="3199" xml:id="facs_534_r1l29"/>
+<zone lrx="2750" lry="3410" rendition="Line" ulx="711" uly="3313" xml:id="facs_534_r1l30"/>
+<zone lrx="1931" lry="3418" rendition="Line" ulx="1605" uly="3368" xml:id="facs_534_r1l31"/>
+<zone lrx="2738" lry="3514" rendition="Line" ulx="662" uly="3393" xml:id="facs_534_r1l32"/>
+</zone>
+</surface>
+</facsimile><facsimile xml:id="facs_535">
+<surface lrx="2834" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0269_right.png" width="2834px"/>
+<zone lrx="1437" lry="362" rendition="TextRegion" ulx="489" uly="451" xml:id="facs_535_r1">
+<zone lrx="2530" lry="362" rendition="Line" ulx="467" uly="240" xml:id="facs_535_r1l2"/>
+<zone lrx="2504" lry="459" rendition="Line" ulx="455" uly="348" xml:id="facs_535_r1l3"/>
+<zone lrx="1437" lry="560" rendition="Line" ulx="489" uly="451" xml:id="facs_535_r1l4"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Otto Eyring</head><p>Der Rat teilt wegen Eyrings verstorbenen Schwagers Wenzel Pfinzing mit, dass die beiden Vormunde Anton Derrer und Konrad II. Haller, Bürger zu Nürnberg, entsprechend dem beurkundeten Testament verfahren sind, und verweist auf den Rechtsweg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_534" id="266v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_534_r1l19">Otten Eyring / Rat v̈ber </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_534_r1l20"><expan>L<ex>ieber</ex></expan> Eÿrıng / Als du vns <expan>geſchrib<ex>e</ex>n</expan> haſt von vvencʒla </ab>
+<ab facs="#facs_534_r1l22">Pfincʒings 
+<del rend="strikethrough">des </del>
+<add><ab facs="#facs_534_r1l21"><expan>vnſ<ex>er</ex>s</expan> <expan>B<ex>urgers</ex></expan> </ab></add> deins Swagers <expan>ſelige<ex>n</ex></expan> geſcheffts wegen </ab>
+<ab facs="#facs_534_r1l23">Darümb <expan>hab<ex>e</ex>n</expan> vvir dıe vormund <expan>deſſelb<ex>e</ex>n</expan> geſcheffts </ab>
+<ab facs="#facs_534_r1l24"><expan>mitname<ex>n</ex></expan> <expan>Anth<ex>oni</ex></expan> <expan>derr<ex>er</ex></expan> vnd <expan>Cuncʒe<ex>n</ex></expan> haller <expan>vnſ<ex>er</ex></expan> <expan>Burg<ex>er</ex></expan> </ab>
+<ab facs="#facs_534_r1l25">beſant vnd cʒu rede geſacʒt / vnd dıe <expan>ſprech<ex>e</ex>n</expan> / Er hab </ab>
+<ab facs="#facs_534_r1l26">ſeins geſcheffts wol macht gehabt / als ſıe das mit </ab>
+<ab facs="#facs_534_r1l27"><expan>eine<ex>m</ex></expan> <expan>gute<ex>n</ex></expan> <expan>beſigelte<ex>n</ex></expan> brief wol <expan>bringe<ex>n</ex></expan> <expan>wölle<ex>n</ex></expan> / deuht </ab>
+<ab facs="#facs_534_r1l28">dich aber daʒ du darüber cʒu den <expan>vormund<ex>en</ex></expan> ıcht cʒu </ab>
+<ab facs="#facs_534_r1l29"><expan>ſprech<ex>e</ex>n</expan> heteſt / <expan>dar<ex>ümb</ex></expan> <expan>wölle<ex>n</ex></expan> vvir dir von Jn <expan>vnu<ex>er</ex>cʒog<ex>en</ex></expan> </ab>
+<ab facs="#facs_534_r1l30">ſlewnigs <expan>reht<ex>en</ex></expan> <expan>g<ex>er</ex>n</expan> <expan>helffe<ex>n</ex></expan> <expan>vven<ex>n</ex></expan> vvir des <expan>erma<ex>n</ex>t</expan> <expan>werde<ex>n</ex></expan> ſo <expan>dieſ<ex>elben</ex></expan> </ab>
+<ab facs="#facs_534_r1l32"><expan>vnſ<ex>er</ex></expan> <expan>burg<ex>er</ex></expan> <expan>anh<ex>eim</ex></expan> ſind / vnd <expan>vven<ex>n</ex></expan>
+<del rend="strikethrough"> alſo </del>
+<add><ab facs="#facs_534_r1l31">du darumb </ab></add> ın den nehſten vıer <expan>woch<ex>e</ex>n</expan> </ab>
+<pb facs="#facs_535" id="267r"/>
+<ab facs="#facs_535_r1l2">
+<del rend="strikethrough">darümb </del> her cʒu vns kümſt / So ſoltu <expan>vnſ<ex>er</ex></expan> geleite <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_535_r1l3">
+<del rend="strikethrough">cʒu vns </del> bey vns vnd von vns für vns vnd dıe <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_535_r1l4">ongeuerde / <expan>Dat<ex>um</ex></expan> ut <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_534" id="266v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Otten Eyring, rat über </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Eyring, als du uns
+                                                  <expan>geschrib<ex>e</ex>n</expan> hast von
+                                                Wenczla Pfinczings,
+                                                  <add><expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan></add>, deins
+                                                swagers, <expan>selige<ex>n,</ex></expan> gescheffts
+                                                wegen, darümb <expan>hab<ex>e</ex>n</expan> wir die
+                                                vormund <expan>desselb<ex>e</ex>n</expan>
+                                                gescheffts, <expan>mitname<ex>n</ex></expan>
+<expan>Anth<ex>oni</ex></expan>
+<expan>Derr<ex>er</ex></expan> und
+                                                  <expan>Cuncze<ex>n</ex></expan> Haller,
+                                                  <expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>, besant und czu rede
+                                                gesaczt; und die <expan>sprech<ex>e</ex>n</expan>,
+                                                er hab seins gescheffts wol macht gehabt, als sie
+                                                das mit <expan>eine<ex>m</ex></expan>
+<expan>gute<ex>n</ex></expan>
+<expan>besigelte<ex>n</ex></expan> brief wol
+                                                  <expan>bringe<ex>n</ex></expan>
+<expan>wölle<ex>n.</ex></expan> Deuht dich aber, daz
+                                                du darüber czu den <expan>vormund<ex>en</ex></expan>
+                                                icht czu <expan>sprech<ex>e</ex>n</expan> hetest,
+                                                  <expan>dar<ex>umb</ex></expan>
+<expan>wölle<ex>n</ex></expan> wir dir von in
+                                                  <expan>unv<ex>er</ex>czog<ex>en</ex></expan>
+                                                slewnigs <expan>reht<ex>en</ex></expan>
+<expan>g<ex>er</ex>n</expan>
+<expan>helffe<ex>n</ex></expan>,
+                                                  <expan>wen<ex>n</ex></expan> wir des
+                                                  <expan>erma<ex>n</ex>t</expan>
+<expan>werde<ex>n</ex></expan>, so
+                                                  <expan>dies<ex>elben</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>
+<expan>anh<ex>eim</ex></expan> sind; und
+                                                  <expan>wen<ex>n</ex></expan>
+<add>du darumb</add> in den nehsten vier
+                                                  <expan>woch<ex>e</ex>n</expan>
+<pb facs="#facs_535" id="267r"/> her czu uns kümst, so sol tu
+                                                  <expan>uns<ex>er</ex></expan> geleite
+                                                  <expan>hab<ex>e</ex>n</expan> bey uns und von uns,
+                                                für uns und die <expan>uns<ex>er</ex>n</expan> on
+                                                geverde. <expan>Dat<ex>um</ex></expan> ut
+                                                  <expan>sup<ex>ra.</ex></expan></ab>
+</div>
+</div></body>
+</text>
+</TEI>

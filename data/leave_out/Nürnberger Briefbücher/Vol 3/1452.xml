@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1452" xml:id="l1467" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1452 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>251r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1452.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Schenk v. Schenkenstein, Wilhelm, Vogt v. Cadolzburg</persName></ab><ab type="mention"><persName type="mention">Leitgeb, Eberhard</persName><persName type="mention">Ymme, N.</persName></ab><date from="9-08-1412" to="9-08-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_503">
+<surface lrx="2759" lry="3807" ulx="0" uly="0">
+<graphic height="3807px" url="Rst Nbg-Briefbücher-Nr 3_0253_right.png" width="2759px"/> <zone lrx="1813" lry="320" rendition="TextRegion" ulx="1565" uly="1149" xml:id="facs_503_r2">
+<zone lrx="1813" lry="320" rendition="Line" ulx="645" uly="238" xml:id="facs_503_r2l2"/>
+<zone lrx="2466" lry="533" rendition="Line" ulx="258" uly="411" xml:id="facs_503_r2l3"/>
+<zone lrx="2450" lry="648" rendition="Line" ulx="391" uly="529" xml:id="facs_503_r2l4"/>
+<zone lrx="2428" lry="773" rendition="Line" ulx="415" uly="648" xml:id="facs_503_r2l5"/>
+<zone lrx="2381" lry="887" rendition="Line" subtype="paragraph" ulx="423" uly="753" xml:id="facs_503_r2l6"/>
+<zone lrx="2372" lry="991" rendition="Line" ulx="426" uly="884" xml:id="facs_503_r2l7"/>
+<zone lrx="1977" lry="981" rendition="Line" ulx="1565" uly="920" xml:id="facs_503_line_1576351651126_4934"/>
+<zone lrx="2343" lry="1104" rendition="Line" ulx="404" uly="969" xml:id="facs_503_r2l10"/>
+<zone lrx="2321" lry="1213" rendition="Line" ulx="415" uly="1051" xml:id="facs_503_r2l11"/>
+<zone lrx="2505" lry="1328" rendition="Line" ulx="425" uly="1149" xml:id="facs_503_r2l12"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Wilhelm Schenk von Schenkenstein, Vogt von Cadolzburg</head><p>Der Rat teilt mit, dass er Wilhelms Armmann Eberhard Leitgeb Geleit gewährt; wegen N. Ymme wurden schon manche befragt, der Rat wird sich aber weiterhin erkundigen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_503" id="251r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_503_r2l2"><expan>VVılh<ex>elm</ex></expan> <expan>Schenk<ex>en</ex></expan> vogt cʒü <expan>Kadolſcʒp<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_503_r2l3"><expan>Lıeb<ex>er</ex></expan> <expan>vvılh<ex>elm</ex></expan> / Als Jr vns <expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan> habt <expan>vo<ex>n</ex></expan> <expan>ew<ex>r</ex>s</expan> <expan>arme<ex>n</ex></expan> manns </ab>
+<ab facs="#facs_503_r2l4"><expan>weg<ex>en</ex></expan> deʒ <expan>Eb<ex>erhart</ex></expan> <expan>Leitgeb<ex>e</ex>n</expan> wie der beÿ vns <expan>cʒerecht<ex>e</ex>n</expan> hab / . </ab>
+<ab facs="#facs_503_r2l5">Dem <expan>wölle<ex>n</ex></expan> wir durch <expan>ew<ex>r</ex>n</expan> wıllen dar cʒü <expan>g<ex>er</ex>n</expan> ein geleitt </ab>
+<ab facs="#facs_503_r2l6"><expan>geb<ex>e</ex>n</expan> <expan>vngeu<ex>er</ex>lıch<ex>e</ex>n</expan> / . Darnach <expan>vo<ex>n</ex></expan> <expan>d<ex>er</ex></expan> ymmen <expan>weg<ex>en</ex></expan> / <expan>d<ex>er</ex></expan> </ab>
+<ab facs="#facs_503_r2l7">ſind etlich hynnen geweſen / <expan>d<ex>er</ex></expan> <expan>antw<ex>ur</ex>t</expan> wir <expan>v<ex>er</ex>hört</expan> <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_503_r2l10">So <expan>wölle<ex>n</ex></expan> wir die <expan>and<ex>er</ex>n</expan> auch beſenden 
+<add><ab facs="#facs_503_line_1576351651126_4934">vnd ſie <expan>v<ex>er</ex>hören</expan> </ab></add> / vnd wenn Jr 
+<del rend="strikethrough"> ſe </del></ab>
+<ab facs="#facs_503_r2l11">dann <expan>ſelb<ex>er</ex></expan> herein kumt ſo <expan>wölle<ex>n</ex></expan> wir mit ew davon </ab>
+<ab facs="#facs_503_r2l12">reden / wie wir das an Jn <expan>ervare<ex>n</ex></expan> <expan>hab<ex>e</ex>n</expan> / <expan>Dat<ex>um</ex></expan> <expan>vıg<ex>ilia</ex></expan> <expan>Laur<ex>encij</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_503" id="251r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Wilh<ex>elm</ex></expan>
+<expan>Schenk<ex>en</ex></expan>, vogt czü
+                            <expan>Kadolsczp<ex>ur</ex>g</expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan>
+<expan>Wilh<ex>elm</ex></expan>, als ir uns
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> habt
+                                <expan>vo<ex>n</ex></expan>
+<expan>ew<ex>r</ex>s</expan>
+<expan>arme<ex>n</ex></expan> manns <expan>weg<ex>en,</ex></expan> dez
+                                <expan>Eb<ex>erhart</ex></expan>
+<expan>Leitgeb<ex>e</ex>n,</expan> wie der bey uns <expan>cze
+                                recht<ex>e</ex>n</expan> hab, dem <expan>wölle<ex>n</ex></expan> wir
+                        durch <expan>ew<ex>r</ex>n</expan> willen dar czü
+                            <expan>g<ex>er</ex>n</expan> ein geleitt <expan>geb<ex>e</ex>n</expan>
+<expan>ungev<ex>er</ex>lich<ex>e</ex>n</expan>; darnach
+                            <expan>vo<ex>n</ex></expan>
+<expan>d<ex>er</ex></expan> Ymmen <expan>weg<ex>en,</ex></expan>
+<expan>d<ex>er</ex></expan> sind etlich hynnen gewesen,
+                            <expan>d<ex>er</ex></expan>
+<expan>antw<ex>ur</ex>t</expan> wir <expan>v<ex>er</ex>hört</expan>
+<expan>hab<ex>e</ex>n</expan>, so <expan>wölle<ex>n</ex></expan> wir die
+                                <expan>and<ex>er</ex>n</expan> auch besenden <add>und sie
+                                    <expan>v<ex>er</ex>hören</expan></add> und, wenn ir dann
+                                <expan>selb<ex>er</ex></expan> herein kumt, so
+                                <expan>wölle<ex>n</ex></expan> wir mit ew davon reden, wie wir das
+                        an in <expan>ervare<ex>n</ex></expan>
+<expan>hab<ex>e</ex>n</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>vig<ex>ilia</ex></expan>
+<expan>Laur<ex>encii.</ex></expan></ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="810" xml:id="l819" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 810 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>079v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 810.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Tann, Georg v. d.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q514058" type="mention">Geiselwind (Markt, Lk. Kitzingen)</placeName><persName type="mention">Zollner, Kathrin</persName><persName type="mention">Treuchtlingen, Wirich IV. v.</persName></ab><date from="10-09-1410" to="8-10-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_160">
+<surface lrx="2772" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0082_left.png" width="2772px"/>
+<zone lrx="1809" lry="2374" rendition="TextRegion" ulx="1074" uly="2782" xml:id="facs_160_r1"> <zone lrx="1809" lry="2374" rendition="Line" ulx="1074" uly="2286" xml:id="facs_160_r1l22"/>
+<zone lrx="2297" lry="2527" rendition="Line" ulx="567" uly="2412" xml:id="facs_160_r1l23"/>
+<zone lrx="2359" lry="2594" rendition="Line" ulx="597" uly="2503" xml:id="facs_160_r1l24"/>
+<zone lrx="2255" lry="2662" rendition="Line" ulx="605" uly="2582" xml:id="facs_160_r1l25"/>
+<zone lrx="2267" lry="2722" rendition="Line" ulx="609" uly="2632" xml:id="facs_160_r1l26"/>
+<zone lrx="2310" lry="2786" rendition="Line" ulx="603" uly="2712" xml:id="facs_160_r1l27"/>
+<zone lrx="2238" lry="2862" rendition="Line" ulx="591" uly="2782" xml:id="facs_160_r1l28"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Georg von der Tann</head><p>Der Rat teilt wegen der Beschlagnahme zu Geiselwind mit, dass Kathrin Zollner, Bürgerin zu Nürnberg, und ihr Schwager Wirich von Treuchtlingen zu einem gerichtlichen Austrag noch vor Weihnachten bereit sind.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_160" id="79v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_160_r1l22">Görgen von der Tanne </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_160_r1l23">Lieber Görg Als Jr vns <expan>v<ex>er</ex>ſchriben</expan> habt / von <expan>d<ex>er</ex></expan> nam wegen </ab>
+<ab facs="#facs_160_r1l24">cʒu Geẏſelwinden / daʒ haben wir bracht / . an frawn kathrein <expan>cʒolln<ex>er</ex>in</expan> </ab>
+<ab facs="#facs_160_r1l25"><expan>vnſ<ex>er</ex>r</expan> burgerin vnd <expan>h<ex>er</ex>n</expan> vvyrichen von <expan>Treuhtling<ex>en</ex></expan> iren aidem </ab>
+<ab facs="#facs_160_r1l26">vnd ſie wil daʒ gen ew aufnemen . / Alſo daʒ man Jr des gelegen </ab>
+<ab facs="#facs_160_r1l27">tag ſecʒe / vnd daʒ Jr auch <expan>d<ex>er</ex></expan> ſache kürcʒlichen ein auſʒtrag werde </ab>
+<ab facs="#facs_160_r1l28">vnd das das vor vveyhennahten ein ende neme / <expan>dat<ex>um</ex></expan> etc . / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_160" id="79v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Görgen von der Tanne </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber Görg, als ir uns <expan>v<ex>er</ex>schriben</expan> habt von
+                                <expan>d<ex>er</ex></expan> nam wegen czu Geyselwinden, daz haben
+                        wir bracht an frawn Kathrein <expan>Czolln<ex>er</ex>in</expan>,
+                                <expan>uns<ex>er</ex>r</expan> burgerin, und
+                            <expan>h<ex>er</ex>n</expan> Wyrichen von
+                            <expan>Treuhtling<ex>en</ex></expan>, iren aidem, und sie wil daz gen ew
+                        aufnemen. Also daz man ir des gelegen tag secze und daz ir auch
+                                <expan>d<ex>er</ex></expan> sache kürczlichen ein ausztrag werde und
+                        das das vor weyhennahten ein ende neme. <expan>Dat<ex>um</ex></expan>
+                        etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

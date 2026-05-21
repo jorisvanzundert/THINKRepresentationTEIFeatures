@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2008" xml:id="l2020" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2008 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>122r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2008.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q12900863" type="recipient">Ludwig XI., Gf. v. Oettingen</persName></ab><ab type="mention"><persName type="mention">Elisabeth v. Kleve, Hzgn. v. Bayern-Ingolstadt</persName></ab><date from="20-11-1415" to="20-11-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_244">
+<surface lrx="2632" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0125_right.png" width="2632px"/>
+<zone lrx="225" lry="1929" rendition="TextRegion" ulx="276" uly="2432" xml:id="facs_244_r1">
+<zone lrx="393" lry="1929" rendition="Line" ulx="61" uly="1883" xml:id="facs_244_r1l1"/>
+<zone lrx="225" lry="1978" rendition="Line" ulx="62" uly="1936" xml:id="facs_244_r1l2"/>
+<zone lrx="448" lry="2477" rendition="Line" ulx="276" uly="2432" xml:id="facs_244_r1l3"/>
+</zone>
+<zone lrx="1425" lry="1222" rendition="TextRegion" ulx="1620" uly="2822" xml:id="facs_244_r2"> <zone lrx="1890" lry="1222" rendition="Line" ulx="814" uly="1146" xml:id="facs_244_r2l10"/>
+<zone lrx="1844" lry="1307" rendition="Line" ulx="848" uly="1241" xml:id="facs_244_r2l11"/>
+<zone lrx="2459" lry="1424" rendition="Line" ulx="443" uly="1327" xml:id="facs_244_r2l12"/>
+<zone lrx="2484" lry="1513" rendition="Line" ulx="437" uly="1425" xml:id="facs_244_r2l13"/>
+<zone lrx="2439" lry="1600" rendition="Line" ulx="403" uly="1509" xml:id="facs_244_r2l14"/>
+<zone lrx="2468" lry="1691" rendition="Line" ulx="449" uly="1605" xml:id="facs_244_r2l15"/>
+<zone lrx="2530" lry="1784" rendition="Line" ulx="445" uly="1697" xml:id="facs_244_r2l16"/>
+<zone lrx="2444" lry="1866" rendition="Line" ulx="445" uly="1813" xml:id="facs_244_r2l17"/> <zone lrx="2444" lry="1953" rendition="Line" subtype="paragraph" ulx="447" uly="1907" xml:id="facs_244_r2l20"/> <zone lrx="2404" lry="2043" rendition="Line" ulx="453" uly="1996" xml:id="facs_244_r2l23"/>
+<zone lrx="2443" lry="2137" rendition="Line" ulx="458" uly="2069" xml:id="facs_244_r2l24"/>
+<zone lrx="2506" lry="2233" rendition="Line" ulx="458" uly="2157" xml:id="facs_244_r2l25"/>
+<zone lrx="2422" lry="2324" rendition="Line" ulx="450" uly="2253" xml:id="facs_244_r2l26"/>
+<zone lrx="2445" lry="2418" rendition="Line" ulx="449" uly="2345" xml:id="facs_244_r2l27"/>
+<zone lrx="2450" lry="2513" rendition="Line" ulx="463" uly="2433" xml:id="facs_244_r2l28"/>
+<zone lrx="2448" lry="2607" rendition="Line" ulx="466" uly="2528" xml:id="facs_244_r2l29"/>
+<zone lrx="2423" lry="2703" rendition="Line" ulx="454" uly="2620" xml:id="facs_244_r2l30"/>
+<zone lrx="2074" lry="2804" rendition="Line" ulx="455" uly="2721" xml:id="facs_244_r2l31"/>
+<zone lrx="1425" lry="2907" rendition="Line" ulx="441" uly="2822" xml:id="facs_244_r2l32"/>
+<zone lrx="1858" lry="1902" rendition="Line" ulx="1620" uly="1848" xml:id="facs_244_line_1576667235136_8806"/><zone lrx="1433" lry="1991" rendition="Line" ulx="1230" uly="1936" xml:id="facs_244_line_1576667248473_8822"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ludwig XI., Graf von Oettingen und Hauptmann in Oberbayern</head><p>Der Rat teilt mit, bei den Juden zu Nürnberg keine weitere Fristverlängerung zur Auslösung der verpfändeten Schmuckstücke der Herzogin Elisabeth von Bayern-Ingolstadt über den Martinstag hinaus erreichen zu können.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_244" id="122r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_244_r2l10"><expan>H<ex>er</ex>n</expan> <expan>Ludweıg<ex>en</ex></expan> <expan>Graf<ex>en</ex></expan> ʒu <expan>Ötıng<ex>en</ex></expan> </ab>
+<ab facs="#facs_244_r2l11"><expan>hawbtm<ex>an</ex></expan> in <expan>Ob<ex>er</ex>n</expan> Payern . etc </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_244_r2l12"><expan>Wolgeborn<ex>er</ex></expan> lıeber <expan>h<ex>er</ex>re</expan> . als vns eẅr gnade <expan>verſchr<ex>iben</ex></expan> hat von der </ab>
+<ab facs="#facs_244_r2l13">klaynöt <expan>weg<ex>en</ex></expan> / dıe <expan>etlıch<ex>en</ex></expan> Juden bey vns von <expan>vnſ<ex>er</ex>r</expan> <expan>gnedıg<ex>en</ex></expan> frawn </ab>
+<ab facs="#facs_244_r2l14">~ der <expan>hercʒogin<ex>n</ex></expan> von payern ſteen / mıt den Juden ʒu <expan>beſtell<ex>e</ex>n</expan> . daʒ ſıe </ab>
+<ab facs="#facs_244_r2l15">dıe klaynöt <expan>vnu<ex>er</ex>kewft</expan> laſſen . etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> . Vnd </ab>
+<ab facs="#facs_244_r2l16"><expan>laſſ<ex>en</ex></expan> eẅr gnade <expan>wıſſ<ex>en</ex></expan> . Daʒ wır <expan>dıeſ<ex>elben</ex></expan> Juden für vns beſant vnd dar = </ab>
+<ab facs="#facs_244_r2l17">umb gebetten <expan>hab<ex>e</ex>n</expan> . Dıe <expan>hab<ex>e</ex>n</expan> vns <expan>geantw<ex>ur</ex>t</expan> / daʒ ſıe vormals </ab>
+<ab facs="#facs_244_r2l20">
+<add><ab facs="#facs_244_r1l1">von <expan>vnſ<ex>er</ex>r</expan> bett </ab><ab facs="#facs_244_r1l2"><expan>weg<ex>en</ex></expan> </ab></add> ſouıl frıſt darumb <expan>gegeb<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> . daʒ 
+<add><ab facs="#facs_244_line_1576667235136_8806">vns des </ab></add> dıe <expan>vorg<ex>ena</ex>nt<ex>e</ex></expan> <expan>vnſ<ex>er</ex></expan> fraw dıe </ab>
+<ab facs="#facs_244_r2l23">hercʒögin / do wir Jr dıe 
+<del rend="strikethrough"><expan>nehſt<ex>en</ex></expan></del>
+<add><ab facs="#facs_244_line_1576667248473_8822">lecʒern </ab></add> frıſt auf ſand merteıns tag </ab>
+<ab facs="#facs_244_r2l24">nehſt <expan>u<ex>er</ex>gang<ex>en</ex></expan> von den Juden <expan>erlangte<ex>n</ex></expan> . mıt ırem brıef gedankt vnd </ab>
+<ab facs="#facs_244_r2l25">dabey <expan>geſchrıb<ex>e</ex>n</expan> hab . daʒ ſıe noch <expan>niema<ex>n</ex>ts</expan> von ıren <expan>weg<ex>en</ex></expan> vns fürbas </ab>
+<ab facs="#facs_244_r2l26">vmb kein frıſt mer ʒu <expan>erlang<ex>en</ex></expan> . <expan>ſchreıbe<ex>n</ex></expan> noch begern wölt . Vnd </ab>
+<ab facs="#facs_244_r2l27">fügt vns <expan>darüb<ex>er</ex></expan> niht dıe <expan>obg<ex>enanten</ex></expan> Juden keinr frıſt ʒu nötıgen . ſıe </ab>
+<ab facs="#facs_244_r2l28">
+<add><ab facs="#facs_244_r1l3"><expan>wölt<ex>en</ex></expan> </ab></add>
+<del rend="strikethrough"><expan>hett<ex>en</ex></expan></del> es denn von <expan>vnſ<ex>er</ex>r</expan> bett <expan>weg<ex>en</ex></expan> <expan>g<ex>er</ex>n</expan>
+<del rend="strikethrough"> wellen </del> getan <expan>hab<ex>e</ex>n</expan> : Vnd </ab>
+<ab facs="#facs_244_r2l29"><expan>bıtt<ex>en</ex></expan> eẅr gnade mıt fleıſſ . daʒ Jr das ın gut von vns verſteen </ab>
+<ab facs="#facs_244_r2l30">wellet . Denn wo wır der <expan>vorg<ex>enante</ex>n</expan> <expan>vnſ<ex>er</ex>r</expan> <expan>h<ex>e</ex>rſchaft</expan> von payern </ab>
+<ab facs="#facs_244_r2l31">vnd <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> . dıenſt vnd <expan>wolgefall<ex>e</ex>n</expan> . etc </ab>
+<ab facs="#facs_244_r2l32"><expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi> <expan>p<ex>oſt</ex></expan> Elıſabeth </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_244" id="122r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Ludweig<ex>en,</ex></expan>
+<expan>graf<ex>en</ex></expan> zu <expan>Öting<ex>en</ex></expan>,
+                                <expan>hawbtm<ex>an</ex></expan> in <expan>Ob<ex>er</ex>n</expan>
+                        Payern etc. </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Wolgeborn<ex>er,</ex></expan> lieber <expan>h<ex>er</ex>re</expan>,
+                        als uns ewr gnade <expan>verschr<ex>iben</ex></expan> hat von der klaynöt
+                                <expan>weg<ex>en,</ex></expan> die <expan>etlich<ex>en</ex></expan>
+                        juden bey uns von <expan>uns<ex>er</ex>r</expan>
+<expan>gnedig<ex>en</ex></expan> frawn, der
+                            <expan>herczogin<ex>n</ex></expan> von Payern, steen, mit den juden zu
+                                <expan>bestell<ex>e</ex>n</expan>, daz sie die klaynöt
+                                <expan>unv<ex>er</ex>kewft</expan> lassen etc., das
+                                <expan>hab<ex>e</ex>n</expan> wir wol
+                            <expan>vernom<ex>en</ex></expan> und <expan>lass<ex>en</ex></expan> ewr
+                        gnade <expan>wiss<ex>en</ex></expan>, daz wir
+                            <expan>dies<ex>elben</ex></expan> juden für uns besant und darumb
+                        gebetten <expan>hab<ex>e</ex>n</expan>. Die <expan>hab<ex>e</ex>n</expan>
+                        uns <expan>geantw<ex>ur</ex>t,</expan> daz sie vormals <add>von
+                                    <expan>uns<ex>er</ex>r</expan> bett
+                                <expan>weg<ex>en</ex></expan></add> sovil frist darumb
+                                <expan>gegeb<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan>, daz <add>uns des</add> die
+                                <expan>vorg<ex>ena</ex>nt<ex>e</ex></expan>
+<expan>uns<ex>er</ex></expan> fraw, die herczögin, do wir ir die
+                            <add>leczern</add> frist auf <app>
+<note><q type="date">sand Merteins tag nehst
+                                            <expan>v<ex>er</ex>gang<ex>en</ex></expan></q>11.11.1415</note>
+</app> von den juden <expan>erlangte<ex>n</ex></expan>, mit irem brief
+                        gedankt und dabey <expan>geschrib<ex>e</ex>n</expan> hab, daz sie noch
+                                <expan>niema<ex>n</ex>ts</expan> von iren
+                            <expan>weg<ex>en</ex></expan> uns fürbas umb kein frist mer zu
+                                <expan>erlang<ex>en</ex></expan>
+<expan>schreibe<ex>n</ex></expan> noch begern wölt. Und fügt uns
+                                <expan>darüb<ex>er</ex></expan> niht, die
+                            <expan>obg<ex>enanten</ex></expan> juden keinr frist zu nötigen, sie
+                                    <add><expan>wölt<ex>en</ex></expan></add> es denn von
+                                <expan>uns<ex>er</ex>r</expan> bett <expan>weg<ex>en</ex></expan>
+<expan>g<ex>er</ex>n</expan> getan <expan>hab<ex>e</ex>n</expan>. Und
+                                <expan>bitt<ex>en</ex></expan> ewr gnade mit fleiss, daz ir das in
+                        gut von uns versteen wellet. Denn wo wir der
+                            <expan>vorg<ex>enante</ex>n</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>h<ex>e</ex>rschaft</expan> von Payern und
+                            <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> dienst und
+                            <expan>wolgefall<ex>e</ex>n</expan> etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi>
+<expan>p<ex>ost</ex></expan> Elisabeth. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

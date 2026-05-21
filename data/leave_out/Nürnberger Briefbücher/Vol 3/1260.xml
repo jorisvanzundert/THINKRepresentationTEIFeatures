@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1260" xml:id="l1275" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1260 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>196v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1260.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Heideck, Johann II. v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q248062" type="mention">Berching</placeName><persName type="mention">Fraunberg, Hiltpolt v.</persName></ab><date from="2-01-1412" to="2-01-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_394">
+<surface lrx="2742" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0199_left.png" width="2742px"/> <zone lrx="2149" lry="2148" rendition="TextRegion" ulx="1411" uly="3156" xml:id="facs_394_r2"> <zone lrx="2149" lry="2148" rendition="Line" ulx="1411" uly="2054" xml:id="facs_394_r2l17"/>
+<zone lrx="2441" lry="2309" rendition="Line" ulx="721" uly="2202" xml:id="facs_394_r2l18"/>
+<zone lrx="2441" lry="2384" rendition="Line" ulx="728" uly="2288" xml:id="facs_394_r2l19"/>
+<zone lrx="2461" lry="2473" rendition="Line" ulx="720" uly="2376" xml:id="facs_394_r2l20"/>
+<zone lrx="2474" lry="2557" rendition="Line" ulx="734" uly="2475" xml:id="facs_394_r2l21"/>
+<zone lrx="2490" lry="2629" rendition="Line" ulx="719" uly="2561" xml:id="facs_394_r2l22"/>
+<zone lrx="2498" lry="2714" rendition="Line" ulx="728" uly="2641" xml:id="facs_394_r2l23"/>
+<zone lrx="2564" lry="2800" rendition="Line" ulx="716" uly="2714" xml:id="facs_394_r2l24"/>
+<zone lrx="2576" lry="2889" rendition="Line" ulx="720" uly="2800" xml:id="facs_394_r2l25"/>
+<zone lrx="2526" lry="2973" rendition="Line" ulx="726" uly="2899" xml:id="facs_394_r2l26"/>
+<zone lrx="2533" lry="3063" rendition="Line" ulx="719" uly="2969" xml:id="facs_394_r2l27"/>
+<zone lrx="2529" lry="3163" rendition="Line" ulx="715" uly="3061" xml:id="facs_394_r2l28"/>
+<zone lrx="2608" lry="3273" rendition="Line" ulx="725" uly="3156" xml:id="facs_394_r2l29"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II. von Heideck</head><p>Der Rat dankt für die Vermittlung im Streit mit Hiltpolt von Fraunberg und bittet um Ansetzung eines neuen Schiedsgerichts in Berching unter Johanns Anwesenheit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_394" id="196v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_394_r2l17"><expan>Johan<ex>n</ex>s</expan> <expan>h<ex>er</ex>re</expan> cʒu Heẏdeck / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_394_r2l18">Edler <expan>h<ex>er</ex>re</expan> / Als vvir ew nechſt <expan>gepet<ex>e</ex>n</expan> vnd Jr ew der ſach </ab>
+<ab facs="#facs_394_r2l19">cʒwiſchen <expan>Hilpolt<ex>e</ex>n</expan> <expan>frawmberg<ex>er</ex></expan> vnd vnſer <expan>angenome<ex>n</ex></expan> habt </ab>
+<ab facs="#facs_394_r2l20">des vvir <expan>ewr<ex>e</ex>n</expan> <expan>gnad<ex>en</ex></expan> cʒemal <expan>fleiſſigl<ex>ich</ex></expan> dancken / Alſo laſſen vvir </ab>
+<ab facs="#facs_394_r2l21">Edell wiſſen daʒ vns hılpolt <expan>frawmberg<ex>er</ex></expan> yecʒunden <expan>geſchrıb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_394_r2l22">vnd vvir Jm vvıder geantwurt <expan>hab<ex>e</ex>n</expan> als vvir ew ſeins vnd </ab>
+<ab facs="#facs_394_r2l23">auch <expan>vnſ<ex>er</ex></expan> <expan>bed<ex>er</ex></expan> brief 
+<del rend="strikethrough"> aſ </del> abſchrifft ſchicken <expan>v<ex>er</ex>ſloſſen</expan> ın dıeſem </ab>
+<ab facs="#facs_394_r2l24">brief vnd <expan>Ro<ex>gamus</ex></expan> daʒ Jr Jm vnd vns einen gemainen tag ſecʒen </ab>
+<ab facs="#facs_394_r2l25">vnd beſcheẏden vvöllet gen <expan>Perching<ex>en</ex></expan> vnd auch ſelber darauf </ab>
+<ab facs="#facs_394_r2l26">kumt / vnd wollet ew der müvve <expan>darunt<ex>er</ex></expan> durch <expan>vnſ<ex>er</ex>r</expan> dinſt </ab>
+<ab facs="#facs_394_r2l27">vvillen nicht <expan>v<ex>er</ex>drieſſen</expan> laſſen / Als vvir ein beſunder getrawen </ab>
+<ab facs="#facs_394_r2l28">cʒu <expan>ewr<ex>e</ex>n</expan> <expan>gnad<ex>en</ex></expan> <expan>hab<ex>e</ex>n</expan> vnd auch cʒu allen <expan>cʒeit<ex>e</ex>n</expan> wılliglich vnd </ab>
+<ab facs="#facs_394_r2l29"><expan>g<ex>er</ex>ne</expan> <expan>v<ex>er</ex>dienen</expan> vvöllen / <expan>Antw<ex>ur</ex>t</expan> / <expan>Dat<ex>um</ex></expan> in <expan>c<ex>ra</ex>ſtı<ex>n</ex>o</expan> <expan>Circ<ex>umciſionis</ex></expan> <expan>d<ex>omi</ex>ni</expan> <expan>a<ex>nn</ex><hi rend="sup">o</hi></expan> xij<hi rend="sup">o</hi> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_394" id="196v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Johan<ex>n</ex>s</expan>, <expan>h<ex>er</ex>re</expan> czu Heydeck
+                    </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Edler <expan>h<ex>er</ex>re</expan>, als wir ew nechst
+                                <expan>gepet<ex>e</ex>n</expan> und ir ew der sach czwischen
+                                <expan>Hilpolt<ex>e</ex>n</expan>
+<expan>Frawmberg<ex>er</ex></expan> und unser
+                            <expan>angenome<ex>n</ex></expan> habt, des wir
+                            <expan>ewr<ex>e</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> czemal <expan>fleissigl<ex>ich</ex></expan>
+                        dancken, also lassen wir edell wissen, daz uns Hilpolt
+                                <expan>Frawmberg<ex>er</ex></expan> yeczunden
+                                <expan>geschrib<ex>e</ex>n</expan> und wir im wider geantwurt
+                                <expan>hab<ex>e</ex>n</expan>, als wir ew seins und auch
+                                <expan>uns<ex>er</ex></expan>
+<expan>bed<ex>er</ex></expan> brief abschrifft schicken
+                            <expan>v<ex>er</ex>slossen</expan> in diesem brief, und
+                                <expan>ro<ex>gamus</ex></expan>, daz ir im und uns einen gemainen
+                        tag seczen und bescheyden wöllet gen <expan>Perching<ex>en</ex></expan> und
+                        auch selber darauf kumt; und wollet ew der müwe
+                            <expan>darunt<ex>er</ex></expan> durch <expan>uns<ex>er</ex>r</expan>
+                        dinst willen nicht <expan>v<ex>er</ex>driessen</expan> lassen, als wir ein
+                        besunder getrawen czu <expan>ewr<ex>e</ex>n</expan>
+<expan>gnad<ex>en</ex></expan>
+<expan>hab<ex>e</ex>n</expan> und auch czu allen
+                            <expan>czeit<ex>e</ex>n</expan> williglich und
+                            <expan>g<ex>er</ex>ne</expan>
+<expan>v<ex>er</ex>dienen</expan> wöllen. <expan>Antw<ex>ur</ex>t</expan>.
+                                <expan>Dat<ex>um</ex></expan> in
+                            <expan>c<ex>ra</ex>sti<ex>n</ex>o</expan>
+<expan>circ<ex>umcisionis</ex></expan>
+<expan>d<ex>omi</ex>ni</expan>
+<expan>a<ex>nn</ex><hi rend="sup">o</hi></expan> xii<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

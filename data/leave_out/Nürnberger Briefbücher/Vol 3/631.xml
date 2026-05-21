@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="631" xml:id="l640" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 631 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>042r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 631.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Johann III., Lgf. v. Leuchtenberg</persName></ab><ab type="mention"><persName type="mention">Seemann v. Mangern, Stefan</persName><persName type="mention">Zachares, Wilhelm</persName></ab><date from="14-02-1410" to="14-02-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_85">
+<surface lrx="2802" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0044_right.png" width="2802px"/>
+<zone lrx="221" lry="2440" rendition="TextRegion" ulx="40" uly="2524" xml:id="facs_85_r1">
+<zone lrx="270" lry="2440" rendition="Line" ulx="12" uly="2387" xml:id="facs_85_r1l2"/>
+<zone lrx="241" lry="2508" rendition="Line" ulx="29" uly="2453" xml:id="facs_85_r1l3"/>
+<zone lrx="221" lry="2584" rendition="Line" ulx="40" uly="2524" xml:id="facs_85_r1l4"/>
+</zone>
+<zone lrx="1288" lry="1336" rendition="TextRegion" ulx="1210" uly="2772" xml:id="facs_85_r2"> <zone lrx="1731" lry="1336" rendition="Line" ulx="785" uly="1245" xml:id="facs_85_r2l11"/>
+<zone lrx="1453" lry="1433" rendition="Line" ulx="783" uly="1334" xml:id="facs_85_r2l12"/>
+<zone lrx="2563" lry="1580" rendition="Line" ulx="324" uly="1440" xml:id="facs_85_r2l13"/>
+<zone lrx="2553" lry="1678" rendition="Line" ulx="342" uly="1536" xml:id="facs_85_r2l14"/>
+<zone lrx="2499" lry="1780" rendition="Line" ulx="353" uly="1633" xml:id="facs_85_r2l15"/>
+<zone lrx="2548" lry="1876" rendition="Line" ulx="351" uly="1748" xml:id="facs_85_r2l16"/>
+<zone lrx="2447" lry="1972" rendition="Line" ulx="347" uly="1846" xml:id="facs_85_r2l17"/>
+<zone lrx="1614" lry="1978" rendition="Line" ulx="1210" uly="1922" xml:id="facs_85_line_1576532885300_962"/>
+<zone lrx="2390" lry="2080" rendition="Line" ulx="367" uly="1956" xml:id="facs_85_r2l18"/>
+<zone lrx="2435" lry="2184" rendition="Line" ulx="361" uly="2056" xml:id="facs_85_r2l19"/>
+<zone lrx="2573" lry="2272" rendition="Line" ulx="342" uly="2152" xml:id="facs_85_r2l20"/>
+<zone lrx="2548" lry="2363" rendition="Line" ulx="380" uly="2249" xml:id="facs_85_r2l21"/>
+<zone lrx="2384" lry="2469" rendition="Line" ulx="333" uly="2361" xml:id="facs_85_r2l22"/>
+<zone lrx="2435" lry="2566" rendition="Line" ulx="381" uly="2450" xml:id="facs_85_r2l23"/>
+<zone lrx="2427" lry="2666" rendition="Line" ulx="377" uly="2551" xml:id="facs_85_r2l24"/>
+<zone lrx="2407" lry="2761" rendition="Line" ulx="377" uly="2658" xml:id="facs_85_r2l25"/>
+<zone lrx="1288" lry="2868" rendition="Line" ulx="398" uly="2772" xml:id="facs_85_r2l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann III., Landgraf von Leuchtenberg und Graf zu Hals</head><p>Der Rat bestätigt nach einer Laufzeit von zweieinhalb Monaten den Empfang des Briefs von Landgraf Johann wegen des Überfalls von Stefan Seemann von Mangern und Wilhelm Zachares auf mehrere Bürger zu Nürnberg und gewährt bis zum Palmtag Geleit zum Austrag.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_85" id="42r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_85_r2l11"><expan>Johanſ<ex>en</ex></expan> <expan>lantg<ex>ra</ex>f<ex>en</ex></expan> <expan>cʒü<ex>m</ex></expan> <expan>lewthemb<ex>er</ex>g</expan> </ab>
+<ab facs="#facs_85_r2l12">vnd <expan>Graf<ex>en</ex></expan> cʒü Hals </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_85_r2l13"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>e</ex>r</expan> / Als vns ewr gnad <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> hat von Steffan <expan>Seeman<ex>n</ex>s</expan> vnd </ab>
+<ab facs="#facs_85_r2l14">vvilhalm cʒachares <expan>weg<ex>en</ex></expan> / vnd das <expan>dat<ex>um</ex></expan> in <expan>ew<ex>r</ex>m</expan> brief ſteet an ſant <expan>Andr<ex>es</ex></expan> </ab>
+<ab facs="#facs_85_r2l15">tag / Derſelb ewr brief ıſt vns erſt als hewte <expan>geantw<ex>ur</ex>t</expan> <expan>vvord<ex>e</ex>n</expan> / . vnd </ab>
+<ab facs="#facs_85_r2l16">wir <expan>hab<ex>e</ex>n</expan> die <expan>vnſ<ex>er</ex>n</expan> die es antriffet beſant / vnd die klagen / daʒ ſie von </ab>
+<ab facs="#facs_85_r2l17">Jn <expan>gevange<ex>n</ex></expan> / geſchacʒet vnd Jn das Jr <expan>genome<ex>n</ex></expan> <expan>word<ex>e</ex>n</expan> ſeÿ / vnd als </ab>
+<ab facs="#facs_85_r2l18"><expan>dan<ex>n</ex></expan> ewr gnad ſchreıbt / daʒ ſie 
+<add><ab facs="#facs_85_line_1576532885300_962">mainen daʒ ſie </ab></add> das gütlıch abtragen <expan>wolt<ex>e</ex>n</expan> / . Jſt </ab>
+<ab facs="#facs_85_r2l19">es daʒ ſie darvmb cʒü vns <expan>herkume<ex>n</ex></expan> wöllen / So wöllen wir 
+<del rend="strikethrough"><expan>d<ex>er</ex></expan></del></ab>
+<ab facs="#facs_85_r2l20">
+<del rend="strikethrough"><expan>vnſ<ex>er</ex>n</expan> vnd Jr rede <expan>g<ex>er</ex>ne</expan> geneinande </del> Jn durch <expan>ew<ex>r</ex>n</expan> wıllen <expan>g<ex>er</ex>ne</expan> geleitte </ab>
+<ab facs="#facs_85_r2l21">cʒü vns vnd <expan>vo<ex>n</ex></expan> vns <expan>geb<ex>e</ex>n</expan> / wenn ſie <expan>dan<ex>n</ex></expan> <expan>hıecʒwiſch<ex>e</ex>n</expan> vnd <expan>de<ex>n</ex></expan> <expan>nehſte<ex>n</ex></expan> / </ab>
+<ab facs="#facs_85_r2l22">
+<add><ab facs="#facs_85_r1l2">palmtag </ab><ab facs="#facs_85_r1l3">cʒü vns </ab><ab facs="#facs_85_r1l4"><expan>kume<ex>n</ex></expan> </ab></add> vnd der <expan>vnſ<ex>er</ex>n</expan> vnd Jr rede geneinander <expan>v<ex>er</ex>hören</expan> / vnd beſehen ob </ab>
+<ab facs="#facs_85_r2l23">man gütlıch wege <expan>darunt<ex>er</ex></expan> vinden müge / Alſo / daʒ <expan>ew<ex>r</ex></expan> gnade ſehe </ab>
+<ab facs="#facs_85_r2l24">daʒ ſie ewr etwas darynne genieſſen ſüllen / wan wo vvir <expan>ew<ex>r</ex>n</expan> </ab>
+<ab facs="#facs_85_r2l25"><expan>gnad<ex>e</ex>n</expan> gedienen <expan>möcht<ex>e</ex>n</expan> / Das <expan>tet<ex>e</ex>n</expan> wir allcʒeit <expan>g<ex>er</ex>ne</expan> / . <expan>Dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_85_r2l26"><expan>f<ex>er</ex>ıa</expan> vj̃ . <expan>an<ex>te</ex></expan> <expan>Remı<ex>ni</ex>ſce<ex>re</ex></expan> / . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_85" id="42r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Johans<ex>en</ex></expan>,
+                            <expan>lantg<ex>ra</ex>f<ex>en</ex></expan>
+<expan>czü<ex>m</ex></expan>
+<expan>Lewthemb<ex>er</ex>g</expan> und <expan>graf<ex>en</ex></expan> czü
+                        Hals </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan>, als uns ewr gnad
+                                                  <expan>v<ex>er</ex>schr<ex>iben</ex></expan> hat
+                                                von Steffan <expan>Seeman<ex>n</ex>s</expan> und
+                                                Wilhalm Czachares <expan>weg<ex>en</ex></expan> und
+                                                das <expan>dat<ex>um</ex></expan> in
+                                          <expan>ew<ex>r</ex>m</expan> brief steet an <app><note><q type="date">sant
+                                            <expan>Andr<ex>es</ex></expan> tag</q>30.11.1409</note></app>. Derselb ewr
+                                                brief ist uns erst als hewte
+                                                  <expan>geantw<ex>ur</ex>t</expan>
+<expan>word<ex>e</ex>n</expan>. Und wir
+                                                  <expan>hab<ex>e</ex>n</expan> die
+                                                  <expan>uns<ex>er</ex>n</expan>, die es antriffet,
+                                                besant und die klagen, daz sie von in
+                                                  <expan>gevange<ex>n</ex></expan>, geschaczet und
+                                                in das ir <expan>genome<ex>n</ex></expan>
+<expan>word<ex>e</ex>n</expan> sey; und als
+                                                  <expan>dan<ex>n</ex></expan> ewr gnad schreibt,
+                                                daz sie <add>mainen, daz sie</add> das gütlich
+                                                abtragen <expan>wolt<ex>e</ex>n</expan>. Ist es, daz
+                                                sie darumb czü uns <expan>herkume<ex>n</ex></expan>
+                                                wöllen, so wöllen wir in durch
+                                                  <expan>ew<ex>r</ex>n</expan> willen
+                                                  <expan>g<ex>er</ex>ne</expan> geleitte czü uns und
+                                                  <expan>vo<ex>n</ex></expan> uns
+                                                  <expan>geb<ex>e</ex>n</expan>, wenn sie
+                                                  <expan>dan<ex>n</ex></expan>
+<expan>hieczwisch<ex>e</ex>n</expan> und
+                                                  <expan>de<ex>n</ex></expan>
+<expan>nehste<ex>n</ex></expan>
+<add><app><note><q type="date">palmtag</q>16.03.1410</note></app> czü uns <expan>kume<ex>n</ex></expan></add> und der
+                                                  <expan>uns<ex>er</ex>n</expan> und ir rede
+                                                geneinander <expan>v<ex>er</ex>hören</expan> und
+                                                besehen, ob man gütlich wege
+                                                  <expan>darunt<ex>er</ex></expan> vinden müge. Also
+                                                daz <expan>ew<ex>r</ex></expan> gnade sehe, daz sie
+                                                ewr etwas darynne geniessen süllen. Wan wo wir
+                                                  <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>e</ex>n</expan> gedienen
+                                                  <expan>möcht<ex>e</ex>n</expan>, das
+                                                  <expan>tet<ex>e</ex>n</expan> wir allczeit
+                                                  <expan>g<ex>er</ex>ne</expan>.
+                                                  <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi
+                                                  <expan>an<ex>te</ex></expan>
+<expan>remi<ex>ni</ex>sce<ex>re</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

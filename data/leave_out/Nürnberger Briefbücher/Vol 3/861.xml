@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="861" xml:id="l872" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 861 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>093r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 861.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q16598815" type="recipient">Marin, Rosso</persName><persName type="recipient">Charabello, Marin</persName><persName type="recipient">Zane, Pollo</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q641" type="mention">Venedig (Italien)</placeName><placeName type="mention">Verona, Italien</placeName><persName type="mention">Steno, Michele, Doge v. Venedig</persName></ab><date from="16-11-1410" to="16-11-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_187">
+<surface lrx="2808" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0095_right.png" width="2808px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_187_r2">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an die advocatores communis von Venedig, Rosso Marin, Marin Charabello und Pollo Zane</head><p>Der Rat bittet um Geleit für die Nürnberger Kaufleute im Dominium Verona.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_187" id="93r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab>Anm. der Editoren: Der lateinische Text ist lediglich normalisiert transkribiert.</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_187" id="93r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Spectabilib<ex>us</ex></expan>
+<expan>d<ex>omi</ex>nis</expan> Rosso Marin, Marin Charabello, Pollo
+                            <expan>Zan<ex>n</ex>e</expan>, <expan>advocator<ex>is</ex></expan>
+<expan>co<ex>m</ex>m<ex>u</ex>n<ex>itatis</ex></expan> Venetia<ex>rum</ex>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>P<ex>ro</ex>mpt<ex>er</ex></expan>
+<expan>s<ex>er</ex>viciis</expan>
+<expan>n<ex>ost</ex>ris</expan> preegregie <expan>nobili<ex>ta</ex><hi rend="sup">ti</hi></expan>
+<expan>v<ex>est</ex>re</expan>
+<expan>sinc<ex>er</ex>issimis</expan>
+<expan>aff<ex>ec</ex>tibus</expan>
+<expan>iugit<ex>er</ex></expan>
+<expan>preoblat<ex>is</ex></expan>. Nobiles egregii d<ex>ominu</ex>m
+                        fautores et amici <expan>k<ex>arissi</ex>mi</expan>.
+                                <expan>Excelsu<ex>m</ex></expan> et mag<ex>ni</ex>ficu<ex>m</ex>
+<expan>d<ex>omi</ex>n<ex>u</ex>m</expan> ducem
+                            <expan>Venet<ex>is</ex></expan> ac nobiles et egregios
+                                <expan>duc<ex>e</ex>s</expan> eius
+                            <expan>vene<ex>r</ex>abile</expan>
+<expan>consiliu<ex>m</ex></expan> nos et <expan>n<ex>ost</ex>ri</expan>
+<expan>hacten<ex>us</ex></expan> quidem <expan>habuim<ex>us</ex></expan>
+<expan>duc<ex>e</ex>s</expan>
+<expan>g<ex>lo</ex>r<ex>i</ex>osos</expan> favorabiles
+                            <expan><ex>et</ex></expan> benignos qui ei<ex>is</ex>
+<expan>n<ex>ostr</ex>is</expan>
+<expan>liberalit<ex>er</ex></expan>
+<expan>an<ex>n</ex>uentes</expan> p<ex>ro</ex>videru<ex>n</ex>t et eos salvi
+                        conductus <expan>gr<ex>ati</ex>a<ex>m</ex></expan>
+<expan>privilegiaru<ex>n</ex>t</expan> ac alias erga nos et
+                                <expan>n<ex>ost</ex>ros</expan>
+<expan>semp<ex>er</ex></expan>
+<expan>g<ex>lo</ex>r<ex>i</ex>osius</expan> tenuerunt. Circa que
+                                <expan>etia<ex>m</ex></expan> nos et <expan>n<ex>ost</ex>ri</expan>
+                            favorabiliu<ex>m</ex>
+<expan>p<ex>ro</ex>mot<ex>i</ex>onum</expan>
+<expan>p<ex>er</ex></expan> vos <expan>notabilit<ex>er</ex></expan>
+<expan>adhibita<ex>rum</ex></expan>
+<expan>pieq<ex>ue</ex></expan>
+<expan>exhibita<ex>rum</ex></expan>
+<expan>eff<ex>e</ex>c<ex>tu</ex>m</expan> bene
+                            <expan>p<ex>er</ex>cepimus</expan>
+<expan>at<ex>que</ex></expan>
+<expan>sensim<ex>us</ex></expan> ab ex <expan>p<ex>ar</ex>to</expan> civis
+                                <expan>et<ex>iam</ex>
+</expan> in antea tam ad p<ex>rae</ex>fatos alios
+                            <expan>duc<ex>e</ex>s</expan>
+<expan>n<ex>ost</ex>ros</expan>
+<expan>q<ex>uem</ex></expan> ad vos integram
+                            <expan>evidentemq<ex>ue</ex></expan>
+<expan>fiducia<ex>m</ex></expan>
+<expan>retinem<ex>us</ex></expan>. Modo <expan>quida<ex>m</ex></expan> cives
+                        <expan><ex>et</ex></expan> <expan>mercato<ex>r</ex>es</expan> <expan>n<ex>ost</ex>ri</expan>
+                        retulerunt nobis <expan>qual<ex>ite</ex>r</expan>
+<expan>ip<ex>s</ex>is</expan> iam certa <expan>obstac<ex>u</ex>la</expan>
+                        evenerint ex <expan>p<ex>ar</ex>te</expan>
+<expan>re<ex>rum</ex></expan>
+<expan>mercimonialiu<ex>m</ex></expan> quas <expan>p<ex>er</ex></expan>
+<expan>districu<ex>m</ex></expan> dominii <expan>Veronen<ex>sis</ex></expan>
+<expan>t<ex>ra</ex>nsduce<ex>re</ex></expan>
+<expan>p<ex>er</ex>miserint</expan> quocirca impediti
+                            <expan>atq<ex>ue</ex></expan>
+<expan>g<ex>ra</ex>vati</expan> sint <expan>alit<ex>er</ex></expan> quam
+                        pridem hactenus sit <expan>p<ex>er</ex>venia<ex>m</ex></expan>. Unde
+                                <expan>nobili<ex>ta</ex><hi rend="sup">ti</hi></expan>
+<expan>v<ex>est</ex>re</expan>
+<expan>o<ex>mn</ex>i</expan> quo <expan>possum<ex>us</ex></expan> studio
+                                <expan>supplicam<ex>us</ex></expan>
+<expan>q<ex>ua</ex>t<ex>en</ex>us</expan> auxilia et
+                                <expan>p<ex>ro</ex>moc<ex>i</ex>o<ex>n</ex>es</expan>
+                        v<ex>est</ex>ras ad ea benigne <expan>velit<ex>is</ex></expan>
+<expan>impende<ex>re</ex></expan>
+<expan>q<ex>ui</ex></expan> cives <expan><ex>et</ex></expan> mercatores
+                                <expan>n<ex>ost</ex>ri</expan> in salvo
+                            <expan><ex>con</ex>ductu</expan> ac alias
+                            <expan>remanea<ex>n</ex>t</expan>
+<expan>atq<ex>ue</ex></expan> erga eos obs<ex>er</ex>vetur
+                                <expan>q<ex>uem</ex>admod<ex>um</ex></expan> hactenus
+                                <expan>g<ex>lo</ex>r<ex>i</ex>ose</expan>
+<expan>p<ex>rae</ex>bentu<ex>m</ex></expan> et
+                                <expan>obs<ex>er</ex>vatu<ex>m</ex></expan> existit et
+                                <expan>quicq<ex>uam</ex></expan> eos ultra <expan>h<hi rend="sup">o</hi><ex>c</ex></expan> dare oportuit
+                            <expan>restituat<ex>ur</ex></expan> eisdem et
+                                <expan>h<ex>uius</ex>mo<ex>d</ex>i</expan> in
+                                <expan>solito<ex>rum</ex></expan>
+<expan>g<ex>ra</ex>vaminu<ex>m</ex></expan>
+<expan>dec<ex>r</ex>eto</expan>
+<expan>r<ex>e</ex>manea<ex>n</ex>t</expan> supportati. Et placeat egregie
+                                <expan>nobili<ex>ta</ex><hi rend="sup">ti</hi></expan>
+                        v<ex>est</ex>re cives <expan><ex>et</ex></expan>
+<expan>mercato<ex>r</ex>es</expan>
+<expan>n<ex>ost</ex>ros</expan> favorabiliter
+                            <expan>rec<ex>om</ex>missos</expan>
+<expan>h<ex>abe</ex>re</expan>. <expan>P<ex>ro</ex>ut</expan> de
+                                <expan>benignitatib<ex>us</ex></expan>
+<expan>v<ex>est</ex>ris</expan>
+<expan>huiusq<ex>ue</ex></expan>
+<expan>face<ex>re</ex></expan> dignati estis et vos nos
+                                <expan>pietatib<ex>us</ex></expan>
+<expan>v<ex>est</ex>ris</expan> plenarie
+                            <expan>co<ex>n</ex>fidim<ex>us</ex></expan>
+<expan>atq<ex>ue</ex></expan>
+<expan>o<ex>mn</ex>i</expan>
+<expan>t<ex>em</ex>p<ex>or</ex>e</expan> libenti
+                                <expan>a<ex>n</ex>i<ex>m</ex>o</expan> et
+                            <expan>affectuq<ex>ue</ex></expan> obsequiis
+                            <expan>cupim<ex>us</ex></expan> et <expan>volum<ex>us</ex></expan> in
+                                <expan>quib<ex>us</ex></expan>
+<expan>potu<ex>i</ex>m<ex>us</ex></expan>
+<expan>p<ex>ro</ex>meri</expan>. <expan>Dat<ex>um</ex></expan> ut
+                                <expan>sup<ex>ra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

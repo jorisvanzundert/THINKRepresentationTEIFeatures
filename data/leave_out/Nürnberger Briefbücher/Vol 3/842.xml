@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="842" xml:id="l853" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 842 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>086v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 842.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q62216" type="recipient">Heinrich XVI. v. Wittelsbach, Hzg. v. Bayern-Landshut</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3974" type="mention">Landshut</placeName><persName type="mention">Waltmann, Marquart</persName><persName type="mention">Woltzhofer, Christian</persName><persName type="mention">Fünsinger, Urban</persName></ab><date from="8-10-1410" to="5-11-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_174">
+<surface lrx="2793" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0089_left.png" width="2793px"/>
+<zone lrx="467" lry="845" rendition="TextRegion" ulx="292" uly="1429" xml:id="facs_174_r1">
+<zone lrx="736" lry="845" rendition="Line" ulx="274" uly="797" xml:id="facs_174_r1l1"/>
+<zone lrx="715" lry="899" rendition="Line" ulx="292" uly="855" xml:id="facs_174_r1l2"/>
+<zone lrx="467" lry="956" rendition="Line" ulx="265" uly="907" xml:id="facs_174_r1l3"/>
+<zone lrx="723" lry="1480" rendition="Line" ulx="273" uly="1429" xml:id="facs_174_r1l4"/>
+</zone>
+<zone lrx="1515" lry="348" rendition="TextRegion" ulx="1826" uly="1758" xml:id="facs_174_r2">
+<zone lrx="1864" lry="348" rendition="Line" ulx="1155" uly="279" xml:id="facs_174_r2l1"/>
+<zone lrx="2484" lry="497" rendition="Line" ulx="785" uly="431" xml:id="facs_174_r2l2"/>
+<zone lrx="1515" lry="496" rendition="Line" ulx="1344" uly="459" xml:id="facs_174_r2l3"/>
+<zone lrx="2554" lry="567" rendition="Line" ulx="779" uly="489" xml:id="facs_174_r2l4"/>
+<zone lrx="2589" lry="646" rendition="Line" ulx="787" uly="560" xml:id="facs_174_r2l5"/>
+<zone lrx="2531" lry="719" rendition="Line" ulx="793" uly="636" xml:id="facs_174_r2l6"/>
+<zone lrx="2493" lry="792" rendition="Line" ulx="807" uly="712" xml:id="facs_174_r2l7"/>
+<zone lrx="2531" lry="876" rendition="Line" ulx="793" uly="788" xml:id="facs_174_r2l8"/>
+<zone lrx="2472" lry="941" rendition="Line" ulx="792" uly="866" xml:id="facs_174_r2l9"/>
+<zone lrx="2593" lry="1028" rendition="Line" ulx="789" uly="944" xml:id="facs_174_r2l10"/>
+<zone lrx="2477" lry="1101" rendition="Line" ulx="768" uly="1024" xml:id="facs_174_r2l11"/>
+<zone lrx="2593" lry="1176" rendition="Line" ulx="775" uly="1105" xml:id="facs_174_r2l12"/>
+<zone lrx="2565" lry="1256" rendition="Line" ulx="772" uly="1183" xml:id="facs_174_r2l13"/>
+<zone lrx="2612" lry="1334" rendition="Line" subtype="paragraph" ulx="788" uly="1256" xml:id="facs_174_line_1576589644467_6446"/>
+<zone lrx="2687" lry="1369" rendition="Line" ulx="1826" uly="1320" xml:id="facs_174_r2l16"/>
+<zone lrx="2593" lry="1418" rendition="Line" ulx="785" uly="1359" xml:id="facs_174_r2l17"/>
+<zone lrx="2570" lry="1509" rendition="Line" ulx="735" uly="1427" xml:id="facs_174_r2l18"/>
+<zone lrx="2576" lry="1581" rendition="Line" subtype="paragraph" ulx="781" uly="1514" xml:id="facs_174_r2l19"/>
+<zone lrx="2481" lry="1673" rendition="Line" ulx="768" uly="1597" xml:id="facs_174_r2l20"/>
+<zone lrx="2546" lry="1754" rendition="Line" ulx="778" uly="1683" xml:id="facs_174_r2l21"/>
+<zone lrx="2061" lry="1821" rendition="Line" ulx="783" uly="1758" xml:id="facs_174_r2l22"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich XVI. von Wittelsbach, Herzog von Bayern-Landshut</head><p>Der Rat entsendet erneut Marquart Waltmann, Diener der Stadt, wegen Herausgabe von Tuchen des Christian Woltzhofer, Bürger zu Nürnberg, die in einer Herberge zu Landshut beschlagnahmt wurden, und bittet um Rückgabe.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_174" id="86v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_174_r2l1">Hercʒog <expan>Heinr<ex>ich</ex></expan> in Bayern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_174_r2l2"><expan>Gnedig<ex>er</ex></expan> herre Als wir
+                                <expan>ewr<ex>er</ex></expan> hochwirdikeit voꝛmals etwieoffte </ab>
+<ab facs="#facs_174_r2l4">
+<expan>v<ex>er</ex>ſchrıb<ex>e</ex>n</expan> / vnd auch <del rend="strikethrough"><expan>Markart<ex>en</ex></expan> waltman </del>
+<add><ab facs="#facs_174_r2l3">etlıche </ab></add>
+<expan>vnſ<ex>er</ex>er</expan> diener / vnd mit = </ab>
+<ab facs="#facs_174_r2l5">namen den <expan>Mark<ex>art</ex></expan> waltman cʒu
+                                <expan>ew<ex>r</ex>n</expan> gnaden geſant
+                            <expan>hab<ex>e</ex>n</expan> von der </ab>
+<ab facs="#facs_174_r2l6">
+<del rend="strikethrough">vie </del> Tuche vvegen / die dem Criſtan
+                        wolcʒhofer <expan>vnſ<ex>er</ex>m</expan> burger </ab>
+<ab facs="#facs_174_r2l7">cʒu landſhute in Vrban fünſingers herberg genomen ſein </ab>
+<ab facs="#facs_174_r2l8">woꝛden <add><ab facs="#facs_174_r1l1">vnd auch
+                                etlıcher </ab><ab facs="#facs_174_r1l2"><expan>and<ex>er</ex>r</expan>
+<expan>vnſ<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan>
+</ab><ab facs="#facs_174_r1l3">wegen </ab></add> hat vns der
+                                <expan>egen<ex>an</ex>t<ex>e</ex></expan> ~
+                            <expan>vnſ<ex>er</ex></expan>
+<del rend="strikethrough"> b </del> diener geſagt / vvie Jm </ab>
+<ab facs="#facs_174_r2l9"><expan>ew<ex>r</ex></expan> gnade als Er nehſt beẏ
+                                <expan>ewr<ex>er</ex></expan>
+<expan>hochwirdık<ex>eit</ex></expan> geweſen ſeẏ cʒu </ab>
+<ab facs="#facs_174_r2l10"><expan>antvv<ex>ur</ex>t</expan>
+<expan>geb<ex>e</ex>n</expan> hab / daʒ <del rend="strikethrough"> Jr von
+                                </del><expan>ew<ex>r</ex>
+<del rend="strikethrough">n</del></expan> gnaden ſchıcken vnd beſtellen </ab>
+<ab facs="#facs_174_r2l11">wölle <del rend="strikethrough">t </del> / daʒ dem
+                                <expan>egen<ex>an</ex>t<ex>en</ex></expan> Criſtan wolcʒhofer
+                                <expan>vnſ<ex>er</ex>m</expan>
+<expan>burge<ex>r</ex></expan> die </ab>
+<ab facs="#facs_174_r2l12">
+<expan>ſelb<ex>e</ex>n</expan> ſeine tuch <del rend="strikethrough">vergolten </del> kürcʒlich vergolten vnd gekert ſüllen </ab>
+<ab facs="#facs_174_r2l13"> werden <del rend="strikethrough">ſüllen </del> vnd
+                        alſo <del rend="strikethrough">ſ </del> kümt derſelb
+                            <expan>Mark<ex>art</ex></expan>
+<del rend="strikethrough"><expan>vnſ<ex>er</ex></expan> d </del> waltman </ab>
+<ab facs="#facs_174_line_1576589644467_6446"><expan>yecʒund<ex>en</ex></expan>
+                        aber cʒu <expan>ew<ex>r</ex>n</expan> gnaden von den
+                                <expan>vorg<ex>enanten</ex></expan> ~ <expan>vnſ<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>
+<del rend="strikethrough"><expan>wege<ex>n</ex></expan></del></ab>
+<ab facs="#facs_174_r2l17">vnd <expan>derſelb<ex>e</ex>n</expan>
+<expan>ſeın<ex>er</ex></expan> tuche <expan>wege<ex>n</ex></expan>
+<expan>Ro<ex>gamus</ex></expan> / <del rend="strikethrough"> daʒ Jr von
+                                    <expan>ew<ex>r</ex>n</expan>
+<expan>furſtlenl<ex>ichen</ex></expan></del>
+<add><ab facs="#facs_174_r2l16">vvaʒ der <expan>eg<ex>enante</ex></expan>
+<expan>vnſ<ex>er</ex></expan> dıener in
+                                    <expan>derſ<ex>elben</ex></expan> ſache etc </ab></add>
+</ab>
+<ab facs="#facs_174_r2l18">
+<add><ab facs="#facs_174_r1l4">vnd auch <expan>ew<ex>r</ex></expan>
+<expan>fürſtenl<ex>ich</ex></expan>
+</ab></add> gnaden <del rend="strikethrough"> ſchicken d </del>
+                        gnedıklıch darcʒu wenden wöllet / daʒ dem </ab>
+<ab facs="#facs_174_r2l19">
+<expan>egen<ex>anten</ex></expan> ~ <del rend="strikethrough"><expan>vnſ<ex>erm</ex></expan> b </del>
+<expan>vnſ<ex>er</ex>m</expan> burger <expan>dieſelb<ex>e</ex>n</expan>
+                        ſeine tuche noch <expan>onleng<ex>er</ex></expan>
+</ab>
+<ab facs="#facs_174_r2l20"><expan>v<ex>er</ex>cʒıhen</expan>
+<expan>v<ex>er</ex>golten</expan> vnd gekert werden / daʒ Er des fürbaʒ icht </ab>
+<ab facs="#facs_174_r2l21">
+<expan>ʒugroſſere<ex>m</ex></expan> ſchaden kume / Als etc <del rend="strikethrough">das <expan>wölle<ex>n</ex></expan> etc </del> vnd
+                        das </ab>
+<ab facs="#facs_174_r2l22">vmb <expan>ew<ex>r</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>allcʒ<ex>eit</ex></expan>
+<expan>v<ex>er</ex>dıenen</expan>
+<expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_174" id="86v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Herczog <expan>Heinr<ex>ich</ex></expan> in Bayern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan> herre, als wir
+                            <expan>ewr<ex>er</ex></expan> hochwirdikeit vormals etwieoffte
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> und auch
+                            <add>etliche</add>
+<expan>uns<ex>er</ex>er</expan> diener und mitnamen den
+                                <expan>Mark<ex>art</ex></expan> Waltman czu
+                            <expan>ew<ex>r</ex>n</expan> gnaden gesant <expan>hab<ex>e</ex>n</expan>
+                        von der tuche wegen, die dem Cristan Wolczhofer,
+                            <expan>uns<ex>er</ex>m</expan> burger, czu Landshute in Urban Fünsingers
+                        herberg genomen sein worden, <add>und auch etlicher
+                                <expan>and<ex>er</ex>r</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> wegen</add>; hat uns der
+                                <expan>egen<ex>an</ex>t<ex>e</ex></expan>
+<expan>uns<ex>er</ex></expan> diener gesagt, wie im
+                            <expan>ew<ex>r</ex></expan> gnade, als er nehst bey
+                                <expan>ewr<ex>er</ex></expan>
+<expan>hochwirdik<ex>eit</ex></expan> gewesen sey, czu
+                                <expan>antw<ex>ur</ex>t</expan>
+<expan>geb<ex>e</ex>n</expan> hab, daz <expan>ew<ex>r</ex></expan> gnaden
+                        schicken und bestellen wölle, daz dem
+                            <expan>egen<ex>an</ex>t<ex>en</ex></expan> Cristan Wolczhofer,
+                                <expan>uns<ex>er</ex>m</expan>
+<expan>burge<ex>r</ex></expan>, die <expan>selb<ex>e</ex>n</expan> seine
+                        tuch kürczlich vergolten und gekert süllen werden; und also kümt derselb
+                                <expan>Mark<ex>art</ex></expan> Waltman
+                            <expan>yeczund<ex>en</ex></expan> aber czu <expan>ew<ex>r</ex>n</expan>
+                        gnaden von den <expan>vorg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan> und <expan>derselb<ex>e</ex>n</expan>
+<expan>sein<ex>er</ex></expan> tuche <expan>wege<ex>n</ex></expan>.
+                                <expan>Ro<ex>gamus</ex></expan>, <add>waz der
+                                    <expan>eg<ex>enante</ex></expan>
+<expan>uns<ex>er</ex></expan> diener in
+                                <expan>ders<ex>elben</ex></expan> sache etc.</add>
+<add>und auch <expan>ew<ex>r</ex></expan>
+<expan>fürstenl<ex>ich</ex></expan></add> gnaden gnediklich darczu
+                        wenden wöllet, daz dem <expan>egen<ex>anten</ex></expan>
+<expan>uns<ex>er</ex>m</expan> burger <expan>dieselb<ex>e</ex>n</expan>
+                        seine tuche noch <expan>onleng<ex>er</ex></expan>
+<expan>v<ex>er</ex>czihen</expan>
+<expan>v<ex>er</ex>golten</expan> und gekert werden, daz er des fürbaz icht
+                            <expan>zu grossere<ex>m</ex></expan> schaden kume. Als etc. und das umb
+                                <expan>ew<ex>r</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>allcz<ex>eit</ex></expan>
+<expan>v<ex>er</ex>dienen</expan>
+<expan>wölle<ex>n</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

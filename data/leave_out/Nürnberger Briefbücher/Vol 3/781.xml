@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="781" xml:id="l790" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 781 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>074r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 781.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><orgName type="recipient">Domkapitel (Bamberg)</orgName><persName type="recipient">Stieber, Friedrich, Dekan d. Domkapitels v. Bamberg</persName></ab><ab type="mention"><persName type="mention">Molitor, Konrad</persName><persName type="mention">Lochner, Eberhard</persName><persName type="mention">N., N., Richter d. Bamberger Domkapitels</persName></ab><date from="8-08-1410" to="8-08-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_149">
+<surface lrx="2794" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0076_right.png" width="2794px"/>
+<zone lrx="1847" lry="2315" rendition="TextRegion" ulx="757" uly="2758" xml:id="facs_149_r2"> <zone lrx="1847" lry="2315" rendition="Line" ulx="757" uly="2247" xml:id="facs_149_r2l20"/>
+<zone lrx="2518" lry="2491" rendition="Line" ulx="161" uly="2390" xml:id="facs_149_r2l21"/>
+<zone lrx="2392" lry="2591" rendition="Line" subtype="paragraph" ulx="172" uly="2478" xml:id="facs_149_r2l22"/>
+<zone lrx="2379" lry="2678" rendition="Line" ulx="172" uly="2574" xml:id="facs_149_r2l23"/>
+<zone lrx="2546" lry="2767" rendition="Line" ulx="166" uly="2662" xml:id="facs_149_r2l24"/>
+<zone lrx="2524" lry="2868" rendition="Line" ulx="180" uly="2758" xml:id="facs_149_r2l25"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Friedrich Stieber, Dekan, und das Domkapitel von Bamberg</head><p>Der Rat bittet erneut um Vermittlung beim Richter in Erfurt wegen Lösung von Konrad Molitor und Eberhard Lochner, Bürger zu Nürnberg, aus dem Bann.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_149" id="74r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_149_r2l20">Dechant vnd Capitel cʒü <expan>Bamb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_149_r2l21"><expan>Lieb<ex>e</ex>n</expan> <expan>h<ex>er</ex>ren</expan> / Als vvir ew vormals <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> vnd <expan>gepet<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> / <expan>vo<ex>n</ex></expan> C . Molıtor </ab>
+<ab facs="#facs_149_r2l22">vnd <expan>Eb<ex>erhart</ex></expan> <expan>Lochn<ex>er</ex>s</expan> <expan>vnſ<ex>er</ex>r</expan> <expan>B<ex>ur</ex>g<ex>er</ex></expan> <expan>vveg<ex>en</ex></expan> Alſo <expan>Ro<ex>gamus</ex></expan> <expan>ab<ex>er</ex></expan> / daʒ Jr <expan>d<ex>ur</ex>h</expan> <expan>vnſ<ex>er</ex>n</expan> <expan>wılle<ex>n</ex></expan> </ab>
+<ab facs="#facs_149_r2l23">die ſache <expan>vo<ex>n</ex></expan> des pannes <expan>wege<ex>n</ex></expan> gen Jn ablaſſen vnd Jn ewr brıef vnd </ab>
+<ab facs="#facs_149_r2l24">fürdrung an <expan>ew<ex>r</ex>n</expan> <expan>Rıcht<ex>er</ex></expan> gen Erfürt <expan>geb<ex>e</ex>n</expan> wöllet / daʒ ſie aws <expan>de<ex>m</ex></expan> panne <expan>kume<ex>n</ex></expan> </ab>
+<ab facs="#facs_149_r2l25">
+<del rend="strikethrough">gelaſſen <expan>werd<ex>e</ex>n</expan></del> / Als etc . Das <expan>wölle<ex>n</ex></expan> / <expan>Antw<ex>ur</ex>t</expan> / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> <expan>Sex<ex>ta</ex></expan> <expan>an<ex>te</ex></expan> <expan>laure<ex>n</ex>cj</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_149" id="74r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Dechant und capitel czü <expan>Bamb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan>
+<expan>h<ex>er</ex>ren</expan>, als wir ew vormals
+              <expan>v<ex>er</ex>schr<ex>iben</ex></expan> und <expan>gepet<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan>
+<expan>vo<ex>n</ex></expan>
+<expan>C<ex>onrad</ex></expan> Molitor und <expan>Eb<ex>erhart</ex></expan>
+<expan>Lochn<ex>er</ex>s</expan>, <expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex></expan>, <expan>weg<ex>en</ex></expan>, also
+                <expan>ro<ex>gamus</ex></expan>
+<expan>ab<ex>er</ex></expan>, daz ir <expan>d<ex>ur</ex>h</expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> die sache <expan>vo<ex>n</ex></expan> des pannes
+                <expan>wege<ex>n</ex></expan> gen in ablassen und in ewr brief und fürdrung an
+                <expan>ew<ex>r</ex>n</expan>
+<expan>richt<ex>er</ex></expan> gen Erfürt <expan>geb<ex>e</ex>n</expan> wöllet, daz sie
+            aws <expan>de<ex>m</ex></expan> panne <expan>kume<ex>n</ex></expan>, als etc. Das
+                <expan>wölle<ex>n</ex></expan>. <expan>Antw<ex>ur</ex>t</expan>.
+                <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan>
+<expan>sex<ex>ta</ex></expan>
+<expan>an<ex>te</ex></expan>
+<expan>Laure<ex>n</ex>ci</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

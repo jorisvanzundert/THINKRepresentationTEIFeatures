@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="811" xml:id="l820" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 811 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>079v-080r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 811.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Marschalk, Dietz</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q514058" type="mention">Geiselwind (Markt, Lk. Kitzingen)</placeName><persName type="mention">Treuchtlingen, Wirich IV. v.</persName><persName type="mention">Zollner, Kathrin</persName><persName type="mention">Tann, Georg v. d.</persName></ab><date from="10-09-1410" to="8-10-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_160">
+<surface lrx="2772" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0082_left.png" width="2772px"/>
+<zone lrx="1731" lry="3039" rendition="TextRegion" ulx="1117" uly="3433" xml:id="facs_160_r1"> <zone lrx="1731" lry="3039" rendition="Line" ulx="1117" uly="2968" xml:id="facs_160_r1l31"/>
+<zone lrx="2556" lry="3188" rendition="Line" subtype="paragraph" ulx="315" uly="3087" xml:id="facs_160_r1l32"/>
+<zone lrx="2646" lry="3294" rendition="Line" ulx="316" uly="3161" xml:id="facs_160_r1l33"/>
+<zone lrx="2604" lry="3404" rendition="Line" ulx="324" uly="3252" xml:id="facs_160_r1l34"/>
+<zone lrx="2609" lry="3514" rendition="Line" subtype="paragraph" ulx="341" uly="3349" xml:id="facs_160_r1l35"/>
+<zone lrx="2673" lry="3612" rendition="Line" ulx="317" uly="3433" xml:id="facs_160_r1l36"/>
+</zone>
+</surface>
+</facsimile>
+<facsimile xml:id="facs_161">
+<surface lrx="2789" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0082_right.png" width="2789px"/>
+<zone lrx="2309" lry="3172" rendition="TextRegion" ulx="1709" uly="3429" xml:id="facs_161_r1"> <zone lrx="2643" lry="3172" rendition="Line" ulx="103" uly="3051" xml:id="facs_161_r1l37"/>
+<zone lrx="2644" lry="3265" rendition="Line" subtype="paragraph" ulx="179" uly="3160" xml:id="facs_161_r1l38"/>
+<zone lrx="2560" lry="3358" rendition="Line" ulx="175" uly="3275" xml:id="facs_161_r1l39"/>
+<zone lrx="2484" lry="3446" rendition="Line" subtype="paragraph" ulx="185" uly="3362" xml:id="facs_161_r1l40"/>
+<zone lrx="2309" lry="3503" rendition="Line" ulx="1709" uly="3429" xml:id="facs_161_r1l41"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Dietz Marschalk</head><p>Der Rat bittet nach Vermittlung durch Wirich von Treuchtlingen, Reichsschultheiß zu Nürnberg, wegen der Beschlagnahme zu Geiselwind zwischen Kathrin Zollner, Bürgerin zu Nürnberg, und Georg von der Tann um gerichtlichen Austrag.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_160" id="79v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_160_r1l31">Dıecʒen Marſchalk </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_160_r1l32"><expan>Lıeb<ex>er</ex></expan> / Diecʒ / Als her wirıch <expan>vo<ex>n</ex></expan> <expan>Trewtling<ex>en</ex></expan> <expan>biſſ<ex>er</ex></expan> <expan>Schulth<ex>eiſʒ</ex></expan> nehſt <expan>vo<ex>n</ex></expan> </ab>
+<ab facs="#facs_160_r1l33"><expan>vnſ<ex>er</ex>n</expan> <expan>weg<ex>en</ex></expan> mit ew geredt hat / daʒ Jr ew <expan>d<ex>er</ex></expan> ſache <expan>anneme<ex>n</ex></expan> wöllet / <expan>cʒwiſch<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_160_r1l34">frawn <expan>kathr<ex>ein</ex></expan> <expan>Cʒolln<ex>er</ex>in</expan> <expan>vnſ<ex>er</ex>r</expan> <expan>B<ex>ur</ex>g<ex>er</ex>in</expan> / vnd <expan>Görge<ex>n</ex></expan> <expan>vo<ex>n</ex></expan> <expan>d<ex>er</ex></expan> Tanne von <expan>d<ex>er</ex></expan> nam </ab>
+<ab facs="#facs_160_r1l35"><expan>weg<ex>en</ex></expan> cʒü Geyſelwinden / hat vns her <expan>wirıch
+<del rend="strikethrough"><ex>e</ex>n</del></expan> geſagt / daʒ Jr <expan>geſproche<ex>n</ex></expan> </ab>
+<ab facs="#facs_160_r1l36">habt / Jr wöllet ew <expan>d<ex>er</ex></expan> ſache <expan>g<ex>er</ex>n</expan> <expan>vnt<ex>er</ex>winde<ex>n</ex></expan> / wenn wir ew ſelber / </ab>
+<pb facs="#facs_161" id="80r"/>
+<ab facs="#facs_161_r1l37"><expan>darv<ex>m</ex>b</expan> <expan>ſchreıb<ex>e</ex>n</expan> / vnd alſo <expan>Ro<ex>gamus</ex></expan> / daʒ Jr ew <expan>d<ex>er</ex>ſelb<ex>e</ex>n</expan> ſache 
+<del rend="strikethrough"><expan>d<ex>ur</ex>h</expan> <expan>vnſ<ex>er</ex>n</expan> <expan>wılle<ex>n</ex></expan></del> <expan>anneme<ex>n</ex></expan> </ab>
+<ab facs="#facs_161_r1l38">vnd des <expan>d<ex>er</ex></expan> <expan>eg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>r</expan> <expan>B<ex>ur</ex>g<ex>er</ex>in</expan> <expan>gelege<ex>n</ex></expan> tag <expan>ſecʒe<ex>n</ex></expan> wöllet / darauf ſie <expan>g<ex>er</ex>ne</expan> <expan>ſchıcke<ex>n</ex></expan> </ab>
+<ab facs="#facs_161_r1l39">wil / vnd laʒʒet ew das <expan>d<ex>ur</ex>h</expan> <expan>vnſ<ex>er</ex>n</expan> <expan>wılle<ex>n</ex></expan> <expan>empfolhe<ex>n</ex></expan> ſein / Alſo daʒ des <expan>d<ex>er</ex>ſelb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_161_r1l40"><expan>vnſ<ex>er</ex>r</expan> <expan>B<ex>ur</ex>g<ex>er</ex>in</expan> kurʒlich ein awſtrag <expan>w<ex>er</ex>de</expan> / das <expan>wölle<ex>n</ex></expan> etc <expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ia</expan> ṽ </ab>
+<ab facs="#facs_161_r1l41"><expan>p<ex>oſt</ex></expan> xi <expan>milıu<ex>m</ex></expan> <expan>v<ex>ir</ex>gınu<ex>m</ex></expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_160" id="79v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Dieczen Marschalk </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> Diecz, als her Wirich
+                            <expan>vo<ex>n</ex></expan>
+<expan>Trewtling<ex>en</ex></expan>, <expan>biss<ex>er</ex></expan>
+<expan>schulth<ex>eisz</ex></expan>, nehst <expan>vo<ex>n</ex></expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>weg<ex>en</ex></expan> mit ew geredt hat, daz ir ew
+                                <expan>d<ex>er</ex></expan> sache <expan>anneme<ex>n</ex></expan>
+                        wöllet <expan>czwisch<ex>e</ex>n</expan> frawn
+                            <expan>Kathr<ex>ein</ex></expan>
+<expan>Czolln<ex>er</ex>in</expan>, <expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>in</expan>, und
+                            <expan>Görge<ex>n</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>d<ex>er</ex></expan> Tanne von <expan>d<ex>er</ex></expan> nam
+                                <expan>weg<ex>en</ex></expan> czü Geyselwinden, hat uns her
+                            <expan>Wirich</expan> gesagt, daz ir <expan>gesproche<ex>n</ex></expan>
+                        habt, ir wöllet ew <expan>d<ex>er</ex></expan> sache
+                            <expan>g<ex>er</ex>n</expan>
+<expan>unt<ex>er</ex>winde<ex>n</ex></expan>, wenn wir ew selber <pb facs="#facs_161" id="80r"/><expan>dar<ex>umb</ex></expan>
+<expan>schreib<ex>e</ex>n</expan>. Und also <expan>ro<ex>gamus</ex></expan>,
+                        daz ir ew <expan>d<ex>er</ex>selb<ex>e</ex>n</expan> sache
+                                <expan>anneme<ex>n</ex></expan> und des <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>in</expan>
+<expan>gelege<ex>n</ex></expan> tag <expan>secze<ex>n</ex></expan> wöllet,
+                        darauf sie <expan>g<ex>er</ex>ne</expan>
+<expan>schicke<ex>n</ex></expan> wil; und lazzet ew das
+                            <expan>d<ex>ur</ex>h</expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan>
+<expan>empfolhe<ex>n</ex></expan> sein, also daz des
+                                <expan>d<ex>er</ex>selb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>in</expan> kurzlich ein awstrag
+                                <expan>w<ex>er</ex>de</expan>. Das <expan>wölle<ex>n</ex></expan>
+                        etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> v <expan>p<ex>ost</ex></expan> xi
+                                <expan>miliu<ex>m</ex></expan>
+<expan>v<ex>ir</ex>ginu<ex>m</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

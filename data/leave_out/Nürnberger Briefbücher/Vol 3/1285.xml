@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1285" xml:id="l1300" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1285 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>203r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1285.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Maiental, Wilhelm v., Hofmeister v. Bgf. Johann III. v. Hohenzollern</persName></ab><ab type="mention"><persName type="mention">Strobel, Fritz</persName><persName type="mention">Strobel, Wilhelm</persName><persName type="mention">Schütz, Heinz</persName><persName type="mention">Schütz, Kunz</persName><persName type="mention">Maiental, Hans v.</persName></ab><date from="20-01-1412" to="17-02-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_407">
+<surface lrx="2757" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0205_right.png" width="2757px"/>
+<zone lrx="938" lry="1858" rendition="TextRegion" ulx="1131" uly="2754" xml:id="facs_407_r1"> <zone lrx="2465" lry="1858" rendition="Line" ulx="863" uly="1789" xml:id="facs_407_r1l17"/>
+<zone lrx="938" lry="1949" rendition="Line" ulx="356" uly="1891" xml:id="facs_407_r1l18"/>
+<zone lrx="2500" lry="1994" rendition="Line" ulx="384" uly="1946" xml:id="facs_407_r1l19"/>
+<zone lrx="2499" lry="2117" rendition="Line" ulx="375" uly="2025" xml:id="facs_407_r1l20"/>
+<zone lrx="2543" lry="2225" rendition="Line" ulx="384" uly="2117" xml:id="facs_407_r1l21"/>
+<zone lrx="2549" lry="2318" rendition="Line" ulx="387" uly="2215" xml:id="facs_407_r1l22"/>
+<zone lrx="2567" lry="2416" rendition="Line" ulx="379" uly="2318" xml:id="facs_407_r1l23"/>
+<zone lrx="2460" lry="2513" rendition="Line" ulx="371" uly="2445" xml:id="facs_407_r1l24"/>
+<zone lrx="1263" lry="2556" rendition="Line" ulx="1131" uly="2515" xml:id="facs_407_r1l25"/>
+<zone lrx="2590" lry="2623" rendition="Line" ulx="369" uly="2543" xml:id="facs_407_line_1576479406895_125"/>
+<zone lrx="2580" lry="2722" rendition="Line" ulx="361" uly="2648" xml:id="facs_407_r1l28"/>
+<zone lrx="2229" lry="2826" rendition="Line" ulx="373" uly="2754" xml:id="facs_407_r1l29"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Wilhelm von Mayental, Hofmeister Burggraf Johanns III. von Nürnberg</head><p>Der Rat bittet Wilhelm um Anweisung seiner Knechte, den Wilhelm Strobel, Sohn des Fritz Strobel und Diener der Stadt, freizulassen und ihm sein Geld und einen Panzer herauszugeben.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_407" id="203r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_407_r1l17">
+<del rend="strikethrough">Burggraf Joh </del> <expan>VVılh<ex>elm</ex></expan> von Meyental <expan>hofmeiſt<ex>er</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_407_r1l19">
+<del rend="strikethrough"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan></del>
+<add><ab facs="#facs_407_r1l18"><expan>lıeb<ex>er</ex></expan> her <expan>hofmeiſt<ex>er</ex></expan> </ab></add> vns hat fürgelegt fricʒ Strobell vnſer diener </ab>
+<ab facs="#facs_407_r1l20">vvie daʒ Jm Cuncʒ Schücʒ des Heincʒen Schücʒen ſun 
+<del rend="strikethrough"><expan>ew<ex>r</ex></expan> diener </del></ab>
+<ab facs="#facs_407_r1l21">vnd des hanſen Meyentalers knehte / vvılhelm Strobell <expan>ſeıne<ex>n</ex></expan> Sun </ab>
+<ab facs="#facs_407_r1l22">der / beẏ Jm in ſeiner koſt ſeẏ / gefangen vnd Jm gelt auſʒ <expan>ſeın<ex>er</ex></expan> taſchen </ab>
+<ab facs="#facs_407_r1l23">vnd auch ein pancʒer das des <expan>egen<ex>anten</ex></expan> ~ <expan>vnſ<ex>er</ex>s</expan> dieners ſeẏ genomen <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_407_r1l24">des Er doch vnbeſorgt vor Jn 
+<del rend="strikethrough">beſorgt </del> gevveſen ſeẏ / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr </ab>
+<ab facs="#facs_407_line_1576479406895_125">
+<del rend="strikethrough">von <expan>ew<ex>r</ex>n</expan> <expan>gnade<ex>n</ex></expan></del> mit den 
+<del rend="strikethrough"><expan>egen<ex>an</ex>t<ex>en</ex></expan></del>
+<add><ab facs="#facs_407_r1l25"><expan>ſelb<ex>e</ex>n</expan> </ab></add> dıe das getan <expan>hab<ex>e</ex>n</expan> <expan>ſchicke<ex>n</ex></expan> vnd <expan>beſtelle<ex>n</ex></expan> </ab>
+<ab facs="#facs_407_r1l28">wöllet / daʒ ſie des <expan>egen<ex>anten</ex></expan> ~ <expan>vnſ<ex>er</ex>s</expan>
+<del rend="strikethrough"> burgers </del> dıeners ſun ledig laſſen </ab>
+<ab facs="#facs_407_r1l29">vnd Jm 
+<del rend="strikethrough">vnd </del> das ſein <expan>widergeb<ex>e</ex>n</expan> / Als etc das <expan>wölle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_407" id="203r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Wilh<ex>elm</ex></expan> von Meyental,
+                            <expan>hofmeist<ex>er</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><add><expan>Lieb<ex>er</ex></expan> her
+                            <expan>hofmeist<ex>er</ex></expan></add>. uns hat fürgelegt Fricz
+                        Strobell, unser diener, wie daz im Cuncz Schücz, des Heinczen Schüczen sun
+                        und des Hansen Meyentalers knehte, Wilhelm Strobell,
+                            <expan>seine<ex>n</ex></expan> sun, der bey im in seiner kost sey,
+                        gefangen und im gelt ausz <expan>sein<ex>er</ex></expan> taschen und auch
+                        ein panczer, das des <expan>egen<ex>anten</ex></expan>
+<expan>uns<ex>er</ex>s</expan> dieners sey, genomen
+                            <expan>hab<ex>e</ex>n</expan>, des er doch unbesorgt vor in gewesen sey.
+                                <expan>Ro<ex>gamus</ex></expan>, daz ir mit
+                                    den<add><expan>selb<ex>e</ex>n</expan></add>, die das getan
+                                <expan>hab<ex>e</ex>n</expan>, <expan>schicke<ex>n</ex></expan> und
+                                <expan>bestelle<ex>n</ex></expan> wöllet, daz sie des
+                                <expan>egen<ex>anten</ex></expan>
+<expan>uns<ex>er</ex>s</expan> dieners sun ledig lassen und im das sein
+                                <expan>widergeb<ex>e</ex>n</expan>. Als etc. Das
+                                <expan>wölle<ex>n</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

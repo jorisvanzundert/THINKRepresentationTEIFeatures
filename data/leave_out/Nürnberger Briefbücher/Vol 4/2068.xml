@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2068" xml:id="l2080" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2068 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>136r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2068.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Heyme, Peter</persName></ab><ab type="mention"><placeName type="mention">Löwen (Belgien)</placeName><placeName ref="https://www.wikidata.org/wiki/Q159856" type="mention">Brabant, Hzm.</placeName><persName type="mention">Sighart, Johannes</persName><persName type="mention">Johann IV., Hzg. v. Brabant</persName></ab><date from="14-03-1416" to="14-03-1416" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_272">
+<surface lrx="2656" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0139_right.png" width="2656px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_272_r1">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Peter Heyme, Bürger zu Löwen</head><p>Der Rat teilt mit, dass er anstelle des dem Johannes Sighart, Diener der Stadt, gestohlenen Schwertes ein neues Schwert für die alljährliche Bestätigung der Handelsfreiheiten an Herzog Johann IV. von Brabant sendet, und bittet um Überreichung der Waffe an den Herzog.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_272" id="136r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich
+        normalisiert transkribiert.
+</div>
+</div><div type="regularised"><pb facs="#facs_272" id="136r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Magne <expan>honestat<ex>is</ex></expan> et prudentie viro
+                                <expan>m<ex>a</ex>g<ex>ist</ex>ro</expan> Petro Heym civi
+                                <expan>Lovan<ex>ensi</ex></expan> hospiti ad
+                            <expan>cervu<ex>m</ex></expan> fautori <expan>n<ex>ost</ex>ro</expan> et
+                        amico <expan>dil<ex>ec</ex>ta<ex>m</ex></expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Obsequiosa <expan>voluntat<ex>is</ex></expan>
+<expan>p<ex>ro</ex>mptitudi<ex>n</ex>e</expan>
+<expan>since<ex>r</ex>iss<ex>imis</ex></expan>
+<expan>aff<ex>e</ex>c<ex>t</ex>ib<ex>us</ex></expan> sedule
+                                <expan>p<ex>rae</ex>oblat<ex>is</ex></expan>. <expan>Hon<hi rend="sup"><ex>orabi</ex>lis</hi></expan>
+<expan>d<ex>omi</ex>ne</expan> Petre amice <expan>dil<ex>ect</ex>e</expan>
+<expan>r<ex>e</ex>v<ex>erentis</ex>s<ex>ime</ex></expan>
+<expan>vestr<ex>is</ex></expan>
+<expan>sup<ex>er</ex></expan>
+<expan>l<ex>itte</ex>ra</expan>
+<expan>n<ex>ost</ex>ra</expan>
+<expan>p<ex>ro</ex>xi<ex>m</ex>e</expan>
+<expan>vob<ex>is</ex></expan>
+<expan>destinat<ex>is</ex></expan>
+<expan>p<ex>er</ex></expan>
+<expan>fam<ex>u</ex>l<ex>um</ex></expan> seu
+                                <expan>nu<ex>n</ex>ciu<ex>m</ex></expan>
+<expan>n<ex>ost</ex>r<ex>u</ex>m</expan>
+<expan>Joh<ex>ann</ex>em</expan>
+<expan>Sighart<ex>is</ex></expan> ex parte ensis sibi
+                                <expan>ablatu<ex>m</ex></expan> sive <expan>raptu<ex>m</ex></expan>
+                        etc. <expan>diligen<hi rend="sup"><ex>ter</ex></hi></expan>
+<expan>advertim<ex>us</ex></expan>, quare <expan>v<ex>est</ex>re</expan>
+                        amicicie <expan>p<ex>rae</ex>care</expan>
+<expan>p<ex>ro</ex></expan>
+<expan>v<ex>est</ex>ri</expan>
+<expan>b<ex>e</ex>nivolentiis</expan>
+<expan>nob<ex>is</ex></expan> ac <expan>n<ex>ost</ex>ris</expan>
+<expan>impens<ex>is</ex></expan>
+<expan>m<ex>u</ex>ltiplices</expan>
+<expan>gra<ex>tiarum</ex></expan>
+<expan>refe<ex>r</ex>im<ex>us</ex></expan><expan>act<ex>i</ex>o<ex>n</ex>es</expan>
+<expan>v<ex>est</ex>re</expan> in <expan>sup<ex>er</ex></expan> prudentie
+                                <expan>aliu<ex>um</ex></expan>
+<expan>gladiu<ex>m</ex></expan> sive ensem loco ablati seu rapti
+                                <expan>p<ex>er</ex></expan>
+<expan>Joh<ex>ann</ex>em</expan> Singer
+                            <expan>nu<ex>n</ex>ciu<ex>m</ex></expan>
+<expan>p<ex>ri</ex>nci<hi rend="sup"><ex>pe</ex>m</hi></expan>
+<expan>ostensor<ex>is</ex></expan>
+<expan>duxi<ex>mus</ex></expan>
+<expan>t<ex>ra</ex>nsmittend<ex>um</ex></expan>
+<expan>supplicant<ex>is</ex></expan>
+<expan>p<ex>re</ex>cib<ex>us</ex></expan>
+<expan>p<ex>rae</ex>attent<ex>is</ex></expan>
+<expan>q<ex>ua</ex>t<ex>enu</ex>s</expan>
+<expan>eund<ex>em</ex></expan>
+<expan>gladi<ex>u</ex>m</expan>
+<expan>t<ex>em</ex>o<ex>r</ex>e</expan> solito. Inclito
+                            <expan>d<ex>omi</ex>no</expan> duci Brabancie etc. ex
+                                <expan>p<ex>ar</ex>te</expan>
+<expan>n<ex>ost</ex>ri</expan>
+<expan>cu<ex>m</ex></expan>
+<expan>reve<ex>re</ex>ntiis</expan> et <expan>solem<hi rend="sup"><ex>ni</ex>b<ex>us</ex></hi></expan> ac hoc
+                                <expan>debit<ex>is</ex></expan>
+<expan>p<ex>er</ex>n<ex>o</ex>tat<ex>is</ex></expan> seu
+                                <expan>offer<ex>tis</ex></expan>
+<expan>velit<ex>is</ex></expan>, <expan>iux<ex>ter</ex></expan> priora
+                            <expan cert="unknown">sop<ex>i</ex>ta</expan>
+<expan>n<ex>ost</ex>ra</expan> ac
+                            <expan>c<ex>on</ex>suetudi<ex>n</ex>em</expan>
+<expan>hacten<expan>us</expan></expan>
+<expan>observat<ex>is</ex></expan>. In eo nobis
+                            <expan>amicicia<ex>m</ex></expan>
+<expan>accum<ex>u</ex>labit<ex>is</ex></expan> amicicie,
+                            <expan>p<ex>ro</ex></expan>
+<expan>v<ex>est</ex>ra</expan> prudencia <expan>iugit<ex>er</ex></expan>
+<expan>rem<ex>er</ex>end<ex>um</ex></expan>.
+                                <expan>Cu<ex>n</ex>ctipote<ex>n</ex>s</expan>
+<expan>p<ex>er</ex>sona<ex>m</ex></expan>
+<expan>v<ex>est</ex>ram</expan>
+<expan>felicit<ex>er</ex></expan> et longere
+                            <expan>c<ex>on</ex>servare</expan>
+<expan>dignet<ex>ur</ex></expan>. <expan>Recepim<ex>us</ex></expan>
+<expan>etia<ex>m</ex></expan> a <expan>p<ex>rae</ex>fato</expan>
+<expan>Joh<ex>ann</ex>e</expan>
+<expan>Sighart<ex>is</ex></expan>
+<expan>nu<ex>n</ex>cio</expan>
+<expan>n<ex>ost</ex>ro</expan>, <expan>quitant<ex>is</ex></expan> ex
+                                <expan>p<ex>ar</ex>te</expan>
+<expan>ens<ex>is</ex></expan> armi elapsi
+                            <expan>videl<ex>i</ex>z<ex>et</ex></expan> anno ab
+                                <expan>incarnac<ex>i</ex>o<ex>n</ex>e</expan>
+<expan>d<ex>omi</ex>ni</expan> m<hi rend="sup">o</hi>cccc<hi rend="sup">o</hi>xiiii<hi rend="sup">ti</hi>. <expan>Dat<ex>um</ex>
+<add>iiii<hi rend="sup">o</hi></add> die Marcii anno <add>a
+                                nativitate</add>
+<expan>d<ex>omi</ex>ni</expan></expan> m<hi rend="sup">o</hi>cccc<hi rend="sup">o</hi> decimosexto.</ab>
+<note place="bottomcentral"><expan>P<ex>ro</ex>cons<ex>ules</ex></expan> etc.</note>
+</div>
+</div></body>
+</text>
+</TEI>

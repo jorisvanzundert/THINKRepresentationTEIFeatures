@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="724" xml:id="l733" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 724 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>063r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 724.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q1085" type="recipient">Prag (Tschechien)</placeName></ab><ab type="mention"><persName type="mention">Schreiner, Wenzel</persName><persName type="mention">Schreiner, Christein</persName></ab><date from="31-05-1410" to="31-05-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_127">
+<surface lrx="2776" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0065_right.png" width="2776px"/>
+<zone lrx="1592" lry="3013" rendition="TextRegion" ulx="2305" uly="3561" xml:id="facs_127_r2"> <zone lrx="1592" lry="3013" rendition="Line" ulx="941" uly="2955" xml:id="facs_127_r2l36"/>
+<zone lrx="2479" lry="3188" rendition="Line" ulx="321" uly="3098" xml:id="facs_127_r2l37"/>
+<zone lrx="2580" lry="3258" rendition="Line" ulx="336" uly="3171" xml:id="facs_127_r2l38"/>
+<zone lrx="2580" lry="3335" rendition="Line" ulx="337" uly="3239" xml:id="facs_127_r2l39"/>
+<zone lrx="2596" lry="3416" rendition="Line" ulx="323" uly="3310" xml:id="facs_127_r2l40"/>
+<zone lrx="2652" lry="3490" rendition="Line" ulx="329" uly="3380" xml:id="facs_127_r2l41"/>
+<zone lrx="2607" lry="3568" rendition="Line" ulx="313" uly="3468" xml:id="facs_127_r2l42"/>
+<zone lrx="2539" lry="3643" rendition="Line" ulx="2305" uly="3561" xml:id="facs_127_r2l43"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Prag</head><p>Der Rat teilt wegen seiner Niederlassung in Prag den guten Leumund des Wenzel Schreiner und seiner Ehefrau Cristein mit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_127" id="63r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_127_r2l36">Der Altenſtat cʒu Prag / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_127_r2l37">Lieben frewnd / Als vventʒlaw <expan>Schrein<ex>er</ex></expan> / vnd Criſtein ſein elich <expan>wirt<ex>in</ex></expan> ſich nü furbas </ab>
+<ab facs="#facs_127_r2l38">beÿ ew / vnd in <expan>ewr<ex>er</ex></expan> Stat / mit <expan>demſelbe<ex>n</ex></expan> hantvvergk cʒu begeen mainen / Sind für vns <expan>kome<ex>n</ex></expan> </ab>
+<ab facs="#facs_127_r2l39">etlich erberleute / vnd Meiſter <expan>desſelbe<ex>n</ex></expan> hantvvergs / <expan>vnſ<ex>er</ex></expan> <expan>Burg<ex>er</ex></expan> / den wır wol <expan>glaube<ex>n</ex></expan> / vnd </ab>
+<ab facs="#facs_127_r2l40">haben vns geſagt beÿ Jren eiden / daʒ die <expan>eg<ex>enanten</ex></expan> vventʒlaw / vnd <expan>Criſt<ex>ein</ex></expan> ſein elich <expan>wirt<ex>in</ex></expan> bede etvvÿ = </ab>
+<ab facs="#facs_127_r2l41">lang hie beÿ vns in <expan>vnſ<ex>er</ex>r</expan> Stat gedienet / vnd ſich allcʒeit <expan>frümcklıch<ex>e</ex>n</expan> <expan>gehalte<ex>n</ex></expan> haben / vnd <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_127_r2l42">vns gebeten / daʒ vvir <expan>ew<ex>r</ex></expan> <expan>Erſamk<ex>eit</ex></expan> das alſo von Jren vvegen <expan>ſchreib<ex>e</ex>n</expan> wöllen <expan>Dat<ex>um</ex></expan> <expan>Sab<ex>a</ex>to</expan> <expan>p<ex>oſt</ex></expan> </ab>
+<ab facs="#facs_127_r2l43">vrbanj </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_127" id="63r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der Altenstat czu Prag </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieben frewnd, als Wenczlaw <expan>Schrein<ex>er</ex></expan> und Cristein,
+                        sein elich <expan>wirt<ex>in</ex></expan>, sich nü furbas bey ew und in
+                                <expan>ewr<ex>er</ex></expan> stat mit
+                            <expan>demselbe<ex>n</ex></expan> hantwergk czu begeen mainen, sind für
+                        uns <expan>kome<ex>n</ex></expan> etlich erber leute und meister
+                                <expan>desselbe<ex>n</ex></expan> hantwergs,
+                            <expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>, den wir wol <expan>glaube<ex>n</ex></expan>,
+                        und haben uns gesagt bey iren eiden, daz die
+                            <expan>eg<ex>enanten</ex></expan> Wenczlaw und
+                            <expan>Crist<ex>ein</ex></expan>, sein elich
+                            <expan>wirt<ex>in</ex></expan>, bede etwylang hie bey uns in
+                                <expan>uns<ex>er</ex>r</expan> stat gedienet und sich allczeit
+                                <expan>frümcklich<ex>e</ex>n</expan>
+<expan>gehalte<ex>n</ex></expan> haben; und <expan>hab<ex>e</ex>n</expan>
+                        uns gebeten, daz wir <expan>ew<ex>r</ex></expan>
+<expan>ersamk<ex>eit</ex></expan> das also von iren wegen
+                                <expan>schreib<ex>e</ex>n</expan> wöllen.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>sab<ex>a</ex>to</expan>
+<expan>p<ex>ost</ex></expan> Urbani.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

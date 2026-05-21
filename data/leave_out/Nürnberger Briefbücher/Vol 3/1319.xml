@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1319" xml:id="l1334" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1319 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>211v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1319.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1527505" type="recipient">Albrecht v. Wertheim, Bf. v. Bamberg</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3936" type="mention">Bamberg</placeName><persName type="mention">Kötzner, Eberhard</persName><persName type="mention">Wiesenthau, Braun v.</persName></ab><date from="17-02-1412" to="16-03-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_424">
+<surface lrx="2768" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0214_left.png" width="2768px"/>
+<zone lrx="1135" lry="2888" rendition="TextRegion" ulx="1225" uly="3637" xml:id="facs_424_r1"> <zone lrx="1911" lry="2888" rendition="Line" ulx="1225" uly="2815" xml:id="facs_424_r1l28"/>
+<zone lrx="2555" lry="3043" rendition="Line" ulx="620" uly="2967" xml:id="facs_424_r1l29"/>
+<zone lrx="2595" lry="3143" rendition="Line" ulx="640" uly="3049" xml:id="facs_424_r1l30"/>
+<zone lrx="2570" lry="3234" rendition="Line" ulx="625" uly="3149" xml:id="facs_424_r1l31"/>
+<zone lrx="2696" lry="3342" rendition="Line" ulx="608" uly="3231" xml:id="facs_424_r1l32"/>
+<zone lrx="2698" lry="3448" rendition="Line" ulx="632" uly="3333" xml:id="facs_424_r1l33"/>
+<zone lrx="2662" lry="3548" rendition="Line" ulx="602" uly="3429" xml:id="facs_424_r1l34"/>
+<zone lrx="2714" lry="3622" rendition="Line" ulx="620" uly="3512" xml:id="facs_424_r1l35"/>
+<zone lrx="1135" lry="3685" rendition="Line" ulx="617" uly="3637" xml:id="facs_424_r1l36"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Albrecht von Wertheim, Bischof von Bamberg</head><p>Der Rat bittet um einen Gerichtstag vor dem Landgericht zu Bamberg für Eberhard Kötzner, Bürger zu Nürnberg, wegen des bischöflichen Dieners Braun von Wiesenthau.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_424" id="211v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_424_r1l28">Bẏſſchoff cʒu <expan>Bamb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_424_r1l29"><expan>Gnedig<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / Vns hat fürgelegt <expan>Eb<ex>erhart</ex></expan> köcʒner vnſer burger </ab>
+<ab facs="#facs_424_r1l30">vvie daʒ Er etwas ſache mit dem <expan>Praw<ex>e</ex>n</expan> von wẏſentaw <expan>ew<ex>r</ex>m</expan> </ab>
+<ab facs="#facs_424_r1l31"><expan>dıen<ex>er</ex></expan> cʒu handeln hab / darümb Er Jn für <expan>ew<ex>r</ex></expan> Lantgericht gen </ab>
+<ab facs="#facs_424_r1l32"> <expan>Bamb<ex>er</ex>g</expan> geladen het vnd dauon ſıe 
+<del rend="strikethrough">für <expan>ew<ex>r</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan></del> geweıſet ſein <expan>vvoꝛde<ex>n</ex></expan> </ab>
+<ab facs="#facs_424_r1l33"> <expan>dıeſelb<ex>e</ex>n</expan> ſache 
+<del rend="strikethrough">von </del> vor <expan>ew<ex>r</ex>n</expan> <expan>gnade<ex>n</ex></expan> mit <expan>de<ex>n</ex></expan> <expan>rehte<ex>n</ex></expan> <expan>auſʒetrage<ex>n</ex></expan> <expan>Ro<ex>gamus</ex></expan> daʒ </ab>
+<ab facs="#facs_424_r1l34">Jr dem <expan>eg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>b<ex>ur</ex>ger</expan> darümb einen rechtag beſcheẏden / vnd Jm </ab>
+<ab facs="#facs_424_r1l35">des rechten ſlewniglich von dem <expan>eg<ex>enanten</ex></expan> <expan>ew<ex>r</ex>m</expan> <expan>dien<ex>er</ex></expan> helffen wöllet / Als etc das </ab>
+<ab facs="#facs_424_r1l36"><expan>wölle<ex>n</ex></expan> etc <expan>Antvv<ex>ur</ex>t</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_424" id="211v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Bysschoff czu <expan>Bamb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, uns hat fürgelegt
+                            <expan>Eb<ex>erhart</ex></expan> Köczner, unser burger, wie daz er etwas
+                        sache mit dem <expan>Praw<ex>e</ex>n</expan> von Wysentaw,
+                                <expan>ew<ex>r</ex>m</expan>
+<expan>dien<ex>er</ex></expan>, czu handeln hab, darümb er in für
+                                <expan>ew<ex>r</ex></expan> lantgericht gen
+                            <expan>Bamb<ex>er</ex>g</expan> geladen het und davon sie geweiset sein
+                                <expan>worde<ex>n</ex></expan>, <expan>dieselb<ex>e</ex>n</expan>
+                        sache vor <expan>ew<ex>r</ex>n</expan>
+<expan>gnade<ex>n</ex></expan> mit <expan>de<ex>n</ex></expan>
+<expan>rehte<ex>n</ex></expan>
+<expan>auszetrage<ex>n</ex></expan>. <expan>Ro<ex>gamus</ex></expan>, daz ir
+                        dem <expan>eg<ex>enanten</ex></expan>, <expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>ur</ex>ger</expan>, darümb einen rechtag bescheyden und im des
+                        rechten slewniglich von dem <expan>eg<ex>enanten</ex></expan>
+<expan>ew<ex>r</ex>m</expan>
+<expan>dien<ex>er</ex></expan> helffen wöllet. Als etc. Das
+                                <expan>wölle<ex>n</ex></expan> etc.
+                        <expan>Antw<ex>ur</ex>t</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

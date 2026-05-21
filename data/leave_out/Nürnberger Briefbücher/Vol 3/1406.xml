@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1406" xml:id="l1421" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1406 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>238r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1406.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient">-</ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q2090" type="mention">Nürnberg</placeName><placeName ref="https://www.wikidata.org/wiki/Q514058" type="mention">Geiselwind (Markt, Lk. Kitzingen)</placeName><persName type="mention">Spörlein, Heinrich</persName><persName type="mention">Giech, Heinz v.</persName></ab><date from="10-06-1412" to="10-06-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_477">
+<surface lrx="2769" lry="3769" ulx="0" uly="0">
+<graphic height="3769px" url="Rst Nbg-Briefbücher-Nr 3_0240_right.png" width="2769px"/>
+<zone lrx="1119" lry="2534" rendition="TextRegion" ulx="1012" uly="3040" xml:id="facs_477_r1"> <zone lrx="2445" lry="2534" rendition="Line" ulx="359" uly="2449" xml:id="facs_477_r1l18"/>
+<zone lrx="2518" lry="2620" rendition="Line" ulx="354" uly="2535" xml:id="facs_477_r1l19"/>
+<zone lrx="2560" lry="2718" rendition="Line" ulx="367" uly="2636" xml:id="facs_477_r1l20"/>
+<zone lrx="2580" lry="2802" rendition="Line" ulx="341" uly="2747" xml:id="facs_477_r1l21"/>
+<zone lrx="1739" lry="2849" rendition="Line" ulx="914" uly="2810" xml:id="facs_477_r1l22"/>
+<zone lrx="2552" lry="2895" rendition="Line" ulx="353" uly="2844" xml:id="facs_477_r1l23"/>
+<zone lrx="2457" lry="3012" rendition="Line" ulx="356" uly="2925" xml:id="facs_477_r1l24"/>
+<zone lrx="1119" lry="3037" rendition="Line" ulx="1012" uly="2984" xml:id="facs_477_line_1576401150237_1423"/>
+<zone lrx="2480" lry="3089" rendition="Line" ulx="336" uly="3040" xml:id="facs_477_r1l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="open letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Offener Brief des Rates</head><p>Der Rat bestätigt das rechtmäßige Eigentum des Heinrich Spörlein, Bürger zu Nürnberg, an den von Heinz von Giech bei Geiselwind beschlagnahmten 81 Schweinen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_477" id="238r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_477_r1l18">VVir ~ die <expan>Burge<ex>r</ex></expan> des Rats
+                        der Stat cʒu <expan>Nür<ex>emberg</ex></expan> / Tun kunt
+                                <expan>offenl<ex>ichen</ex></expan>
+</ab>
+<ab facs="#facs_477_r1l19">mit diſem <expan>br<ex>ief</ex></expan> / daʒ für vns
+                        kom cʒu ſant Gallen tag nehſt <expan>vergange<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_477_r1l20">Heincʒ Spörlein vnſer Burger / vnd legt vns für /
+                        vvie Jm Heincʒ </ab>
+<ab facs="#facs_477_r1l21">von Gich lxxxj Swein beẏ Geẏſellwinde
+                                <expan>aufgehalte<ex>n</ex></expan> vnd
+                            <expan>genome<ex>n</ex></expan> het </ab>
+<ab facs="#facs_477_r1l23">vnd behub auch <del rend="strikethrough"><expan>dıeſelb<ex>e</ex>n</expan> Swein </del>
+<add><ab facs="#facs_477_r1l22">cʒu <expan>derſelb<ex>e</ex>n</expan> cʒeit
+                                        <expan>dıeſelb<ex>e</ex>n</expan> Swein </ab></add> vor vns
+                        cʒu den heiligen / daʒ die ſein </ab>
+<ab facs="#facs_477_r1l24">vnd anderr vnſerr <expan>burge<ex>r</ex></expan>
+                        weren Alſo / daʒ dhein auſʒman vvederteil </ab>
+<ab facs="#facs_477_r1l26">noch gemaine daran <add><ab facs="#facs_477_line_1576401150237_1423">niht </ab></add> het / Mit
+                                <expan>vrk<ex>unde</ex></expan> etc / <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> vj̃ <expan>an<ex>te</ex></expan> viti </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_477" id="238r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Wir, die <expan>burge<ex>r</ex></expan> des rats der stat czu
+                                <expan>Nür<ex>emberg</ex></expan>, tun kunt
+                                <expan>offenl<ex>ichen</ex></expan> mit disem
+                        <expan>br<ex>ief,</ex></expan> daz für uns kom czu <app><note><q type="date">sant Gallen tag nehst
+                            <expan>vergange<ex>n</ex></expan></q>16.10.1411</note></app> Heincz Spörlein, unser burger, und
+                        legt uns für, wie im Heincz von Gich lxxxi swein bey Geysellwinde
+                                <expan>aufgehalte<ex>n</ex></expan> und
+                            <expan>genome<ex>n</ex></expan> het, und behub auch <add>czu
+                                    <expan>derselb<ex>e</ex>n</expan> czeit
+                                <expan>dieselb<ex>e</ex>n</expan> swein</add> vor uns czu den
+                        heiligen, daz die sein und anderr unserr <expan>burge<ex>r</ex></expan>
+                        weren, also daz dhein auszman weder teil noch gemaine daran <add>niht</add>
+                        het. Mit <expan>urk<ex>unde</ex></expan> etc. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> vi <expan>an<ex>te</ex></expan> Viti.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

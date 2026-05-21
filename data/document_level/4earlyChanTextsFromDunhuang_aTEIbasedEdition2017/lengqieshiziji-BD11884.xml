@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/dunhuang-schema.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"  xmlns:xi="http://www.w3.org/2001/XInclude">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="zho-Hant">楞伽師資記── 敦煌遺書北敦.11884的數位版本</title>
+        <title type="simple" xml:lang="zho-Hant">楞伽師資記 北敦.11884</title>
+        <title xml:lang="eng">The Record of the Masters and Disciples of the Laṅkāvatāra - A Transcription of the Dunhuang Manuscript BD.11884</title>
+        <author xml:lang="zho-Hant">淨覺</author>
+        <author xml:lang="zho-Latn">Jing Jue</author>
+        <respStmt><name>Chang, Po-Yung 張伯雍</name><resp>Transcription</resp></respStmt>
+        <principal>Marcus Bingenheimer 馬德偉</principal>
+        <funder>Chung-hwa Institute of Buddhist Studies 中華佛學研究所</funder>
+      </titleStmt>
+      <publicationStmt>
+        <p>This XML/TEI transcription is made available under a Creative Commons License (Attribution-ShareAlike 4.0 International)</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>The transcription was done from digital facsimiles distributed by the International Dunhuang Project and the Bibliothèque nationale de France. For a detailed description of a ms from the Pelliot collection please refer to the "Catalogue des manuscrits chinois de Touen-Houang" Paris 1970-2001. For mss from the Stein collection try Lionel Giles "Descriptive Catalogue of the Chinese Manuscripts from Tunhuang in the British Museum." London: British Museum, 1957.</p>
+      </sourceDesc>
+    </fileDesc>
+    <xi:include href="00-encodingDesc.xml"/>
+  </teiHeader>
+  <text>
+    <body><div xml:id="wrap-BD11884v-0001-0012">
+      <ab xml:id="lqszj-BD-11884-1"><lb xml:id="BD11884v-0001"/><damage>常相隨</damage><damage unit="char" extent="3"/><choice><sic>分</sic><corr>久</corr></choice><unclear>居</unclear><pc>，</pc><unclear>猶</unclear><damage unit="char" extent="17"/>
+      <lb xml:id="BD11884v-0002"/><damage unit="char" extent="1"/><orig reg="有"><g ref="#BD11884-2-01"/></orig>息<orig reg="想"><g ref="#P3294-021-18"/></orig>無求<pc>。</pc><damage unit="char" extent="2"/><unclear>有</unclear><damage unit="char" extent="20"/>
+      <lb xml:id="BD11884v-0003"/>行也<pc>。</pc><orig reg="第"><g ref="#S2595-173-13"/></orig>四<pc>，</pc><orig reg="稱"><g ref="#A02937-027"/></orig><orig reg="法"><g ref="#A02168-006"/></orig><unclear>行</unclear>者<pc>。</pc>性<orig reg="淨" type="CJK">浄</orig><orig reg="之"><g ref="#A00029-007-1"/></orig><damage unit="char" extent="16"/>
+      <lb xml:id="BD11884v-0004"/><orig reg="此"><g ref="#A02068-006"/></orig>無彼<pc>。</pc><orig reg="經" type="Ext-B">𦀰</orig>云<pc>『</pc><orig reg="法"><g ref="#A02168-006"/></orig><unclear>無</unclear><orig reg="眾"><g ref="#A02772-025"/></orig>生<pc>，</pc>離<orig reg="眾"><g ref="#A02772-025"/></orig><damage unit="char" extent="15"/>
+      <lb xml:id="BD11884v-0005"/><orig reg="解"><g ref="#A03778-018"/></orig><orig reg="此"><g ref="#A02068-006"/></orig>理<pc>，</pc>應當<orig reg="稱"><g ref="#A02937-027"/></orig>法而行<pc>。</pc><orig reg="法"><g ref="#A02168-006"/></orig><orig reg="體"><g ref="#A04666-008"/></orig><damage>無</damage><damage unit="char" extent="3"/><!--anchor corresp="T85n2837_p1285b11"/--><damage unit="char" extent="11"/>
+      <lb xml:id="BD11884v-0006"/><orig reg="解"><g ref="#A03778-018"/></orig>三空<pc>，</pc>不<damage>倚</damage>不<orig reg="著"><g ref="#A03506-015"/></orig><pc>。</pc></ab><ab xml:id="lqszj-BD-11884-2">但為去垢<pc>，</pc><damage>攝</damage><damage unit="char" extent="11"/>
+      <lb xml:id="BD11884v-0007"/><orig reg="亦"><g ref="#A00061-006"/></orig><orig type="Ext-A" reg="能">䏻</orig><orig reg="莊"><g ref="#A03488-009"/></orig><damage>嚴菩</damage>提道<pc>。</pc><reg>檀度</reg><unclear>既</unclear><orig type="CJK" reg="爾">尓</orig><pc>，</pc><damage>餘</damage><damage unit="char" extent="13"/>
+      <lb xml:id="BD11884v-0008"/><damage>所</damage>行<pc>，</pc>是為<damage>稱法</damage>行<pc>。」</pc>
+      <lb xml:id="BD11884v-0009"/><damage unit="char" extent="2"/>行是<orig reg="達" type="CJK">逹</orig><damage>摩</damage>禪<orig reg="師"><g ref="#A01174-005"/></orig>親<orig reg="說"><g ref="#A03839-001"/></orig><pc>，</pc><orig reg="餘"><g ref="#S2054-003-16"/></orig>則<damage unit="char" extent="13"/>
+      <lb xml:id="BD11884v-0010"/><damage unit="char" extent="3"/><damage>論</damage><pc>》</pc>也<pc>。</pc>菩<damage>提師又為坐</damage>禪<unclear>眾</unclear><damage unit="char" extent="15"/>
+      <lb xml:id="BD11884v-0011"/><damage unit="char" extent="5"/><damage>本論</damage><pc>，</pc>文理<orig type="CJK" reg="圓">圎</orig><orig type="CJK" reg="淨">净</orig><pc>，</pc>天下<orig type="Ext-B" reg="流">𣴑</orig>通<pc>。</pc><damage unit="char" extent="12"/>
+      <lb xml:id="BD11884v-0012"/><damage unit="char" extent="6"/>行用<pc>。</pc></ab></div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="573" xml:id="l582" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 573 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche
+                        Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier
+                    </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und
+                        Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander
+                        Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is
+                        licensed under the terms of the Creative-Commons-License CC BY NC 4.0
+                    </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>028v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 573.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName type="recipient">Verdun (Frankreich)</placeName></ab><ab type="mention"><persName type="mention">Winkler, Friedrich</persName><persName type="mention">N., N., Zöllner v. Verdun</persName></ab><date from="29-11-1409" to="29-11-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_58">
+<surface lrx="2776" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0031_left.png" width="2776px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_58_r4">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Verdun</head>
+<p>Der Rat bestätigt, dass Friedrich Winkler Bürger zu Nürnberg ist, und bittet um Erstattung erhobenen Zolls und Unterlassung unrechtmäßiger Zollforderungen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis">
+<ab><w join="" lemma="" msd="" part="" pos=""><fLib>
+<f name=" "/>
+</fLib></w></ab>
+</div>
+</front>
+<body>
+<div type="diplomatic">
+<pb facs="#facs_58" id="28v"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich
+                    normalisiert transkribiert. </div>
+</div>
+<div type="regularised">
+<pb facs="#facs_58" id="28v"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Honor<ex>abil</ex><hi rend="sup"><ex>i</ex>bus</hi></expan>
+<expan><ex>et</ex></expan> prudentibus
+                            <expan>d<ex>o</ex>m<ex>ini</ex>s</expan>
+<expan>p<ex>ro</ex>consulib<ex>us</ex></expan> et consulibus <expan>civi<hi rend="sup">t<ex>atis</ex></hi></expan>
+<expan>Virdunge<ex>nsis</ex></expan>
+<expan>sp<ex>eci</ex>alibus</expan> fautoribus et
+                            <expan>amic<ex>is</ex></expan>
+<expan><ex>etc.</ex></expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Obsequiis <expan>n<ex>ost</ex>ris</expan> cum <expan>volun<ex>ta</ex><hi rend="sup">te</hi></expan>. <expan><ex>Huius</ex>modi</expan>
+<expan>co<ex>n</ex>placendi</expan>
+<expan>p<ex>rae</ex>miss<ex>is</ex></expan>
+<expan>honor<hi rend="sup"><ex>abi</ex>les</hi></expan> et prudentes amici
+                        carisimi. Exposuit nobis Fridricus <expan>d<ex>ic</ex>tus</expan> Winckler
+                                <expan>co<ex>n</ex>civis</expan>
+<expan>n<ex>oste</ex>r</expan>
+<expan>q<ex>ua</ex>lit<ex>er</ex></expan>
+<expan>eum</expan> theolonarius <expan>v<ex>este</ex>r</expan>
+<expan>cert<ex>is</ex></expan>
+<expan>g<ex>ra</ex>vimi<ex>ni</ex>bus</expan>
+<expan>molestant<ex>ur</ex></expan>
+<expan>demu<ex>m</ex></expan> sibi <expan>crede<ex>re</ex></expan> nolens
+                            <expan>quo</expan>
+<expan>existet<ex>ur</ex></expan>. Civis <expan>n<ex>oste</ex>r</expan> unde
+                                <expan>honestatib<ex>us</ex></expan>
+<expan>v<ex>est</ex>ris</expan>
+<expan>p<ex>raese</ex>ntibus</expan> certam fidem
+                            <expan>facim<ex>us</ex></expan>
+<expan>d<ex>i</ex>c<ex>tu</ex>m</expan>
+<expan>Fridericu<ex>m</ex></expan> Winckler fuisse ac fore
+                                <expan>ve<ex>rum</ex></expan>
+<expan>n<ex>ost</ex>r<ex>u</ex>m</expan> et <expan>civ<hi rend="sup">i<ex>ta</ex>tis</hi></expan>
+<expan>n<ex>ost</ex>re</expan> incolam et concivem. Eacirca
+                                <expan>honor<ex>abi</ex>les </expan> amicicias
+                            <expan>v<ex>est</ex>ras</expan> cum <expan>om<ex>n</ex>i</expan>
+                        diligencia deprecantes <expan>q<ex>ua</ex>t<ex>enu</ex>s</expan> cum
+                        theolonario <expan>v<ex>est</ex>ro</expan> disponentes ut ab huiusmodi
+                                <expan>g<ex>ra</ex>vimi<ex>ni</ex>bus</expan> desistat.
+                                <expan>P<ex>rae</ex>d<ex>i</ex>c<ex>tu</ex>m</expan> ac alios
+                        concives et mercatores <expan>n<ex>ost</ex>ros</expan> penes vos
+                                <expan>h<ex>abe</ex>re</expan>
+<expan>velit<ex>is</ex></expan> affectu favorabili
+                            <expan>reco<ex>m</ex>missos</expan> hoc in filibus vel
+                                <expan>maior<ex>i</ex>bus</expan>
+<expan>p<ex>ro</ex></expan> vobis et <expan>v<ex>est</ex>ris</expan>
+<expan>volum<ex>us</ex></expan>
+<expan><ex>con</ex>tinue</expan>
+<expan>p<ex>ro</ex>me<ex>re</ex>ri</expan>. <expan>Dat<ex>um</ex></expan>
+                        penultima die novembris anno <expan><ex>etc.</ex></expan> ix<hi rend="sup">o</hi>.</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>

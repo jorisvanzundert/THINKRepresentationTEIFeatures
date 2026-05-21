@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1780" xml:id="l1791" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1780 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>065v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1780.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Kemnat, Hans v.</persName></ab><ab type="mention"><placeName type="mention">Lauingen (Stadt, Lk. Dillingen a. d. Donau)</placeName><persName type="mention">Kemnat, N. v., Bruder v. Hans</persName></ab><date from="4-03-1415" to="4-03-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_131">
+<surface lrx="2615" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0068_left.png" width="2615px"/>
+<zone lrx="1292" lry="314" rendition="TextRegion" ulx="1486" uly="923" xml:id="facs_131_r1">
+<zone lrx="2050" lry="314" rendition="Line" ulx="988" uly="251" xml:id="facs_131_r1l1"/>
+<zone lrx="2510" lry="449" rendition="Line" ulx="686" uly="383" xml:id="facs_131_r1l2"/>
+<zone lrx="2502" lry="534" rendition="Line" ulx="677" uly="470" xml:id="facs_131_r1l3"/>
+<zone lrx="2495" lry="614" rendition="Line" ulx="678" uly="577" xml:id="facs_131_r1l4"/>
+<zone lrx="1451" lry="658" rendition="Line" ulx="1038" uly="612" xml:id="facs_131_r1l5"/>
+<zone lrx="2546" lry="702" rendition="Line" ulx="692" uly="664" xml:id="facs_131_r1l6"/>
+<zone lrx="2540" lry="799" rendition="Line" ulx="690" uly="730" xml:id="facs_131_r1l7"/>
+<zone lrx="2526" lry="890" rendition="Line" ulx="684" uly="822" xml:id="facs_131_r1l8"/>
+<zone lrx="1292" lry="974" rendition="Line" ulx="676" uly="910" xml:id="facs_131_r1l9"/>
+<zone lrx="1883" lry="987" rendition="Line" ulx="1486" uly="923" xml:id="facs_131_r1l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans von Kemnat, Vogt zu Lauingen</head><p>Der Rat teilt mit, dass er derzeit niemanden als Diener einstellt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_131" id="65v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_131_r1l1"><expan>Hannſ<ex>en</ex></expan> Kemnater vogt ʒu <expan>Lawging<ex>en</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_131_r1l2"><expan>L<ex>ieber</ex></expan> Hanns als Jr vns <expan>verſchr<ex>iben</ex></expan> habt wıe eẅch geſagt ſey daʒ wır </ab>
+<ab facs="#facs_131_r1l3">leẅt <expan>beſtell<ex>e</ex>n</expan> Vnd daʒ Jr vnd eẅr <expan>brud<ex>er</ex></expan> vns <expan>g<ex>er</ex>n</expan> dıenen wolt etc </ab>
+<ab facs="#facs_131_r1l4">das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> Vnd <expan>dank<ex>en</ex></expan> eẅch mıt fleıſſ des guten </ab>
+<ab facs="#facs_131_r1l6"><expan>wıll<ex>e</ex>n</expan> . den Jr 
+<add><ab facs="#facs_131_r1l5">vnd eẅr bruder </ab></add> ʒu vns habt . Vnd <expan>laſſ<ex>en</ex></expan> eẅch <expan>wıſſ<ex>en</ex></expan> daʒ wır ʒu dıſen <expan>ʒeıt<ex>en</ex></expan> </ab>
+<ab facs="#facs_131_r1l7">niht leẅt <expan>beſtell<ex>e</ex>n</expan> . vvurden <expan>ab<ex>er</ex></expan> wır hernach der leẅt <expan>bedurff<ex>en</ex></expan> oder </ab>
+<ab facs="#facs_131_r1l8"><expan>beſtell<ex>e</ex>n</expan> . ſo wölten wır <expan>g<ex>er</ex>n</expan> darauf bedacht ſein . Denn wo wır eẅch </ab>
+<ab facs="#facs_131_r1l9">lıeb <expan>od<ex>er</ex></expan> dıenſt . etc </ab>
+<ab facs="#facs_131_r1l10"><expan>dat<ex>um</ex></expan> vt <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_131" id="65v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Hanns<ex>en</ex></expan> Kemnater, vogt zu
+                            <expan>Lawging<ex>en</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Hanns, als ir uns
+                            <expan>verschr<ex>iben</ex></expan> habt, wie ewch gesagt sey, daz wir
+                        lewt <expan>bestell<ex>e</ex>n</expan> und daz ir und ewr
+                                <expan>brud<ex>er</ex></expan> uns <expan>g<ex>er</ex>n</expan>
+                        dienen wolt etc., das <expan>hab<ex>e</ex>n</expan> wir wol
+                                <expan>vernom<ex>en</ex></expan> und <expan>dank<ex>en</ex></expan>
+                        ewch mit fleiss des guten <expan>will<ex>e</ex>n</expan>, den ir <add>und
+                            ewr bruder</add> zu uns habt, und <expan>lass<ex>en</ex></expan> ewch
+                                <expan>wiss<ex>en</ex></expan>, daz wir zu disen
+                                <expan>zeit<ex>en</ex></expan> niht lewt
+                            <expan>bestell<ex>e</ex>n</expan>. Wurden <expan>ab<ex>er</ex></expan>
+                        wir hernach der lewt <expan>bedurff<ex>en</ex></expan> oder
+                                <expan>bestell<ex>e</ex>n</expan>, so wölten wir
+                            <expan>g<ex>er</ex>n</expan> darauf bedacht sein. Denn wo wir ewch lieb
+                                <expan>od<ex>er</ex></expan> dienst etc.
+                            <expan>Dat<ex>um</ex></expan> ut <expan>sup<ex>ra.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

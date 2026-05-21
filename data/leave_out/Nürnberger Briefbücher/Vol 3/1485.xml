@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1485" xml:id="l1500" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1485 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>259r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1485.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Nassau, Johann Adolf v., Pt. v. SS. Peter u. Paul (Jechaburg)</persName></ab><ab type="mention"><placeName type="mention">Höchst (Gt. v. Frankfurt a. Main)</placeName><persName type="mention">Rummel, Wilhelm II.</persName><persName type="mention">Prünster, Hans</persName></ab><date from="17-09-1412" to="17-09-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_519">
+<surface lrx="2830" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0261_right.png" width="2830px"/>
+<zone lrx="1526" lry="353" rendition="TextRegion" ulx="929" uly="2046" xml:id="facs_519_r1">
+<zone lrx="1821" lry="353" rendition="Line" ulx="920" uly="290" xml:id="facs_519_r1l1"/>
+<zone lrx="1526" lry="444" rendition="Line" ulx="929" uly="371" xml:id="facs_519_r1l2"/>
+<zone lrx="2561" lry="622" rendition="Line" ulx="489" uly="550" xml:id="facs_519_r1l3"/>
+<zone lrx="2563" lry="698" rendition="Line" ulx="489" uly="629" xml:id="facs_519_r1l4"/>
+<zone lrx="2581" lry="790" rendition="Line" subtype="paragraph" ulx="481" uly="708" xml:id="facs_519_r1l5"/>
+<zone lrx="2621" lry="874" rendition="Line" subtype="paragraph" ulx="511" uly="791" xml:id="facs_519_r1l6"/>
+<zone lrx="2633" lry="962" rendition="Line" ulx="519" uly="876" xml:id="facs_519_r1l7"/>
+<zone lrx="2590" lry="1047" rendition="Line" ulx="502" uly="952" xml:id="facs_519_r1l8"/>
+<zone lrx="2496" lry="1135" rendition="Line" ulx="501" uly="1045" xml:id="facs_519_r1l9"/>
+<zone lrx="2596" lry="1225" rendition="Line" ulx="501" uly="1127" xml:id="facs_519_r1l10"/>
+<zone lrx="2562" lry="1310" rendition="Line" ulx="503" uly="1212" xml:id="facs_519_r1l11"/>
+<zone lrx="2619" lry="1393" rendition="Line" ulx="487" uly="1296" xml:id="facs_519_r1l12"/>
+<zone lrx="2647" lry="1468" rendition="Line" ulx="494" uly="1407" xml:id="facs_519_r1l13"/>
+<zone lrx="2529" lry="1573" rendition="Line" ulx="482" uly="1483" xml:id="facs_519_r1l15"/>
+<zone lrx="2670" lry="1681" rendition="Line" ulx="479" uly="1565" xml:id="facs_519_r1l16"/>
+<zone lrx="2501" lry="1771" rendition="Line" ulx="494" uly="1660" xml:id="facs_519_r1l17"/>
+<zone lrx="2559" lry="1857" rendition="Line" ulx="495" uly="1758" xml:id="facs_519_r1l18"/>
+<zone lrx="2550" lry="1948" rendition="Line" ulx="483" uly="1853" xml:id="facs_519_r1l19"/>
+<zone lrx="2570" lry="2051" rendition="Line" ulx="502" uly="1928" xml:id="facs_519_r1l20"/>
+<zone lrx="1724" lry="2147" rendition="Line" ulx="517" uly="2046" xml:id="facs_519_r1l21"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann Adolf von Nassau, Propst von SS. Peter und Paul in Jechaburg</head><p>Der Rat teilt mit, dass Wilhelm II. Rummel und Hans Prünster nach ihrer Rückkehr geschworen haben, das Schloss zu Höchst ohne Arglist aufgesucht und sich dort nur umgesehen zu haben; beide sind Bürger zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_519" id="259r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_519_r1l1"><expan>H<ex>er</ex>n</expan> Johan Adolff von Naſſaw </ab>
+<ab facs="#facs_519_r1l2">Probſt cʒu Jecheburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_519_r1l3">Erſamer vnd lıeber <expan>h<ex>er</ex>re</expan> Als vvir <expan>ewr<ex>er</ex></expan> erſamkeit vormals cʒu cʒwein </ab>
+<ab facs="#facs_519_r1l4">malen <expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> von wılhelm Rumels des <expan>Jüng<ex>er</ex>n</expan> vnd Hanſen </ab>
+<ab facs="#facs_519_r1l5">Prünſters <expan>vnſ<ex>er</ex>r</expan> <expan>burge<ex>r</ex></expan> wegen / die cʒu <expan>derſelb<ex>e</ex>n</expan> cʒeit nıht anheim </ab>
+<ab facs="#facs_519_r1l6">geweſen ſein / vnd wir gern <expan>geſeh<ex>e</ex>n</expan> heten / daʒ Jr euch an <expan>demſelb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_519_r1l7"><expan>vnſ<ex>er</ex>m</expan> <expan>v<ex>er</ex>ſchreib<ex>e</ex>n</expan> het benügen laſſen / als von des <expan>aufhalte<ex>n</ex>s</expan> wegen </ab>
+<ab facs="#facs_519_r1l8">als Jr ſie getan habt laſſen / darümb / daʒ ſie cʒu dem Sloſſe hoeſte </ab>
+<ab facs="#facs_519_r1l9">gegangen waren / Aber ſeit Jr daran kein genüge <expan>hab<ex>e</ex>n</expan> wölt </ab>
+<ab facs="#facs_519_r1l10">So ſind <expan>dıeſelb<ex>e</ex>n</expan> ~ <expan>vnſ<ex>er</ex></expan> burger bede Als ſie <expan>yecʒund<ex>en</ex></expan> herheim <expan>kome<ex>n</ex></expan> </ab>
+<ab facs="#facs_519_r1l11">ſein für vns in <expan>vnſ<ex>er</ex>n</expan> Rate <expan>kume<ex>n</ex></expan> / vnd <expan>hab<ex>e</ex>n</expan> vor vns mit Jrem </ab>
+<ab facs="#facs_519_r1l12">eẏde behabt vnd geſworen / daʒ ſie on alle argliſte vnd ongeuerde </ab>
+<ab facs="#facs_519_r1l13">cʒu dem Sloſʒ hoeſte gegangen ſein vnd das geſchawet <expan>hab<ex>e</ex>n</expan> <expan>nyemand<ex>en</ex></expan> </ab>
+<ab facs="#facs_519_r1l15">cʒeſchaden / So ſınd auch die <expan>egen<ex>anten</ex></expan> wılhelm Rumell vnd hans </ab>
+<ab facs="#facs_519_r1l16">Prünſter bede vnſer <expan>burge<ex>r</ex></expan> vnd ſteen vns cʒu der cʒeit 
+<del rend="strikethrough">cʒu </del> vnd nyeman </ab>
+<ab facs="#facs_519_r1l17"><expan>and<ex>er</ex>s</expan> cʒu <expan>verſprech<ex>e</ex>n</expan> / vnd wöllen auch vvir noch ſie <expan>nyemand<ex>en</ex></expan> </ab>
+<ab facs="#facs_519_r1l18">der mit <expan>derſelb<ex>e</ex>n</expan> <expan>Aufhaltu<ex>n</ex>g</expan> cʒeſchicken gehabt hat oder darynne </ab>
+<ab facs="#facs_519_r1l19"><expan>v<ex>er</ex>daht</expan> iſt vmb <expan>dieſelb<ex>e</ex>n</expan> tate keins argen gewarten / <expan>dan<ex>n</ex></expan> vvo vvir </ab>
+<ab facs="#facs_519_r1l20"><expan>ewr<ex>er</ex></expan> erſamkeit lieb vnd dinſte beweiſen möhten das <expan>tete<ex>n</ex></expan> vvir <expan>g<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_519_r1l21"><expan>dat<ex>um</ex></expan> in die <expan>ſ<ex>an</ex>c<ex>t</ex>ı</expan> <expan>lamp<ex>er</ex>ti</expan> Anno xiȷ<hi rend="sup">o</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_519" id="259r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Johan Adolff von Nassaw, probst czu Jecheburg
+                    </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Ersamer und lieber <expan>h<ex>er</ex>re,</expan> als wir
+                                <expan>ewr<ex>er</ex></expan> ersamkeit vormals czu czwein malen
+                                <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan> von Wilhelm Rumels des
+                            <expan>jüng<ex>er</ex>n</expan> und Hansen Prünsters,
+                                <expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan>, wegen, die czu
+                            <expan>derselb<ex>e</ex>n</expan> czeit niht anheim gewesen sein, und
+                        wir gern <expan>geseh<ex>e</ex>n</expan> heten, daz ir euch an
+                                <expan>demselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>v<ex>er</ex>schreib<ex>e</ex>n</expan> het benügen lassen als von des
+                                <expan>aufhalte<ex>n</ex>s</expan> wegen, als ir sie getan habt
+                        lassen, darümb daz sie czu dem slosse Hoeste gegangen waren; aber seit ir
+                        daran kein genüge <expan>hab<ex>e</ex>n</expan> wölt, so sind
+                                <expan>dieselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex></expan> burger bede, als sie
+                            <expan>yeczund<ex>en</ex></expan> herheim <expan>kome<ex>n</ex></expan>
+                        sein, für uns in <expan>uns<ex>er</ex>n</expan> rate
+                            <expan>kume<ex>n</ex></expan> und <expan>hab<ex>e</ex>n</expan> vor uns
+                        mit irem eyde behabt und gesworen, daz sie on alle argliste und on geverde
+                        czu dem slosz Hoeste gegangen sein und das geschawet
+                            <expan>hab<ex>e</ex>n</expan>
+<expan>nyemand<ex>en</ex></expan> cze schaden; so sind auch die
+                                <expan>egen<ex>anten</ex></expan> Wilhelm Rumell und Hans Prünster
+                        bede unser <expan>burge<ex>r</ex></expan> und steen uns czu der czeit und
+                        nyeman <expan>and<ex>er</ex>s</expan> czu
+                            <expan>versprech<ex>e</ex>n</expan> und wöllen auch wir noch sie
+                                <expan>nyemand<ex>en</ex></expan>, der mit
+                            <expan>derselb<ex>e</ex>n</expan>
+<expan>aufhaltu<ex>n</ex>g</expan> cze schicken gehabt hat oder darynne
+                                <expan>v<ex>er</ex>daht</expan> ist, umb
+                            <expan>dieselb<ex>e</ex>n</expan> tate keins argen gewarten.
+                                <expan>Dan<ex>n</ex></expan> wo wir <expan>ewr<ex>er</ex></expan>
+                        ersamkeit lieb und dinste beweisen möhten, das <expan>tete<ex>n</ex></expan>
+                        wir <expan>g<ex>er</ex>n.</expan>
+<expan>Dat<ex>um</ex></expan> in die <expan>s<ex>an</ex>c<ex>t</ex>i</expan>
+<expan>Lamp<ex>er</ex>ti</expan> anno xii<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

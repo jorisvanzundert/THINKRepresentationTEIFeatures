@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="302" xml:id="l306" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 302 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>085v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 302.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Rindsmaul, Johann II.</persName></ab><ab type="mention"><persName type="mention">Harsdörffer, Margarethe</persName><persName type="mention">Harsdörffer, Heinrich II.</persName><persName type="mention">Egloffstein, Albrecht v.</persName></ab><date from="15-02-1409" to="15-02-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_174">
+<surface lrx="2828" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0088_left.png" width="2828px"/>
+<zone lrx="1724" lry="378" rendition="TextRegion" ulx="2485" uly="1923" xml:id="facs_174_r2">
+<zone lrx="1724" lry="378" rendition="Line" ulx="1124" uly="290" xml:id="facs_174_r2l1"/>
+<zone lrx="2663" lry="579" rendition="Line" ulx="569" uly="464" xml:id="facs_174_r2l2"/>
+<zone lrx="2676" lry="675" rendition="Line" ulx="695" uly="580" xml:id="facs_174_r2l3"/>
+<zone lrx="2707" lry="779" rendition="Line" ulx="696" uly="685" xml:id="facs_174_r2l4"/>
+<zone lrx="2701" lry="863" rendition="Line" ulx="702" uly="811" xml:id="facs_174_r2l5"/>
+<zone lrx="2587" lry="905" rendition="Line" ulx="2485" uly="867" xml:id="facs_174_r2l6"/>
+<zone lrx="2635" lry="965" rendition="Line" ulx="697" uly="905" xml:id="facs_174_r2l7"/>
+<zone lrx="2570" lry="1061" rendition="Line" ulx="709" uly="983" xml:id="facs_174_r2l8"/>
+<zone lrx="2607" lry="1150" rendition="Line" ulx="702" uly="1068" xml:id="facs_174_r2l9"/>
+<zone lrx="2629" lry="1242" rendition="Line" ulx="685" uly="1164" xml:id="facs_174_r2l10"/>
+<zone lrx="2620" lry="1332" rendition="Line" ulx="696" uly="1262" xml:id="facs_174_r2l11"/>
+<zone lrx="2560" lry="1430" rendition="Line" ulx="700" uly="1343" xml:id="facs_174_r2l12"/>
+<zone lrx="2560" lry="1530" rendition="Line" ulx="683" uly="1444" xml:id="facs_174_r2l13"/>
+<zone lrx="2588" lry="1626" rendition="Line" ulx="702" uly="1527" xml:id="facs_174_r2l14"/>
+<zone lrx="2576" lry="1720" rendition="Line" ulx="693" uly="1623" xml:id="facs_174_r2l15"/>
+<zone lrx="2528" lry="1816" rendition="Line" ulx="701" uly="1722" xml:id="facs_174_r2l16"/>
+<zone lrx="2556" lry="1903" rendition="Line" ulx="712" uly="1810" xml:id="facs_174_r2l17"/>
+<zone lrx="2044" lry="1992" rendition="Line" ulx="697" uly="1923" xml:id="facs_174_r2l18"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II. Rindsmaul</head><p>Der Rat teilt mit, dass Margarethe Harsdörffer, Bürgerin zu Nürnberg, die Klage vor vier Landgerichten, die sie mit ihrem verstorbenen Ehemann Heinrich Harsdörffer erhoben hat, ruhen lassen will, wenn der Adressat bis Georgentag seine Schulden zahlt, und danach auf Austrag mit Albrecht von Egloffstein hofft.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_174" id="85v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_174_r2l1">Hanſen Rindſmawl </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_174_r2l2"><expan>Lıeb<ex>er</ex></expan> Hans / Als Jr vns <expan>geſchr<ex>iben</ex></expan> habt / von <expan>d<ex>er</ex></expan> <expan>Harſtorff<ex>er</ex>in</expan> <expan>vnſ<ex>er</ex>r</expan> </ab>
+<ab facs="#facs_174_r2l3"><expan>Burg<ex>er</ex>in</expan> <expan>vveg<ex>en</ex></expan> / <expan>Daru<ex>m</ex>b</expan> <expan>hab<ex>e</ex>n</expan> vvir ſie durch <expan>ew<ex>r</ex>n</expan> vvıllen 
+<del rend="strikethrough"> cʒ </del> beſant </ab>
+<ab facs="#facs_174_r2l4">vnd cʒerede geſacʒt / vnd ſie hat vns <expan>geantw<ex>ur</ex>t</expan> / vvie Jr wirt ſelıg </ab>
+<ab facs="#facs_174_r2l5">vnd ſie / wol auf vier <expan>Lantgericht<ex>e</ex>n</expan> / auf 
+<del rend="strikethrough"> d </del> ewre <expan>güt<ex>er</ex></expan> geklagt </ab>
+<ab facs="#facs_174_r2l7">
+<del rend="strikethrough">vnd ew auch des </del> <expan>hab<ex>e</ex>n</expan> / des Jr beıde von irs vvirts vnd 
+<add><ab facs="#facs_174_r2l6">auch </ab></add> von </ab>
+<ab facs="#facs_174_r2l8">iren wegen küntlıch erynnert ſeit / . Doch ſo <expan>hab<ex>e</ex>n</expan> wir vmb </ab>
+<ab facs="#facs_174_r2l9"><expan>ew<ex>r</ex>n</expan> vvıllen / ſo ernſtlıch mit Jr geredt / daʒ ſie die cʒeit beiten </ab>
+<ab facs="#facs_174_r2l10">wil / als Jr <expan>dan<ex>n</ex></expan> ſelber ſchreibt / daʒ Jr ſie auf den nehſten ſant </ab>
+<ab facs="#facs_174_r2l11">Görgen tag becʒalen wöllet / vnd ıſt es daʒ Jr ſie auf <expan>dieſelb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_174_r2l12">cʒeit noch becʒalt / . ſo hofft ſie / ſie wöll mit <expan>Albr<ex>echt</ex></expan> <expan>vo<ex>n</ex></expan> <expan>Eglofſt<ex>ein</ex></expan> </ab>
+<ab facs="#facs_174_r2l13">wol <expan>awſtrage<ex>n</ex></expan> / daʒ ew die <expan>güt<ex>er</ex></expan> ledıg <expan>w<ex>er</ex>den</expan> / . Nu <expan>bitt<ex>e</ex>n</expan> vvir ewr </ab>
+<ab facs="#facs_174_r2l14"><expan>erberk<ex>eit</ex></expan> / daʒ Jr <expan>gedenke<ex>n</ex></expan> wöllet / daʒ Jr der <expan>egen<ex>anten</ex></expan> <expan>vnſ<ex>er</ex>r</expan> <expan>Burg<ex>er</ex>in</expan> </ab>
+<ab facs="#facs_174_r2l15">Jr ſchulde alſo becʒalt / vvan ſie maint wo Jr das <expan>leng<ex>er</ex></expan> <expan>v<ex>er</ex>cʒügt</expan> </ab>
+<ab facs="#facs_174_r2l16">
+<del rend="strikethrough">ſo köm es cʒ </del> daʒ es <expan>dan<ex>n</ex></expan> cʒe verre köm vnd Jr cʒe fremd würd </ab>
+<ab facs="#facs_174_r2l17">ob ſie ew die <expan>güt<ex>er</ex></expan> <expan>g<ex>er</ex>ne</expan> ledig macht / daʒ ſie des fürbas nicht </ab>
+<ab facs="#facs_174_r2l18">getün möcht / 
+<del rend="strikethrough">wo vvir ew i </del> <expan>Dat<ex>um</ex></expan> vt <expan>s<ex>upra</ex></expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_174" id="85v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hansen Rindsmawl </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> Hans, als ir uns
+                            <expan>geschr<ex>iben</ex></expan> habt von <expan>d<ex>er</ex></expan>
+<expan>Harstorff<ex>er</ex>in</expan>, <expan>uns<ex>er</ex>r</expan>
+<expan>burg<ex>er</ex>in</expan>, <expan>weg<ex>en</ex></expan>;
+                                <expan>daru<ex>m</ex>b</expan>
+<expan>hab<ex>e</ex>n</expan> wir sie durch <expan>ew<ex>r</ex>n</expan>
+                        willen besant und czerede gesaczt und sie hat uns
+                            <expan>geantw<ex>ur</ex>t</expan>, wie ir wirt selig und sie wol auf
+                        vier <expan>lantgericht<ex>e</ex>n</expan> auf ewre
+                            <expan>güt<ex>er</ex></expan> geklagt <expan>hab<ex>e</ex>n</expan>, des
+                        ir beide von irs wirts und <add>auch</add> von iren wegen küntlich erynnert
+                        seit. Doch so <expan>hab<ex>e</ex>n</expan> wir umb
+                            <expan>ew<ex>r</ex>n</expan> willen so ernstlich mit ir geredt, daz sie
+                        die czeit beiten wil, als ir <expan>dan<ex>n</ex></expan> selber schreibt,
+                        daz ir sie auf den nehsten sant Görgen tag beczalen wöllet; und ist es, daz
+                        ir sie auf <expan>dieselb<ex>e</ex>n</expan> czeit noch beczalt, so hofft
+                        sie, sie wöll mit <expan>Albr<ex>echt</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>Eglofst<ex>ein</ex></expan> wol <expan>awstrage<ex>n</ex></expan>,
+                        daz ew die <expan>güt<ex>er</ex></expan> ledig
+                            <expan>w<ex>er</ex>den</expan>. Nu <expan>bitt<ex>e</ex>n</expan> wir
+                        ewr <expan>erberk<ex>eit</ex></expan>, daz ir
+                            <expan>gedenke<ex>n</ex></expan> wöllet, daz ir der
+                                <expan>egen<ex>anten</ex></expan>, <expan>uns<ex>er</ex>r</expan>
+<expan>burg<ex>er</ex>in</expan>, ir schulde also beczalt, wan sie maint, wo
+                        ir das <expan>leng<ex>er</ex></expan>
+<expan>v<ex>er</ex>czügt</expan>, daz es <expan>dan<ex>n</ex></expan> cze
+                        verre köm und ir cze fremd würd, ob sie ew die <expan>güt<ex>er</ex></expan>
+<expan>g<ex>er</ex>ne</expan> ledig macht, daz sie des fürbas nicht getün
+                        möcht. <expan>Dat<ex>um</ex></expan> ut <expan>s<ex>upra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

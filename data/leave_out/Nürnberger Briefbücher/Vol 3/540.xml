@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="540" xml:id="l547" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 540 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>020r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 540.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Poseck, Heinrich v.</persName></ab><ab type="mention"><placeName type="mention">Hohenberg, Bg. (Hohenberg a. d. Eger)</placeName><persName type="mention">Schwarzburg, N. v.</persName></ab><date from="4-11-1409" to="4-11-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_41">
+<surface lrx="2639" lry="3816" ulx="0" uly="0">
+<graphic height="3816px" url="Rst Nbg-Briefbücher-Nr 3_0022_right.png" width="2639px"/>
+<zone lrx="1503" lry="1810" rendition="TextRegion" ulx="998" uly="2816" xml:id="facs_41_r2"> <zone lrx="1759" lry="1810" rendition="Line" ulx="991" uly="1727" xml:id="facs_41_r2l17"/>
+<zone lrx="1503" lry="1900" rendition="Line" ulx="998" uly="1839" xml:id="facs_41_r2l18"/>
+<zone lrx="2434" lry="2094" rendition="Line" ulx="573" uly="2007" xml:id="facs_41_r2l19"/>
+<zone lrx="2423" lry="2201" rendition="Line" ulx="570" uly="2108" xml:id="facs_41_r2l20"/>
+<zone lrx="2494" lry="2317" rendition="Line" ulx="558" uly="2205" xml:id="facs_41_r2l21"/>
+<zone lrx="2498" lry="2420" rendition="Line" ulx="546" uly="2311" xml:id="facs_41_r2l22"/>
+<zone lrx="2456" lry="2512" rendition="Line" ulx="547" uly="2404" xml:id="facs_41_r2l23"/>
+<zone lrx="2472" lry="2614" rendition="Line" ulx="540" uly="2498" xml:id="facs_41_r2l24"/>
+<zone lrx="2470" lry="2720" rendition="Line" ulx="521" uly="2607" xml:id="facs_41_r2l25"/>
+<zone lrx="2406" lry="2824" rendition="Line" ulx="556" uly="2704" xml:id="facs_41_r2l26"/>
+<zone lrx="2187" lry="2927" rendition="Line" ulx="546" uly="2816" xml:id="facs_41_r2l27"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich von Passeck, Amtmann zu Hohenberg</head><p>Der Rat teilt mit, dass keiner der von Heinrich Genannten in Nürnberg gefangen ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_41" id="20r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_41_r2l17"><expan>Heinr<ex>ich</ex></expan> Paſſeck Amptman </ab>
+<ab facs="#facs_41_r2l18">cʒu hohemberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_41_r2l19"><expan>L<ex>ieber</ex></expan> <expan>heinr<ex>ich</ex></expan> Als Jr vns <expan>geſchrib<ex>e</ex>n</expan> habt / von etlıcher wegen </ab>
+<ab facs="#facs_41_r2l20">als ew geſagt ſeẏ worden ~ dıe beẏ vns gefangen ſein <expan>ſülle<ex>n</ex></expan> </ab>
+<ab facs="#facs_41_r2l21">laſſen vvir euch vviſſen / daʒ der kheiner beẏ vns <expan>gefange<ex>n</ex></expan> iſt </ab>
+<ab facs="#facs_41_r2l22">vnd wer 
+<del rend="strikethrough">n </del> eʒ daʒ vvir ſie in <expan>vnſ<ex>er</ex>r</expan> venknüſſe heten / vvaʒ vvir </ab>
+<ab facs="#facs_41_r2l23"><expan>dan<ex>n</ex></expan>
+<del rend="strikethrough"> de </del> durch <expan>vnſ<ex>er</ex>s</expan> <expan>h<ex>er</ex>ren</expan> ~ von Swarcʒburg vnd durch <expan>ew<ex>r</ex>n</expan> </ab>
+<ab facs="#facs_41_r2l24">vvillen darcʒu getan <expan>hab<ex>e</ex>n</expan> möhten / das heten vvir gern </ab>
+<ab facs="#facs_41_r2l25">getan / vvan wo wir ſeinen <expan>gnade<ex>n</ex></expan> vnd ew lieb vnd dınſt </ab>
+<ab facs="#facs_41_r2l26">beweiſen <expan>möhte<ex>n</ex></expan> / 
+<del rend="strikethrough">das teten w </del> des wern wir wıllig </ab>
+<ab facs="#facs_41_r2l27">vnd teten das gern / <expan>Dat<ex>um</ex></expan> <expan>fe<ex>r</ex>ıa</expan> ıj̃ <expan>an<ex>te</ex></expan> Martini </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_41" id="20r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Heinr<ex>ich</ex></expan> Passeck, amptman czu Hohemberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>Heinr<ex>ich</ex></expan>, als ir uns
+                            <expan>geschrib<ex>e</ex>n</expan> habt von etlicher wegen, als ew
+                        gesagt sey worden, die bey uns gefangen sein <expan>sülle<ex>n</ex></expan>,
+                        lassen wir euch wissen, daz der kheiner bey uns
+                            <expan>gefange<ex>n</ex></expan> ist; und wer ez, daz wir sie in
+                                <expan>uns<ex>er</ex>r</expan> venknüsse heten, waz wir
+                                <expan>dan<ex>n</ex></expan> durch <expan>uns<ex>er</ex>s</expan>
+<expan>h<ex>er</ex>ren</expan> von Swarczburg und durch
+                            <expan>ew<ex>r</ex>n</expan> willen darczu getan
+                            <expan>hab<ex>e</ex>n</expan> möhten, das heten wir gern getan. Wan wo
+                        wir seinen <expan>gnade<ex>n</ex></expan> und ew lieb und dinst beweisen
+                                <expan>möhte<ex>n</ex></expan>, des wern wir willig und teten das
+                        gern. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>r</ex>ia</expan> ii <expan>an<ex>te</ex></expan> Martini.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

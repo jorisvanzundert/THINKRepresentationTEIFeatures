@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="180" xml:id="l182" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 180 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>050v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 180.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Haller, Andreas</persName><persName type="recipient">Wernitzer, Kaspar</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q153494" type="mention">Rothenburg o. d. Tauber</placeName><placeName ref="https://www.wikidata.org/wiki/Q489902" type="mention">Nördlingen</placeName><persName type="mention">Topler, Heinrich</persName><persName type="mention">Zingel, Konrad</persName><persName type="mention">Schuler, Stefan</persName><persName type="mention">Tötter, Heinrich</persName></ab><date from="8-08-1408" to="5-09-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_104">
+<surface lrx="2820" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0053_left.png" width="2820px"/>
+<zone lrx="1227" lry="1497" rendition="TextRegion" ulx="2199" uly="2602" xml:id="facs_104_r2"> <zone lrx="2243" lry="1497" rendition="Line" ulx="1245" uly="1421" xml:id="facs_104_r2l12"/>
+<zone lrx="2204" lry="1570" rendition="Line" ulx="1261" uly="1500" xml:id="facs_104_r2l13"/>
+<zone lrx="2735" lry="1821" rendition="Line" ulx="2199" uly="1768" xml:id="facs_104_r2l14"/>
+<zone lrx="2629" lry="1870" rendition="Line" ulx="697" uly="1791" xml:id="facs_104_r2l15"/>
+<zone lrx="2507" lry="1959" rendition="Line" ulx="739" uly="1859" xml:id="facs_104_r2l16"/>
+<zone lrx="2587" lry="2041" rendition="Line" ulx="719" uly="1943" xml:id="facs_104_r2l17"/>
+<zone lrx="2640" lry="2103" rendition="Line" ulx="725" uly="2034" xml:id="facs_104_r2l18"/>
+<zone lrx="1945" lry="2145" rendition="Line" ulx="1301" uly="2067" xml:id="facs_104_r2l19"/>
+<zone lrx="2596" lry="2187" rendition="Line" ulx="717" uly="2109" xml:id="facs_104_r2l20"/>
+<zone lrx="2705" lry="2279" rendition="Line" ulx="729" uly="2174" xml:id="facs_104_r2l21"/>
+<zone lrx="2654" lry="2361" rendition="Line" ulx="724" uly="2273" xml:id="facs_104_r2l22"/>
+<zone lrx="1387" lry="2357" rendition="Line" ulx="1184" uly="2324" xml:id="facs_104_r2l23"/>
+<zone lrx="2531" lry="2438" rendition="Line" ulx="720" uly="2358" xml:id="facs_104_r2l24"/>
+<zone lrx="2699" lry="2540" rendition="Line" ulx="719" uly="2427" xml:id="facs_104_r2l25"/>
+<zone lrx="1227" lry="2524" rendition="Line" ulx="1161" uly="2466" xml:id="facs_104_line_1576678827434_12857"/>
+<zone lrx="2535" lry="2622" rendition="Line" ulx="719" uly="2513" xml:id="facs_104_r2l26"/>
+<zone lrx="2631" lry="2700" rendition="Line" ulx="741" uly="2602" xml:id="facs_104_r2l27"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Andres Haller, Jakob Topler und Kaspar Wernitzer</head><p>Makulierter Entwurf des Briefs Nr. 181.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_104" id="50v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><del rend="crossout"><ab facs="#facs_104_r2l12">Andreſen <expan>Hall<ex>er</ex></expan> / Jacob Toppler / vnd </ab>
+<ab facs="#facs_104_r2l13">Caſpar VVernitʒer cʒu <expan>Rotemb<ex>ur</ex>g</expan> </ab>
+</del></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><del rend="crossout"><ab facs="#facs_104_r2l15">Lieben frewnde / als Jr vns <expan>geſchrıb<ex>e</ex>n</expan> habt / von der 
+<del rend="strikethrough"> habe </del>
+<add><ab facs="#facs_104_r2l14">varndenhabe vnd brief </ab></add> <expan>vvege<ex>n</ex></expan> </ab>
+<ab facs="#facs_104_r2l16">die <expan>Heinr<ex>ich</ex></expan> Toppler <expan>ewr<ex>er</ex></expan> <expan>vat<ex>er</ex></expan> vnd Sweher <expan>ſelige<ex>n</ex></expan> <expan>Conrad<ex>en</ex></expan> cʒingell </ab>
+<ab facs="#facs_104_r2l17">vnd Stephan Schuler <expan>vnſ<ex>er</ex>n</expan> <expan>Burg<ex>er</ex>n</expan> beuolhen hat / das vvir die <expan>vnt<ex>er</ex></expan> </ab>
+<ab facs="#facs_104_r2l18">vveiſen vnd heiſʒen <expan>wölte<ex>n</ex></expan> / daʒ ſie euch ſölch habe vnd briefe <expan>gutlıch<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_104_r2l20">widergeben <expan>ſolte<ex>n</ex></expan> etc 
+<add><ab facs="#facs_104_r2l19">daʒ haben wir wol <expan>v<ex>er</ex>nome<ex>n</ex></expan> vnd </ab></add> laſʒen 
+<del rend="strikethrough">vvir </del> euch <expan>wiſʒe<ex>n</ex></expan> daʒ wir <expan>dieſelb<ex>e</ex>n</expan> <expan>vnſ<ex>er</ex>r</expan> </ab>
+<ab facs="#facs_104_r2l21"><expan>Burge<ex>r</ex></expan>
+<del rend="strikethrough"> be d </del> durch <expan>ew<ex>r</ex>n</expan> <expan>wille<ex>n</ex></expan> <expan>dar<ex>ümb</ex></expan> beſant vnd ʒu rede geſatʒt <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_104_r2l22">vnd die haben vns <expan>geantvv<ex>ur</ex>t</expan> das <expan>Heinr<ex>ich</ex></expan> Tötter von <expan>Nöꝛdlınge<ex>n</ex></expan> </ab>
+<ab facs="#facs_104_r2l24">dieſelben habe 
+<add><ab facs="#facs_104_r2l23">vnd brief </ab></add> bey Jn 
+<del rend="strikethrough">verb </del> mit dem <expan>rehte<ex>n</ex></expan> <expan>v<ex>er</ex>pote<ex>n</ex></expan> habe / </ab>
+<ab facs="#facs_104_r2l25">nu fuge Jn nicht das ſie die on reht herauſʒ geben / deucht euch </ab>
+<ab facs="#facs_104_r2l26">
+<del rend="strikethrough"> ſie </del> aber daʒ 
+<del rend="strikethrough">ſie </del>
+<add><ab facs="#facs_104_line_1576678827434_12857">Jr </ab></add> darüber ʒu den <expan>eg<ex>enanten</ex></expan> ~ vnſern <expan>Burg<ex>er</ex>n</expan> icht cʒu </ab>
+<ab facs="#facs_104_r2l27"> <expan>ſpreche<ex>n</ex></expan> het 
+<del rend="strikethrough">en </del> / <expan>dar<ex>ümb</ex></expan> wöllen ſie Jm ~ eins <expan>frewntliche<ex>n</ex></expan> <expan>rehte<ex>n</ex></expan> <expan>g<ex>er</ex>n</expan> ſein / </ab>
+</del>
+</div>
+</div><div type="regularised"><pb facs="#facs_104" id="50v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><del rend="crossout">Andresen <expan>Hall<ex>er</ex></expan>, Jacob Toppler
+                            und Caspar Werniczer czu <expan>Rotemb<ex>ur</ex>g</expan>
+</del></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><del rend="crossout">Lieben frewnde, als ir uns
+                                <expan>geschrib<ex>e</ex>n</expan> habt von der <add>varndenhabe und
+                                brief</add>
+<expan>wege<ex>n</ex></expan>, die <expan>Heinr<ex>ich</ex></expan>
+                            Toppler, <expan>ewr<ex>er</ex></expan>
+<expan>vat<ex>er</ex></expan> und sweher
+                            <expan>selige<ex>n</ex></expan>, <expan>Conrad<ex>en</ex></expan>
+                            Czingell und Stephan Schuler, <expan>uns<ex>er</ex>n</expan>
+<expan>burg<ex>er</ex>n</expan>, bevolhen hat, das wir die
+                                    <expan>unt<ex>er</ex></expan> weisen und heiszen
+                                    <expan>wölte<ex>n</ex></expan>, daz sie euch sölch habe und
+                            briefe <expan>gutlich<ex>e</ex>n</expan> widergeben
+                                    <expan>solte<ex>n</ex></expan> etc. <add>Daz haben wir wol
+                                        <expan>v<ex>er</ex>nome<ex>n</ex></expan> und</add> laszen
+                            euch <expan>wisze<ex>n</ex></expan>, daz wir
+                                <expan>dieselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> durch <expan>ew<ex>r</ex>n</expan>
+<expan>wille<ex>n</ex></expan>
+<expan>dar<ex>umb</ex></expan> besant und zu rede gesaczt
+                                    <expan>hab<ex>e</ex>n</expan> und die haben uns
+                                    <expan>geantw<ex>ur</ex>t</expan>, das
+                                <expan>Heinr<ex>ich</ex></expan> Tötter von
+                                    <expan>Nördlinge<ex>n</ex></expan> dieselben habe <add>und
+                                brief</add> bey in mit dem <expan>rehte<ex>n</ex></expan>
+<expan>v<ex>er</ex>pote<ex>n</ex></expan> habe. Nu fuge in nicht, das
+                            sie die on reht herausz geben. Deucht euch aber, daz <add>ir</add>
+                            darüber zu den <expan>eg<ex>enanten</ex></expan>, unsern
+                                    <expan>burg<ex>er</ex>n</expan>, icht czu
+                                    <expan>spreche<ex>n</ex></expan> het,
+                                <expan>dar<ex>umb</ex></expan> wöllen sie im eins
+                                    <expan>frewntliche<ex>n</ex></expan>
+<expan>rehte<ex>n</ex></expan>
+<expan>g<ex>er</ex>n</expan> sein.</del></ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1882" xml:id="l1893" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1882 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>091v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1882.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Yberg, Georg v.</persName><persName type="recipient">Yberg, Hans v.</persName></ab><ab type="mention"><placeName type="mention">Markgröningen (Stadt, Lk. Ludwigsburg, Baden-Württemberg)</placeName><placeName type="mention">Ziegelstein (Gt. d. Stadt Nürnberg)</placeName><placeName ref="https://www.wikidata.org/wiki/Q491743" type="mention">Dinkelsbühl</placeName><persName type="mention">Haller, Peter III.</persName><persName type="mention">Derrer, Fritz</persName></ab><date from="10-06-1415" to="10-06-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_183">
+<surface lrx="2622" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0094_left.png" width="2622px"/>
+<zone lrx="1945" lry="1128" rendition="TextRegion" ulx="2442" uly="1727" xml:id="facs_183_r1"> <zone lrx="2445" lry="1128" rendition="Line" ulx="1236" uly="1041" xml:id="facs_183_r1l8"/>
+<zone lrx="1945" lry="1200" rendition="Line" ulx="1242" uly="1133" xml:id="facs_183_r1l9"/>
+<zone lrx="2418" lry="1415" rendition="Line" ulx="656" uly="1354" xml:id="facs_183_r1l10"/>
+<zone lrx="2550" lry="1464" rendition="Line" ulx="1759" uly="1386" xml:id="facs_183_line_1576739587402_595"/>
+<zone lrx="2379" lry="1523" rendition="Line" ulx="687" uly="1455" xml:id="facs_183_r1l13"/>
+<zone lrx="2588" lry="1525" rendition="Line" ulx="2442" uly="1480" xml:id="facs_183_r1l14"/>
+<zone lrx="2151" lry="1555" rendition="Line" ulx="1717" uly="1494" xml:id="facs_183_line_1576739610108_620"/>
+<zone lrx="2516" lry="1603" rendition="Line" ulx="704" uly="1543" xml:id="facs_183_line_1576739606912_615"/>
+<zone lrx="2583" lry="1720" rendition="Line" ulx="665" uly="1632" xml:id="facs_183_r1l18"/>
+<zone lrx="2011" lry="1793" rendition="Line" ulx="703" uly="1727" xml:id="facs_183_r1l19"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Georg und Hans von Yberg zu Markgröningen</head><p>Der Rat bittet um Herausgabe des bei Dinkelsbühl beschlagnahmten Leders des Fritz Derrer von Ziegelhof, Armmann des Peter Haller, Bürger zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_183" id="91v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_183_r1l8">Jörgen vnd hanſen von Eyberg <expan>geprüd<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_183_r1l9">cʒu Gruningen geſeſſen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_183_r1l10"><expan>L<ex>ieber</ex></expan> Jörg vnd hans / vns hat fürgelegt Peter Haller der </ab>
+<ab facs="#facs_183_r1l13">elter vnſer lıeber <expan>burge<ex>r</ex></expan> / vvie Jr 
+<del rend="strikethrough">Jm </del>
+<add><ab facs="#facs_183_line_1576739587402_595"><expan>de<ex>m</ex></expan> <expan>frıcʒe<ex>n</ex></expan> <expan>derr<ex>er</ex></expan> <expan>vo<ex>n</ex></expan> cʒigelhof <expan>ſeıne<ex>m</ex></expan> </ab><ab facs="#facs_183_r1l14"><expan>Armma<ex>n</ex></expan> </ab></add> bey Dinkelſpühel </ab>
+<ab facs="#facs_183_line_1576739606912_615"> etvvieuil 
+<del rend="strikethrough">be<gap reason="illegible"/></del> Jrchs vnd leders 
+<del rend="strikethrough"><expan>genome<ex>n</ex></expan> <expan>genome<ex>n</ex></expan></del>
+<add><ab facs="#facs_183_line_1576739610108_620"><expan>aufgehalte<ex>n</ex></expan> habt </ab></add> / <expan>Ro<ex>gamus</ex></expan> / daʒ </ab>
+<ab facs="#facs_183_r1l18">Jr Jm daſſelb ſein Jrch vnd leder on hindernüſſe <expan>volge<ex>n</ex></expan> <expan>laſſe<ex>n</ex></expan> wollet </ab>
+<ab facs="#facs_183_r1l19">Als etc das <expan>wölle<ex>n</ex></expan> etc <expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ıj̃ <expan>an<ex>te</ex></expan> viti </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_183" id="91v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Jörgen und Hansen von Eyberg, <expan>geprüd<ex>er</ex>n</expan>, czu
+                        Gruningen gesessen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Jörg und Hans, uns hat fürgelegt Peter Haller
+                        der elter, unser lieber <expan>burge<ex>r</ex></expan>, wie ir
+                                    <add><expan>de<ex>m</ex></expan>
+<expan>Fricze<ex>n</ex></expan>
+<expan>Derr<ex>er</ex></expan>
+<expan>vo<ex>n</ex></expan> Czigelhof, <expan>seine<ex>m</ex></expan>
+<expan>armma<ex>n</ex></expan></add>, bey Dinkelspühel etwievil irchs
+                        und leders <add><expan>aufgehalte<ex>n</ex></expan> habt</add>.
+                                <expan>Ro<ex>gamus,</ex></expan> daz ir im dasselb sein irch und
+                        leder on hindernüsse <expan>volge<ex>n</ex></expan>
+<expan>lasse<ex>n</ex></expan> wollet, als etc. Das
+                            <expan>wölle<ex>n</ex></expan> etc. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> ii <expan>an<ex>te</ex></expan> Viti. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

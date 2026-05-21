@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="115" xml:id="l115" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 115 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>033v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 115.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q3936" type="recipient">Bamberg</placeName></ab><ab type="mention"><persName type="mention">Krauter, Leupold</persName></ab><date from="16-05-1408" to="13-06-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_70">
+<surface lrx="2828" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0036_left.png" width="2828px"/> <zone lrx="1305" lry="1079" rendition="TextRegion" ulx="2386" uly="2352" xml:id="facs_70_r3"> <zone lrx="2271" lry="1079" rendition="Line" ulx="1398" uly="1016" xml:id="facs_70_r3l5"/>
+<zone lrx="2750" lry="1275" rendition="Line" ulx="787" uly="1188" xml:id="facs_70_r3l6"/>
+<zone lrx="2772" lry="1385" rendition="Line" ulx="780" uly="1283" xml:id="facs_70_r3l7"/>
+<zone lrx="2633" lry="1468" rendition="Line" ulx="778" uly="1375" xml:id="facs_70_r3l8"/>
+<zone lrx="2637" lry="1555" rendition="Line" ulx="780" uly="1474" xml:id="facs_70_r3l9"/>
+<zone lrx="2759" lry="1661" rendition="Line" ulx="776" uly="1569" xml:id="facs_70_r3l10"/>
+<zone lrx="2629" lry="1740" rendition="Line" ulx="780" uly="1665" xml:id="facs_70_r3l11"/>
+<zone lrx="2737" lry="1853" rendition="Line" ulx="744" uly="1765" xml:id="facs_70_r3l12"/>
+<zone lrx="2713" lry="1947" rendition="Line" ulx="786" uly="1855" xml:id="facs_70_r3l13"/>
+<zone lrx="2672" lry="2026" rendition="Line" ulx="755" uly="1964" xml:id="facs_70_r3l14"/>
+<zone lrx="2731" lry="2077" rendition="Line" ulx="2386" uly="2025" xml:id="facs_70_r3l15"/>
+<zone lrx="2605" lry="2126" rendition="Line" ulx="776" uly="2054" xml:id="facs_70_r3l16"/>
+<zone lrx="2653" lry="2240" rendition="Line" ulx="803" uly="2139" xml:id="facs_70_r3l17"/>
+<zone lrx="2665" lry="2346" rendition="Line" ulx="799" uly="2241" xml:id="facs_70_r3l18"/>
+<zone lrx="1305" lry="2419" rendition="Line" ulx="788" uly="2352" xml:id="facs_70_r3l19"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Bamberg</head><p>Der Rat teilt wegen Bezahlung alter Schulden mit der neuen Münze und wegen des vor kurzem darüber beschlossenen Gesetzes mit, dass man dies nicht schreibt sondern nur einem vertrauenswürdigen Gesandten mündlich mitteilt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_70" id="33v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_70_r3l5">Der Stat cʒu Bamberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_70_r3l6"><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan> Als Jr vns aber
+                            <expan>geſchr<ex>iben</ex></expan> habt von
+                            <expan>becʒalu<ex>n</ex>g</expan> wegen </ab>
+<ab facs="#facs_70_r3l7">der alten ſchulde wıe wir eʒ hie damit halten etc Nu
+                                <expan>hab<ex>e</ex>n</expan>
+</ab>
+<ab facs="#facs_70_r3l8">
+<del rend="strikethrough">wolten </del> wir gewenet / daʒ das ewr
+                        Statſchreẏber von </ab>
+<ab facs="#facs_70_r3l9"><expan>etlich<ex>e</ex>n</expan> ~
+                            <expan>de<ex>n</ex></expan>
+<expan>vnſ<ex>er</ex>n</expan> wol <expan>v<ex>er</ex>nomen</expan> het /
+                        doch wie darümb ſo </ab>
+<ab facs="#facs_70_r3l10">laſſen wir <expan>ew<ex>r</ex></expan>
+<expan>erberk<ex>eit</ex></expan> wiſſen / daʒ wir ein geſecʒe hie bey vns </ab>
+<ab facs="#facs_70_r3l11">auf dıe <expan>vnſ<ex>er</ex>n</expan> gemacht
+                                <expan>hab<ex>e</ex>n/</expan> das vns niht füglich iſt </ab>
+<ab facs="#facs_70_r3l12">
+<expan>yemande<ex>m</ex></expan> cʒu
+                            <expan>v<ex>er</ex>ſchreıb<ex>e</ex>n</expan> / vver eʒ <del rend="strikethrough">e </del> nu / daʒ ewr vveiſheit / das </ab>
+<ab facs="#facs_70_r3l13">gern wiſſen vnd <expan>v<ex>er</ex>nemen</expan> wolt
+                        / So möht Jr <del rend="strikethrough"> einen dem Jr </del></ab>
+<ab facs="#facs_70_r3l14">
+<expan>yemand<ex>en</ex></expan> der <expan>ew<ex>r</ex>n</expan> / <del rend="strikethrough">her cʒ </del>
+<expan>de<ex>m</ex></expan> Jr darümb gelaubt her cʒu </ab>
+<ab facs="#facs_70_r3l16">vns <del rend="strikethrough">darümb </del> ſchicken /
+                        vnd <expan>de<ex>m</ex></expan>
+<expan>wolte<ex>n</ex></expan> wir das <add><ab facs="#facs_70_r3l15"><expan>d<ex>ur</ex>h</expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>wılle<ex>n</ex></expan>
+</ab></add> gern </ab>
+<ab facs="#facs_70_r3l17">hören laſſen <del rend="strikethrough">vnd cʒu wiſſen
+                            tun </del> / vvan wo wır <expan>ewr<ex>er</ex></expan>
+<expan>erſ<ex>amkeit</ex></expan>
+</ab>
+<ab facs="#facs_70_r3l18">lieb vnd freuntſchaft beweiſen
+                            <expan>mohte<ex>n</ex></expan> / das teten wir </ab>
+<ab facs="#facs_70_r3l19"><expan>allcʒ<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n</expan> / <expan>Dat<ex>um</ex></expan>
+</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_70" id="33v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat czu Bamberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns aber
+                            <expan>geschr<ex>iben</ex></expan> habt von
+                            <expan>beczalu<ex>n</ex>g</expan> wegen der alten schulde, wie wir ez
+                        hie damit halten etc. Nu <expan>hab<ex>e</ex>n</expan> wir gewenet, daz das
+                        ewr statschreyber von <expan>etlich<ex>e</ex>n</expan>
+<expan>de<ex>n</ex></expan>
+<expan>uns<ex>er</ex>n</expan> wol <expan>v<ex>er</ex>nomen</expan> het,
+                        doch wie darümb so lassen wir <expan>ew<ex>r</ex></expan>
+<expan>erberk<ex>eit</ex></expan> wissen, daz wir ein gesecze hie bey uns
+                        auf die <expan>uns<ex>er</ex>n</expan> gemacht
+                        <expan>hab<ex>e</ex>n</expan>, das uns niht füglich ist
+                                <expan>yemande<ex>m</ex></expan> czu
+                                <expan>v<ex>er</ex>schreib<ex>e</ex>n</expan>; wer ez nu, daz ewr
+                        weisheit das gern wissen und <expan>v<ex>er</ex>nemen</expan> wolt so möht
+                        ir <expan>yemand<ex>en</ex></expan> der <expan>ew<ex>r</ex>n</expan>,
+                                <expan>de<ex>m</ex></expan> ir darümb gelaubt, her czu uns schicken
+                        und <expan>de<ex>m</ex></expan>
+<expan>wolte<ex>n</ex></expan> wir das <add><expan>d<ex>ur</ex>h</expan>
+<expan>ew<ex>r</ex>n</expan>
+<expan>wille<ex>n</ex></expan></add> gern hören lassen. Wan wo wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>ers<ex>amkeit</ex></expan> lieb und freuntschaft beweisen
+                                <expan>mohte<ex>n</ex></expan>, das teten wir
+                                <expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n</expan>. <expan>Dat<ex>um</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,120 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Pea puree</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Semantic annotation of the recipe &quot;Pea puree&quot; (pa1.58)</edition>
+        <respStmt>
+          <resp>edition</resp>
+          <persName>Julia Eibinger</persName>
+          <persName>Helmut W. Klug</persName>
+        </respStmt>
+        <respStmt>
+          <resp>transcription</resp>
+          <persName>Astrid Böhm</persName>
+        </respStmt>
+        <respStmt>
+          <resp>digital processing</resp>
+          <persName>Christian Steiner</persName>
+        </respStmt>
+        <principal>
+          <persName>Helmut W. Klug</persName>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+          <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+        </availability>
+        <date when="2022-03-25"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.pa1.58</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <ab>
+          <title ref="http://gams.uni-graz.at/corema">CoReMA - Cooking Recipes of the Middle Ages: Corpus, Analysis, Visualisation</title>
+          <ref target="http://gams.uni-graz.at/o:corema.about/TEI_SOURCE">About the project &quot;CoReMA&quot;</ref>
+          <ref target="http://gams.uni-graz.at/o:corema.imprint/TEI_SOURCE">Imprint of the project &quot;CoReMA&quot;</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl type="corresponding_manuscript">
+          <msIdentifier>
+            <country>Ungarn</country>
+            <settlement>Pannonhalma</settlement>
+            <institution ref="https://pannonhalmifoapatsag.hu/en/library/">Library of Pannonhalma Archabbey</institution>
+            <idno>Cod. 118. J. 42</idno>
+            <altIdentifier type="abbr">
+              <idno>Pa1</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="corresponding_collection">
+          <msIdentifier>
+            <altIdentifier type="collection">
+              <idno>Pa1</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="manuscript_page">
+          <title>page in corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.pa1#Pa1_290r" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_tei_source">
+          <title>TEI source of corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.pa1/TEI_SOURCE" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_context">
+          <title>context of corresponding manuscript/collection</title>
+          <ref target="info:fedora/context:corema.pa1" type="context">Context for all recipes in manuscript &quot;Pa1&quot;</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <desc>References to the editorial principles and practices for this TEI file and the project CoReMA</desc>
+        <ref target="https://gams.uni-graz.at/o:corema.semanticdec/TEI_SOURCE">details of editorial principles and practices for the semantic annotation</ref>
+      </ab>
+    </encodingDesc>   
+ <profileDesc>
+      <textClass ana="#pa1.58">
+        <keywords>
+          <term>recipe</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <origDate>
+          <date notAfter="1525" notBefore="1475" xml:lang="de">um 1500</date>
+          <date notAfter="1525" notBefore="1475" xml:lang="en">about 1500</date>
+        </origDate>
+        <origPlace>
+          <placeName xml:lang="de">Entstehungsort unbekannt</placeName>
+          <placeName xml:lang="en">place of origin unknown</placeName>
+        </origPlace>
+      </creation>
+      <langUsage>
+        <language ident="de-x-enh" source="http://medieval-plants.org/mps-daten/inhalt/">Bavarian</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:space="preserve"><div n="58" type="recipe" xml:id="pa1.58" xml:lang="de-x-enh"><title key="Pea puree" type="none"></title> Item ayn <tool commodity="Q2122650" en="lye">kalkus</tool> sol guet sein vnd dawch dy <ingredient commodity="Q29472543" en="garden pea">zcheren</ingredient> dar eyn vnd las sy syeden daz sy iren rach ver lyesen vnd wasch rayn vnd lazz sy dan trucken syeden wan sy gesoten sind zo zerreib sy mit ainem <tool commodity="Q81895" en="spoon">loeffel</tool> da machstw eyn <dish commodity="Q636056" en="puree">mues</dish> von 
+    <ab n="1" subtype="subrecipe" type="recipe" xml:id="pa1.58.sub.1" xml:lang="de-x-enh"><title key="" type="none"></title>Also laz auch dy <ingredient commodity="Q61672189" en="broad bean">pon</ingredient> syeden vnd wasch sy schon vnd laz auch trucken syeden vnd zerreyb sy do machstw ein <ingredient commodity="Q61672189" en="broad bean">bon</ingredient> <dish commodity="Q264558" en="Žganci">prein</dish> von vnd schneyd In nach der leng auf ein <tool commodity="Q153988" en="bowl">schussel</tool> da mustw auch <ingredient commodity="Q282" en="wine">wein</ingredient> zw ha ben vnd thu <ingredient commodity="Q57656231" en="unrefined cane sugar">zucker</ingredient> dar an <pb n="290v" xml:id="Pa1_290v"></pb> vnd ein <ingredient commodity="Q427457" en="cooking oil">oell</ingredient> mues man dar zu han vnd machs mit guten <ingredient commodity="Q42527" en="spice">wurcz</ingredient> an</ab></div></body>
+  </text>
+</TEI>

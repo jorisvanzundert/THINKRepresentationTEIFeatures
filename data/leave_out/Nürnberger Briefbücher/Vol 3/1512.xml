@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1512" xml:id="l1527" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1512 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>265r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1512.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Marschall v. Oberndorf, Seitz</persName></ab><ab type="mention"><placeName type="mention">Oberbayern</placeName><placeName type="mention">Oberndorf a. Lech (Gem., Lk. Donau-Ries)</placeName><persName type="mention">Hofner, Burkhard</persName></ab><date from="24-10-1412" to="24-10-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_531">
+<surface lrx="2832" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0267_right.png" width="2832px"/>
+<zone lrx="1994" lry="1916" rendition="TextRegion" ulx="1073" uly="2775" xml:id="facs_531_r1"> <zone lrx="2494" lry="1916" rendition="Line" subtype="paragraph" ulx="997" uly="1803" xml:id="facs_531_r1l13"/>
+<zone lrx="1994" lry="2010" rendition="Line" ulx="1073" uly="1892" xml:id="facs_531_r1l14"/>
+<zone lrx="2485" lry="2217" rendition="Line" subtype="paragraph" ulx="442" uly="2055" xml:id="facs_531_r1l15"/>
+<zone lrx="2410" lry="2316" rendition="Line" ulx="483" uly="2170" xml:id="facs_531_r1l16"/>
+<zone lrx="2472" lry="2429" rendition="Line" ulx="476" uly="2274" xml:id="facs_531_r1l17"/>
+<zone lrx="2492" lry="2533" rendition="Line" ulx="476" uly="2374" xml:id="facs_531_r1l18"/>
+<zone lrx="2488" lry="2616" rendition="Line" ulx="482" uly="2475" xml:id="facs_531_r1l19"/>
+<zone lrx="2554" lry="2713" rendition="Line" ulx="488" uly="2572" xml:id="facs_531_r1l20"/>
+<zone lrx="2504" lry="2804" rendition="Line" ulx="324" uly="2670" xml:id="facs_531_r1l21"/>
+<zone lrx="2298" lry="2899" rendition="Line" ulx="492" uly="2775" xml:id="facs_531_r1l22"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Seitz Marschall von Oberndorf, Viztum in Oberbayern</head><p>Der Rat teilt mit, dass er Burkhard Hofner, Diener der Stadt, nach seiner Rückkehr befragt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_531" id="265r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_531_r1l13">Seicʒen Marſchalk cʒu Oberndorff <expan>de<ex>m</ex></expan> <expan>Jüng<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_531_r1l14">vicʒtumb in obern Bayern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_531_r1l15"> <expan>L<ex>ieber</ex></expan> her vicʒtumb / Als Jr vns 
+<del rend="strikethrough"><expan>yecʒund<ex>en</ex></expan></del> <expan>geſchr<ex>iben</ex></expan> habt / von </ab>
+<ab facs="#facs_531_r1l16">Burkhart hofners ~ <expan>vnſ<ex>er</ex>s</expan> dieners wegen / Laſſen vvir ew </ab>
+<ab facs="#facs_531_r1l17">vvıſſen / daʒ derſelb vnſer diener <expan>yecʒund<ex>en</ex></expan> niht anheim iſt </ab>
+<ab facs="#facs_531_r1l18">vnd <expan>vven<ex>n</ex></expan> der herheim kumt / So <expan>vvolle<ex>n</ex></expan> wir Jn durch <expan>ew<ex>r</ex>n</expan> </ab>
+<ab facs="#facs_531_r1l19">vvillen gern cʒu reden ſecʒen / vnd ew <expan>dan<ex>n</ex></expan> ein <expan>antvv<ex>ur</ex>t</expan> wiſſen </ab>
+<ab facs="#facs_531_r1l20">laſſen / ob die <expan>yemand<ex>en</ex></expan> von <expan>ew<ex>r</ex>n</expan> vvegen an vns vordert / 
+<del rend="strikethrough"><expan>vvan<ex>n</ex></expan></del></ab>
+<ab facs="#facs_531_r1l21">
+<add>vnd</add> wo vvir <expan>ewr<ex>er</ex></expan> <expan>erberk<ex>eit</ex></expan> lieb vnd dinſte bevveiſen mochten / des </ab>
+<ab facs="#facs_531_r1l22"><expan>vv<ex>er</ex>n</expan> vvir willig vnd teten das <expan>allcʒ<ex>eit</ex></expan> <expan>g<ex>er</ex>n</expan> / <expan>dat<ex>um</ex></expan> ut <expan>ſup<ex>ra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_531" id="265r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Seiczen Marschalk czu Oberndorff
+                                                  <expan>de<ex>m</ex></expan>
+<expan>jüng<ex>er</ex>n</expan>, vicztumb in Obern
+                                                Bayern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> her vicztumb, als ir uns
+                                                  <expan>geschr<ex>iben</ex></expan> habt von
+                                                Burkhart Hofners, <expan>uns<ex>er</ex>s</expan>
+                                                dieners, wegen, lassen wir ew wissen, daz derselb
+                                                unser diener <expan>yeczund<ex>en</ex></expan> niht
+                                                anheim ist; und <expan>wen<ex>n</ex></expan> der
+                                                herheim kumt, so <expan>wolle<ex>n</ex></expan> wir
+                                                in durch <expan>ew<ex>r</ex>n</expan> willen gern
+                                                czu reden seczen und ew <expan>dan<ex>n</ex></expan>
+                                                ein <expan>antw<ex>ur</ex>t</expan> wissen lassen,
+                                                ob die <expan>yemand<ex>en</ex></expan> von
+                                                  <expan>ew<ex>r</ex>n</expan> wegen an uns vordert.
+                                                  <add>Und</add> wo wir
+                                                  <expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> lieb und dinste
+                                                beweisen mochten, des <expan>w<ex>er</ex>n</expan>
+                                                wir willig und teten das
+                                                  <expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n.</expan>
+<expan>Dat<ex>um</ex></expan> ut
+                                                  <expan>sup<ex>ra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="852" xml:id="l863" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 852 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>090r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 852.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q3004" type="recipient">Ingolstadt</placeName></ab><ab type="mention"><persName type="mention">Murach, Balthasar v.</persName></ab><date from="18-11-1410" to="18-11-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_181">
+<surface lrx="2797" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0092_right.png" width="2797px"/>
+<zone lrx="941" lry="1979" rendition="TextRegion" ulx="1036" uly="2642" xml:id="facs_181_r2"> <zone lrx="1289" lry="1979" rendition="Line" ulx="1036" uly="1900" xml:id="facs_181_r2l17"/>
+<zone lrx="2306" lry="2196" rendition="Line" ulx="336" uly="2044" xml:id="facs_181_r2l18"/>
+<zone lrx="2375" lry="2306" rendition="Line" ulx="481" uly="2145" xml:id="facs_181_r2l19"/>
+<zone lrx="2426" lry="2422" rendition="Line" ulx="496" uly="2263" xml:id="facs_181_r2l20"/>
+<zone lrx="2271" lry="2519" rendition="Line" ulx="517" uly="2377" xml:id="facs_181_r2l21"/>
+<zone lrx="2387" lry="2618" rendition="Line" ulx="513" uly="2475" xml:id="facs_181_r2l22"/>
+<zone lrx="941" lry="2743" rendition="Line" ulx="537" uly="2642" xml:id="facs_181_r2l23"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ingolstadt</head><p>Der Rat teilt mit, wegen Balthasar von Murach nichts unternehmen zu können.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_181" id="90r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_181_r2l17"><expan>Jngolſt<ex>at</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_181_r2l18"><expan>Lıeb<ex>e</ex>n</expan> frewnde / Als Jr vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> habt <expan>vo<ex>n</ex></expan> VValthaſar </ab>
+<ab facs="#facs_181_r2l19"><expan>Mürach<ex>er</ex>s</expan> <expan>vvege<ex>n</ex></expan> etc . <expan>hab<ex>e</ex>n</expan> wir <expan>ew<ex>r</ex>n</expan> brief vvol <expan>v<ex>er</ex>ſtand<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_181_r2l20">vnd wiſſen cʒü der cʒeit nichts / daʒ vns dar 
+<del rend="strikethrough"> cʒü </del> cʒü cʒe tün </ab>
+<ab facs="#facs_181_r2l21">füge /. wo vvir aber <expan>ewr<ex>er</ex></expan>
+<del rend="strikethrough"> fr </del> erſamkeit ſüſt lıeb vnd </ab>
+<ab facs="#facs_181_r2l22"><expan>frewntſch<ex>aft</ex></expan> <expan>beweıſe<ex>n</ex></expan> <expan>möcht<ex>e</ex>n</expan> / Das <expan>tet<ex>e</ex>n</expan> vvir allcʒeit <expan>g<ex>er</ex>ne</expan> </ab>
+<ab facs="#facs_181_r2l23"><expan>Dat<ex>um</ex></expan> vt <expan>s<ex>upra</ex></expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_181" id="90r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Ingolst<ex>at</ex></expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan> frewnde, als ir uns
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> habt
+                                <expan>vo<ex>n</ex></expan> Walthasar
+                            <expan>Mürach<ex>er</ex>s</expan>
+<expan>wege<ex>n</ex></expan> etc., <expan>hab<ex>e</ex>n</expan> wir
+                                <expan>ew<ex>r</ex>n</expan> brief wol
+                                <expan>v<ex>er</ex>stand<ex>e</ex>n</expan> und wissen czü der czeit
+                        nichts, daz uns dar czü cze tün füge. Wo wir aber
+                            <expan>ewr<ex>er</ex></expan> ersamkeit süst lieb und
+                                <expan>frewntsch<ex>aft</ex></expan>
+<expan>beweise<ex>n</ex></expan>
+<expan>möcht<ex>e</ex>n</expan>, das <expan>tet<ex>e</ex>n</expan> wir
+                        allczeit <expan>g<ex>er</ex>ne</expan>. <expan>Dat<ex>um</ex></expan> ut
+                                <expan>s<ex>upra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

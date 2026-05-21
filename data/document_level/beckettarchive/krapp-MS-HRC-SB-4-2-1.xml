@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Krapp's Last Tape</title>
+            <author xml:id="SB">Samuel Beckett</author>
+            <principal xml:id="DVH">Dirk Van Hulle</principal>
+            <funder>
+               <name>Centre for Manuscript Genetics (UA)</name>
+               <address>
+                  <addrLine>Universiteit Antwerpen (UA)</addrLine>
+                  <addrLine>Prinsstraat 13</addrLine>
+                  <addrLine>B-2000 Antwerpen</addrLine>
+                  <addrLine>Belgium</addrLine>
+                  <addrLine>tel: +32 (0)3 220 42 46</addrLine>
+                  <addrLine>email: dirk.vanhulle@ua.ac.be</addrLine>
+               </address>
+            </funder>
+            <respStmt>
+               <name>Dirk Van Hulle</name>
+               <resp>SBDMP coordinator,  encoding scheme, TEI customization</resp>
+            </respStmt>
+            <respStmt>
+               <name>Vincent Neyt</name>
+               <resp>Project architecture, encoding scheme, TEI customization</resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre for Manuscript Genetics (University of Antwerp)</authority>
+            <pubPlace>Antwerp</pubPlace>
+            <availability>
+               <p>Not to be distributed outside the project</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Abbreviated in the Manuscript Chronology as ET1<lb/>
+               <lb/>
+	Untitled ['Krapp's Last Tape']. Typed manuscript, signed, March 1958, 4 pp., 4to. Typescript I. With numerous autograph revisions and additions in black ink. There are a few doodles. The text varies considerably from the published version and lacks, in particular, the introductory stage directions and description of the setting. The protagonist appears as 'A'. At the top of page 1 Beckett has written: 'Typescript I of Krapp's Last Tape 3.58.' Inscribed, in blue ink, at the bottom of page 4: 'for / Jake Schwartz / Sam. Beckett / March 1958'.<lb/>
+               <lb/>
+  Lake, Carlton, ed. (1984), <hi rend="i">No Symbols Where None Intended: A Catalogue of Books, Manuscripts and Other Material Relating to Samuel Beckett in the Collections of the Humanities Research Center</hi> (Austin: Humanities Research Center), p. 105</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+               <list type="simple">
+                  <item>Correction:</item>
+                  <item>Normalization:</item>
+                  <item>Quotation:</item>
+                  <item>Hyphenation:</item>
+                  <item>Interpretation:</item>
+               </list>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <listTranspose>
+            <transpose>
+               <ptr target="trans2"/>
+               <ptr target="trans1"/>
+            </transpose>
+         </listTranspose>
+         <langUsage>
+            <language ident="EN"/>
+         </langUsage>
+         <handNotes>
+            <handNote scope="major" medium="black_ink" xml:id="typist"/>
+            <handNote medium="black_ink"/>
+            <handNote medium="blue_ink"/>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="MS-HRC-SB-4-2-1">
+      <front>
+         <castList>
+            <castItem type="role">
+               <name xml:id="Tape">Tape</name>
+            </castItem>
+         </castList>
+      </front>
+      <body>
+         <div type="typescript">
+            <head>
+               <add place="margintop"
+                    hand="#SB"
+                    rend="black ink"
+                    resp="#DVH"
+                    corresp="#1r"
+                    xml:id="add1">Typescript I of <hi rend="u">Krapp's Last Tape</hi>
+                  <date when="1958-03-01" xml:id="date1" corersp="#1r" rend="inline">3.58.</date>
+               </add>
+            </head>
+            <note>This folder with four typescripts of \'Krapp\'s Last Tape\' is accompanied by a typed letter to Jake Schwartz on a half A4 sheet: "April 5th 1958 / Ussy / Dear Jake / Thank you for letter and TLS review a copy of which I received from Harold Hobson by the same post. I had not seen it. I am told it is by Anthony Cronin. He certainly does me proud. The Krapp <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">monol</del> text has nothing to do with Dublin. I have written it for Pat Magee and George Devine and it will be played by the former at the Royal Court with Endgame. This will be next May or in the early autumn, I do not yet know which. I might possibly come over to make a nuisance of myself at the rehearsals of <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Endg</del> Krapp, I am very anxious for it to be done right. It will be published in a coming number of Evergreen Review, I shall reserve a copy for you. I hear the Yeats exhibition was an immense success. Waddington has been here buying more pictures from my friend Hayden which pleases me much. He will exhibit him later, first in a group, then I hope one man. I have been trying to work in French, with scant success. The weather is perishing, but great peace here above the valley, you wouldn\'t know it was Easter. <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Ever <hi rend="u"/>
+               </add>
+            </note>
+            <sp who="#Tape">
+               <speaker>Tape</speaker>
+               <p>
+                  <pb n="1r"/>
+                  <add place="margintop"
+                       hand="#SB"
+                       rend="black ink"
+                       resp="#DVH"
+                       corresp="#1r"
+                       xml:id="sreadd2">
+                     <seg xml:id="krappd1e189" n="MS-HRC-SB-4-2-1,[0083]">
+                        <stage>(<hi rend="u">strong young voice, but unmistakeably A's. Rather pompous.</hi>)</stage>
+                        <lb rend="it"/>
+                     </seg>
+                  </add>
+                  <seg zone="zone_01"
+                       xml:id="krappd1e197"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-1,[0086]">Thirty-seven today, sound apparently in wind <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <seg type="paralipomena">(<hi rend="u">
+                              <unclear>
+                                 <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">he</del> he rimes</unclear>
+                              <note>sic; archaic spelling of "rhymes"</note> this word with mind</hi>)</seg>
+                     </add> and limb, <lb rend="it"/>apart from my old trouble, and intellectually I have <lb rend="it"/>little doubt at the peak of my powers, or thereabouts.<lb rend="it"/>
+                  </seg>
+                  <seg zone="zone_01" xml:id="krappd1e208" n="MS-HRC-SB-4-2-1,[0087]">Celebrated the <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">solemn</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">dreadful</add> occasion, as in recent years, quietly <lb rend="it"/>at the Winehouse.</seg>
+                  <seg zone="zone_01" xml:id="krappd1e217" n="MS-HRC-SB-4-2-1,[0088]">No <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">one</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">face</add> there I knew.</seg>
+                  <seg zone="zone_01" xml:id="krappd1e226" n="MS-HRC-SB-4-2-1,[0089]">Sat before the fire <lb rend="it"/>with closed eyes separating the grain from the chaff.</seg>
+                  <seg xml:id="krappd1e229"
+                       n="MS-HRC-SB-4-2-1,[0090]"
+                       zone="zone_02"
+                       corresp="#1r"
+                       style="indent280px">Jotted <lb rend="it"/>down a few notes, on the back of an envelope.</seg>
+                  <seg xml:id="krappd1e232" zone="zone_02" n="MS-HRC-SB-4-2-1,[0091]">It is good to <lb rend="it"/>be home again, in my old <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">things</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">rags</add>.</seg>
+                  <seg xml:id="krappd1e241" zone="zone_02" n="MS-HRC-SB-4-2-1,[0097]">The new light <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">over</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">above</add> my <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">desk</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">table</add>
+                     <lb rend="it"/>is a great improvement.</seg>
+                  <seg xml:id="krappd1e256" zone="zone_02" n="MS-HRC-SB-4-2-1,[0098]">With all this darkness round me I <add place="inline" hand="#SB" rend="black ink" resp="#DVH">feel</add>
+                     <lb rend="it"/>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">am</del> less alone.</seg>
+                  <seg xml:id="krappd1e265" zone="zone_02" n="MS-HRC-SB-4-2-1,[0099]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e272" zone="zone_02" n="MS-HRC-SB-4-2-1,[0100]">In a way.</seg>
+                  <seg xml:id="krappd1e275" zone="zone_02" n="MS-HRC-SB-4-2-1,[0101]">
+                     <stage>(<hi rend="u">Pa<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">e</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">u</add>se</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e282" zone="zone_02" n="MS-HRC-SB-4-2-1,[0102]">I like to get up <lb rend="it"/>and move about in it, then back here to...<stage>(<hi rend="u">hesitates</hi>)</stage>... <lb rend="it"/>myself.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e294" n="MS-HRC-SB-4-2-1,[0105]" zone="zone_02">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e299"
+                       zone="zone_03"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-1,[0106]">The grain, what d<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">i</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">o</add> I mean by that, I mean...<stage>(<hi rend="u">Pause</hi>.)</stage> I <lb rend="it"/>suppose I mean those things worth having when all the dust <lb rend="it"/>has - when all <hi rend="u">this</hi> dust has settled.</seg>
+                  <seg xml:id="krappd1e316" zone="zone_03" n="MS-HRC-SB-4-2-1,[0107]">I close my eyes and <lb rend="it"/>try and imagine them.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e322" zone="zone_03" n="MS-HRC-SB-4-2-1,[0108]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e327"
+                       zone="zone_04"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-1,[0110]">Extraordinary silence this evening. I strain my ears and <lb rend="it"/>do not hear a sound.</seg>
+                  <seg xml:id="krappd1e330" zone="zone_04" n="MS-HRC-SB-4-2-1,[0111]">Old Miss <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Williams</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Beamish</add> always sings at this <lb rend="it"/>hour.</seg>
+                  <seg xml:id="krappd1e339" zone="zone_04" n="MS-HRC-SB-4-2-1,[0113]">
+                     <metamark>&#x2041;</metamark>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#1r"
+                          xml:id="add3">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>The</unclear>
+                        </del> songs of her girlhood, she says.<metamark>&#x2041;</metamark>
+                        <metamark>&#x2190;</metamark>
+                        <note>Arrow pointing towards addition in left margin.</note>
+                     </add>
+                  </seg>
+                  <seg xml:id="krappd1e346" zone="zone_04" n="MS-HRC-SB-4-2-1,[0112]">But not tonight.</seg>
+                  <seg xml:id="krappd1e349" zone="zone_04" n="MS-HRC-SB-4-2-1,[0115]">
+                     <add place="marginleft"
+                          hand="#SB"
+                          corresp="#1r"
+                          xml:id="add2"
+                          rend="black ink"
+                          resp="#DVH">I admire her.</add>
+                     <metamark>&#x2190;</metamark>
+                  </seg>
+                  <seg xml:id="krappd1e353"
+                       zone="zone_04"
+                       n="MS-HRC-SB-4-2-1,[0112|001]"
+                       prev="#krappd1e346">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">I hope nothing</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Please Heavens nothing</del>
+                     </add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">has happened to her.</del>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e361" zone="zone_04" n="MS-HRC-SB-4-2-1,[0118]">
+                     <add place="infralinear" hand="#SB" rend="black ink" resp="#DVH">Shall I sing when I am her age<del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>?</unclear>
+                        </del>
+                     </add>
+                  </seg>
+                  <seg xml:id="krappd1e367" zone="zone_04" n="MS-HRC-SB-4-2-1,[0119]">
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>Goodness</unclear>
+                        </del>
+                     </add>
+                     <add place="supralinear"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="xadd2">
+                        <metamark>&#x2191;</metamark>
+                        <note>Arrow to indicate supralinear addition.</note>if I ever am.</add>
+                     <add place="infralinear" hand="#SB" rend="black ink" resp="#DVH">Unlikely.</add>
+                  </seg>
+                  <seg xml:id="krappd1e374" zone="zone_04" n="MS-HRC-SB-4-2-1,[0121]">
+                     <add place="infralinear" hand="#SB" rend="black ink" resp="#DVH">Did I sing <lb rend="it"/>as a boy?</add>
+                  </seg>
+                  <seg xml:id="krappd1e378" zone="zone_04" n="MS-HRC-SB-4-2-1,[0122]">
+                     <add place="infralinear" hand="#SB" rend="black ink" resp="#DVH">No.</add>
+                  </seg>
+                  <seg xml:id="krappd1e382" zone="zone_04" n="MS-HRC-SB-4-2-1,[0124]">
+                     <add place="infralinear" hand="#SB" rend="black ink" resp="#DVH">Did I ever sing?</add>
+                  </seg>
+                  <seg xml:id="krappd1e386" zone="zone_04" n="MS-HRC-SB-4-2-1,[0125]">
+                     <add place="infralinear" hand="#SB" rend="black ink" resp="#DVH">No.</add>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e392" zone="zone_04" n="MS-HRC-SB-4-2-1,[0126]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e397"
+                       zone="zone_05"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-1,[0127]">I have just listened to an old year<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">.</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">,</add>
+                     <metamark>&#x2041;</metamark>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">passages at random.</add>
+                  </seg>
+                  <seg xml:id="krappd1e407" zone="zone_05" n="MS-HRC-SB-4-2-1,[0128]">I did not check <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">up</del>
+                     <lb rend="it"/>in the <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">register</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">book</add>, but it must be at least <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">ten or</del> twelve <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">or fifteen</add> years <lb rend="it"/>ago.</seg>
+                  <seg xml:id="krappd1e425" zone="zone_05" n="MS-HRC-SB-4-2-1,[0129]">At that time I was living on and off with <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Celia</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Furry</add> in <lb rend="it"/>
+                     <gap reason="blank for word" hand="#SB"/>
+                     <hi rend="indented"/> Street.</seg>
+                  <metamark>&#x2041;</metamark>
+                  <seg xml:id="krappd1e437" zone="zone_05" n="MS-HRC-SB-4-2-1,[0131]">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#1r"
+                          xml:id="add4">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Hopeless business.</del>
+                        <metamark>
+                           <hi rend="circled">Insert</hi>
+                        </metamark>
+                        <metamark>&#x2041;</metamark>
+                        <note>In the left-hand margin, underneath \'Hopeless business\', Beckett has written \'Insert\', followed by an insertion mark in the shape of the Greek letter lambda, corresponding to the lambda in the main text after \'Street.\'. The passage to be inserted is written on page 21r of the \'ETE 56\' notebook (MS UoR 1227-7-7-1).</note>
+                     </add>
+                  </seg>
+                  <figure xml:id="MS-HRC-SB-4-2-1__1r_-_doodleklt1"
+                          n="1"
+                          corresp="#1r"
+                          ana="doodlecategories.xml#Shape doodlecategories.xml#Abstract-shape doodlecategories.xml#Hatching">
+                     <figDesc/>
+                  </figure>
+                  <figure xml:id="MS-HRC-SB-4-2-1__1r_-_doodleklt2"
+                          n="2"
+                          corresp="#1r"
+                          ana="doodlecategories.xml#Symbol doodlecategories.xml#Decorated-metamark doodlecategories.xml#Hatching doodlecategories.xml#Shape">
+                     <figDesc/>
+                  </figure>
+                  <seg xml:id="krappd1e444" zone="zone_05" n="MS-HRC-SB-4-2-1,[0141]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">I must say I - <stage>(<hi rend="u">A switches off machine, broods<lb rend="it"/> at length, switches on again</hi>.)</stage> - find this a great help before <lb rend="it"/>embarking on a new...er....review <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">conspectus</add>.</del>
+                  </seg>
+                  <seg xml:id="krappd1e456" zone="zone_05" n="MS-HRC-SB-4-2-1,[0142]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">I find it hard</del>
+                        <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">It is hard</add> to believe <lb rend="it"/>that young man was I.</del>
+                  </seg>
+                  <seg xml:id="krappd1e465" zone="zone_05" n="MS-HRC-SB-4-2-1,[0143]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Even</del>
+                     <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">T</add>he voice is <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">unfamiliar</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH"> not mine.</add>
+                     <del type="implied">.</del>
+                  </seg>
+                  <seg xml:id="krappd1e478" zone="zone_05" n="MS-HRC-SB-4-2-1,[0145]">Aspirat<lb rend="-it"/>ions<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">,</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">.</add>
+                  </seg>
+                  <seg xml:id="krappd1e485"
+                       style="indent55px"
+                       zone="zone_06"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-1,[0147]">
+                     <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">R</add>esolutions.</seg>
+                  <seg xml:id="krappd1e492" zone="zone_06" n="MS-HRC-SB-4-2-1,[0149]">To drink less, in particular.</seg>
+                  <seg xml:id="krappd1e495" zone="zone_06" n="MS-HRC-SB-4-2-1,[0151]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">He speaks of</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Statistics.</add>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e502" zone="zone_06" n="MS-HRC-SB-4-2-1,[0152]">
+                     <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">s</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">S</add>eventeen hundred hours, out of the preceding <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">8</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">e</add>ight thousand <lb rend="it"/>odd, consumed on licensed premises alone.</seg>
+                  <seg xml:id="krappd1e509" zone="zone_06" n="MS-HRC-SB-4-2-1,[0155]">Plans for a <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">fuller</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">less <unclear>aspiring</unclear>
+                        </del>
+                     </add>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#1r"
+                          xml:id="add5">less exhausting</add>
+                     <lb rend="it"/>sexual life.</seg>
+                  <seg xml:id="krappd1e524" zone="zone_06" n="MS-HRC-SB-4-2-1,[0156]">Last illness of his father.</seg>
+                  <seg xml:id="krappd1e527" zone="zone_06" n="MS-HRC-SB-4-2-1,[0157]">
+                     <metamark>&#x2041;</metamark>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          xml:id="add_007"
+                          corresp="#1r"
+                          resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Pursuit of happiness.</del>
+                     </add>
+                  </seg>
+                  <figure xml:id="MS-HRC-SB-4-2-1__1r_-_doodleklt3"
+                          n="3"
+                          corresp="#1r"
+                          ana="doodlecategories.xml#Shape doodlecategories.xml#Parallelogram doodlecategories.xml#Zigzag doodlecategories.xml#Trapezium doodlecategories.xml#Hatching">
+                     <figDesc/>
+                  </figure>
+                  <seg xml:id="krappdvndjc99" zone="zone_06" n="MS-HRC-SB-4-2-1,[0157]">
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Flagging <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">spasmodic</del> pursuit of happiness.</add>
+                  </seg>
+                  <seg xml:id="krappd1e538" zone="zone_06" n="MS-HRC-SB-4-2-1,[0163]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">References to his<lb rend="it"/> life's work <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">magnum opus</add>
+                     </del>
+                     <metamark>&#x2193;</metamark>
+                     <note>Arrow to indicate addition marginbottom</note>.</seg>
+                  <seg xml:id="krappdndcjn38" zone="zone_06" n="MS-HRC-SB-4-2-1,[0163]">
+                     <add place="marginbottom"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#1r"
+                          xml:id="add7">Shadow of the magnum opus.</add>
+                  </seg>
+                  <seg xml:id="krappd1e547" zone="zone_06" n="MS-HRC-SB-4-2-1,[0164]">Closing with a - <stage>(<hi rend="u">brief laugh</hi>)</stage> - <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">an appeal to</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">a plea</del> squeal</add>
+                     <lb rend="it"/>Providence.</seg>
+                  <seg xml:id="krappd1e564" zone="zone_06" n="MS-HRC-SB-4-2-1,[0165]">
+                     <stage>(<hi rend="u">Prolonged laugh</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e571" zone="zone_06" n="MS-HRC-SB-4-2-1,[0166]">What remains of all that <lb rend="it"/>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">lumber</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">misery</add>?</seg>
+                  <seg xml:id="krappd1e580" zone="zone_06" n="MS-HRC-SB-4-2-1,[0167]">A girl in a shabby green <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">dress</del> coat, on a railway-<lb rend="it"/>station platform?<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e589"
+                          zone="zone_07"
+                          corresp="#1r"
+                          n="MS-HRC-SB-4-2-1,[0169]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e594" zone="zone_07" n="MS-HRC-SB-4-2-1,[0170]">When I look -</seg>
+                  <stage>(<seg xml:id="krappd1e599" zone="zone_07" n="MS-HRC-SB-4-2-1,[0171]">
+                        <hi rend="u">A s<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">i</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">w</add>
+                           <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">w</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">i</add>tches off machine, broods, <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                              <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                                 <unclear>consults</unclear>
+                              </del> looks at watch,</add> gets up and<lb rend="it"/> goes backstage into shadows. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e605" zone="zone_07" n="MS-HRC-SB-4-2-1,[0172]">
+                        <hi rend="u">Pause of ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e608" zone="zone_07" n="MS-HRC-SB-4-2-1,[0173]">
+                        <hi rend="u">Sound of<lb rend="it"/> cork popping. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e611" zone="zone_07" n="MS-HRC-SB-4-2-1,[0174]">
+                        <hi rend="u">Te<add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">n</add> seconds. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e614" zone="zone_07" n="MS-HRC-SB-4-2-1,[0175]">
+                        <hi rend="u">Second cork. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e617" zone="zone_07" n="MS-HRC-SB-4-2-1,[0176]">
+                        <hi rend="u">Ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e620" zone="zone_07" n="MS-HRC-SB-4-2-1,[0177]">
+                        <hi rend="u">Third</hi>
+                        <lb rend="it"/>
+                        <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">cork? Te</del>
+                        <hi rend="u">cork</hi>
+                        <hi rend="u">. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e627" zone="zone_07" n="MS-HRC-SB-4-2-1,[0178]">
+                        <hi rend="u">Ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e630" zone="zone_07" n="MS-HRC-SB-4-2-1,[0179]">
+                        <hi rend="u">
+                           <add place="marginleft"
+                                hand="#SB"
+                                rend="black ink"
+                                resp="#DVH"
+                                corresp="#1r"
+                                xml:id="add6">
+                              <stage>
+                                 <hi rend="u">
+                                    <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                                       <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Sudden</del> brief burst of song</del>
+                                 </hi>
+                                 <lb rend="it"/> (Brief burst of raucous song.)</stage>
+                           </add>
+                        </hi>
+                     </seg>
+                     <seg xml:id="krappd1e641" zone="zone_07" n="MS-HRC-SB-4-2-1,[0183]">
+                        <hi rend="u">He comes back into light from an<lb rend="it"/> unexpected angle, <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">say</del> front right , sits down, resumes his<lb rend="it"/> pose, switches on machine</hi>.</seg>)</stage>
+                  <seg n="MS-HRC-SB-4-2-1,[0184]"
+                       xml:id="krappd1e649"
+                       zone="zone_07"
+                       zone2="zone_08"
+                       corresp="#1r,2r">
+                     <anchor type="ts" n="1r"/> - back on the year that is gone<add place="inline" hand="#SB" rend="black ink" resp="#DVH">,</add>
+                     <lb rend="it"/>
+                     <anchor type="ts" n="2r"/>
+                     <pb n="2r"/>
+with the old eyes to come, there is of course the house on the <lb rend="it"/>canal where mother lay dying, in the early autumn, after her long <lb rend="it"/>widowhood, and the</seg>
+                  <seg xml:id="krappd1e657" zone="zone_08" n="MS-HRC-SB-4-2-1,[0207]">bench by the weir from where I could see her <lb rend="it"/>window.</seg>
+                  <seg xml:id="krappd1e660"
+                       style="indent50px"
+                       zone="zone_09"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-1,[0208]">I sat there, wishing she were gone.</seg>
+                  <seg xml:id="krappd1e663"
+                       zone="zone_09"
+                       n="MS-HRC-SB-4-2-1,[0208|001]"
+                       prev="#krappd1e660">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Day after day</del>
+                     <del type="implied">.</del>
+                  </seg>
+                  <seg xml:id="krappd1e667" zone="zone_09" n="MS-HRC-SB-4-2-1,[0210]">Quite <lb rend="it"/>a number of people I got to know then, <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">oh I mean</add> by appearance, nursemaids <lb rend="it"/>and children, old men, dogs.</seg>
+                  <seg xml:id="krappd1e673" zone="zone_09" n="MS-HRC-SB-4-2-1,[0211]">One dark young <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">woman</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">beauty</add> I remember par<lb rend="-it"/>ticularly, <add place="inline" hand="#SB" rend="black ink" resp="#DVH">
+                        <metamark>&#x2041;</metamark>
+                     </add>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#2r"
+                          xml:id="add9">all white and starch <metamark>&#x2041;</metamark>
+                     </add> with a big b<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">a</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">l</add>ack pram.</seg>
+                  <seg xml:id="krappd1e685"
+                       zone="zone_09"
+                       n="MS-HRC-SB-4-2-1,[0211|001]"
+                       prev="#krappd1e673">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Day after day</del>
+                     <del type="implied">.</del>
+                  </seg>
+                  <seg xml:id="krappd1e689" zone="zone_09" n="MS-HRC-SB-4-2-1,[0212]">When<add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">ever</add> I looked in <lb rend="it"/>her direction she <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">always</del> had her eyes on me.</seg>
+                  <seg xml:id="krappd1e698" zone="zone_09" n="MS-HRC-SB-4-2-1,[0213]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">And yet</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">But</add> when <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">at last</del>
+                     <lb rend="it"/>I <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">ventured</del>
+                     <add place="inline" hand="#SB" rend="black ink" resp="#DVH">
+                        <metamark>&#x2041;</metamark>
+                     </add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">was foolish enough</add> to speak to her she threatened to call a policeman.</seg>
+                  <seg xml:id="krappd1e715" zone="zone_09" n="MS-HRC-SB-4-2-1,[0217]">The <lb rend="it"/>face she had<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">,</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">!</add>
+                  </seg>
+                  <seg xml:id="krappd1e722" zone="zone_09" n="MS-HRC-SB-4-2-1,[0218]">
+                     <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">e</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">E</add>yes </seg>
+                  <seg xml:id="krappd1e729" zone="zone_09" n="MS-HRC-SB-4-2-1,[0219]">like...moonstones.</seg>
+                  <seg xml:id="krappd1e732"
+                       style="indent150px"
+                       zone="zone_10"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-1,[0223]">I was there when <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">-o</del> - <stage>
+                        <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">5</del>
+                        <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">(</add>
+                        <hi rend="u">
+                           <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">h</del>
+                           <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">H</add>e<lb rend="it"/> switches off, broods, <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">w</del>
+                           <add place="overwritten" rend="black ink" hand="#typist" resp="#DVH">s</add>witches on again</hi>)</stage>- the blind went down, one <lb rend="it"/>of those dirty brown roller affairs, throwing a ball <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">fo r a</del> for a <lb rend="it"/>dog <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                        <restore hand="#SB" type="marginalStetNote">as it happened</restore>
+                     </del>
+                     <add place="marginleft" rend="black ink" hand="#SB" resp="#DVH">
+                        <metamark>
+                           <hi rend="u">Stet.</hi>
+                        </metamark>
+                        <note>\'Stet.\' in the left margin.</note>
+                     </add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>I was</unclear>
+                        </del>
+                     </add>.</seg>
+                  <seg xml:id="krappd1e756" zone="zone_10" n="MS-HRC-SB-4-2-1,[0224]">I looked up and there it was.</seg>
+                  <seg xml:id="krappd1e759" zone="zone_10" n="MS-HRC-SB-4-2-1,[0225]">
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Over at last.</add>
+                  </seg>
+                  <seg xml:id="krappd1e763" zone="zone_10" n="MS-HRC-SB-4-2-1,[0226]">I sat <choice>
+                        <sic>a</sic>
+                        <corr/>
+                     </choice> for a <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">few <lb rend="it"/>minutes</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#2r"
+                          xml:id="add10">moment</add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">or so</add> with the ball in my hand and the dog barking and pawing at <lb rend="it"/>me. <metamark>&#x2041;</metamark>
+                  </seg>
+                  <add place="marginleft"
+                       hand="#SB"
+                       rend="black ink"
+                       resp="#DVH"
+                       corresp="#2r"
+                       xml:id="add11">
+                     <seg xml:id="krappd1e778" zone="zone_10" n="MS-HRC-SB-4-2-1,[0228]">
+                        <metamark>&#x2041;</metamark>Moments ...</seg>
+                     <seg xml:id="krappd1e782"
+                          zone="zone_10"
+                          n="MS-HRC-SB-4-2-1,[0228|001]"
+                          prev="#krappd1e778">
+                        <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     </seg>
+                     <seg xml:id="krappd1e790" zone="zone_10" n="MS-HRC-SB-4-2-1,[0229]">Her moments. My moments.</seg>
+                     <seg xml:id="krappd1e794" zone="zone_10" n="MS-HRC-SB-4-2-1,[0230]">
+                        <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     </seg>
+                  </add>
+                  <seg xml:id="krappd1e802" zone="zone_10" n="MS-HRC-SB-4-2-1,[0233]">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add141">In the <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>x</unclear>
+                        </del> end</add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Then</del> I held it out to him and he took it in his mouth, very <lb rend="it"/>gently.</seg>
+                  <seg xml:id="krappd1e814" zone="zone_10" n="MS-HRC-SB-4-2-1,[0234]">An old tennis ball, black and sodden, but unpunctured.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e817" zone="zone_10" n="MS-HRC-SB-4-2-1,[0235]">
+                     <add place="inline" rend="black ink" resp="#DVH" hand="#SB">(</add>
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e824" zone="zone_10" n="MS-HRC-SB-4-2-1,[0236]">I wonder <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">how much there is there.</del>
+                     <add place="inline" rend="black ink" resp="#DVH" hand="#SB">)</add>
+                     <add place="inline" hand="#SB" rend="black ink" resp="#DVH">will that ever mean anything.</add>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <metamark>/</metamark>
+                  <note>Line connecting the main text to the addition in the top margin.</note>
+                  <add place="margintop"
+                       hand="#SB"
+                       rend="black ink"
+                       resp="#DVH"
+                       corresp="#2r"
+                       xml:id="add8">
+                     <seg xml:id="krappd1e833" n="MS-HRC-SB-4-2-1,[0241]">
+                        <stage>
+                           <hi rend="u">Pause</hi>
+                           <lb/>
+                        </stage>
+                     </seg>
+                     <seg xml:id="krappd1e839" n="MS-HRC-SB-4-2-1,[0242]">Bowels <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>are</unclear>
+                        </del> better on the whole.<lb/>
+                     </seg>
+                     <seg xml:id="krappd1e848" n="MS-HRC-SB-4-2-1,[0243]">
+                        <stage>
+                           <hi rend="u">Pause</hi>
+                           <lb/>
+                        </stage>
+                     </seg>
+                  </add>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e857" zone="zone_10" n="MS-HRC-SB-4-2-1,[0243]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e862"
+                       zone="zone_11"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-1,[0244]">Intellec<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</add>ually a year of <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">deep</del>
+                     </add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">discouragement</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">gloom</del>
+                     </add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">profound gloom</add> until that <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">wonderful</add> night in <lb rend="it"/>March, at the end of the pier, in the high wind, when suddenly I <lb rend="it"/>saw the whole thing.</seg>
+                  <seg xml:id="krappd1e878" zone="zone_11" n="MS-HRC-SB-4-2-1,[0245]">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#2r"
+                          xml:id="add12">The turning-point, at last.<metamark>&#x2041;</metamark>
+                     </add>
+                  </seg>
+                  <seg xml:id="krappd1e882" zone="zone_11" n="MS-HRC-SB-4-2-1,[0246]">This<del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">, I realized over my wine,</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">I imagine</add> is what I have <lb rend="it"/>chiefly to <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">record</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">set down</add> this evening, against the day when my work will <lb rend="it"/>be done and perhaps no place <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">left</del> in my memory, and no thankful<lb rend="-it"/>ness, fo<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</add>
+                     <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">e</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">t</add>h<add place="inline" hand="#SB" rend="black ink" resp="#DVH">e</add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">moment</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">miracle</add> that <add place="inline" rend="black ink" hand="#SB" resp="#DVH">-</add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">made it possible</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">
+                        <metamark>&#x2041;</metamark>
+                     </add>
+                     <del type="implied">.</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#2r"
+                          xml:id="add13">- <stage>(Pause)</stage> - for the fire that set it alight.<metamark>&#x2041;</metamark>
+                     </add>
+                  </seg>
+                  <seg xml:id="krappd1e919" zone="zone_11" n="MS-HRC-SB-4-2-1,[0247]">What I saw then was that <lb rend="it"/>the assum<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">p</add>
+                     <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">i</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</add>ion I had been going on all <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">these years</del>, <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">my life,</add> namely <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">that</del> - <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e930" zone="zone_11" n="MS-HRC-SB-4-2-1,[0248]">
+                     <stage>(<hi rend="u">He switches off machine impatiently, winds tape forward, switches<lb rend="it"/> on again</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e936"
+                       style="indent50px"
+                       zone="zone_12"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-1,[0249]">- granite rocks the foam flying up in the light of the <lb rend="it"/>beacon and the anemometer spinning like a propellor, clear to me <lb rend="it"/>at last that the dark I <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">had</del> have struggled to keep <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">out of my work</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">at bay</add>
+                     <lb rend="it"/>is in <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</add>eality <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">its <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>the</unclear>
+                        </add> true</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          corresp="#2r"
+                          xml:id="add14">my most valuable -</add>
+                     <del type="implied">-</del>
+                  </seg>
+                  <seg xml:id="krappd1e957" zone="zone_12" n="MS-HRC-SB-4-2-1,[0250]">
+                     <stage>(<hi rend="u">He curses, switches off, winds tape for<lb rend="-it"/>
+                           <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">x</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">w</add>ard, switches on again</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e963" zone="zone_12" n="MS-HRC-SB-4-2-1,[0251]">- strange association till my dying day <lb rend="it"/>of storm and night with the light of understanding and the <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">peace</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">-</add>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e971" zone="zone_12" n="MS-HRC-SB-4-2-1,[0252]">
+                     <stage>(<hi rend="u">He curses louder, switches off, winds tape forward, switches on<lb rend="it"/> again</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e977"
+                       style="indent40px"
+                       zone="zone_13"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-1,[0253]"> - my face in her breasts and my hand on her.</seg>
+                  <seg xml:id="krappd1e980" zone="zone_13" n="MS-HRC-SB-4-2-1,[0254]">We lay there <lb rend="it"/>without moving.</seg>
+                  <seg xml:id="krappd1e983" zone="zone_13" n="MS-HRC-SB-4-2-1,[0255]">But underneath us all moved, and moved us, <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">up</del>
+                     <lb rend="it"/>gently, up and down, and <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">to and fro</del>
+                     <del type="implied">.</del>
+                     <add place="inline" hand="#SB" rend="black ink" resp="#DVH">from side to side.</add>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e996" zone="zone_13" n="MS-HRC-SB-4-2-1,[0256]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1001" zone="zone_13" n="MS-HRC-SB-4-2-1,[0257]">Past midnight.</seg>
+                  <seg xml:id="krappd1e1004" zone="zone_13" n="MS-HRC-SB-4-2-1,[0258]">Never knew such a silence.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e1009" zone="zone_13" n="MS-HRC-SB-4-2-1,[0260]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1014" zone="zone_13" n="MS-HRC-SB-4-2-1,[0261]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">The coming year will decide. May I be given the strength and the -</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Here I end this -</add>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <p>
+               <seg xml:id="krappd1e1023" zone="zone_13" n="MS-HRC-SB-4-2-1,[0262]">
+                  <stage>
+                     <hi rend="u">He switches off, winds tape back, switches on again</hi>.<lb rend="it"/>
+                  </stage>
+               </seg>
+            </p>
+            <sp who="#Tape">
+               <p>
+                  <seg xml:id="krappd1e1030"
+                       zone="zone_14"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-1,[0263]"> - upper lake, with the punt, bathed off the bank, then pushed out <lb rend="it"/>into the st<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</add>eam and drifted.</seg>
+                  <seg xml:id="krappd1e1033" zone="zone_14" n="MS-HRC-SB-4-2-1,[0264]">She lay stretched out on the floor<lb rend="-it"/>boards with her hands under her head and her eyes closed.</seg>
+                  <seg xml:id="krappd1e1036" zone="zone_14" n="MS-HRC-SB-4-2-1,[0265]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Hot</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Blazing</add> sun, <lb rend="it"/>with a bit of a breeze, and the water nice and lively.</seg>
+                  <seg xml:id="krappd1e1044" zone="zone_14" n="MS-HRC-SB-4-2-1,[0266]">I noticed <lb rend="it"/>a scratch on her thigh and asked her how she got it.</seg>
+                  <seg xml:id="krappd1e1047" zone="zone_14" n="MS-HRC-SB-4-2-1,[0267]">Picking go<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">s</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">o</add>se<lb rend="-it"/>berries, she said.</seg>
+                  <seg xml:id="krappd1e1050" zone="zone_14" n="MS-HRC-SB-4-2-1,[0268]">I said again I thought it was hopeless and no <lb rend="it"/>good going on, and she agreed, without opening her eyes.</seg>
+                  <seg n="MS-HRC-SB-4-2-1,[0270]"
+                       xml:id="krappd1e1053"
+                       zone="zone_14"
+                       zone2="zone_15"
+                       corresp="#2r,3r">
+                     <anchor type="ts" n="2r"/>I asked <lb rend="it"/>
+                     <anchor type="ts" n="3r"/>
+                     <pb n="3r"/>
+                     <metamark function="pagenumber">
+                        <num>3</num>
+                     </metamark>
+her to look at me and after a moment or so <metamark>/</metamark>
+                     <note>Line connecting addition in top margin</note>
+                     <add place="margintop"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add15"
+                          corresp="#3r">- <stage>
+                           <hi rend="u">pause</hi>
+                        </stage> - after a moment or so</add> she did, but her <lb rend="it"/>eyes just slits, because of the glare.</seg>
+                  <seg xml:id="krappd1e1064" zone="zone_15" n="MS-HRC-SB-4-2-1,[0271]">I <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">leant</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">bent</add> over her to get <lb rend="it"/>them in the shadow and they opened.</seg>
+                  <stage>(<seg xml:id="krappd1e1073" zone="zone_15" n="MS-HRC-SB-4-2-1,[0272]">
+                        <hi rend="u">Pause</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e1080" zone="zone_15" n="MS-HRC-SB-4-2-1,[0276]">We drifted in among <add place="marginright" hand="#SB" rend="black ink" resp="#DVH">the</add>
+                     <lb rend="it"/>reeds and <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">got</del> stuck.</seg>
+                  <seg xml:id="krappd1e1089" zone="zone_15" n="MS-HRC-SB-4-2-1,[0277]">The way <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">they</add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">went down</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">sank</del>
+                     </add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">bent</add>, sighing, <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">under</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">before</add> the <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">blunt</del>
+                     <lb rend="it"/>stem.</seg>
+                  <seg xml:id="krappd1e1114" zone="zone_15" n="MS-HRC-SB-4-2-1,[0279]">I lay down across her with my face in her <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">breats</del> breasts and <lb rend="it"/>my hand on her.</seg>
+                  <seg xml:id="krappd1e1120" zone="zone_15" n="MS-HRC-SB-4-2-1,[0280]">We lay without moving.</seg>
+                  <seg xml:id="krappd1e1123" zone="zone_15" n="MS-HRC-SB-4-2-1,[0281]">But under us all moved, and <lb rend="it"/>moved us, up and down, and f<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</add>om side to side.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1127"
+                       zone="zone_16"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-1,[0282]">
+                     <stage>
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </stage>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1133" zone="zone_16" n="MS-HRC-SB-4-2-1,[0283]">Past midnight.</seg>
+                  <seg xml:id="krappd1e1136" zone="zone_16" n="MS-HRC-SB-4-2-1,[0284]">Never knew -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e1141" zone="zone_16" n="MS-HRC-SB-4-2-1,[0285]">
+                     <hi rend="u">He switches off, sits brooding, </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1144" zone="zone_16" n="MS-HRC-SB-4-2-1,[0286]">
+                     <hi rend="u">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">fumbles<del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">i</del> in</del>
+                        <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                           <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">feels in</del>
+                        </add>
+                        <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">fumbles in</add> his <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">waistcoat</add> pocket<add place="inline" hand="#SB" rend="black ink" resp="#DVH">s</add>, takes out<lb rend="it"/> an old en<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">b</del>
+                        <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">v</add>elope, fumbles, puts back the envelope,<metamark>/</metamark>
+                        <note>Short line connecting addition in top margin.</note>
+                        <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">looks at his watch,</add> g<seg type="transposition" xml:id="trans1">t</seg>
+                        <seg type="transposition" xml:id="trans2">e</seg>s <note>\'gtes\' changed to \'gets\' by means of a wavy line.</note> up and goes<lb rend="it"/> right into shadows. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1176" zone="zone_16" n="MS-HRC-SB-4-2-1,[0287]">
+                     <hi rend="u">Ten seconds. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1179" zone="zone_16" n="MS-HRC-SB-4-2-1,[0288]">
+                     <hi rend="u">Sound of bottle against glass, then<lb rend="it"/> brief siphon. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1182" zone="zone_16" n="MS-HRC-SB-4-2-1,[0289]">
+                     <hi rend="u">Ten seconds. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1185" zone="zone_16" n="MS-HRC-SB-4-2-1,[0290]">
+                     <hi rend="u">Bottle against glass alone. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1188" zone="zone_16" n="MS-HRC-SB-4-2-1,[0291]">
+                     <hi rend="u">Fifteen<lb rend="it"/> seconds. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1191" zone="zone_16" n="MS-HRC-SB-4-2-1,[0292]">
+                     <hi rend="u">He comes back front left into light, with an unused tape<lb rend="it"/> in his hand, sits down, takes tape off machine and lays it on table,<lb rend="it"/> puts other tape on machine, takes envelope from his pocket, lays it<lb rend="it"/> on the table, switches on and begins to record</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Krapp">
+               <p>
+                  <seg xml:id="krappd1e1198"
+                       zone="zone_17"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-1,[0293]">Just been listening to that stupid bastard I was 30 years ago, <lb rend="it"/>find it hard to believe I was ever as bad as that.</seg>
+                  <seg xml:id="krappd1e1201" zone="zone_17" n="MS-HRC-SB-4-2-1,[0296]">The eyes she <lb rend="it"/>had!</seg>
+                  <stage>(<seg xml:id="krappd1e1204" zone="zone_17" n="MS-HRC-SB-4-2-1,[0297]">
+                        <hi rend="u">Broods, realizes he is recording silence, swit<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">h</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">c</add>
+                           <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">c</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">h</add>es off,<lb rend="it"/> broods</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e1211" zone="zone_17" n="MS-HRC-SB-4-2-1,[0299]">Everything there, everything, all the -</seg>
+                  <seg xml:id="krappd1e1214" zone="zone_17" n="MS-HRC-SB-4-2-1,[0300]">
+                     <stage>(<hi rend="u">Realizes this<lb rend="it"/> is not being recorded, switches on</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1221" zone="zone_17" n="MS-HRC-SB-4-2-1,[0301]">Everything there, every<add place="inline" hand="#SB" rend="black ink" resp="#DVH">-</add>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">bleed<lb rend="-it"/>ing thing</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">
+                        <metamark>&#x2041;</metamark>
+                     </add>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add17"
+                          corresp="#3r">thing on earth,</add>, all the light and dark of the<add xml:id="add16"
+                          corresp="#3r"
+                          place="marginleft"
+                          hand="#SB"
+                          resp="#DVH"
+                          rend="black ink">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>fxxd</unclear>
+                        </del>
+                        <lb/> vice and <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">spirit</del>
+                        <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>crystal</unclear>
+                        </add> and sorrow<lb/> and rejoicing</add>
+                     <note>Although there is no insertion mark after "of the" the phrase in the left margin is included at this point in the text in later versions.</note>...<stage>(<hi rend="u">hesitates</hi>)</stage>...ages.</seg>
+                  <seg xml:id="krappd1e1236" zone="zone_17" n="MS-HRC-SB-4-2-1,[0305]">Let <lb rend="it"/>that go!</seg>
+                  <seg xml:id="krappd1e1239" zone="zone_17" n="MS-HRC-SB-4-2-1,[0306]">Jesus!</seg>
+                  <seg xml:id="krappd1e1242" zone="zone_17" n="MS-HRC-SB-4-2-1,[0307]">Take his mind off his homework!</seg>
+                  <seg xml:id="krappd1e1245" zone="zone_17" n="MS-HRC-SB-4-2-1,[0308]">Jesus!</seg>
+                  <stage>(<seg xml:id="krappd1e1248" zone="zone_17" n="MS-HRC-SB-4-2-1,[0309]">
+                        <hi rend="u">Pause</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e1255" zone="zone_17" n="MS-HRC-SB-4-2-1,[0311]">Ah <lb rend="it"/>well, maybe he was right.</seg>
+                  <seg xml:id="krappd1e1258" zone="zone_17" n="MS-HRC-SB-4-2-1,[0312]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1265" zone="zone_17" n="MS-HRC-SB-4-2-1,[0313]">Maybe he was right.</seg>
+                  <stage>(<seg xml:id="krappd1e1270" zone="zone_17" n="MS-HRC-SB-4-2-1,[0314]">
+                        <hi rend="u">Broods</hi>. </seg>
+                     <lb rend="it"/>
+                     <seg xml:id="krappd1e1273"
+                          zone="zone_18"
+                          corresp="#3r"
+                          n="MS-HRC-SB-4-2-1,[0316]">
+                        <hi rend="u">Switches off. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e1276" zone="zone_18" n="MS-HRC-SB-4-2-1,[0317]">
+                        <hi rend="u">Consults envelope. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e1279" zone="zone_18" n="MS-HRC-SB-4-2-1,[0319]">
+                        <hi rend="u">Crumples it and throws it away</hi>. <lb rend="it"/>
+                     </seg>
+                     <seg xml:id="krappd1e1282" zone="zone_18" n="MS-HRC-SB-4-2-1,[0320]">
+                        <hi rend="u">Broods. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e1285" zone="zone_18" n="MS-HRC-SB-4-2-1,[0321]">
+                        <hi rend="u">Switches on</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1291" zone="zone_18" n="MS-HRC-SB-4-2-1,[0322]">
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">Not a thing to tell</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">Nothing to say</add>.</seg>
+                  <seg xml:id="krappd1e1298" zone="zone_18" n="MS-HRC-SB-4-2-1,[0323]">What's a year now?</seg>
+                  <seg xml:id="krappd1e1301" zone="zone_18" n="MS-HRC-SB-4-2-1,[0324]">Reverie and <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">obstipation</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">
+                        <metamark>&#x2041;</metamark>
+                     </add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH"> galloping constipation.</add>
+                     <del type="implied">.</del>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1309" zone="zone_18" n="MS-HRC-SB-4-2-1,[0326]">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add18"
+                          corresp="#3r">
+                        <hi rend="circled">
+                           <unclear>gloried</unclear> in the word spool</hi>
+                     </add>
+                  </seg>
+                  <seg xml:id="krappd1e1317" zone="zone_18" n="MS-HRC-SB-4-2-1,[0331]">Seventeen copies sold, one pound six and something, eight probably.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1320" zone="zone_18" n="MS-HRC-SB-4-2-1,[0332]">Getting known<add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear>xx</unclear>
+                        </del>
+                     </add>.</seg>
+                  <seg xml:id="krappd1e1323" zone="zone_18" n="MS-HRC-SB-4-2-1,[0336]">C<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">a</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</add>
+                     <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">a</add>wled out once or twice, before the summer was <lb rend="it"/>over.</seg>
+                  <seg xml:id="krappd1e1330" zone="zone_18" n="MS-HRC-SB-4-2-1,[0337]">Sat in the park in the middle of the brats and skivvies, <lb rend="it"/>dr<add place="inline" hand="#SB" rend="black ink" resp="#DVH">e</add>aming and wishing I were gone.</seg>
+                  <seg xml:id="krappd1e1333" zone="zone_18" n="MS-HRC-SB-4-2-1,[0340]">Last fancies.</seg>
+                  <seg xml:id="krappd1e1336" zone="zone_18" n="MS-HRC-SB-4-2-1,[0342]">Swore to <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">fight</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">keep</add> them <lb rend="it"/>
+                     <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">off</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">at bay</add>.</seg>
+                  <seg xml:id="krappd1e1351"
+                       zone="zone_18"
+                       n="MS-HRC-SB-4-2-1,[0342|001]"
+                       prev="#krappd1e1336">Aspirations.</seg>
+                  <seg xml:id="krappd1e1354"
+                       zone="zone_18"
+                       n="MS-HRC-SB-4-2-1,[0342|002]"
+                       prev="#krappd1e1336">Resolutions.</seg>
+                  <seg xml:id="krappd1e1357" zone="zone_18" n="MS-HRC-SB-4-2-1,[0344]">Burn<hi rend="connect">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">s</del>
+                     </hi>t the eyes out of me reading <lb rend="it"/>
+                     <hi rend="u">Effie</hi> again, a page a day, with tea<del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">r</add>s again.</seg>
+                  <seg xml:id="krappd1e1366"
+                       zone="zone_19"
+                       corresp="#3r"
+                       style="indent230px"
+                       n="MS-HRC-SB-4-2-1,[0347]">Could have been happy <lb rend="it"/>with her, up there on the cold sea, and the pines, and the dunes.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1369" zone="zone_19" n="MS-HRC-SB-4-2-1,[0348]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <add place="marginleft"
+                       hand="#SB"
+                       rend="black ink"
+                       resp="#DVH"
+                       xml:id="add19"
+                       corresp="#3r">
+                     <hi rend="circled">
+                        <seg xml:id="krappd1e1376"
+                             n="MS-HRC-SB-4-2-1,[0348|001]"
+                             prev="#krappd1e1369">
+                           <figure xml:id="MS-HRC-SB-4-2-1__3r_-_doodleklt4"
+                                   n="4"
+                                   corresp="#3r"
+                                   ana="doodlecategories.xml#Shape doodlecategories.xml#Abstract-shape doodlecategories.xml#Oblong doodlecategories.xml#Hatching">
+                              <figDesc/>
+                           </figure>Chinese <add place="inline" hand="#SB" rend="black ink" resp="#DVH">(<unclear>Chinks</unclear>)</add> occupied <unclear>Dublin</unclear>. Poor devils.</seg>
+                     </hi>
+                  </add>
+                  <seg xml:id="krappd1e1392" zone="zone_19" n="MS-HRC-SB-4-2-1,[0355]">Fanny came in a couple of times.</seg>
+                  <seg xml:id="krappd1e1395" zone="zone_19" n="MS-HRC-SB-4-2-1,[0356]">Fat old whore.</seg>
+                  <seg xml:id="krappd1e1398" zone="zone_19" n="MS-HRC-SB-4-2-1,[0357]">Couldn't <lb rend="it"/>do much, but better than nothing.</seg>
+                  <seg xml:id="krappd1e1401" zone="zone_19" n="MS-HRC-SB-4-2-1,[0358]">The last time wasn't so bad.</seg>
+                  <seg xml:id="krappd1e1404" zone="zone_19" n="MS-HRC-SB-4-2-1,[0359]">How <lb rend="it"/>do you do it, she said, at your age?</seg>
+                  <seg xml:id="krappd1e1407" zone="zone_19" n="MS-HRC-SB-4-2-1,[0360]">I told her I'd been saving up <lb rend="it"/>for her all my life.</seg>
+                  <seg xml:id="krappd1e1410" zone="zone_19" n="MS-HRC-SB-4-2-1,[0361]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1417" zone="zone_19" n="MS-HRC-SB-4-2-1,[0362]">Went to vespers once, <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">like when I <lb rend="it"/>was a child</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">first time since I <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">was a boy</del> left school,</add>.</seg>
+                  <seg xml:id="krappd1e1429" zone="zone_19" n="MS-HRC-SB-4-2-1,[0367]">Slept.</seg>
+                  <seg xml:id="krappd1e1432" zone="zone_19" n="MS-HRC-SB-4-2-1,[0368]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1439" zone="zone_19" n="MS-HRC-SB-4-2-1,[0369]">Sometimes wondered in the night if a <lb rend="it"/>last effort mightn't -</seg>
+                  <seg xml:id="krappd1e1442" zone="zone_19" n="MS-HRC-SB-4-2-1,[0370]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1449" zone="zone_19" n="MS-HRC-SB-4-2-1,[0371]">Empty the bottle now and get to <lb rend="it"/>your bed.</seg>
+                  <seg xml:id="krappd1e1452" zone="zone_19" n="MS-HRC-SB-4-2-1,[0372]">Finish this <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">vomit</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add20"
+                          corresp="#3r">puke</add> tomorrow<del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">?</del>.</seg>
+                  <seg xml:id="krappd1e1461" zone="zone_19" n="MS-HRC-SB-4-2-1,[0373]">Or <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">m</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">l</add>eave it at that.</seg>
+                  <seg xml:id="krappd1e1464" zone="zone_19" n="MS-HRC-SB-4-2-1,[0374]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <lb rend="it"/>
+                  <seg xml:id="krappd1e1471"
+                       zone="zone_20"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-1,[0375]">Leave it at that.</seg>
+                  <seg xml:id="krappd1e1474" zone="zone_20" n="MS-HRC-SB-4-2-1,[0376]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1481" zone="zone_20" n="MS-HRC-SB-4-2-1,[0377]">Lie propped up on my back in the dark, <lb rend="it"/>and <seg type="alternative" xml:id="alt1">wander</seg>
+                     <add place="supralinear"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          type="alternative"
+                          xml:id="alt2">roam</add>.</seg>
+                  <seg xml:id="krappd1e1487"
+                       zone="zone_20"
+                       n="MS-HRC-SB-4-2-1,[0377|001]"
+                       prev="#krappd1e1481">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1494" zone="zone_20" n="MS-HRC-SB-4-2-1,[0378]">Be again in the dingle on a Xmas Eve, picking <lb rend="it"/>holly.</seg>
+                  <seg xml:id="krappd1e1497" zone="zone_20" n="MS-HRC-SB-4-2-1,[0379]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1504" zone="zone_20" n="MS-HRC-SB-4-2-1,[0380]">Be again on Croghan on a Sunday morning <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">with the <unclear>dog</unclear>
+                        </del>
+                     </add>
+                     <metamark>&#x2041;</metamark>, in the <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">snow</del>
+                     <lb rend="it"/>snow, <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add21"
+                          corresp="#3r">with the bitch</add>
+                     <metamark>&#x2041;</metamark> stop and listen to the bells.</seg>
+                  <seg xml:id="krappd1e1519" zone="zone_20" n="MS-HRC-SB-4-2-1,[0381]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1526" zone="zone_20" n="MS-HRC-SB-4-2-1,[0382]">And so on.</seg>
+                  <seg xml:id="krappd1e1529" zone="zone_20" n="MS-HRC-SB-4-2-1,[0383]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1536" zone="zone_20" n="MS-HRC-SB-4-2-1,[0384]">Be again.</seg>
+                  <seg xml:id="krappd1e1539" zone="zone_20" n="MS-HRC-SB-4-2-1,[0385]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <lb rend="it"/>
+                  <seg xml:id="krappd1e1546" zone="zone_20" n="MS-HRC-SB-4-2-1,[0386]">All that old misery.</seg>
+                  <seg xml:id="krappd1e1549" zone="zone_20" n="MS-HRC-SB-4-2-1,[0387]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1556" zone="zone_20" n="MS-HRC-SB-4-2-1,[0388]">Once wasn't enough.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1559" zone="zone_20" n="MS-HRC-SB-4-2-1,[0389]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e1566" zone="zone_20" n="MS-HRC-SB-4-2-1,[0390]">Lie down across her.</seg>
+                  <stage>(<seg xml:id="krappd1e1571" zone="zone_20" n="MS-HRC-SB-4-2-1,[0391]">
+                        <hi rend="u">Long pause. </hi>
+                     </seg>
+                     <seg n="MS-HRC-SB-4-2-1,[0392]"
+                          xml:id="krappd1e1574"
+                          zone="zone_20"
+                          zone2="zone_x21"
+                          corresp="#3r,4r">
+                        <anchor type="ts" n="3r"/>
+                        <hi rend="u">He suddenly bends to<lb rend="it"/> machine, switches off, wrenches off tape, throws it away, puts on<lb rend="it"/>
+                        </hi>
+                        <anchor type="ts" n="4r"/>
+                        <pb n="4r"/>
+                        <metamark function="pagenumber">
+                           <num>4</num>
+                        </metamark>
+                        <hi rend="u">the other, winds it to the passage he wants, switches on, listens<lb rend="it"/> staring front</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1582" zone="zone_x21" n="MS-HRC-SB-4-2-1,[0393]"> - gooseberries, she said<del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">?</del>.</seg>
+                  <seg xml:id="krappd1e1585" zone="zone_x21" n="MS-HRC-SB-4-2-1,[0394]">I said again I thought it was hopeless <lb rend="it"/>and no good going on, and she agreed, without opening her eyes.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1588"
+                       zone="zone_21"
+                       corresp="#4r"
+                       n="MS-HRC-SB-4-2-1,[0396]">I asked her to look at me and after a moment or so <metamark>/</metamark>
+                     <note>Line connecting addition in top margin.</note>
+                     <add place="margintop"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add22"
+                          corresp="#4r">- <stage>(<hi rend="u">Pause</hi>)</stage> - after a moment or so</add> she did, but <lb rend="it"/>her eyes just slits because of the glare.</seg>
+                  <seg xml:id="krappd1e1600" zone="zone_21" n="MS-HRC-SB-4-2-1,[0397]">I <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">leant</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">bent</add> over her to get <lb rend="it"/>them in the shadow and they opened.</seg>
+                  <stage>(<seg xml:id="krappd1e1609" zone="zone_21" n="MS-HRC-SB-4-2-1,[0398]">
+                        <hi rend="u">Pause</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e1616" zone="zone_21" n="MS-HRC-SB-4-2-1,[0402]">We drifted in among <add place="inline" hand="#SB" rend="black ink" resp="#DVH">the</add>
+                     <lb rend="it"/>reeds and <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">got</del> stuck.</seg>
+                  <seg xml:id="krappd1e1625" zone="zone_21" n="MS-HRC-SB-4-2-1,[0403]">The<del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">y</del> way they <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">went down</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">bent</add>, sighing, before the <lb rend="it"/>stem.</seg>
+                  <seg xml:id="krappd1e1637" zone="zone_21" n="MS-HRC-SB-4-2-1,[0405]">I lay down across her with my face in her breasts and my <lb rend="it"/>hand on her.</seg>
+                  <seg xml:id="krappd1e1640" zone="zone_21" n="MS-HRC-SB-4-2-1,[0406]">We lay without moving.</seg>
+                  <seg xml:id="krappd1e1643" zone="zone_21" n="MS-HRC-SB-4-2-1,[0407]">But under us all moved and <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">m</del>
+                     <lb rend="it"/>moved us, up and down, and from side to side.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e1650"
+                          zone="zone_22"
+                          corresp="#4r"
+                          n="MS-HRC-SB-4-2-1,[0408]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1656" zone="zone_22" n="MS-HRC-SB-4-2-1,[0411]">Past midnight.</seg>
+                  <seg xml:id="krappd1e1659" zone="zone_22" n="MS-HRC-SB-4-2-1,[0412]">Never knew such <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">a</del> silence.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="krappd1e1666" zone="zone_22" n="MS-HRC-SB-4-2-1,[0414]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1672" zone="zone_22" n="MS-HRC-SB-4-2-1,[0415]">Here I end this <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">tape</del>
+                     <del type="overwritten" hand="#SB" rend="black ink" resp="#DVH">.</del>
+                     <add place="overwritten" hand="#SB" rend="black ink" resp="#DVH">, </add>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">- <stage>(<hi rend="u">hesitates</hi>)</stage> - stage.</add>
+                  </seg>
+                  <seg xml:id="krappd1e1681" zone="zone_22" n="MS-HRC-SB-4-2-1,[0416]">
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">box four, number th</del> box - <stage>(<hi rend="u">pause</hi>)</stage> - four, number - <stage>(<hi rend="u">pause</hi>)</stage> - three.</add>
+                  </seg>
+                  <seg xml:id="krappd1e1699" zone="zone_22" n="MS-HRC-SB-4-2-1,[0417]">
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">
+                        <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     </add>
+                  </seg>
+                  <seg xml:id="krappd1e1717" zone="zone_22" n="MS-HRC-SB-4-2-1,[0418]">Perhaps my best <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">yea</del> years are <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">over</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">past</add>.</seg>
+                  <seg xml:id="krappd1e1729" zone="zone_22" n="MS-HRC-SB-4-2-1,[0419]">When <lb rend="it"/>there was a chance of happiness.</seg>
+                  <seg xml:id="krappd1e1732" zone="zone_22" n="MS-HRC-SB-4-2-1,[0420]">But I wouldn't want them back.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e1735" zone="zone_22" n="MS-HRC-SB-4-2-1,[0421]">Not with the fire in <del type="crossOut" hand="#typist" rend="black ink" resp="#DVH">my</del> me now.</seg>
+                  <seg xml:id="krappd1e1741" zone="zone_22" n="MS-HRC-SB-4-2-1,[0422]">No, I wouldn't <del type="crossOut" hand="#SB" rend="black ink" resp="#DVH">have</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">want</add> them back.<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e1752" zone="zone_22" n="MS-HRC-SB-4-2-1,[0423]">
+                     <hi rend="u">A sits motionless staring before him. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e1755" zone="zone_22" n="MS-HRC-SB-4-2-1,[0424]">
+                     <hi rend="u">The tape runs on in silence</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e1761"
+                       n="MS-HRC-SB-4-2-1,[0425]"
+                       zone="zone_23"
+                       corresp="#4r">Curtain <note resp="#DVH">centred</note>
+                  </seg>
+                  <lb rend="it"/>
+               </p>
+            </stage>
+            <p>
+               <seg xml:id="krappd1e1767" type="paralipomena">
+                  <add place="marginbottom"
+                       hand="#SB"
+                       rend="blue ink"
+                       resp="#DVH"
+                       xml:id="add23"
+                       corresp="#4r">for<lb/>
+Jake Schwartz<lb/>
+Sam. Beckett<lb/>
+                     <date when="1958-03-01" xml:id="ueyyhhf" corresp="#4r">March 1958</date>
+                     <lb/>
+                  </add>
+               </seg>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

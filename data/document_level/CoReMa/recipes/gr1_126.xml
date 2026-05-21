@@ -1,0 +1,127 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">A whole chicken in a pinch bottle</title>
+        <title xml:lang="de-x-enh">ein huenn ganczen in ein chraclas clas machen</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Semantic annotation of the recipe &quot;A whole chicken in a pinch bottle&quot; (gr1.126)</edition>
+        <respStmt>
+          <resp>edition</resp>
+          <persName>Julia Eibinger</persName>
+          <persName>Helmut W. Klug</persName>
+        </respStmt>
+        <respStmt>
+          <resp>transcription</resp>
+          <persName>Astrid Böhm</persName>
+        </respStmt>
+        <respStmt>
+          <resp>digital processing</resp>
+          <persName>Christian Steiner</persName>
+        </respStmt>
+        <principal>
+          <persName>Helmut W. Klug</persName>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY
+            4.0</licence>
+          <licence n="manuscript facsimiles" target="https://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons BY-NC-SA
+            3.0 </licence>
+        </availability>
+        <date when="2022-03-25"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.gr1.126</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <ab>
+          <title ref="http://gams.uni-graz.at/corema">CoReMA - Cooking Recipes of the Middle Ages: Corpus, Analysis, Visualisation</title>
+          <ref target="http://gams.uni-graz.at/o:corema.about/TEI_SOURCE">About the project &quot;CoReMA&quot;</ref>
+          <ref target="http://gams.uni-graz.at/o:corema.imprint/TEI_SOURCE">Imprint of the project &quot;CoReMA&quot;</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl type="corresponding_manuscript">
+          <msIdentifier>
+            <country>Österreich</country>
+            <settlement>Graz</settlement>
+            <institution ref="https://ub.uni-graz.at/de/">Universitätsbibliothek</institution>
+            <idno ref="http://143.50.26.142/digbib/handschriften/Ms.1600-1799/Ms.1609/index.html">Ms. 1609</idno>
+            <msName>Mondseer Koch- und Haushaltsbuch</msName>
+            <altIdentifier type="abbr">
+              <idno>Gr1</idno>
+            </altIdentifier>
+            <altIdentifier>
+              <idno>34/8</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="corresponding_collection">
+          <msIdentifier>
+            <altIdentifier type="collection">
+              <idno>Gr1</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="manuscript_page">
+          <title>page in corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.gr1#Gr1_041r" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_tei_source">
+          <title>TEI source of corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.gr1/TEI_SOURCE" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_context">
+          <title>context of corresponding manuscript/collection</title>
+          <ref target="info:fedora/context:corema.gr1" type="context">Context for all recipes in manuscript &quot;Gr1&quot;</ref>
+        </bibl>      
+</sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <desc>References to the editorial principles and practices for this TEI file and the project CoReMA</desc>
+        <ref target="https://gams.uni-graz.at/o:corema.semanticdec/TEI_SOURCE">details of editorial principles and practices for the semantic annotation</ref>
+      </ab>
+    </encodingDesc>
+    <profileDesc>
+      <textClass ana="#gr1.126">
+        <keywords>
+          <term>recipe</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <origDate>
+          <date notAfter="1500" notBefore="1450" xml:lang="de">2. Hälfte 15. Jh.</date>
+          <date xml:lang="en">2nd half of 15th c.</date>
+        </origDate>
+        <origDate corresp="#252r">1488</origDate>
+        <origDate corresp="#423v">1451</origDate>
+        <origPlace cert="low">
+          <placeName xml:lang="de">Entstehungsort unbekannt</placeName>
+          <placeName xml:lang="en">place of origin unknown</placeName>. Vermutlich ein Benediktinerkloster, evtl. Kloster Tegernsee oder Kloster am Mondsee.</origPlace>
+      </creation>
+      <langUsage>
+        <language ident="de-x-enh" source="http://medieval-plants.org/mps-daten/inhalt/">Bavarian</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:space="preserve"><div n="126" type="recipe" xml:id="gr1.126" xml:lang="de-x-enh"> <opener>Item wil dw <title key="A whole chicken in a pinch bottle">ein <ingredient commodity="Q864693" en="chicken">huenn</ingredient> ganczen in ein <tool commodity="Q543866" en="pinch bottle">chraclas clas</tool> machen</title></opener> So <instruction>prue das <ingredient commodity="Q864693" en="chicken">huenn</ingredient> schon</instruction> vnd <instruction>las nu die <ingredient commodity="Q28806146" en="chicken skin">haut</ingredient> dem <ingredient commodity="Q107246468" en="chicken neck">hals</ingredient></instruction> <instruction>pegreiff es schon czwischen <ingredient commodity="Q28806146" en="chicken skin">heydt</ingredient> vnd <ingredient commodity="Q2607161" en="chicken breast">fleysch</ingredient></instruction> <instruction>czewch Im die ab also gancz piß an die <ingredient commodity="Q107304871" en="chicken claw">fueß</ingredient></instruction> vnd <instruction>sneyd dy <pb n="041v" xml:id="Gr1_041v"></pb> <ingredient commodity="Q107304871" en="chicken claw">fueß</ingredient> ain wenig ab das sy ander <ingredient commodity="Q28806146" en="chicken skin">haut</ingredient> beleyben</instruction> vnd <instruction>mach ein stumphacz <tool commodity="Q1323569" en="skewer">holczlin</tool></instruction> vnd <instruction>plast dy <ingredient commodity="Q28806146" en="chicken skin">hawt</ingredient></instruction> vnd <instruction>wo sy dan zerprochen ist da na sy czw</instruction> vnd <instruction>nym dan von stoz einen <ingredient commodity="Q107304871" en="chicken claw">fueß</ingredient> In das <tool commodity="Q543866" en="pinch bottle">glas</tool> vnd dar nach den anderen</instruction> vnd <instruction>nym dan das stumpfhat <tool commodity="Q1323569" en="skewer">holczlin</tool></instruction> vnd <instruction>stoß dy <ingredient commodity="Q28806146" en="chicken skin">hawt</ingredient> ye ein winczig hin ein</instruction> <instruction>wenn dw dan dy <ingredient commodity="Q28806146" en="chicken skin">hawt</ingredient> in ein stossen pist a den <ingredient commodity="Q107246468" en="chicken neck">hals</ingredient> so behalt den <ingredient commodity="Q107246468" en="chicken neck">hals</ingredient> hin oben</instruction> vnd <instruction>vber sturcz die <ingredient commodity="Q28806146" en="chicken skin">hawtt</ingredient> vber das <tool commodity="Q543866" en="pinch bottle">glas</tool></instruction> vnd <instruction>pintt es dan mit einem <tool commodity="Q1391831" en="thread">vaden</tool> czw</instruction> vnd <instruction>nym dan das <ingredient commodity="Q864693" en="chicken">huen</ingredient></instruction> vnd <instruction>wirff auff ein <ingredient commodity="Q2607161" en="chicken breast">fleisch</ingredient></instruction> vnd <instruction>laß es sieden</instruction> vnd <instruction>wen es dan gesotten ist so hack <ingredient commodity="Q15260613" en="chicken egg">air</ingredient> <ingredient commodity="Q1111359" en="common sage">saluan</ingredient> <ingredient commodity="Q65522500" en="parsley">pettersill</ingredient> vnd guecz <ingredient commodity="Q42527" en="spice">stupp</ingredient></instruction> vnd <instruction>plas in das <tool commodity="Q543866" en="pinch bottle">clas</tool> so thuet sich das <ingredient commodity="Q864693" en="chicken">huen</ingredient> auff</instruction> vnd <instruction>full dan dy <ingredient commodity="Q745361" en="stuffing">full</ingredient> dar ein</instruction> vnd <instruction>wen dy <ingredient commodity="Q28806146" en="chicken skin">hautt</ingredient> vol ist so vermach sy eben woll das dy <ingredient commodity="Q28806146" en="chicken skin">hautt</ingredient> nit hin ein vall vnd das auch chain <ingredient ana="exclusion" commodity="Q283" en="water">wasser</ingredient> hin ein mug <pb n="042r" xml:id="Gr1_042r"></pb> chomen</instruction> vnd <instruction>teck es dan czw</instruction> vnd <instruction>laß es dan sieden so wirdt es sich stercken in dem <tool commodity="Q543866" en="pinch bottle">clas</tool> das man siecht sein <ingredient commodity="Q7196602" en="chicken wing">flugel</ingredient> vnd seinen <ingredient commodity="Q107246468" en="chicken neck">hals</ingredient> vnd sein <ingredient commodity="Q107304871" en="chicken claw">fueß</ingredient> vnd sein ganczen pottich</instruction></div></body>
+  </text>
+</TEI>

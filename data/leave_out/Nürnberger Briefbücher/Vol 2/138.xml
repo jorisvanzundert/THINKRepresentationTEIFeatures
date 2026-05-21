@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="138" xml:id="l138" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 138 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>039v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 138.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Pünzendorf, Kun v.</persName></ab><ab type="mention"><orgName type="mention">Pünzendorf (Gt. d. Stadt Scheßlitz, Lk. Bamberg)</orgName><orgName type="mention">Wildenfels, Bg. (Lk. Nürnberger Land)</orgName><persName type="mention">Wildenstein, Hans I. v.</persName></ab><date from="4-07-1408" to="4-07-1408" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_82">
+<surface lrx="2870" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0042_left.png" width="2870px"/>
+<zone lrx="743" lry="812" rendition="TextRegion" ulx="291" uly="824" xml:id="facs_82_r1">
+<zone lrx="750" lry="812" rendition="Line" ulx="248" uly="753" xml:id="facs_82_r1l1"/>
+<zone lrx="743" lry="890" rendition="Line" ulx="291" uly="824" xml:id="facs_82_r1l2"/>
+</zone>
+<zone lrx="1901" lry="390" rendition="TextRegion" ulx="1485" uly="1025" xml:id="facs_82_r2">
+<zone lrx="2339" lry="390" rendition="Line" ulx="1485" uly="298" xml:id="facs_82_r2l1"/>
+<zone lrx="2765" lry="646" rendition="Line" ulx="839" uly="520" xml:id="facs_82_r2l2"/>
+<zone lrx="2743" lry="747" rendition="Line" ulx="866" uly="621" xml:id="facs_82_r2l3"/>
+<zone lrx="2685" lry="840" rendition="Line" ulx="861" uly="726" xml:id="facs_82_r2l4"/>
+<zone lrx="2691" lry="931" rendition="Line" ulx="873" uly="824" xml:id="facs_82_r2l5"/>
+<zone lrx="2645" lry="1017" rendition="Line" subtype="paragraph" ulx="871" uly="933" xml:id="facs_82_r2l6"/>
+<zone lrx="1901" lry="1092" rendition="Line" ulx="861" uly="1025" xml:id="facs_82_r2l7"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Kun von Pünzendorf</head><p>Der Rat teilt mit, dass er an der Auseinandersetzung des Adressaten mit Hans von Wildenstein nicht beteiligt ist.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_82" id="39v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_82_r2l1">Kun von Puncʒendorff</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_82_r2l2"><expan>L<ex>ieber</ex></expan> Kun / Als Jr vns <expan>geſchr<ex>iben</ex></expan> habt von der ſach <expan>wege<ex>n</ex></expan> </ab>
+<ab facs="#facs_82_r2l3">Als Jr mit dem hanſen wildenſteiner von wildenfels </ab>
+<ab facs="#facs_82_r2l4">cʒuſchicken habt 
+<add><ab facs="#facs_82_r1l1">das <expan>hab<ex>e</ex>n</expan> wir </ab><ab facs="#facs_82_r1l2">wol <expan>v<ex>er</ex>nomen</expan> </ab></add> / Nu geet vns dieſelb ſache nihts an </ab>
+<ab facs="#facs_82_r2l5">vnd wiſſen auch cʒu der cʒeit nihts / daʒ wir mit euch </ab>
+<ab facs="#facs_82_r2l6">cʒuſchicken <expan>hab<ex>e</ex>n</expan> / <expan>dan<ex>n</ex></expan> lıeb vnd gute / <expan>dat<ex>um</ex></expan> <expan>fe<ex>r</ex>ia</expan> iııȷ̃ </ab>
+<ab facs="#facs_82_r2l7">in die <expan>ſ<ex>an</ex>c<ex>t</ex>ı</expan> vdalrici Anno Octauo </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_82" id="39v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Kun von Punczendorff </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Kun, als ir uns
+                            <expan>geschr<ex>iben</ex></expan> habt von der sach
+                                <expan>wege<ex>n</ex></expan>, als ir mit dem Hansen Wildensteiner
+                        von Wildenfels czuschicken habt, <add>das <expan>hab<ex>e</ex>n</expan> wir
+                            wol <expan>v<ex>er</ex>nomen</expan></add>. Nu geet uns dieselb sache
+                        nihts an und wissen auch czu der czeit nihts, daz wir mit euch czuschicken
+                                <expan>hab<ex>e</ex>n</expan>
+<expan>dan<ex>n</ex></expan> lieb und gute. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>r</ex>ia</expan> iiii in die
+                            <expan>s<ex>an</ex>c<ex>t</ex>i</expan> Udalrici anno octavo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

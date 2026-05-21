@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1458" xml:id="l1473" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1458 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>252r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1458.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wacker, Peter, kgl.-dt. Hofschreiber</persName></ab><ab type="mention"><placeName type="mention">Ungarn</placeName><persName type="mention">Pfinzing, Sebald I.</persName></ab><date from="27-07-1412" to="24-08-1412" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_505">
+<surface lrx="2761" lry="3807" ulx="0" uly="0">
+<graphic height="3807px" url="Rst Nbg-Briefbücher-Nr 3_0254_right.png" width="2761px"/>
+<zone lrx="1182" lry="1483" rendition="TextRegion" ulx="1174" uly="2040" xml:id="facs_505_r1"> <zone lrx="1603" lry="1483" rendition="Line" ulx="1174" uly="1369" xml:id="facs_505_r1l11"/>
+<zone lrx="2399" lry="1723" rendition="Line" subtype="paragraph" ulx="323" uly="1514" xml:id="facs_505_r1l12"/>
+<zone lrx="2438" lry="1831" rendition="Line" ulx="362" uly="1629" xml:id="facs_505_r1l13"/>
+<zone lrx="2434" lry="1969" rendition="Line" ulx="367" uly="1757" xml:id="facs_505_r1l14"/>
+<zone lrx="2358" lry="2083" rendition="Line" ulx="377" uly="1876" xml:id="facs_505_r1l15"/>
+<zone lrx="1182" lry="2191" rendition="Line" ulx="370" uly="2040" xml:id="facs_505_r1l16"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Petrus Wacker, königlicher Hofschreiber</head><p>Der Rat bittet um Nachrichten aus Ungarn.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_505" id="252r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_505_r1l11">Petro wacker </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_505_r1l12"><expan>L<ex>ieber</ex></expan> Peter / VVir <expan>bıt<ex>en</ex></expan> <expan>ew<ex>r</ex></expan> <expan>freuntl<ex>ich</ex></expan> / ob Jr ıcht newer vnd </ab>
+<ab facs="#facs_505_r1l13">fremder leuff oder mer danyden cʒu <expan>vng<ex>er</ex>n</expan> höret / oder vveſt </ab>
+<ab facs="#facs_505_r1l14">daʒ Jr vns die an <expan>ew<ex>r</ex>m</expan> brief <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> wiſſen laſſen vvöllet </ab>
+<ab facs="#facs_505_r1l15"><expan>Alſu<ex>er</ex>re</expan> ew das füglıch ſeẏ / das <expan>wölle<ex>n</ex></expan> etc <expan>v<ex>er</ex>ſıg<ex>elt</ex></expan> vnter </ab>
+<ab facs="#facs_505_r1l16">Sebolt Pfincʒings <expan>Jnſ<ex>igel</ex></expan> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_505" id="252r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Petro Wacker</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Peter, wir <expan>bit<ex>en</ex></expan>
+<expan>ew<ex>r</ex></expan>
+<expan>freuntl<ex>ich,</ex></expan> ob ir icht newer und fremder leuff oder
+                        mer danyden czu <expan>Ung<ex>er</ex>n</expan> höret oder west, daz ir uns
+                        die an <expan>ew<ex>r</ex>m</expan> brief
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> wissen lassen wöllet,
+                                <expan>alsv<ex>er</ex>re</expan> ew das füglich sey. Das
+                                <expan>wölle<ex>n</ex></expan> etc.
+                                <expan>V<ex>er</ex>sig<ex>elt</ex></expan> unter Sebolt Pfinczings
+                                <expan>ins<ex>igel</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

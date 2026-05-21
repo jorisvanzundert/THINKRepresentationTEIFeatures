@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2258" xml:id="l2270" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2258 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>044v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2258.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient">-</ab><ab type="mention"><orgName ref="https://www.wikidata.org/wiki/Q1794" type="mention">Frankfurt am Main</orgName></ab><date from="15-02-1420" to="15-02-1420" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_91">
+<surface lrx="2638" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0048_left.png" width="2638px"/>
+<zone lrx="1462" lry="371" rendition="TextRegion" ulx="1060" uly="591" xml:id="facs_91_r1">
+<zone lrx="1965" lry="371" rendition="Line" ulx="915" uly="303" xml:id="facs_91_r1l1"/>
+<zone lrx="1967" lry="446" rendition="Line" ulx="1060" uly="395" xml:id="facs_91_r1l2"/>
+<zone lrx="2308" lry="573" rendition="Line" ulx="1027" uly="473" xml:id="facs_91_r1l4"/>
+<zone lrx="1462" lry="688" rendition="Line" ulx="716" uly="591" xml:id="facs_91_r1l5"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über die Geleitsbriefe</head><p>Die Briefe für das Geleit für Nürnberger Bürger und Kaufleute auf dem Weg zu und von der Frankfurter Fastenmesse sind in der gleichen Weise wie zur vergangenen Herbstmesse ausgegangen [vgl. Nr. 2184].</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_91" id="44v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_91_r1l1"> <expan>No<ex>ta</ex></expan> geleitſbrief in die 
+<del rend="strikethrough">d </del> <expan>nehſte<ex>n</ex></expan> </ab>
+<ab facs="#facs_91_r1l2">Frankfürter vaſtenmeſſe etc </ab>
+<ab facs="#facs_91_r1l4"><expan>p<ex>re</ex>ciſe</expan> vt in <expan>for<ex>ma</ex></expan> <expan>p<ex>re</ex>ſc<ex>ri</ex>pta</expan> etc herbſtmeſſe etc </ab>
+<ab facs="#facs_91_r1l5">
+<add><expan>Act<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ṽ <expan>p<ex>oſt</ex></expan> valentini</add> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_91" id="44v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>No<ex>ta</ex></expan> geleitsbrief in die
+                                                  <expan>nehste<ex>n</ex></expan> Frankfürter
+                                                vastenmesse etc. <expan>p<ex>re</ex>cise</expan> ut
+                                                in <expan>for<ex>ma</ex></expan>
+<expan>p<ex>re</ex>sc<ex>ri</ex>pta</expan> etc.
+                                                Herbstmesse etc. <add><expan>Act<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> v
+                                                  <expan>p<ex>ost</ex></expan> Valentini</add>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

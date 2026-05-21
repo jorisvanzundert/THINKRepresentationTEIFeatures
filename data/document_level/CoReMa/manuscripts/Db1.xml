@@ -1,0 +1,2059 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Electronic transcription of Debrecen, Tiszántuli Református Egyházkerület Nagykönyvtárschatt, R 605</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Hyperdiplomatische Basistranskription der Handschrift Debrecen, Tiszántuli Református Egyházkerület Nagykönyvtárschatt, R 605</edition>
+        <editor>
+          <forename>Astrid</forename>
+          <surname>Böhm</surname>
+        </editor>
+        <principal>
+          <forename>Helmut W.</forename>
+          <surname>Klug</surname>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+						Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+          <licence n="facsimile" target="">The images are not released for further use.</licence>
+        </availability>
+        <date when="2020-01-01"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.db1</idno>
+        <ref target="context:corema" type="context"></ref>
+        <ref target="context:corema.glyph" type="context"></ref>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Ungarn</country>
+            <settlement>Debrecen</settlement>
+            <institution ref="https://silver.drk.hu/en">Tiszántuli Református Egyházkerület Nagykönyvtárschatt</institution>
+            <idno>R 605</idno>
+            <altIdentifier type="abbr">
+              <idno>Db1</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <textLang ana="manuscript">
+              <lang ana="main" n="Q29540">Bavarian</lang>
+              <lang ana="main" n="Q1163234">Medieval Latin</lang>
+            </textLang>
+          </msContents>
+          <physDesc>
+            <objectDesc form="composite-Manuscript">
+              <supportDesc>
+                <extent>
+                  <measure type="leavesCount" unit="leaf">140</measure>
+                  <dimensions type="block" unit="mm">
+                    <height>110</height>
+                    <width>78</width>
+                  </dimensions>
+                </extent>
+                <foliation>
+                  <ab type="completeness">Zweierlei moderne Bleistiftzählung: obere, äußere Ecke 1–140, unten 1–143, wobei die fehlenden Bll. zwischen Bl. 136-137 (Blattreste mit wenig Text) mitgezählt wurden.</ab>
+                </foliation>
+                <collation>
+                  <formula style="chroust">13 Lagen: IV + 10 VI + IV + (III-2).</formula>
+                  <catchwords>Oft Reklamanten auf der letzten Versoseite.</catchwords>
+                </collation>
+                <condition>
+                  <desc>Bll. vergilbt, beschmutzt, oft braune Flecke. Falzstreifen aus beschriebenem Pergament (dt. Text 15. Jh.).</desc>
+                  <material xml:lang="de">Papier</material>
+                  <material xml:lang="en">paper</material>
+                  <watermark xml:id="Waage">Waage ähnl. Briquet Nr. 2407 (1472-74) 
+									</watermark>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1">
+                  <p ana="measure">Schriftspiegel bis Bl. 32 mit Tintenlinien umfasst: 78(18) x 52(55).<lb></lb>
+										Nach Bl. 32 schwankend.</p>
+                  <p ana="textblock">Einspaltig</p>
+                  <p ana="lines">15-19</p>
+                  <p ana="text">Zwischen Bll. 33-68 andere Linierung, die wahrscheinlch für eine Hs. größeren Formats gezogen wurde.<lb></lb>
+										Einige zweizeilige rote Initialen, rote Überschriften und rote Strichelung der Majuskeln. Rezeptanfänge sind meist rot unterstrichen, machmal umrahmt.<lb></lb> 
+										Auf Bl. 11r flüchtige Bleistiftzeichnung: Ringkampf (coitus ?).</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc>
+              <handNote>Eine Haupthand (oft variierende <term>Bastarda</term>) und mehrere, ungefähr zeitgleiche Nachtragshände.</handNote>
+            </handDesc>
+            <scriptDesc facs="fol. 73v-107v" resp="Astrid Böhm">
+              <scriptNote>
+                <desc>allgemeine Beobachtung</desc>
+                <p>klare Struktur, Überschriften rubriziert, Rezeptanfänge unterstrichen</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Duktus</desc>
+                <p>flüssige Hand, leicht nach rechts geneigt</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;a&gt;</desc>
+                <p>einstöckiges &lt;a&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;l&gt;</desc>
+                <p>mit Schlaufe</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;g&gt;</desc>
+                <p>Punze geschlossen, Unterbogen endet meist bei der oberen Punze </p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;e&gt;</desc>
+                <p>meist geschlossene Punze</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                <p>&lt;b&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt; mit Schlaufe; &lt;d&gt; mit und ohne Schlaufe</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                <p>‚normale‘ Unterlänge</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verschiedene r-Formen</desc>
+                <p>gerades &lt;r&gt; und rundes &lt;r&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verschiedene z-Formen</desc>
+                <p>geschwänztes &lt;z&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>i-Markierung</desc>
+                <p>meist i-Markierung</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Besonderheiten anderer Grapheme</desc>
+                <p>Minuskel &lt;z&gt; stark vergrößert, ragt teils weit über das Mittelband hinaus; &lt;t&gt; in finaler Stellung teils mit Zierstrich – nicht von Virgel unterscheidbar</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Zahlzeichen</desc>
+                <p>römische Ziffern/lat. Buchstaben</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Majuskeln (Verwendung)</desc>
+                <p>Überschriften, Rezeptbeginn, vereinzelt textintern</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verzierungen</desc>
+                <p>fol. 106r fleuronale Verzierung bei Unterstreichung</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Rubrizierung</desc>
+                <p>Überschriften, Unterstreichungen von Rezeptanfängen, Strichelung </p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Diakritika</desc>
+                <p>punkt-, doppelpunktförmig, &lt;e&gt; über Vokalen</p>
+                <p>Grenze zwischen hochgestelltem &lt;e&gt; und Doppelunkt fließend</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Abbreviaturen</desc>
+                <p>Kürzungsstrich, r/er-Haken, et-cetera-Abbreviatur, er-Kürzung in Kombination mit Schaft-s</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Interpunktion</desc>
+                <p>Virgel</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Terminatoren</desc>
+                <p>vereinzelt, wellenförmig</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Worttrennung</desc>
+                <p>Doppelstrich</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Korrekturen</desc>
+                <p>Streichung, Expungierung, Einfügung mit Einweisungszeichen</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Offensichtliche Schreiberwechsel</desc>
+              </scriptNote>
+            </scriptDesc>
+            <bindingDesc>
+              <binding corresp="#Einband">
+                <condition>Einband aus dem 15. Jh. Mit brüchigem, braunen Leder bezogene, dicke Holzdeckel, die den Buchblock um 5 mm überragen.<lb></lb>
+									Leder stark defekt, vorn ein großes, hinten ein kleineres Loch. Von den 5 Buckeln ist nur einer auf dem Rückendeckel vorhanden.</condition>
+                <decoNote type="bindingMaterial">Leder</decoNote>
+                <decoNote type="decoration">Deckel mit drei Parallellinien umrandet und mit Diagonallinien in Dreiecke geteilt. 
+									In jedem Dreieck ein Einzelstempel: Lilie im ovalen Feld, 20 mm hoch</decoNote>
+                <decoNote type="clasps">Von der nach vorne greifenden Schließe ist auf dem Vorderdeckel der gravierte Messingbeschlag erhalten.</decoNote>
+                <decoNote type="added">Die Innenseiten der Deckel sind mit Pergamentbll. beklebt.</decoNote>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>
+                <date notAfter="1475" notBefore="1450" xml:lang="de">1469-1474 und früher</date>
+                <date xml:lang="en">1469-1474 and before</date>
+              </origDate>
+              <note>Zur Datierung vgl. Bl. 139v und 140r.</note>
+              <origPlace>
+                <placeName xml:lang="de">Entstehungsort unbekannt</placeName>
+                <placeName xml:lang="en">place of origin unknown</placeName>
+              </origPlace>
+            </origin>
+            <provenance>Auf dem Rücken Reste eines Zettels mit einer unlesbaren Signatur. 
+							Auf Bl. 1r oben Titel: <q>Observationes oeconomicae et ad rem coquinariam pertinentes</q> (19. Jh., Tinte).<lb></lb>
+							Ebd. unten : <q>Arm</q>[arium] <q>IIum 295</q> (Bleistift. In der Kazzayschen Liste unter Nr. 116.)</provenance>
+          </history>
+          <msPart n="Vorderdeckel">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#house #med_pharm" xml:id="db1.InnenseiteVorderdeckel.1">
+                <locus ana="folio">Innenseite Vorderdeckel</locus>
+                <title>Rezepte gegen Ungeziefer - Von Steinen</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="1r-30v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="db1.1r-30v.2">
+                <locus ana="folio">1r-30v</locus>
+                <title>Verschiedene lat. und dt. Rezepte, meist zum Färben</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="30v-32v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#div" xml:id="db1.30v-32v.3">
+                <locus ana="folio">30v-32v</locus>
+                <title>Nachträge, lat. und dt.</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="33r-73v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="db1.33r-73v.4">
+                <locus ana="folio">33r-73v</locus>
+                <title>Auszüge aus dem Pelzbuch Gottfrieds von Franken</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart ana="cooking_recipes" n="73v-107v">
+            <head>Kochrezepttexte</head>
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#cooking" xml:id="db1.73v-107v.5">
+                <locus ana="folio">73v-107v</locus>
+                <title>Kochrezepttexte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="107v-116v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#div" xml:id="db1.107v-116v.6">
+                <locus ana="folio">107v-116v</locus>
+                <title>Verschied. Rezepte (Nachträge)</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="110r-112r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#eso" xml:id="db1.110r-112r.7">
+                <locus ana="folio">110r-112r</locus>
+                <title>Esdras Weissagungen, lat.</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="114r-116r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="db1.114r-116r.8">
+                <locus ana="folio">114r-116r</locus>
+                <title>Branntweintraktat</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="117r-130r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="db1.117r-130r.9">
+                <locus ana="folio">117r-130r</locus>
+                <title>Färberezepte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="133r-139v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+              </textLang>
+              <msItem corresp="#med_vet" xml:id="db1.133r-139v.10">
+                <locus ana="folio">133r-139v</locus>
+                <title>Meister Albrants Rossarzneibuch</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="139v-140r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="ug" n="Q29540">Bavarian</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#div" xml:id="db1.139v-140r.11">               
+ <locus ana="folio">139v-140r</locus>
+                <title>Nachträge, dt. und lat.</title>
+              </msItem>
+            </msContents>
+          </msPart>
+        </msDesc>
+        <listBibl type="catalogues">
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/JZ6948ED" type="book" xml:id="Vizkelety1973">
+            <monogr>
+              <title level="m">Beschreibendes Verzeichnis der altdeutschen Handschriften in
+								ungarischen Bibliotheken</title>
+              <author>
+                <forename>András</forename>
+                <surname>Vizkelety</surname>
+              </author>
+              <imprint>
+                <pubPlace>Wiesbaden</pubPlace>
+                <biblScope unit="volume">2. Budapest [=Kat. Nr. 1-43; 86-88], Debrecen [=Kat. Nr.
+									44-48], Eger [=Kat. Nr. 49-61], Esztergom [=Kat. Nr. 62-63], Györ [=Kat. Nr.
+									64-66], Kalocsa [=Kat. Nr. 67-79], Pannonhalma [=Kat. Nr. 80-82], Pápa [=Kat.Nr.
+									83], Pécs [=Kat. Nr. 84], Szombathely [=Kat. Nr. 85]</biblScope>
+                <publisher>Harrassowitz</publisher>
+                <date>1973</date>
+                <note type="url">http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0478.htm</note>
+              </imprint>
+            </monogr>
+            <citedRange unit="page">125-127</citedRange>
+            <note type="display">Vizkelety, A. (1973) <hi rend="italic">Beschreibendes Verzeichnis der altdeutschen Handschriften in ungarischen Bibliotheken</hi>. Wiesbaden: Harrassowitz, cf. pp. 125-127. Available at: <ref target="http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0478.htm">http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0478.htm</ref>.
+						</note>
+          </biblStruct>
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/I8EQF2DG" type="webpage" xml:id="zoteroItem_I8EQF2DG">
+            <analytic>
+              <title level="a">Handschriftencensus | Debrecen, Großbibl. des Reformierten
+								Kirchendistrikts, Cod. R. 605</title>
+            </analytic>
+            <monogr>
+              <title level="m">Handschriftencensus</title>
+              <imprint>
+                <date>2012</date>
+                <note type="accessed">2020-10-12T10:14:17Z</note>
+                <note type="url">https://handschriftencensus.de/13811</note>
+              </imprint>
+            </monogr>
+            <note type="display">
+              <hi rend="italic">Handschriftencensus | Debrecen, Großbibl. des Reformierten Kirchendistrikts, Cod. R. 605</hi> (2012) <hi rend="italic">Handschriftencensus</hi>. Available at: <ref target="https://handschriftencensus.de/13811">https://handschriftencensus.de/13811</ref> (Accessed: 12 October 2020).
+						</note>
+          </biblStruct>
+        </listBibl>
+        
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface start="#Db1_073v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_073v.jpg" xml:id="IMG.073v"></graphic>
+    </surface>
+    <surface start="#Db1_074r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_074r.jpg" xml:id="IMG.074r"></graphic>
+    </surface>
+    <surface start="#Db1_074v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_074v.jpg" xml:id="IMG.074v"></graphic>
+    </surface>
+    <surface start="#Db1_075r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_075r.jpg" xml:id="IMG.075r"></graphic>
+    </surface>
+    <surface start="#Db1_075v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_075v.jpg" xml:id="IMG.075v"></graphic>
+    </surface>
+    <surface start="#Db1_076r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_076r.jpg" xml:id="IMG.076r"></graphic>
+    </surface>
+    <surface start="#Db1_076v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_076v.jpg" xml:id="IMG.076v"></graphic>
+    </surface>
+    <surface start="#Db1_077r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_077r.jpg" xml:id="IMG.077r"></graphic>
+    </surface>
+    <surface start="#Db1_077v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_077v.jpg" xml:id="IMG.077v"></graphic>
+    </surface>
+    <surface start="#Db1_078r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_078r.jpg" xml:id="IMG.078r"></graphic>
+    </surface>
+    <surface start="#Db1_078v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_078v.jpg" xml:id="IMG.078v"></graphic>
+    </surface>
+    <surface start="#Db1_079r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_079r.jpg" xml:id="IMG.079r"></graphic>
+    </surface>
+    <surface start="#Db1_079v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_079v.jpg" xml:id="IMG.079v"></graphic>
+    </surface>
+    <surface start="#Db1_080r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_080r.jpg" xml:id="IMG.080r"></graphic>
+    </surface>
+    <surface start="#Db1_080v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_080v.jpg" xml:id="IMG.080v"></graphic>
+    </surface>
+    <surface start="#Db1_081r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_081r.jpg" xml:id="IMG.081r"></graphic>
+    </surface>
+    <surface start="#Db1_081v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_081v.jpg" xml:id="IMG.081v"></graphic>
+    </surface>
+    <surface start="#Db1_082r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_082r.jpg" xml:id="IMG.082r"></graphic>
+    </surface>
+    <surface start="#Db1_082v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_082v.jpg" xml:id="IMG.082v"></graphic>
+    </surface>
+    <surface start="#Db1_083r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_083r.jpg" xml:id="IMG.083r"></graphic>
+    </surface>
+    <surface start="#Db1_083v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_083v.jpg" xml:id="IMG.083v"></graphic>
+    </surface>
+    <surface start="#Db1_084r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_084r.jpg" xml:id="IMG.084r"></graphic>
+    </surface>
+    <surface start="#Db1_084v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_084v.jpg" xml:id="IMG.084v"></graphic>
+    </surface>
+    <surface start="#Db1_085r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_085r.jpg" xml:id="IMG.085r"></graphic>
+    </surface>
+    <surface start="#Db1_085v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_085v.jpg" xml:id="IMG.085v"></graphic>
+    </surface>
+    <surface start="#Db1_086r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_086r.jpg" xml:id="IMG.086r"></graphic>
+    </surface>
+    <surface start="#Db1_086v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_086v.jpg" xml:id="IMG.086v"></graphic>
+    </surface>
+    <surface start="#Db1_087r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_087r.jpg" xml:id="IMG.087r"></graphic>
+    </surface>
+    <surface start="#Db1_087v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_087v.jpg" xml:id="IMG.087v"></graphic>
+    </surface>
+    <surface start="#Db1_088r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_088r.jpg" xml:id="IMG.088r"></graphic>
+    </surface>
+    <surface start="#Db1_088v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_088v.jpg" xml:id="IMG.088v"></graphic>
+    </surface>
+    <surface start="#Db1_089r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_089r.jpg" xml:id="IMG.089r"></graphic>
+    </surface>
+    <surface start="#Db1_089v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_089v.jpg" xml:id="IMG.089v"></graphic>
+    </surface>
+    <surface start="#Db1_090r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_090r.jpg" xml:id="IMG.090r"></graphic>
+    </surface>
+    <surface start="#Db1_090v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_090v.jpg" xml:id="IMG.090v"></graphic>
+    </surface>
+    <surface start="#Db1_091r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_091r.jpg" xml:id="IMG.091r"></graphic>
+    </surface>
+    <surface start="#Db1_091v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_091v.jpg" xml:id="IMG.091v"></graphic>
+    </surface>
+    <surface start="#Db1_092r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_092r.jpg" xml:id="IMG.092r"></graphic>
+    </surface>
+    <surface start="#Db1_092v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_092v.jpg" xml:id="IMG.092v"></graphic>
+    </surface>
+    <surface start="#Db1_093r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_093r.jpg" xml:id="IMG.093r"></graphic>
+    </surface>
+    <surface start="#Db1_093v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_093v.jpg" xml:id="IMG.093v"></graphic>
+    </surface>
+    <surface start="#Db1_094r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_094r.jpg" xml:id="IMG.094r"></graphic>
+    </surface>
+    <surface start="#Db1_094v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_094v.jpg" xml:id="IMG.094v"></graphic>
+    </surface>
+    <surface start="#Db1_095r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_095r.jpg" xml:id="IMG.095r"></graphic>
+    </surface>
+    <surface start="#Db1_095v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_095v.jpg" xml:id="IMG.095v"></graphic>
+    </surface>
+    <surface start="#Db1_096r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_096r.jpg" xml:id="IMG.096r"></graphic>
+    </surface>
+    <surface start="#Db1_096v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_096v.jpg" xml:id="IMG.096v"></graphic>
+    </surface>
+    <surface start="#Db1_097r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_097r.jpg" xml:id="IMG.097r"></graphic>
+    </surface>
+    <surface start="#Db1_097v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_097v.jpg" xml:id="IMG.097v"></graphic>
+    </surface>
+    <surface start="#Db1_098r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_098r.jpg" xml:id="IMG.098r"></graphic>
+    </surface>
+    <surface start="#Db1_098v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_098v.jpg" xml:id="IMG.098v"></graphic>
+    </surface>
+    <surface start="#Db1_099r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_099r.jpg" xml:id="IMG.099r"></graphic>
+    </surface>
+    <surface start="#Db1_099v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_099v.jpg" xml:id="IMG.099v"></graphic>
+    </surface>
+    <surface start="#Db1_100r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_100r.jpg" xml:id="IMG.100r"></graphic>
+    </surface>
+    <surface start="#Db1_100v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_100v.jpg" xml:id="IMG.100v"></graphic>
+    </surface>
+    <surface start="#Db1_101r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_101r.jpg" xml:id="IMG.101r"></graphic>
+    </surface>
+    <surface start="#Db1_101v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_101v.jpg" xml:id="IMG.101v"></graphic>
+    </surface>
+    <surface start="#Db1_102r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_102r.jpg" xml:id="IMG.102r"></graphic>
+    </surface>
+    <surface start="#Db1_102v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_102v.jpg" xml:id="IMG.102v"></graphic>
+    </surface>
+    <surface start="#Db1_103r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_103r.jpg" xml:id="IMG.103r"></graphic>
+    </surface>
+    <surface start="#Db1_103v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_103v.jpg" xml:id="IMG.103v"></graphic>
+    </surface>
+    <surface start="#Db1_104r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_104r.jpg" xml:id="IMG.104r"></graphic>
+    </surface>
+    <surface start="#Db1_104v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_104v.jpg" xml:id="IMG.104v"></graphic>
+    </surface>
+    <surface start="#Db1_105r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_105r.jpg" xml:id="IMG.105r"></graphic>
+    </surface>
+    <surface start="#Db1_105v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_105v.jpg" xml:id="IMG.105v"></graphic>
+    </surface>
+    <surface start="#Db1_106r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_106r.jpg" xml:id="IMG.106r"></graphic>
+    </surface>
+    <surface start="#Db1_106v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_106v.jpg" xml:id="IMG.106v"></graphic>
+    </surface>
+    <surface start="#Db1_107r">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_107r.jpg" xml:id="IMG.107r"></graphic>
+    </surface>
+    <surface start="#Db1_107v">
+      <graphic url="Debrecen_Tiszántuli_Református_Egyházkerület_Nagykönyvtárschatt_R_605_fol_107v.jpg" xml:id="IMG.107v"></graphic>
+    </surface>
+    <surface start="#">
+      <graphic url="cutouts/db1.jpg" xml:id="CUTOUT"></graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body xml:space="preserve"><ab>
+   		<pb n="073v" xml:id="Db1_073v"></pb>
+			
+				<lb n="N001"></lb>
+				<lb n="N002"></lb><note xml:lang="de">Die Seite beginnt mit den letzten Zeilen des vorangehenden Textes.</note><note xml:lang="en">The page starts with the last lines of the previous text.</note> <hi rend="textColour:RED;" style="heading">Hie hebt 
+				<lb n="N003"></lb><g ref="#slong">s</g>ich an ein <abbr>cap<g ref="#inodot">i</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> das
+				<lb n="N004"></lb><g ref="#slong">s</g>agt wie <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> hofl<g ref="#inodot">i</g>chew
+				<lb n="N005"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g>en <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ol des <abbr>e<g ref="#rrot">r</g><g ref="#slong">s</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N006"></lb><seg><hi rend="textColour:RED;" style="heading">w<g ref="#inodot">i</g>e <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> ein h<g ref="#inodot">i</g>e<g ref="#rrot">r</g>s <abbr>gehuer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <add><abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>chol</add></hi>
+				<lb n="N007"></lb><hi rend="textColour:RED;"><hi>W</hi></hi><hi rend="underlined; textColour:RED;">Er ein h<g ref="#inodot">i</g>e<g ref="#rrot">r</g><g ref="#slong">s</g>s gehuer<g ref="#bar_e">e</g>n
+				<lb n="N008"></lb>machen wil zu der
+				<lb n="N009"></lb>zey<g ref="#combuml"></g>tt als es waich</hi>
+				<lb n="N010"></lb>i<g ref="#slong">s</g>t <g ref="#verbar" rend="textColour:RED;"></g>So <g ref="#slong">s</g>ol <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> nemen
+				<lb n="N011"></lb>das <abbr>gehuer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>ol es
+				<lb n="N012"></lb>gar <g ref="#slong">s</g>auber <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N013"></lb><g ref="#slong">s</g>engen ob <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> fewer
+				<lb n="N014"></lb>vnd <g ref="#slong">s</g>ol es dan eben zu
+				<lb n="N015"></lb><abbr><g ref="#slong">s</g>chey<g ref="#combuml"></g>b<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>neyd<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als vil
+				<lb n="N016"></lb>als dw ir <abbr>gewinne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> macht
+				<lb n="N017"></lb>vnd ny<g ref="#combuml"></g>m dan honig vnd
+				<lb n="N018"></lb><g ref="#slong">s</g>eud das vntz das dy<g ref="#combuml"></g> <w>vn<g ref="#dbloblhyph">=</g>
+			
+			<pb n="074r" xml:id="Db1_074r"></pb>
+			
+				<lb n="N001"></lb><g ref="#slong">s</g>aubr<g ref="#inodot">i</g>chait</w> alle da von <g ref="#fracsol"></g>
+				<lb n="N002"></lb>chumpt vnd ny<g ref="#combuml"></g>m dan
+				<lb n="N003"></lb><abbr>letzelt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd pa<g ref="#esup">e</g> den pey<g ref="#combuml"></g>
+				<lb n="N004"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> fewer <g ref="#fracsol"></g> vnd ny<g ref="#combuml"></g>m das
+				<lb n="N005"></lb>gepain vnd hack es <g ref="#slong">s</g>chon
+				<lb n="N006"></lb>vnd <g ref="#slong">s</g>tozzz es in <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> mo<g ref="#slong">s</g>rer
+				<lb n="N007"></lb>vnd ny<g ref="#combuml"></g>m ein wen<g ref="#inodot">i</g>gs <w>ho<g ref="#dbloblhyph">=</g>
+				<lb n="N008"></lb>nig</w> vnd <abbr>letzelt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd des
+				<lb n="N009"></lb>gehuerns <g ref="#slong">s</g>way<g ref="#combuml"></g>s vnd
+				<lb n="N010"></lb><g ref="#slong">s</g>eich es durch ein rains
+				<lb n="N011"></lb>tuech vnd <g ref="#slong">s</g>ay<g ref="#combuml"></g>ch da <w><abbr>ge<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N012"></lb><abbr>huer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></w> dar in da m<g ref="#inodot">i</g>t i<g ref="#slong">s</g>t
+				<lb n="N013"></lb><g ref="#slong">s</g>ein genu<g ref="#combuml"></g>eg</seg><seg> <hi rend="textColour:RED;" style="heading">Wie man ein
+				<lb n="N014"></lb><abbr>hir<g ref="#slong">s</g>lum<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>chol</hi>
+				<lb n="N015"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein <abbr>hir<g ref="#slong">s</g>lumb<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N016"></lb>wil der nem <g ref="#slong">s</g>y<g ref="#combuml"></g> al<g ref="#slong">s</g>o fri<g ref="#slong">s</g>ch
+				<lb n="N017"></lb><g ref="#slong">s</g>o man <g ref="#slong">s</g>y<g ref="#combuml"></g> <abbr>gehab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mag <g ref="#fracsol"></g>
+			
+			<pb n="074v" xml:id="Db1_074v"></pb>
+			
+				<lb n="N001"></lb>vnd <g ref="#slong">s</g>ewt <g ref="#slong">s</g>y<g ref="#combuml"></g> in ir <g ref="#slong">s</g>elbs prodt
+				<lb n="N002"></lb>I<g ref="#slong">s</g>t aber das dy<g ref="#combuml"></g> <g ref="#slong">s</g>meck <g ref="#slong">s</g>o <g ref="#slong">s</g>ol
+				<lb n="N003"></lb>man <g ref="#slong">s</g>y<g ref="#combuml"></g> in einer <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N004"></lb>pru<g ref="#combuml"></g>e machen mit <abbr>pet<ex>er</ex><am><g ref="#combcomma_er"></g></am><g ref="#slong">s</g><g ref="#inodot">i</g>l</abbr>
+				<lb n="N005"></lb>vnd mit <abbr>guett<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>wue<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N006"></lb>mit <abbr>letzelt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit wein
+				<lb n="N007"></lb>mit e<g ref="#slong">s</g><g ref="#slong">s</g>eich vnd das <g ref="#slong">s</g>ol
+				<lb n="N008"></lb>man dar ein <abbr>g<g ref="#inodot">i</g>e<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o i<g ref="#slong">s</g>t
+				<lb n="N009"></lb>es guet <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">wie dw eins
+				<lb n="N010"></lb><abbr>w<g ref="#inodot">i</g>ld<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>weins haupp
+				<lb n="N011"></lb>beray<g ref="#combuml"></g>tten <g ref="#slong">s</g>cholt</hi>
+				<lb n="N012"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein wilden <g ref="#slong">s</g>weins
+				<lb n="N013"></lb>haubt <g ref="#fracsol"></g> <abbr>beray<g ref="#combuml"></g>tt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil <g ref="#verbar" rend="textColour:RED;"></g>der</hi>
+				<lb n="N014"></lb><g ref="#slong">s</g>eng es vnd wa<g ref="#slong">s</g>ch es aus
+				<lb n="N015"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> hay<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>en wa<g ref="#slong">s</g><g ref="#slong">s</g>er das
+				<lb n="N016"></lb>es <g ref="#slong">s</g>cho<g ref="#combuml"></g>n we<g ref="#rrot">r</g>dt vnd <g ref="#slong">s</g>lach
+				<lb n="N017"></lb>es durch ein ander <g ref="#fracsol"></g> vnd
+				<lb n="N018"></lb><g ref="#slong">s</g>ewd es in ein hafen b<g ref="#inodot">i</g><g ref="#slong">s</g>s
+				<lb n="N019"></lb>das das gepra<g ref="#combuml"></g>t gar wol
+			
+			<pb n="075r" xml:id="Db1_075r"></pb>
+			
+				<lb n="N001"></lb>ge<g ref="#slong">s</g>otten <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd leg es auf
+				<lb n="N002"></lb>ein ti<g ref="#slong">s</g>ch vnd la<g ref="#slong">s</g>s das <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>pra<g ref="#combuml"></g>t</w> gar <g ref="#slong">s</g>chon ab dem
+				<lb n="N004"></lb>haubt vnd ab dem pain
+				<lb n="N005"></lb>vnd von der hey<g ref="#combuml"></g>tt vnd
+				<lb n="N006"></lb><g ref="#slong">s</g>ol das geprat <g ref="#fracsol"></g> <abbr>wurtz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N007"></lb>vnd mit <abbr>weinper<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N008"></lb>es <abbr>Ziech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wo mit er <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N009"></lb>traw</w> das es gu<g ref="#combuml"></g>et <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> we<g ref="#rrot">r</g>dt
+				<lb n="N010"></lb>vnd mach dan ein wey<g ref="#slong">s</g>s
+				<lb n="N011"></lb>plat mit wey<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>en <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N012"></lb>vnd leg es auf dy<g ref="#combuml"></g> hawt
+				<lb n="N013"></lb>vnd leg das geprat dar
+				<lb n="N014"></lb>auff als vil dw wild vnd
+				<lb n="N015"></lb>mach dan ein rotzplat
+				<lb n="N016"></lb>mit <abbr>ayertotter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>tra<g ref="#combuml"></g>
+				<lb n="N017"></lb>das fley<g ref="#slong">s</g>ch aber als vil
+				<lb n="N018"></lb>dw wild <g ref="#dblsol"></g><note xml:lang="de">Revision: Einweisungszeichen markiert Einschub.</note><note xml:lang="en">Revision: metamark indicates addition.</note><listTranspose><transpose><ptr target="#_075r19"></ptr></transpose></listTranspose> vnd mach dan
+				<seg type="transpose" xml:id="_075r19"><lb n="N019"></lb><g ref="#dblsol"></g>vnd mach dan ein wey<g ref="#slong">s</g>s plat
+				<lb n="N020"></lb>vnd leg <abbr>ab<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> das fley<g ref="#slong">s</g>ch darauf
+				<lb n="N021"></lb>als v<g ref="#inodot">i</g>l dw wild<g ref="#dblsol"></g></seg>
+			
+			<pb n="075v" xml:id="Db1_075v"></pb>
+			
+				<lb n="N001"></lb>aber ein <g ref="#verbar" rend="textColour:RED;"></g>Rotplat <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb>vnd von <g ref="#slong">s</g>affran <g ref="#fracsol"></g> vnd <g ref="#slong">s</g>a<g ref="#esup">e</g>
+				<lb n="N003"></lb>aber darauf als vor vnd
+				<lb n="N004"></lb>mach dan aber ein wey<g ref="#combuml"></g><g ref="#slong">s</g>s
+				<lb n="N005"></lb>plat vnd leg <abbr>dan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>ab<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> dar
+				<lb n="N006"></lb>auf das gepra<g ref="#combuml"></g>t vnd dy<g ref="#combuml"></g>e
+				<lb n="N007"></lb>haut thue dar vber vnd
+				<lb n="N008"></lb>mach es vber einander <g ref="#fracsol"></g>
+				<lb n="N009"></lb><g ref="#verbar" rend="textColour:RED;"></g>So dw es dan <abbr>hab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wild
+				<lb n="N010"></lb><g ref="#slong">s</g>o <g ref="#slong">s</g>oltu es dan in ein <g ref="#slong">s</g>chons
+				<lb n="N011"></lb>tuech <abbr>leg<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd dar ein
+				<lb n="N012"></lb><abbr>verpind<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd pre<g ref="#slong">s</g>s es
+				<lb n="N013"></lb><abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> Zwain <abbr>pretter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das
+				<lb n="N014"></lb>es he<g ref="#rrot">r</g>tt we<g ref="#rrot">r</g>dt vnd mach
+				<lb n="N015"></lb>ein <g ref="#slong">s</g>al<g ref="#slong">s</g>en darZue dy<g ref="#combuml"></g> <g ref="#fracsol"></g>
+				<lb n="N016"></lb><sic>dy<g ref="#combuml"></g></sic> <g ref="#slong">s</g>wa<g ref="#rrot">r</g>tz <g ref="#slong">s</g>ey<g ref="#combuml"></g> mit <w><abbr>gepran<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N017"></lb><abbr>t<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></w> <abbr>letzelt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd wue<g ref="#rrot">r</g>tz
+			
+			<pb n="076r" xml:id="Db1_076r"></pb>
+			
+				<lb n="N001"></lb>das mit y<g ref="#combuml"></g>mber vnd Zuker
+				<lb n="N002"></lb>vnd honich <g ref="#slong">s</g>o i<g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg>
+<seg>				<lb n="N003"></lb><hi rend="textColour:RED;" style="heading">wie man ein Ziger macht
+				<lb n="N004"></lb>von mandelmil<g ref="#inodot">i</g>ch</hi>
+				<lb n="N005"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein Ziger <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil</hi>
+				<lb n="N006"></lb>von mandelmilich der <g ref="#slong">s</g>ol
+				<lb n="N007"></lb><abbr>neme<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> als vil der <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd
+				<lb n="N008"></lb>er ir <abbr>hab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil vnd <g ref="#slong">s</g>ol
+				<lb n="N009"></lb>dan den <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g>en vnd du<g ref="#rrot">r</g>ch
+				<lb n="N010"></lb>ein tuech <abbr><g ref="#slong">s</g>eich<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>ol
+				<lb n="N011"></lb>in dan in <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>haff<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <w>wer<g ref="#dbloblhyph">=</g>
+				<lb n="N012"></lb>men</w> vnd mit <abbr>e<g ref="#inodot">i</g>ne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> holtz
+				<lb n="N013"></lb>lein vndereinander <abbr>ruer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N014"></lb>vnd <g ref="#slong">s</g>ol der mandelmilich
+				<lb n="N015"></lb>chalter <abbr>behalt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>ol
+				<lb n="N016"></lb>dy<g ref="#combuml"></g> dar auf <abbr>gy<g ref="#combuml"></g>e<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit
+				<lb n="N017"></lb>Zucker gemi<g ref="#slong">s</g>cht</seg> <seg><hi rend="textColour:RED;" style="heading">Wie
+				<lb n="N018"></lb><abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> macht ein ygel von
+				<lb n="N019"></lb>mandelmilich</hi>
+			
+			<pb n="076v" xml:id="Db1_076v"></pb>
+			
+				<lb n="N001"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein <g ref="#verbar" rend="textColour:RED;"></g>Igel <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil
+				<lb n="N002"></lb>von mandelmil<g ref="#inodot">i</g>ch <g ref="#verbar" rend="textColour:RED;"></g>der nem</hi> 
+				<lb n="N003"></lb>mandel als vil er <g ref="#slong">s</g>ein <abbr>hab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N004"></lb>wil vnd <g ref="#slong">s</g>toz in vnd wie<g ref="#rrot">r</g>f
+				<lb n="N005"></lb>in in <abbr>eine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> rainen haffen
+				<lb n="N006"></lb>vnd ruer es mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> holtz
+				<lb n="N007"></lb>lein vnd <g ref="#slong">s</g>chol es auf ein
+				<lb n="N008"></lb>tuechlein <abbr><g ref="#slong">s</g>chutt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das es
+				<lb n="N009"></lb>lig enpar das es e<g ref="#rrot">r</g><g ref="#slong">s</g>eich
+				<lb n="N010"></lb>vntz das es <abbr>truck<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> we<g ref="#rrot">r</g>dt
+				<lb n="N011"></lb>vnd be<g ref="#slong">s</g>tru<g ref="#combuml"></g> es mit zucker <g ref="#fracsol"></g>
+				<lb n="N012"></lb>vnd ny<g ref="#combuml"></g>m dan <abbr>geuie<g ref="#rrot">r</g>tailt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N013"></lb>mandel das es rott <g ref="#slong">s</g>ey<g ref="#combuml"></g>
+				<lb n="N014"></lb>mit <g ref="#slong">s</g>affran vnd be<g ref="#slong">s</g>toz es
+				<lb n="N015"></lb>das es <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <g ref="#verbar" rend="textColour:RED;"></g>Igel geleich
+				<lb n="N016"></lb>we<g ref="#rrot">r</g>dt vnd gews dar an
+				<lb n="N017"></lb>ein t<g ref="#inodot">i</g>ckew <abbr>mand<ex>e</ex><am><g ref="#bar_e"></g></am>lmilich</abbr>
+				<lb n="N018"></lb><g ref="#slong">s</g>o dw es auf dy<g ref="#combuml"></g> <g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el leg<g ref="#slong">s</g>t</seg>
+<seg>			
+			<pb n="077r" xml:id="Db1_077r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">Ein cha<g ref="#slong">s</g>s <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>mand<ex>e</ex><am><g ref="#bar_e"></g></am>lmil<g ref="#inodot">i</g>ch</abbr></hi>
+				<lb n="N002"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein cha<g ref="#slong">s</g>s von <abbr>mand<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N003"></lb>milich <abbr>bary<g ref="#combuml"></g>tt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil <g ref="#verbar" rend="textColour:RED;"></g>Der</hi>
+				<lb n="N004"></lb>nem mandelmil<g ref="#inodot">i</g>ch vnd
+				<lb n="N005"></lb>wel dy<g ref="#combuml"></g> in <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> pfenlein
+				<lb n="N006"></lb>mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> wen<g ref="#inodot">i</g>g wein der
+				<lb n="N007"></lb><g ref="#slong">s</g>uezz <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd <g ref="#slong">s</g>chut es auf
+				<lb n="N008"></lb>ein tuechlein vnd thue
+				<lb n="N009"></lb>ein <g ref="#slong">s</g>tro darvnder <g ref="#fracsol"></g> vnd la<g ref="#slong">s</g>s
+				<lb n="N010"></lb>es <abbr><g ref="#slong">s</g>eych<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> bis es trucken
+				<lb n="N011"></lb>we<g ref="#rrot">r</g>dt <g ref="#verbar" rend="textColour:RED;"></g>vnd ny<g ref="#combuml"></g>m es dann
+				<lb n="N012"></lb>her vnd thue es in einen
+				<lb n="N013"></lb>cha<g ref="#slong">s</g>schar vnd mi<g ref="#slong">s</g>ch es 
+				<lb n="N014"></lb>mit Zucker <g ref="#fracsol"></g> vnd mit <abbr>guett<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb>gewue<g ref="#rrot">r</g>tz vnd truck es
+				<lb n="N016"></lb>in ein cha<g ref="#combuml"></g><g ref="#slong">s</g>char da mit
+				<lb n="N017"></lb>thue es auf ein <g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el
+			
+			<pb n="077v" xml:id="Db1_077v"></pb>
+			
+				<lb n="N001"></lb><g ref="#slong">s</g>o <g ref="#inodot">i</g><g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>ldw
+				<lb n="N002"></lb><abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ve<g ref="#rrot">r</g>lorne ayer <g ref="#tridotright"></g></hi>
+				<lb n="N003"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldu <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ve<g ref="#rrot">r</g>lornew
+				<lb n="N004"></lb>aier dye mach al<g ref="#slong">s</g>o <g ref="#verbar" rend="textColour:RED;"></g>Ny<g ref="#combuml"></g>m</hi>
+				<lb n="N005"></lb>mandel ein pfunt vnd
+				<lb n="N006"></lb><g ref="#slong">s</g>tozz den wol vnd tay<g ref="#combuml"></g>l
+				<lb n="N007"></lb>in andre tail aus <abbr>de<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <w>mo<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#dbloblhyph">=</g>
+				<lb n="N008"></lb>rer</w> Ny<g ref="#combuml"></g>m zum <abbr>e<g ref="#rrot">r</g><g ref="#slong">s</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein
+				<lb n="N009"></lb>tay<g ref="#combuml"></g>l bey<g ref="#combuml"></g> <g ref="#slong">s</g>einer <abbr>aig<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> va<g ref="#rrot">r</g>ib
+				<lb n="N010"></lb>vnd <g ref="#slong">s</g>tupp das da beley<g ref="#combuml"></g>bt
+				<lb n="N011"></lb>mit <abbr>guett<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> gewue<g ref="#rrot">r</g>tz vnd
+				<lb n="N012"></lb>mit <abbr>gerib<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>emel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mach
+				<lb n="N013"></lb>auch aus dem tail das 
+				<lb n="N014"></lb>noch wey<g ref="#combuml"></g>s i<g ref="#slong">s</g>t zeltlein
+				<lb n="N015"></lb><g ref="#slong">s</g>am ve<g ref="#rrot">r</g>lornew ay<g ref="#combuml"></g>er vnd
+				<lb n="N016"></lb>mach ein tail gar gelb
+				<lb n="N017"></lb>mit <g ref="#slong">s</g>affran vnd mach
+				<lb n="N018"></lb>dar aus <g ref="#slong">s</g>chey<g ref="#combuml"></g>bligew <abbr>chug<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+			
+			<pb n="078r" xml:id="Db1_078r"></pb>
+			
+				<lb n="N001"></lb><g ref="#slong">s</g>am dy<g ref="#combuml"></g> <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <abbr>v<ex>er</ex><am><g ref="#combcomma_er"></g></am>pirg</abbr>
+				<lb n="N002"></lb>es vnd dy<g ref="#combuml"></g> Zeltlein dy<g ref="#combuml"></g> du vor
+				<lb n="N003"></lb>ha<g ref="#slong">s</g>t gemacht Nwn ny<g ref="#combuml"></g>m
+				<lb n="N004"></lb>her den trittail vnd mach
+				<lb n="N005"></lb>das aus ein guette milich
+				<lb n="N006"></lb>vnd Zucker vnd mach sy<g ref="#combuml"></g>
+				<lb n="N007"></lb>mit ein wenig melbs
+				<lb n="N008"></lb>vnd thue ein <g ref="#slong">s</g>affran dar
+				<lb n="N009"></lb>an <g ref="#slong">s</g>a<g ref="#combuml"></g>m es verlarnew
+				<lb n="N010"></lb>ay<g ref="#combuml"></g>er <g ref="#slong">s</g>ein vnd r<g ref="#inodot">i</g>cht es an</seg>
+<seg>				<lb n="N011"></lb><hi rend="textColour:RED;" style="heading">Al<g ref="#slong">s</g>o mach he<g ref="#rrot">r</g>tew ayer von
+				<lb n="N012"></lb>mandelmilich</hi>
+				<lb n="N013"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw he<g ref="#rrot">r</g>ttew aier <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N014"></lb>von mandelmilich <g ref="#slong">s</g>o mach</hi>
+				<lb n="N015"></lb>dy<g ref="#combuml"></g>e <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als ich dich vor
+				<lb n="N016"></lb>gelernt han von dem <w>wey<g ref="#slong">s</g><g ref="#dbloblhyph">=</g>
+				<lb n="N017"></lb><g ref="#slong">s</g>en</w> <g ref="#fracsol"></g> auf ein v<g ref="#inodot">i</g>e<g ref="#rrot">r</g>tail oder
+				<lb n="N018"></lb>auf ein <abbr><g ref="#jnodotstrok">1/2</g></abbr> <abbr><ex>libra</ex><am><g ref="#lbbar"></g></am></abbr> als vil dw <g ref="#fracsol"></g>
+			
+			<pb n="078v" xml:id="Db1_078v"></pb>
+			
+				<lb n="N001"></lb>wild haben vnd vber <g ref="#slong">s</g>ewdt
+				<lb n="N002"></lb>dy<g ref="#combuml"></g> vnd ny<g ref="#combuml"></g>m dan den her
+				<lb n="N003"></lb>aus vnd <g ref="#slong">s</g>toz <g ref="#slong">s</g>y<g ref="#combuml"></g> in einem
+				<lb n="N004"></lb>mo<g ref="#rrot">r</g><g ref="#slong">s</g>rer vnd zeuch <g ref="#slong">s</g>y<g ref="#combuml"></g> dan 
+				<lb n="N005"></lb>du<g ref="#rrot">r</g>ch ein tuech als dickt
+				<lb n="N006"></lb>dw mu<g ref="#combuml"></g>g<g ref="#slong">s</g>t dar in <g ref="#slong">s</g>y<g ref="#combuml"></g> ge
+				<lb n="N007"></lb><g ref="#slong">s</g>otten <g ref="#slong">s</g>ein vnd mach <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N008"></lb>dan mit <abbr>guett<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>wue<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N009"></lb>vnd mit <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd mit
+				<lb n="N010"></lb><abbr><g ref="#slong">s</g>emel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das <g ref="#slong">s</g>y<g ref="#combuml"></g> we<g ref="#rrot">r</g>den ?<note>Unklares Zeichen, evtl. etc.-Kürzung.</note>
+				<lb n="N011"></lb>als dick <g ref="#fracsol"></g> als dy<g ref="#combuml"></g> vo<g ref="#rrot">r</g>genant
+				<lb n="N012"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g>en</seg> <seg><hi rend="textColour:RED;" style="heading">w<g ref="#inodot">i</g>e dw peratten
+				<lb n="N013"></lb><g ref="#slong">s</g>olt ein rech haupp</hi>
+				<lb n="N014"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein <g ref="#verbar" rend="textColour:RED;"></g>Rech
+				<lb n="N015"></lb>haubt der <g ref="#slong">s</g>ol es Zu dem</hi>
+				<lb n="N016"></lb><abbr>e<g ref="#rrot">r</g><g ref="#slong">s</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>engen vnd <g ref="#slong">s</g>y<g ref="#combuml"></g>den
+				<lb n="N017"></lb>vntzt das es zerfelt vnd
+				<lb n="N018"></lb><g ref="#slong">s</g>ol dy pain davon <abbr>thue<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+			
+			<pb n="079r" xml:id="Db1_079r"></pb>
+			
+				<lb n="N001"></lb>vnd <g ref="#slong">s</g>ol dy<g ref="#combuml"></g> zway<g ref="#combuml"></g> fullen
+				<lb n="N002"></lb>mit dem <abbr>hier<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <abbr>man<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N003"></lb><g ref="#slong">s</g>ol das <abbr>hier<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit <abbr>hertt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N004"></lb><abbr>chor<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> hacken vnd mit
+				<lb n="N005"></lb><abbr>weinper<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd mit <w><abbr>wur<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N006"></lb><abbr>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></w> <g ref="#slong">s</g>o dw aller pe<g ref="#slong">s</g>t mug<g ref="#slong">s</g>t
+				<lb n="N007"></lb>vnd <g ref="#slong">s</g>olt zu dem payn
+				<lb n="N008"></lb><abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vier <abbr>pletter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N009"></lb>von <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>olt ein
+				<lb n="N010"></lb>guet geha<g ref="#combuml"></g>ckt machen
+				<lb n="N011"></lb>von fley<g ref="#combuml"></g><g ref="#slong">s</g>ch vnd <g ref="#slong">s</g>lach
+				<lb n="N012"></lb>das in dy<g ref="#combuml"></g> <abbr>plett<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vmb dy<g ref="#combuml"></g>
+				<lb n="N013"></lb>pain das dy<g ref="#combuml"></g> pain da
+				<lb n="N014"></lb>mit gefult <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></seg> <seg><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>e
+				<lb n="N015"></lb>dw machen <g ref="#slong">s</g>olt ein <abbr>pa<g ref="#combuml"></g><g ref="#slong">s</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N016"></lb>von <abbr>v<g ref="#inodot">i</g><g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N017"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil ein <abbr>pa<g ref="#slong">s</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N018"></lb>von <abbr>v<g ref="#inodot">i</g><g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> der <g ref="#slong">s</g>ol <abbr>ne<ex>m</ex><am><g ref="#bar_m"></g></am>me<ex>n</ex><am><g ref="#bar_n"></g></am></abbr></hi>
+			
+			<pb n="079v" xml:id="Db1_079v"></pb>
+			
+				<lb n="N001"></lb>eins haufen vnd wa<g ref="#slong">s</g><g ref="#slong">s</g>er vnd
+				<lb n="N002"></lb>thue das vndereinander in
+				<lb n="N003"></lb>das pa<g ref="#slong">s</g>tel vnd mach ein
+				<lb n="N004"></lb>pru<g ref="#combuml"></g>e von <abbr>we<g ref="#inodot">i</g>nper<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N005"></lb>von gewue<g ref="#rrot">r</g>tz vnd <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>oppf<ex>e</ex><am><g ref="#bar_e"></g></am>ln</abbr>
+				<lb n="N006"></lb>vnd der es cho<g ref="#slong">s</g>tleich <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N007"></lb>wil der nem ein gehackt
+				<lb n="N008"></lb>von <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vi<g ref="#slong">s</g>chen vnd
+				<lb n="N009"></lb>thue das in das pa<g ref="#slong">s</g>tell
+				<lb n="N010"></lb><g ref="#slong">s</g>o es aus dem offen chumpt
+				<lb n="N011"></lb>da mit i<g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg><seg> <hi rend="textColour:RED;" style="heading">wie
+				<lb n="N012"></lb><abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> ein <abbr>gefult<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> v<g ref="#inodot">i</g><g ref="#slong">s</g>ch <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <listTranspose><transpose><ptr target="#_079v13"></ptr></transpose></listTranspose></hi>
+				<lb n="N013"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer <abbr>eine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>gefult<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vi<g ref="#slong">s</g>ch</hi> <seg type="transpose" xml:id="_079v13"><hi rend="textColour:RED;" style="heading"><g ref="#slong">s</g>oll</hi></seg>
+				<lb n="N014"></lb><hi rend="underlined; textColour:RED;">machen wel der nem ein</hi>
+				<lb n="N015"></lb>vi<g ref="#slong">s</g>ch dem er dy<g ref="#combuml"></g> hautt
+				<lb n="N016"></lb><abbr>abgez<g ref="#inodot">i</g>ech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mug ein <abbr>twerch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N017"></lb>vinger von dem Zagel
+				<lb n="N018"></lb>das <g ref="#slong">s</g>y<g ref="#combuml"></g> nit gar herab ko<g ref="#combuml"></g>m
+			
+			<pb n="080r" xml:id="Db1_080r"></pb>
+			
+				<lb n="N001"></lb>vnd <g ref="#slong">s</g>ol <abbr>neme<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> das gepra<g ref="#combuml"></g>t
+				<lb n="N002"></lb>von dem gratt gar <g ref="#slong">s</g>chon
+				<lb n="N003"></lb>vnd la<g ref="#slong">s</g>s es ein guettew
+				<lb n="N004"></lb><g ref="#slong">s</g>udt thuen vnd hack es
+				<lb n="N005"></lb>mit der <abbr>leber<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd be
+				<lb n="N006"></lb>ray<g ref="#combuml"></g>tt es mit <abbr>wue<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N007"></lb>mit <abbr>ymber<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit <abbr>weinper<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>vnd ny<g ref="#combuml"></g>m des geprat ye
+				<lb n="N009"></lb>ein wenig vnd <g ref="#slong">s</g>lach es
+				<lb n="N010"></lb>wol vmb den grat vnd
+				<lb n="N011"></lb>Zeuch dy<g ref="#combuml"></g> haut dar vber
+				<lb n="N012"></lb>vnd das  dy<g ref="#combuml"></g> haut vnd <abbr>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N013"></lb>gratt gar gefult we<g ref="#rrot">r</g>dt
+				<lb n="N014"></lb>vnd mach klaine <del>Zeb?ck</del> <w>zelt<g ref="#dbloblhyph">=</g><note xml:lang="de">Revision: Mit roter Farbe gestrichen und &apos;zelt&apos; zwecks Eindeutigkeit rot umrandet.</note><note xml:lang="en">Revision: deletion with red ink, &apos;zelt&apos; for the purposse of clearness encircled with red ink.</note>
+				<lb n="N015"></lb>lein</w> vnd leg in da mit
+				<lb n="N016"></lb>auf ein ro<g ref="#slong">s</g>t vnd la<g ref="#slong">s</g>s
+				<lb n="N017"></lb>yn gar wol <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o i<g ref="#slong">s</g>t
+				<lb n="N018"></lb>er beray<g ref="#combuml"></g>tt <hi rend="textColour:RED;"><g ref="#tridotright"></g></hi></seg>
+<seg>			
+			<pb n="080v" xml:id="Db1_080v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">Wie man ein Ge<g ref="#slong">s</g>tuchtz
+				<lb n="N002"></lb>von chas machen <g ref="#slong">s</g>oll</hi>
+				<lb n="N003"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein ge<g ref="#slong">s</g>tucktz von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N004"></lb>cha<g ref="#esup">e</g>s <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil der nem</hi>
+				<lb n="N005"></lb>ein ma<g ref="#rrot">r</g>bencha<g ref="#slong">s</g>s vnd <abbr><g ref="#slong">s</g>em<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N006"></lb>vnd zerey<g ref="#combuml"></g>b es vnder <w>ein<g ref="#dbloblhyph">=</g>
+				<lb n="N007"></lb>ander</w> vnd ny<g ref="#combuml"></g>m des cha<g ref="#esup">e</g>s
+				<lb n="N008"></lb>mer den des melbs vnd 
+				<lb n="N009"></lb>leg es auf ein pret vnd
+				<lb n="N010"></lb>weleg es mit <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das 
+				<lb n="N011"></lb>es nit Ze<g ref="#slong">s</g>tarck we<g ref="#rrot">r</g>dt vnd
+				<lb n="N012"></lb>mach dar aus Zoll dy<g ref="#combuml"></g>e nit
+				<lb n="N013"></lb>Zegro<g ref="#slong">s</g>s <g ref="#slong">s</g>ein vnd <g ref="#slong">s</g>ney<g ref="#combuml"></g>d dye
+				<lb n="N014"></lb>klain vnd ny<g ref="#combuml"></g>m ein mo<g ref="#rrot">r</g><g ref="#slong">s</g>rer
+				<lb n="N015"></lb>vnd thue darein ein <g ref="#slong">s</g>maltz
+				<lb n="N016"></lb>vnd <g ref="#slong">s</g>etz es Zu dem fewer
+				<lb n="N017"></lb>vnd la<g ref="#slong">s</g>s es hay<g ref="#combuml"></g><g ref="#slong">s</g>s <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N018"></lb>vnd leg dan dy<g ref="#combuml"></g> <abbr>wulger<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N019"></lb>darein<note xml:lang="de">Kustode am unteren Blattrand: &apos;darein&apos;, Lesart unsicher.</note><note xml:lang="en">Catchword on the lowert margin: &apos;darein&apos;, reading unclear.</note>
+			
+			<pb n="081r" xml:id="Db1_081r"></pb>
+			
+				<lb n="N001"></lb>vnd nem ayer als vil er
+				<lb n="N002"></lb>wel vnd zucker vnd <abbr>wein<ex>per</ex><am><g ref="#pbardes_per"></g></am></abbr>
+				<lb n="N003"></lb>vnd wurtz vnd mach es
+				<lb n="N004"></lb>da mit vnd z<g ref="#inodot">i</g>ech es dan
+				<lb n="N005"></lb>nicht mer vmb dan Zwir
+				<lb n="N006"></lb>in dem mo<g ref="#rrot">r</g><g ref="#slong">s</g>rer von dem
+				<lb n="N007"></lb>fewer ein wenig das es
+				<lb n="N008"></lb>doch mit Zechalt we<g ref="#rrot">r</g>dt
+				<lb n="N009"></lb><g ref="#slong">s</g>o i<g ref="#slong">s</g>t es guett</seg> <seg><hi rend="textColour:RED;" style="heading">Ein <w>ge<g ref="#slong">s</g>pick<g ref="#dbloblhyph">=</g>
+				<lb n="N010"></lb>ten</w> praten von vi<g ref="#slong">s</g>chen</hi>
+				<lb n="N011"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein ge<g ref="#slong">s</g>p<g ref="#inodot">i</g>ckten <abbr>prat<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N012"></lb>von v<g ref="#inodot">i</g><g ref="#slong">s</g>chen <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil
+				<lb n="N013"></lb><g ref="#verbar" rend="textColour:RED;"></g>Der nem ein vi<g ref="#slong">s</g>ch vnd <g ref="#slong">s</g>chuep <g ref="#fracsol"></g>
+				<lb n="N014"></lb>den vnd <g ref="#slong">s</g>neyd das gepra<g ref="#combuml"></g>t
+				<lb n="N015"></lb>he<g ref="#rrot">r</g> ab als may<g ref="#combuml"></g><g ref="#slong">s</g>t er mu<g ref="#esup">e</g>g
+				<lb n="N016"></lb>al<g ref="#slong">s</g>o roch vnd <g ref="#slong">s</g>ewd dann
+				<lb n="N017"></lb>grat da das <abbr>and<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> an hangt
+				<lb n="N018"></lb>vnd laz das gepra<g ref="#esup">e</g>t gar
+				<lb n="N019"></lb>da von vnd nym dan dy<g ref="#combuml"></g>
+			
+			<pb n="081v" xml:id="Db1_081v"></pb>
+			
+				<lb n="N001"></lb>Zway<g ref="#combuml"></g> gepra<g ref="#combuml"></g>t vnd hack dy<g ref="#combuml"></g>
+				<lb n="N002"></lb>durcheinander <g ref="#verbar" rend="textColour:RED;"></g>Ny<g ref="#combuml"></g>m <g ref="#slong">s</g>tupp
+				<lb n="N003"></lb>vnd <g ref="#slong">s</g>affran vnd ein wenig
+				<lb n="N004"></lb>geriben <abbr><g ref="#slong">s</g>emel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd zway<g ref="#combuml"></g>
+				<lb n="N005"></lb>ayer zu <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr><g ref="#slong">s</g>chue<g ref="#slong">s</g><g ref="#slong">s</g>el<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N006"></lb><abbr><del><g ref="#slong">s</g>te<ex>r</ex><am><g ref="#combcomma_r"></g></am>ck</del></abbr> <g ref="#slong">s</g>terck <g ref="#slong">s</g>y<g ref="#combuml"></g> vnd das ge
+				<lb n="N007"></lb>pra<g ref="#combuml"></g>t vnd mach dar aus
+				<lb n="N008"></lb>ein <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als er dir ge
+				<lb n="N009"></lb>vall la<g ref="#slong">s</g>s dan <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> auf
+				<lb n="N010"></lb>ein <abbr>pre<g ref="#combuml"></g>t<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> wallen in einer
+				<lb n="N011"></lb><abbr><g ref="#slong">s</g>yedunt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> prue vnd dar Zu
+				<lb n="N012"></lb>ein pfann dy<g ref="#combuml"></g>e darzu ge
+				<lb n="N013"></lb>recht <g ref="#slong">s</g>y<g ref="#combuml"></g> <g ref="#verbar" rend="textColour:RED;"></g>Wan er dan gar
+				<lb n="N014"></lb>wol <abbr>ge<g ref="#slong">s</g>ott<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#slong">s</g>o <g ref="#slong">s</g>toz yn
+				<lb n="N015"></lb>dan an ein klains <g ref="#slong">s</g>py<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>el
+				<lb n="N016"></lb>vnd vber tzeuch y<g ref="#combuml"></g>n mit
+				<lb n="N017"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> totter der rott <g ref="#slong">s</g>ey <g ref="#fracsol"></g> vnd
+			
+			<pb n="082r" xml:id="Db1_082r"></pb>
+			
+				<lb n="N001"></lb>thue es gegen dem feuer
+				<lb n="N002"></lb>vnd ny<g ref="#combuml"></g>m ein wey<g ref="#slong">s</g>s von
+				<lb n="N003"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> ay<g ref="#combuml"></g> das du he<g ref="#rrot">r</g>t <g ref="#slong">s</g>ey<g ref="#combuml"></g>
+				<lb n="N004"></lb>ge<g ref="#slong">s</g>otten vnd <g ref="#slong">s</g>ney<g ref="#combuml"></g>d es <g ref="#fracsol"></g>
+				<lb n="N005"></lb>klain als ein <g ref="#slong">s</g>peck vnd
+				<lb n="N006"></lb><g ref="#slong">s</g>p<g ref="#inodot">i</g>ck den <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o hat
+				<lb n="N007"></lb>er <g ref="#slong">s</g>ein genueg</seg> <seg><hi rend="textColour:RED;" style="heading">Al<g ref="#slong">s</g>o mach
+				<lb n="N008"></lb>ein pratten von <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N009"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wildw <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N010"></lb>von <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m ay<g ref="#combuml"></g>er
+				<lb n="N011"></lb>vnd <g ref="#slong">s</g>lach dy<g ref="#combuml"></g> roche du<g ref="#rrot">r</g>ch
+				<lb n="N012"></lb>einander vnd nym <abbr>darvnd<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N013"></lb>guet gewue<g ref="#rrot">r</g>tz vnd <w>peter<g ref="#dbloblhyph">=</g>
+				<lb n="N014"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>l</w> vnd <g ref="#slong">s</g>affran vnd ein
+				<lb n="N015"></lb><g ref="#slong">s</g>ackelein das da <g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#inodot">i</g>n gra<g ref="#esup">e</g><g ref="#slong">s</g>s
+				<lb n="N016"></lb>als ein <abbr>che<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>chafft vnd
+				<lb n="N017"></lb>nym dan her dye ay<g ref="#combuml"></g>er
+				<lb n="N018"></lb>vnd gews das in das <abbr><g ref="#slong">s</g>acklein<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+			
+			<pb n="082v" xml:id="Db1_082v"></pb>
+			
+				<lb n="N001"></lb>vnd das <g ref="#slong">s</g>ey<g ref="#combuml"></g> in der hoch als
+				<lb n="N002"></lb>ein <g ref="#slong">s</g>pann vnd hach das
+				<lb n="N003"></lb>in <g ref="#slong">s</g>yeduntz wa<g ref="#slong">s</g><g ref="#slong">s</g>er vnd las
+				<lb n="N004"></lb>es <abbr><g ref="#slong">s</g>yed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntz dich <g ref="#slong">s</g>ein <w>be<g ref="#dbloblhyph">=</g>
+				<lb n="N005"></lb>mu<g ref="#combuml"></g>eg</w> vnd das es he<g ref="#rrot">r</g>t <abbr>w<ex>er</ex><am><g ref="#combcomma_er"></g></am>d</abbr>
+				<lb n="N006"></lb><g ref="#slong">s</g>o ny<g ref="#combuml"></g>m es dan her ab vnd
+				<lb n="N007"></lb>trenn das <g ref="#slong">s</g>ackel auf vnd
+				<lb n="N008"></lb><g ref="#slong">s</g>tozz das ain <abbr>eine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>klaine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N009"></lb><g ref="#slong">s</g>piz das es nicht zepre<g ref="#slong">s</g>t
+				<lb n="N010"></lb>vnd <g ref="#slong">s</g>pick es dan mit dem
+				<lb n="N011"></lb>wey<g ref="#slong">s</g><g ref="#slong">s</g>en eins ay<g ref="#combuml"></g>s als ein
+				<lb n="N012"></lb><abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></seg> <seg><hi rend="textColour:RED;" style="heading">von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N013"></lb>holer mue<g ref="#slong">s</g>s zu machen</hi>
+				<lb n="N014"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer machen wil holermu<g ref="#combuml"></g>es</hi>
+				<lb n="N015"></lb>der nem das holer plue
+				<lb n="N016"></lb>vnd pall es aus einer <w>mi<g ref="#dbloblhyph">=</g>
+				<lb n="N017"></lb>lich</w> vnd choch aus der 
+				<lb n="N018"></lb><g ref="#slong">s</g>elbing mil<g ref="#inodot">i</g>ch ein mu<g ref="#combuml"></g>e<g ref="#slong">s</g>lein
+			
+			<pb n="083r" xml:id="Db1_083r"></pb>
+			
+				<lb n="N001"></lb>von mell oder von <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb>wie er wil da mit <g ref="#inodot">i</g><g ref="#slong">s</g>t es
+				<lb n="N003"></lb><abbr>peray<g ref="#combuml"></g>tt</abbr></seg> <seg><hi rend="textColour:RED;" style="heading">Wie man macht
+				<lb n="N004"></lb>ein wilprat von <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N005"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer w<g ref="#inodot">i</g>lprat <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N006"></lb>machen wil <g ref="#verbar" rend="textColour:RED;"></g>Der nem iiij
+				<lb n="N007"></lb>a<g ref="#inodot">i</g>er zu <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>herr<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N008"></lb>vnd milich dar <abbr>vnd<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> der
+				<lb n="N009"></lb>nit ze vil <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd mach
+				<lb n="N010"></lb>da mit ein taigk als vil
+				<lb n="N011"></lb>d<g ref="#inodot">i</g>e doch <abbr>genetz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mugen
+				<lb n="N012"></lb>doch inder tick als ein
+				<lb n="N013"></lb><abbr>chuech<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> tay<g ref="#combuml"></g>g vnd <g ref="#slong">s</g>tupp
+				<lb n="N014"></lb>in wol vnd mach ynn
+				<lb n="N015"></lb>gelb vnd ny<g ref="#combuml"></g>m ein <g ref="#slong">s</g>acklein
+				<lb n="N016"></lb>vnd gews den tayg dar
+				<lb n="N017"></lb>ein vnd hab in yn ein <w><g ref="#slong">s</g>y<g ref="#combuml"></g>e<g ref="#dbloblhyph">=</g>
+				<lb n="N018"></lb>duntz</w> wa<g ref="#slong">s</g><g ref="#slong">s</g>er das es <abbr>mind<ex>e</ex><am><g ref="#bar_e"></g></am>rt</abbr>
+			
+			<pb n="083v" xml:id="Db1_083v"></pb>
+			
+				<lb n="N001"></lb>an <g ref="#verbar" rend="textColour:RED;"></g>Ruer vnd <g ref="#verbar" rend="textColour:RED;"></g>Las es <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>ed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb>als lang <g ref="#fracsol"></g> p<g ref="#inodot">i</g>z das es he<g ref="#rrot">r</g>tt
+				<lb n="N003"></lb>we<g ref="#rrot">r</g>dt <g ref="#fracsol"></g> vnd dar nach ny<g ref="#combuml"></g>m
+				<lb n="N004"></lb>es vnd <g ref="#slong">s</g>ney<g ref="#combuml"></g>d es gar klain
+				<lb n="N005"></lb>als dem myn<g ref="#slong">s</g>ter vinger
+				<lb n="N006"></lb>vnd leg es dan in ein hay<g ref="#combuml"></g>s
+				<lb n="N007"></lb><g ref="#slong">s</g>maltz vnd la<g ref="#slong">s</g>s es <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>vntzt das es <g ref="#slong">s</g>ein genueg
+				<lb n="N009"></lb>gewing vnd mach es
+				<lb n="N010"></lb>dan in e<g ref="#inodot">i</g>nen <abbr><g ref="#slong">s</g>wa<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> pfef
+				<lb n="N011"></lb>fer vnd hack dan ein
+				<lb n="N012"></lb>wey<g ref="#combuml"></g><g ref="#slong">s</g>s von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> ay<g ref="#combuml"></g> dar
+				<lb n="N013"></lb>vnder fuer e<g ref="#inodot">i</g>n <g ref="#slong">s</g>pechk</seg>
+<seg>				<lb n="N014"></lb><hi rend="textColour:RED;" style="heading">Wie man das e<g ref="#slong">s</g><g ref="#slong">s</g>en ve<g ref="#rrot">r</g>
+				<lb n="N015"></lb>cherren <g ref="#slong">s</g>chol</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldu es
+				<lb n="N016"></lb>aber <abbr>ve<g ref="#rrot">r</g>cher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So g<g ref="#inodot">i</g>b es</hi>
+				<lb n="N017"></lb>al<g ref="#slong">s</g>o trucken vnd al<g ref="#slong">s</g>o <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>ns</abbr>
+				<lb n="N018"></lb>aus einer <abbr>pfanne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> w<g ref="#inodot">i</g>ldw
+			
+			<pb n="084r" xml:id="Db1_084r"></pb>
+			
+				<lb n="N001"></lb>es aber noch anders <g ref="#slong">s</g>o gib
+				<lb n="N002"></lb>es aus einem Z<g ref="#inodot">i</g><g ref="#slong">s</g>eydlein
+				<lb n="N003"></lb>w<g ref="#inodot">i</g>ldw es aber anders <g ref="#slong">s</g>o
+				<lb n="N004"></lb>g<g ref="#inodot">i</g>b es aus <abbr>e<g ref="#inodot">i</g>ne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> gelben
+				<lb n="N005"></lb>prodlein <g ref="#verbar" rend="textColour:RED;"></g>w<g ref="#inodot">i</g>ldw es aber
+				<lb n="N006"></lb>ande<g ref="#rrot">r</g>s <g ref="#slong">s</g>o g<g ref="#inodot">i</g>b vnd ny<g ref="#combuml"></g>m
+				<lb n="N007"></lb>ein milich vnd welles
+				<lb n="N008"></lb>mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> wenig honigs
+				<lb n="N009"></lb>vnd mit wue<g ref="#rrot">r</g>tz da mit</seg><seg>
+				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">Wie man ein plan<g ref="#slong">s</g>chir
+				<lb n="N011"></lb>machen <g ref="#slong">s</g>oll</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>e man
+				<lb n="N012"></lb>ein plan<g ref="#slong">s</g>chir <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil</hi>
+				<lb n="N013"></lb><g ref="#verbar" rend="textColour:RED;"></g>Der nem <g ref="#verbar" rend="textColour:RED;"></g>Choppawn vnd
+				<lb n="N014"></lb>f<g ref="#inodot">i</g>der y<g ref="#combuml"></g>n vnd <g ref="#slong">s</g>enf in gar
+				<lb n="N015"></lb><g ref="#slong">s</g>chon vnd vber <g ref="#slong">s</g>ewd in
+				<lb n="N016"></lb>vnd <g ref="#slong">s</g>altz in vnd <g ref="#slong">s</g>toz in 
+				<lb n="N017"></lb>an ein <g ref="#slong">s</g>piz vnd pratt <g ref="#fracsol"></g>
+				<lb n="N018"></lb>in gar wol vnd mach ein
+			
+			<pb n="084v" xml:id="Db1_084v"></pb>
+			
+				<lb n="N001"></lb>d<g ref="#inodot">i</g>cke milich vnd ny<g ref="#combuml"></g>m ein
+				<lb n="N002"></lb>klain hafen vnd <g ref="#slong">s</g>etz in 
+				<lb n="N003"></lb>auf ein wenig <abbr>kol<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das
+				<lb n="N004"></lb><g ref="#slong">s</g>ein weder zeuil noch ze
+				<lb n="N005"></lb>wenig we<g ref="#rrot">r</g>dt vnd ny<g ref="#combuml"></g>m
+				<lb n="N006"></lb>den chappawn vnd la<g ref="#slong">s</g>s
+				<lb n="N007"></lb>das gepra<g ref="#combuml"></g>t <g ref="#slong">s</g>chon da <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N008"></lb>das dy haut <g ref="#inodot">i</g>cht da <w>pe<g ref="#dbloblhyph">=</g>
+				<lb n="N009"></lb>ley<g ref="#combuml"></g>b</w> Zerey<g ref="#combuml"></g><g ref="#slong">s</g>s das gepra<g ref="#combuml"></g>t
+				<lb n="N010"></lb><g ref="#slong">s</g>chon da von gar klain
+				<lb n="N011"></lb>vnd nit Zelanck vnd ny<g ref="#combuml"></g>m
+				<lb n="N012"></lb>her das rey<g ref="#slong">s</g>ch mel vnd
+				<lb n="N013"></lb>thue das durch ein ander <g ref="#fracsol"></g>
+				<lb n="N014"></lb>das es nicht Ze tuck we<g ref="#rrot">r</g>dt
+				<lb n="N015"></lb>vnd wu<g ref="#rrot">r</g>tz es mit <abbr>guet<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N016"></lb>gewu<g ref="#rrot">r</g>tz vnd mit Zucker
+				<lb n="N017"></lb>vnd la<g ref="#slong">s</g>s es <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>ed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntzt
+			
+			<pb n="085r" xml:id="Db1_085r"></pb>
+			
+				<lb n="N001"></lb>das es trucken we<g ref="#rrot">r</g>d vnd 
+				<lb n="N002"></lb>das <g ref="#slong">s</g>maltz vnder geb vnd
+				<lb n="N003"></lb>das weder Zedu<g ref="#combuml"></g>n noch ze
+				<lb n="N004"></lb>dick we<g ref="#rrot">r</g>dt vnd wen es
+				<lb n="N005"></lb><g ref="#slong">s</g>ein genueg gewingt
+				<lb n="N006"></lb><g ref="#slong">s</g>o gey<g ref="#combuml"></g>tt es <g ref="#slong">s</g>maltz w<g ref="#inodot">i</g>der</seg>
+<seg>				<lb n="N007"></lb><hi rend="textColour:RED;" style="heading">Wie man ein galradt <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N008"></lb>hechten machen <g ref="#slong">s</g>chol</hi>
+				<lb n="N009"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein <g ref="#verbar" rend="textColour:RED;"></g>Galradt <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N010"></lb>w<g ref="#inodot">i</g>l von hechten <g ref="#verbar" rend="textColour:RED;"></g>Der nem
+				<lb n="N011"></lb>lautter <g ref="#slong">s</g>chon hon<g ref="#inodot">i</g>gk mit
+				<lb n="N012"></lb>wein vnd nem ein hecht
+				<lb n="N013"></lb>vnd <g ref="#slong">s</g>y<g ref="#combuml"></g>ed den gar <g ref="#slong">s</g>chon
+				<lb n="N014"></lb>vnd la<g ref="#slong">s</g>s das geprat da
+				<lb n="N015"></lb>von vnd ny<g ref="#combuml"></g>m das honig
+				<lb n="N016"></lb>vnd <g ref="#slong">s</g>etz es auff ein <abbr>chol<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N017"></lb>vnd las das <abbr><g ref="#slong">s</g>yed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd ny<g ref="#combuml"></g>m
+				<lb n="N018"></lb>des hechtz pratt pfeffer
+			
+			<pb n="085v" xml:id="Db1_085v"></pb>
+			
+				<lb n="N001"></lb>vnd zucker gar genueg vnd
+				<lb n="N002"></lb>thue das du<g ref="#rrot">r</g>cheinander <w>we<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>der</w> zedick noch zedu<g ref="#combuml"></g>nn das
+				<lb n="N004"></lb>es <g ref="#slong">s</g>ich gye<g ref="#slong">s</g><g ref="#slong">s</g>en las als ein
+				<lb n="N005"></lb>lattwa<g ref="#rrot">r</g>i auf ein <g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el
+				<lb n="N006"></lb>da mit i<g ref="#slong">s</g>t es peray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>e
+				<lb n="N007"></lb>man ein <abbr>holpratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb><g ref="#slong">s</g>ol</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw <abbr>mach<ex>n</ex><am><g ref="#bar_n"></g></am>n</abbr> ein </hi><w><abbr>hol<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N009"></lb><abbr>prat<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></w> von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> chalbfley<g ref="#slong">s</g>ch
+				<lb n="N010"></lb><g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m des gepratz aus
+				<lb n="N011"></lb>dem tiech des chalbs vnd
+				<lb n="N012"></lb>hack das gar klain vnd
+				<lb n="N013"></lb>thue auf das gepra<g ref="#combuml"></g>t ein
+				<lb n="N014"></lb><abbr>gauff<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mels das es we<g ref="#rrot">r</g>d
+				<lb n="N015"></lb>wey<g ref="#slong">s</g>s vnd ny<g ref="#combuml"></g>m ein ay<g ref="#combuml"></g>
+				<lb n="N016"></lb>oder Zway<g ref="#combuml"></g> dar vnder <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N017"></lb>hack es vnder einander
+				<lb n="N018"></lb>vnd <g ref="#slong">s</g>altz es Ny<g ref="#combuml"></g>m ein <g ref="#slong">s</g>pizz
+			
+			<pb n="086r" xml:id="Db1_086r"></pb>
+			
+				<lb n="N001"></lb>der <abbr>leng<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> dan ein <g ref="#slong">s</g>pan
+				<lb n="N002"></lb>vnd vmb <g ref="#slong">s</g>ich dick als ein
+				<lb n="N003"></lb>walgholtz vnd an <abbr>yegle<g ref="#inodot">i</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>m</abbr>
+				<lb n="N004"></lb>endt <g ref="#fracsol"></g> ein loch eines v<g ref="#inodot">i</g>nge<g ref="#rrot">r</g>s				
+<lb n="N005"></lb>tieff vnd mach dar<del>an</del><note xml:lang="de">Revision: &apos;an&apos; durch Expungierung getilgt.</note><note xml:lang="en">Revision: &apos;an&apos; deleted by expunctuation.</note> ein
+				<lb n="N006"></lb>zway<g ref="#combuml"></g> <g ref="#slong">s</g>teblein das dw es
+				<lb n="N007"></lb>gegen dem fewer <abbr>gewende<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>mug<g ref="#slong">s</g>t vnd nym dan den
+				<lb n="N009"></lb><abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd zeuch den <sic>den</sic>
+				<lb n="N010"></lb>vber den <g ref="#slong">s</g>piz als dw <w>dun<g ref="#dbloblhyph">=</g>
+				<lb n="N011"></lb>ne<g ref="#slong">s</g>t</w> mu<g ref="#combuml"></g>g<g ref="#slong">s</g>t vnd leg es <abbr>dan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N012"></lb>zu dem fewer <g ref="#fracsol"></g> vnd prat es
+				<lb n="N013"></lb>vnd be<g ref="#slong">s</g>lach es mit einem
+				<lb n="N014"></lb><abbr>hay<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>maltz vnd <g ref="#slong">s</g>o es ge
+				<lb n="N015"></lb><abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#slong">s</g>o ny<g ref="#combuml"></g>m es ab
+				<lb n="N016"></lb>dem <g ref="#slong">s</g>pi<g ref="#slong">s</g>s das es gantz
+				<lb n="N017"></lb>peleib vnd <g ref="#slong">s</g>etz y<g ref="#combuml"></g>n auff
+				<lb n="N018"></lb>hocher vnd mach ein full
+			
+			<pb n="086v" xml:id="Db1_086v"></pb>
+			
+				<lb n="N001"></lb>da<g ref="#rrot">r</g>Zue von <abbr>abge<g ref="#rrot">r</g>o<g ref="#slong">s</g>t<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>ay<g ref="#combuml"></g>e<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb>in einer pfannen als vil
+				<lb n="N003"></lb>dw ir w<g ref="#inodot">i</g>ld vnd ny<g ref="#combuml"></g>m dy<g ref="#combuml"></g>e
+				<lb n="N004"></lb>ay<g ref="#combuml"></g>er auf ein <abbr>pod<ex>e</ex><am><g ref="#bar_e"></g></am>m</abbr> vnd hack
+				<lb n="N005"></lb>dy<g ref="#combuml"></g>e klain vnd ny<g ref="#combuml"></g>m <abbr>da<ex>r</ex><am><g ref="#combcomma_r"></g></am>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N006"></lb>weinper vnd mandel vnd
+				<lb n="N007"></lb>guet ge<g ref="#slong">s</g>tupp <g ref="#fracsol"></g> vnd <g ref="#slong">s</g>affran
+				<lb n="N008"></lb>als vil <g ref="#slong">s</g>ein beda<g ref="#rrot">r</g>fft vnd
+				<lb n="N009"></lb>full den <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das er vol
+				<lb n="N010"></lb>we<g ref="#rrot">r</g>dt da mit leg in auf
+				<lb n="N011"></lb><abbr>eine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> ro<g ref="#slong">s</g>t vnd la<g ref="#slong">s</g>s in hay<g ref="#combuml"></g>s
+				<lb n="N012"></lb><abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> da mit i<g ref="#slong">s</g>t er peraitt</seg>
+<seg>				<lb n="N013"></lb><hi rend="textColour:RED;" style="heading">Wie man mau<g ref="#rrot">r</g>ochen <g ref="#slong">s</g>ol
+				<lb n="N014"></lb>machen</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer mau<g ref="#rrot">r</g>ochen
+				<lb n="N015"></lb>machen wil <g ref="#verbar" rend="textColour:RED;"></g>Der nem ein</hi>
+				<lb n="N016"></lb>chelbrein <abbr>lung<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> vnd <g ref="#slong">s</g>y<g ref="#combuml"></g>edt
+				<lb n="N017"></lb>dy<g ref="#combuml"></g> wol vnd hack <g ref="#slong">s</g>y<g ref="#combuml"></g> klain
+				<lb n="N018"></lb>vnd wie<g ref="#rrot">r</g>ff ein <abbr><g ref="#slong">s</g>taub<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> melbs
+			
+			<pb n="087r" xml:id="Db1_087r"></pb>
+			
+				<lb n="N001"></lb>dar auf vnd <g ref="#slong">s</g>lag ein ro<g ref="#combuml"></g>chs
+				<lb n="N002"></lb>ay<g ref="#combuml"></g> daran oder mer das es
+				<lb n="N003"></lb>feucht we<g ref="#rrot">r</g>dt <g ref="#fracsol"></g> vnd mach ein
+				<lb n="N004"></lb>modelholtz vnd ein holtz
+				<lb n="N005"></lb>das gro<g ref="#slong">s</g><g ref="#slong">s</g>er <g ref="#slong">s</g>ey<g ref="#combuml"></g> dan ein <abbr>ving<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N006"></lb>vnd lanck als ein <abbr>ving<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd
+				<lb n="N007"></lb><g ref="#slong">s</g>pitz es an pay<g ref="#combuml"></g>den <abbr>o<g ref="#rrot">r</g>ter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>als ein zapfen vnd <abbr>vb<ex>er</ex><am><g ref="#combcomma_er"></g></am>zeuch</abbr>
+				<lb n="N009"></lb>den model mit der lungel
+				<lb n="N010"></lb>als dw pe<g ref="#slong">s</g>t kan<g ref="#slong">s</g>t vnd das
+				<lb n="N011"></lb>es geformt <g ref="#slong">s</g>ey<g ref="#combuml"></g> als <abbr>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>mod<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N012"></lb>vnd leg <g ref="#slong">s</g>y<g ref="#combuml"></g> dan in ein hay<g ref="#combuml"></g><g ref="#slong">s</g>s
+				<lb n="N013"></lb><g ref="#slong">s</g>maltz vnd la<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> dan <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N014"></lb>vntz das <g ref="#slong">s</g>y<g ref="#combuml"></g> prawn <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb>vnd ny<g ref="#combuml"></g>m <g ref="#slong">s</g>y<g ref="#combuml"></g> dan aus der
+				<lb n="N016"></lb>pfan vnd full dy<g ref="#combuml"></g> mit <g ref="#fracsol"></g>
+				<lb n="N017"></lb><abbr>guett<ex>e</ex><am><g ref="#bar_e"></g></am>m</abbr> gwue<g ref="#rrot">r</g>tz vnd mach
+				<lb n="N018"></lb>es gelb vnd thue darein <abbr>wein<ex>per</ex><am><g ref="#pbardes_per"></g></am></abbr>
+			
+			<pb n="087v" xml:id="Db1_087v"></pb>
+			
+				<lb n="N001"></lb>nach ma<g ref="#slong">s</g>s als dw dy<g ref="#combuml"></g> <abbr>hab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb>wild vnd full es in dy<g ref="#combuml"></g> <w>mau<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>rochen</w> vntz das <g ref="#slong">s</g>y<g ref="#combuml"></g> <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N004"></lb>vol vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> dan an ein
+				<lb n="N005"></lb><g ref="#slong">s</g>pi<g ref="#slong">s</g>el vnd leg <g ref="#slong">s</g>y<g ref="#combuml"></g> zu dem
+				<lb n="N006"></lb>fewer wen dw <g ref="#slong">s</g>ew <abbr>geb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N007"></lb>w<g ref="#inodot">i</g>ld <g ref="#slong">s</g>o <g ref="#slong">s</g>eynd <g ref="#slong">s</g>y<g ref="#combuml"></g> beray<g ref="#combuml"></g>tt</seg>
+<seg>				<lb n="N008"></lb><hi rend="textColour:RED;" style="heading">Wie man ein hecht <abbr>full<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N009"></lb><g ref="#slong">s</g>ol</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw ein hecht <w>hub<g ref="#slong">s</g><g ref="#dbloblhyph">=</g>
+				<lb n="N010"></lb>le<g ref="#inodot">i</g>ch</w> <abbr>full<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So zeuch y<g ref="#combuml"></g>m</hi>
+				<lb n="N011"></lb>dy<g ref="#combuml"></g> haut ab vntz auf den			
+	<lb n="N012"></lb>zagel vnd zerey<g ref="#slong">s</g>s in nit
+				<lb n="N013"></lb>vnd <abbr>v<ex>er</ex><am><g ref="#combcomma_er"></g></am><g ref="#slong">s</g>lach</abbr> dy<g ref="#combuml"></g> haut in <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N014"></lb>na<g ref="#slong">s</g><g ref="#slong">s</g>en tuech auf den <abbr>zag<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N015"></lb>da mit lo<g ref="#combuml"></g><g ref="#slong">s</g>tu du<g ref="#slong">s</g>prat<note>unsicher</note> das 
+				<lb n="N016"></lb>prat von dem grat mit 
+				<lb n="N017"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> me<g ref="#slong">s</g><g ref="#slong">s</g>er vnd legt es fur
+			
+			<pb n="088r" xml:id="Db1_088r"></pb>
+			
+				<lb n="N001"></lb>dich auf ein panck vnd
+				<lb n="N002"></lb>hack es klain vnd nym
+				<lb n="N003"></lb>darZue ein roches ay<g ref="#combuml"></g> vnd
+				<lb n="N004"></lb>gu<g ref="#combuml"></g>tt gewurtz vnd mach
+				<lb n="N005"></lb>es gelb vnd full hin <abbr>wid<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N006"></lb>an den gratt als er vor
+				<lb n="N007"></lb>gewe<g ref="#slong">s</g>en i<g ref="#slong">s</g>t da mit zeuch
+				<lb n="N008"></lb>den palk gru<g ref="#combuml"></g>en wider
+				<lb n="N009"></lb>darvber vntz an das haupp
+				<lb n="N010"></lb>da mit leg in in ein prue
+				<lb n="N011"></lb>dy<g ref="#combuml"></g> wol gewue<g ref="#rrot">r</g>tzt <g ref="#slong">s</g>ey<g ref="#combuml"></g> mit
+				<lb n="N012"></lb>wein vnd mit e<g ref="#slong">s</g><g ref="#slong">s</g>eck vnd
+				<lb n="N013"></lb>la<g ref="#slong">s</g>s es <g ref="#slong">s</g>yeden vntz an <g ref="#slong">s</g>ein
+				<lb n="N014"></lb>benu<g ref="#combuml"></g>eg</seg><seg> <hi rend="textColour:RED;" style="heading">Wildw in <abbr>v<ex>er</ex><am><g ref="#combcomma_er"></g></am>ker<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb><g ref="#slong">s</g>o ve<g ref="#rrot">r</g>cher inn al<g ref="#slong">s</g>o</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldu
+				<lb n="N016"></lb><g ref="#verbar" rend="textColour:RED;"></g>In <abbr>ve<g ref="#rrot">r</g>cher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>Ich may<g ref="#combuml"></g>n den</hi>
+				<lb n="N017"></lb>hecht <g ref="#verbar" rend="textColour:RED;"></g>So thue y<g ref="#combuml"></g>m mit <abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N018"></lb>palg als ich d<g ref="#inodot">i</g>ch vor <w>ge<g ref="#dbloblhyph">=</g>
+			
+			<pb n="088v" xml:id="Db1_088v"></pb>
+			
+				<lb n="N001"></lb>lernt</w> han <g ref="#verbar" rend="textColour:RED;"></g>Wa<g ref="#rrot">r</g>t das der
+				<lb n="N002"></lb>palg <abbr>verpund<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> in <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N003"></lb>na<g ref="#slong">s</g><g ref="#slong">s</g>en tuech und leg dy<g ref="#combuml"></g>
+				<lb n="N004"></lb>v<g ref="#inodot">i</g><g ref="#slong">s</g>ch in ein prue vnd la<g ref="#slong">s</g>s
+				<lb n="N005"></lb>yn <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd huet des <w>Za<g ref="#dbloblhyph">=</g>
+				<lb n="N006"></lb>gels</w> das in dy<g ref="#combuml"></g> hitz icht ?<note>Falscher Ansatz.</note>
+				<lb n="N007"></lb>pren Ny<g ref="#combuml"></g>m yn her aus
+				<lb n="N008"></lb>vnd prich <g ref="#slong">s</g>ein nicht vnd
+				<lb n="N009"></lb>leg in auf ein ro<g ref="#slong">s</g>t vnd
+				<lb n="N010"></lb>pren in nicht Be<g ref="#slong">s</g>lach
+				<lb n="N011"></lb>in mit <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> die wol
+				<lb n="N012"></lb>gewuertzt <g ref="#slong">s</g>ein vberall das
+				<lb n="N013"></lb>haubt la<g ref="#slong">s</g>s <g ref="#slong">s</g>ten da mit
+				<lb n="N014"></lb>Zeuch In dem palk w<g ref="#inodot">i</g>der
+				<lb n="N015"></lb>dar vber <g ref="#fracsol"></g> al<g ref="#slong">s</g>o gruen vntz
+				<lb n="N016"></lb>an das haubt <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">Wer ein
+				<lb n="N017"></lb>hecht pachen <g ref="#slong">s</g>y<g ref="#combuml"></g>eden vnd
+				<lb n="N018"></lb>pratten wil</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein hecht</hi>
+			
+			<pb n="089r" xml:id="Db1_089r"></pb>
+			
+				<lb n="N001"></lb>anders <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil <g ref="#slong">s</g>o pach
+				<lb n="N002"></lb>in vmb das haubt vnd <g ref="#slong">s</g>eud
+				<lb n="N003"></lb>in an der mitt vnd vmb
+				<lb n="N004"></lb><g ref="#slong">s</g>lach in an der mitt mit
+				<lb n="N005"></lb>einen <abbr>na<g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> tuech vnd
+				<lb n="N006"></lb>ny<g ref="#combuml"></g>m ein wenig weins
+				<lb n="N007"></lb>den <g ref="#slong">s</g>ewd in einer pfan
+				<lb n="N008"></lb>vnd gew<g ref="#slong">s</g>s in auf das
+				<lb n="N009"></lb>tuech da dw den vi<g ref="#slong">s</g>ch
+				<lb n="N010"></lb><g ref="#slong">s</g>yden wild das trey<g ref="#combuml"></g>b <g ref="#fracsol"></g>
+				<lb n="N011"></lb>vntz das es <g ref="#slong">s</g>ein genueg
+				<lb n="N012"></lb>gewing vnd leg in dan
+				<lb n="N013"></lb>twe<g ref="#rrot">r</g>igs auf zwen Ziegel
+				<lb n="N014"></lb><g ref="#slong">s</g>tain als vor vnd er hoch
+				<lb n="N015"></lb>be<g ref="#slong">s</g>tra<g ref="#esup">e</g> den Zagel mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N016"></lb>melb als ein <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vi<g ref="#slong">s</g>ch
+				<lb n="N017"></lb>vnd ny<g ref="#combuml"></g>m ein hay<g ref="#combuml"></g><g ref="#slong">s</g>s <g ref="#slong">s</g>maltz
+				<lb n="N018"></lb>in <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> pfann da mit be<g ref="#slong">s</g>lach
+			
+			<pb n="089v" xml:id="Db1_089v"></pb>
+			
+				<lb n="N001"></lb>den vi<g ref="#slong">s</g>ch vntz das er <g ref="#slong">s</g>ich
+				<lb n="N002"></lb>prat vnd richt <g ref="#fracsol"></g> in ann</seg>
+<seg>				<lb n="N003"></lb><hi rend="textColour:RED;" style="heading">Wie man ein ge<g ref="#slong">s</g>trichtz
+				<lb n="N004"></lb>pachen macht</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wildw
+				<lb n="N005"></lb>machen ge<g ref="#slong">s</g>tr<g ref="#inodot">i</g>chtz pachen</hi>
+				<lb n="N006"></lb>von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> taig <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N007"></lb><g ref="#slong">s</g>o mach in he<g ref="#rrot">r</g>tt als zu
+				<lb n="N008"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>haydn<g ref="#inodot">i</g><g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> pachen
+				<lb n="N009"></lb>vnd mach auch pletter
+				<lb n="N010"></lb>als hay<g ref="#combuml"></g>ni<g ref="#slong">s</g>che <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd
+				<lb n="N011"></lb><g ref="#slong">s</g>ney<g ref="#combuml"></g>d ein <abbr><g ref="#slong">s</g>nitt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> die <g ref="#slong">s</g>meler
+				<lb n="N012"></lb><g ref="#slong">s</g>ey<g ref="#combuml"></g> den ein vinger vnd
+				<lb n="N013"></lb>ver<g ref="#slong">s</g>ney<g ref="#combuml"></g>dt an <abbr>chaine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> o<g ref="#rrot">r</g>dt 
+				<lb n="N014"></lb>dy<g ref="#combuml"></g> <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> nicht vnd la<g ref="#slong">s</g>s dy<g ref="#combuml"></g> 
+				<lb n="N015"></lb>gantz vnd ny<g ref="#combuml"></g>m ein <g ref="#slong">s</g>maltz
+				<lb n="N016"></lb>in ein mo<g ref="#slong">s</g>rer vnd <g ref="#slong">s</g>etz es
+				<lb n="N017"></lb>dan das es hay<g ref="#combuml"></g><g ref="#slong">s</g>s <abbr>od<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> wellig
+				<lb n="N018"></lb>we<g ref="#rrot">r</g>dt vnd ny<g ref="#combuml"></g>m ein choch
+				<lb n="N019"></lb>loffel oder ein holtzel das
+			
+			<pb n="090r" xml:id="Db1_090r"></pb>
+			
+				<lb n="N001"></lb>das da <g ref="#slong">s</g>ey<g ref="#combuml"></g> als gro<g ref="#slong">s</g>s da mit
+				<lb n="N002"></lb>raich an dy<g ref="#combuml"></g> <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> dem
+				<lb n="N003"></lb>plat das dw <abbr>ge<g ref="#slong">s</g>nitt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ha<g ref="#slong">s</g>t
+				<lb n="N004"></lb>vnd leg ye ains hin vnd
+				<lb n="N005"></lb>vber leg das ander vnd wirff
+				<lb n="N006"></lb>es ab dem holtz in dy<g ref="#combuml"></g> <w>pfan<g ref="#dbloblhyph">=</g>
+				<lb n="N007"></lb>nen</w> vnd la<g ref="#slong">s</g>s es pachen
+				<lb n="N008"></lb>vntz das es <g ref="#slong">s</g>ein genueg
+				<lb n="N009"></lb>gewing <g ref="#verbar" rend="textColour:RED;"></g>Sey<g ref="#combuml"></g> ym <g ref="#slong">s</g>ein not
+				<lb n="N010"></lb><g ref="#slong">s</g>o cher es vmb in dem
+				<lb n="N011"></lb>mo<g ref="#rrot">r</g><g ref="#slong">s</g>rer vnd mach dan 
+				<lb n="N012"></lb>ein guettew <g ref="#slong">s</g>uppen darZue<note xml:lang="de">Revision: Einfügung am rechten Blattrand mit Einweisungszeichen.</note><note xml:lang="en">Revision: addition wit metamarks on right margin</note> <add><abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> honig <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr> gewurtz vnd</add>
+				<lb n="N013"></lb>ny<g ref="#combuml"></g>m ein wenig wein
+				<lb n="N014"></lb>vnd ein wenig e<g ref="#slong">s</g><g ref="#slong">s</g>eich
+				<lb n="N015"></lb>das es durch das honigk
+				<lb n="N016"></lb>p<g ref="#inodot">i</g>zel vnd <g ref="#slong">s</g>tra<g ref="#esup">e</g> dar ein
+				<lb n="N017"></lb>wenig <abbr>wein<ex>per</ex><am><g ref="#pbardes_per"></g></am></abbr> vnd gews
+				<lb n="N018"></lb>dy<g ref="#combuml"></g> <g ref="#slong">s</g>uppen auf das pachen
+			
+			<pb n="090v" xml:id="Db1_090v"></pb>
+			
+				<lb n="N001"></lb>Wenn dw es welle<g ref="#slong">s</g>t <g ref="#fracsol"></g> an rich
+				<lb n="N002"></lb>ten <g ref="#fracsol"></g> da mit i<g ref="#slong">s</g>t es beray<g ref="#combuml"></g>t</seg>
+<seg>				<lb n="N003"></lb><hi rend="textColour:RED;" style="heading">Wie man pa<g ref="#rrot">r</g>i<g ref="#slong">s</g>oppfel
+				<lb n="N004"></lb>machen <g ref="#slong">s</g>oll</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw
+				<lb n="N005"></lb>machen par<g ref="#inodot">i</g><g ref="#slong">s</g>opfel <g ref="#slong">s</g>o haw</hi>
+				<lb n="N006"></lb>das prat als zu dem hol
+				<lb n="N007"></lb><abbr>prat<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>tozz in einem
+				<lb n="N008"></lb>mo<g ref="#rrot">r</g><g ref="#slong">s</g>rer vntz das dich Zimpt
+				<lb n="N009"></lb>das dich <g ref="#slong">s</g>ein benuegt <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N010"></lb>ny<g ref="#combuml"></g>m darzu <g ref="#fracsol"></g> ein <g ref="#slong">s</g>tembel
+				<lb n="N011"></lb>melbs vntter Zway<g ref="#combuml"></g> ay<g ref="#combuml"></g>er
+				<lb n="N012"></lb>darnach vnd dw <g ref="#slong">s</g>ein beda<g ref="#rrot">r</g>fft
+				<lb n="N013"></lb>vnd ny<g ref="#combuml"></g>m da<g ref="#rrot">r</g>zu <g ref="#slong">s</g>affran <g ref="#fracsol"></g>
+				<lb n="N014"></lb>vnd guet ge<g ref="#slong">s</g>tu<g ref="#esup">e</g>pp die dw
+				<lb n="N015"></lb><abbr>gehab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> macht vnd <g ref="#slong">s</g>toz es
+				<lb n="N016"></lb>vntter das geprat vnd
+				<lb n="N017"></lb>mach dar aus chugel als
+				<lb n="N018"></lb>dy<g ref="#combuml"></g>e o<g ref="#esup">e</g>ppfel Ny<g ref="#combuml"></g>m <g ref="#slong">s</g>y<g ref="#combuml"></g> dan <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N019"></lb>leg <g ref="#slong">s</g>y<g ref="#combuml"></g> in ein guette prue
+			
+			<pb n="091r" xml:id="Db1_091r"></pb>
+			
+				<lb n="N001"></lb>vnd wen <g ref="#slong">s</g>y<g ref="#combuml"></g> wol ge<g ref="#slong">s</g>y<g ref="#combuml"></g>eden
+				<lb n="N002"></lb><g ref="#slong">s</g>o <g ref="#slong">s</g>to<g ref="#combuml"></g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> an ein <g ref="#slong">s</g>p<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>el vnd
+				<lb n="N003"></lb>leg es Zu dem fewer vnd
+				<lb n="N004"></lb>bezeuch den appfel <abbr>halb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N005"></lb>mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> totter <g ref="#fracsol"></g> als vil
+				<lb n="N006"></lb>dw w<g ref="#inodot">i</g>ld vnd ein wenig
+				<lb n="N007"></lb>auf dy<g ref="#combuml"></g> <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>ey<g ref="#combuml"></g>tt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> dy<g ref="#combuml"></g>e
+				<lb n="N008"></lb><abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit dem gruen <g ref="#slong">s</g>aft
+				<lb n="N009"></lb>aus peter<g ref="#slong">s</g>il vnd <g ref="#slong">s</g>toz in ein
+				<lb n="N010"></lb>mo<g ref="#slong">s</g>re<g ref="#combuml"></g>r vnd leg in dan <w>dar<g ref="#dbloblhyph">=</g>
+				<lb n="N011"></lb>nach</w> auf ein tuech vnd twing
+				<lb n="N012"></lb>in du<g ref="#rrot">r</g>ch vnd ny<g ref="#combuml"></g>m den <abbr><g ref="#slong">s</g>elb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N013"></lb>vnd gews in vntter den
+				<lb n="N014"></lb><abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> darnach be<g ref="#slong">s</g>lach die
+				<lb n="N015"></lb>an der <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>ey<g ref="#combuml"></g>tt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit
+				<lb n="N016"></lb>dem gruen <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o i<g ref="#slong">s</g>t
+				<lb n="N017"></lb>beray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;">von einem <abbr>ge<g ref="#slong">s</g>ta<ex>m</ex><am><g ref="#bar_m"></g></am>pf</abbr>
+				<lb n="N018"></lb>ten pachen</hi> <hi rend="underlined; textColour:RED;" style="heading"><g ref="#verbar" rend="textColour:RED;"></g>w<g ref="#inodot">i</g>ldw ein
+			
+			<pb n="091v" xml:id="Db1_091v"></pb>
+			
+				<lb n="N001"></lb>ge<g ref="#slong">s</g>tampftz pachen machen
+				<lb n="N002"></lb><g ref="#slong">s</g>o ny<g ref="#combuml"></g>m ein chelbrein <abbr>lung<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr></hi>
+				<lb n="N003"></lb>da von mach ein chuechel
+				<lb n="N004"></lb>von acht ay<g ref="#combuml"></g>ern in <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <w>pfan<g ref="#dbloblhyph">=</g>
+				<lb n="N005"></lb>nen</w> <g ref="#slong">s</g>o ny<g ref="#combuml"></g>m her dy <w>mau<g ref="#dbloblhyph">=</g>
+				<lb n="N006"></lb>rochen</w> als dw <g ref="#slong">s</g>y<g ref="#combuml"></g> vor be
+				<lb n="N007"></lb>ray<g ref="#combuml"></g>tt ha<g ref="#slong">s</g>t mit allen <abbr><g ref="#slong">s</g>ach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>darnach <g ref="#slong">s</g>etz <g ref="#slong">s</g>y<g ref="#combuml"></g> in den chuechz
+				<lb n="N009"></lb>als vil dw ir <del>d</del> beda<g ref="#rrot">r</g>f<g ref="#slong">s</g>t
+				<lb n="N010"></lb>vnd das der chuech wol
+				<lb n="N011"></lb>gewue<g ref="#rrot">r</g>tzt <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd la<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N012"></lb>darin <abbr>verpach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd be
+				<lb n="N013"></lb><g ref="#slong">s</g>lach <g ref="#slong">s</g>y<g ref="#combuml"></g> dan mit <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N014"></lb>vnd wa<g ref="#rrot">r</g>tt das es <abbr>bezog<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb><g ref="#slong">s</g>ey<g ref="#combuml"></g> gegen dem fewer wen
+				<lb n="N016"></lb>dw es an <abbr>richt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> welle<g ref="#slong">s</g>t
+				<lb n="N017"></lb><g ref="#slong">s</g>o bewar es das es an <abbr>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N018"></lb>pfannen icht haft vnd <g ref="#slong">s</g>tu<g ref="#rrot">r</g>tz
+				<lb n="N019"></lb>es vmb auf ein <g ref="#slong">s</g>chue<g ref="#slong">s</g><g ref="#slong">s</g>el
+			
+			<pb n="092r" xml:id="Db1_092r"></pb>
+			
+				<lb n="N001"></lb>das <g ref="#slong">s</g>y<g ref="#combuml"></g> dy<g ref="#combuml"></g> <g ref="#slong">s</g>pitz auf <abbr>cher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb>da mit i<g ref="#slong">s</g>t es peray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;" style="heading">von
+				<lb n="N003"></lb>einer gefulten leber <g ref="#dblsol"></g></hi>
+				<lb n="N004"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw machen ein gefulte
+				<lb n="N005"></lb>leber von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> chalb <g ref="#fracsol"></g> <g ref="#verbar" rend="textColour:RED;"></g>So</hi>
+				<lb n="N006"></lb>ny<g ref="#combuml"></g>m ein leber vnd hack
+				<lb n="N007"></lb>die klain vnd wue<g ref="#rrot">r</g>tz die
+				<lb n="N008"></lb>wol vnd ny<g ref="#combuml"></g>m dan ein
+				<lb n="N009"></lb>leber dar aus vnd <g ref="#slong">s</g>lach
+				<lb n="N010"></lb>ein netz dar vmb <g ref="#fracsol"></g> vnd
+				<lb n="N011"></lb>ve<g ref="#rrot">r</g><g ref="#slong">s</g>pey<g ref="#combuml"></g>l das wol mit <g ref="#fracsol"></g>
+				<lb n="N012"></lb>klain <abbr><g ref="#slong">s</g>pey<g ref="#combuml"></g>l<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd leg <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N013"></lb>dan auf ein ro<g ref="#slong">s</g>t vnd la<g ref="#slong">s</g>s
+				<lb n="N014"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntz das dich
+				<lb n="N015"></lb><g ref="#slong">s</g>ein genueg vnd ny<g ref="#combuml"></g>m dy<g ref="#combuml"></g>
+				<lb n="N016"></lb>dan her vnd be<g ref="#slong">s</g>lach die
+				<lb n="N017"></lb>halb mit <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> die rott
+				<lb n="N018"></lb><g ref="#slong">s</g>ein auf dem Ro<g ref="#slong">s</g>t <abbr>da<ex>r</ex><am><g ref="#combcomma_r"></g></am>nach</abbr>
+			
+			<pb n="092v" xml:id="Db1_092v"></pb>
+			
+				<lb n="N001"></lb>mit gruen <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <abbr>pet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N002"></lb><g ref="#slong">s</g>il <g ref="#slong">s</g>aft <g ref="#fracsol"></g> Ob dw <g ref="#slong">s</g>ein nit
+				<lb n="N003"></lb>chan<g ref="#slong">s</g>t <g ref="#slong">s</g>o mach in als ich
+				<lb n="N004"></lb>dich vor gele<g ref="#rrot">r</g>tt han Thue
+				<lb n="N005"></lb>den <g ref="#slong">s</g>aft an den <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N006"></lb>da mit be<g ref="#slong">s</g>lach yn vnd
+				<lb n="N007"></lb>la<g ref="#slong">s</g>s es <abbr>erhay<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> da mit
+				<lb n="N008"></lb>i<g ref="#slong">s</g>t <g ref="#slong">s</g>ein genueg <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">Ein <abbr>Reind<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N009"></lb>von <abbr>chreu<g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mach al<g ref="#slong">s</g>o</hi>
+				<lb n="N010"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wildw ein reindel von
+				<lb n="N011"></lb><abbr>chreu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o <g ref="#slong">s</g>chel</hi>
+				<lb n="N012"></lb>dy<g ref="#combuml"></g>e <abbr>chreu<g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> al<g ref="#slong">s</g>o roch
+				<lb n="N013"></lb>dar nach vnd ir machen <g ref="#fracsol"></g>
+				<lb n="N014"></lb>wild vnd ny<g ref="#combuml"></g>m das gepra<g ref="#combuml"></g>t
+				<lb n="N015"></lb>fuer dich vnd hack das
+				<lb n="N016"></lb>klain vnd ny<g ref="#combuml"></g>m dar <abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N017"></lb>rochew ay<g ref="#combuml"></g>er als vil dich
+				<lb n="N018"></lb>guet duckt vnd <g ref="#slong">s</g>eych dar
+				<lb n="N019"></lb>zue das es icht zefeucht <g ref="#fracsol"></g><note xml:lang="de">Kustode am unteren Blattrand &apos;werdt&apos;.</note><note xml:lang="en">Catchword on the lower margin: &apos;werdt&apos;.</note>
+			
+			<pb n="093r" xml:id="Db1_093r"></pb>
+			
+				<lb n="N001"></lb>we<g ref="#rrot">r</g>dt das dw es zu einem
+				<lb n="N002"></lb><g ref="#slong">s</g>ybeln <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mach<g ref="#slong">s</g>t <g ref="#fracsol"></g> <g ref="#verbar" rend="textColour:RED;"></g>vnd
+				<lb n="N003"></lb>das er gewue<g ref="#rrot">r</g>tzt <g ref="#slong">s</g>ey<g ref="#combuml"></g> mit
+				<lb n="N004"></lb><g ref="#slong">s</g>tupp <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>affran da mit
+				<lb n="N005"></lb>legt es in ein prue <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> wein
+				<lb n="N006"></lb>vnd <del>mach</del> auch <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> e<g ref="#slong">s</g><g ref="#slong">s</g>eig
+				<lb n="N007"></lb>vnd la<g ref="#slong">s</g>s es <abbr><g ref="#slong">s</g>yed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntz an
+				<lb n="N008"></lb><g ref="#slong">s</g>ein genu<g ref="#combuml"></g>eg da mit <g ref="#slong">s</g>to<g ref="#slong">s</g>s
+				<lb n="N009"></lb>es an ein klains <g ref="#slong">s</g>pi<g ref="#slong">s</g><g ref="#slong">s</g>el vnd
+				<lb n="N010"></lb>leg es zu <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> fewer <g ref="#fracsol"></g> <g ref="#verbar" rend="textColour:RED;"></g>vnd
+				<lb n="N011"></lb>be<g ref="#slong">s</g>lach in auf das v<g ref="#inodot">i</g>e<g ref="#rrot">r</g>tail
+				<lb n="N012"></lb>mit wey<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>en <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N013"></lb>thue es nach der twirg
+				<lb n="N014"></lb>des <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>vnd das <abbr>and<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N015"></lb>tayl be<g ref="#slong">s</g>lach mit <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N016"></lb>vnd das trit mit <abbr>gruen<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N017"></lb><abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> pete<g ref="#rrot">r</g><g ref="#slong">s</g><g ref="#inodot">i</g>l <g ref="#verbar" rend="textColour:RED;"></g>vnd das
+				<lb n="N018"></lb>vierdt mit gelben <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></seg>
+<seg>			
+			<pb n="093v" xml:id="Db1_093v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">Von <abbr>Eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>may<g ref="#combuml"></g><g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> chuech</hi>
+				<lb n="N002"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer machen wil ein may<g ref="#combuml"></g><g ref="#slong">s</g></hi>
+				<lb n="N003"></lb><g ref="#slong">s</g>en <abbr>chuech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> Zu einer <abbr>h<ex>er</ex><am><g ref="#combcomma_er"></g></am>r<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N004"></lb><g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m auf . x .
+				<lb n="N005"></lb>ay<g ref="#combuml"></g>er vnd Ze<g ref="#slong">s</g>lach dy<g ref="#combuml"></g>e wol
+				<lb n="N006"></lb>vnd ny<g ref="#combuml"></g>m da<g ref="#rrot">r</g>zue <abbr>pet<ex>er</ex><am><g ref="#combcomma_er"></g></am><g ref="#slong">s</g>il</abbr>
+				<lb n="N007"></lb>als vil dich genueg <abbr>du<ex>n</ex><am><g ref="#bar_n"></g></am>ckt</abbr>
+				<lb n="N008"></lb>vnd <g ref="#slong">s</g>lach das alles vnder
+				<lb n="N009"></lb>einander <g ref="#fracsol"></g> vnd ny<g ref="#combuml"></g>m klain
+				<lb n="N010"></lb><abbr>wue<g ref="#rrot">r</g>tz<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd peray<g ref="#combuml"></g>tt dich
+				<lb n="N011"></lb>eines mo<g ref="#rrot">r</g><g ref="#slong">s</g>rer <g ref="#fracsol"></g> <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>etz
+				<lb n="N012"></lb>den auf <abbr>kol<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd thue
+				<lb n="N013"></lb>darein ein loffel vol <g ref="#slong">s</g>maltz
+				<lb n="N014"></lb>vnd la<g ref="#slong">s</g>s es hay<g ref="#combuml"></g>s <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb>vnd gews darein dye ay<g ref="#combuml"></g>er
+				<lb n="N016"></lb>vnd la<g ref="#slong">s</g>s es chul <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntz
+				<lb n="N017"></lb>das d<g ref="#inodot">i</g>ch <g ref="#slong">s</g>ein genu<g ref="#combuml"></g>eg <abbr>du<ex>n</ex><am><g ref="#bar_n"></g></am>ck</abbr>
+				<lb n="N018"></lb><g ref="#verbar" rend="textColour:RED;"></g>vnd r<g ref="#inodot">i</g>cht das al<g ref="#slong">s</g>o <abbr>ga<ex>n</ex><am><g ref="#bar_n"></g></am>tz</abbr> auf
+			
+			<pb n="094r" xml:id="Db1_094r"></pb>
+			
+				<lb n="N001"></lb>ein <g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el</seg> <seg><hi rend="textColour:RED;" style="heading">wie man
+				<lb n="N002"></lb>ein <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> macht von
+				<lb n="N003"></lb><abbr>chrew<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldu ein <abbr>prat<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N004"></lb>von <abbr>chreu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So
+				<lb n="N005"></lb><g ref="#slong">s</g>chel dy<g ref="#combuml"></g> <abbr>chreu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> al<g ref="#slong">s</g>o roch
+				<lb n="N006"></lb>dar nach vnd ir <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wild
+				<lb n="N007"></lb>vnd ny<g ref="#combuml"></g>m das geprat fur
+				<lb n="N008"></lb>dich vnd hack das klain <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N009"></lb>ny<g ref="#combuml"></g>m dar <abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> roche ay<g ref="#combuml"></g>er
+				<lb n="N010"></lb>als vil d<g ref="#inodot">i</g>ch genueg dunckt
+				<lb n="N011"></lb>vnd <g ref="#slong">s</g><g ref="#inodot">i</g>ech dar zu das es nit
+				<lb n="N012"></lb>zefeucht we<g ref="#rrot">r</g>dt <g ref="#fracsol"></g> das dw es
+				<lb n="N013"></lb>zu <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>nbell<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> pratten
+				<lb n="N014"></lb>mach<g ref="#slong">s</g>t vnd das er <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N015"></lb>wue<g ref="#rrot">r</g>tzt</w> <g ref="#slong">s</g>ey<g ref="#combuml"></g> mit <g ref="#slong">s</g>tup vnd
+				<lb n="N016"></lb><g ref="#slong">s</g>affran darnach leg es
+				<lb n="N017"></lb>in ein prue von wein <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N018"></lb>von e<g ref="#slong">s</g><g ref="#slong">s</g>ig vnd la<g ref="#slong">s</g>s es <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>ed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+			
+			<pb n="094v" xml:id="Db1_094v"></pb>
+			
+				<lb n="N001"></lb>vntz an <g ref="#slong">s</g>ein <abbr>genueg<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> da
+				<lb n="N002"></lb>mit <g ref="#slong">s</g>to<g ref="#slong">s</g>s in an e<g ref="#inodot">i</g>nen <g ref="#slong">s</g>pi<g ref="#slong">s</g>s
+				<lb n="N003"></lb>vnd leg in zu <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> feuer
+				<lb n="N004"></lb>vnd be<g ref="#slong">s</g>lach in auf das
+				<lb n="N005"></lb>vie<g ref="#rrot">r</g>tail mit <abbr>wey<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N006"></lb>vnd thue es nach der <g ref="#dblsol"></g>
+				<lb n="N007"></lb>twirg des prattens vnd
+				<lb n="N008"></lb>das ander tay<g ref="#combuml"></g>l be<g ref="#slong">s</g>lach
+				<lb n="N009"></lb>mit <abbr>totter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd das trit
+				<lb n="N010"></lb>mit gruen <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> von
+				<lb n="N011"></lb>peter<g ref="#slong">s</g>il <g ref="#fracsol"></g> vnd das vie<g ref="#rrot">r</g>dt
+				<lb n="N012"></lb>tay<g ref="#combuml"></g>l mit <abbr>gelb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></seg>
+<seg>				<lb n="N013"></lb><hi rend="textColour:RED;" style="heading">von einem ge<g ref="#slong">s</g>pott</hi>
+				<lb n="N014"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw machen ein e<g ref="#slong">s</g><g ref="#slong">s</g>en</hi>
+				<lb n="N015"></lb>in dem mayen das da
+				<lb n="N016"></lb>hay<g ref="#slong">s</g>t das ge<g ref="#slong">s</g>pott <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m
+				<lb n="N017"></lb>ein <abbr>flye<g ref="#slong">s</g><g ref="#slong">s</g>und<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> cha<g ref="#combuml"></g><g ref="#slong">s</g>s auf
+				<lb n="N018"></lb>ein hof <g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el ge<g ref="#slong">s</g>nitten
+			
+			<pb n="095r" xml:id="Db1_095r"></pb>
+			
+				<lb n="N001"></lb>wol nach ma<g ref="#slong">s</g>s vnd ny<g ref="#combuml"></g>m
+				<lb n="N002"></lb>da<g ref="#rrot">r</g>zue . vj . ayer vnd <g ref="#slong">s</g>lach
+				<lb n="N003"></lb>dy<g ref="#combuml"></g>e in den cha<g ref="#combuml"></g><g ref="#slong">s</g>s vnd ny<g ref="#combuml"></g>m
+				<lb n="N004"></lb>auch <abbr>may<g ref="#combuml"></g><g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>putter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> in 
+				<lb n="N005"></lb>ein pfan als vil dich be
+				<lb n="N006"></lb>nueg vnd thue dan cha<g ref="#combuml"></g>s
+				<lb n="N007"></lb>mit den <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> in das <g ref="#slong">s</g>maltz
+				<lb n="N008"></lb>vnd hab es vber das fewr
+				<lb n="N009"></lb>vnd zeuch das ay<g ref="#combuml"></g> in <abbr>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> mitt
+				<lb n="N010"></lb>mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> loffel vntz das
+				<lb n="N011"></lb>es we<g ref="#rrot">r</g>dt <g ref="#slong">s</g>lecht <g ref="#fracsol"></g> da mit
+				<lb n="N012"></lb>i<g ref="#slong">s</g>t es peray<g ref="#combuml"></g>tt <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N013"></lb>Ge<g ref="#slong">s</g>te<g ref="#rrot">r</g>tz pachen</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw
+				<lb n="N014"></lb><abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein ge<g ref="#slong">s</g>te<g ref="#rrot">r</g>tz <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N015"></lb><g ref="#verbar" rend="textColour:RED;"></g>So mach ein tayg mit
+				<lb n="N016"></lb>eyteln ay<g ref="#combuml"></g>er als zu <w>kuech<g ref="#dbloblhyph">=</g>
+				<lb n="N017"></lb>lein</w> von melb vnd wu<g ref="#rrot">r</g>tz
+				<lb n="N018"></lb>yn wol vnd mach yn gelb
+			
+			<pb n="095v" xml:id="Db1_095v"></pb>
+			
+				<lb n="N001"></lb>vnd peraytt d<g ref="#inodot">i</g>ch gantzer 
+				<lb n="N002"></lb><abbr>halb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wie vil dw der
+				<lb n="N003"></lb>w<g ref="#inodot">i</g>ld <abbr>hab<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <g ref="#slong">s</g>tra<g ref="#combuml"></g> dy<g ref="#combuml"></g>e
+				<lb n="N004"></lb>halm in den taych das
+				<lb n="N005"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> na<g ref="#slong">s</g>s <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> da mit
+				<lb n="N006"></lb>leg <g ref="#slong">s</g>y<g ref="#combuml"></g> zoll wey<g ref="#slong">s</g>s in ein
+				<lb n="N007"></lb>pfann vnd la<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>vntz <g ref="#slong">s</g>y<g ref="#combuml"></g> prawn we<g ref="#rrot">r</g>den
+				<lb n="N009"></lb>So ny<g ref="#combuml"></g>m <g ref="#slong">s</g>y<g ref="#combuml"></g> dan heraus
+				<lb n="N010"></lb>da mit zeuch dy<g ref="#combuml"></g> halm			
+	<lb n="N011"></lb>aus <g ref="#slong">s</g>o i<g ref="#slong">s</g>t es peray<g ref="#combuml"></g>tt</seg><seg> <hi rend="textColour:RED;" style="heading"><abbr>Vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N012"></lb>Ay<g ref="#combuml"></g>ern chuechen</hi> <hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer
+				<lb n="N013"></lb>wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> guet <abbr>kuche<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N014"></lb>von ayern an <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>h<ex>er</ex><am><g ref="#combcomma_er"></g></am>r<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb><g ref="#slong">s</g>chue<g ref="#slong">s</g><g ref="#slong">s</g>el <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m ayer
+				<lb n="N016"></lb>vnd ze<g ref="#slong">s</g>lach dy<g ref="#combuml"></g>e woll vnd
+				<lb n="N017"></lb><g ref="#slong">s</g>neyd darZu der <abbr><g ref="#slong">s</g>emel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+			
+			<pb n="096r" xml:id="Db1_096r"></pb>
+			
+				<lb n="N001"></lb>ein wenig klain <w>gewu<g ref="#rrot">r</g>f<g ref="#dbloblhyph">=</g>
+				<lb n="N002"></lb>felt</w> vnd das dye <g ref="#slong">s</g>ey<g ref="#combuml"></g>
+				<lb n="N003"></lb>du<g ref="#combuml"></g>nn auf ein <g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g>el
+				<lb n="N004"></lb><g ref="#slong">s</g>nitten als vil d<g ref="#inodot">i</g>ch <g ref="#slong">s</g>ein
+				<lb n="N005"></lb>benu<g ref="#combuml"></g>egt als dw ein <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am></abbr>n
+				<lb n="N006"></lb><abbr>chuech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mach<g ref="#slong">s</g>t <g ref="#fracsol"></g> vnd gews
+				<lb n="N007"></lb>yn dar ein vnd las yn
+				<lb n="N008"></lb>pachen vntz das er <g ref="#slong">s</g>ein
+				<lb n="N009"></lb>genueg hab ynnen vnd
+				<lb n="N010"></lb>au<g ref="#slong">s</g><g ref="#slong">s</g>en da mit <g ref="#slong">s</g>lach yn
+				<lb n="N011"></lb>auff ein panckch vnd
+				<lb n="N012"></lb>haw dar <abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> guet ge
+				<lb n="N013"></lb>wue<g ref="#rrot">r</g>tz vnd <g ref="#slong">s</g>ney<g ref="#combuml"></g>d Inn
+				<lb n="N014"></lb>Zu <abbr><g ref="#slong">s</g>cheyb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd richt y<g ref="#combuml"></g>n an</seg>
+<seg>				<lb n="N015"></lb><hi rend="textColour:RED;" style="heading">Von gefulten <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N016"></lb><g ref="#verbar" rend="textColour:RED;"></g>Wer <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil gefulte
+				<lb n="N017"></lb>ay<g ref="#combuml"></g>er der <g ref="#slong">s</g>lach <g ref="#slong">s</g>y ander
+				<lb n="N018"></lb><g ref="#slong">s</g>pitz auf vnd thu<g ref="#combuml"></g>e ein
+			
+			<pb n="096v" xml:id="Db1_096v"></pb>
+			
+				<lb n="N001"></lb>wenig <g ref="#slong">s</g>maltz daran in ein
+				<lb n="N002"></lb>pfannen vnd gews es dare<g ref="#inodot">i</g>n
+				<lb n="N003"></lb>vnd la<g ref="#slong">s</g>s es pachen vntzt
+				<lb n="N004"></lb>das es <g ref="#slong">s</g>ein genueg hab
+				<lb n="N005"></lb>Innen vnd <del>hai</del> <abbr>au<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> da
+				<lb n="N006"></lb>mit <g ref="#slong">s</g>lach in auf ein <abbr>pa<ex>n</ex><am><g ref="#bar_n"></g></am>ck</abbr>
+				<lb n="N007"></lb>vnd hack darvnder guet
+				<lb n="N008"></lb>gewue<g ref="#rrot">r</g>tz vnd <g ref="#slong">s</g>neyd in Zu
+				<lb n="N009"></lb><abbr><g ref="#slong">s</g>chey<g ref="#combuml"></g>b<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd richt in an</seg>
+<seg>				<lb n="N010"></lb><hi rend="textColour:RED;" style="heading">Ande<g ref="#rrot">r</g>s gefultew ay<g ref="#combuml"></g>er</hi>
+				<lb n="N011"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ande<g ref="#rrot">r</g>s wil machen</hi>
+				<lb n="N012"></lb>gefultew ay<g ref="#combuml"></g>er der nem
+				<lb n="N013"></lb>acht ay<g ref="#combuml"></g>er vnd <g ref="#slong">s</g>lach <g ref="#slong">s</g>y<g ref="#combuml"></g> an
+				<lb n="N014"></lb>der <g ref="#slong">s</g>p<g ref="#inodot">i</g>tz auf vnd thue ein
+				<lb n="N015"></lb>wenig <g ref="#slong">s</g>maltz in ein pfan
+				<lb n="N016"></lb>vnd gews dy<g ref="#combuml"></g> dar ein vnd
+				<lb n="N017"></lb>Zeuch in ander mitt mit
+				<lb n="N018"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> loffel das <g ref="#slong">s</g>y<g ref="#combuml"></g> ein wenig
+			
+			<pb n="097r" xml:id="Db1_097r"></pb>
+			
+				<lb n="N001"></lb>feucht <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd thue <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N002"></lb>dan ab dem fewer vnd
+				<lb n="N003"></lb>hack <g ref="#slong">s</g>y<g ref="#combuml"></g> klain auf <abbr>e<g ref="#inodot">i</g>n<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> panck
+				<lb n="N004"></lb>vnd dar <abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> guet gewue<g ref="#rrot">r</g>tz
+				<lb n="N005"></lb>vnd peter<g ref="#slong">s</g>il vnd full das
+				<lb n="N006"></lb>w<g ref="#inodot">i</g>der in dy<g ref="#combuml"></g> <g ref="#slong">s</g>chall vnd leg
+				<lb n="N007"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> dan in ein <abbr>pfanne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> vnd 
+				<lb n="N008"></lb>la<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>ed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntz das dich
+				<lb n="N009"></lb><g ref="#slong">s</g>ein benu<g ref="#esup">e</g>egt <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N010"></lb>dan her w<g ref="#inodot">i</g>der aus vnd
+				<lb n="N011"></lb><g ref="#slong">s</g>chel <g ref="#slong">s</g>y<g ref="#combuml"></g> <g ref="#slong">s</g>chon vnd <g ref="#slong">s</g>to<g ref="#slong">s</g>s
+				<lb n="N012"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> dan an ein klains <abbr><g ref="#slong">s</g>pi<g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N013"></lb>vnd mach darZue ein gruen
+				<lb n="N014"></lb><g ref="#slong">s</g>aft von <abbr>pet<ex>er</ex><am><g ref="#combcomma_er"></g></am><g ref="#slong">s</g>il</abbr> vnd meng
+				<lb n="N015"></lb>dy <abbr>ttotte<ex>r</ex><am><g ref="#combcomma_r"></g></am>n</abbr> als vil dich <g ref="#slong">s</g>ein
+				<lb n="N016"></lb>benu<g ref="#combuml"></g>eg Zwen oder drey<g ref="#combuml"></g>
+				<lb n="N017"></lb>das dy<g ref="#combuml"></g> <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>grue<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+			
+			<pb n="097v" xml:id="Db1_097v"></pb>
+			
+				<lb n="N001"></lb>vnd das dy <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als vil
+				<lb n="N002"></lb>der gruen <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> rott vnd
+				<lb n="N003"></lb>leg dan dy<g ref="#combuml"></g> ay<g ref="#combuml"></g>er Zu dem
+				<lb n="N004"></lb>fewer <g ref="#fracsol"></g> bey<g ref="#combuml"></g> der <g ref="#slong">s</g>pitz vnd 
+				<lb n="N005"></lb>la<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> hay<g ref="#combuml"></g><g ref="#slong">s</g>s vnd
+				<lb n="N006"></lb>be<g ref="#slong">s</g>lach dan dy<g ref="#combuml"></g> ay<g ref="#combuml"></g>er ains
+				<lb n="N007"></lb>gruen das ander rott da
+				<lb n="N008"></lb>mit <g ref="#slong">s</g>ein <g ref="#slong">s</g>y<g ref="#combuml"></g> beray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;" style="heading">Aber
+				<lb n="N009"></lb>ein e<g ref="#slong">s</g><g ref="#slong">s</g>en von <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N010"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw machen ein hub<g ref="#slong">s</g>ch
+				<lb n="N011"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g>en von <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So mach</hi>
+				<lb n="N012"></lb>drew <abbr>plett<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> ains gruen
+				<lb n="N013"></lb>das ander rott das dritt
+				<lb n="N014"></lb>wey<g ref="#combuml"></g><g ref="#slong">s</g>s vnd nym dan als
+				<lb n="N015"></lb>dw pe<g ref="#slong">s</g>t mug<g ref="#slong">s</g>t ein <w>chlain<g ref="#dbloblhyph">=</g>
+				<lb n="N016"></lb>chait</w> das <abbr>ge<g ref="#slong">s</g>ott<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd
+				<lb n="N017"></lb>wol gewu<g ref="#combuml"></g>e<g ref="#rrot">r</g>tzt vnd ge
+				<lb n="N018"></lb>macht mit <abbr>weinper<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+			
+			<pb n="098r" xml:id="Db1_098r"></pb>
+			
+				<lb n="N001"></lb>ny<g ref="#combuml"></g>m es dan <abbr>her<ex>r</ex><am><g ref="#combcomma_r"></g></am></abbr> vnd prait
+				<lb n="N002"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> dan als dick <g ref="#slong">s</g>y<g ref="#combuml"></g> <g ref="#slong">s</g>ein da
+				<lb n="N003"></lb>mit wint <g ref="#slong">s</g>y<g ref="#combuml"></g> vber <abbr>einand<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N004"></lb>als ein <abbr>gewuntt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N005"></lb>yegleichs plat be<g ref="#slong">s</g>under <g ref="#fracsol"></g>
+				<lb n="N006"></lb>vnd mach dar aus ein taig
+				<lb n="N007"></lb>darZue da<g ref="#rrot">r</g>Zue da dw <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N008"></lb><g ref="#verbar" rend="textColour:RED;"></g>Inn beziech<g ref="#slong">s</g>t vnd pach es
+				<lb n="N009"></lb>mit <g ref="#slong">s</g>maltz</seg> <seg><hi rend="textColour:RED;" style="heading">w<g ref="#inodot">i</g>e <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> macht
+				<lb n="N010"></lb>ein e<g ref="#slong">s</g><g ref="#slong">s</g>en von <abbr>Regel<g ref="#slong">s</g>p<g ref="#inodot">i</g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N011"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer wil machen ein hub<g ref="#slong">s</g>ch
+				<lb n="N012"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g>en von <abbr><g ref="#verbar" rend="textColour:RED;"></g>Regel<g ref="#slong">s</g>p<g ref="#inodot">i</g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So</hi>
+				<lb n="N013"></lb>be<g ref="#slong">s</g>ney<g ref="#combuml"></g>dt <g ref="#slong">s</g>y<g ref="#combuml"></g> als dw aller
+				<lb n="N014"></lb>dunne<g ref="#slong">s</g>t mu<g ref="#combuml"></g>g<g ref="#slong">s</g>t vnd <g ref="#slong">s</g>ney<g ref="#combuml"></g>d
+				<lb n="N015"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> nach der leng enzway<g ref="#combuml"></g>
+				<lb n="N016"></lb>vnd ny<g ref="#combuml"></g>m <g ref="#slong">s</g>y<g ref="#combuml"></g> dan aus als
+				<lb n="N017"></lb>dw pe<g ref="#slong">s</g>t mug<g ref="#slong">s</g>t das sy<g ref="#combuml"></g>
+				<lb n="N018"></lb>hoch <abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd ein full
+			
+			<pb n="098v" xml:id="Db1_098v"></pb>
+			
+				<lb n="N001"></lb>grunn von weinper vnd
+				<lb n="N002"></lb>von <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd gewue<g ref="#rrot">r</g>tz
+				<lb n="N003"></lb>das dy<g ref="#combuml"></g>e ay<g ref="#combuml"></g>er ge<g ref="#slong">s</g>waybt
+				<lb n="N004"></lb><g ref="#slong">s</g>e<g ref="#inodot">i</g>n in der <abbr>pfanne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> da pach
+				<lb n="N005"></lb>aus ein tay<g ref="#combuml"></g>glein als das
+				<lb n="N006"></lb>vorgenant e<g ref="#slong">s</g><g ref="#slong">s</g>en vnd richt
+				<lb n="N007"></lb>es an</seg> <seg><hi rend="textColour:RED;" style="heading">Wie man macht
+				<lb n="N008"></lb>ein e<g ref="#slong">s</g><g ref="#slong">s</g>en <del>macht</del> <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>kuech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N009"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> hub<g ref="#slong">s</g>chew</hi>
+				<lb n="N010"></lb>chuechlein dy<g ref="#combuml"></g>e da <abbr>hay<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N011"></lb>milich kuechlein dy<g ref="#combuml"></g> <g ref="#slong">s</g>neyd
+				<lb n="N012"></lb>klain vnd bie<g ref="#rrot">r</g>ff <g ref="#slong">s</g>y<g ref="#combuml"></g> in ein
+				<lb n="N013"></lb><abbr><g ref="#slong">s</g>traub<ex>e</ex><am><g ref="#bar_e"></g></am>ntaig</abbr> der nit Ze
+				<lb n="N014"></lb>du<g ref="#combuml"></g>nn <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd wue<g ref="#rrot">r</g>tz es
+				<lb n="N015"></lb>mit <g ref="#slong">s</g>affran vnd mit <g ref="#slong">s</g>tupp
+				<lb n="N016"></lb>vnd las es <abbr>beleyb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wie
+				<lb n="N017"></lb>dw wild oder pach es
+				<lb n="N018"></lb><g ref="#slong">s</g>un<g ref="#slong">s</g>t vnd richt es an <g ref="#fracsol"></g>
+			
+			<pb n="099r" xml:id="Db1_099r"></pb>
+			
+				<lb n="N001"></lb>da mit i<g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;" style="heading"><abbr>Vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N002"></lb>ge<g ref="#slong">s</g>trichen kuechen <g ref="#tridotright"></g></hi>
+				<lb n="N003"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>wer wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>ge<g ref="#slong">s</g>tr<g ref="#inodot">i</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N004"></lb><abbr>kuech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> von <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m
+				<lb n="N005"></lb>drey<g ref="#combuml"></g>erlay<g ref="#combuml"></g> <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> gruen wey<g ref="#combuml"></g><g ref="#slong">s</g>s
+				<lb n="N006"></lb>vnd rott vnd das dy<g ref="#combuml"></g> wol
+				<lb n="N007"></lb>gewue<g ref="#rrot">r</g>tzt <g ref="#slong">s</g>ein vnd beklan
+				<lb n="N008"></lb>dy<g ref="#combuml"></g> <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> wol ydes plat
+				<lb n="N009"></lb>mit <abbr><g ref="#slong">s</g>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> ge<g ref="#slong">s</g>talt mit
+				<lb n="N010"></lb><abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd leg <g ref="#slong">s</g>y<g ref="#combuml"></g> dan
+				<lb n="N011"></lb>ze <g ref="#slong">s</g>amen vbereinander
+				<lb n="N012"></lb>wol <abbr>ge<g ref="#slong">s</g>trich<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N013"></lb>in ein pfan mit <g ref="#slong">s</g>maltz
+				<lb n="N014"></lb><abbr>gepach<ex>e</ex><am><g ref="#bar_e"></g></am></abbr>n als ein ander
+				<lb n="N015"></lb><abbr>chuech<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd wendt yn
+				<lb n="N016"></lb>vmb ob <g ref="#slong">s</g>ein not i<g ref="#slong">s</g>t <g ref="#slong">s</g>o i<g ref="#slong">s</g>t er beray<g ref="#combuml"></g>tt<note xml:lang="de">Letztes Wort unter der letzten Zeile niedergeschriben und rot markiert.</note><note xml:lang="en">Final word added below last line, highlighted with red ink.</note></seg><seg>
+			
+			<pb n="099v" xml:id="Db1_099v"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">von einer <abbr>Gruene<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>mand<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N002"></lb>milich So <g ref="#slong">s</g>to<g ref="#slong">s</g>s mandel</hi>
+				<lb n="N003"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein <abbr>gru<g ref="#combuml"></g>ene<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N004"></lb>mandelmilich <g ref="#verbar" rend="textColour:RED;"></g>So</hi> <g ref="#slong">s</g>toz <w><abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am><g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N005"></lb><abbr>del</abbr></w> auf ein <hi rend="textColour:RED;">.</hi> <abbr><g ref="#jnodotstrok">1/2</g></abbr> <hi rend="textColour:RED;">.</hi> <abbr><ex>libra</ex><am><g ref="#lbbar"></g></am></abbr> <g ref="#verbar" rend="textColour:RED;"></g>vnd ny<g ref="#combuml"></g>m
+				<lb n="N006"></lb>vi<g ref="#slong">s</g>ch <abbr><g ref="#slong">s</g>chuepp<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als dw mai<g ref="#slong">s</g>t
+				<lb n="N007"></lb>mug<g ref="#slong">s</g>t ein hof <abbr><g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> vol
+				<lb n="N008"></lb>vnd <g ref="#slong">s</g>ewdt dy<g ref="#combuml"></g> in wa<g ref="#slong">s</g><g ref="#slong">s</g>er als
+				<lb n="N009"></lb>vil als ein <abbr>h<ex>er</ex><am><g ref="#combcomma_er"></g></am>r<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> <g ref="#slong">s</g>ein
+				<lb n="N010"></lb><g ref="#slong">s</g>ol vnd nym das wa<g ref="#slong">s</g><g ref="#slong">s</g>er
+				<lb n="N011"></lb>vnd twing den mandel
+				<lb n="N012"></lb><abbr>halb<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> da mit du<g ref="#rrot">r</g>ch ein
+				<lb n="N013"></lb>tuech oder mer vnd la<g ref="#slong">s</g>s
+				<lb n="N014"></lb>es dan ge<g ref="#slong">s</g>ten als ein <g ref="#slong">s</g>ultz
+				<lb n="N015"></lb>vnd ny<g ref="#combuml"></g>m es dan vnd prich
+				<lb n="N016"></lb>es auf ein <abbr><g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> als ein
+				<lb n="N017"></lb>andrew gruenew milich
+				<lb n="N018"></lb>mit zucker <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr> richt es an</seg><seg>
+			
+			<pb n="100r" xml:id="Db1_100r"></pb>
+			
+				<lb n="N001"></lb><hi rend="textColour:RED;" style="heading">von einem pachen <w>ge<g ref="#dbloblhyph">=</g>
+				<lb n="N002"></lb>nant</w> pf<g ref="#inodot">i</g>ffe<g ref="#rrot">r</g>l<g ref="#inodot">i</g>ng</hi>
+				<lb n="N003"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein hub<g ref="#slong">s</g>ch
+				<lb n="N004"></lb><abbr>gepach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das da hay<g ref="#combuml"></g><g ref="#slong">s</g>t
+				<lb n="N005"></lb>pfifferl<g ref="#inodot">i</g>ng <g ref="#verbar" rend="textColour:RED;"></g>So mach</hi> ein 
+				<lb n="N006"></lb>tay<g ref="#combuml"></g>g als ein haidni<g ref="#slong">s</g>ch
+				<lb n="N007"></lb><abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als dw ein vnratt
+				<lb n="N008"></lb><abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> welle<g ref="#slong">s</g>t ve<g ref="#rrot">r</g><g ref="#slong">s</g>te<g ref="#slong">s</g>tu
+				<lb n="N009"></lb><g ref="#slong">s</g>ein nit <g ref="#slong">s</g>o mach daraus
+				<lb n="N010"></lb>chlain <abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> als ein <w><abbr>pfiff<ex>er</ex><am><g ref="#combcomma_er"></g></am><g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N011"></lb><abbr>ling</abbr></w> ains mer des <abbr>ander<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N012"></lb><abbr>my<g ref="#combuml"></g>nn<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> als dw dy<g ref="#combuml"></g> <abbr>plett<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N013"></lb>mach<g ref="#slong">s</g>t <g ref="#verbar" rend="textColour:RED;"></g>So wart das <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N014"></lb>an der mitt dick <g ref="#slong">s</g>ein <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N015"></lb>an den <abbr>o<g ref="#rrot">r</g>tter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> du<g ref="#combuml"></g>nn <del>dw</del>
+				<lb n="N016"></lb>vnd halt <g ref="#slong">s</g>y<g ref="#combuml"></g> vber ein <g ref="#slong">s</g>maltz
+				<lb n="N017"></lb>als ein ander gepachens
+			
+			<pb n="100v" xml:id="Db1_100v"></pb>
+			
+				<lb n="N001"></lb>vnd <g ref="#slong">s</g>tue<g ref="#rrot">r</g>tz dy<g ref="#combuml"></g> <abbr>plett<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> Zu ein
+				<lb n="N002"></lb>ander auf <abbr>dein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> handt als
+				<lb n="N003"></lb>ein chrupfen vnd <g ref="#slong">s</g>tue<g ref="#rrot">r</g>tz
+				<lb n="N004"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> zu ein ander mit den
+				<lb n="N005"></lb>Z<g ref="#inodot">i</g>pflein vnd ha<g ref="#slong">s</g>tu dan
+				<lb n="N006"></lb>Zwir ge<g ref="#slong">s</g>tue<g ref="#rrot">r</g>tzt <g ref="#slong">s</g>o mach
+				<lb n="N007"></lb>den <abbr>andr<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit <abbr><g ref="#slong">s</g>t<g ref="#inodot">i</g>ng<ex>e</ex><am><g ref="#bar_e"></g></am>l<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N008"></lb>vnd w<g ref="#inodot">i</g>e<g ref="#rrot">r</g>f es dan in ein
+				<lb n="N009"></lb><abbr>pfan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <g ref="#fracsol"></g> vnd la<g ref="#slong">s</g>s es <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N010"></lb><g ref="#slong">s</g>o chreuch<g ref="#slong">s</g>t es <w><abbr>vnd<ex>er</ex><am><g ref="#combcomma_er"></g></am>ein<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N011"></lb><abbr>ander</abbr></w> vnd gewingt ein 
+				<lb n="N012"></lb><abbr><g ref="#slong">s</g>ting<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> als ein <abbr>pf<g ref="#inodot">i</g>ffe<g ref="#rrot">r</g>li<ex>n</ex><am><g ref="#bar_n"></g></am>g</abbr>
+				<lb n="N013"></lb><g ref="#verbar" rend="textColour:RED;"></g>Als <g ref="#slong">s</g>y<g ref="#combuml"></g> dan <abbr>gepach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ein
+				<lb n="N014"></lb><g ref="#slong">s</g>o ny<g ref="#combuml"></g>m <g ref="#slong">s</g>y<g ref="#combuml"></g> dan her au<g ref="#slong">s</g>s
+				<lb n="N015"></lb><g ref="#verbar" rend="textColour:RED;"></g>vnd mach ein <abbr><g ref="#slong">s</g>upp<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr>da<ex>r</ex><am><g ref="#combcomma_r"></g></am></abbr>
+				<lb n="N016"></lb>an mit honig vnd mit
+			
+			<pb n="101r" xml:id="Db1_101r"></pb>
+			
+				<lb n="N001"></lb><g ref="#slong">s</g>tupp <g ref="#fracsol"></g> vnd <g ref="#slong">s</g>affran vnd
+				<lb n="N002"></lb><abbr>weinper<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als ein ander
+				<lb n="N003"></lb>pachens</seg> <seg><hi rend="textColour:RED;" style="heading">Al<g ref="#slong">s</g>o macht <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N004"></lb>Geprantew kuechel</hi>
+				<lb n="N005"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> guettew
+				<lb n="N006"></lb>gepranttew <abbr>chuech<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> <g ref="#slong">s</g>o</hi>
+				<lb n="N007"></lb>mach <g ref="#slong">s</g>y<g ref="#combuml"></g> ande<g ref="#rrot">r</g>s dan <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N008"></lb>gemain <g ref="#slong">s</g>ein darnach
+				<lb n="N009"></lb>vnd ich dich <abbr>lerne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> wil
+				<lb n="N010"></lb>vnd das der taig ein
+				<lb n="N011"></lb>wenig <abbr>du<g ref="#combuml"></g>nn<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> als 
+				<lb n="N012"></lb>dw den taig gemach<g ref="#slong">s</g>t
+				<lb n="N013"></lb><g ref="#slong">s</g>o <g ref="#slong">s</g>tra<g ref="#combuml"></g> darein weinper
+				<lb n="N014"></lb>vnd thue darein ein
+				<lb n="N015"></lb>wenig hon<g ref="#inodot">i</g>g <g ref="#slong">s</g>affrans
+				<lb n="N016"></lb>vnd Zeuch es an <abbr>ge<g ref="#slong">s</g>trich<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N017"></lb>ab <abbr>ein<ex>em</ex><am><g ref="#bar_em"></g></am></abbr> <abbr>pret<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> vnd las es
+			
+			<pb n="101v" xml:id="Db1_101v"></pb>
+			
+				<lb n="N001"></lb><abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o i<g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg> <seg><hi rend="textColour:RED;" style="heading">Al<g ref="#slong">s</g>o
+				<lb n="N002"></lb>mach<g ref="#slong">s</g>tu dy <abbr>chuech<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> <abbr>v<ex>er</ex><am><g ref="#combcomma_er"></g></am>cher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N003"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw es aber <abbr>ve<g ref="#rrot">r</g>cher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N004"></lb><g ref="#slong">s</g>o <abbr>pren<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> es ab dem taig</hi>
+				<lb n="N005"></lb>mit hay<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>er milich vnd
+				<lb n="N006"></lb>thue y<g ref="#combuml"></g>m dan als ich dich
+				<lb n="N007"></lb>vor gele<g ref="#rrot">r</g>tt han vnd <g ref="#slong">s</g>tupp
+				<lb n="N008"></lb>es als vil mer da<g ref="#rrot">r</g>Zue
+				<lb n="N009"></lb>vnd wue<g ref="#rrot">r</g>tz es wie wol
+				<lb n="N010"></lb>dw welle<g ref="#slong">s</g>t da mit pach
+				<lb n="N011"></lb>es als das <abbr>vo<g ref="#rrot">r</g>genan<ex>n</ex><am><g ref="#bar_n"></g></am>t</abbr> <abbr>e<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N012"></lb>da mit i<g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg>
+<seg>				<lb n="N013"></lb><hi rend="textColour:RED;" style="heading">von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> ayer mue<g ref="#slong">s</g>s</hi>
+				<lb n="N014"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein mue<g ref="#slong">s</g>s <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N015"></lb>wil von <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#verbar" rend="textColour:RED;"></g>Der nem</hi>
+				<lb n="N016"></lb>vier ay<g ref="#combuml"></g>er vnd melb vnd
+				<lb n="N017"></lb>hack das vnder einander
+				<lb n="N018"></lb>vnd das es <g ref="#slong">s</g><g ref="#inodot">i</g>ch hacken
+			
+			<pb n="102r" xml:id="Db1_102r"></pb>
+			
+				<lb n="N001"></lb>la<g ref="#slong">s</g>s vnd wen es dan klain
+				<lb n="N002"></lb><g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#slong">s</g>o ny<g ref="#combuml"></g>m es dan <abbr>her<ex>r</ex><am><g ref="#combcomma_r"></g></am></abbr> <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N003"></lb>zeuch es dan in hay<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>e
+				<lb n="N004"></lb>milich vnd mach es <abbr>dan<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N005"></lb>weder zedick noch zedu<g ref="#combuml"></g>n
+				<lb n="N006"></lb>vnd <g ref="#slong">s</g>maltz es wol vnd 
+				<lb n="N007"></lb>thue ein Zucker dar auf</seg><seg>
+				<lb n="N008"></lb><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>e man macht guet <abbr>krapf<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N009"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> guett
+				<lb n="N010"></lb>krapfen <g ref="#verbar" rend="textColour:RED;"></g>So mach ein</hi>
+				<lb n="N011"></lb>taig von <abbr>ey<g ref="#combuml"></g>t<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N012"></lb>vnd ein wenig wa<g ref="#slong">s</g><g ref="#slong">s</g>ers
+				<lb n="N013"></lb>das es du<g ref="#combuml"></g>nn we<g ref="#rrot">r</g>dt vnd
+				<lb n="N014"></lb>doch ein <abbr><g ref="#slong">s</g>trewb<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> melbs
+				<lb n="N015"></lb>vnd gews den taig mit
+				<lb n="N016"></lb>dem <abbr>platt<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> in ein pfan
+				<lb n="N017"></lb>dar in ein <g ref="#slong">s</g>maltz <g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#fracsol"></g> als
+			
+			<pb n="102v" xml:id="Db1_102v"></pb>
+			
+				<lb n="N001"></lb>ein <abbr>ha<g ref="#slong">s</g><g ref="#slong">s</g>elnu<g ref="#slong">s</g>s</abbr> vnd la<g ref="#slong">s</g>s
+				<lb n="N002"></lb>es <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das es vnden <g ref="#fracsol"></g>
+				<lb n="N003"></lb>ro<g ref="#slong">s</g>ch we<g ref="#rrot">r</g>dt vnd <abbr>ob<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> feucht
+				<lb n="N004"></lb>vnd ny<g ref="#combuml"></g>m es heraus vnd
+				<lb n="N005"></lb>full es als ander krapfen
+				<lb n="N006"></lb>mit weinper vnd mach
+				<lb n="N007"></lb>es als dw pe<g ref="#slong">s</g>t mug<g ref="#slong">s</g>t
+				<lb n="N008"></lb>aus dem Zeug Als dw
+				<lb n="N009"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> dan gar gemacht ha<g ref="#slong">s</g>t
+				<lb n="N010"></lb>als dich gelernt han <g ref="#slong">s</g>o ny<g ref="#combuml"></g>m
+				<lb n="N011"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> vnd pach dan in einer
+				<lb n="N012"></lb>wening <abbr><del>pfanne<ex>n</ex><am><g ref="#bar_n"></g></am></del></abbr> <g ref="#slong">s</g>maltz
+				<lb n="N013"></lb>als ander chrapfen</seg> <seg><hi rend="textColour:RED;" style="heading">von
+				<lb n="N014"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>ge<g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> hunermu<g ref="#combuml"></g><g ref="#slong">s</g>s</hi>
+				<lb n="N015"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein <w>ge<g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#dbloblhyph">=</g>
+				<lb n="N016"></lb><g ref="#slong">s</g>en</w> huner mue<g ref="#slong">s</g>s von <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N017"></lb>chalb fley<g ref="#combuml"></g><g ref="#slong">s</g>ch <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m ein</hi>
+				<lb n="N018"></lb><abbr>kelb<ex>e</ex><am><g ref="#combcomma_e"></g></am>rein</abbr> <abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> der nit
+			
+			<pb n="103r" xml:id="Db1_103r"></pb>
+			
+				<lb n="N001"></lb>newleich ge<g ref="#slong">s</g>lagen <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd
+				<lb n="N002"></lb>das dannoch wol <g ref="#slong">s</g>meck
+				<lb n="N003"></lb>vnd <g ref="#slong">s</g>tra<g ref="#combuml"></g> das wol ?<note>Falscher Ansatz.</note> vnd
+				<lb n="N004"></lb><g ref="#slong">s</g>tozz es in <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> mo<g ref="#slong">s</g>rer
+				<lb n="N005"></lb>vnd ein wenig <abbr><g ref="#slong">s</g>emel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N006"></lb>dar <abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd zeuch <del>da</del> es
+				<lb n="N007"></lb>dan durch mit wein vnd
+				<lb n="N008"></lb>mit pru<g ref="#combuml"></g>e <g ref="#fracsol"></g> als ein ander
+				<lb n="N009"></lb>mue<g ref="#slong">s</g>lein vnd wel es ab
+				<lb n="N010"></lb>mit <abbr>ayer<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd mit <g ref="#slong">s</g>tupp
+				<lb n="N011"></lb>vnd mit <g ref="#slong">s</g>affran als ein
+				<lb n="N012"></lb>ander mue<g ref="#slong">s</g>lein <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>e <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N013"></lb>macht ein Rechmue<g ref="#slong">s</g>s</hi>
+				<lb n="N014"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>wer wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein <w>Rech<g ref="#dbloblhyph">=</g>
+				<lb n="N015"></lb>mue<g ref="#slong">s</g>s</w> Der nem einen</hi>
+				<lb n="N016"></lb><abbr>letzelt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als vil dw w<g ref="#inodot">i</g>ld
+				<lb n="N017"></lb>vnd prenn in auf den
+				<lb n="N018"></lb><abbr>cholder<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als ein pfeffer
+			
+			<pb n="103v" xml:id="Db1_103v"></pb>
+			
+				<lb n="N001"></lb>prott vnd <g ref="#slong">s</g>ewd in dan in
+				<lb n="N002"></lb>einem wein als d<g ref="#inodot">i</g>ck dw
+				<lb n="N003"></lb>mug<g ref="#slong">s</g>t wen dw in durch
+				<lb n="N004"></lb>ein tuech <g ref="#slong">s</g>treich<g ref="#slong">s</g>t <g ref="#slong">s</g>o wa<g ref="#slong">s</g>chs
+				<lb n="N005"></lb>es dan in dem Rech <g ref="#slong">s</g>waiz
+				<lb n="N006"></lb>vnd la<g ref="#slong">s</g>s es <abbr><g ref="#slong">s</g>y<g ref="#combuml"></g>ed<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> auf <abbr>chol<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N007"></lb>in wein<note xml:lang="de">Lesart unsicher. Text möglicherweise unvollständig.</note><note xml:lang="en">Reading unclear. Text may be incomplete.</note> dw wild Ny<g ref="#combuml"></g>m
+				<lb n="N008"></lb>auch ein wenig honig
+				<lb n="N009"></lb>dar ein das es <g ref="#slong">s</g>uez <g ref="#slong">s</g>ey<g ref="#combuml"></g>
+				<lb n="N010"></lb>vnd ob es dir zu du<g ref="#combuml"></g>nn
+				<lb n="N011"></lb><g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#slong">s</g>o hilf y<g ref="#combuml"></g>m mit ein
+				<lb n="N012"></lb>wenig <abbr>ge<g ref="#rrot">r</g>ib<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> prot vnd
+				<lb n="N013"></lb><g ref="#slong">s</g>maltz es <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>e man ein
+				<lb n="N014"></lb>may<g ref="#slong">s</g>chew <g ref="#slong">s</g>al<g ref="#slong">s</g>en macht</hi>
+				<lb n="N015"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein may<g ref="#combuml"></g><g ref="#slong">s</g>che <g ref="#slong">s</g>la<g ref="#slong">s</g>en
+				<lb n="N016"></lb>machen wil <g ref="#verbar" rend="textColour:RED;"></g>Der nem</hi>
+				<lb n="N017"></lb>peter<g ref="#slong">s</g><g ref="#inodot">i</g>l vnd pfefferkraut
+			
+			<pb n="104r" xml:id="Db1_104r"></pb>
+			
+				<lb n="N001"></lb>vnd <g ref="#slong">s</g>aluan vnd <g ref="#fracsol"></g> Iung <abbr>py<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N002"></lb><abbr>plet<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> als vil dw wel<g ref="#slong">s</g>t <del>v</del>
+				<lb n="N003"></lb>vnd haw das gar klain <g ref="#fracsol"></g>
+				<lb n="N004"></lb>du<g ref="#rrot">r</g>ch e<g ref="#inodot">i</g>n ander <g ref="#fracsol"></g> des <w>mar<g ref="#dbloblhyph">=</g>
+				<lb n="N005"></lb>gens</w> gar frue <g ref="#slong">s</g>o vach des
+				<lb n="N006"></lb>taw in ein <g ref="#slong">s</g>chons tuech
+				<lb n="N007"></lb>ee dan dy<g ref="#combuml"></g> <g ref="#slong">s</g>unn auf gee
+				<lb n="N008"></lb>vnd ny<g ref="#combuml"></g>m das chrawt
+				<lb n="N009"></lb>vnd zeuch es durch ein 
+				<lb n="N010"></lb>tuech mit dem taw als
+				<lb n="N011"></lb>dw pe<g ref="#slong">s</g>t mag<g ref="#slong">s</g>t als ein
+				<lb n="N012"></lb>pfeffer <g ref="#fracsol"></g> aus trey<g ref="#combuml"></g>b<g ref="#slong">s</g>t in
+				<lb n="N013"></lb>ein <abbr>multe<g ref="#rrot">r</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> vnd <g ref="#slong">s</g>etz
+				<lb n="N014"></lb>es da mit an dy<g ref="#combuml"></g> <g ref="#slong">s</g>unn
+				<lb n="N015"></lb><g ref="#verbar" rend="textColour:RED;"></g>So ve<g ref="#rrot">r</g>leu<g ref="#slong">s</g>t es dan den
+				<lb n="N016"></lb>taw vnd la<g ref="#slong">s</g>s es dann
+			
+			<pb n="104v" xml:id="Db1_104v"></pb>
+			
+				<lb n="N001"></lb>in ein <abbr>platter<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd wenn
+				<lb n="N002"></lb>dw w<g ref="#inodot">i</g>ld in dem Iar <g ref="#slong">s</g>o netz
+				<lb n="N003"></lb>es ab mit wein oder mit
+				<lb n="N004"></lb>e<g ref="#slong">s</g><g ref="#slong">s</g>eig als ein ander <abbr><g ref="#slong">s</g>al<g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></seg>
+<seg>				<lb n="N005"></lb><hi rend="textColour:RED;" style="heading">Wie <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> macht ein wey<g ref="#slong">s</g><g ref="#slong">s</g>e
+				<lb n="N006"></lb>Sal<g ref="#slong">s</g>en</hi>
+				<lb n="N007"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer machen wil e<g ref="#inodot">i</g>n <w>wey<g ref="#slong">s</g><g ref="#dbloblhyph">=</g>
+				<lb n="N008"></lb><g ref="#slong">s</g>ew</w> <g ref="#slong">s</g>al<g ref="#slong">s</g>en</hi> <g ref="#verbar" rend="textColour:RED;"></g>Der nem <w><abbr>man<g ref="#dbloblhyph">=</g></abbr>
+				<lb n="N009"></lb><abbr>delcher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></w> vnd <abbr>gerib<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>emel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N010"></lb>vnd <g ref="#slong">s</g>ne<g ref="#inodot">i</g>d den <abbr>cher<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N011"></lb><g ref="#slong">s</g>toz das durcheinander <abbr>vn<ex>d</ex><am><g ref="#bar_d"></g></am></abbr>
+				<lb n="N012"></lb>zeuch yn durch mit wein
+				<lb n="N013"></lb>vnd mit e<g ref="#slong">s</g><g ref="#slong">s</g>eig <g ref="#inodot">i</g>n der dick
+				<lb n="N014"></lb>als es dir geuall da mit
+				<lb n="N015"></lb><g ref="#inodot">i</g><g ref="#slong">s</g>t es ein wey<g ref="#slong">s</g><g ref="#slong">s</g>e <g ref="#slong">s</g>al<g ref="#slong">s</g>en</seg>
+<seg>				<lb n="N016"></lb><hi rend="textColour:RED;" style="heading">Ein andrew Sal<g ref="#slong">s</g>en</hi>
+				<lb n="N017"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw ein andrew <g ref="#slong">s</g>al<g ref="#slong">s</g>en
+				<lb n="N018"></lb><abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>o ny<g ref="#combuml"></g>m gey<g ref="#combuml"></g><g ref="#slong">s</g><g ref="#slong">s</g>elper</hi>
+			
+			<pb n="105r" xml:id="Db1_105r"></pb>
+			
+				<lb n="N001"></lb>der <g ref="#verbar" rend="textColour:RED;"></g>Rotten <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>neyd
+				<lb n="N002"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> klain als dy<g ref="#combuml"></g> a<g ref="#rrot">r</g>bay<g ref="#combuml"></g>s
+				<lb n="N003"></lb>vnd <abbr>leng<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd <g ref="#slong">s</g>tozz <g ref="#slong">s</g>y<g ref="#combuml"></g> va<g ref="#slong">s</g>t
+				<lb n="N004"></lb>mit <abbr>letzelt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> das er <abbr>ge</abbr>
+				<lb n="N005"></lb><abbr>rib<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <g ref="#slong">s</g>ey<g ref="#combuml"></g> dar <abbr>vntt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd
+				<lb n="N006"></lb>Zeuch <g ref="#slong">s</g>ew durch mit wein
+				<lb n="N007"></lb>lu<g ref="#slong">s</g>t es dich <g ref="#slong">s</g>o <g ref="#slong">s</g>tupp es
+				<lb n="N008"></lb>da mit <g ref="#inodot">i</g><g ref="#slong">s</g>t es beray<g ref="#combuml"></g>tt</seg>
+<seg>				<lb n="N009"></lb><hi rend="textColour:RED;" style="heading">Ein pachens <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>oppfel<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></hi>
+				<lb n="N010"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer ein hub<g ref="#slong">s</g>ch pachen
+				<lb n="N011"></lb><g ref="#verbar" rend="textColour:RED;"></g>von opfeln <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> w<g ref="#inodot">i</g>l</hi>
+				<lb n="N012"></lb>das <sic>das</sic> hay<g ref="#combuml"></g><g ref="#slong">s</g>t <g ref="#fracsol"></g> ein <w>plue<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#dbloblhyph">=</g>
+				<lb n="N013"></lb>redel</w><note xml:lang="de">Revision: Transformation unklar. Bedeutung des Wortes unklar.</note><note xml:lang="en">Revision: transformation process unclear. Meaning of the word unclear.</note> <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m v<g ref="#inodot">i</g>er <del>ay<g ref="#combuml"></g>er</del>
+				<lb n="N014"></lb><abbr>oppf<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> zu <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>h<ex>er</ex><am><g ref="#combcomma_er"></g></am>r<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#slong">s</g>chu<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N015"></lb>vnd <g ref="#slong">s</g>neyd dy<g ref="#combuml"></g> <g ref="#slong">s</g>o dunne<g ref="#slong">s</g>t
+				<lb n="N016"></lb>mach<g ref="#slong">s</g>t Zu <abbr><g ref="#slong">s</g>chey<g ref="#combuml"></g>b<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd
+				<lb n="N017"></lb>darnach v<g ref="#inodot">i</g>er <abbr>regel<g ref="#slong">s</g>pir<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+			
+			<pb n="105v" xml:id="Db1_105v"></pb>
+			
+				<lb n="N001"></lb>vnd ains oppfels der do
+				<lb n="N002"></lb>rauch <g ref="#slong">s</g>ey<g ref="#combuml"></g> vnd haw es
+				<lb n="N003"></lb>vndereinander <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>tupp
+				<lb n="N004"></lb>es wol vnd <g ref="#slong">s</g>tra<g ref="#esup">e</g> darein
+				<lb n="N005"></lb>weinper vnd mach dar
+				<lb n="N006"></lb>aus ein guette full <g ref="#verbar" rend="textColour:RED;"></g>vnd
+				<lb n="N007"></lb>mach dy<g ref="#combuml"></g>e full gelb vnd
+				<lb n="N008"></lb>ny<g ref="#combuml"></g>m ein klains holtzlein
+				<lb n="N009"></lb>als ein <abbr><g ref="#slong">s</g>pind<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> das an <abbr>de<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N010"></lb><abbr>aine<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> o<g ref="#rrot">r</g>tt ein chnopflein
+				<lb n="N011"></lb><g ref="#slong">s</g>ey<g ref="#combuml"></g> <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>toz der <abbr><g ref="#slong">s</g>chey<g ref="#combuml"></g>b<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N012"></lb>aine daran an dye <abbr>oppf<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+				<lb n="N013"></lb>vnd full der full dar auf
+				<lb n="N014"></lb>als dick dy<g ref="#combuml"></g> <g ref="#slong">s</g>chey<g ref="#combuml"></g>b <g ref="#slong">s</g>ey<g ref="#combuml"></g>
+				<lb n="N015"></lb><g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>toz aber aine hin
+				<lb n="N016"></lb>nach vnd full das <abbr>zwi<g ref="#slong">s</g>ch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N017"></lb>als vil als in <abbr>ein<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> pfann
+			
+			<pb n="106r" xml:id="Db1_106r"></pb>
+			
+				<lb n="N001"></lb>geligen <abbr>mug<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> <abbr><g ref="#verbar" rend="textColour:RED;"></g>da<ex>r</ex><am><g ref="#combcomma_r"></g></am>nach</abbr>
+				<lb n="N002"></lb>mach dar Zu ein taig
+				<lb n="N003"></lb>mit zwain <abbr>ay<g ref="#combuml"></g>er<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> mit 
+				<lb n="N004"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>wa<g ref="#slong">s</g><ex>ser</ex><am><g ref="#slongflour"></g></am></abbr> <g ref="#verbar" rend="textColour:RED;"></g>vnd mel als
+				<lb n="N005"></lb>dick als ein <abbr><g ref="#slong">s</g>traub<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> taig
+				<lb n="N006"></lb><g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>etz dy<g ref="#combuml"></g> full in den
+				<lb n="N007"></lb>taig vnd leg es dann
+				<lb n="N008"></lb>in ein pfannen mit <w>wel<g ref="#dbloblhyph">=</g>
+				<lb n="N009"></lb>ling</w> <g ref="#slong">s</g>maltz <g ref="#verbar" rend="textColour:RED;"></g>vnd la<g ref="#slong">s</g>s
+				<lb n="N010"></lb>es gar chuel <abbr>pach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vntz
+				<lb n="N011"></lb>das es prawn we<g ref="#rrot">r</g>dt <g ref="#slong">s</g>o
+				<lb n="N012"></lb>ny<g ref="#combuml"></g>m es her aus vnd 
+				<lb n="N013"></lb>Zeuch das holtz her aus
+				<lb n="N014"></lb>mit dem <abbr>chnopf<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> da
+				<lb n="N015"></lb>mit <g ref="#inodot">i</g><g ref="#slong">s</g>t es beraytt <g ref="#fracsol"></g></seg> <seg><hi rend="textColour:RED;" style="heading">W<g ref="#inodot">i</g>e
+				<lb n="N016"></lb><abbr>man<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> macht gefult oppfel</hi>
+				<lb n="N017"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>Wer wil <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> hofleich</hi>
+			
+			<pb n="106v" xml:id="Db1_106v"></pb>
+			
+				<lb n="N001"></lb>gefult oppfel <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m
+				<lb n="N002"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> al<g ref="#slong">s</g>o gantz vnd <g ref="#slong">s</g>ney<g ref="#combuml"></g>d
+				<lb n="N003"></lb><abbr>ob<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> ein <abbr>pla<g ref="#combuml"></g>t<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> ab als
+				<lb n="N004"></lb>vil dich benueg das die
+				<lb n="N005"></lb><g ref="#slong">s</g>ein aus ge holertt mit 
+				<lb n="N006"></lb><abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>me<g ref="#slong">s</g><ex>ser</ex><am><g ref="#slongflour"></g></am></abbr> als dw aller
+				<lb n="N007"></lb>hub<g ref="#slong">s</g>che<g ref="#slong">s</g>t mug<g ref="#slong">s</g>t vnd
+				<lb n="N008"></lb>full mit oppfel mit
+				<lb n="N009"></lb>weinper mit <abbr>guett<ex>e</ex><am><g ref="#bar_e"></g></am>m</abbr>
+				<lb n="N010"></lb>ge<g ref="#slong">s</g>tupp <g ref="#verbar" rend="textColour:RED;"></g>Wen dw <g ref="#slong">s</g>ew <g ref="#fracsol"></g>
+				<lb n="N011"></lb>dan geful<g ref="#slong">s</g>t <g ref="#fracsol"></g> <g ref="#slong">s</g>o deck das
+				<lb n="N012"></lb>platlein <abbr>w<g ref="#inodot">i</g>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> dar vber
+				<lb n="N013"></lb><g ref="#slong">s</g>o i<g ref="#slong">s</g>t gantz als vor wen
+				<lb n="N014"></lb>man <g ref="#slong">s</g>chir <abbr>e<g ref="#slong">s</g><g ref="#slong">s</g><ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> wil <g ref="#slong">s</g>o 
+				<lb n="N015"></lb><g ref="#slong">s</g>etz <g ref="#slong">s</g>y<g ref="#combuml"></g> dan <abbr>geg<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> dem
+				<lb n="N016"></lb>fewer <g ref="#verbar" rend="textColour:RED;"></g>vnd la<g ref="#slong">s</g>s <g ref="#slong">s</g>y<g ref="#combuml"></g> dan
+				<lb n="N017"></lb><abbr>pratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> als d<g ref="#inodot">i</g>ch <g ref="#slong">s</g>ein <w>be<g ref="#dbloblhyph">=</g>
+			
+			<pb n="107r" xml:id="Db1_107r"></pb>
+			
+				<lb n="N001"></lb>mu<g ref="#combuml"></g>eg</w> das <g ref="#slong">s</g>y<g ref="#combuml"></g> waich <g ref="#fracsol"></g>
+				<lb n="N002"></lb><abbr>we<g ref="#rrot">r</g>d<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> vnd <abbr>gepratt<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr></seg>
+<seg>				<lb n="N003"></lb><hi rend="textColour:RED;" style="heading">Al<g ref="#slong">s</g>o ve<g ref="#rrot">r</g>cher dy<g ref="#combuml"></g> oppfel</hi>
+				<lb n="N004"></lb><hi rend="underlined; textColour:RED;"><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ldw <abbr>mach<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr> oppfel
+				<lb n="N005"></lb>noch ein va<g ref="#rrot">r</g>tt <abbr>v<ex>er</ex><am><g ref="#combcomma_er"></g></am>che<g ref="#rrot">r</g>tt</abbr>
+				<lb n="N006"></lb>vnd gefult <g ref="#fracsol"></g> <g ref="#verbar" rend="textColour:RED;"></g>So ny<g ref="#combuml"></g>m</hi>
+				<lb n="N007"></lb>dy<g ref="#combuml"></g> oppfel vnd be<g ref="#slong">s</g>neydt
+				<lb n="N008"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> <g ref="#slong">s</g>chon <g ref="#fracsol"></g> <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>neyd <g ref="#slong">s</g>y<g ref="#combuml"></g>
+				<lb n="N009"></lb>ander mit entzway<g ref="#combuml"></g> vnd
+				<lb n="N010"></lb>holl das aus yedes tay<g ref="#combuml"></g>l
+				<lb n="N011"></lb>das es ich prech vnd
+				<lb n="N012"></lb>thue dy<g ref="#combuml"></g>e full dar ein
+				<lb n="N013"></lb>als ich dich vor gelernt
+				<lb n="N014"></lb>han <g ref="#verbar" rend="textColour:RED;"></g>vnd <g ref="#slong">s</g>toz <g ref="#slong">s</g>y<g ref="#combuml"></g> an ein
+				<lb n="N015"></lb>Zwecklein durch an der
+				<lb n="N016"></lb>mitt das dir den <abbr>oppf<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr>
+			
+			<pb n="107v" xml:id="Db1_107v"></pb>
+			
+				<lb n="N001"></lb>Ze<g ref="#slong">s</g>amen halt vnd be
+				<lb n="N002"></lb>zeuch in mit <abbr>eine<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> taig
+				<lb n="N003"></lb>vnd pach in vnd g<g ref="#inodot">i</g>b
+				<lb n="N004"></lb><g ref="#slong">s</g>y<g ref="#combuml"></g> auf den t<g ref="#inodot">i</g><g ref="#slong">s</g>ch da
+				<lb n="N005"></lb>mit <g ref="#slong">s</g><g ref="#inodot">i</g>ndt dy<g ref="#combuml"></g> <abbr>oppf<ex>e</ex><am><g ref="#bar_e"></g></am>l</abbr> be
+				<lb n="N006"></lb>ray<g ref="#combuml"></g>tt <abbr><ex>etc.</ex><am><g ref="#etcamp"></g></am></abbr></seg>
+				<lb n="N007"></lb><note xml:lang="de">Es folgt ein medizinisches Rezept.</note><note xml:lang="en">A medical recipe follows.</note>
+				<lb n="N008"></lb>
+				<lb n="N009"></lb>
+				<lb n="N010"></lb>
+				<lb n="N011"></lb>
+				<lb n="N012"></lb>
+				<lb n="N013"></lb>
+				<lb n="N014"></lb>
+				<lb n="N015"></lb>
+				<lb n="N016"></lb>
+				<lb n="N017"></lb>
+			
+		</ab></body>
+  </text>
+</TEI>

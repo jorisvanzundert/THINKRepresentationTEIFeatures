@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="478" xml:id="l485" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 478 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>004r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 478.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q1085" type="recipient">Prag (Tschechien)</placeName></ab><ab type="mention"><persName type="mention">Achtoler, Kunz</persName></ab><date from="27-08-1409" to="27-08-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_9">
+<surface lrx="2642" lry="3711" ulx="0" uly="0">
+<graphic height="3711px" url="Rst Nbg-Briefbücher-Nr 3_0006_right.png" width="2642px"/>
+<zone lrx="1207" lry="839" rendition="TextRegion" ulx="966" uly="1447" xml:id="facs_9_r2"> <zone lrx="1207" lry="839" rendition="Line" ulx="966" uly="781" xml:id="facs_9_r2l6"/>
+<zone lrx="2445" lry="983" rendition="Line" ulx="443" uly="919" xml:id="facs_9_r2l7"/>
+<zone lrx="2419" lry="1063" rendition="Line" ulx="497" uly="1009" xml:id="facs_9_r2l8"/>
+<zone lrx="2315" lry="1169" rendition="Line" ulx="480" uly="1094" xml:id="facs_9_r2l9"/>
+<zone lrx="2357" lry="1256" rendition="Line" ulx="480" uly="1175" xml:id="facs_9_r2l10"/>
+<zone lrx="2319" lry="1353" rendition="Line" ulx="492" uly="1252" xml:id="facs_9_r2l11"/>
+<zone lrx="2322" lry="1428" rendition="Line" ulx="492" uly="1344" xml:id="facs_9_r2l12"/>
+<zone lrx="2345" lry="1510" rendition="Line" ulx="470" uly="1447" xml:id="facs_9_r2l13"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Prag</head><p>Der Rat teilt die Hinrichtung des Kunz Achtoler mit, der laut beiliegendem Zettel einen Diebstahl zu Prag gestanden hat, damit kein Unschuldiger dessen bezichtigt wird.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_9" id="4r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_9_r2l6">Prage </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_9_r2l7"><expan>Lıeb<ex>e</ex>n</expan> frewnde / Es ıſt <expan>ein<ex>er</ex></expan> hie bey vns mit <expan>de<ex>n</ex></expan> rechten verderbt <expan>vvord<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_9_r2l8">genant Chuncʒ Achtoler / vnd der hat in <expan>d<ex>er</ex></expan> vanknuʒʒ bekant / daʒ er </ab>
+<ab facs="#facs_9_r2l9">beÿ ew cʒü Prag geſtolen hab / als Jr 
+<del rend="strikethrough">an d </del> vindet an der Cʒedeln </ab>
+<ab facs="#facs_9_r2l10">die wir ew ſenden verſloʒʒen in <expan>dıſe<ex>m</ex></expan> briefe / vnd hat an ſeinem ende </ab>
+<ab facs="#facs_9_r2l11">begert / daʒ vvir ew das <expan>verſchreib<ex>e</ex>n</expan> vvolten / auf das / daʒ man </ab>
+<ab facs="#facs_9_r2l12">weſte / daʒ er das getan het / vnd daʒ ſüſt nyemant <expan>and<ex>er</ex>s</expan> daran </ab>
+<ab facs="#facs_9_r2l13">beſchuldigt / <expan>od<ex>er</ex></expan> verdacht würde / . <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııj̃ <expan>an<ex>te</ex></expan> Egıdij . ıx<hi rend="sup">o</hi> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_9" id="4r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Prage </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan> frewnde, es ist <expan>ein<ex>er</ex></expan>
+                        hie bey uns mit <expan>de<ex>n</ex></expan> rechten verderbt
+                                <expan>word<ex>e</ex>n</expan>, genant Chuncz Achtoler, und der hat
+                        in <expan>d<ex>er</ex></expan> vanknuzz bekant, daz er bey ew czü Prag
+                        gestolen hab, als ir vindet an der czedeln, die wir ew senden, verslozzen in
+                                <expan>dise<ex>m</ex></expan> briefe, und hat an seinem ende begert,
+                        daz wir ew das <expan>verschreib<ex>e</ex>n</expan> wolten auf das, daz man
+                        weste, daz er das getan het und daz süst nyemant
+                            <expan>and<ex>er</ex>s</expan> daran beschuldigt
+                            <expan>od<ex>er</ex></expan> verdacht würde.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii <expan>an<ex>te</ex></expan> Egidii ix<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

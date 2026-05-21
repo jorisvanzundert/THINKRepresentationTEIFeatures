@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2579" xml:id="l2590" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2579 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>131r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2579.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q193719" type="recipient">Eger (Tschechien)</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q191097" type="mention">Tachau (Tschechien)</placeName><persName ref="https://www.wikidata.org/wiki/Q57124" type="mention">Sigismund v. Luxemburg, dt. König</persName></ab><date from="23-04-1421" to="21-05-1421" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_264">
+<surface lrx="2660" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0135_right.png" width="2660px"/> <zone lrx="1037" lry="277" rendition="TextRegion" ulx="1166" uly="551" xml:id="facs_264_r2">
+<zone lrx="1322" lry="277" rendition="Line" ulx="729" uly="202" xml:id="facs_264_r2l1"/> <zone lrx="2382" lry="389" rendition="Line" ulx="324" uly="302" xml:id="facs_264_r2l2"/>
+<zone lrx="2412" lry="470" rendition="Line" ulx="374" uly="384" xml:id="facs_264_r2l3"/>
+<zone lrx="2380" lry="551" rendition="Line" ulx="428" uly="469" xml:id="facs_264_r2l4"/>
+<zone lrx="2314" lry="629" rendition="Line" ulx="1166" uly="551" xml:id="facs_264_r2l5"/> <zone lrx="1037" lry="321" rendition="Line" ulx="980" uly="269" xml:id="facs_264_line_1571387888512_289"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Eger</head><p>Der Rat [teilt mit, dass König Sigismund laut seines Briefs aus Ungarisch Brod bald nach Nürnberg kommen will und Bischof Georg von Passau und andere königliche Räte daher bereits Abgereiste zur Rückkehr in die Stadt auffordern.]</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_264" id="131r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_264_r2l1">Den von Eger / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_264_r2l2"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> als Jr vns 
+<add><ab facs="#facs_264_line_1571387888512_289">ʒu </ab></add> nehſt <expan>verſchr<ex>iben</ex></expan> vnd <expan>gebette<ex>n</ex></expan> habt <expan>vnt<ex>er</ex></expan> <expan>and<ex>er</ex>n</expan> <expan>dinge<ex>n</ex></expan> </ab>
+<ab facs="#facs_264_r2l3">/ Ob wır von <expan>vnſ<ex>er</ex>m</expan> <expan>gnedıgıſt<ex>en</ex></expan> <expan>h<ex>er</ex>ren</expan> ~ dem <expan>Römıſch<ex>en</ex></expan> etc künıg ıcht meͣr </ab>
+<ab facs="#facs_264_r2l4"><expan>v<ex>er</ex>nemen</expan> / daʒ wır <expan>eẅr<ex>er</ex></expan> <expan>freẅntſ<ex>chaft</ex></expan> das <expan>v<ex>er</ex>künd<ex>en</ex></expan> <expan>wölt<ex>en</ex></expan> / Alſo tun wır </ab>
+<ab facs="#facs_264_r2l5"><expan>eẅr<ex>er</ex></expan> <expan>weıſh<ex>eit</ex></expan> ʒu <expan>wıſſ<ex>en</ex></expan> et <expan>p<ex>er</ex></expan> <expan>o<ex>mn</ex>ıa</expan> als der von tachaw brıef </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_264" id="131r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Den von Eger </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns <add>zu</add> nehst
+                                <expan>verschr<ex>iben</ex></expan> und
+                            <expan>gebette<ex>n</ex></expan> habt <expan>unt<ex>er</ex></expan>
+<expan>and<ex>er</ex>n</expan>
+<expan>dinge<ex>n</ex></expan>, ob wir von <expan>uns<ex>er</ex>m</expan>
+<expan>gnedigist<ex>en</ex></expan>
+<expan>h<ex>er</ex>ren</expan> dem <expan>römisch<ex>en</ex></expan> etc.
+                        künig icht meͣr <expan>v<ex>er</ex>nemen</expan>, daz wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>frewnts<ex>chaft</ex></expan> das
+                            <expan>v<ex>er</ex>künd<ex>en</ex></expan>
+<expan>wölt<ex>en</ex></expan>, also tun wir <expan>ewr<ex>er</ex></expan>
+<expan>weish<ex>eit</ex></expan> zu <expan>wiss<ex>en</ex></expan> et
+                                <expan>p<ex>er</ex></expan>
+<expan>o<ex>mn</ex>ia</expan> als der von Tachaw brief.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

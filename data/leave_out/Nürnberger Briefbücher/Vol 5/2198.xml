@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2198" xml:id="l2210" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2198 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>028v–029r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2198.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Kunstadt u. Podiebrad, Boček III. v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q695069" type="mention">Frauenkirche (Nürnberg)</placeName><persName type="mention">N., N., Pt. d. Frauenkirche</persName></ab><date from="24-10-1419" to="24-10-1419" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_59">
+<surface lrx="2734" lry="3648" ulx="0" uly="0">
+<graphic height="3648px" url="Rst Nbg-Briefbücher-Nr 5_0032_left.png" width="2734px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_59_r1">
+</zone>
+</surface>
+</facsimile><facsimile xml:id="facs_60">
+<surface lrx="2639" lry="3648" ulx="0" uly="0">
+<graphic height="3648px" url="Rst Nbg-Briefbücher-Nr 5_0032_right.png" width="2639px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_60_r1">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Boček III. von Kunstadt und Podiebrad</head><p>Der Rat bittet erneut um Bezahlung der Schulden bei Propst und Pfründnern der Frauenkirche zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_59" id="28v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich
+        normalisiert transkribiert.
+<pb facs="#facs_60" id="29r"/>
+</div>
+</div><div type="regularised"><pb facs="#facs_59" id="28v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Boczkoni <expan>de</expan> Cunstat <expan>al<ex>ia</ex>s</expan> in
+                        Bodiebrad</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Nob<ex>i</ex>lis</expan> et <expan>g<ex>e</ex>n<ex>er</ex>ose</expan>
+<expan>d<ex>omi</ex>ne</expan>,
+                            <expan>p<ex>ro</ex>posueru<ex>n</ex>t</expan> nobis
+                                <expan>it<ex>eru</ex>m</expan>.
+                            <expan>P<ex>rae</ex>p<ex>osi</ex>tus</expan> et sui mansionarii de aula
+                                <expan>gl<ex>or</ex>iose</expan>
+<expan>virg<ex>in</ex>is</expan> Marie penes nos,
+                            <expan>quali<ex>ter</ex></expan> debita <expan>ip<ex>s</ex>a</expan>
+<expan>p<ex>ro</ex></expan>
+<expan>quib<ex>us</ex></expan>
+<expan>v<ex>est</ex>re</expan>
+<expan>nob<ex>i</ex>li<ex>ta</ex><hi rend="sup">ti</hi></expan>
+<expan>pl<ex>ur</ex>ies</expan>
+<expan>sc<ex>ri</ex>psim<ex>us</ex></expan>
+<expan>ip<ex>s</ex>is</expan> nondum sint soluta
+                            <expan>q<ex>uo</ex>d</expan>
+<expan>utiq<ex>ue</ex></expan> in <expan>ip<ex>s</ex>ar<ex>um</ex></expan>
+                        grave <expan>dispendi<ex>u</ex><hi rend="sup">m</hi></expan> redundare
+                                <expan>videt<ex>ur</ex></expan>.
+                            <expan>Quap<ex>ro</ex>pt<ex>er</ex></expan> ad
+                            <expan>v<ex>est</ex>ram</expan>
+<expan>g<ex>e</ex>n<ex>er</ex>ositate<ex>m</ex></expan>
+<expan>p<ex>ro</ex></expan>
+<expan>nu<ex>n</ex>c</expan>
+<expan>it<ex>eru</ex>m</expan> ad <expan>instancia<ex>m</ex></expan>
+<expan>eorund<ex>em</ex></expan>
+<expan>p<ex>rae</ex>p<ex>osi</ex>ti</expan> et
+                                <expan>mansionarior<ex>um</ex></expan>
+<expan>porrige<ex>re</ex></expan>
+<expan>duxi<ex>mus</ex></expan>
+<expan>p<ex>re</ex>ces</expan>
+<expan>n<ex>ost</ex>ras</expan>
+<expan>q<ex>ua</ex>t<ex>en</ex>us</expan>
+<expan>obsequior<ex>um</ex></expan>
+<expan>n<ex>ost</ex>ror<ex>um</ex></expan> intuitu necnon
+                                <expan>p<ex>rae</ex>cipue</expan> ob honorem et
+                                <expan>reve<ex>re</ex>ncia<ex>m</ex></expan> tam eximii
+                                <expan>fundator<ex>is</ex></expan> aule
+                                <expan>p<ex>rae</ex>sc<ex>ri</ex>pte</expan>
+<expan>ip<ex>s</ex>a</expan> debita <expan>p<ex>rae</ex>tacto</expan>
+<expan>p<ex>rae</ex>p<ex>osi</ex>to</expan><pb facs="#facs_60" id="29r"/> qui
+                                <expan>p<ex>ro</ex>p<ex>ri</ex>a</expan> in
+                            <expan>p<ex>er</ex>sona</expan>
+<expan>nob<ex>i</ex>li<ex>ta</ex><hi rend="sup">te<ex>m</ex></hi></expan>
+<expan>v<ex>est</ex>ra<ex>m</ex></expan> obinde
+                            <expan>accede<ex>re</ex></expan>
+<expan>conat<ex>ur</ex></expan> velitis <expan>absq<ex>ue</ex></expan>
+                        ulteriori <expan>p<ex>ro</ex>rogac<ex>i</ex>o<ex>n</ex>e</expan>
+<expan>g<ex>lo</ex>r<ex>i</ex>osi<ex>us</ex></expan>
+<expan>p<ex>er</ex>solve<ex>re</ex></expan> ac
+                            <expan>real<ex>ite</ex>r</expan> expedire, <expan>p<ex>ro</ex>ut</expan>
+                        de <expan>v<ex>est</ex>ra</expan>
+<expan>g<ex>e</ex>n<ex>er</ex>ositate</expan> plene
+                                <expan>c<ex>on</ex>fidim<expan>us</expan></expan>. Quod
+                                <expan>p<ex>er</ex></expan> eadem
+                                <expan>g<ex>e</ex>n<ex>er</ex>osi<ex>ta</ex><hi rend="sup">te</hi></expan>
+<expan>v<ex>est</ex>ra</expan>
+<expan>volumu<ex>us</ex></expan>
+<expan>iugit<ex>er</ex></expan>
+<expan>p<ex>ro</ex>mereri</expan>. <expan>Datum</expan> xxiiii<hi rend="sup">mo</hi>die octobris anno etc. xix<hi rend="sup">no</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

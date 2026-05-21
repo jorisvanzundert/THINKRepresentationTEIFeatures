@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1987" xml:id="l1999" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1987 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>116v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1987.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q62216" type="recipient">Heinrich XVI. v. Wittelsbach, Hzg. v. Bayern-Landshut</persName></ab><ab type="mention"><persName type="mention">Haller, Peter III.</persName><persName type="mention">Volckamer, Peter I.</persName><persName type="mention">Abensberg, Jobst v.</persName></ab><date from="16-10-1415" to="16-10-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_233">
+<surface lrx="2606" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0120_left.png" width="2606px"/>
+<zone lrx="624" lry="2685" rendition="TextRegion" ulx="567" uly="2689" xml:id="facs_233_r1"> <zone lrx="635" lry="2685" rendition="Line" ulx="168" uly="2628" xml:id="facs_233_r1l2"/>
+<zone lrx="624" lry="2707" rendition="Line" ulx="567" uly="2655" xml:id="facs_233_line_1576668722396_9524"/>
+<zone lrx="632" lry="2755" rendition="Line" ulx="189" uly="2689" xml:id="facs_233_r1l3"/>
+</zone>
+<zone lrx="1098" lry="1827" rendition="TextRegion" ulx="1935" uly="3074" xml:id="facs_233_r2"> <zone lrx="1985" lry="1827" rendition="Line" ulx="1090" uly="1751" xml:id="facs_233_r2l12"/>
+<zone lrx="2270" lry="2083" rendition="Line" ulx="687" uly="2019" xml:id="facs_233_r2l13"/>
+<zone lrx="2253" lry="2178" rendition="Line" ulx="695" uly="2119" xml:id="facs_233_r2l14"/>
+<zone lrx="2267" lry="2290" rendition="Line" ulx="695" uly="2211" xml:id="facs_233_r2l15"/>
+<zone lrx="2282" lry="2387" rendition="Line" ulx="712" uly="2297" xml:id="facs_233_r2l16"/>
+<zone lrx="2214" lry="2488" rendition="Line" ulx="713" uly="2399" xml:id="facs_233_r2l17"/>
+<zone lrx="2538" lry="2584" rendition="Line" ulx="704" uly="2512" xml:id="facs_233_r2l18"/>
+<zone lrx="2049" lry="2609" rendition="Line" ulx="1572" uly="2561" xml:id="facs_233_r2l19"/>
+<zone lrx="2305" lry="2677" rendition="Line" ulx="715" uly="2608" xml:id="facs_233_r2l20"/>
+<zone lrx="1630" lry="2706" rendition="Line" ulx="1140" uly="2663" xml:id="facs_233_r2l21"/>
+<zone lrx="2576" lry="2756" rendition="Line" ulx="719" uly="2718" xml:id="facs_233_r2l22"/>
+<zone lrx="1098" lry="2805" rendition="Line" ulx="738" uly="2747" xml:id="facs_233_line_1576668748374_9559"/>
+<zone lrx="2215" lry="2853" rendition="Line" ulx="721" uly="2808" xml:id="facs_233_r2l24"/>
+<zone lrx="2507" lry="2905" rendition="Line" ulx="1779" uly="2866" xml:id="facs_233_r2l25"/>
+<zone lrx="2276" lry="2948" rendition="Line" ulx="706" uly="2909" xml:id="facs_233_r2l26"/>
+<zone lrx="2131" lry="3002" rendition="Line" ulx="1935" uly="2948" xml:id="facs_233_line_1576668761671_9572"/>
+<zone lrx="2552" lry="3048" rendition="Line" ulx="720" uly="3006" xml:id="facs_233_r2l28"/>
+<zone lrx="1477" lry="3164" rendition="Line" ulx="720" uly="3074" xml:id="facs_233_r2l29"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich XVI. von Wittelsbach, Herzog von Bayern-Landshut</head><p>Der Rat dankt für die Unterstützung wegen Jobst von Abensberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_233" id="116v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_233_r2l12"><expan>Hercʒ<ex>og</ex></expan> <expan>heinr<ex>ich</ex></expan> von Bayern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_233_r2l13"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> . Vns <expan>hab<ex>e</ex>n</expan> vnſer lieb <expan>Burge<ex>r</ex></expan> vnd </ab>
+<ab facs="#facs_233_r2l14">Ratgeſellen peter haller der elter vnd peter </ab>
+<ab facs="#facs_233_r2l15">volkmeir / als dıe nehſt von <expan>vnſ<ex>er</ex>n</expan> wegen beẏ </ab>
+<ab facs="#facs_233_r2l16"><expan>ewr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> geweſen ſein . als von des edeln <expan>h<ex>er</ex>ren</expan> ~ </ab>
+<ab facs="#facs_233_r2l17"><expan>h<ex>er</ex>n</expan> Jobſen <expan>h<ex>er</ex>ren</expan> cʒu Abemſperg wegen . wol </ab>
+<ab facs="#facs_233_r2l18">geſagt vnd cʒuvviſſen getan / vvie ſich ewr <expan>hoch<ex>wirdikeit</ex></expan> gen Jn gar </ab>
+<ab facs="#facs_233_r2l20">
+<add><ab facs="#facs_233_r1l2"><expan>gnediklich<ex>e</ex>n</expan> be </ab><ab facs="#facs_233_r1l3">weıſet vnd 
+<del rend="strikethrough">Jn </del>
+<add><ab facs="#facs_233_line_1576668722396_9524">ew </ab></add> </ab></add>
+<del rend="strikethrough"> darynn </del> von <expan>vnſ<ex>er</ex>n</expan> wegen 
+<del rend="strikethrough"> gar </del>
+<add><ab facs="#facs_233_r2l19">vnd ın <expan>vnſ<ex>er</ex>n</expan> <expan>ſach<ex>e</ex>n</expan> </ab></add> criſtlich ange - </ab>
+<ab facs="#facs_233_r2l22">nomen . vnd 
+<del rend="strikethrough">vns ewr gnaden </del>
+<add><ab facs="#facs_233_r2l21">vns darynn gar </ab></add> <expan>hilffl<ex>ich</ex></expan> vnd <expan>fürderl<ex>ich</ex></expan>
+<del rend="strikethrough"> in <expan>vnſ<ex>er</ex>n</expan> <expan>ſache<ex>n</ex></expan></del></ab>
+<ab facs="#facs_233_r2l24">
+<del rend="strikethrough">beweiſet hab </del>
+<add><ab facs="#facs_233_line_1576668748374_9559">geweſen ſeit </ab></add> . des vvir <expan>ew<ex>r</ex>n</expan> <expan>fürſtenl<ex>ichen</ex></expan> gnaden </ab>
+<ab facs="#facs_233_r2l26">mit <expan>gancʒe<ex>m</ex></expan> fleiſʒ danken . vnd 
+<del rend="strikethrough">auch das vmb </del>
+<add><ab facs="#facs_233_r2l25">
+<del rend="strikethrough">auch </del> <expan>wolle<ex>n</ex></expan> auch das v̈mb </ab></add> </ab>
+<ab facs="#facs_233_r2l28">ewr <expan>hoch<ex>wirdikeit</ex></expan>
+<del rend="strikethrough"> begern </del> allcʒeit <expan>willikl<ex>ich</ex></expan>
+<add><ab facs="#facs_233_line_1576668761671_9572">vnd <expan>g<ex>er</ex>n</expan> </ab></add>
+<del rend="strikethrough"> cʒu </del> <expan>verdiene<ex>n</ex></expan>
+<del rend="strikethrough"><expan>wölle<ex>n</ex></expan></del></ab>
+<ab facs="#facs_233_r2l29"><expan>dat<ex>um</ex></expan> in dıe Galli . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_233" id="116v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Hercz<ex>og</ex></expan>
+<expan>Heinr<ex>ich</ex></expan> von Bayern </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, uns <expan>hab<ex>e</ex>n</expan> unser lieb
+                                <expan>burge<ex>r</ex></expan> und ratgesellen Peter Haller der
+                        elter und Peter Volkmeir, als die nehst von <expan>uns<ex>er</ex>n</expan>
+                        wegen bey <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> gewesen sein als von des edeln
+                                <expan>h<ex>er</ex>ren</expan>
+<expan>h<ex>er</ex>n</expan> Jobsen, <expan>h<ex>er</ex>ren</expan> czu
+                        Abemsperg, wegen, wol gesagt und czu wissen getan, wie sich ewr
+                                <expan>hoch<ex>wirdikeit</ex></expan> gen in gar
+                                    <add><expan>gnediklich<ex>e</ex>n</expan> beweiset und
+                                <add>ew</add>
+</add>von <expan>uns<ex>er</ex>n</expan> wegen <add>und in
+                                    <expan>uns<ex>er</ex>n</expan>
+<expan>sach<ex>e</ex>n</expan></add> cristlich angenomen und <add>uns
+                            darynn gar</add>
+<expan>hilffl<ex>ich</ex></expan> und <expan>fürderl<ex>ich</ex></expan>
+<add>gewesen seit</add>, des wir <expan>ew<ex>r</ex>n</expan>
+<expan>fürstenl<ex>ichen</ex></expan> gnaden mit
+                            <expan>gancze<ex>m</ex></expan> fleisz danken. Und
+                                    <add><expan>wolle<ex>n</ex></expan> auch das ümb</add> ewr
+                                <expan>hoch<ex>wirdikeit</ex></expan> allczeit
+                                <expan>willikl<ex>ich</ex></expan>
+<add>und <expan>g<ex>er</ex>n</expan></add>
+<expan>verdiene<ex>n</ex></expan>. <expan>Dat<ex>um</ex></expan> in die
+                        Galli. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

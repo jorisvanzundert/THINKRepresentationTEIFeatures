@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2" xml:id="l1" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>IIr–IIv</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 2.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender">-</ab><ab type="recipient">-</ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q4037" type="mention">Schwäbisch Gmünd</placeName><persName type="mention">Müllner, Üllein</persName><persName type="mention">Witbelein, Elisabeth</persName><persName type="mention">Gmünd, Oheim v.</persName><persName type="mention">Popp, N.</persName><persName type="mention">Künlein, N.</persName><persName type="mention">Windemberger, Heinz</persName><persName type="mention">Peter, Fritz</persName><persName type="mention">Gumppenberg, Hans v.</persName><persName type="mention">Marschall v. Oberndorf, Seitz</persName><persName type="mention">Schwelcher, Wieland</persName></ab><date from="" to=""/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_4">
+<surface lrx="2597" lry="3817" ulx="0" uly="0">
+<graphic height="3817px" url="Rst Nbg-Briefbücher-Nr 2_0003_left.png" width="2597px"/>
+<zone lrx="655" lry="314" rendition="TextRegion" ulx="340" uly="790" xml:id="facs_4_r1">
+<zone lrx="1068" lry="314" rendition="Line" ulx="318" uly="241" xml:id="facs_4_r1l1"/>
+<zone lrx="1039" lry="407" rendition="Line" ulx="326" uly="335" xml:id="facs_4_r1l2"/>
+<zone lrx="983" lry="504" rendition="Line" ulx="322" uly="430" xml:id="facs_4_r1l3"/>
+<zone lrx="794" lry="590" rendition="Line" ulx="340" uly="514" xml:id="facs_4_r1l4"/>
+<zone lrx="655" lry="685" rendition="Line" ulx="331" uly="605" xml:id="facs_4_r1l5"/>
+<zone lrx="666" lry="786" rendition="Line" ulx="328" uly="703" xml:id="facs_4_r1l6"/>
+<zone lrx="1063" lry="868" rendition="Line" ulx="331" uly="790" xml:id="facs_4_r1l7"/>
+</zone>
+</surface>
+</facsimile>
+<facsimile xml:id="facs_256">
+<surface lrx="2736" lry="4312" ulx="0" uly="0">
+<graphic height="4312px" url="StAN Rst Nürnberg Briefbücher des Innern Rats 2 fol 2 r.jpg" width="2736px"/> <zone lrx="2206" lry="3267" rendition="TextRegion" ulx="1692" uly="3402" xml:id="facs_256_region_1647938805407_212">
+<zone lrx="2423" lry="3267" rendition="Line" ulx="1650" uly="3205" xml:id="facs_256_line_1647938811633_215"/>
+<zone lrx="2206" lry="3364" rendition="Line" ulx="1631" uly="3307" xml:id="facs_256_line_1647938815544_220"/>
+<zone lrx="2235" lry="3468" rendition="Line" ulx="1692" uly="3402" xml:id="facs_256_line_1647938818771_225"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="other">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Namenliste</head><p>Liste nicht zuordenbarer Namen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_256"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_256_line_1647938811633_215">Hans <expan>Gumpemperg<ex>er</ex></expan> <expan>Ritt<ex>er</ex></expan></ab>
+<ab facs="#facs_256_line_1647938815544_220">Seıcʒ Marſchalk </ab>
+<ab facs="#facs_256_line_1647938818771_225">vvielant Swelher </ab>
+<pb facs="#facs_4"/>
+<ab facs="#facs_4_r1l1">V̈llein Müllner von Gemünd </ab>
+<ab facs="#facs_4_r1l2">Els VVitbelein ſein Sweſter </ab>
+<ab facs="#facs_4_r1l3">der Öheim von Gemünd </ab>
+<ab facs="#facs_4_r1l4">der popp doſelbſt </ab>
+<ab facs="#facs_4_r1l5">fricʒ Peter </ab>
+<ab facs="#facs_4_r1l6">der künlein / </ab>
+<ab facs="#facs_4_r1l7">Heincʒ <expan>VVindemberg<ex>er</ex></expan> <expan>v̈berreit<ex>er</ex></expan></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_256"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Hans <expan>Gumpemperg<ex>er</ex></expan>, <expan>ritt<ex>er</ex></expan><lb/>Seicz
+                        Marschalk<lb/>Wielant Swelher<lb/><pb facs="#facs_4"/> Üllein Müllner von
+                        Gemünd <lb/>Els Witbelein, sein swester <lb/>Der öheim von Gemünd <lb/>Der
+                        Popp doselbst <lb/>Fricz Peter <lb/>Der Künlein, <lb/>Heincz
+                                <expan>Windemberg<ex>er</ex></expan>,
+                            <expan>überreit<ex>er</ex></expan>. </ab></div>
+</div></body>
+</text>
+</TEI>

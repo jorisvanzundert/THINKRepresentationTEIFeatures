@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2130" xml:id="l2142" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2130 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>009v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2130.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q3012" type="recipient">Ulm</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q7042" type="mention">Amberg</placeName><placeName type="mention">Mortain, Gft. (Frankreich)</placeName><persName ref="https://www.wikidata.org/wiki/Q64286" type="mention">Ludwig VII. v. Wittelsbach, Hzg. v. Bayern-Ingolstadt</persName><persName ref="https://www.wikidata.org/wiki/Q64515" type="mention">Ludwig III. v. Wittelsbach, Pfgf. b. Rhein</persName><persName ref="https://www.wikidata.org/wiki/Q61336" type="mention">Friedrich VI. v. Hohenzollern, Bgf. v. Nürnberg u. späterer Mgf. v. Brandenburg</persName><persName ref="https://www.wikidata.org/wiki/Q1527505" type="mention">Albrecht v. Wertheim, Bf. v. Bamberg</persName><persName ref="https://www.wikidata.org/wiki/Q1256975" type="mention">Johann II. v. Brunn, Bf. v. Würzburg</persName><persName ref="https://www.wikidata.org/wiki/Q1571731" type="mention">Albert III. v. Stauffenberg, Bf. v. Regensburg</persName><persName ref="https://www.wikidata.org/wiki/Q1694729" type="mention">Johann II. v. Heideck, Bf. v. Eichstätt</persName><persName ref="https://www.wikidata.org/wiki/Q88077" type="mention">Raban v. Helmstatt, Bf. v. Speyer</persName><persName ref="https://www.wikidata.org/wiki/Q63163" type="mention">Ernst I. v. Wittelsbach, Hzg. v. Bayern-München</persName><persName ref="https://www.wikidata.org/wiki/Q63156" type="mention">Wilhelm III. v. Wittelsbach, Hzg. v. Bayern-München</persName><persName type="mention">Johann von Wittelsbach, Herzog von Pfalz-Neumarkt</persName><persName ref="https://www.wikidata.org/wiki/Q63884" type="mention">Johann III. v. Hohenzollern, Bgf. v. Nürnberg</persName><persName ref="https://www.wikidata.org/wiki/Q62216" type="mention">Heinrich XVI. v. Wittelsbach, Hzg. v. Bayern-Landshut</persName></ab><date from="17-06-1419" to="17-06-1419" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_21">
+<surface lrx="2780" lry="3566" ulx="0" uly="0">
+<graphic height="3566px" url="Rst Nbg-Briefbücher-Nr 5_0013_left.png" width="2780px"/>
+<zone lrx="978" lry="305" rendition="TextRegion" ulx="1624" uly="2286" xml:id="facs_21_r1">
+<zone lrx="1175" lry="305" rendition="Line" ulx="951" uly="244" xml:id="facs_21_r1l1"/>
+<zone lrx="2480" lry="533" rendition="Line" ulx="650" uly="434" xml:id="facs_21_r1l2"/>
+<zone lrx="2483" lry="618" rendition="Line" ulx="756" uly="526" xml:id="facs_21_r1l3"/>
+<zone lrx="2425" lry="706" rendition="Line" subtype="paragraph" ulx="770" uly="621" xml:id="facs_21_r1l4"/>
+<zone lrx="2492" lry="796" rendition="Line" ulx="749" uly="705" xml:id="facs_21_r1l5"/>
+<zone lrx="2487" lry="882" rendition="Line" ulx="743" uly="799" xml:id="facs_21_r1l6"/>
+<zone lrx="2491" lry="961" rendition="Line" ulx="735" uly="886" xml:id="facs_21_r1l7"/>
+<zone lrx="2475" lry="1063" rendition="Line" ulx="733" uly="973" xml:id="facs_21_r1l8"/>
+<zone lrx="2501" lry="1157" rendition="Line" ulx="737" uly="1059" xml:id="facs_21_r1l9"/>
+<zone lrx="2501" lry="1242" rendition="Line" ulx="725" uly="1145" xml:id="facs_21_r1l10"/>
+<zone lrx="2425" lry="1320" rendition="Line" ulx="714" uly="1231" xml:id="facs_21_r1l11"/>
+<zone lrx="2425" lry="1402" rendition="Line" ulx="722" uly="1334" xml:id="facs_21_r1l12"/>
+<zone lrx="1284" lry="1416" rendition="Line" ulx="1202" uly="1363" xml:id="facs_21_line_1573113665415_439"/>
+<zone lrx="1724" lry="1425" rendition="Line" ulx="1550" uly="1369" xml:id="facs_21_line_1573113669424_444"/>
+<zone lrx="2386" lry="1493" rendition="Line" ulx="714" uly="1416" xml:id="facs_21_r1l14"/>
+<zone lrx="2637" lry="1588" rendition="Line" ulx="712" uly="1490" xml:id="facs_21_r1l15"/>
+<zone lrx="2394" lry="1676" rendition="Line" ulx="709" uly="1583" xml:id="facs_21_r1l16"/>
+<zone lrx="2375" lry="1761" rendition="Line" ulx="710" uly="1680" xml:id="facs_21_r1l17"/>
+<zone lrx="2324" lry="1840" rendition="Line" ulx="691" uly="1764" xml:id="facs_21_r1l18"/>
+<zone lrx="2386" lry="1936" rendition="Line" ulx="695" uly="1855" xml:id="facs_21_r1l19"/>
+<zone lrx="2307" lry="2016" rendition="Line" ulx="685" uly="1958" xml:id="facs_21_r1l20"/>
+<zone lrx="978" lry="2035" rendition="Line" ulx="856" uly="1982" xml:id="facs_21_line_1573113833909_467"/>
+<zone lrx="1772" lry="2037" rendition="Line" ulx="1624" uly="1985" xml:id="facs_21_line_1573113839198_472"/>
+<zone lrx="2367" lry="2102" rendition="Line" subtype="paragraph" ulx="699" uly="2044" xml:id="facs_21_r1l24"/>
+<zone lrx="2391" lry="2190" rendition="Line" ulx="681" uly="2116" xml:id="facs_21_r1l25"/>
+<zone lrx="2299" lry="2277" rendition="Line" ulx="671" uly="2199" xml:id="facs_21_r1l26"/>
+<zone lrx="2563" lry="2375" rendition="Line" subtype="paragraph" ulx="683" uly="2286" xml:id="facs_21_r1l27"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ulm</head><p>Der Rat teilt mit, welche Fürsten, Grafen, Herren und Bischöfe sich derzeit in Nürnberg aufhalten, um den Streit zwischen Herzog Ludwig VII. von Bayern-Ingolstadt mit Markgraf Friedrich I. von Brandenburg und Herzog Heinrich XVI. von Bayern-Landshut zu schlichten, und, dass sich Pfalzgraf Ludwig III. bei Rhein und Herzog Heinrich bald in Amberg treffen wollen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_21" id="9v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_21_r1l1">Vlm </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_21_r1l2"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan> Als vns ewr weiſheit <expan>geſchr<ex>iben</ex></expan> hat von 
+<del rend="strikethrough"> des tag </del> der </ab>
+<ab facs="#facs_21_r1l3">fürſten 
+<del rend="strikethrough">vve </del> vnd <expan>h<ex>er</ex>ren</expan> wegen die <expan>yecʒund<ex>en</ex></expan> hie ſein . <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_21_r1l4">vvir wol <expan>v<ex>er</ex>nomen</expan> . vnd tun <expan>ewr<ex>er</ex></expan> <expan>erſamk<ex>eit</ex></expan> cʒuvviſſen daʒ </ab>
+<ab facs="#facs_21_r1l5"><expan>yecʒund<ex>en</ex></expan> hie ſein . die durchleuhtigen . hochwirdigen vnd </ab>
+<ab facs="#facs_21_r1l6">hochgeporen fürſten . mitnamen vnſer herren hercʒog </ab>
+<ab facs="#facs_21_r1l7">Ludwig von der Pfalcʒ / der Marggraf von <expan>Brandemb<ex>ur</ex>g</expan> </ab>
+<ab facs="#facs_21_r1l8">die Byſſchöf von Bamberg . vvircʒburg <expan>Regenſp<ex>ur</ex>g</expan> Eẏſtet </ab>
+<ab facs="#facs_21_r1l9">vnd Speyr . hercʒog Ludwig von Beyrn Graf cʒu Mortanj </ab>
+<ab facs="#facs_21_r1l10">hercʒog Ernſt vnd wilhelm <expan>geprüde<ex>r</ex></expan> vnd hercʒog <expan>Johan<ex>n</ex>
+<del rend="strikethrough">s</del></expan></ab>
+<ab facs="#facs_21_r1l11">von Beẏern . Burggraf <expan>Johan<ex>n</ex>s</expan> vnd ſüſt vil Grafen </ab>
+<ab facs="#facs_21_r1l12">vnd <expan>h<ex>er</ex>ren</expan> . vnd vernemen vvie ſie teydingen von ſölcher </ab>
+<ab facs="#facs_21_r1l14">Spenn wegen 
+<del rend="strikethrough">die </del>
+<add><ab facs="#facs_21_line_1573113665415_439">die </ab></add> <expan>cʒwiſch<ex>e</ex>n</expan>
+<add><ab facs="#facs_21_line_1573113669424_444">den <expan>eg<ex>enanten</ex></expan> </ab></add> <expan>vnſ<ex>er</ex>n</expan> <expan>h<ex>er</ex>ren</expan> ~ <expan>de<ex>m</ex></expan> <expan>Marggrafe<ex>n</ex></expan> </ab>
+<ab facs="#facs_21_r1l15">von <expan>Brandemb<ex>ur</ex>g</expan> vnd hercʒog <expan>Ludwig<ex>en</ex></expan> Grafen cʒu Mortanj 
+<del rend="strikethrough">ſind </del></ab>
+<ab facs="#facs_21_r1l16">vnd auch <expan>demſelb<ex>e</ex>n</expan> hercʒog <expan>Ludwig<ex>en</ex></expan> vnd <expan>ſeine<ex>m</ex></expan> vettern </ab>
+<ab facs="#facs_21_r1l17">hercʒog <expan>heinr<ex>ich</ex></expan> von Beyern . 
+<del rend="strikethrough">auch von ſolcher Spenn </del></ab>
+<ab facs="#facs_21_r1l18">
+<del rend="strikethrough">wegen . die <expan>cʒwiſch<ex>e</ex>n</expan> Jn </del> ſind . vnd <expan>hab<ex>e</ex>n</expan> auch <expan>v<ex>er</ex>nomen</expan> </ab>
+<ab facs="#facs_21_r1l19">vvie . der <expan>obgen<ex>ante</ex></expan> <expan>vnſ<ex>er</ex></expan> herre hercʒog Ludwig von der </ab>
+<ab facs="#facs_21_r1l20">Pfalcʒ als hewte hinauf gen <expan>Amb<ex>er</ex>g</expan> <expan>reyte<ex>n</ex></expan>
+<del rend="strikethrough"> wer </del> vnd </ab>
+<ab facs="#facs_21_r1l24">dohin 
+<add><ab facs="#facs_21_line_1573113833909_467">auch </ab></add> der <expan>eg<ex>enante</ex></expan> hercʒog <expan>heinr<ex>ich</ex></expan>
+<add><ab facs="#facs_21_line_1573113839198_472">cʒu Jm </ab></add>
+<del rend="strikethrough"> auch </del> <expan>kume<ex>n</ex></expan> werde vnd </ab>
+<ab facs="#facs_21_r1l25">alſo verſteen vvir vns daʒ ſie noch etvvielang hıe <expan>bleıb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_21_r1l26"><expan>werde<ex>n</ex></expan> ob ſie aber icht anderr ſache cʒeſchicken <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_21_r1l27">des vviſſen vvir niht / <expan>dan<ex>n</ex></expan> vvo etc <expan>dat<ex>um</ex></expan> <expan>Sabb<ex>a</ex>to</expan> <expan>p<ex>oſt</ex></expan> <expan>Corp<ex>or</ex>ıs</expan> xpi </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_21" id="9v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Ulm</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als uns ewr weisheit
+                                <expan>geschr<ex>iben</ex></expan> hat von der fürsten und
+                                <expan>h<ex>er</ex>ren</expan> wegen, die
+                            <expan>yeczund<ex>en</ex></expan> hie sein,
+                            <expan>hab<ex>e</ex>n</expan> wir wol <expan>v<ex>er</ex>nomen</expan>
+                        und tun <expan>ewr<ex>er</ex></expan>
+<expan>ersamk<ex>eit</ex></expan> czu wissen, daz
+                            <expan>yeczund<ex>en</ex></expan> hie sein die durchleuhtigen
+                        hochwirdigen und hochgeporen fürsten mitnamen unser herren, herczog Ludwig
+                        von der Pfalcz, der marggraf von <expan>Brandemb<ex>ur</ex>g</expan>, die
+                        bysschöf von Bamberg, Wirczburg, <expan>Regensp<ex>ur</ex>g</expan>, Eystet
+                        und Speyr, herczog Ludwig von Beyrn, graf czu Mortani, herczog Ernst und
+                        Wilhelm, <expan>geprüde<ex>r</ex></expan>, und herczog
+                                <expan>Johan<ex>n</ex></expan> von Beyern, burggraf
+                                <expan>Johan<ex>n</ex>s</expan> und süst vil grafen und
+                                <expan>h<ex>er</ex>ren</expan>; und vernemen wie sie teydingen von
+                        sölcher spenn wegen, <add>die</add>
+<expan>czwisch<ex>e</ex>n</expan>
+<add>den <expan>eg<ex>enanten</ex></expan></add>
+<expan>uns<ex>er</ex>n</expan>
+<expan>h<ex>er</ex>ren</expan>, <expan>de<ex>m</ex></expan>
+<expan>marggrafe<ex>n</ex></expan> von <expan>Brandemb<ex>ur</ex>g</expan>
+                        und herczog <expan>Ludwig<ex>en</ex></expan>, grafen czu Mortani, und auch
+                                <expan>demselb<ex>e</ex>n</expan> herczog
+                            <expan>Ludwig<ex>en</ex></expan> und <expan>seine<ex>m</ex></expan>
+                        vettern herczog <expan>Heinr<ex>ich</ex></expan> von Beyern sind. Und
+                                <expan>hab<ex>e</ex>n</expan> auch <expan>v<ex>er</ex>nomen</expan>,
+                        wie der <expan>obgen<ex>ante</ex></expan>
+<expan>uns<ex>er</ex></expan> herre, herczog Ludwig von der Pfalcz, als
+                        hewte hinauf gen <expan>Amb<ex>er</ex>g</expan>
+<expan>reyte<ex>n</ex></expan> und dohin <add>auch</add> der
+                                <expan>eg<ex>enante</ex></expan> herczog
+                            <expan>Heinr<ex>ich</ex></expan>
+<add>czu im</add>
+<expan>kume<ex>n</ex></expan> werde. Und also versteen wir uns, daz sie noch
+                        etwielang hie <expan>bleib<ex>e</ex>n</expan>
+<expan>werde<ex>n</ex></expan>, ob sie aber icht anderr sache cze schicken
+                                <expan>hab<ex>e</ex>n</expan>, des wissen wir niht.
+                                <expan>Dan<ex>n</ex></expan> wo etc. <expan>Dat<ex>um</ex></expan>
+<expan>sabb<ex>a</ex>to</expan>
+<expan>p<ex>ost</ex></expan>
+<expan>corp<ex>or</ex>is</expan> Christi.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

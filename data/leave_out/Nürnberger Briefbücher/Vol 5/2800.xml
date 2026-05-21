@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2800" xml:id="l2811" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2800 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>189r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2800.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Vischer, Hans</persName></ab><ab type="mention"><placeName type="mention">Rednitzhembach (Gem., Lk. Roth)</placeName><persName type="mention">Veyol, Hermann</persName><persName type="mention">Muffel, Georg</persName><persName type="mention">Unruh, N.</persName><persName type="mention">Schürstab, Erhard I.</persName></ab><date from="21-01-1422" to="21-01-1422" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_380">
+<surface lrx="2712" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0193_right.png" width="2712px"/>
+<zone lrx="493" lry="459" rendition="TextRegion" ulx="237" uly="301" xml:id="facs_380_r1">
+<zone lrx="493" lry="459" rendition="Line" ulx="237" uly="301" xml:id="facs_380_r1l1"/>
+</zone>
+<zone lrx="1624" lry="258" rendition="TextRegion" ulx="759" uly="1125" xml:id="facs_380_r3">
+<zone lrx="1624" lry="258" rendition="Line" ulx="759" uly="177" xml:id="facs_380_r3l1"/>
+<zone lrx="2383" lry="453" rendition="Line" ulx="619" uly="359" xml:id="facs_380_r3l3"/>
+<zone lrx="2449" lry="546" rendition="Line" ulx="635" uly="455" xml:id="facs_380_r3l4"/>
+<zone lrx="2391" lry="641" rendition="Line" ulx="630" uly="556" xml:id="facs_380_r3l5"/>
+<zone lrx="2474" lry="747" rendition="Line" ulx="642" uly="645" xml:id="facs_380_r3l6"/>
+<zone lrx="2451" lry="837" rendition="Line" ulx="633" uly="743" xml:id="facs_380_r3l7"/>
+<zone lrx="2461" lry="929" rendition="Line" ulx="628" uly="844" xml:id="facs_380_r3l8"/>
+<zone lrx="2458" lry="1026" rendition="Line" ulx="639" uly="937" xml:id="facs_380_r3l9"/>
+<zone lrx="2430" lry="1127" rendition="Line" ulx="646" uly="1027" xml:id="facs_380_r3l10"/>
+<zone lrx="2358" lry="1233" rendition="Line" ulx="639" uly="1125" xml:id="facs_380_r3l11"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans Vischer</head><p>Der Rat teilt mit, dass er den Armmann des Georg Muffel, Bürger zu Nürnberg, wegen seiner beiden Kühe und anderen Hausgeräts nicht von seinem Recht gegen Hermann Veyol zu Rednitzhembach und einem Armmann der N. Unruh, Bürgerin zu Nürnberg, abbringen kann.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_380" id="189r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_380_r3l1">Dem <expan>beſchaıd<ex>en</ex></expan> hannſen <expan>vıſch<ex>er</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><note place="marginleft">
+<ab facs="#facs_380_r1l1">Jn bapıro </ab>
+</note>
+<ab facs="#facs_380_r3l3"><expan>Vnſ<ex>er</ex></expan> <expan>freẅntſ<ex>chaft</ex></expan> beuor . <expan>L<ex>ieber</ex></expan> hanns als du vns <expan>verſchr<ex>iben</ex></expan> haſt von </ab>
+<ab facs="#facs_380_r3l4">ʒweyr kẅ vnd <expan>and<ex>er</ex>s</expan> hawſgereͣts <expan>weg<ex>en</ex></expan> / daʒ ʒu Redencʒ ſempach </ab>
+<ab facs="#facs_380_r3l5">ʒum <expan>h<ex>er</ex>man</expan> veyol <expan>v<ex>er</ex>potten</expan> ıſt <expan>word<ex>en</ex></expan> etc / das <expan>habe<ex>n</ex></expan> wır <expan>vernom<ex>en</ex></expan> </ab>
+<ab facs="#facs_380_r3l6">vnd <expan>laſſ<ex>en</ex></expan> dıch <expan>wıſſ<ex>en</ex></expan> / daʒ <expan>vnſ<ex>er</ex>s</expan> <expan>b<ex>urgers</ex></expan> <expan>görg<ex>en</ex></expan> Muffels <expan>armman<ex>n</ex></expan> einr </ab>
+<ab facs="#facs_380_r3l7">meynt / daʒ er etlıch ſein hab bey <expan>vnſ<ex>er</ex>r</expan> <expan>burg<ex>er</ex>in</expan> ~ der vnrüwin </ab>
+<ab facs="#facs_380_r3l8"><expan>armman<ex>n</ex></expan> <expan>eine<ex>m</ex></expan> vnd in <expan>deſſ<ex>elben</ex></expan> <expan>armman<ex>n</ex>s</expan> gwalt <expan>gefunde<ex>n</ex></expan> hab vnd </ab>
+<ab facs="#facs_380_r3l9">hat auch <expan>daru<ex>m</ex>b</expan> rechts begert / <expan>denſ<ex>elben</ex></expan> ~ des Muffels arm mann </ab>
+<ab facs="#facs_380_r3l10">wır von <expan>ſeine<ex>n</ex></expan> <expan>recht<ex>en</ex></expan> nıht geweıſen noch <expan>gewerffe<ex>n</ex></expan> <expan>muge<ex>n</ex></expan> / <expan>dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_380_r3l11"><expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi> agnetıs <expan>ſ<ex>ub</ex></expan> ſıgıllo erhardȷ Schürſtab <expan>m<ex>a</ex>g<ex>iſt</ex>rıciuıu<ex>m</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_380" id="189r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Dem <expan>beschaid<ex>en</ex></expan> Hannsen
+                            <expan>Visch<ex>er</ex></expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab><app>
+<note place="marginleft"> In bapiro. </note>
+</app>
+<expan>Uns<ex>er</ex></expan>
+<expan>frewnts<ex>chaft</ex></expan> bevor. <expan>L<ex>ieber</ex></expan> Hanns, als du
+            uns <expan>verschr<ex>iben</ex></expan> hast von zweyr kw und
+              <expan>and<ex>er</ex>s</expan> hawsgereͣts <expan>weg<ex>en</ex></expan>, daz zu
+            Redenczsempach zum <expan>H<ex>er</ex>man</expan> Veyol
+              <expan>v<ex>er</ex>potten</expan> ist <expan>word<ex>en</ex></expan> etc., das
+                <expan>habe<ex>n</ex></expan> wir <expan>vernom<ex>en</ex></expan> und
+                <expan>lass<ex>en</ex></expan> dich <expan>wiss<ex>en</ex></expan>, daz
+                <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>
+<expan>Görg<ex>en</ex></expan> Muffels <expan>armman<ex>n</ex></expan> einr meynt, daz
+            er etlich sein hab bey <expan>uns<ex>er</ex>r</expan>
+<expan>burg<ex>er</ex>in</expan> der Unrüwin <expan>armman<ex>n</ex></expan>
+<expan>eine<ex>m</ex></expan> und in <expan>dess<ex>elben</ex></expan>
+<expan>armman<ex>n</ex>s</expan> gwalt <expan>gefunde<ex>n</ex></expan> hab und hat auch
+                <expan>daru<ex>m</ex>b</expan> rechts begert; <expan>dens<ex>elben</ex></expan> des
+            Muffels armmann wir von <expan>seine<ex>n</ex></expan>
+<expan>recht<ex>en</ex></expan> niht geweisen noch <expan>gewerffe<ex>n</ex></expan>
+<expan>muge<ex>n</ex></expan>. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi> Agnetis
+              <expan>s<ex>ub</ex></expan> sigillo Erhardi Schürstab
+              <expan>m<ex>a</ex>g<ex>ist</ex>ri</expan>
+<expan>civiu<ex>m</ex>.</expan>
+</ab></div>
+</div></body>
+</text>
+</TEI>

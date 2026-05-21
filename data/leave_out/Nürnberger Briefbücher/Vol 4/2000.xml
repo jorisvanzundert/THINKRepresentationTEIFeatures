@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2000" xml:id="l2012" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2000 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft
+          </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache
+            im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität
+            Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed
+            under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>120r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2000.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName type="recipient">Thorn (Polen)</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q365" type="mention">Köln</placeName><persName type="mention">König, Agnes</persName><persName type="mention">König, Heinrich</persName><persName type="mention">Heselcamp, Arnold v.</persName><persName type="mention">Heimbach, Hermann</persName></ab><date from="12-11-1415" to="12-11-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_240">
+<surface lrx="2623" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0123_right.png" width="2623px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_240_r1"> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Thorn</head>
+<p>Der Rat bittet um Anweisung des Arnold von Heselcamp, Bürger zu Thorn, zur Bezahlung der 200 Gulden bei Agnes König, Bürger zu Nürnberg, die er im Namen ihres verstorbenen Ehemanns Heinrich König bei Hermann Heimbach zu Köln in Form eines Wechsel erhalten hat.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis">
+<ab><w join="" lemma="" msd="" part="" pos=""><fLib>
+<f name=" "/>
+</fLib></w></ab>
+</div>
+</front>
+<body>
+<div type="diplomatic">
+<pb facs="#facs_240" id="120r"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"> </div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich normalisiert
+          transkribiert. </div>
+</div>
+<div type="regularised">
+<pb facs="#facs_240" id="120r"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Honora<hi rend="sup">b<ex>ilibus</ex></hi></expan> et
+                <expan>prudentib<ex>us</ex></expan>
+<expan>d<ex>omi</ex>nis</expan>
+<expan>proconsulib<ex>us</ex></expan>
+<add>seu <app>
+<note><q type="inline">gub<ex>er</ex>nata<hi rend="sup">b<ex>us</ex></hi></q>Die
+                  korrekte Form wäre "gubernatibus".</note>
+</app></add> et <expan>consulib<ex>us</ex></expan>
+<expan>civitat<ex>is</ex></expan>
+<add><expan>Tornneten<ex>sis</ex></expan></add>
+<expan>fautorib<ex>us</ex></expan>
+<expan>n<ex>ost</ex>ris</expan>
+<expan>sp<ex>eci</ex>a<ex>li</ex>b<expan>us</expan></expan> et animcis</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Obsequiosa <expan>voluntat<ex>is</ex></expan>
+<expan>p<ex>ro</ex>mptitudi<ex>n</ex>e</expan>
+<expan>v<ex>est</ex>ris</expan> amiciciis <expan>aff<ex>e</ex>c<ex>t</ex>u</expan>
+            sincero <expan>iugit<ex>er</ex></expan>
+<expan>p<ex>rae</ex>oblat<ex>is</ex></expan>.
+              <expan>Hon<ex>orabi</ex><ex>les</ex></expan> et sagaces
+                <add><expan>d<ex>omi</ex>ni</expan></add> amici <expan>p<ex>rae</ex>cari</expan>,
+                <expan>p<ex>ro</ex>posuit</expan> nobis <expan>Agnet<ex>is</ex></expan> Henrici
+                <expan>d<ex>ic</ex>ti</expan> Kunig civis <expan>n<ex>ost</ex>ri</expan> relicta,
+                <expan>qual<ex>ite</ex>r</expan> Arnold de Heselcamp concivis
+              <expan>v<ex>este</ex>r</expan>
+<expan>an<ex>te</ex></expan>
+<expan>queda<ex>m</ex></expan>
+<expan>t<ex>em</ex>p<ex>or</ex>is</expan>
+<expan>curric<ex>u</ex>la</expan>
+<expan>du<ex>m</ex></expan>
+<expan>p<ex>rae</ex>fatus</expan> civis <expan>n<ex>oste</ex>r</expan> in
+                <expan>huma<ex>n</ex>is</expan>
+<expan>aget<ex>ur</ex></expan> ex <expan>p<ex>ar</ex>te</expan> eiusdem civis
+                <expan>n<ex>ost</ex>ri</expan>
+<expan>ducent<ex>os</ex></expan>
+<expan>floren<ex>inos</ex></expan>
+<expan>Rynen<ex>ses</ex></expan>, sub forma <expan>cuiusd<ex>em</ex></expan> cambii ab
+            Hermanno Heimbach in Colonia <expan>levav<ex>er</ex>it</expan> et
+                <expan>accepe<ex>r</ex>it</expan>, <expan>p<ex>ro</ex></expan>
+<expan>quib<ex>us</ex></expan>
+<expan>tu<ex>m</ex></expan> eidem civi <expan>n<ex>ost</ex>ro</expan>,
+                <expan>neq<ex>ue</ex></expan>
+<expan>heredib<ex>us</ex></expan> suis <expan>huiusq<ex>ue</ex></expan>
+<expan>mi<ex>ni</ex>me</expan>
+<expan>satisfece<ex>r</ex>it</expan> et dudum sibi <expan>p<ex>er</ex>solvisse</expan>
+<expan>pe<ex>n</ex>itus</expan> debuisset, dequo graves sibi
+              <expan>intule<ex>r</ex>it</expan>
+<expan>vexac<ex>i</ex>o<ex>n</ex>es</expan> et dampna. Quo circa
+              <expan>v<ex>est</ex>ram</expan>
+<expan>deprecam<ex>ur</ex></expan>
+<expan>amici<hi rend="sup"><ex>tiam</ex></hi></expan>
+<expan>p<ex>re</ex>cib<ex>us</ex></expan>
+<expan>studios<ex>is</ex></expan>
+<expan>q<ex>ua</ex>t<ex>enu</ex>s</expan>
+<expan>cu<ex>m</ex></expan> eadem <expan>v<ex>est</ex>ro</expan> concive Arnoldo
+                <expan>dispone<ex>re</ex></expan>
+<expan>ip<ex>su</ex>mq<ex>ue</ex></expan> intuitu <expan>n<ex>ost</ex>ri</expan>
+<expan>induce<ex>re</ex></expan>
+<expan>velit<ex>is</ex></expan> ut <expan>p<ex>rae</ex>libate</expan> civi
+                <expan>n<ex>ost</ex>re</expan>
+<expan>p<ex>rae</ex>tactu<ex>m</ex></expan>
+<expan>debitu<ex>m</ex></expan>
+<expan>suu<ex>m</ex></expan>
+<expan>absq<ex>ue</ex></expan>
+<expan>p<ex>ro</ex>rogac<ex>i</ex>o<ex>n</ex>e</expan>
+<expan>ulte<ex>r</ex>ior</expan>
+<expan>p<ex>er</ex>solvat</expan> ac <expan>p<ex>ro</ex></expan> eodem satisfaciat. Sic
+                  <add><expan>q<ex>ui</ex></expan></add>
+<expan>ampli<ex>us</ex></expan>
+<expan>ip<ex>s</ex>a</expan> de eodem <expan>v<ex>est</ex>ra</expan> concive
+                <expan>n<ex>u</ex>llas</expan>
+<expan>desup<ex>ra</ex></expan> indigeat <expan>querimoniar<ex>um</ex></expan>
+<expan>p<ex>ro</ex>posicon<ex>em</ex></expan>
+<expan>aliq<ex>uali</ex>te<ex>r</ex></expan> ventilare. In eo nobis
+              <expan>v<ex>est</ex>ram</expan>
+<expan>ostendet<ex>is</ex></expan>
+<expan>amicitia<ex>m</ex></expan>
+<expan>cu<ex>m</ex></expan>
+<expan>benivolen<ex>ter</ex></expan>, erga <expan>v<ex>est</ex>ram</expan>
+<expan>sagaci<hi rend="sup"><ex>ta</ex>te</hi></expan> et
+              <expan>v<ex>est</ex>rates</expan>
+<expan>ca<ex>s</ex>u</expan> se <expan>off<ex>er</ex>ent<ex>is</ex></expan>
+<expan>fidel<ex>ite</ex>r</expan>
+<expan>rem<ex>er</ex>end<ex>um</ex></expan>. <expan>Dat<ex>um</ex></expan> xvi<hi rend="sup">mo</hi>
+<expan>novembr<ex>is</ex></expan> anno a <expan>nativ<hi rend="sup"><ex>ta</ex>te</hi></expan>
+<expan>d<ex>omi</ex>ni</expan> mcccxv<hi rend="sup">mo</hi> etc.</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>

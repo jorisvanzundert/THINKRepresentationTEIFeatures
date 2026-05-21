@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="187" xml:id="l189" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 187 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>052r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 187.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext><ref ref="http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/176.xml" xml:id="176">Text 176</ref></correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q2749" type="recipient">Augsburg</placeName></ab><ab type="mention"><persName type="mention">Molitor, Konrad</persName></ab><date from="14-09-1408" to="14-09-1408" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_107">
+<surface lrx="2844" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0054_right.png" width="2844px"/>
+<zone lrx="1432" lry="1574" rendition="TextRegion" ulx="1357" uly="2158" xml:id="facs_107_r2"> <zone lrx="1432" lry="1574" rendition="Line" ulx="1116" uly="1516" xml:id="facs_107_r2l16"/>
+<zone lrx="1601" lry="1748" rendition="Line" ulx="1357" uly="1706" xml:id="facs_107_r2l17"/>
+<zone lrx="2486" lry="1800" rendition="Line" ulx="678" uly="1746" xml:id="facs_107_r2l18"/>
+<zone lrx="2495" lry="1873" rendition="Line" ulx="646" uly="1811" xml:id="facs_107_r2l19"/>
+<zone lrx="2509" lry="1950" rendition="Line" ulx="639" uly="1887" xml:id="facs_107_r2l20"/>
+<zone lrx="2581" lry="2022" rendition="Line" ulx="648" uly="1959" xml:id="facs_107_r2l21"/>
+<zone lrx="2467" lry="2091" rendition="Line" ulx="635" uly="2029" xml:id="facs_107_r2l22"/>
+<zone lrx="2519" lry="2152" rendition="Line" ulx="660" uly="2085" xml:id="facs_107_line_1574838549307_240"/>
+<zone lrx="2271" lry="2226" rendition="Line" ulx="657" uly="2158" xml:id="facs_107_line_1574838557979_245"/> </zone>
+<zone lrx="451" lry="2156" rendition="TextRegion" ulx="72" uly="2293" xml:id="facs_107_region_1576678928916_13032">
+<zone lrx="635" lry="2156" rendition="Line" subtype="paragraph" ulx="72" uly="2095" xml:id="facs_107_line_1576678933554_13035"/>
+<zone lrx="640" lry="2213" rendition="Line" ulx="54" uly="2163" xml:id="facs_107_line_1576678936964_13040"/>
+<zone lrx="670" lry="2292" rendition="Line" ulx="46" uly="2233" xml:id="facs_107_line_1576678940544_13045"/>
+<zone lrx="451" lry="2360" rendition="Line" ulx="67" uly="2293" xml:id="facs_107_line_1576678943782_13050"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Augsburg</head><p>Der Rat kündigt Konrad Molitor, Bürger zu Nürnberg, wegen des Zolls für Nürnberger Bürger und Kaufleute entgegen altem Herkommen an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_107" id="52r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_107_r2l16">Augſpurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_107_r2l18">Lieben frewnde / Als vvir <expan>ew
+<del rend="strikethrough"><ex>r</ex></del></expan>
+<add><ab facs="#facs_107_r2l17">
+<del rend="strikethrough">weiſheit </del></ab></add> voꝛmals <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> haben / vvie vns etliche </ab>
+<ab facs="#facs_107_r2l19">vnſer <expan>Burge<ex>r</ex></expan> vnd kaufleute fürbracht 
+<del rend="strikethrough">haben </del> vnd cʒu vviſʒen getan haben / </ab>
+<ab facs="#facs_107_r2l20">vvie daʒ Jr von <expan>ir<ex>er</ex></expan> wollen / beÿ ew ʒoll cʒu haben vnd cʒu <expan>neme<ex>n</ex></expan> maÿnt </ab>
+<ab facs="#facs_107_r2l21">anders dann von <expan>alt<ex>er</ex></expan> herkomen ſeÿ etc 
+<del rend="strikethrough">D </del>alʒo ſenden vvir cʒu ew <expan>Conrad<ex>en</ex></expan> </ab>
+<ab facs="#facs_107_r2l22">Molitor vnſerm <expan>Burge<ex>r</ex></expan> mit ewch dauon cʒureden / vnd <expan>Rogam<ex>us</ex></expan> / </ab>
+<ab facs="#facs_107_line_1574838549307_240">vvas <expan>derſ<ex>elb</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>Burg<ex>er</ex></expan> <expan>dar<ex>umb</ex></expan> cʒu diſem male an ew vverb 
+<del rend="strikethrough"> etc ein glaubbrief </del></ab>
+<ab facs="#facs_107_line_1574838557979_245">
+<del rend="strikethrough">in forma </del>
+<add><ab facs="#facs_107_line_1576678933554_13035">von <expan>vnſ<ex>er</ex>n</expan> <expan>wege<ex>n</ex></expan> / das Jr </ab><ab facs="#facs_107_line_1576678936964_13040">Jm des glaubt / vnd lat </ab><ab facs="#facs_107_line_1576678940544_13045">vns des <expan>ew<ex>r</ex></expan> <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> <expan>antvv<ex>ur</ex>t</expan> </ab><ab facs="#facs_107_line_1576678943782_13050">wıder wiſʒen </ab></add> <expan>dat<ex>um</ex></expan> in die <expan>Exaltat<ex>i</ex>on<ex>e</ex></expan> <expan>S<ex>an</ex>c<ex>t</ex>e</expan> <expan>Cruc<ex>is</ex></expan> Anno Octauo $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_107" id="52r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Augspurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieben frewnde, als wir <expan>ew</expan> vormals
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> haben, wie uns etliche
+                        unser <expan>burge<ex>r</ex></expan> und kaufleute fürbracht und czu wiszen
+                        getan haben, wie daz ir von <expan>ir<ex>er</ex></expan> wollen bey ew zoll
+                        czu haben und czu <expan>neme<ex>n</ex></expan> maynt, anders dann von
+                                <expan>alt<ex>er</ex></expan> herkomen sey etc.; alzo senden wir czu
+                        ew <expan>Conrad<ex>en</ex></expan> Molitor, unserm
+                            <expan>burge<ex>r</ex></expan>, mit ewch davon czureden und
+                                <expan>rogam<ex>us</ex></expan>, was <expan>ders<ex>elb</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>
+<expan>dar<ex>umb</ex></expan> czu disem male an ew werb <add>von
+                                    <expan>uns<ex>er</ex>n</expan>
+<expan>wege<ex>n</ex></expan>, das ir im des glaubt. Und lat uns des
+                                    <expan>ew<ex>r</ex></expan>
+<expan>v<ex>er</ex>schr<ex>iben</ex></expan>
+<expan>antw<ex>ur</ex>t</expan> wider wiszen</add>.
+                                <expan>Dat<ex>um</ex></expan> in die
+                                <expan>exaltat<ex>i</ex>on<ex>e</ex></expan>
+<expan>s<ex>an</ex>c<ex>t</ex>e</expan>
+<expan>cruc<ex>is</ex></expan> anno octavo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

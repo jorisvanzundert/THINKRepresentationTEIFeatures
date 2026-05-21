@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="893" xml:id="l904" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 893 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>101r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 893.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q252772" type="recipient">Eichstätt</placeName></ab><ab type="mention"><persName type="mention">Römer, Georg</persName></ab><date from="22-12-1410" to="22-12-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_203">
+<surface lrx="2788" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0103_right.png" width="2788px"/>
+<zone lrx="1304" lry="349" rendition="TextRegion" ulx="1965" uly="881" xml:id="facs_203_r2">
+<zone lrx="1304" lry="349" rendition="Line" ulx="758" uly="272" xml:id="facs_203_r2l2"/>
+<zone lrx="2425" lry="496" rendition="Line" subtype="paragraph" ulx="332" uly="355" xml:id="facs_203_r2l3"/>
+<zone lrx="2401" lry="592" rendition="Line" ulx="391" uly="469" xml:id="facs_203_r2l4"/>
+<zone lrx="2453" lry="702" rendition="Line" ulx="395" uly="574" xml:id="facs_203_r2l5"/>
+<zone lrx="2053" lry="682" rendition="Line" ulx="1965" uly="635" xml:id="facs_203_r2l6"/>
+<zone lrx="2484" lry="784" rendition="Line" ulx="391" uly="683" xml:id="facs_203_r2l7"/>
+<zone lrx="2540" lry="895" rendition="Line" ulx="388" uly="772" xml:id="facs_203_r2l8"/>
+<zone lrx="1759" lry="987" rendition="Line" ulx="403" uly="881" xml:id="facs_203_r2l9"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Eichstätt</head><p>Der Rat teilt Unkenntnis wegen Georg Römer, Bürger zu Eichstätt, mit und verweist diesen auf den Rechtsweg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_203" id="101r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_203_r2l2">Rat cʒü <expan>Eyſt<ex>et</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_203_r2l3"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> / Als Jr vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> habt von <expan>Görg<ex>en</ex></expan> Römers <expan>ew<ex>r</ex>s</expan> </ab>
+<ab facs="#facs_203_r2l4"><expan>mitburg<ex>er</ex>s</expan> <expan>weg<ex>en</ex></expan> / <expan>Laſſ<ex>en</ex></expan> wir ewr frewntſchaft vviſſen / daʒ </ab>
+<ab facs="#facs_203_r2l5">wir vormals davon nicht gehört <expan>hab<ex>e</ex>n</expan> / vnd als er <expan>dan<ex>n</ex></expan> ſein </ab>
+<ab facs="#facs_203_r2l7">recht dafür getan hat / wollen wir Jn der ſache 
+<add><ab facs="#facs_203_r2l6">auch </ab></add> <expan>g<ex>er</ex>ne</expan> verwiſſen </ab>
+<ab facs="#facs_203_r2l8">vnd wo wir ew lıeb vnd <expan>fruntſch<ex>aft</ex></expan> <expan>beweıſ<ex>en</ex></expan> <expan>möht<ex>en</ex></expan> das <expan>tet<ex>e</ex>n</expan> wir </ab>
+<ab facs="#facs_203_r2l9"><expan>g<ex>er</ex>ne</expan> / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıj̃ . <expan>p<ex>oſt</ex></expan> Thome <expan>Ap<ex>oſto</ex>lı</expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_203" id="101r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Rat czü <expan>Eyst<ex>et</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> habt von
+                                <expan>Görg<ex>en</ex></expan> Römers, <expan>ew<ex>r</ex>s</expan>
+<expan>mitburg<ex>er</ex>s</expan>, <expan>weg<ex>en</ex></expan>,
+                                <expan>lass<ex>en</ex></expan> wir ewr frewntschaft wissen, daz wir
+                        vormals davon nicht gehört <expan>hab<ex>e</ex>n</expan>; und als er
+                                <expan>dan<ex>n</ex></expan> sein recht dafür getan hat, wollen wir
+                        in der sache <add>auch</add>
+<expan>g<ex>er</ex>ne</expan> verwissen. Und wo wir ew lieb und
+                                <expan>fruntsch<ex>aft</ex></expan>
+<expan>beweis<ex>en</ex></expan>
+<expan>möht<ex>en</ex></expan>, das <expan>tet<ex>e</ex>n</expan> wir
+                                <expan>g<ex>er</ex>ne</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii <expan>p<ex>ost</ex></expan> Thome
+                                <expan>ap<ex>osto</ex>li</expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

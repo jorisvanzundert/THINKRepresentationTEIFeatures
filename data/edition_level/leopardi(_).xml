@@ -1,0 +1,2086 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0"><teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="RP">Roberta Priore</persName>
+               <persName xml:id="BN">Beatrice Nava</persName>
+               <persName xml:id="MB">Marika Banci</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <interpGrp>
+                  <interp xml:id="altVariant">Varianti alternative</interp>
+               </interpGrp>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <bibl>
+               <author>Paola Italia</author>
+               <title>Proposta di edizione del quaderno napoletano</title>
+               <publisher>Carocci</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date>2016</date>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. XIII.22</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer0" scope="major"/>
+                           <handNote corresp="#layer1" scope="minor"/>
+                           <handNote corresp="#layer2" scope="minor"/>
+                           <handNote corresp="#layer3" scope="minor"/>
+                           <handNote corresp="#layer4" scope="minor"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="AV">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Visso</settlement>
+                        <repository>Archivio comunale di Visso</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="NR25">
+                  <bibl>Nuovo ricoglitore 1825</bibl>
+               </witness>
+               <witness xml:id="B26">
+                  <bibl>Versi del Conte Giacomo Leopardi, Bologna, Stamperia delle Muse,
+                     1826.</bibl>
+               </witness>
+               <witness xml:id="F31">
+                  <bibl>Canti del Conte Giacomo Leopardi, Firenze, Piatti, 1831.</bibl>
+               </witness>
+               <witness xml:id="N35">
+                  <bibl>Opere di Giacomo Leopardi, Vol. I. Canti di Giacomo Leopardi, Napoli,
+                     Starita, 1835.</bibl>
+               </witness>
+               <witness xml:id="N35c">
+                  <bibl>Esemplare sciolto dell’edizione Starita con errori che vennero poi eliminati
+                     prima della tiratura di N35, su cui Leopardi fece correzioni e aggiunte per la
+                     stampa progettata da Baudry. </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange corresp="AN">
+               <change xml:id="layer0">Penna A</change>
+               <change xml:id="layer1">Penna B</change>
+               <change xml:id="layer2">Penna C</change>
+               <change xml:id="layer3">Penna D</change>
+               <change xml:id="layer4">Penna E</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <app>
+               <lem wit="#N35c">FRAMMENTI.<lb/> XXXVII.</lem>
+               <rdg wit="#AN"><mod change="#layer0" seq="1">Idillio, | Il sogno</mod>
+                  <mod change="#layer2" seq="2" type="ascribed">Idillio | Lo spavento
+                  notturno</mod></rdg>
+               <rdg wit="#AV"> Lo spavento notturno | Idillio V</rdg>
+               <rdg wit="#NR26">LO SPAVENTO NOTTURNO. | <hi rend="italic">Idillio V.</hi></rdg>
+               <rdg wit="#B26">LO SPAVENTO NOTTURNO | IDILLIO V</rdg>
+               <rdg wit="#N35">FRAMMENTI. | XXXV.</rdg>
+            </app>
+         </head>
+         <lg>
+            <app>
+               <lem wit="#N35 #N35c">ALCETA.</lem>
+               <rdg wit="#AN"><mod change="#layer0" seq="1">Alceta,</mod>
+                  <mod change="#layer0" seq="2" type="reuse">Alceta</mod></rdg>
+               <rdg wit="#AV">Alceta</rdg>
+               <rdg wit="#NR26"><hi rend="italic">Alceta.</hi></rdg>
+               <rdg wit="#B26">ALCETA</rdg>
+            </app>
+            <l n="1">
+               <app>
+                  <lem wit="#NR26 #B26 #N35 #N35c">Odi</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Senti</mod><mod change="#layer2" seq="2" type="superscript">Odi</mod></rdg>
+               </app>
+               <app>
+                  <lem wit="#NR26 #B26 #N35 #N35c">Melisso:</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Melisso,</mod>
+                     <mod change="#layer3" seq="2" type="reuse"> Melisso:</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">Melisso;</mod><mod seq="2" type="reuse">
+                        Melisso:</mod></rdg>
+               </app> io 'vo contarti un sogno</l>
+            <l n="2">Di questa <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">notte,</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">notte</mod>
+                     <mod change="#layer3" seq="2" type="reuse">notte,</mod></rdg>
+               </app> che mi <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">torna</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">r</mod>
+                     <mod change="#layer0" seq="2" type="over">torna</mod></rdg>
+               </app> a <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">mente</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">a</mod>
+                     <mod change="#layer0" seq="2" type="over">mente</mod></rdg>
+               </app>
+            </l>
+            <l n="3">In riveder la luna. Io me ne stava</l>
+            <l n="4">
+               <app>
+                  <lem wit="#N35 #N35c">Alla</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">A la</rdg>
+               </app> finestra che risponde al <app>
+                  <lem wit="#B26 #N35 #N35c">prato,</lem>
+                  <rdg wit="#AN #AV #NR26">prato</rdg>
+               </app>
+            </l>
+            <l n="5">Guardando in <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">alto: ed</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">alto. Ed</mod>
+                     <mod change="#layer0" seq="2" type="reuse"> alto: ed</mod></rdg>
+               </app> ecco <app>
+                  <lem wit="#N35 #N35c">all'</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">a l'</rdg>
+               </app> improvviso</l>
+            <l n="6">Distaccasi la <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">luna;</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">luna,</mod>
+                     <mod change="#layer3" seq="2" type="reuse">luna;</mod></rdg>
+               </app> e mi parea</l>
+            <l n="7">Che quanto nel cader <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">s'approssimava</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">più da vicino</mod>
+                     <mod change="#layer4" seq="2" type="superscript">s'approssimava</mod></rdg>
+               </app>,</l>
+            <l n="8">
+               <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">Tanto crescesse al guardo; infin che
+                     venne</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Facendo si venia, crescesse al
+                        guardo;</mod>
+                     <mod change="#layer4" seq="2" type="reuse">Tanto crescesse al guardo; in fin
+                        che venne</mod>
+                  </rdg>
+               </app>
+            </l>
+            <l n="9">
+               <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">A dar</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Finché</mod>
+                     <mod change="#layer4" seq="2" type="superscript">A dar</mod></rdg>
+               </app> di colpo <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">in mezzo al</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">diè nel</mod>
+                     <mod change="#layer4" seq="2" type="superscript">in mezzo al</mod></rdg>
+               </app>
+               <app>
+                  <lem wit="#NR26 #B26 #N35 #N35c">prato;</lem>
+                  <rdg><mod change="#layer0" seq="1">prato,</mod>
+                     <mod change="#layer1" seq="2" type="reuse">prato;</mod></rdg>
+                  <rdg wit="#AV">prato</rdg>
+                  <!-- al prato] prima p AV (da risolvere) -->
+               </app> ed era</l>
+            <l n="10">Grande <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">quanto</lem>
+                  <rdg wit="#AN">quant'</rdg>
+               </app> una secchia, e di scintille</l>
+            <l n="11">Vomitava una <app>
+                  <lem wit="#B26 #N35 #N35c">nebbia,</lem>
+                  <rdg wit="#AN #AV #NR26">nebbia</rdg>
+               </app> che stridea</l>
+            <l n="12">Sì forte come quando un carbon vivo </l>
+            <l n="13">
+               <app>
+                  <lem wit="#N35 #N35c">Nell'</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Nel<supplied>l'</supplied></mod>
+                     <mod change="#layer0" seq="2" type="reuse">Ne l'</mod></rdg>
+                  <rdg wit="#AV #NR26 #B26">Ne l'</rdg>
+               </app> acqua <anchor xml:id="v13-16"/>immergi e spegni. Anzi a quel modo </l>
+            <l n="14">La luna, come ho detto, in mezzo al prato</l>
+            <l n="15">Si spegneva annerando a poco a poco,</l>
+            <l n="16">E ne fumavan l’erbe intorno intorno.</l>
+            <app from="#v13-16">
+               <lem wit="#AV #NR26 #N35 #N35c">immergi e spegni. Anzi a quel modo / La luna, come ho
+                  detto, in mezzo al prato / Si spegneva annerando a poco a poco, / E ne fumavan
+                  l’erbe intorno intorno. </lem>
+               <rdg wit="#AN"><mod change="#layer0" seq="1">è spento, e ne fumavan l’erbe.</mod>
+                  <mod change="#layer1" seq="2">immergi e spegni. Anzi a quel modo / Si spegneva
+                     annerando a poco a poco <subst>
+                        <del>;</del>
+                        <add>,</add>
+                     </subst> / E ne tremavan l’erbe intorno intorno. </mod>
+                  <mod change="#layer3" seq="3" type="reuse">immergi e spegni. Anzi a quel modo / La
+                     luna, come ho detto, in mezzo al prato / Si spegneva annerando a poco a poco, /
+                     E ne fumavan l’erbe intorno intorno.</mod>
+               </rdg>
+               <rdg wit="#B26">immergi e spegni. Anzi a quel modo / La luna, come ho detto in mezzo
+                  al prato / Si spegneva, annerando, a poco a poco; / E ne fumavan l’erbe intorno
+                  intorno.</rdg>
+            </app>
+            <l n="17">Allor mirando in ciel, vidi <anchor xml:id="v17-18"/>rimaso</l>
+            <l n="18">Come un barlume, o <app from="#v17-18">
+                  <lem wit="#N35 #N35c">rimaso / Come un barlume, o</lem>
+                  <rdg wit="AN"><mod change="#layer0" seq="1">rimasto / Come un barlume e</mod>
+                     <mod change="#layer0" seq="2">un barlume / Rimasto, come</mod>
+                     <mod change="#layer1" seq="3">rimaso / Quasi un barlume o</mod>
+                     <mod change="#layer1" seq="4" type="reuse">rimaso / Come un barlume o</mod>
+                  </rdg>
+                  <rdg wit="#AV #NR26 #B26">rimaso / Come un barlume o</rdg>
+               </app> un' <app>
+                  <lem wit="#AV #NR26 #N35 #N35c">orma,</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">orma,</mod>
+                     <mod change="#layer3" seq="2" type="reuse">orma</mod>
+                     <mod change="#layer3" seq="3" type="reuse">orma,</mod></rdg>
+               </app> anzi una <app>
+                  <lem wit="#B26 #N35 #N35c">nicchia,</lem>
+                  <rdg wit="#AN #AV #NR26">nicchia</rdg>
+               </app>
+            </l>
+            <l n="19">Ond’ella fosse <app>
+                  <lem wit="#AV #NR26 #N35 #N35c">svelta;</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">svelta,</mod>
+                     <mod change="#layer3" seq="2" type="reuse">svelta;</mod></rdg>
+            </app><anchor xml:id="v19-20"/> 
+               in cotal guisa,</l>
+            <l n="20">Ch'io n'agghiacciava;
+            <app from="#v19-20">
+               <lem wit="#N35 #N35c">in cotal guisa, / Ch'io n'agghiacciava;</lem>
+               <rdg wit="#AN"><mod change="#layer0" seq="1">in
+                     <subst><del>q</del><add>g</add></subst>uisa ch'io / N'accapricciava,</mod>
+                  <mod change="#layer1" seq="2" type="reuse">in guisa ch'io / N'accapricciava;</mod></rdg>
+               <rdg wit="#AV">in guisa ch'io / N'accapricciava;</rdg>
+               <rdg wit="#NR26 #B26">in guisa ch'io / N'accapricciava</rdg>
+               </app> e ancor non m’assicuro.</l>
+               <app>
+                  <lem wit="#B26 #N35 #N35c">MELISSO.</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Melisso,</mod> <mod change="#layer0" seq="2" type="reuse">Melisso</mod>
+                  </rdg>
+                  <rdg wit="#AV">Melisso</rdg>
+                  <rdg wit="#NR26"><hi rend="italic">Melisso.</hi></rdg>
+               </app>
+            <l n="21">E <anchor xml:id="v21-22"/>bene hai che temer, chè agevol cosa</l>
+            <l n="22">Fora cader <app from="#v21-22">
+                  <lem wit="#N35 #N35c">ben hai che temer, che agevol cosa<lb/>Fora cader</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">ben hai da temer, ch’è facil cosa / Cader
+                     proprio</mod> <mod change="#layer2" seq="2" type="reuse">bene hai che temer, chè agevol
+                        cosa / Fora cader</mod>
+                  </rdg>
+                  <rdg wit="#AV #NR26 #B26">bene hai che temer, chè agevol cosa / Fora cader</rdg>
+               </app> la luna in sul tuo <app>
+                  <lem wit="#AV #NR26 #N35 #N35c">campo.</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">campo</mod> <mod change="#layer1" seq="2" type="superscript">prato.</mod> 
+                     <mod change="#layer3" seq="3" type="ascribed">campo.</mod>
+                  </rdg>
+               </app>
+            </l>
+               <app>
+                  <lem wit="#N35 #N35c">ALCETA.</lem>
+                  <rdg wit="#AN #AV">Alceta</rdg>
+                  <rdg wit="#NR26"><hi rend="italic">Alceta.</hi></rdg>
+                  <rdg wit="#B26">ALCETA</rdg>
+               </app>
+            <l n="23"><anchor xml:id="v23-24"/>Chi sa? non veggiam noi spesso di state
+            </l>
+            <l n="24"> Cader <app from="#v23-24">
+                  <lem wit="#N35 #N35c">Chi sa? non veggiam noi spesso di state / Cader</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Chi sa? forse che visto hai poche
+                     notti / Cader</mod> <mod change="#layer3" seq="2" type="reuse">Che sai? forse di state
+                        hai poche notti / Visto cader</mod>
+                     <mod change="#layer3" seq="3" type="reuse">Chi sa? Non veggiam noi spesso di
+                        state / Cader</mod>
+                  </rdg>
+                  <rdg wit="#AV"><mod seq="1">Chi sa? non veggiam noi spesso di state / Cader</mod> <mod type="reuse">Chi sa? Non veggiam noi spesso di
+                        state / Cader</mod>
+                  </rdg>
+                  <rdg wit="#NR26 #B26">Chi sa? Non veggiam noi spesso di state / Cader</rdg>
+               </app>le stelle? 
+               <app>
+                  <lem wit="#B26 #N35 #N35c">MELISSO.</lem>
+                  <rdg wit="#AN #AV">Melisso</rdg>
+                  <rdg wit="#NR26"><hi rend="italic">Melisso.</hi></rdg>
+               </app>
+               <anchor xml:id="v24-28"/>Egli ci ha tante stelle,</l>
+            <l n="25">Che picciol danno è cader l’una o l’altra</l>
+            <l n="26">Di loro, e mille rimaner. 
+               <app>
+                  <lem wit="#AV #NR26 #B26 #N35 #N35c">Egli ci ha tante stelle, / Che picciol danno
+                     è cader l’una o l’altra / Di loro, e mille rimaner. Ma sola / Ha questa luna in
+                     ciel, che da nessun/ Cader fu vista mai se non in sogno.</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Eh pazzo! egli n'ha tante / Lassù che
+                  ne potria ben senza danno / Precipitar più che non fa <subst><del>,</del><add>.</add></subst></mod>
+                     <mod change="#layer1" seq="2" type="reuse">Eh pazzo! Egli n'ha tante / Lassù,
+                        che non fa danno se assai gran parte / Cader potria più che non fa.</mod>
+                     <mod change="#layer1" seq="3" type="reuse">Eh pazzo! Egli n'ha tante / Lassù,
+                        che non fa danno a cader l'una / O l'altra, e mille rimaner.</mod>
+                     <mod change="#layer3" seq="4" type="reuse">Egli ci ha tante stelle, / Lassù,
+                        ch'ei non è danno a cader l'una o l'altra, e mille rimaner.</mod>
+                     <mod change="#layer3" seq="5" type="reuse">Egli ci ha tante stelle, / Che
+                        picciol dannno è cader l'una o l'altra / Di loro, e mille rimaner.</mod>
+                  </rdg>
+               </app>
+               Ma sola</l>
+            <l n="27">Ha questa luna in ciel, che da nessun</l>
+            <l n="28">Cader fu vista mai se non in sogno.</l>
+         </lg>
+      </body>
+   </text>
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="RP">Roberta Priore</persName>
+               <persName xml:id="BN">Beatrice Nava</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <interpGrp>
+                  <interp xml:id="altVariant">Varianti alternative</interp>
+               </interpGrp>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <bibl>
+               <author>Paola Italia</author>
+               <title>Proposta di edizione del quaderno napoletano</title>
+               <publisher>Carocci</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date>2016</date>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. XIII.22</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer0" scope="major"/>
+                           <handNote corresp="#layer1" scope="minor"/>
+                           <handNote corresp="#layer2" scope="minor"/>
+                           <handNote corresp="#layer3" scope="minor"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="AV">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Visso</settlement>
+                        <repository>Archivio comunale di Visso</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="NR26">
+                  <bibl>Nuovo ricoglitore 1826</bibl>
+               </witness>
+               <witness xml:id="B26">
+                  <bibl>Versi del Conte Giacomo Leopardi, Bologna, Stamperia delle Muse,
+                     1826.</bibl>
+               </witness>
+               <witness xml:id="F31">
+                  <bibl>Canti del Conte Giacomo Leopardi, Firenze, Piatti, 1831.</bibl>
+               </witness>
+               <witness xml:id="N35">
+                  <bibl>Opere di Giacomo Leopardi, Vol. I. Canti di Giacomo Leopardi, Napoli,
+                     Starita, 1835.</bibl>
+               </witness>
+               <witness xml:id="N35c">
+                  <bibl>Esemplare sciolto dell’edizione Starita con errori che vennero poi eliminati
+                     prima della tiratura di N35, su cui Leopardi fece correzioni e aggiunte per la
+                     stampa progettata da Baudry. </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange corresp="AN">
+               <change xml:id="layer0">Penna A</change>
+               <change xml:id="layer1">Penna B</change>
+               <change xml:id="layer2">Penna C</change>
+               <change xml:id="layer3">Penna D</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <app>
+               <lem wit="#N35 #N35c">XIV.<lb/> ALLA LUNA</lem>
+               <rdg wit="#AN"><mod change="#layer0" seq="1">Idillio | La Luna</mod>
+                  <mod change="layer0" type="reuse" seq="2"> Idillio | La Luna o la Ricordanza</mod>
+                  <mod change="layer1" type="reuse" seq="3"> Idillio | La Ricordanza</mod></rdg>
+               <rdg wit="#AV">La Ricordanza | Idillio III</rdg>
+               <rdg wit="#NR26">LA RICORDANZA. | Idillio III.</rdg>
+               <rdg wit="#B26">LA RICORDANZA | IDILLIO III</rdg>
+               <rdg wit="#F31">XIII. | ALLA LUNA.</rdg>
+            </app>
+         </head>
+         <lg>
+            <l n="1">
+               <app>
+                  <lem wit="#AN #NR26 #B26 #F31 #N35 #N35c">O</lem>
+                  <rdg wit="#AV"><mod seq="1">Oh</mod>
+                     <mod type="reuse" seq="2">O</mod></rdg>
+               </app> graziosa <app>
+                  <lem wit="#F31 #N35 #N35c">luna</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">Luna</rdg>
+               </app>, io mi rammento</l>
+            <l n="2">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Che, or volge l'anno,</lem>
+                  <rdg wit="AN"><mod change="#layer0" seq="1">Ch'or volge un <subst>
+                           <del>al</del>
+                           <add>an</add>
+                        </subst>no,</mod>
+                     <mod change="#layer0" type="reuse" seq="2">Ch'è presso a un anno,</mod>
+                     <mod change="#layer1" type="reuse" seq="3">Che, or volge un anno,</mod></rdg>
+                  <rdg wit="#AV #NR26 #B26">Che, or volge un anno</rdg>
+               </app>
+               <anchor xml:id="v.2-3"/> sovra questo colle</l>
+            <l n="3"> Io venia pien <app from="#v2-3">
+                  <lem wit="#N35c">sovra questo colle / Io venia pien</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">io su questo poggio / Venia
+                        carco</mod>
+                     <mod change="#layer0" type="reuse" seq="2">io sopra questo poggio / Venia
+                        carco</mod></rdg>
+                  <rdg wit="#AV #NR26 #B26">io sopra questo poggio / Venia carco</rdg>
+                  <rdg wit="#F31">io sovra questo colle / Venia carco</rdg>
+                  <rdg wit="#N35">sovra questo colle / <choice>
+                        <sic>Venia pieno</sic>
+                        <corr>Io venia pien</corr>
+                     </choice></rdg>
+               </app> d’angoscia a rimirarti:</l>
+            <l n="4">E tu pendevi allor <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">su quella selva</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">sopra quel bosco,</mod>
+                     <mod change="#layer0" type="reuse" seq="2">sopra quel prato,</mod>
+                     <mod change="#layer0" type="added" seq="3">su quella selva,</mod>
+                     <mod change="#layer2" type="reuse" seq="4">su quella selva</mod>
+                  </rdg>
+               </app>
+            </l>
+            <l n="5">
+               <app>
+                  <lem wit="#NR26 #B26 #F31 #N35 #N35c">Siccome or</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Com'ora</mod>
+                     <mod change="#layer1" type="superscript" seq="2">Siccome or</mod></rdg>
+                  <rdg wit="#AV">Siccome or</rdg>
+               </app> fai, che tutta la rischiari.</l>
+            <l n="6">Ma nebuloso e tremulo dal pianto</l>
+            <l n="7">Che mi sorgea sul ciglio, <anchor xml:id="v.7-8"/>alle mie luci</l>
+            <l n="8">Il tuo volto apparia, che travagliosa <app from="#v7-8">
+                  <lem wit="#N35 #N35c">alle mie luci / Il tuo volto apparia, che travagliosa</lem>
+                  <rdg wit="#AN">
+                     <mod change="#layer0" seq="1"><subst>
+                           <del>al</del>
+                           <add type="immediate">a le</add>
+                        </subst> mie luci / Il tuo viso apparia, perchè dolente</mod>
+                     <mod change="#layer0" type="reuse" seq="2">il tuo bel viso / Al mio sguardo
+                        apparia, perchè dolente</mod>
+                     <mod change="#layer1" seq="3">a le mie luci / Il tuo volto apparia, che
+                        travagliosa</mod>
+                     <mod change="#layer3" type="reuse" seq="4">a le mie luci / Il tuo volto
+                        apparia; chè travagliosa</mod></rdg>
+                  <rdg wit="#AV #NR26 #B26 #F31">a le mie luci / Il tuo volto apparia; ché
+                     travagliosa</rdg>
+               </app>
+            </l>
+            <l n="9">Era mia vita: ed è, nè <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">cangia</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">cangia</mod>
+                     <mod change="#layer1" type="superscript" seq="2">cambia</mod>
+                     <mod change="#layer3" type="reuse" seq="3">cangia</mod></rdg>
+               </app> stile,</l>
+            <l n="10">O mia diletta <app>
+                  <lem wit="#F31 #N35 #N35c">luna</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">Luna</rdg>
+               </app>. E pur mi giova</l>
+            <l n="11">La <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">ricordanza</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">rimembranza</mod>
+                     <mod type="reuse" change="#layer0" seq="2">ricordanza</mod></rdg>
+               </app>, e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">'l</rdg>
+               </app> noverar l’etate</l>
+            <l n="12">Del mio dolore. Oh <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35c">come grato</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">quanto grato</mod>
+                     <mod change="#layer1" type="superscript" seq="2">come grato</mod></rdg>
+                  <rdg wit="#AN" ana="altVariant" type="margin" change="#layer3">(come sì
+                     grato)</rdg>
+               </app> occorre</l>
+            <l n="13"><anchor xml:id="v.13-15"/>Nel tempo giovanil, quando ancor lungo</l>
+            <l n="14">La speme e breve ha la memoria il corso,</l>
+            <l n="15">Il rimembrar <app from="#v.13-15">
+                  <lem wit="#N35c">Nel tempo giovanil, quando ancor lungo / La speme e breve ha la
+                     memoria il corso, / Il rimembrar</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31 #N35">Il sovvenir</rdg>
+               </app>
+               <app>
+                  <lem wit="#N35 #N35c">delle</lem>
+                  <rdg wit="#AV"><mod seq="1">de le</mod>
+                     <mod type="reuse" seq="2">delle</mod></rdg>
+                  <rdg wit="#AN #NR26 #B26 #F31">de le</rdg>
+               </app> passate <app>
+                  <lem wit="#B26 #F31 #N35 #N35c"> cose,</lem>
+                  <rdg wit="#AN #AV #NR26">cose</rdg>
+               </app>
+            </l>
+            <l n="16">Ancor che <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35c">triste</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">tristi</mod>
+                     <mod change="#layer0" type="reuse" seq="2">triste </mod></rdg>
+               </app>, <app>
+                  <lem wit="#N35c">e che l’affanno duri!</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">e ancor che 'l pianto duri!</mod>
+                     <mod change="#layer2" type="reuse" seq="2">e ancor che il pianto duri!</mod>
+                  </rdg>
+                  <rdg wit="#AV #NR26 ">ancor che il pianto duri!</rdg>
+                  <rdg wit="#B26 #F31 #N35">ancor che il pianto duri.</rdg>
+               </app>
+            </l>
+         </lg>
+      </body>
+   </text>
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="RP">Roberta Priore</persName>
+               <persName xml:id="BN">Beatrice Nava</persName>
+               <persName xml:id="CB">Chiara Bollini</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <bibl>
+               <author>Paola Italia</author>
+               <title>Proposta di edizione del quaderno napoletano</title>
+               <publisher>Carocci</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date>2016</date>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. XIII.22</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer2" scope="major"/>
+                           <handNote corresp="#layer3" scope="minor"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="AV">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Visso</settlement>
+                        <repository>Archivio comunale di Visso</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="CP25">
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>Caffè di Petronio 1825.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="NR26">
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>Nuovo ricoglitore 1826</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="B26">
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>Versi del Conte Giacomo Leopardi, Bologna, Stamperia delle Muse,
+                           1826.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="F31">
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>Canti del Conte Giacomo Leopardi, Firenze, Piatti, 1831.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="N35">
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>Opere di Giacomo Leopardi, Vol. I. Canti di Giacomo Leopardi, Napoli,
+                           Starita, 1835.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="N35c">
+                  <msDesc type="print">
+                     <msIdentifier>
+                        <idno>Esemplare sciolto dell’edizione Starita con errori che vennero poi
+                           eliminati prima della tiratura di N35, su cui Leopardi fece correzioni e
+                           aggiunte per la stampa progettata da Baudry.</idno>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange corresp="AN">
+               <change xml:id="layer2">Penna C</change>
+               <change xml:id="layer3">Penna D</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <app>
+               <lem wit="#N35 #N35c">XV.<lb/> IL SOGNO.</lem>
+               <rdg wit="#AN">Idillio<lb/> Il Sogno</rdg>
+               <rdg wit="#AV">Il Sogno<lb/> Idillio IV</rdg>
+               <rdg wit="#CP25">Il Sogno.<lb/> ELEGIA (inedita)</rdg>
+               <rdg wit="#NR26">IL SOGNO.<lb/> Idillio IV.</rdg>
+               <rdg wit="#B26">IL SOGNO<lb/> IDILLIO IV</rdg>
+               <rdg wit="#F31">XIV.<lb/> IL SOGNO.</rdg>
+            </app>
+         </head>
+         <lg>
+            <l n="1">Era il mattino, e <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">tra</lem>
+                  <rdg wit="#AN">fra</rdg>
+               </app> le chiuse imposte</l>
+            <l n="2">Per lo balcone insinuava il <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">sole</lem>
+                  <rdg wit="#CP25">Sole</rdg>
+               </app>
+            </l>
+            <l n="3">
+               <app>
+                  <lem wit="#N35 #N35c">Nella</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">Ne la</rdg>
+               </app> mia cieca stanza <app>
+                  <lem wit="#F31 #N35 #N35c">il primo albore;</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26">i primi raggi,</rdg>
+               </app>
+            </l>
+            <l n="4">Quando <app>
+                  <lem wit="#F31 #N35 #N35c">in sul tempo</lem>
+                  <rdg wit="#AV #CP25 #NR26">in su l'ora</rdg>
+                  <rdg wit="#AN" resp="#BN #RP"><mod change="#layer2" seq="1">sul' ora</mod>
+                     <mod change="#layer2" seq="2" type="reuse">su l'ora</mod>
+                     <mod change="#layer3" seq="3" type="reuse">in su l'ora</mod></rdg>
+               </app> che più leve il sonno</l>
+            <l n="5">E più soave le pupille <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">adombra</lem>
+                  <rdg wit="#AN">annebbia</rdg>
+                  <rdg wit="#AN" change="layer2" ana="#altVariant" type="margin">(adombra)</rdg>
+               </app>, </l>
+            <l n="6">
+               <app>
+                  <lem wit="#CP25 #NR26 #B26 #F31 #N35 #N35c">Stettemi</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Vennemi</mod><mod change="#layer3" seq="2" type="superscript">Stettemi</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">Vennemi a</mod> <mod seq="2" type="immediate">Stettemi</mod></rdg>
+               </app> allato e riguardommi in viso</l>
+            <l n="7">Il simulacro di colei <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">che</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">ch'</mod><mod change="#layer2" seq="2" type="reuse">che</mod></rdg>
+               </app> amore </l>
+            <l n="8">Prima <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">insegnommi,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">insegnommi,</mod>
+                     <mod change="#layer3" seq="2">insegnommi</mod>
+                     <mod change="#layer3" seq="3">insegnommi,</mod>
+                  </rdg>
+                  <rdg wit="#CP25">insegnommi</rdg>
+               </app> e poi lasciommi in pianto.</l>
+            <l n="9">Morta non mi parea, ma <app>
+                  <lem wit="#AN #N35c">trista,</lem>
+                  <rdg wit="#AV #CP25 #NR26 #B26 #F31 #N35">trista</rdg>
+               </app> e quale</l>
+            <l n="10">
+               <app>
+                  <lem wit="#CP25 #N35 #N35c">Degl’</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">De gl'</rdg>
+               </app> infelici è la sembianza. Al capo</l>
+            <l n="11">
+               <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 N35c">Appressommi</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Accostommi</mod><mod change="#layer3" seq="2" type="reuse">Appressommi</mod></rdg>
+               </app> la destra, e sospirando,</l>
+            <l n="12">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Vivi, mi</lem>
+                  <rdg wit="#AV #CP25 #NR26 #B26">Vivi tu,</rdg>
+                  <rdg wit="#AN">Vivi pur,</rdg>
+               </app> disse, e ricordanza alcuna</l>
+            <l n="13">Serbi di noi? Donde, risposi, e come</l>
+            <l n="14">
+               <app>
+                  <lem wit="#N35 #N35c">Vieni,</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">Vieni</rdg>
+               </app> o cara beltà? Quanto, deh quanto</l>
+            <l n="15">Di te mi 
+               <app><lem wit="#CP25 #NR26 #B26 #F31 #N35 #N35c">duolse</lem>
+               <rdg wit="#AN #AV">dolse</rdg></app> 
+               e <app>
+                  <lem wit="#AN #NR26 #B26 #F31 #N35 #N35c">duol:</lem>
+                  <rdg wit="#AV"><mod seq="1">duol;</mod> <mod seq="2" type="reuse">duol:</mod></rdg>
+                  <rdg wit="#CP25">duol;</rdg>
+               </app>
+                  <anchor xml:id="v.15-16"/>nè mi credea</l> 
+            <l n="16">Che risaper tu lo dovessi 
+               <app from="#v.15-16" resp="#BN #RP">
+                  <lem wit="#F31 #N35 #N35c">nè mi credea<lb/> Che risaper tu lo dovessi</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">nè che tu fossi<lb/> Mai per saperlo io mi credeva;</rdg>
+                  <rdg wit="#CP25">nè che tu fossi<lb/> Mai per saperlo io mi credeva,</rdg>
+               </app>; e <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">questo</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26">questa</rdg>
+               </app>
+            </l>
+            <l n="17">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Facea più sconsolato il dolor mio</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26">M'era cagion di più crudele affanno</rdg>
+               </app>.
+            </l>
+            <l n="18">Ma <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #N35 #N35c">sei</lem>
+                  <rdg wit="#F31">se'</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">se'</mod><mod change="#layer2" seq="2" type="reuse">sei</mod></rdg>
+               </app> tu per lasciarmi un’ <app>
+                  <lem wit="#AN #AV #CP25 #NR26 #B26 #F31 #N35 #N35c">altra</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">c</mod><mod change="#layer2" seq="2" type="immediate">altra</mod>
+                  </rdg>
+               </app> volta?</l>
+            <l n="19">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Io n’ho gran tema</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26">Certo ch’io ’l temo</rdg>
+               </app> Or dimmi, e che <app>
+                  <lem wit="#CP25 #B26 #F31 #N35 #N35c">t'</lem>
+                  <rdg wit="#NR26">ti</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">ti</mod><mod change="#layer2" seq="2" type="reuse">t'</mod></rdg>
+                  <rdg wit="#AV"><mod change="#layer2" seq="1">ti</mod><mod change="#layer2" seq="2" type="reuse">t'</mod></rdg>
+               </app> avvenne?</l>
+            <l n="20">
+               <app>
+                  <lem wit="#N35 #N35c">Sei tu quella di prima</lem>
+                  <rdg wit="#AV #NR26 #B26 #F31">Se’ tu quella di prima</rdg>
+                  <rdg wit="#CP25">Perchè lunge mi fosti</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Se’ pur quella di prima</mod>
+                     <mod change="#layer2" type="reuse">Se’ tu quella di prima</mod></rdg>
+               </app>? <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">E</lem>
+                  <rdg wit="#CP25">e</rdg>
+               </app> che ti strugge</l>
+            <l n="21"> Internamente? <app>
+                  <lem wit="#F31 #N35 #N35c">Obblivione</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">Obblivion</rdg>
+                  <rdg wit="#CP25">Obblivìon</rdg>
+               </app>
+               <app>
+                  <lem wit="#F31 #N35 #N35c">ingombra</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26">ricopre</rdg>
+               </app>
+            </l>
+            <l n="22">I tuoi <app>
+                  <lem wit="#AN #B26 #F31 #N35 #N35c">pensieri,</lem>
+                  <rdg wit="#AV #CP25 #NR26">pensieri</rdg>
+               </app> e gli avviluppa il <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">sonno;</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26">sonno,</rdg>
+               </app>
+            </l>
+            <l n="23">Disse <app>
+                  <lem wit="#AN #CP25 #NR26 #B26 #F31 #N35 #N35c">colei.</lem>
+                  <rdg wit="#AV"><mod seq="1">colei,</mod><mod seq="2" type="reuse">colei.</mod>
+                  </rdg>
+               </app> Son morta, e mi vedesti</l>
+            <l n="24">L’ultima <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">volta,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">volta</mod><mod change="#layer3" seq="2" type="reuse">volta,</mod>
+                  </rdg>
+               </app>
+               <app>
+                  <lem wit="#F31 #N35 #N35c">or son più lune</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26">è già gran tempo</rdg>
+               </app>. Immensa</l>
+            <l n="25">Doglia m’oppresse a queste voci il petto.</l>
+            <l n="26">Ella <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">seguì: nel</lem>
+                  <rdg wit="#CP25">seguì. Sul</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">seguì: sul</mod><mod change="#layer2" seq="2" type="reuse">seguì: nel</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">seguì: sul</mod><mod seq="2" type="immediate">seguì: nel</mod></rdg>
+               </app> fior <app>
+                  <lem wit="#CP25 #N35 #N35c">degli</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">de gli</rdg>
+               </app> anni estinta,</l>
+            <l n="27"><app>
+                  <lem wit="#CP25 #NR26 #B26 #F31 #N35 #N35c">Quand’è il</lem>
+                  <rdg wit="#AN #AV">quando è 'l</rdg>
+               </app> viver più <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">dolce,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">dolce</mod> <mod change="#layer3" seq="2" type="reuse">dolce,</mod></rdg>
+               </app> e pria che <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">'l</rdg>
+               </app> core</l>
+            <l n="28">Certo si renda com’è tutta indarno</l>
+            <l n="29">L’umana speme. A desiar colei</l>
+            <l n="30">Che <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">d’ogni affanno</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">de gli affanni</mod><mod change="#layer2" seq="2" type="reuse">d’ogni affanno</mod></rdg>
+               </app> il <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">tragge,</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26">tragge</rdg>
+               </app> ha poco andare</l>
+            <l n="31">L’egro <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">mortal;</lem>
+                  <rdg wit="#CP25">mortal,</rdg>
+               </app> ma sconsolata arriva</l>
+            <l n="32">La morte <app>
+                  <lem wit="#N35 #N35c">ai</lem>
+                  <rdg wit="#AV #CP25 #NR26 #B26 #F31">a i</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">a'</mod><mod change="#layer2" seq="2" type="superscript">a
+                        i</mod></rdg>
+               </app> giovanetti, e duro è <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">'l</rdg>
+               </app> fato</l>
+            <l n="33">Di quella speme <app>
+                  <lem wit="#N35 #N35c">che sotterra è spenta</lem>
+                  <rdg wit="#F31">cui la terra opprime</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">che ’l sepolcro estingue</mod><mod change="#layer3" seq="2" type="superscript">cui la tomba estingue</mod></rdg>
+                  <rdg wit="#AV #CP25 #NR26 #B26">cui la tomba estingue</rdg>
+               </app>. </l>
+            <l n="34">Vano è <app>
+                  <lem wit="#N35 #N35c">saper</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">’l saper</rdg>
+               </app> quel che <app>
+                  <lem wit="#AN #CP25 #NR26 #B26 #F31 #N35 #N35c">natura</lem>
+                  <rdg wit="#AV"><mod seq="1">Natura</mod><mod seq="2" type="reuse">natura</mod></rdg>
+               </app> asconde</l>
+            <l n="35">
+               <app>
+                  <lem wit="#N35 #N35c">Agl’</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">A gl'</rdg>
+               </app> inesperti <app>
+                  <lem wit="#N35 #N35c">della</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">de la</rdg>
+               </app> vita, e molto</l>
+            <l n="36">
+               <app>
+                  <lem wit="#N35 #N35c">All’</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">A l'</rdg>
+               </app> immatura sapienza il <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">cieco</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">folle</mod><mod change="#layer2" seq="2" type="ascribed">cieco</mod></rdg>
+               </app>
+            </l>
+            <l n="37">Dolor prevale. <app>
+                  <lem wit="#CP25 #NR26 #B26 #F31 #N35 #N35c">Oh sfortunata, oh cara,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">O sfortunata, o cara,</mod><mod change="#layer2" seq="2" type="reuse">Oh sfortunata<del>,</del><add type="rewritten">,</add> oh
+                     cara,</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">O sfortunata, o cara,</mod><mod seq="2" type="reuse">Oh sfortunata, oh cara,</mod></rdg>
+               </app>
+            </l>
+            <l n="38">
+               <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">Taci, taci</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26">Taci taci</rdg>
+               </app>, diss’io, <app>
+                  <lem wit="#NR26 #N35 #N35c">che</lem>
+                  <rdg wit="#AV #CP25 #B26 #F31">chè</rdg>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">che</mod><mod change="#layer2" seq="2" type="reuse">chè</mod></rdg>
+               </app> tu mi schianti</l>
+            <l n="39">Con questi detti il cor. Dunque <app>
+                  <lem wit="#N35 #N35c">sei</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">se'</rdg>
+               </app>
+               <app>
+                  <lem wit="#NR26 #N35 #N35c">morta,</lem>
+                  <rdg wit="#AN #AV #CP25 #B26 #F31">morta</rdg>
+               </app>
+            </l>
+            <l n="40">O mia <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">diletta, ed io son vivo,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">diletta? ed io son vivo?</mod><mod change="#layer2" seq="2" type="reuse">diletta, ed io son vivo,</mod></rdg>
+               </app> ed era</l>
+            <l n="41">Pur fisso <note resp="author" type="quotation" place="margin" source="#AN"> fisso. Past. fido At. 1. Coro. stanza 4.</note> in
+               ciel che <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">quei</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">que’</mod><mod change="#layer2" seq="2" type="reuse">quei</mod></rdg>
+               </app>
+               <app>
+                  <lem wit="#AN #AV #CP25 #NR26 #B26 #F31 #N35 #N35c">sudori estremi</lem>
+                  <rdg wit="#AN" ana="#altVariant" type="margin">(angosce
+                     estreme)</rdg>
+               </app>
+            </l>
+            <l n="42">Cotesta <app>
+                  <lem wit="#AN #AV #CP25 #NR26 #B26 #F31 #N35 #N35c">cara e tenerella</lem>
+                  <rdg wit="#AN" ana="#altVariant" type="margin">(vaga,
+                     delicata)</rdg>
+               </app> salma</l>
+            <l n="43">Provar dovesse, a me restasse intera</l>
+            <l n="44">Questa misera spoglia? Oh quante volte</l>
+            <l n="45">In ripensar che più non <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">vivi,</lem>
+                  <rdg wit="#CP25">vivi</rdg>
+                  <rdg wit="#AN">vivi<del>,</del><add type="rewritten">,</add>
+                  </rdg>
+               </app> e mai</l>
+            <l n="46">Non avverrà ch’io ti ritrovi al mondo,</l>
+            <l n="47">Creder nol posso. Ahi ahi, che cosa è questa</l>
+            <l n="48">Che morte s’addimanda? <app>
+                  <lem wit="#AV #CP25 #NR26 #B26 #F31 #N35 #N35c">Oggi</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">oggi</mod><mod change="#layer2" seq="2" type="over">Oggi</mod></rdg>
+               </app> per prova</l>
+            <l n="49">Intenderlo <app>
+                  <lem wit="#AN #CP25 #B26 #F31 #N35 #N35c">potessi,</lem>
+                  <rdg wit="#AV #NR26">potessi</rdg>
+               </app> e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">'l</rdg>
+               </app> capo inerme</l>
+            <l n="50">
+               <app>
+                  <lem wit="#N35 #N35c">Agli</lem>
+                  <rdg wit="#AN #AV #CP25 #NR26 #B26 #F31">A gli</rdg>
+               </app> atroci del fato odii sottrarre.</l>
+         </lg> <!-- arrivate qui -->
+      </body>
+   </text>
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName>Luca Ciarfella e Lisa Di Domenica</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <interpGrp>
+                  <interp xml:id="altVariant">Varianti alternative</interp>
+               </interpGrp>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. XIII.22</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer2" scope="major"/>
+                           <handNote corresp="#layer3" scope="minor"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="AV">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Visso</settlement>
+                        <repository>Archivio comunale di Visso</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="NR26">
+                  <bibl>Nuovo ricoglitore 1826</bibl>
+               </witness>
+               <witness xml:id="B26">
+                  <bibl>Versi del Conte Giacomo Leopardi, Bologna, Stamperia delle Muse,
+                     1826.</bibl>
+               </witness>
+               <witness xml:id="F31">
+                  <bibl>Canti del Conte Giacomo Leopardi, Firenze, Piatti, 1831.</bibl>
+               </witness>
+               <witness xml:id="N35">
+                  <bibl>Opere di Giacomo Leopardi, Vol. I. Canti di Giacomo Leopardi, Napoli,
+                     Starita, 1835.</bibl>
+               </witness>
+               <witness xml:id="N35c">
+                  <bibl>Esemplare sciolto dell’edizione Starita con errori che vennero poi eliminati
+                     prima della tiratura di N35, su cui Leopardi fece correzioni e aggiunte per la
+                     stampa progettata da Baudry. </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange corresp="AN">
+               <change xml:id="layer0">Penna A</change>
+               <change xml:id="layer1">Penna B</change>
+               <change xml:id="layer2">Penna C</change>
+               <change xml:id="layer3">Penna D</change>
+            </listChange>
+         </creation>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <app>
+               <lem wit="#N35c">XVI.<lb/> LA VITA SOLITARIA.</lem>
+               <rdg wit="#AN"><mod change="#layer2">Idillio | La Vita solitaria</mod>
+                  <mod change="#layer2" type="reuse">Idillio | La vita solitaria</mod></rdg>
+               <rdg wit="#AV">La vita solitaria | Idillio VI</rdg>
+               <rdg wit="#NR26"><hi rend="smallcaps">LA VITA SOLITARIA.</hi> | <hi rend="italic">Idillio VI.</hi></rdg>
+               <rdg wit="#B26"><hi rend="smallcaps">LA VITA SOLITARIA</hi> | IDILLIO VI</rdg>
+               <rdg wit="#F31">XV. | LA VITA SOLITARIA.</rdg>
+            </app>
+         </head>
+         <lg>
+            <l n="1"> La mattutina <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">pioggia,</lem>
+                  <rdg wit="AN"><mod change="#layer2" seq="1">pioggia</mod>
+                     <mod change="#layer3" seq="2" type="reuse">pioggia,</mod></rdg>
+               </app> allor che l'ale </l>
+            <l n="2">Battendo esulta <app>
+                  <lem wit="#N35 #N35c">nella</lem>
+                  <rdg wit="#AN #NR26 #B26 #F31">ne la</rdg>
+                  <rdg wit="#AV"><mod seq="1">nella</mod>
+                     <mod type="immediate" seq="2">ne la</mod>
+                  </rdg>
+               </app> chiusa stanza</l>
+            <l n="3">
+               <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35c">La gallinella</lem>
+                  <rdg wit="N35"><choice>
+                        <sic>Le gallinella</sic>
+                        <corr>La gallinella</corr>
+                     </choice></rdg>
+               </app>, ed al balcon s'affaccia</l>
+            <l n="4">L'abitator de' campi, e <app>
+                  <lem wit="#AV #B26 #F31 #N35 #N35c">il Sol</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">'l sol</mod>
+                     <mod change="#layer2" seq="2" type="reuse">il Sol</mod></rdg>
+                  <rdg wit="#NR26">il sol</rdg>
+               </app> che <app>
+                  <lem wit="#AN #AV #B26 #F31 #N35 #N35c">nasce</lem>
+                  <rdg wit="#NR26">nasce,</rdg>
+               </app>
+            </l>
+            <l n="5">I suoi <app>
+                  <lem wit="#F31 #N35 #N35c">tremuli</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">trepidi</rdg>
+               </app> rai fra le cadenti</l>
+            <l n="6">Stille <app>
+                  <lem wit="#N35 #N35c">saetta, alla</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">tramanda, a la</rdg>
+               </app> capanna mia </l>
+            <l n="7">Dolcemente <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">picchiando,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">picchiando</mod>
+                     <mod change="#layer2" seq="2" type="reuse">picchiando,</mod></rdg>
+               </app> mi <app>
+                  <lem wit="#AN #NR26 #B26 #F31 #N35 #N35c">risveglia</lem>
+                  <rdg wit="#AV"><mod seq="1">risp</mod>
+                     <mod seq="2" type="immediate">risveglia</mod></rdg>
+               </app>; </l>
+            <l n="8">E sorgo, e i lievi nugoletti, e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31"> 'l</rdg>
+               </app> primo</l>
+            <l n="9">
+               <app>
+                  <lem wit="#N35 #N35c">Degli</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">De gli</rdg>
+               </app> augelli sussurro, e l'aura fresca,</l>
+            <l n="10">E le ridenti piagge <app>
+                  <lem wit="#N35c">benedico:</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31 #N35">benedico;</rdg>
+               </app>
+            </l>
+            <l n="11">
+               <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">Poichè</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Perchè</mod>
+                     <mod change="#layer2" seq="2" type="reuse">Poichè</mod></rdg>
+               </app> voi, cittadine infauste mura,</l>
+            <l n="12">Vidi e conobbi assai, <app>
+                  <lem wit="#N35 #N35c">là dove segue</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">dove si piglia</rdg>
+                  <rdg wit="#F31">dove si prende</rdg>
+               </app>
+            </l>
+            <l n="13">
+               <app>
+                  <lem wit="#N35 #N35c">Odio al dolor compagno; e doloroso</lem>
+                  <rdg wit="#AN">Lo sventurato a scherno; e <subst>
+                        <del>sf</del>
+                        <add type="immediate">sventurato</add>
+                     </subst></rdg>
+                  <rdg wit="#AV #NR26 #B26 #F31">Lo sventurato a scherno; e sventurato</rdg>
+               </app>
+            </l>
+            <l n="14">Io <app>
+                  <lem wit="#F31 #N35 #N35c">vivo</lem>
+                  <rdg wit="#AN #AV #NR26 #B26">nacqui</rdg>
+               </app>, e tal morrò, deh <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">tosto!</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">presto</mod>
+                     <mod change="#layer2" seq="2" type="superscript">tosto!</mod></rdg>
+               </app>
+               <app>
+                  <lem wit="#AN #NR26 #B26 #F31 #N35 #N35c">Alcuna</lem>
+                  <rdg wit="#AV"><mod seq="1">Alcuna,</mod>
+                     <mod seq="2" type="reuse">Alcuna</mod></rdg>
+               </app>
+            </l>
+            <l n="15">
+               <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">Benchè</lem>
+                  <rdg wit="#AN" ana="#altVariant" rend="margin">(Ben che)</rdg>
+               </app> scarsa pietà pur <app>
+                  <lem wit="#N35 #N35c">mi dimostra</lem>
+                  <rdg wit="#AN #NR26 #B26 #F31">mi concede</rdg>
+                  <rdg wit="#AV"><mod seq="1">co</mod>
+                     <mod seq="2" type="immediate">mi concede</mod></rdg>
+               </app>
+            </l>
+            <l n="16">Natura in questi <app>
+                  <lem wit="#AN #NR26 #B26 #F31 #N35 #N35c">lochi,</lem>
+                  <rdg wit="#AV"><mod seq="1">luoghi,</mod>
+                     <mod seq="2" type="superscript">lochi,</mod></rdg>
+               </app> un giorno oh quanto </l>
+            <l n="17">Verso me più <app>
+                  <lem wit="#N35c"> cortese!</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31 #N35">cortese.</rdg>
+               </app> E tu pur <anchor xml:id="v17-19"/>volgi</l>
+            <l n="18">Dai miseri lo sguardo; e tu, sdegnando</l>
+            <l n="19">Le sciagure e gli affanni, a la reina <app from="#v17-19">
+                  <lem wit="#N35 #N35c">volgi / Dai miseri lo sguardo; e tu, sdegnando / Le sciagure
+                     e gli affanni, alla reina</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">anche / Da' miseri ti svolgi, e a la
+                        reina</mod>
+                     <mod change="#layer2" seq="2" type="reuse">anche / Da i miseri ti svolgi e a la
+                        reina</mod></rdg>
+                  <rdg wit="#AV #NR26">anche / Da i miseri ti svolgi e a la reina</rdg>
+                  <rdg wit="#B26 #F31">volgi / Da i miseri lo sguardo; e tu, sdegnando / Le sciaure
+                     e gli affanni, a la reina</rdg>
+               </app></l>
+            <l n="20"> Felicità <app>
+                  <lem wit="#N35 #N35c">servi, o natura</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">servi o natura</mod>
+                     <mod change="#layer2" seq="2" type="reuse">servi o Natura</mod></rdg>
+                  <rdg wit="#AV #B26">servi o Natura</rdg>
+                  <rdg wit="#NR26">servi, o Natura</rdg>
+                  <rdg wit="#F31">servi o natura</rdg>
+               </app>. In <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">cielo,</lem>
+                  <rdg wit="#AN">cielo</rdg>
+               </app>
+            </l>
+            <l n="21">In terra amico <app>
+                  <lem wit="#N35 #N35c">agl'</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">a gl'</rdg>
+               </app>infelici alcuno </l>
+            <l n="22">E rifugio non resta altro che <app>
+                  <lem wit="#AV #NR26 #F31 #N35 #N35c">il ferro</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">'l ferro</mod>
+                     <mod change="#layer2" seq="2" type="reuse">il ferro</mod></rdg>
+                  <rdg wit="#B26">il pianto</rdg>
+               </app>
+            </l>
+         </lg>
+         <lg>
+            <l n="23">Talor m'assido in solitaria <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">parte,</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">parte</mod><mod change="#layer3" seq="2" type="reuse">parte,</mod></rdg>
+               </app>
+            </l>
+            <l n="24">
+               <app>
+                  <lem wit="#N35 #N35c">Sovra</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Su d'</mod>
+                     <mod change="#layer2" seq="2" type="reuse">Sopra</mod></rdg>
+                  <rdg wit="#AV #NR26 #B26 #F31">Sopra</rdg>
+               </app> un rialto, al margine d'un lago</l>
+            <l n="25">Di taciturne piante incoronato.</l>
+            <l n="26">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Ivi, quando</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Quivi mentre</mod>
+                     <mod change="#layer2" seq="2" type="superscript">Ivi quando</mod></rdg>
+                  <rdg wit="#AV #NR26 #B26">Ivi quando</rdg>
+               </app> il meriggio in ciel si volve,</l>
+            <l n="27">La sua tranquilla imago il <app>
+                  <lem wit="#AV #B26 #F31 #N35 #N35c">Sol</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">sol</mod>
+                     <mod change="#layer2" seq="2" type="reuse">Sol</mod></rdg>
+                  <rdg wit="#NR26">sol</rdg>
+               </app> dipinge,</l>
+            <l n="28">
+               <app>
+                  <lem wit="#AN #NR26 #B26 #F31 #N35 #N35">Ed erba o</lem>
+                  <rdg wit="#AV"><mod seq="1">Erba nè</mod>
+                     <mod seq="2" type="reuse">Ed era o</mod></rdg>
+               </app> foglia non si crolla <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">al</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">a<unclear reason="illegible"/></mod>
+                     <mod change="#layer2" seq="2" type="overwritten">al</mod>
+                  </rdg>
+               </app> vento,</l>
+            <l n="29">E non onda incresparsi, e non cicala</l>
+            <l n="30">Strider, ne batter penna augello in ramo,</l>
+            <l n="31">Nè farfalla ronzar, nè voce o <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35c">moto</lem>
+                  <rdg wit="#N35">moto,</rdg>
+               </app>
+            </l>
+            <l n="32">Da <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">presso nè da lunge</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">lungi nè da presso</mod>
+                     <mod change="#layer2" seq="2" type="reuse">presso nè da lungi</mod>
+                     <mod change="#layer3" seq="3" type="reuse">presso nè da lunge</mod></rdg>
+               </app> odi nè vedi.</l>
+            <l n="33">Tien quelle rive altissima quiete;</l>
+            <l n="34">Ond' <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">io</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">in</mod>
+                     <mod change="#layer2" seq="2" type="overwritten">io</mod></rdg>
+               </app> quasi me stesso e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">'l</rdg>
+               </app> mondo obblio</l>
+            <l n="35">Sedendo immoto; e già mi par che sciolte</l>
+            <l n="36">Giaccian le membra mie, nè spirto o senso</l>
+            <l n="37">Più le commova, e lor quiete antica</l>
+            <l n="38">
+               <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">Co'</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Co'</mod><mod change="#layer2" seq="2" type="reuse">Coi</mod></rdg>
+                  <rdg wit="#AV #NR26">Coi</rdg>
+               </app> silenzi del loco si confonda. </l>
+         </lg>
+         <lg>
+            <l n="39">
+               <app>
+                  <lem wit="#N35c">Amore,</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31 #N35">Amore</rdg>
+               </app> amore, assai lungi volasti</l>
+            <l n="40">Dal petto <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">mio,</lem>
+                  <rdg wit="#AN #AV #NR26">mio</rdg>
+               </app> che <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">fu</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1"><unclear reason="illegible"/>u</mod>
+                     <mod change="#layer2" seq="2" type="overwritten">fu</mod></rdg>
+               </app> sì caldo un giorno,</l>
+            <l n="41">Anzi rovente. Con sua fredda mano</l>
+            <l n="42">Lo strinse la sciaura, e in <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">ghiaccio</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">ghiacchio</mod><mod change="#layer2" seq="2" type="reuse">ghiaccio</mod></rdg>
+               </app> è <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">volto</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">volto</mod>
+                     <mod change="#layer3" seq="2" type="reuse">vólto</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">volto</mod><mod seq="2" type="reuse">vólto</mod></rdg>
+                  <rdg wit="#NR26">vólto</rdg>
+               </app>
+            </l>
+            <l n="43">
+               <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">Nel</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">Sul</mod>
+                     <mod change="#layer2" seq="2" type="reuse">Nel</mod></rdg>
+               </app> fior <app>
+                  <lem wit="#N35 #N35c">degli</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">de gli</rdg>
+               </app> anni. Mi <app>
+                  <lem wit="#N35 #N35c">sovvien del</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">sovviene il</rdg>
+               </app> tempo</l>
+            <l n="44">Che mi scendesti in seno. Era quel dolce</l>
+            <l n="45">E irrevocabil <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">tempo,</lem>
+                  <rdg wit="#AN #AV #NR26">tempo</rdg>
+               </app> allor che s'apre</l>
+            <l n="46">Al guardo <app>
+                  <lem wit="#AN #NR26 #B26 #N35c">giovanil</lem>
+                  <rdg wit="#AV"><mod seq="1">gi<unclear reason="illegible"/>vanil</mod>
+                     <mod seq="2" type="reuse">giovanil</mod>
+                  </rdg>
+                  <rdg wit="#F31">giovenil</rdg>
+                  <rdg wit="#N35"><sic>giovenil</sic><corr>giovanil</corr></rdg>
+               </app> questa infelice</l>
+            <l n="47">Scena del mondo, e gli sorride in vista</l>
+            <l n="48">Di paradiso. Al garzoncello il core</l>
+            <l n="49">Di <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">vergine</lem>
+                  <rdg wit="#AN" ana="#AltVariant" rend="margin">(vergini)</rdg>
+               </app> speranza e di desio</l>
+            <l n="50">
+               <app>
+                  <lem wit="#AN #AV #NR26 #B26 #F31 #N35 #N35c">Balza nel</lem>
+                  <rdg wit="#AN" ana="#altVariant" rend="margin">tripudia in, brilla,
+                     / giubbila,</rdg>
+               </app> petto; e già s'accinge <app>
+                  <lem wit="#N35 #N35c">all'</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">a l'</rdg>
+               </app> opra</l>
+            <l n="51">Di questa vita come a danza o <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">gioco</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">festa</mod>
+                     <mod change="#layer2" seq="2" type="ascribed"/>gioco</rdg>
+               </app>
+            </l>
+            <l n="52">Il misero mortal. Ma non sì tosto,</l>
+            <l n="53">Amor, di te m'accorsi, e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">'l</rdg>
+               </app> viver mio</l>
+            <l n="54">Fortuna avea già rotto, ed a <app>
+                  <lem wit="#AV #NR26 #B26 #F31 #N35 #N35c">questi</lem>
+                  <rdg wit="#AN"><mod change="#layer2" seq="1">quest'</mod>
+                     <mod change="#layer2" seq="2" type="reuse">questi</mod></rdg>
+               </app> occhi</l>
+            <l n="55">Non altro convenia che <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR26 #B26 #F31">'l</rdg>
+               </app> pianger sempre.</l>
+            <l n="56">Pur se talvolta per le piagge apriche,</l>
+            <!-- arrivate qui -->
+         </lg>
+      </body>
+   </text>
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="RP">Roberta Priore</persName>
+               <persName xml:id="BN">Beatrice Nava</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <interpGrp>
+                  <interp xml:id="altVariant">Varianti alternative</interp>
+               </interpGrp>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <bibl>
+               <author>Paola Italia</author>
+               <title>Proposta di edizione del quaderno napoletano</title>
+               <publisher>Carocci</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date>2016</date>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. XIII.22</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer0" scope="major"/>
+                           <handNote corresp="#layer1" scope="minor"/>
+                           <handNote corresp="#layer2" scope="minor"/>
+                           <handNote corresp="#layer3" scope="minor"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="AV">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Visso</settlement>
+                        <repository>Archivio comunale di Visso</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="NR25">
+                  <bibl>Nuovo ricoglitore 1825</bibl>
+               </witness>
+               <witness xml:id="B26">
+                  <bibl>Versi del Conte Giacomo Leopardi, Bologna, Stamperia delle Muse,
+                     1826.</bibl>
+               </witness>
+               <witness xml:id="F31">
+                  <bibl>Canti del Conte Giacomo Leopardi, Firenze, Piatti, 1831.</bibl>
+               </witness>
+               <witness xml:id="N35">
+                  <bibl>Opere di Giacomo Leopardi, Vol. I. Canti di Giacomo Leopardi, Napoli,
+                     Starita, 1835.</bibl>
+               </witness>
+               <witness xml:id="N35c">
+                  <bibl>Esemplare sciolto dell’edizione Starita con errori che vennero poi eliminati
+                     prima della tiratura di N35, su cui Leopardi fece correzioni e aggiunte per la
+                     stampa progettata da Baudry. </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+         
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <listChange corresp="#AN">
+               <change xml:id="layer0">Penna A <date when="1819" cert="high">1819</date></change>
+               <change xml:id="layer1">Penna B <date when="1820" cert="high">1820</date></change>
+               <change xml:id="layer2">Penna C <date when="1821" cert="high">1821</date></change>
+               <change xml:id="layer3">Penna D <date when="1825" cert="medium">1825</date></change>
+            </listChange>
+         </creation>
+      </profileDesc>
+      <encodingDesc>
+         <variantEncoding location="internal" method="parallel-segmentation"/>
+         <variantEncoding location="internal" method="double-end-point"/>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head><app>
+               <lem wit="#N35 #N35c">XII. | L'INFINITO.</lem>
+               <rdg wit="#AN">Idillio | L'Infinito</rdg>
+               <rdg wit="#AV">Idilli | MDCCCXIX V L'Infinito | Idillio I</rdg>
+               <rdg wit="#NR25">L'INFINITO. | Idillio I.</rdg>
+               <rdg wit="#B26">L'INFINITO | Idillio I</rdg>
+               <rdg wit="#F31">XI. | L'INFINITO.</rdg>
+            </app></head>
+         <lg>
+            <l n="1">Sempre caro mi fu quest’ermo <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">colle,</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">colle </mod><mod change="#layer3" type="reuse" seq="2">colle,</mod></rdg>
+               </app></l>
+            <l n="2">E questa <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">siepe,</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">siepe </mod><mod change="#layer3" type="reuse" seq="2">siepe,</mod></rdg>
+               </app>che da tanta parte</l>
+            <l n="3"><app>
+                  <lem wit="#N35 #N35c">Dell'ultimo orizzonte</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Del celeste confine </mod><mod change="#layer1" type="reuse" seq="2">De l'ultimo orizzonte</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26 #F31">De l'ultimo orizzonte</rdg>
+               </app> il guardo esclude.</l>
+            <l n="4">Ma sedendo e <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">mirando,</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">mirando </mod><mod change="#layer3" type="reuse" seq="2">mirando,</mod></rdg>
+               </app>
+               <anchor xml:id="v.4-5"/>interminati</l>
+            <l n="5">Spazi <app from="#v.4-5">
+                  <lem wit="#N35 #N35c">interminati / Spazi</lem>
+                  <rdg wit="#AN">
+                     <mod change="#layer0" seq="1">un infinito / spazio</mod>
+                     <mod change="#layer1" seq="2" type="reuse">interminato / spazio</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26 #F31">interminato / spazio</rdg>
+               </app> di là da quella, e sovrumani</l>
+            <l n="6">Silenzi, e profondissima quiete</l>
+            <l n="7">Io <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">nel pensier mi</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">mi </mod><mod change="#layer0" type="immediate" seq="2">nel pensier mi</mod></rdg>
+               </app>
+               <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">fingo;</lem>
+                  <rdg wit="#AN #AV #NR25">fingo,</rdg>
+               </app> ove per poco</l>
+            <l n="8">Il cor non si spaura. E come il vento</l>
+            <l n="9">Odo stormir <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">tra</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">fra </mod><mod change="#layer3" type="superscript" seq="2">tra</mod></rdg>
+               </app> queste piante, io quello</l>
+            <l n="10">Infinito silenzio a questa voce</l>
+            <l n="11">Vo <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">comparando: e</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">comparando. E </mod><mod change="#layer0" type="reuse" seq="2">comparando: e</mod></rdg>
+               </app> mi sovvien l’eterno,</l>
+            <l n="12">E le morte stagioni, e la presente</l>
+            <l n="13">E viva, <app>
+                  <lem wit="#N35 #N35c">e il</lem>
+                  <rdg wit=" #AN" resp="#BN #RP"><mod change="#layer0" seq="1">e' l</mod><mod change="#layer0" type="immediate" seq="2">e 'l</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26 #F31">e 'l</rdg>
+               </app> suon di lei. Così <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">tra</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">fra</mod>
+                     <mod change="#layer1" type="superscript" seq="2">tra</mod></rdg>
+               </app> questa</l>
+            <l n="14"><app>
+                  <lem wit="#F31 #N35 #N35c">Immensità s’annega il pensier mio:</lem>
+                  <rdg wit="#AN"><mod change="#layer0" seq="1">Immensit<subst>
+                           <del>ade</del>
+                           <add>à</add>
+                        </subst> il mio pensier s'annega, </mod><mod change="#layer1" type="reuse" seq="2">Infinità s'annega il pensier mio;</mod>
+                     <mod change="#layer3" type="reuse" seq="3">Infinità s'annega il pensier
+                        mio:</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">immensità s'annega il pensier mio: </mod><mod type="reuse" seq="2">Infinità s'annega il pensier mio:</mod></rdg>
+                  <rdg wit="#NR25 #B26">Infinità s'annega il pensier mio:</rdg>
+               </app></l>
+            <l n="15">E <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">'l</rdg>
+               </app> naufragar m’è dolce in questo mare.</l>
+         </lg>
+      </body>
+   </text>
+<teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Canti</title>
+            <author>Giacomo Leopardi</author>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName xml:id="RP">Roberta Priore</persName>
+               <persName xml:id="BN">Beatrice Nava</persName>
+               <persName xml:id="GB">Giulia Benedetti</persName>
+               <orgName>Alma Mater Studiorum - University of Bologna</orgName>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <interpGrp>
+                  <interp xml:id="altVariant">Varianti alternative</interp>
+               </interpGrp>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <publisher>DH.ARC</publisher>
+            <pubPlace>Bologna</pubPlace>
+            <date>2025</date>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA
+                  4.0</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Giacomo Leopardi</author>
+               <title>Canti</title>
+               <publisher>Accademia della Crusca</publisher>
+               <pubPlace>Firenze</pubPlace>
+               <date>2009</date>
+               <editor>Franco Gavazzeni</editor>
+               <editor>Cristiano Animosi</editor>
+               <editor>Paola Italia</editor>
+               <editor>Maria Maddalena Lombardi</editor>
+               <editor>Federica Lucchesini</editor>
+               <editor>Rossano Pestarino</editor>
+               <editor>Sara Rosini</editor>
+            </bibl>
+            <bibl>
+               <author>Paola Italia</author>
+               <title>Proposta di edizione del quaderno napoletano</title>
+               <publisher>Carocci</publisher>
+               <pubPlace>Roma</pubPlace>
+               <date>2016</date>
+            </bibl>
+            <listWit>
+               <witness xml:id="AN">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Napoli</settlement>
+                        <repository>Biblioteca Nazionale «Vittorio Emanuele III»</repository>
+                        <idno>C.L. XIII.22</idno>
+                     </msIdentifier>
+                     <physDesc>
+                        <handDesc>
+                           <handNote corresp="#layer1" scope="major"/>
+                           <handNote corresp="#layer2" scope="minor"/>
+                           <handNote corresp="#layer3" scope="minor"/>
+                        </handDesc>
+                     </physDesc>
+                  </msDesc>
+               </witness>
+               <witness xml:id="AV">
+                  <msDesc type="ms">
+                     <msIdentifier>
+                        <settlement>Visso</settlement>
+                        <repository>Archivio comunale di Visso</repository>
+                     </msIdentifier>
+                  </msDesc>
+               </witness>
+               <witness xml:id="NR25">
+                  <bibl>Nuovo ricoglitore 1825</bibl>
+               </witness>
+               <witness xml:id="B26">
+                  <bibl>Versi del Conte Giacomo Leopardi, Bologna, Stamperia delle Muse,
+                     1826.</bibl>
+               </witness>
+               <witness xml:id="F31">
+                  <bibl>Canti del Conte Giacomo Leopardi, Firenze, Piatti, 1831.</bibl>
+               </witness>
+               <witness xml:id="N35">
+                  <bibl>Opere di Giacomo Leopardi, Vol. I. Canti di Giacomo Leopardi, Napoli,
+                     Starita, 1835.</bibl>
+               </witness>
+               <witness xml:id="N35c">
+                  <bibl>Esemplare sciolto dell’edizione Starita con errori che vennero poi eliminati
+                     prima della tiratura di N35, su cui Leopardi fece correzioni e aggiunte per la
+                     stampa progettata da Baudry. </bibl>
+               </witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+            <profileDesc>
+               <creation>
+                  <listChange corresp="AN">
+                     <change xml:id="layer0">Penna A</change>
+                     <change xml:id="layer1">Penna B</change>
+                     <change xml:id="layer2">Penna C</change>
+                     <change xml:id="layer3">Penna D</change>
+                  </listChange>
+               </creation>
+            </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <head>
+            <app>
+               <lem wit="#N35 #N35c">XIII. | LA SERA | DEL DÌ DI FESTA</lem>
+               <rdg wit="#AN">Idillio | La sera del giorno festivo</rdg>
+               <rdg wit="#AV">La sera del giorno festivo | Idillio II</rdg>
+               <rdg wit="#NR25">LA SERA DEL GIORNO FESTIVO. | Idillio II.</rdg>
+               <rdg wit="#B26">LA SERA DEL GIORNO FESTIVO | IDILLIO II</rdg>
+               <rdg wit="#F31">XII. | LA SERA | DEL GIORNO FESTIVO</rdg>
+            </app>
+         </head>
+         <lg>
+            <l n="1">
+               <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">Dolce e</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">Oimè,</mod> <mod change="#layer1" seq="2" type="superscript">Dolce e</mod></rdg>
+               </app>chiara è la notte e senza vento,</l>
+            <l n="2">
+               <app>
+                  <lem wit="#AN #AV #NR25 #B26 #F31 #N35c">E queta</lem>
+                  <rdg wit="#N35">
+                     <choice>
+                        <sic>E queta e</sic>
+                        <corr>E queta</corr>
+                     </choice></rdg>
+               </app>
+               <app>
+                  <lem wit="#N35 #N35c">sovra i tetti e in mezzo agli orti</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">in mezzo a gli orti e in cima a i tetti</rdg>
+                  <rdg wit="#F31">in mezzo a gli orti e sovra i tetti</rdg>
+               </app>
+            </l>
+            <l n="3">
+               <anchor xml:id="v3-4"/>Posa la luna, e di lontan rivela</l>
+            <l n="4">Serena ogni montagna. <app from="#v3-4">
+                  <lem wit="#N35 #N35c">Posa la luna, e di lontan rivela / Serena ogni
+                     montagna.</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">La luna si riposa, e le montagne / Si
+                     discopron da lungi.</rdg>
+               </app> O donna mia,</l>
+            <l n="5">Già tace ogni sentiero, e <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">pei</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">pe'</mod><mod change="#layer2" seq="2" type="reuse">pei</mod></rdg>
+               </app> balconi</l>
+            <l n="6">Rara traluce la notturna lampa:</l>
+            <l n="7">Tu dormi, <app>
+                  <lem wit="#F31 #N35 #N35c">che</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">che</mod> <mod change="#layer3" seq="2" type="reuse">chè</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26">chè</rdg>
+               </app> t'accolse agevol sonno</l>
+            <l n="8">
+               <app>
+                  <lem wit="#N35 #N35c">Nelle tue chete stanze;</lem>
+                  <rdg wit="#AN">
+                     <mod change="#layer1" seq="1"><subst><del>Nell</del><add>Ne le</add></subst> tue chete
+                     stanze,</mod> <mod change="#layer3" seq="2" type="reuse">Ne le tue chete stanze;</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">Ne la tua cheta stanza;</mod><mod seq="2" type="reuse">Ne le tue chete stanze;</mod></rdg>
+                  <rdg wit="#NR25 #B26 #F31">Ne le tue chete stanze;</rdg>
+               </app> e non ti morde</l>
+            <l n="9">Cura <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">nessuna;</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">nessuna,</mod> <mod change="#layer1" seq="2" type="reuse">nessuna:</mod>
+                     <mod change="#layer3" seq="3" type="reuse">nessuna;</mod></rdg>
+               </app> e già non <app>
+                  <lem wit="#N35 #N35c">sai nè pensi</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">pensi o stimi</rdg>
+               </app></l>
+            <l n="10">Quanta piaga m'apristi in mezzo al petto.</l>
+            <l n="11"><anchor xml:id="v.11-13"/>Tu dormi: io questo ciel, che sì benigno</l>
+            <l n="12">Appare in vista, a salutar m'affaccio,</l>
+            <l n="13">E l’antica natura onnipossente, <app from="#v.11-13">
+                  <lem wit="#F31 #N35 #N35c">Tu dormi: io questo ciel, che sì benigno / Appare
+                     in vista, a salutar m’affaccio, / E l’antica natura onnipossente,</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">E bene sta, che amor da <subst>
+                        <del>quand'</del>
+                        <add>poi ch'</add>
+                     </subst> io nacqui / Non ebbi nè sperai nè merto. Il cielo / Io qui
+                     m'affaccio a salutare, il cielo</mod> <mod change="#layer3" seq="2" type="superscript">Tu
+                        dormi: io questo ciel, che sì benigno / Appare in vista, a salutar
+                        m’affaccio, / E l’antica natura onnipossente,</mod>
+                     <mod change="#layer3" seq="3" type="reuse">Tu dormi: io questo ciel, che sì
+                        benigno / Appare in vista, a salutar m’affaccio, / E l’antica Natura
+                        onnipossente,</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26">Tu dormi: io questo ciel, che sì benigno / Appare in
+                     vista, a salutar m’affaccio, / E l’antica Natura onnipossente,</rdg>
+               </app></l>
+            <l n="14">Che mi fece <app>
+                  <lem wit="#N35 #N35c">all'affanno.</lem>
+                  <rdg wit="#AN">
+                     <mod change="#layer1" seq="1">al<subst>
+                        <del>l</del><add/></subst> travaglio.</mod> <mod change="#layer3" seq="2" type="superscript">a
+                        l'affanno.</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26 #F31"> a l'affanno.</rdg>
+               </app> A te la speme</l>
+            <l n="15">Nego, mi disse, anche la speme; e d’altro</l>
+            <l n="16">
+               <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">Non</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">non</mod> <mod change="#layer1" seq="2" type="reuse">Non</mod></rdg>
+               </app> brillin gli occhi tuoi <app>
+                  <lem wit="#N35 #N35c">se non di</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">fuorchè di</mod> <mod change="#layer1" seq="2" type="reuse">fuor che di</mod></rdg>
+                  <rdg wit="#AV"><mod>fuorc</mod> <mod type="immediate">fuor che di</mod></rdg>
+                  <rdg wit="#NR25 #B26 #F31">fuor che di</rdg>
+               </app> pianto.</l>
+            <l n="17">Questo dì fu solenne: or da’ trastulli</l>
+            <l n="18">Prendi <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">riposo;</lem>
+                  <rdg wit="#AN #AV #NR25">riposo,</rdg>
+               </app> e forse ti rimembra</l>
+            <l n="19">In sogno a quanti oggi piacesti, e quanti</l>
+            <l n="20">Piacquero a te: non <app>
+                  <lem wit="#N35 #N35c">io, non già, ch'io speri,</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">io certo già mai</mod> <mod change="#layer3" seq="2" type="reuse">io certo giammai</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26 #F31">io certo giammai</rdg>
+               </app></l>
+            <l n="21">
+               <app>
+                  <lem wit="#N35 #N35c">Al pensier ti ricorro.</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">Ti ricorro al pensiero</rdg>
+               </app> Intanto io <app>
+                  <lem wit="#N35 #N35c">chieggo</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">chieggio</rdg>
+               </app></l>
+            <l n="22">Quanto a viver mi resti, e qui per terra</l>
+            <l n="23">Mi <app>
+                  <lem wit="#NR25 #B26 #F31 #N35 #N35c">getto, e grido, e fremo.</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">getto e mi ravvolgo.</mod> <mod change="#layer2" seq="2" type="reuse">getto, e grido, e fremo.</mod></rdg>
+                  <rdg wit="#AV"><mod seq="1">getto, e mi ravvolgo.</mod> <mod seq="2" type="reuse">getto, e grido, e
+                        fremo.</mod></rdg>
+               </app>
+               <app>
+                  <lem wit=" #AN #AV #NR25 #B26 #F31 #N35 #N35c">Oh giorni orrendi</lem>
+                  <rdg wit="#AN" change="#layer3" ana="#altvariant" type="margin">(Oh vita o giorni orrendi)</rdg>
+               </app></l>
+            <l n="24">In così verde <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">etate!</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">etade.</mod> <mod change="#layer2" seq="2" type="reuse">etate!</mod></rdg>
+               </app>
+               <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">Ahi,</lem>
+                  <rdg wit="#AN #AV #NR25">Ahi</rdg>
+               </app>per la via</l>
+            <l n="25">
+               <app>
+                  <lem wit="#N35 #N35c">Odo</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">Sento</rdg>
+               </app> non lunge il solitario canto</l>
+            <l n="26">
+               <app>
+                  <lem wit="#N35 #N35c">Dell'</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">De l'</rdg>
+               </app>
+               <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">artigian,</lem>
+                  <rdg wit="#AN #AV #NR25">artigian</rdg>
+               </app> che riede a tarda <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">notte,</lem>
+                  <rdg wit="#AN #AV #NR25">notte</rdg>
+               </app></l>
+            <l n="27">Dopo i <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">sollazzi,</lem>
+                  <rdg wit="#AN #AV #NR25">sollazzi</rdg>
+               </app> al suo povero <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">ostello;</lem>
+                  <rdg wit="#AN #AV #NR25">ostello,</rdg>
+               </app>
+            </l>
+            <l n="28">E fieramente mi si stringe il <app>
+                  <lem wit="#F31 #N35 #N35c">core,</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">core</rdg>
+               </app>
+            </l>
+            <l n="29">A pensar come tutto al mondo <app>
+                  <lem wit="#N35 #N35c">passa,</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">passa</rdg>
+               </app>
+            </l>
+            <l n="30">E <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">quasi orma</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">vestigio</mod> <mod change="#layer2" seq="2" type="superscript">quasi orma</mod></rdg>
+               </app> non lascia. Ecco è fuggito</l>
+            <l n="31">Il dì festivo, ed al festivo il giorno</l>
+            <l n="32">Volgar succede, e <app>
+                  <lem wit="#N35 #N35c">se ne porta</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">si travolge</rdg>
+               </app> il tempo</l>
+            <l n="33">Ogni umano accidente. Or dov’è <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">'l</rdg>
+               </app> suono</l>
+            <l n="34">Di que’ popoli antichi? or 
+               <app><lem wit="#AN #NR25 #B26 #F31 #N35 #N35c">dov’</lem>
+               <rdg wit="#AV"><mod seq="1">dov'</mod><mod seq="2" type="immediate">dov'</mod></rdg></app> è
+               <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">'l</rdg>
+               </app>grido</l>
+            <l n="35">De’ nostri avi famosi, e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">'l</rdg>
+               </app> grande impero</l>
+            <l n="36">Di quella <app>
+                  <lem wit="#AN #B26 #F31 #N35 #N35c">Roma,</lem>
+                  <rdg wit="#AV #NR25">Roma;</rdg>
+               </app> e l'<app>
+                  <lem wit=" #F31 #N35 #N35c">armi,</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">armi</rdg>
+               </app> e <app>
+                  <lem wit="#N35 #N35c">il</lem>
+                  <rdg wit=" #AN #AV #NR25 #B26 #F31">'l</rdg>
+               </app>
+               <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">fragorio</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">fragorìo</mod> <mod change="#layer1" seq="2" type="reuse">fragorio</mod>
+                  </rdg>
+               </app>
+            </l>
+            <l n="37">Che n’andò per <app>
+                  <lem wit="#NR25 #B26 #F31 #N35 #N35c">la terra e per l'</lem>
+                  <rdg wit="#AN">la terra e l'</rdg>
+                  <rdg wit="#AV"><mod seq="1">l'</mod> <mod seq="2" type="immediate">la terra e l'</mod></rdg>
+               </app> oceano?</l>
+            <l n="38">Tutto è <app>
+                  <lem wit="#F31 #N35 #N35c">pace e silenzio,</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">silenzio e pace,</rdg>
+               </app> e tutto <app>
+                  <lem wit="#N35 #N35c">posa</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">cheto</rdg>
+                  <rdg wit="#F31">pòsa</rdg>
+               </app>
+            </l>
+            <l n="39">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Il</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">È 'l</rdg>
+               </app> mondo, e più di lor non si <app>
+                  <lem wit="#N35 #N35c">ragiona</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">favella</rdg>
+               </app>. </l>
+            <l n="40">
+               <app>
+                  <lem wit="#N35 #N35c">Nella</lem>
+                  <rdg wit="#AN #AV #NR25 #B26 #F31">Ne la</rdg>
+               </app> mia prima età, quando s’aspetta</l>
+            <l n="41">Bramosamente il dì festivo, or poscia</l>
+            <l n="42">Ch’ <app>
+                  <lem wit="#AV #NR25 #B26 #F31 #N35 #N35c">egli era spento</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">egli spento</mod> <mod change="#layer1" seq="2" type="inserted">egli era
+                        spento</mod></rdg>
+               </app>, io <app>
+                  <lem wit="#F31 #N35 #N35c">doloroso, in veglia,</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">doloroso e desto</rdg>
+               </app>
+            </l>
+            <l n="43">Premea le <app>
+                  <lem wit="#B26 #F31 #N35 #N35c">piume;</lem>
+                  <rdg wit="#AN #AV #NR25">piume,</rdg>
+               </app>
+               <app>
+                  <lem wit="#N35 #N35c">ed alla tarda</lem>
+                  <rdg wit="#AN #AV #NR25 #B26">e per la muta</rdg>
+                  <rdg wit="#F31">ed a la tarda</rdg>
+               </app> notte </l>
+            <l n="44">
+               <app>
+                  <lem wit="#F31 #N35 #N35c">Un canto che s'udia</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">Questo canto che udia</mod> <mod change="#layer1" seq="2" type="reuse">Questo canto ch' udia</mod>
+                     <mod change="#layer3" seq="3" type="reuse">Questo canto che udia</mod></rdg>
+                  <rdg wit="#AV #NR25">Questo canto che udia</rdg>
+                  <rdg wit="#B26">Questo canto ch'udia</rdg>
+               </app> per <anchor xml:id="v.44-45"/> li sentieri</l>
+            <l n="45">Lontanando morire <app from="#v.44-45">
+                  <lem wit="#F31 #N35 #N35c">li sentieri / Lontanando morire</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">lo <subst><del>sl</del><add/></subst>
+                        sentiero, / E moria slontanando</mod>
+                     <mod change="#layer3" seq="2" type="reuse">lo sentiero / E moria lontanando</mod>
+                     <mod change="#layer3" seq="3" type="superscript">lo sentiero / Lontanando
+                        morire</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26">lo sentiero / Lontanando morire</rdg>
+               </app> a poco a poco,</l>
+            <l n="46">
+               <app>
+                  <lem wit="#N35 #N35c">Già similmente</lem>
+                  <rdg wit="#AN"><mod change="#layer1" seq="1">Fin da quegli anni</mod> <mod change="#layer2" seq="2" type="superscript">Al modo istesso</mod></rdg>
+                  <rdg wit="#AV #NR25 #B26">Al modo istesso</rdg>
+                  <rdg wit="#F31">Pur similmente</rdg>
+               </app> mi stringeva il core.</l>
+         </lg>
+      </body>
+   </text>
+</TEI>

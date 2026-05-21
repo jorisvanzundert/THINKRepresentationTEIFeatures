@@ -1,0 +1,650 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Electronic transcription of München, Bayerische Staatsbibliothek, Cgm 4206</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Hyperdiplomatische Basistranskription der Handschrift München, Bayerische Staatsbibliothek, Cgm 4206</edition>
+        <editor>
+          <forename>Astrid</forename>
+          <surname>Böhm</surname>
+        </editor>
+        <principal>
+          <forename>Helmut W.</forename>
+          <surname>Klug</surname>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, Universität Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">Zentrum für Informationsmodellierung -
+						Austrian Centre for Digital Humanities, Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative Commons BY 4.0</licence>
+          <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons BY-NC-SA 4.0 </licence>
+        </availability>
+        
+        <date when="2020-01-01"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.m8</idno>
+        <ref target="context:corema" type="context"></ref>
+        <ref target="context:corema.glyph" type="context"></ref>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Deutschland</country>
+            <settlement>München</settlement>
+            <institution ref="https://www.bsb-muenchen.de">Bayerische Staatsbibliothek</institution>
+            <idno>Cgm 4206</idno>
+            <altIdentifier type="abbr">
+              <idno>M8</idno>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <textLang ana="manuscript">
+              <lang ana="main" n="Q699284">Upper Saxon German</lang>
+              <lang ana="main" n="Q1163234">Medieval Latin</lang>
+            </textLang>
+          </msContents>
+          <physDesc>
+            <objectDesc form="composite-Manuscript">
+              <supportDesc>
+                <extent>
+                  <measure type="leavesCount" unit="leaf">194</measure>
+                  <dimensions type="block" unit="mm">
+                    <height>212</height>
+                    <width>153</width>
+                  </dimensions>
+                </extent>
+                <foliation>
+                  <ab type="completeness">Neuere Blattzählung 1-193, zählt 125 doppelt;<lb></lb>
+										ältere Foliierung <q>1-193</q> ab Bl. 2 (16. Jh.).<lb></lb>
+										Unbeschrieben: 1v.</ab>
+                </foliation>
+                <collation>
+                  <formula style="chroust">(VI+1)^13 + 11 VI^144 + (VI+1)^157 + 3 VI^193</formula>
+                  <ab>Lagen, gezählt <q>1-11</q> bis 123r </ab>
+                  <catchwords>Wortreklamenten vorhanden</catchwords>
+                </collation>
+                <condition>
+                  <desc>Pergamentfälze im Lageninneren aus einer lat. Bibelhs., 13. Jh. (u.a. 1 Sm 3,2; Is 3,18; Is 5,2).</desc>
+                  <material xml:lang="de">Papier</material>
+                  <material xml:lang="en">paper</material>
+                  <watermark xml:id="Ochsenkopf">Zwei verschiedene Ochsenköpfe: 
+										bis Bl. 157 Piccard XIII, 13-14 (Nürnberg, Ostrpreussen u.ö. 1450-55); 
+										ab Bl. 158 Piccard XII, 265 (Kadolzburg 1446-47.).
+									</watermark>
+                  <watermark xml:id="Dreiberg">Dreiberg, nicht bei Br.</watermark>
+                </condition>
+              </supportDesc>
+              <layoutDesc>
+                <layout columns="1">
+                  <p ana="measure">1. Hand 148-155 x 95-99 mm, sonst 155-178 x 97-112 mm</p>
+                  <p ana="textblock">einspaltig, 125av-128r zweispaltig</p>
+                  <p ana="lines">25-34</p>
+                  <p ana="text">Rubriziert mit Ausnahme von 1r, 125ar-132v, 133v-144r, 147v, 191v-193v;
+									<lb></lb>rote einfach ornamentierte Initiale auf 2r 7-zeilig, auf 133r 5-zeilig;
+									<lb></lb>zwischen 38v-125v für Lombarden Platz ausgespart;
+									<lb></lb>2r, 104v eingezeichnete Fratzen.</p>
+                </layout>
+              </layoutDesc>
+            </objectDesc>
+            <handDesc hands="5">
+              <handNote>
+                <term>Bastarden</term> verschiedener Hände; Einträge ab 193r und Randnotizen von weiteren Händen.</handNote>
+              <handNote ana="1">Hand 1: 2r-125v, 133r-147r, 148r-157v, Schreiber Ambrosius Rotaw in Dresden (125v)</handNote>
+              <handNote ana="2">Hand 2: 1r, 125v-125ar, 128v-130r, 147v, 158r-162v, 191v-193v</handNote>
+              <handNote ana="3">Hand 3: 125av-128ra</handNote>
+              <handNote ana="4">Hand 4: 128r, 130v-132v</handNote>
+              <handNote ana="5">Hand 5: 162v-191r</handNote>
+            </handDesc>
+            <scriptDesc facs="fol. 37v-38v, 124r-125r" resp="Astrid Böhm">
+              <scriptNote>
+                <desc>allgemeine Beobachtung</desc>
+                <p>Klare Struktur, Rezepte abgesetzt, Überschriften mittig, rubriziert</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Duktus</desc>
+                <p>flüssige, geübte Hand</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;a&gt;</desc>
+                <p>einstöckiges &lt;a&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;l&gt;</desc>
+                <p>mit Schlaufe</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;g&gt;</desc>
+                <p>Punze geschlossen</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;e&gt;</desc>
+                <p>meist geschlossene Punze </p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Leitbuchstabe &lt;m&gt;, &lt;n&gt;</desc>
+                <p>finaler Schaft in finaler Stellung teils längerem Abstrich </p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Langschäfte &lt;b&gt;, &lt;d&gt;, &lt;h&gt;, &lt;k&gt;, &lt;l&gt;</desc>
+                <p>mit Schlaufe</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>&lt;f&gt;, Schaft-s Unterlänge</desc>
+                <p>‚normale‘ Unterlänge</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verschiedene r-Formen</desc>
+                <p>gerades und rundes &lt;r&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verschiedene z-Formen</desc>
+                <p>geschwänztes und rundes &lt;z&gt;</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Bögen/Unterlänge von &lt;h&gt;, &lt;y&gt; und geschwänztem &lt;z&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verwendung von Schaft-s und rundem &lt;s&gt;</desc>
+                <p>Schaft-s: initial + medial; rundes &lt;s&gt;: final</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verwendung von geradem und rundem &lt;d&gt;</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>i-Markierung</desc>
+                <p>vereinzelt i-Markierung</p>
+                <p>Unterscheidung zwischen i-Punkt und Einschlüsse im Papier schwierig</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Besonderheiten anderer Grapheme</desc>
+                <p>Schlaufen-w; ß-Ligatur</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Zahlzeichen</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Majuskeln (Verwendung)</desc>
+                <p>Rezeptbeginn, vereinzelt textintern</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Verzierungen</desc>
+                <p>37v zweizeilige rote Initiale, ansonsten Platz für nicht ausgeführte Initialen gelassen</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Rubrizierung</desc>
+                <p>Überschriften, Strichelung (nur auf 37vr), aus Strichelung hervorgehende Unterstreichung</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Diakritika</desc>
+                <p>Haken über &lt;u&gt; unikal</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Abbreviaturen</desc>
+                <p>Kürzungsstrich, r/er-Haken, </p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Interpunktion</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Terminatoren</desc>
+              </scriptNote>
+              <scriptNote>
+                <desc>Worttrennung</desc>
+                <p>mittels Schrägstrich am Zeilenende</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Korrekturen</desc>
+                <p>Streichung, Expungierung</p>
+              </scriptNote>
+              <scriptNote>
+                <desc>Offensichtliche Schreiberwechsel</desc>
+              </scriptNote>
+            </scriptDesc>
+            <bindingDesc>
+              <binding corresp="#Einband">
+                <condition>alter Koperteinband</condition>
+                <decoNote type="bindingMaterial">starker Pergamentumschlag mit übergreifender Rückenklappe</decoNote>
+                <decoNote type="metal">am Unterrand Messingbeschlag</decoNote>
+                <decoNote type="clasps">2 Schließbänder fehlen</decoNote>
+                <decoNote type="spine">Rückenverstärkung aus braunem Leder</decoNote>
+                <decoNote type="added">jüngere Rückenüberklebung aus weißem Pergament</decoNote>
+              </binding>
+            </bindingDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origDate>
+                <date notAfter="1470" notBefore="1430" xml:lang="de">Mitte 15. Jh.</date>
+                <date xml:lang="en">mid 15th c.</date>
+              </origDate>
+              <origPlace>
+                <placeName xml:lang="de">Sachsen, u.a. Dresden</placeName>
+                <placeName xml:lang="en">Saxony, including Dresden</placeName>
+              </origPlace>
+            </origin>
+            <provenance>Rückensignatur <q>217</q> (17./18. Jh.), weitere Signaturen im Vorderdeckel: <q>128</q> (18. Jh.), <q>2535</q>, 1r <q>3535</q> (19. Jh.). 
+						Im Vorderdeckel Exlibris des Andreas Felix Oefele (1706-80, Hofbibliothekar zu München).</provenance>
+          </history>
+          <msPart n="1r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.1r.1">
+                <locus ana="folio">1r</locus>
+                <title>medizinische Rezepte, überwiegend Abführmittel</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="2r-35r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.2r-35r.2">
+                <locus ana="folio">2r-35r</locus>
+                <title>Bartholomäus</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="35r-49r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.35r-49r.3">
+                <locus ana="folio">35r-49r</locus>
+                <title>Sammlung medizinischer Rezepte</title>
+                <note>37v-38v Quittenkonfekt</note>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="49r-54r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_hum" xml:id="m8.49r-54r.4">
+                <locus ana="folio">49r-54r</locus>
+                <title>Aristotelesbrief aus &apos;Secretum secretorum&apos;</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="54r-59v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.54r-59v.5">
+                <locus ana="folio">54r-59v</locus>
+                <title>&apos;Ipocras&apos;</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="59v-124r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_hum" xml:id="m8.59v-124r.6">
+                <locus ana="folio">59v-124r</locus>
+                <title>Ortolf von Bayerland: Arzneibuch</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="124r-125ar">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_pharm #eso" xml:id="m8.124r-125ar.7">
+                <locus ana="folio">124r-125ar</locus>
+                <title>Rezepte und Segen</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart ana="cooking_recipes" n="124r-125r">
+            <head>Kochrezepttexte</head>
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#cooking" xml:id="m8.124r-125r.8">
+                <locus ana="folio">124r-125r</locus>
+                <title>Kochrezepttexte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="125r-v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_pharm #house #eso" xml:id="m8.125r-v.9">
+                <locus ana="folio">125r-v</locus>
+                <title>Wundsegen, Rezept für Gummi arabicum, Fiebersegen, nachgetragene med. Rezepte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="125v-128ra">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#div" xml:id="m8.125v-128ra.10">
+                <locus ana="folio">125v-128ra</locus>
+                <title>Register über die Texte (Fol. 1r-125r)</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="128ra-130r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#div" xml:id="m8.128ra-130r.11">
+                <locus ana="folio">128ra-130r</locus>
+                <title>verschiedene Rezepte</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="130v-132v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#med_hum" xml:id="m8.130v-132v.12">
+                <locus ana="folio">130v-132v</locus>
+                <title>Exzerpt aus Regimina des Albich von Prag</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="133r-147r">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+              </textLang>
+              <msItem corresp="#house" xml:id="m8.133r-147r.13">
+                <locus ana="folio">133r-147r</locus>
+                <title>Vom Weinbau, aus Gottfried von Franken: Pelzbuch</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="147r-v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.147r-v.14">
+                <locus ana="folio">147r-v</locus>
+                <title>einzelne medizinische Rezepte, lat., dt.</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="148r-157v">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.148r-157v.15">
+                <locus ana="folio">148r-157v</locus>
+                <title>Pflanzenglossar, lat.-dt., alphabetisch</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="158r-191r">
+            <msContents>
+              <textLang>
+                <lang ana="main" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_hum" xml:id="m8.158r-191r.16">
+                <locus ana="folio">158r-191r</locus>
+                <title>Problemata Aristotelis, lat.</title>
+              </msItem>
+            </msContents>
+          </msPart>
+          <msPart n="191v-Rückendeckel innen">
+            <msContents>
+              <textLang>
+                <lang ana="main" corresp="cg" n="Q699284">Upper Saxon German</lang>
+                <lang ana="other" n="Q1163234">Medieval Latin</lang>
+              </textLang>
+              <msItem corresp="#med_pharm" xml:id="m8.191v-Rckendeckelinnen.17">
+                <locus ana="folio">191v-Rückendeckel innen</locus>
+                <title>Nachgetragene medizinische Rezepte, lat. und dt.</title>
+              </msItem>
+            </msContents>
+          </msPart>
+        </msDesc>
+        <listBibl type="catalogues">
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/ZKMR8STG" type="book" xml:id="Schneider1996">
+            <monogr>
+              <title level="m">Catalogus Codicum Manu Scriptorum Bibliothecae Monacensis : Tomus 5 :
+								Die deutschen Handschriften der Bayerischen Staatsbibliothek München : Pars 7 : Die
+								mittelalterlichen Handschriften aus Cgm 4001-5247 / Neu beschrieben von Karin
+								Schneider</title>
+              <author>
+                <forename>Karin</forename>
+                <surname>Schneider</surname>
+              </author>
+              <edition>Editio Altera</edition>
+              <imprint>
+                <pubPlace>Wiesbaden</pubPlace>
+                <publisher>Harrassowitz</publisher>
+                <date>1996</date>
+                <note type="url">http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0492.htm</note>
+              </imprint>
+            </monogr>
+            <citedRange unit="page">32-35</citedRange>
+            <note type="display">Schneider, K. (1996) <hi rend="italic">Catalogus Codicum Manu Scriptorum Bibliothecae Monacensis: Tomus 5: Die deutschen Handschriften der Bayerischen Staatsbibliothek München: Pars 7: Die mittelalterlichen Handschriften aus Cgm 4001-5247 / Neu beschrieben von Karin Schneider</hi>. Editio Altera. Wiesbaden: Harrassowitz, cf. pp. 32-35. Available at: <ref target="http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0492.htm">http://bilder.manuscripta-mediaevalia.de/hs//kataloge/HSK0492.htm</ref>.
+						</note>
+          </biblStruct>
+          <biblStruct corresp="http://zotero.org/groups/2455111/items/7T7HXCV2" type="webpage" xml:id="zoteroItem_7T7HXCV2">
+            <analytic>
+              <title level="a">Handschriftencensus | München, Staatsbibl., Cgm 4206</title>
+            </analytic>
+            <monogr>
+              <title level="m">Handschriftencensus</title>
+              <imprint>
+                <date>2018</date>
+                <note type="accessed">2020-10-16T09:19:53Z</note>
+                <note type="url">https://handschriftencensus.de/10103</note>
+              </imprint>
+            </monogr>
+            <note type="display">
+              <hi rend="italic">Handschriftencensus | München, Staatsbibl., Cgm 4206</hi> (2018) <hi rend="italic">Handschriftencensus</hi>. Available at: <ref target="https://handschriftencensus.de/10103">https://handschriftencensus.de/10103</ref> (Accessed: 16 October 2020).
+						</note>
+          </biblStruct>
+        </listBibl>
+        
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface start="#M8_037v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_4206_fol_037v.jpg" xml:id="IMG.037v"></graphic>
+    </surface>
+    <surface start="#M8_038r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_4206_fol_038r.jpg" xml:id="IMG.038r"></graphic>
+    </surface>
+    <surface start="#M8_038v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_4206_fol_038v.jpg" xml:id="IMG.038v"></graphic>
+    </surface>
+    <surface start="#M8_124r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_4206_fol_124r.jpg" xml:id="IMG.124r"></graphic>
+    </surface>
+    <surface start="#M8_124v">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_4206_fol_124v.jpg" xml:id="IMG.124v"></graphic>
+    </surface>
+    <surface start="#M8_125r">
+      <graphic url="München_Bayerische_Staatsbibliothek_Cgm_4206_fol_125r.jpg" xml:id="IMG.125r"></graphic>
+    </surface>
+    <surface start="#">
+      <graphic url="cutouts/m8.jpg" xml:id="CUTOUT"></graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body xml:space="preserve"><ab>
+         <milestone n="M8a" unit="collection"></milestone>
+			<pb n="037v" xml:id="M8_037v"></pb>
+			
+				 
+				<lb n="N008"></lb><hi rend="textColour:RED;" style="heading">Confectu<g ref="#combuml"></g>m</hi>
+				<lb n="N009"></lb><seg><hi rend="textColour:RED;"><hi>V</hi></hi><g ref="#verbar" rend="textColour:RED;"></g>Iltu machen <foreign xml:lang="gk">d<g ref="#inodot">i</g>ac<g ref="#inodot">i</g>tonieon</foreign> <g ref="#verbar" rend="textColour:RED;"></g>So nym
+				<lb n="N010"></lb>eyn halbes pfunt quitten vnde
+				<lb n="N011"></lb>nym <abbr>eyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> gefugen ke<g ref="#slong">s</g><g ref="#slong">s</g>il vnde
+				<lb n="N012"></lb>fulle den mit wa<g ref="#slong">s</g><g ref="#slong">s</g>er <g ref="#verbar" rend="textColour:RED;"></g>Wen das wa<g ref="#slong">s</g><g ref="#slong">s</g>er
+				<lb n="N013"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>den wolle <g ref="#verbar" rend="textColour:RED;"></g>So lege die guetten <abbr>ga<ex>n</ex><am><g ref="#bar_n"></g></am>tcz</abbr>
+				<lb n="N014"></lb>in den ke<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>l vnde los <abbr>doryn<ex>n</ex><am><g ref="#bar_n"></g></am>e</abbr> <g ref="#slong">s</g>o lange
+				<lb n="N015"></lb><del>legen</del><note xml:lang="de">Revision: &apos;legen&apos; expungiert.</note><note xml:lang="en">Revision: &apos;legen&apos; expunctuated.</note> <g ref="#slong">s</g>yden b<g ref="#inodot">i</g>s das dy qu<g ref="#inodot">i</g>tten an der
+				<lb n="N016"></lb>hand <g ref="#z_round">z</g>uc <g ref="#slong">s</g>chr<g ref="#inodot">i</g>nden <g ref="#verbar" rend="textColour:RED;"></g>So nym <g ref="#slong">s</g>y auß dem
+				<lb n="N017"></lb>ke<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>l vnd las <g ref="#slong">s</g>y erkalden <g ref="#slong">s</g>o <g ref="#slong">s</g>chele <g ref="#slong">s</g><g ref="#inodot">i</g>e
+				<lb n="N018"></lb><g ref="#slong">s</g>chone wenne du <g ref="#slong">s</g><g ref="#inodot">i</g>e ge<g ref="#slong">s</g>chele<g ref="#slong">s</g>t <g ref="#slong">s</g>chon
+				<lb n="N019"></lb><g ref="#verbar" rend="textColour:RED;"></g>So <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> vnd <g ref="#slong">s</g>ne<g ref="#inodot">i</g>d das we<g ref="#inodot">i</g>che das do <w>pul<g ref="#dbloblhyph">=</g>
+				<lb n="N020"></lb>pa</w> hey<g ref="#slong">s</g>zet alles abe vnd hute d<g ref="#inodot">i</g>ch vor
+				<lb n="N021"></lb>den <abbr><g ref="#slong">s</g>teyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> d<g ref="#inodot">i</g>e <g ref="#inodot">i</g>ndem grob<g ref="#inodot">i</g><g ref="#slong">s</g><g ref="#slong">s</g>e <abbr><g ref="#slong">s</g>ey<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <g ref="#verbar" rend="textColour:RED;"></g>So
+				<lb n="N022"></lb>nym das das do abe ge<g ref="#slong">s</g>nitten ha<g ref="#slong">s</g>t vnd
+				<lb n="N023"></lb>drucke es durch e<g ref="#inodot">i</g>n be<g ref="#slong">s</g>t<g ref="#inodot">i</g>n <g ref="#slong">s</g><g ref="#inodot">i</g>p das n<g ref="#inodot">i</g>cht
+				<lb n="N024"></lb>czu cleyne noch <g ref="#z_round">z</g>cu gros locher habe b<g ref="#inodot">i</g><g ref="#slong">s</g>z
+				<lb n="N025"></lb>das du es gar m<g ref="#inodot">i</g>t <abbr>eyne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> leff<g ref="#inodot">i</g>l durch
+				<lb n="N026"></lb>drucke<g ref="#slong">s</g>t vnde <g ref="#inodot">i</g><g ref="#slong">s</g>t den der durch <w>druc<g ref="#dbloblhyph">=</g>
+				<lb n="N027"></lb>ten</w> pulpen ader <abbr>mate<ex>r</ex><am><g ref="#combcomma_r"></g></am><g ref="#inodot">i</g>en</abbr> ein pfund <g ref="#verbar" rend="textColour:RED;"></g>So
+				<lb n="N028"></lb>nym <abbr>and<ex>er</ex><am><g ref="#combcomma_er"></g></am>halb</abbr> pfund hon<g ref="#inodot">i</g>g<g ref="#slong">s</g>eyms vnd
+				<lb n="N029"></lb>thu das hon<g ref="#inodot">i</g>gk <g ref="#inodot">i</g>n <abbr>eyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> ke<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>l laß das
+				<lb n="N030"></lb>b<g ref="#inodot">i</g>s daz du das gar reyn ge<g ref="#slong">s</g>chume<g ref="#slong">s</g>t
+				<lb n="N031"></lb><g ref="#verbar" rend="textColour:RED;"></g>So <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> dy <abbr>mate<ex>r</ex><am><g ref="#combcomma_r"></g></am><g ref="#inodot">i</g>e</abbr> vnd lege <g ref="#slong">s</g>ie dor yn <fw type="catchword">daz</fw>
+			
+			<pb n="038r" xml:id="M8_038r"></pb>
+			
+				<lb n="N001"></lb><note xml:lang="de">&apos;37&apos; am linken Blattrand. Bedeutung unklar, möglw. Paginierung hier doppelt angebracht.</note><note xml:lang="en">&apos;37&apos; written on left margin. The meaning is unclear, maybe it is a double pagination.</note><g ref="#verbar" rend="textColour:RED;"></g>Das laß <g ref="#slong">s</g>yden mit <abbr>e<g ref="#inodot">i</g>nande<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd rure
+				<lb n="N002"></lb>das <abbr>i<ex>m</ex><am><g ref="#bar_m"></g></am>m<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#inodot">i</g>n<note xml:lang="de">Lesart der Passage unklar.</note><note xml:lang="en">Reading of the text passsage unclear.</note>  he<g ref="#inodot">i</g>t m<g ref="#inodot">i</g>t <abbr>e<g ref="#inodot">i</g>ne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>groze<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> re<g ref="#inodot">i</g>bholtcze
+				<lb n="N003"></lb>ader mit <abbr>eyn<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr><g ref="#slong">s</g>chyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> das es <g ref="#inodot">i</g>cht <abbr>b<ex>ur</ex><am><g ref="#urrot"></g></am>ne</abbr>
+				<lb n="N004"></lb><g ref="#verbar" rend="textColour:RED;"></g>W<g ref="#inodot">i</g>ltu denne vor<g ref="#slong">s</g>uchen abes gnugk ge
+				<lb n="N005"></lb><g ref="#slong">s</g>oten <g ref="#slong">s</g>ey <g ref="#verbar" rend="textColour:RED;"></g>So nym peyel ader e<g ref="#inodot">i</g>n <w><g ref="#slong">s</g>lech<g ref="#dbloblhyph">=</g>
+				<lb n="N006"></lb>t<g ref="#inodot">i</g>n</w> <g ref="#slong">s</g>te<g ref="#inodot">i</g>n vnd thu <g ref="#slong">s</g>e<g ref="#inodot">i</g>n e<g ref="#inodot">i</g>n<g ref="#lb">w</g>en<g ref="#inodot">i</g>gk daruff
+				<lb n="N007"></lb><g ref="#inodot">i</g>s das es <g ref="#slong">s</g><g ref="#inodot">i</g>ch <g ref="#slong">s</g>chone leßer dauon vnde
+				<lb n="N008"></lb>n<g ref="#inodot">i</g>chten cleber andem <g ref="#slong">s</g>teine ader <abbr>a<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> dem
+				<lb n="N009"></lb>peyel ader an den hend<g ref="#inodot">i</g>n <abbr><g ref="#slong">s</g>und<ex>er</ex><am><g ref="#combcomma_er"></g></am>?</abbr><note xml:lang="de">Lesart unsicher. Revision unklar.</note><note xml:lang="en">Reading unclear. Revision unclear.</note> das <g ref="#slong">s</g><g ref="#inodot">i</g>ch
+				<lb n="N010"></lb>let kul<g ref="#inodot">i</g>chen welchern vnder den henden
+				<lb n="N011"></lb>al<g ref="#slong">s</g>o p<g ref="#inodot">i</g>llele<g ref="#inodot">i</g>n <g ref="#verbar" rend="textColour:RED;"></g>So hat es das <g ref="#slong">s</g>ydens gnu<g ref="#combuml"></g>g
+				<lb n="N012"></lb><g ref="#verbar" rend="textColour:RED;"></g>So <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> e<g ref="#inodot">i</g>n halbes pfund Ingber v<g ref="#inodot">i</g>r lot
+				<lb n="N013"></lb>galgan v<g ref="#inodot">i</g>r lot czenemey <abbr>eyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> halb<g ref="#inodot">i</g>n v<g ref="#inodot">i</g>r
+				<lb n="N014"></lb>d<g ref="#inodot">i</g>ng mac<g ref="#inodot">i</g>s <g ref="#verbar" rend="textColour:RED;"></g>Swarczes pfeffers muscat
+				<lb n="N015"></lb>negele<g ref="#inodot">i</g>n <g ref="#inodot">i</g>czl<g ref="#inodot">i</g>ches <abbr>eyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> halben v<g ref="#inodot">i</g>rd<g ref="#inodot">i</g>ngk
+				<lb n="N016"></lb><g ref="#verbar" rend="textColour:RED;"></g>Sp<g ref="#inodot">i</g>kl<g ref="#inodot">i</g>ng<g ref="#inodot">i</g>n aloes das flew<g ref="#slong">s</g>zer v<g ref="#slong">s</g>z dem
+				<lb n="N017"></lb><abbr><ex>par</ex><am><g ref="#pbardes_par"></g></am>ad<g ref="#inodot">i</g>ße</abbr> <g ref="#inodot">i</g>nder apt<add>e</add>ken irken<g ref="#slong">s</g>tu das <g ref="#verbar" rend="textColour:RED;"></g>Lat
+				<lb n="N018"></lb><foreign xml:lang="la">damomi</foreign> gutes cleynes <g ref="#verbar" rend="textColour:RED;"></g>C<g ref="#inodot">i</g>t<g ref="#lb">w</g>ars der
+				<lb n="N019"></lb>v<g ref="#inodot">i</g>rer <g ref="#inodot">i</g>czlichs gl<g ref="#inodot">i</g>chem loth d<g ref="#inodot">i</g><g ref="#slong">s</g>ße <abbr>w<ex>ur</ex><am><g ref="#urrot"></g></am>rcze</abbr>
+				<lb n="N020"></lb><g ref="#slong">s</g>al <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> wol <g ref="#slong">s</g>toßen vnd reib <g ref="#slong">s</g><g ref="#inodot">i</g>e durch
+				<lb n="N021"></lb><abbr>ey<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> cleyne <g ref="#slong">s</g>ip das <abbr>pulu<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#slong">s</g>al vor bere<g ref="#inodot">i</g>t
+				<lb n="N022"></lb><g ref="#slong">s</g>y erdenne du an heb<g ref="#inodot">i</g><g ref="#slong">s</g>t <foreign xml:lang="gk">dyaciton<g ref="#inodot">i</g>con</foreign>
+				<lb n="N023"></lb>czu machen <g ref="#verbar" rend="textColour:RED;"></g>So nym das <abbr>pulu<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>vnd<ex>e</ex><am><g ref="#bar_e"></g></am></abbr>
+				<lb n="N024"></lb>thu das <g ref="#inodot">i</g>n d<g ref="#inodot">i</g>e vorgemachte pulpe
+				<lb n="N025"></lb>vnd <abbr>rur<ex>e</ex><am><g ref="#combcomma_e"></g></am></abbr> das al<g ref="#slong">s</g>o va<g ref="#slong">s</g>te <abbr>vnd<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>einna<ex>n</ex><am><g ref="#bar_n"></g></am>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr>
+				<lb n="N026"></lb>an vnde las bis das es <g ref="#slong">s</g><g ref="#inodot">i</g>ch gar gl<g ref="#inodot">i</g>ch
+				<lb n="N027"></lb><abbr>vnd<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <abbr>e<g ref="#inodot">i</g>nand<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> gemi<g ref="#slong">s</g>chet <g ref="#verbar" rend="textColour:RED;"></g>So nym <abbr>eyne<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N028"></lb><abbr><g ref="#slong">s</g>chone<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> t<g ref="#inodot">i</g><g ref="#slong">s</g>ch vnd <g ref="#slong">s</g>ee das <abbr>vorgnante<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N029"></lb>puluers dar uff durch ey <g ref="#slong">s</g><g ref="#inodot">i</g>p <g ref="#verbar" rend="textColour:RED;"></g>vnde
+				<lb n="N030"></lb><abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> d<g ref="#inodot">i</g> <abbr>mat<ex>er</ex><am><g ref="#combcomma_er"></g></am><g ref="#inodot">i</g>e</abbr> vnde lege <g ref="#slong">s</g>ie uff <abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> t<g ref="#inodot">i</g><g ref="#slong">s</g>ch
+				<lb n="N031"></lb><abbr>vnd<ex>e</ex><am><g ref="#bar_e"></g></am></abbr> czu breite <g ref="#slong">s</g>y mit <abbr>eyne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> cle<g ref="#inodot">i</g>nem
+				<lb n="N032"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>n<g ref="#lb">w</g>ellen holtcze al<g ref="#slong">s</g>o <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> thut <abbr>de<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> te<g ref="#inodot">i</g>ge
+			
+			<pb n="038v" xml:id="M8_038v"></pb>
+			
+				<lb n="N001"></lb>der crapfen <abbr>vnd<ex>e</ex><am><g ref="#bar_e"></g></am></abbr> las erkalden vnd <g ref="#z_round">z</g>cu
+				<lb n="N002"></lb><g ref="#slong">s</g>neide es danne vnd lege es <g ref="#inodot">i</g>n eynen
+				<lb n="N003"></lb>u<g ref="#lb">w</g>en<note>unsicher<g ref="#combuml"></g> &apos;a<g ref="#inodot">i</g>&apos;? &apos;lb<g ref="#fracsol"></g>w&apos;?</note> topff vnd nutcze das da<g ref="#lb">w</g>er wol
+				<lb n="N004"></lb>vnd vortreibet d<g ref="#inodot">i</g>e wolleke<g ref="#inodot">i</g>d vnd den
+				<lb n="N005"></lb>we v<g ref="#slong">s</g>z dem <abbr>h<ex>er</ex><am><g ref="#combcomma_er"></g></am>rczen</abbr> S<g ref="#inodot">i</g>e <abbr>we<ex>r</ex><am><g ref="#combcomma_r"></g></am>met</abbr> den
+				<lb n="N006"></lb>magen vnd machet den wol da<g ref="#lb">w</g>en
+				<lb n="N007"></lb>S<g ref="#inodot">i</g>e <g ref="#inodot">i</g><g ref="#slong">s</g>t gut den d<g ref="#inodot">i</g>e <g ref="#z_round">z</g>cu we<g ref="#inodot">i</g>chl<g ref="#inodot">i</g>ch vnd
+				<lb n="N008"></lb>czertl<g ref="#inodot">i</g>ch erczogen <g ref="#slong">s</g><g ref="#inodot">i</g>nd Sie <g ref="#inodot">i</g><g ref="#slong">s</g>t gut den
+				<lb n="N009"></lb>edeln luten d<g ref="#inodot">i</g>e n<g ref="#inodot">i</g>cht <g ref="#slong">s</g>charffer ercznei
+				<lb n="N010"></lb>erle<g ref="#inodot">i</g>den mogen S<g ref="#inodot">i</g>e <g ref="#inodot">i</g><g ref="#slong">s</g>t den gut d<g ref="#inodot">i</g>e
+				<lb n="N011"></lb>d<g ref="#inodot">i</g>e <del>htt</del> <abbr>henemut<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> haben Sie machet
+				<lb n="N012"></lb>gute far<g ref="#lb">w</g>e vnd <g ref="#inodot">i</g><g ref="#slong">s</g>t v<g ref="#inodot">i</g>l gut <foreign xml:lang="la">a<g ref="#slong">s</g>maticus</foreign>
+				<lb n="N013"></lb>das <g ref="#inodot">i</g><g ref="#slong">s</g>t den d<g ref="#inodot">i</g>e den <abbr>dorte<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <g ref="#slong">s</g><g ref="#inodot">i</g>chtum <w>ha<g ref="#dbloblhyph">=</g>
+				<lb n="N014"></lb>ben</w> vnd <g ref="#inodot">i</g><g ref="#slong">s</g>t gut vor den hu<g ref="#slong">s</g>ten vnde
+				<lb n="N015"></lb>w<g ref="#inodot">i</g>dder den <g ref="#slong">s</g>techin vnde w<g ref="#inodot">i</g>dder <w>an<g ref="#dbloblhyph">=</g>
+				<lb n="N016"></lb>der</w> mancherleye <g ref="#slong">s</g><g ref="#inodot">i</g>chtum</seg>
+				
+         <milestone n="M8b" unit="collection"></milestone>
+			<pb n="124r" xml:id="M8_124r"></pb>
+			
+				
+				<lb n="N022"></lb><seg><hi rend="textColour:RED;">Von guder <g ref="#slong">s</g>ultcze</hi>
+				<lb n="N023"></lb><supplied reason="missing"><hi>W</hi></supplied><note xml:lang="de">Kleines &apos;w&apos; als Platzhalter für Initiale.</note><note xml:lang="en">Small letter &apos;w&apos; as placehlder for initial.</note> Iltu gute <g ref="#slong">s</g>ulcze machin <abbr>vo<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> <abbr>nu<g ref="#slong">s</g><g ref="#slong">s</g>e<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> So
+				<lb n="N024"></lb>nym dy wel<g ref="#slong">s</g>che nu<g ref="#combuml"></g><g ref="#slong">s</g>che an <abbr><g ref="#slong">s</g><ex>anc</ex>te<am><g ref="#bar"></g></am></abbr> <abbr>Io<ex>hannis</ex><am><g>nis</g></am></abbr>
+				<lb n="N025"></lb>nacht vnd <g ref="#slong">s</g>chele das <abbr>dun<ex>n</ex><am><g ref="#bar_n"></g></am>e</abbr> <abbr><g ref="#slong">s</g>chelch<ex>e</ex><am><g ref="#bar_e"></g></am>n</abbr>
+				<lb n="N026"></lb>abe das <g ref="#slong">s</g>ye rechte <g ref="#lb">w</g>ys <g ref="#lb">w</g>erd<g ref="#inodot">i</g>n vnd
+				<lb n="N027"></lb>durch <g ref="#slong">s</g>t<g ref="#inodot">i</g>ch <g ref="#slong">s</g><g ref="#inodot">i</g>e cruczewens mit ey<g ref="#inodot">i</g>d ale
+				<lb n="N028"></lb>vnd lege <g ref="#slong">s</g><g ref="#inodot">i</g>e <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am>e</abbr> <g ref="#inodot">i</g>n <abbr>ey<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> reyne wa<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>r
+				<lb n="N029"></lb>e<g ref="#inodot">i</g>n acht ad<g ref="#inodot">i</g>r v<g ref="#inodot">i</g>rczen tage vnd gus alle
+				<lb n="N030"></lb>tage cz<g ref="#lb">w</g>ir ad<g ref="#inodot">i</g>r <abbr>dre<g ref="#inodot">i</g><g ref="#slong">s</g>tu<ex>n</ex><am><g ref="#bar_n"></g></am>d</abbr> reyne wa<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>r dor
+				<lb n="N031"></lb>uff
+			
+			<pb n="124v" xml:id="M8_124v"></pb>
+			
+				<lb n="N001"></lb>B<g ref="#inodot">i</g>s <g ref="#slong">s</g>o lange b<g ref="#inodot">i</g>s das du <g ref="#slong">s</g>merck<g ref="#inodot">i</g><g ref="#slong">s</g>t das 
+				<lb n="N002"></lb><g ref="#slong">s</g>o <abbr>n<g ref="#inodot">i</g>e<ex>m</ex><am><g ref="#bar_m"></g></am>me</abbr> <abbr>b<g ref="#inodot">i</g>tt<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#slong">s</g><g ref="#inodot">i</g>n So <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <g ref="#slong">s</g><g ref="#inodot">i</g>e <abbr>den<ex>n</ex><am><g ref="#bar_n"></g></am>e</abbr> uf yn <w><abbr>ey<g ref="#dbloblhyph">=</g>
+				<lb n="N003"></lb>ne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr></w> topfe ad<g ref="#inodot">i</g>r <g ref="#inodot">i</g>n eynem ke<g ref="#slong">s</g><g ref="#slong">s</g><g ref="#inodot">i</g>l m<g ref="#inodot">i</g>t <abbr>eyne<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> gu
+				<lb n="N004"></lb>ten honige vnd <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <g ref="#slong">s</g><g ref="#inodot">i</g>e denne er vß m<g ref="#inodot">i</g>t
+				<lb n="N005"></lb><abbr>eyn<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> locher<g ref="#inodot">i</g>ngen kellen vnd las <g ref="#slong">s</g><g ref="#inodot">i</g>e kalt
+				<lb n="N006"></lb>werd<g ref="#inodot">i</g>n vnd <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> denne des <g ref="#slong">s</g>od do <g ref="#slong">s</g>ye <w><abbr>y<ex>n</ex><am><g ref="#bar_n"></g></am><g ref="#dbloblhyph">=</g>
+				<lb n="N007"></lb>ne</abbr></w> ge<g ref="#slong">s</g>ot<g ref="#inodot">i</g>n haben vnd hon<g ref="#inodot">i</g>ge das bas vnd
+				<lb n="N008"></lb><g ref="#slong">s</g>eud das wol b<g ref="#inodot">i</g>ß <g ref="#slong">s</g>o lange das d<g ref="#inodot">i</g>e <g ref="#slong">s</g>uppe
+				<lb n="N009"></lb>d<g ref="#inodot">i</g>ckel<g ref="#inodot">i</g>cht an dem leffel <g ref="#lb">w</g>erde So laß
+				<lb n="N010"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>e <abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am>ne</abbr> kalt <g ref="#lb">w</g>erd<g ref="#inodot">i</g>n vnd <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> <abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am>ne</abbr> d<g ref="#inodot">i</g>e
+				<lb n="N011"></lb>nu<g ref="#combuml"></g><g ref="#slong">s</g>ße vnd <g ref="#slong">s</g>tecke <g ref="#inodot">i</g>nd<g ref="#inodot">i</g>e locherthen <w>Inge<g ref="#dbloblhyph">=</g>
+				<lb n="N012"></lb>ber</w> Cynemey vnd nel<g ref="#inodot">i</g>ckin vnd <g ref="#lb">w</g>urcze
+				<lb n="N013"></lb>denne die <g ref="#slong">s</g>uppe rechte <g ref="#lb">w</g>ol vnd geuß
+				<lb n="N014"></lb><g ref="#slong">s</g><g ref="#inodot">i</g>e denne uff d<g ref="#inodot">i</g>e nu<g ref="#slong">s</g><g ref="#slong">s</g>e du <g ref="#slong">s</g>y <abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am>ne</abbr> ge
+				<lb n="N015"></lb>le<g ref="#inodot">i</g><g ref="#slong">s</g>t <g ref="#inodot">i</g>n eyn gle<g ref="#slong">s</g><g ref="#inodot">i</g>n topf So ha<g ref="#slong">s</g>tu denne
+				<lb n="N016"></lb>gute naturl<g ref="#inodot">i</g>che ge<g ref="#slong">s</g>ulcze nu<g ref="#combuml"></g><g ref="#slong">s</g>ße</seg><seg>
+				<lb n="N017"></lb><supplied reason="missing"><hi>W</hi></supplied><note xml:lang="de">Kleines &apos;w&apos; als Platzhalter für Initiale.</note><note xml:lang="en">Small letter &apos;w&apos; as placehlder for initial.</note> Iltu gute claret mach<g ref="#inodot">i</g>n So <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr>
+				<lb n="N018"></lb>cz<g ref="#lb">w</g>e<g ref="#inodot">i</g> lot <abbr>cynemey<ex>n</ex><am><g ref="#bar_n"></g></am></abbr> e<g ref="#inodot">i</g>n lot Ingeber
+				<lb n="N019"></lb>e<g ref="#inodot">i</g>n halb lot <abbr>par<g ref="#inodot">i</g><g ref="#slong">s</g>korn<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> das <g ref="#slong">s</g>al <abbr>ma<ex>n</ex><am><g ref="#bar_n"></g></am></abbr>
+				<lb n="N020"></lb><g ref="#z_round">z</g>cu <abbr>pulu<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> mach<g ref="#inodot">i</g>n vnde das zcu <g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#inodot">i</g>n vnd
+				<lb n="N021"></lb>thu dorczu ge<g ref="#slong">s</g>to<g ref="#slong">s</g><g ref="#slong">s</g>ens <abbr><g ref="#slong">s</g>affe<ex>r</ex><am><g ref="#combcomma_r"></g></am>ns</abbr> al<g ref="#slong">s</g>o gras als
+				<lb n="N022"></lb>e<g ref="#inodot">i</g>n halbe erbe<g ref="#inodot">i</g>ß vnd <abbr>ny<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> e<g ref="#inodot">i</g>n halb no <g ref="#slong">s</g><g ref="#inodot">i</g>l
+				<lb n="N023"></lb>hon<g ref="#inodot">i</g>g<g ref="#inodot">i</g>s vnd e<g ref="#inodot">i</g>n halb <g ref="#slong">s</g>tob<g ref="#inodot">i</g>ch<g ref="#inodot">i</g>n weyns
+				<lb n="N024"></lb><abbr>d<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#slong">s</g>yne farbe held<g ref="#inodot">i</g>t vnd tr<g ref="#inodot">i</g>b das hon<g ref="#inodot">i</g>g
+				<lb n="N025"></lb>vnde den <g ref="#lb">w</g>e<g ref="#inodot">i</g>n vnd<g ref="#inodot">i</g>r <abbr>einand<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> vnd Guß
+				<lb n="N026"></lb><abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am>ne</abbr> den <g ref="#lb">w</g><g ref="#inodot">i</g>n ub<g ref="#inodot">i</g>r d<g ref="#inodot">i</g>s <abbr>pulu<ex>er</ex><am><g ref="#combcomma_er"></g></am></abbr> <g ref="#inodot">i</g>n eyne
+				<lb n="N027"></lb><abbr>ka<ex>n</ex><am><g ref="#bar_n"></g></am>ne</abbr> vnd Thu d<g ref="#inodot">i</g>e kanne ve<g ref="#slong">s</g>te zcu vnd
+				<lb n="N028"></lb>las <g ref="#slong">s</g><g ref="#inodot">i</g>e <g ref="#slong">s</g>tehin eyne <g ref="#slong">s</g>tunde ad<g ref="#inodot">i</g>r zcu vnd
+				<lb n="N029"></lb>gus deme durch eyn rein <g ref="#slong">s</g>eglein das <g ref="#slong">s</g>al
+				<lb n="N030"></lb>gemacht <g ref="#slong">s</g>in als eyn la<g ref="#lb">w</g>gen <g ref="#slong">s</g>ag <abbr>vnd<ex>e</ex><am><g ref="#bar_e"></g></am></abbr>
+			
+			<pb n="125r" xml:id="M8_125r"></pb>
+			
+				<lb n="N001"></lb>Geus denne darein vnde was <w>vnde<g ref="#dbloblhyph">=</g>
+				<lb n="N002"></lb>ne</w> durch geh<g ref="#inodot">i</g>t das guß oben <g ref="#lb">w</g>id<g ref="#inodot">i</g>r
+				<lb n="N003"></lb>yn b<g ref="#inodot">i</g>s <g ref="#slong">s</g>o lange das <g ref="#inodot">i</g>ß laut<g ref="#inodot">i</g>r al<g ref="#slong">s</g><del>gatl</del> golt
+				<lb n="N004"></lb>far get vnde geus <abbr>de<ex>n</ex><am><g ref="#bar_n"></g></am>ne</abbr> In ein glas vnde
+				<lb n="N005"></lb><abbr>tr<g ref="#inodot">i</g><ex>n</ex><am><g ref="#bar_n"></g></am>ckes</abbr> des morgens <abbr>nucht<ex>er</ex><am><g ref="#combcomma_er"></g></am>n</abbr> das <g ref="#inodot">i</g><g ref="#slong">s</g>t czuv<g ref="#inodot">i</g>l
+				<lb n="N006"></lb>D<g ref="#inodot">i</g>ngin gut be<g ref="#inodot">i</g>de <abbr>czu<ex>m</ex><am><g ref="#bar_m"></g></am></abbr> herczen vor geruch
+				<lb n="N007"></lb>zcu allen d<g ref="#inodot">i</g>ngen vnde I<g ref="#slong">s</g>t e<g ref="#inodot">i</g>n naturl<g ref="#inodot">i</g>ch
+				<lb n="N008"></lb>gud claret</seg>
+				
+		</ab></body>
+  </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1636" xml:id="l1647" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1636 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>028v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1636.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Seckendorff, Arnold v.</persName><persName ref="https://www.wikidata.org/wiki/Q19959153" type="recipient">Leonhard, Gf. v. Castell</persName></ab><ab type="mention"><placeName type="mention">Windsbach (Stadt, Lk. Ansbach)</placeName><persName type="mention">Kragen, Peter</persName></ab><date from="25-08-1414" to="25-08-1414" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_57">
+<surface lrx="2645" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0031_left.png" width="2645px"/>
+<zone lrx="1915" lry="1663" rendition="TextRegion" ulx="2080" uly="1750" xml:id="facs_57_r2"> <zone lrx="2607" lry="1663" rendition="Line" ulx="785" uly="1525" xml:id="facs_57_r2l15"/>
+<zone lrx="2596" lry="1758" rendition="Line" ulx="746" uly="1614" xml:id="facs_57_r2l16"/>
+<zone lrx="2356" lry="1813" rendition="Line" ulx="2080" uly="1724" xml:id="facs_57_r2l17"/>
+<zone lrx="1915" lry="1849" rendition="Line" ulx="766" uly="1750" xml:id="facs_57_r2l18"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über Ausstellung eines Kredenzbriefs</head><p>Zwei Kredenzbriefe für Peter Kragen an Arnold von Seckendorff zu Windsbach und Graf Leonhard von Castell wegen Kaufleuten und Geschirren.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_57" id="28v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_57_r2l15"><expan>Jt<ex>em</ex></expan> ij credencʒ auf <expan>pet<ex>er</ex></expan> <expan>krag<ex>en</ex></expan> ein an Arnolt von <expan>Sekendo<ex>r</ex>ff</expan> </ab>
+<ab facs="#facs_57_r2l16">von vvındſpach / dıe <expan>and<ex>er</ex>n</expan> an ~ den von Caſtell . als von ~ der </ab>
+<ab facs="#facs_57_r2l18">kauwffleẅt vnd <expan>etlıch<ex>er</ex></expan> geſchırr <expan>weg<ex>en</ex></expan> etc . </ab>
+<ab facs="#facs_57_r2l17"><expan>ſab<ex>at</ex>o</expan> vt <expan>ſ<ex>upra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_57" id="28v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>It<ex>em</ex></expan> ii credencz auf <expan>Pet<ex>er</ex></expan>
+<expan>Krag<ex>en,</ex></expan> ein an Arnolt von
+                            <expan>Sekendo<ex>r</ex>ff</expan> von Windspach, die
+                                <expan>and<ex>er</ex>n</expan> an den von Castell als von der
+                        kauwfflewt und <expan>etlich<ex>er</ex></expan> geschirr
+                                <expan>weg<ex>en</ex></expan> etc. <expan>Sab<ex>at</ex>o</expan> ut
+                                <expan>s<ex>upra.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

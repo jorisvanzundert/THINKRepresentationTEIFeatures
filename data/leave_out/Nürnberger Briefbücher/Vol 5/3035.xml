@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="3035" xml:id="l3046" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 3035 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>258r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 3035.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q101459" type="recipient">Friedrich III. v. Aufseß, Bf. v. Bamberg</persName></ab><ab type="mention"><persName type="mention">Erlbeck, Hans</persName></ab><date from="30-09-1422" to="28-10-1422" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_518">
+<surface lrx="2652" lry="3745" ulx="0" uly="0">
+<graphic height="3745px" url="Rst Nbg-Briefbücher-Nr 5_0262_right.png" width="2652px"/>
+<zone lrx="1800" lry="1402" rendition="TextRegion" ulx="2034" uly="1671" xml:id="facs_518_r1">
+<zone lrx="1800" lry="1402" rendition="Line" ulx="1014" uly="1320" xml:id="facs_518_r1l12"/> <zone lrx="2406" lry="1553" rendition="Line" ulx="494" uly="1463" xml:id="facs_518_r1l13"/>
+<zone lrx="2204" lry="1593" rendition="Line" ulx="2034" uly="1552" xml:id="facs_518_r1l14"/>
+<zone lrx="2378" lry="1653" rendition="Line" ulx="516" uly="1576" xml:id="facs_518_r1l15"/>
+<zone lrx="2297" lry="1774" rendition="Line" ulx="125" uly="1671" xml:id="facs_518_r1l16"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Friedrich III. von Aufseß, Bischof von Bamberg</head><p>Der Rat kündigt Hans Erlbeck, Diener der Stadt, wegen Bürgern zu Nürnberg und ihrer Armleute an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_518" id="258r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_518_r1l12">Byſchof cʒu <expan>Bamb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_518_r1l13"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> vvir <expan>ſende<ex>n</ex></expan> cʒu <expan>ewr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> hanſen <expan>Erelbecke<ex>n</ex></expan> </ab>
+<ab facs="#facs_518_r1l15"><expan>vnſ<ex>er</ex>n</expan> dyner mit <expan>ew<ex>r</ex>n</expan> gnaden cʒu reden von ~ 
+<del rend="strikethrough"> der </del>
+<add><ab facs="#facs_518_r1l14">etlıcher </ab></add> <expan>vnſ<ex>er</ex>r</expan> </ab>
+<ab facs="#facs_518_r1l16">
+<add>Burgere</add> vnd <expan>ir<ex>er</ex></expan> Armenlewte wegen . vnd <expan>Ro<ex>gamus</ex></expan> etc / vt in <expan>for<ex>ma</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_518" id="258r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Byschof czu <expan>Bamb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, wir <expan>sende<ex>n</ex></expan> czu
+                                <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> Hansen
+                            <expan>Erelbecke<ex>n</ex></expan>, <expan>uns<ex>er</ex>n</expan>
+                        dyner, mit <expan>ew<ex>r</ex>n</expan> gnaden czu reden von
+                            <add>etlicher</add>
+<expan>uns<ex>er</ex>r</expan>
+<add>burgere</add> und <expan>ir<ex>er</ex></expan> armenlewte wegen. Und
+                                <expan>ro<ex>gamus</ex></expan> etc. ut in
+                            <expan>for<ex>ma</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

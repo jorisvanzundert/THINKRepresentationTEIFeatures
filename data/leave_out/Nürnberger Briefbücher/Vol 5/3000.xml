@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="3000" xml:id="l3011" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 3000 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>249r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 3000.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Heinrich V. v. Lancaster, Kg. v. England</persName></ab><ab type="mention"><placeName type="mention">Paris (Frankreich)</placeName><placeName type="mention">Mâcon (Frankreich)</placeName><persName type="mention">Haug, Jobst</persName><persName type="mention">Fureti, Johannes</persName><persName type="mention">Fureti, Bernhard</persName><persName type="mention">Fureti, Christopher</persName><persName type="mention">Karl VI. v. Valois, Kg. v. Frankreich</persName></ab><date from="2-09-1422" to="30-09-1422" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_500">
+<surface lrx="2669" lry="3745" ulx="0" uly="0">
+<graphic height="3745px" url="Rst Nbg-Briefbücher-Nr 5_0253_right.png" width="2669px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_500_r1">
+</zone>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_500_r2">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Heinrich V. von Lancaster, König von England</head><p>Der Rat bittet um Unterstützung wegen Bezahlung der Schulden des Johannes Fureti, königlicher Münzmeister zu Mâcon, bei Jobst Haug, Bürger zu Nürnberg, die Fureti trotz seiner Verurteilung vom Pariser Parlament verzögert.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_500" id="249r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">Anm. der Editoren: Der lateinische Text ist lediglich normalisiert transkribiert. 
+</div>
+</div><div type="regularised"><pb facs="#facs_500" id="249r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Serenissimo et excellentissimo <expan>p<ex>ri</ex>ncipi</expan> et
+                                <expan>d<ex>omi</ex>nio</expan>, <expan>d<ex>omi</ex>no</expan>
+                        Heinrico regi Anglie, regenti heredique Francie et
+                            <expan>d<ex>omi</ex>no</expan> Hybernie <expan>d<ex>omi</ex>no</expan>
+<expan>n<ex>ost</ex>ro</expan>
+<expan>grac<ex>i</ex>osissimo</expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Serenissimo et excellentissime princeps et <expan>d<ex>omi</ex>ne</expan>
+<expan>subiect<ex>is</ex></expan>
+<expan>servit<ex>i</ex>or<ex>um</ex></expan>
+<expan>p<ex>ro</ex>mptitudi<ex>n</ex>e</expan> diligenti devotissime
+                                <expan>v<ex>est</ex>re</expan> regie maiestati cum sui
+                                <expan>reco<ex>m</ex>mendac<ex>i</ex>o<ex>n</ex>e</expan> premissis.
+                        Non <app>
+<note><q type="inline">cedeat</q>Die korrekte Form wäre "cedat".</note>
+</app> que <expan>sum<ex>us</ex></expan>
+<expan>seren<ex>issi</ex><hi rend="sup">me</hi></expan> princeps ac
+                                <expan>d<ex>omi</ex>nor<ex>um</ex></expan>
+<expan>grac<ex>i</ex>osissime</expan> aures regie celsitudinis
+                                <expan>v<ex>est</ex>re</expan>
+<add><expan>n<ex>ost</ex>rar<ex>um</ex></expan>
+<expan>p<ex>ro</ex>po<ex>sicione</ex><hi rend="sup">m</hi></expan>
+                            feries quas <expan>eede<ex>m</ex></expan>
+<expan>celsitu<ex>di</ex><hi rend="sup">ni</hi></expan></add> ex parte
+                        civis et <expan>mercator<ex>is</ex></expan>
+<expan>n<ex>ost</ex>ri</expan> Iodoci <expan>Hawg<ex>is</ex></expan>
+<expan>o<ex>m</ex>n<ex>i</ex>for<ex>mis</ex></expan>
+<expan>p<ex>raese</ex>nci<ex>u</ex><hi rend="sup">m</hi></expan> intimare
+                                <expan>decrevim<ex>us</ex></expan>
+<expan>videl<ex>icet</ex></expan>
+<expan>q<ex>ui</ex></expan>
+<expan>d<ex>ic</ex>tus</expan> civis <expan>n<ex>ost</ex>er</expan> pridie
+                        coram nobis in consilio <expan>c<ex>on</ex>stitut<ex>is</ex></expan>
+                        conquerenda <expan>p<ex>ro</ex>ponebat</expan>
+<expan>quali<ex>te</ex>r</expan> quid <expan>Ioh<ex>ann</ex>es</expan>
+                        Fuerti <expan>m<ex>a</ex>g<ex>iste</ex>r</expan>
+<expan>partic<ex>u</ex>laris</expan> monete
+                            <expan>ip<ex>s</ex>i<ex>us</ex></expan> serenissimi
+                            <expan>p<ex>ri</ex>mcipis</expan> et <expan>d<ex>omi</ex>ni</expan>
+<expan>Francor<ex>um</ex></expan> regis in
+                            <expan>Matiscon<ex>ensi</ex></expan> sibi incerta <app>
+<note><q type="inline"><expan>peccuniar<ex>um</ex></expan></q>Die
+                                korrekte Form wäre "pecuniarum".</note>
+</app>
+<expan>sum<ex>m</ex>a</expan> debitore <expan>obligat<ex>ur</ex></expan>.
+                                <expan>P<ex>ro</ex></expan> qua <expan>quid<ex>em</ex></expan>
+<expan>sum<ex>m</ex>a</expan> idem debitor
+                            <expan>iudical<ex>ite</ex>r</expan> et diffinitive per curiam parlamenti
+                        Francie <expan>c<ex>on</ex>dempnatus</expan> existat et
+                            <expan>p<ex>ro</ex>inde</expan>
+<expan>carcerib<ex>us</ex></expan> adiudicatus <expan>p<ex>ro</ex>ut</expan>
+<expan>l<ex>itte</ex>re</expan>
+<expan>desup<ex>er</ex></expan>
+<expan>c<ex>on</ex>fecte</expan> pretacti <expan>seren<ex>issi</ex><hi rend="sup">mi</hi></expan>
+<expan>p<ex>ri</ex>ncipis</expan> et <expan>d<ex>omi</ex>ni</expan>
+<expan>Francor<ex>um</ex></expan> regis sigillo pendenti
+                                <expan>roborat<ex>is</ex></expan>
+<expan>clari<ex>us</ex></expan>
+<expan>h<ex>o</ex><hi rend="sup">c</hi></expan>
+<expan>demonstra<ex>n</ex>t</expan>. <expan>Ve<ex>rum</ex></expan>
+<expan>seren<ex>issi</ex><hi rend="sup">me</hi></expan>
+<expan>p<ex>ri</ex>nceps</expan>
+<expan>lic<ex>et</ex></expan>
+<expan>p<ex>rae</ex>fatus</expan> debitor <expan>p<ex>ro</ex></expan>
+<expan>ip<ex>s</ex>is</expan> debitis <expan>carce<ex>r</ex>ibus</expan> seu
+                                <expan>vinc<ex>u</ex>lis</expan> detineri adiudicatus sit et
+                        inclusus <expan>e<ex>ss</ex>e</expan>
+<expan>dicat<ex>ur</ex></expan> non <expan>min<ex>us</ex></expan>
+<expan>t<ex>ame</ex>n</expan> in <expan>ip<ex>s</ex>a</expan> Parisiensi
+                        villa ad <expan>suu<ex>m</ex></expan>
+<expan>libitu<ex>m</ex></expan> plena in <expan>sing<ex>u</ex>lis</expan>
+<expan>q<ex>uam</ex></expan> ante ut <expan>ip<ex>s</ex>e</expan> civis
+                                <expan>n<ex>ost</ex>er</expan> asserit gaudeat libertate per quod
+                                <expan>ip<ex>s</ex>e</expan> reus
+                                <expan>p<ex>rae</ex>tactu<ex>m</ex></expan>
+<expan>debitu<ex>m</ex></expan>
+<expan>sup<ex>er</ex>stit<ex>i</ex>ose</expan>
+<expan>pred<ex>i</ex>c<ex>t</ex>o</expan> civi
+                            <expan>n<ex>ost</ex>ro</expan>
+<expan>p<ex>ro</ex>rogare</expan> satagit, ymo
+                                <expan>p<ex>er</ex>solve<ex>re</ex></expan>
+<expan>mi<ex>ni</ex>me</expan>
+<expan>p<ex>ro</ex>curet</expan>
+<expan>q<ex>uam</ex>q<ex>uam</ex></expan>
+<expan>ip<ex>s</ex>e</expan> reus in bonis ac rebus
+                            <expan>unacu<ex>m</ex></expan>
+<expan>f<ex>rat</ex>rib<ex>us</ex></expan> suis Bernato
+                                <expan>sc<ex>ili</ex>z<ex>et</ex></expan> et Cristoffero qui
+                                <expan>secu<ex>m</ex></expan>
+<expan>com<ex>m</ex>onetarii</expan>
+<expan>pecu<ex>n</ex>ieq<ex>ue</ex></expan> credite
+                            <expan>p<ex>rae</ex>tacte</expan> et lucri participes indiviso usi sint
+                                <expan>habunde<ex>n</ex>t</expan> et sic
+                            <expan>p<ex>rae</ex>libato</expan> civi <expan>n<ex>ost</ex>ro</expan>
+<expan>irrecupab<ex>i</ex>le</expan>
+<expan>dampnu<ex>m</ex></expan> inferant.
+                                <expan>Que<ex>m</ex>admodu<ex>m</ex></expan> idem civis
+                                <expan>n<ex>oste</ex>r</expan>
+<expan>v<ex>est</ex>re</expan> regie maiestati vivevocis
+                                <expan>orac<ex>u</ex>lo</expan> explicare intendit, et
+                                <expan>q<ex>ui</ex></expan>
+<expan>p<ex>ri</ex>nceps</expan>
+<expan>clementissi<ex>m</ex>e</expan> iusticia
+                            <expan>d<ex>i</ex>cante</expan>
+<expan>unicuiq<ex>ue</ex></expan> tribuere <expan>q<ex>uo</ex>d</expan>
+<expan>suu<ex>m</ex></expan> est. Ad <expan>v<ex>est</ex>ram</expan> regalem
+                                <expan>excellentia<ex>m</ex></expan> ut puta iusticie
+                                <expan>zelatore<ex>m</ex></expan>
+<expan>precipuu<ex>m</ex></expan> veluti de<expan>ip<ex>s</ex>a</expan> fama
+                        veriloquax <expan>partib<ex>us</ex></expan> in remotis predicat
+                                <expan>hu<ex>m</ex>il<ex>ite</ex>r</expan>
+<expan>effunde<ex>re</ex></expan>
+<expan>duxi<ex>mus</ex></expan>
+<expan>p<ex>re</ex>ces</expan>
+<expan>n<ex>ost</ex>ras</expan>
+<expan>q<ex>ua</ex>t<ex>en</ex>us</expan>
+<expan>v<ex>est</ex>ra</expan> regalis celsitudo desolita sua clemencia
+                                <expan>p<ex>rae</ex>dic<ex>to</ex></expan> civi
+                            <expan>n<ex>ost</ex>ro</expan> in <expan>ca<ex>us</ex>is</expan> ac
+                                <expan>fac<ex>tis</ex></expan>
+<expan>p<ex>rae</ex>script<ex>is</ex></expan>
+<expan>suu<ex>m</ex></expan>
+<expan>favore<ex>m</ex></expan>
+<expan>auxiliu<ex>m</ex></expan> ac
+                            <expan>p<ex>ro</ex>mocio<ex>n</ex>is</expan>
+<expan>effectu<ex>m</ex></expan>
+<expan>g<ex>ene</ex>rosius</expan> impertiri
+                            <expan>dignet<ex>ur</ex></expan> quo mediante civis
+                            <expan>n<ex>ost</ex>er</expan>
+<expan>p<ex>rae</ex>d<ex>ic</ex>tus</expan>
+<expan>plena<ex>m</ex></expan>
+<expan>soluc<ex>ion</ex>am</expan> seu
+                            <expan>satisfact<ex>i</ex>o<ex>n</ex>em</expan>
+<expan>p<ex>ro</ex></expan>
+<expan>debit<ex>is</ex></expan> suis <expan>p<ex>rae</ex>tactis</expan>
+<expan>c<ex>on</ex>grue</expan> assequi valeat ita ut
+                            <expan>a<ex>m</ex>modo</expan> ei non
+                            <expan>relinquat<ex>ur</ex></expan> materia aures
+                            <expan>v<ex>est</ex>re</expan>
+<expan>celestudi<ex>ni</ex>s</expan>
+<expan>p<ex>ar</ex>tib<ex>us</ex></expan> denuo impulsandi. In eo
+                                <expan>seren<ex>issi</ex><hi rend="sup">me</hi></expan>
+<expan>p<ex>ri</ex>nceps</expan>
+<expan>ip<ex>s</ex>a</expan>
+<expan>v<ex>est</ex>ra</expan> regia <expan>sere<ex>ni</ex><hi rend="sup">tas</hi></expan>
+<expan>nob<ex>is</ex></expan> ac civi <expan>n<ex>ost</ex>ro</expan> sepe
+                                <expan>d<ex>ic</ex>to</expan>
+<expan>clemencia<ex>m</ex></expan>
+<expan>sing<ex>u</ex>lare<ex>m</ex></expan> ac
+                            <expan>gr<ex>aci</ex>am</expan> exhibebit <expan>p<ex>ro</ex></expan>
+<expan>ead<ex>em</ex></expan>
+<expan>seren<ex>ita</ex><hi rend="sup">te</hi></expan> ac
+                                <expan>v<ex>est</ex>ratib<ex>us</ex></expan> casu se
+                                <expan>offe<ex>re</ex>nte</expan>
+<expan>devotiss<ex>imis</ex></expan> studiis <expan>iugit<ex>er</ex></expan>
+<expan>recolend<ex>um</ex></expan>
+<expan>cu<ex>n</ex>ctipote<ex>n</ex>s</expan>
+<expan>regia<ex>m</ex></expan>
+<expan>celsitudi<ex>n</ex>em</expan>
+<expan>v<ex>est</ex>ram</expan> in suis digendis
+                            <expan>p<ex>ro</ex>spere</expan>
+<expan>dirige<ex>re</ex></expan>
+<expan>dignet<ex>ur</ex></expan> et <expan>c<ex>on</ex>servare</expan>
+<expan>incolume<ex>m</ex></expan>
+<expan>t<ex>em</ex>p<ex>or</ex>ib<ex>us</ex>q<ex>ue</ex></expan> longevis.
+                                <expan>Script<ex>is</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

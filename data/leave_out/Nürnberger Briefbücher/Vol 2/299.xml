@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="299" xml:id="l303" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 299 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>084r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 299.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Torer, Caspar, Pfl. v. Landsberg a. Lech</persName></ab><ab type="mention"><persName type="mention">Diepolt, Gottfried</persName><persName type="mention">Hallenberg, Albrecht v.</persName></ab><date from="8-02-1409" to="8-02-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_171">
+<surface lrx="2809" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0086_right.png" width="2809px"/>
+<zone lrx="2106" lry="2460" rendition="TextRegion" ulx="977" uly="2954" xml:id="facs_171_r1"> <zone lrx="2106" lry="2460" rendition="Line" ulx="977" uly="2381" xml:id="facs_171_r1l30"/>
+<zone lrx="2516" lry="2631" rendition="Line" ulx="388" uly="2541" xml:id="facs_171_line_1575876374970_204"/>
+<zone lrx="2536" lry="2721" rendition="Line" ulx="474" uly="2646" xml:id="facs_171_line_1575876379290_209"/>
+<zone lrx="2491" lry="2833" rendition="Line" ulx="458" uly="2763" xml:id="facs_171_line_1575876385541_214"/>
+<zone lrx="2417" lry="2941" rendition="Line" ulx="447" uly="2855" xml:id="facs_171_line_1575876390891_219"/>
+<zone lrx="2419" lry="3042" rendition="Line" ulx="443" uly="2954" xml:id="facs_171_line_1575876395304_224"/>
+</zone> </surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Kaspar Torer, Pfleger zu Landsberg am Lech</head><p>Der Rat kündigt Gottfried Diepolt, Bürger zu Nürnberg, wegen Albrecht von Hallenberg an und bittet um gütliche Anhörung.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_171" id="84r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_171_r1l30">Caſpar <expan>Tor<ex>er</ex></expan> <expan>Pfleg<ex>er</ex></expan> cʒü <expan>Landſp<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_171_line_1575876374970_204">Lıeber her Caſpar / Vns hat <expan>fürgel<ex>egt</ex></expan> / Götfrıd Dieppolt <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> </ab>
+<ab facs="#facs_171_line_1575876379290_209">vvie er etwas ſache cʒehandeln hab mit <expan>Albr<ex>echt</ex></expan> <expan>vo<ex>n</ex></expan> <expan>hallemb<ex>er</ex>g</expan> </ab>
+<ab facs="#facs_171_line_1575876385541_214">als ew das <expan>d<ex>er</ex></expan> <expan>eg<ex>enante</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>B<ex>ur</ex>g<ex>er</ex></expan> <expan>ſelb<ex>er</ex></expan> vvol <expan>fürgeb<ex>e</ex>n</expan> vvirdet / <expan>Ro<ex>gamus</ex></expan> </ab>
+<ab facs="#facs_171_line_1575876390891_219">daʒ Jr durch <expan>vnſ<ex>er</ex>n</expan> <expan>vvılle<ex>n</ex></expan> / <expan>demſelb<ex>e</ex>n</expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>ur</ex>g<ex>er</ex></expan> / darynne </ab>
+<ab facs="#facs_171_line_1575876395304_224">fürderlıch ſein vvöllet / . Das <expan>wölle<ex>n</ex></expan> etc . <expan>Dat<ex>um</ex></expan> vt <expan>s<ex>upra</ex></expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_171" id="84r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Caspar <expan>Tor<ex>er</ex></expan>, <expan>pfleg<ex>er</ex></expan> czü
+                                <expan>Landsp<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber her Caspar, uns hat <expan>fürgel<ex>egt</ex></expan> Götfrid
+                        Dieppolt, <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>, wie er etwas sache czehandeln hab mit
+                                <expan>Albr<ex>echt</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>Hallemb<ex>er</ex>g</expan>, als ew das <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enante</ex></expan>, <expan>uns<ex>er</ex></expan>
+<expan>b<ex>ur</ex>g<ex>er</ex></expan>, <expan>selb<ex>er</ex></expan> wol
+                                <expan>fürgeb<ex>e</ex>n</expan> wirdet.
+                            <expan>Ro<ex>gamus</ex></expan>, daz ir durch
+                            <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan>
+<expan>demselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex></expan> darynne fürderlich sein wöllet. Das
+                                <expan>wölle<ex>n</ex></expan> etc. <expan>Dat<ex>um</ex></expan> ut
+                                <expan>s<ex>upra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

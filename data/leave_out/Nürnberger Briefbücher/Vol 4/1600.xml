@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1600" xml:id="l1611" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1600 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>017v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1600.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q14910" type="recipient">Schwäbisch Hall</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3834" type="mention">Konstanz</placeName><placeName ref="https://www.wikidata.org/wiki/Q6829" type="mention">Speyer</placeName><persName ref="https://www.wikidata.org/wiki/Q57124" type="mention">Sigismund v. Luxemburg, dt. König</persName></ab><date from="19-07-1414" to="19-07-1414" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_35">
+<surface lrx="2761" lry="3784" ulx="0" uly="0">
+<graphic height="3784px" url="Rst Nbg-Briefbücher-Nr 4_0020_left.png" width="2761px"/>
+<zone lrx="706" lry="2314" rendition="TextRegion" ulx="306" uly="2137" xml:id="facs_35_r1">
+<zone lrx="706" lry="2314" rendition="Line" ulx="306" uly="2137" xml:id="facs_35_r1l1"/>
+</zone>
+<zone lrx="903" lry="400" rendition="TextRegion" ulx="1724" uly="2497" xml:id="facs_35_r2">
+<zone lrx="1526" lry="400" rendition="Line" ulx="1243" uly="340" xml:id="facs_35_r2l1"/>
+<zone lrx="1511" lry="467" rendition="Line" ulx="1259" uly="412" xml:id="facs_35_r2l2"/>
+<zone lrx="2462" lry="668" rendition="Line" ulx="662" uly="553" xml:id="facs_35_r2l3"/>
+<zone lrx="2664" lry="754" rendition="Line" ulx="671" uly="628" xml:id="facs_35_r2l4"/>
+<zone lrx="2656" lry="838" rendition="Line" ulx="677" uly="719" xml:id="facs_35_r2l5"/>
+<zone lrx="2716" lry="919" rendition="Line" ulx="675" uly="808" xml:id="facs_35_r2l6"/>
+<zone lrx="2666" lry="1006" rendition="Line" ulx="677" uly="896" xml:id="facs_35_r2l7"/>
+<zone lrx="2581" lry="1104" rendition="Line" ulx="668" uly="982" xml:id="facs_35_r2l8"/>
+<zone lrx="2567" lry="1199" rendition="Line" ulx="688" uly="1058" xml:id="facs_35_r2l9"/>
+<zone lrx="2569" lry="1285" rendition="Line" ulx="705" uly="1165" xml:id="facs_35_r2l10"/>
+<zone lrx="2530" lry="1380" rendition="Line" ulx="692" uly="1252" xml:id="facs_35_r2l11"/>
+<zone lrx="2655" lry="1458" rendition="Line" ulx="681" uly="1339" xml:id="facs_35_r2l12"/>
+<zone lrx="2704" lry="1537" rendition="Line" ulx="695" uly="1454" xml:id="facs_35_r2l13"/>
+<zone lrx="2029" lry="1536" rendition="Line" ulx="1724" uly="1477" xml:id="facs_35_line_1576663292426_1341"/>
+<zone lrx="2610" lry="1635" rendition="Line" ulx="694" uly="1538" xml:id="facs_35_r2l16"/>
+<zone lrx="2647" lry="1726" rendition="Line" ulx="693" uly="1609" xml:id="facs_35_r2l17"/>
+<zone lrx="2643" lry="1823" rendition="Line" ulx="716" uly="1710" xml:id="facs_35_r2l18"/>
+<zone lrx="2608" lry="1908" rendition="Line" ulx="690" uly="1799" xml:id="facs_35_r2l19"/>
+<zone lrx="2690" lry="2000" rendition="Line" ulx="716" uly="1892" xml:id="facs_35_r2l20"/>
+<zone lrx="2628" lry="2098" rendition="Line" ulx="711" uly="1990" xml:id="facs_35_r2l21"/>
+<zone lrx="2642" lry="2177" rendition="Line" ulx="709" uly="2095" xml:id="facs_35_r2l22"/>
+<zone lrx="903" lry="2232" rendition="Line" ulx="725" uly="2185" xml:id="facs_35_r2l23"/>
+<zone lrx="2658" lry="2279" rendition="Line" ulx="714" uly="2200" xml:id="facs_35_r2l24"/>
+<zone lrx="1881" lry="2287" rendition="Line" ulx="1601" uly="2245" xml:id="facs_35_r2l25"/>
+<zone lrx="2582" lry="2369" rendition="Line" ulx="718" uly="2293" xml:id="facs_35_r2l26"/>
+<zone lrx="2560" lry="2474" rendition="Line" ulx="705" uly="2388" xml:id="facs_35_r2l27"/>
+<zone lrx="1312" lry="2572" rendition="Line" ulx="738" uly="2497" xml:id="facs_35_r2l28"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Schwäbisch Hall</head><p>Der Rat teilt mit, dass König Sigismund das Kontingent aus Nürnberg acht Tage nach Jakobstag in Konstanz erwartet und für Kilianstag eine Gesandtschaft nach Speyer gefordert hat, auf deren Nachricht der Rat wartet.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_35" id="17v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_35_r2l1">Der Stat </ab>
+<ab facs="#facs_35_r2l2">cʒu Halle </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_35_r2l3"><expan>Lieb<ex>e</ex>n</expan> freunde / Als vns ewr vveiſheit <expan>yecʒund<ex>en</ex></expan> <expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> hat </ab><ab facs="#facs_35_r2l4">von des dinſtes wegen / als vnſer gnedıgſter <expan>h<ex>er</ex>re</expan> ~ der Romiſch </ab><ab facs="#facs_35_r2l5">künıg an vns gemutet hat / vnd als Jr von vns begert cʒevviſſen </ab><ab facs="#facs_35_r2l6">vvenn vvir dıe <expan>vnſ<ex>er</ex>n</expan> ſeinen gnaden alſo cʒu dinſte ſchicken <expan>wölle<ex>n</ex></expan> etc </ab><ab facs="#facs_35_r2l7">Alſo laſſen vvir ewr erſame freuntſchaft wiſſen / daʒ vns <expan>derſ<ex>elbe</ex></expan> </ab><ab facs="#facs_35_r2l8"><expan>vnſ<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> ~ der künig vormals <expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> hat / daʒ vvir Jm die </ab><ab facs="#facs_35_r2l9"><expan>vnſ<ex>er</ex>n</expan>
+<del rend="strikethrough"> gen </del> cʒu dinſte ſchicken ſolten / daʒ dıe Acht tag nach </ab><ab facs="#facs_35_r2l10">ſant Jacobs tag ſchıerſt cʒu Coſtäncʒ an der <expan>ſamnu<ex>n</ex>g</expan> wern </ab><ab facs="#facs_35_r2l11">vnd dabeẏ ſo <expan>v<ex>er</ex>ſchreib</expan> vns auch ſein gnade / daʒ vvir etlich </ab><ab facs="#facs_35_r2l12">vnſers Rats cʒu <expan>ſein<ex>er</ex></expan> durchleuhtikeit hinab gen Speyer <expan>ſchike<ex>n</ex></expan> </ab><ab facs="#facs_35_r2l13">ſolten / 
+<del rend="strikethrough">bey </del> daʒ die auf den Suntag an ſant kylıans tag daſelbſt </ab><ab facs="#facs_35_r2l16">bey <expan>ſeine<ex>n</ex></expan> gnaden wern / mit den 
+<del rend="strikethrough">Er </del>
+<add><ab facs="#facs_35_line_1576663292426_1341">ſeın gnade </ab></add> baʒ dauon cʒereden maınt </ab><ab facs="#facs_35_r2l17">Alſo warten vvir der potſchaft von <expan>vnſ<ex>er</ex>n</expan> <expan>freunde<ex>n</ex></expan> die vvir alſo </ab><ab facs="#facs_35_r2l18">
+<del rend="strikethrough">cʒu </del> gen Speẏr hinab geſchikt <expan>hab<ex>e</ex>n</expan> / 
+<del rend="crossout">
+<del rend="strikethrough"><expan>vvan<ex>n</ex></expan> vns noch keine von </del></del></ab><del rend="strikethrough">
+<ab facs="#facs_35_r2l19">
+<del rend="strikethrough">Jn <expan>kume<ex>n</ex></expan> iſt </del> / Vnd wenn vns die kumt / vvaʒ vvir <expan>dan<ex>n</ex></expan> <expan>v<ex>er</ex>nemen</expan> </ab>
+<ab facs="#facs_35_r2l20">das euch notdürfft / 
+<del rend="strikethrough">oder</del> ſeẏ <expan>cʒuſchreib<ex>e</ex>n</expan> von den oder <expan>and<ex>er</ex>n</expan> <expan>leuffe<ex>n</ex></expan> </ab>
+<ab facs="#facs_35_r2l21">das wöllen vvir <expan>ew<ex>r</ex></expan> freuntſchaft bey vnſer ſelbs potſchaft </ab>
+</del><ab facs="#facs_35_r2l22">
+<del rend="strikethrough">gern <expan>wiſſe<ex>n</ex></expan> laſſen / <expan>dan<ex>n</ex></expan> wo vvir <expan>ew<ex>r</ex></expan>
+<del rend="strikethrough"><expan>erſ<ex>amkeit</ex></expan> vnd alſo beſtellen </del></del></ab><ab facs="#facs_35_r2l24">
+<add><ab facs="#facs_35_r1l1">vnd <expan>beſtelle<ex>n</ex></expan> </ab><ab facs="#facs_35_r2l23">auch </ab></add>
+<del rend="strikethrough"> vvir </del> dıevveil vnſer dıener / vnd wenn 
+<del rend="strikethrough"> ſie </del> vns <expan>vnſ<ex>er</ex></expan> freunde </ab><ab facs="#facs_35_r2l26">empieten auf vvelche cʒeite 
+<add><ab facs="#facs_35_r2l25">oder wohın </ab></add> die <expan>vnſ<ex>er</ex>n</expan> bereit ſein <expan>ſülle<ex>n</ex></expan> das </ab><ab facs="#facs_35_r2l27"><expan>wölle<ex>n</ex></expan> wir ew <expan>g<ex>er</ex>n</expan> cʒuvviſſen tun / <expan>dan<ex>n</ex></expan> wo etc <expan>Dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ṽ </ab><ab facs="#facs_35_r2l28"><expan>an<ex>te</ex></expan> Marie <expan>Magdal<ex>ene</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_35" id="17v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat czu Halle </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>e</ex>n</expan> freunde, als uns ewr weisheit <expan>yeczund<ex>en</ex></expan>
+<expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> hat von des dinstes wegen, als unser
+            gnedigster <expan>h<ex>er</ex>re</expan>, der romisch künig, an uns gemutet hat und als
+            ir von uns begert cze wissen, wenn wir die <expan>uns<ex>er</ex>n</expan> seinen gnaden
+            also czu dinste schicken <expan>wölle<ex>n</ex></expan> etc., also lassen wir ewr ersame
+            freuntschaft wissen, daz uns <expan>ders<ex>elbe</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, der künig, vormals
+              <expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> hat, daz wir im die
+              <expan>uns<ex>er</ex>n</expan> czu dinste schicken solten, daz die <app>
+<note><q type="date">acht tag nach sant Jacobs tag schierst</q>01.08.1414</note>
+</app> czu Costäncz an der <expan>samnu<ex>n</ex>g</expan> wern. Und dabey so
+                <expan>v<ex>er</ex>schreib</expan> uns auch sein gnade, daz wir etlich unsers rats
+            czu <expan>sein<ex>er</ex></expan> durchleuhtikeit hinab gen Speyer
+                <expan>schike<ex>n</ex></expan> solten, daz die auf den <app>
+<note><q type="date">suntag an sant Kylians tag</q>08.07.1414</note>
+</app> daselbst bey <expan>seine<ex>n</ex></expan> gnaden wern, mit den <add>sein
+              gnade</add> baz davon cze reden maint. Also warten wir der potschaft von
+                <expan>uns<ex>er</ex>n</expan>
+<expan>freunde<ex>n,</ex></expan> die wir also gen Speyr hinab geschikt
+                <expan>hab<ex>e</ex>n,</expan>
+<add>und <expan>bestelle<ex>n</ex></expan> auch</add> dieweil unser diener und, wenn uns
+                <expan>uns<ex>er</ex></expan> freunde empieten, auf welche czeite <add>oder
+              wohin</add> die <expan>uns<ex>er</ex>n</expan> bereit sein
+              <expan>sülle<ex>n,</ex></expan> das <expan>wölle<ex>n</ex></expan> wir ew
+                <expan>g<ex>er</ex>n</expan> czu wissen tun. <expan>Dan<ex>n</ex></expan> wo etc.
+                <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> v <expan>an<ex>te</ex></expan> Marie
+                <expan>Magdal<ex>ene</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

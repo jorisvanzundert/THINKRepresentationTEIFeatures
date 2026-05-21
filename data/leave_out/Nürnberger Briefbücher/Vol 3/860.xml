@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="860" xml:id="l871" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 860 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>092v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 860.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q641" type="recipient">Venedig (Italien)</placeName><persName type="recipient">Steno, Michele, Doge v. Venedig</persName></ab><ab type="mention"><placeName type="mention">Verona, Italien</placeName><persName type="mention">Rummel, Wilhelm I.</persName><persName type="mention">Pirckheimer, Konrad</persName><persName type="mention">Gundelfinger, Rudolf</persName></ab><date from="16-11-1410" to="16-11-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_186">
+<surface lrx="2753" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0095_left.png" width="2753px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_186_r1">
+</zone>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_186_r2">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Michele Steno, Doge von Venedig, und Venedig</head><p>Der Rat bittet, die Nürnberger Kaufleute von den neuen, in Verona erhobenen Zöllen auszunehmen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_186" id="92v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab>Anm. der Editoren: Der lateinische Text ist lediglich normalisiert transkribiert.</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_186" id="92v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Duci <expan>Venet<ex>iarum</ex></expan> et eius consilio</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>P<ex>ro</ex>posuerunt nobis <expan>Wilhelm<ex>us</ex></expan> Rumell,
+                                <expan>Conrad<ex>us</ex></expan>
+<expan>Pirckheim<ex>er</ex></expan> et Rudolffus
+                                <expan>Gundelfing<ex>er</ex></expan>,
+                            <expan>dil<ex>ect</ex>i</expan> cives <expan>n<ex>ost</ex>ri</expan>
+<expan>qual<ex>ite</ex>r</expan> ipsi et <expan>eo<ex>rum</ex></expan>
+                        societas, <expan>etia<ex>m</ex></expan> cives
+                        <expan>n<ex>ost</ex>ri</expan>, certa bona mercimonialia in
+                                <expan>districtu<ex>m</ex></expan> dominii
+                            <expan>v<ex>est</ex>ri</expan>
+<expan>Veron<ex>ensis</ex></expan> apportarint <expan>atq<ex>ue</ex></expan>
+                        ibidem, Verone <expan>videl<ex>icet</ex></expan>, de hiis dederint et
+                                <expan>p<ex>er</ex>solverint</expan> dacias
+                            <expan>q<ex>ua</ex>s</expan> tunc debebant <expan>iux<ex>ta</ex></expan>
+<expan><ex>con</ex>suetum</expan> de eo <expan>q<ex>uo</ex>d</expan> solet
+                                <expan>p<ex>er</ex></expan> districtum
+                            <expan>eiusde<ex>m</ex></expan> dominii
+                            <expan>t<ex>ra</ex>nsportari</expan>. <expan>Quib<ex>us</ex></expan>
+                        integre <expan>solut<ex>is</ex></expan>
+<expan>cu<ex>m</ex></expan>
+<expan>ip<ex>s</ex>a</expan> bona mercimonialia
+                            <expan>eo<ex>rum</ex></expan>
+<expan>longinq<ex>ui</ex>us</expan>
+<expan>duce<ex>re</ex></expan> velle<ex>n</ex>t, officiales v<ex>est</ex>ri
+                        eos in hoc <expan>impediver<ex>un</ex>t</expan>
+<expan>pretendent<ex>es</ex></expan>
+<expan>q<ex>uod</ex></expan>
+<expan>ip<ex>s</ex>a</expan> bona sua <expan>debere<ex>n</ex>t</expan> in
+                        districtu seu <expan>d<ex>omi</ex>nio</expan> ibidem
+                                <expan>dimitte<ex>re</ex></expan>
+<expan>atq<ex>ue</ex></expan>
+<expan>vende<ex>re</ex></expan>
+<expan><ex>et</ex></expan>
+<expan>longinqu<ex>iu</ex>s</expan>
+<expan>no<ex>n</ex></expan>
+<expan>eff<ex>er</ex>re</expan>. Quo <expan>n<ex>ost</ex>ris</expan> non
+                        expediente, <expan>oportu<ex>er</ex>it</expan> eos
+                                <expan>officiat<ex>is</ex></expan>
+<expan>v<ex>est</ex>ris</expan>
+<expan>Veneti<ex>an</ex>is</expan> ad
+                            <expan>p<ex>rae</ex>d<ex>ic</ex>tas</expan> dacias,
+                            <expan>p<ex>ro</ex>ut</expan> tunc Verone solito de hiis
+                                <expan>p<ex>er</ex>tinet</expan>, quas <expan>ip<ex>s</ex>o</expan>
+<expan>p<ex>ri</ex>mitus</expan> debite
+                        <expan>p<ex>er</ex>solverant</expan>, <expan>nichilomi<ex>nus</ex></expan>
+<expan>attribue<ex>re</ex></expan> in tantum
+                                <expan>qua<ex>n</ex>t<ex>um</ex></expan> de
+                                <expan>h<ex>uius</ex>mo<ex>d</ex>i</expan> bonis
+                                <expan>mercimionialib<ex>us</ex></expan> penes nos in
+                            <expan>egregia</expan>
+<expan>civi<ex>ta</ex><hi rend="sup">te</hi></expan>
+<expan>v<ex>est</ex>ra</expan> Venetiis <expan>p<ex>ro</ex></expan> daciis
+                                <expan>exolvit<ex>ur</ex></expan> de eo <expan>q<ex>uo</ex>d</expan>
+                        ibi venditur, <expan>q<ex>uam</ex>vis</expan> constet
+                            <expan>d<ex>ic</ex>ta</expan> bona <expan>mercimo<ex>ni</ex>alia</expan>
+<expan>eo<ex>rum</ex></expan> ad <expan>Venet<ex>ias</ex></expan> non
+                        venisse. Modo cives <expan>n<ex>ost</ex>ri</expan>
+<expan>asser<ex>u</ex>nt</expan>, <expan>q<ex>uod</ex></expan> tam antea
+                                <expan>posteaq<ex>ue</ex></expan>
+<expan>q<ex>uem</ex></expan>
+<expan>d<ex>ic</ex>t<ex>u</ex>m</expan>
+<expan>dominiu<ex>m</ex></expan>
+<expan>Veron<ex>ense</ex></expan> ad manus v<ex>est</ex>ras
+                                <expan>deven<ex>er</ex>it</expan>, <expan>semp<ex>er</ex></expan>
+<expan>fu<ex>er</ex>it</expan>
+<expan>obs<ex>er</ex>vatum</expan> ita,
+                            <expan>q<ex>ua</ex>n<ex>do</ex></expan>
+<expan>ip<ex>s</ex>i</expan>
+<expan>h<ex>uius</ex>mo<ex>d</ex>i</expan> dacias Veron<ex>e</ex>
+                        expediverint et dederint, <expan>ceu</expan>
+<expan>t<ex>un</ex>c</expan> iam ibidem de suis bonis
+                                <expan>mercimonialib<ex>us</ex></expan>
+<expan>dederu<ex>n</ex>t</expan>
+<expan>atq<ex>ue</ex></expan> solverunt: <expan>q<ex>uod</ex></expan>
+<expan>extu<ex>n</ex>c</expan>
+<expan>h<ex>uius</ex>mo<ex>d</ex>i</expan> bona mercimonialia
+                                <expan>p<ex>er</ex></expan> eiusdem dominii
+                                <expan>districtu<ex>m</ex></expan>
+<expan>t<ex>ra</ex>nsducere</expan> licuerit et in eo
+                                <expan>nu<ex>m</ex>q<ex>uam</ex></expan> sint hactenus impediti.
+                                <expan>Cumq<ex>ue</ex></expan> insignis
+                            <expan>mag<ex>ni</ex>ficencia</expan>
+<expan>v<ex>est</ex>ra</expan> nobis <expan><ex>et</ex></expan>
+<expan>n<ex>ost</ex>ris</expan>
+<expan>semp<ex>er</ex></expan>
+<expan>g<ex>lo</ex>r<ex>i</ex>osa</expan>
+<expan>fu<ex>er</ex>it</expan> et benigna <expan><ex>et</ex></expan>
+                            p<ex>rae</ex>sertim ubi <expan>n<ex>ost</ex>ris</expan> in
+                                <expan>v<ex>est</ex>ris</expan> dominiis seu
+                                <expan>districtib<ex>us</ex></expan>
+<expan>quicq<ex>ue</ex></expan>
+<expan>incumbebat<ex>is</ex></expan> dum id <expan>p<ex>er</ex></expan>
+<expan>v<ex>est</ex>ras</expan> aut <expan>nu<ex>n</ex>cios</expan>
+<expan>n<ex>ost</ex>ros</expan> ad <expan>v<ex>est</ex>ram</expan>
+                        celsitudinem <expan>p<ex>er</ex>lat<ex>um</ex></expan> est
+                                <expan>expedic<ex>i</ex>onem</expan>
+<expan>gr<ex>aci</ex>osam</expan>
+<expan>dederit<ex>is</ex></expan> et votivam, de quo
+                            <expan>et<ex>iam</ex></expan> in <expan>benigni<ex>ta</ex><hi rend="sup">t<ex>is</ex></hi></expan>
+<expan>v<ex>est</ex>re</expan>
+<expan>gr<ex>ati</ex>a</expan> in antea plenam et
+                            <expan>indubia<ex>m</ex></expan>
+<expan>fiducia<ex>m</ex></expan>
+<expan>r<ex>e</ex>tinem<ex>us</ex></expan>: inclitam
+                                <expan>mag<ex>ni</ex>fice<ex>n</ex>ciam</expan>
+<expan>v<ex>est</ex>ram</expan>
+<expan>om<ex>n</ex>i</expan> qua <expan>possum<ex>us</ex></expan> diligencia
+                        suppliciter deprecamur, uti de <expan>gr<ex>ati</ex>a</expan>
+<expan>v<ex>est</ex>ra</expan>
+<expan>cu<ex>m</ex></expan>
+<expan>v<ex>est</ex>ris</expan> ordinare ac
+                            <expan>dispone<ex>re</ex></expan>
+<expan>dignem<ex>ini</ex></expan>, <expan>q<ex>ua</ex>t<ex>en</ex>us</expan>
+<expan>d<ex>ict</ex>is</expan>
+<expan>civib<ex>us</ex></expan>
+<expan>n<ex>ost</ex>ris</expan>
+<expan>quicq<ex>uam</ex></expan> ultra veras consuetas dacias
+                                <expan>Veronen<ex>ses</ex></expan>
+<expan>ip<ex>s</ex>os</expan> dare oportuit,
+                            <expan>restituat<ex>ur</ex></expan> et <expan>q<ex>uod</ex></expan>
+<expan>n<ex>ost</ex>ri</expan> cives et mercatores
+                                <expan>h<ex>uius</ex>mo<ex>d</ex>i</expan>
+<expan>insolito<ex>rum</ex></expan> g<ex>ra</ex>vaminu<ex>m</ex> de
+                                <expan>cet<ex>er</ex>o</expan> pie <expan>r<ex>e</ex>maneant</expan>
+                        supportati. Et dignetur eos magnifica <expan>gr<ex>aci</ex>ositas</expan>
+<expan>v<ex>est</ex>ra</expan> solita pietate <expan>habe<ex>re</ex></expan>
+                        benignissime <expan>r<ex>e</ex>co<ex>m</ex>missos</expan>,
+                                <expan>p<ex>ro</ex>ut</expan> de <expan>gr<ex>ati</ex>a</expan>
+                        celsitudinis <expan>v<ex>est</ex>re</expan>
+<expan>confidim<ex>us</ex></expan> et <expan>p<ex>ro</ex></expan>
+                        excellencia <expan>v<ex>est</ex>ra</expan>
+<expan>atq<ex>ue</ex></expan>
+<expan>v<ex>est</ex>ris</expan> in <expan>omnib<ex>us</ex></expan>
+<expan>quib<ex>us</ex></expan>
+<expan>potu<ex>er</ex>imus</expan>
+<expan>obsequiosissim<ex>is</ex></expan> affectibus iugiter
+                                <expan>volum<ex>us</ex></expan>
+<expan>p<ex>ro</ex>mereri</expan>. <expan>V<ex>est</ex>rum</expan>
+<expan>igi<ex>tur</ex></expan>
+<expan>g<ex>lo</ex>r<ex>i</ex>osum</expan>
+<expan>r<ex>espo</ex>ns<ex>um</ex></expan>
+<expan>petim<ex>us</ex></expan> nobis <expan>desup<ex>er</ex></expan>
+                        benivole <expan>rescribend<ex>um</ex></expan>. <expan>Dat<ex>um</ex></expan>
+                        xvi die <expan>novembr<ex>is</ex></expan> anno <expan><ex>etc.</ex></expan>
+                        decimo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

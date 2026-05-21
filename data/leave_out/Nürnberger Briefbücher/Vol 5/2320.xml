@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2320" xml:id="l2332" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2320 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>062r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2320.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q63884" type="recipient">Johann III. v. Hohenzollern, Bgf. v. Nürnberg</persName></ab><ab type="mention"><placeName type="mention">Bad Berneck i. Fichtelgebirge (Stadt, Lk. Bayreuth)</placeName><persName type="mention">Pirckheimer, F.</persName><persName type="mention">Erhart, Niklas</persName><persName type="mention">Gruber, Konrad</persName><persName type="mention">Camerer, Hans</persName></ab><date from="8-05-1420" to="5-06-1420" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_126">
+<surface lrx="2671" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0065_right.png" width="2671px"/>
+<zone lrx="806" lry="253" rendition="TextRegion" ulx="712" uly="671" xml:id="facs_126_r1">
+<zone lrx="1328" lry="253" rendition="Line" ulx="670" uly="189" xml:id="facs_126_r1l2"/>
+<zone lrx="2423" lry="401" rendition="Line" ulx="380" uly="303" xml:id="facs_126_r1l3"/>
+<zone lrx="2422" lry="481" rendition="Line" ulx="391" uly="405" xml:id="facs_126_r1l4"/> <zone lrx="924" lry="516" rendition="Line" ulx="712" uly="476" xml:id="facs_126_r1l5"/> <zone lrx="2459" lry="665" rendition="Line" ulx="419" uly="571" xml:id="facs_126_r1l9"/> <zone lrx="2461" lry="558" rendition="Line" ulx="418" uly="474" xml:id="facs_126_line_1577033269831_1715"/><zone lrx="806" lry="593" rendition="Line" ulx="597" uly="543" xml:id="facs_126_line_1577033272865_1720"/><zone lrx="1765" lry="753" rendition="Line" ulx="420" uly="671" xml:id="facs_126_line_1577033285619_1734"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann III. von Hohenzollern, Burggraf von Nürnberg</head><p>Der Rat kündigt Hans Camerer, Diener der Stadt, wegen der im Geleit des Adressaten von Niklas Erhart bei Berneck überfallenen F. Pirckheimer und Konrad Gruber, Bürger zu Nürnberg, an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_126" id="62r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_126_r1l2">Burggraf <expan>Johannſ<ex>en</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_126_r1l3"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> vns <expan>hab<ex>e</ex>n</expan> <expan>fürbr<ex>aht</ex></expan> . <expan cert="unknown">f .</expan> <expan>pırkheım<ex>er</ex></expan> vnd 
+<del rend="strikethrough"> H </del> <expan>Conr<ex>ad</ex></expan> gruber </ab>
+<ab facs="#facs_126_r1l4"><expan>vnſ<ex>er</ex></expan> <expan>b<ex>urger</ex></expan> / wıe Jn Nıkel Erhart / in <expan>eẅr<ex>er</ex></expan> <expan>gnad<ex>en</ex></expan> land vnd geleyt </ab>
+<ab facs="#facs_126_line_1577033269831_1715">yenſeıt 
+<del rend="strikethrough">des <expan>kupferb<ex>er</ex>gs</expan></del>
+<add><ab facs="#facs_126_r1l5">Berneck </ab></add> / <expan>ʒugrıff<ex>en</ex></expan> habe <expan>daru<ex>m</ex>b</expan> wır <expan>hannſ<ex>en</ex></expan> <expan>Camr<ex>er</ex></expan> </ab>
+<ab facs="#facs_126_r1l9"><expan>vnſ<ex>er</ex>n</expan>
+<add><ab facs="#facs_126_line_1577033272865_1720">dıener </ab></add> ʒu <expan>eẅr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> <expan>ſchık<ex>en</ex></expan> / Dem wır <expan>befolhe<ex>n</ex></expan> <expan>hab<ex>e</ex>n</expan> mıt <expan>eẅ<ex>r</ex>n</expan> <expan>gnad<ex>en</ex></expan> </ab>
+<ab facs="#facs_126_line_1577033285619_1734"><expan>dauo<ex>n</ex></expan> ʒu <expan>red<ex>en</ex></expan> . et <expan>ro<ex>gamus</ex></expan> ın <expan>for<ex>ma</ex></expan> credencıe </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_126" id="62r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burggraf <expan>Johanns<ex>en</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, uns
+                                                  <expan>hab<ex>e</ex>n</expan>
+<expan>fürbr<ex>aht</ex></expan>
+<expan cert="unknown">F.</expan>
+<expan>Pirkheim<ex>er</ex></expan> und
+                                                  <expan>Conr<ex>ad</ex></expan> Gruber,
+                                                  <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>, wie in Nikel Erhart
+                                                in <expan>ewr<ex>er</ex></expan>
+<expan>gnad<ex>en</ex></expan> land und geleyt
+                                                yenseit <add>Berneck</add>
+<expan>zugriff<ex>en</ex></expan> habe,
+                                                  <expan>daru<ex>m</ex>b</expan> wir
+                                                  <expan>Hanns<ex>en</ex></expan>
+<expan>Camr<ex>er</ex></expan>,
+                                                  <expan>uns<ex>er</ex>n</expan>
+<add>diener</add>, zu <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan>
+<expan>schik<ex>en</ex></expan>, dem wir
+                                                  <expan>befolhe<ex>n</ex></expan>
+<expan>hab<ex>e</ex>n</expan>, mit
+                                                  <expan>ew<ex>r</ex>n</expan>
+<expan>gnad<ex>en</ex></expan>
+<expan>davo<ex>n</ex></expan> zu
+                                                  <expan>red<ex>en</ex></expan>. Et
+                                                  <expan>ro<ex>gamus</ex></expan> in
+                                                  <expan>for<ex>ma</ex></expan> credencie.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

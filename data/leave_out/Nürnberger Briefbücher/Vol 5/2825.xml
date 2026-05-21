@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2825" xml:id="l2836" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2825 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>197r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2825.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Schenk v. Geyern, Wiguläus</persName></ab><ab type="mention"><persName ref="https://www.wikidata.org/wiki/Q57124" type="mention">Sigismund v. Luxemburg, dt. König</persName><persName type="mention">Kolditz, Albrecht v.</persName></ab><date from="18-02-1422" to="18-02-1422" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_396">
+<surface lrx="2694" lry="3745" ulx="0" uly="0">
+<graphic height="3745px" url="Rst Nbg-Briefbücher-Nr 5_0201_right.png" width="2694px"/>
+<zone lrx="1595" lry="1523" rendition="TextRegion" ulx="871" uly="2334" xml:id="facs_396_r1"> <zone lrx="1843" lry="1523" rendition="Line" ulx="871" uly="1434" xml:id="facs_396_r1l11"/>
+<zone lrx="2410" lry="1685" rendition="Line" ulx="394" uly="1574" xml:id="facs_396_r1l12"/>
+<zone lrx="2429" lry="1789" rendition="Line" ulx="479" uly="1684" xml:id="facs_396_r1l13"/>
+<zone lrx="2404" lry="1892" rendition="Line" ulx="477" uly="1804" xml:id="facs_396_r1l14"/>
+<zone lrx="2397" lry="1997" rendition="Line" ulx="475" uly="1914" xml:id="facs_396_r1l15"/>
+<zone lrx="2420" lry="2111" rendition="Line" ulx="486" uly="2016" xml:id="facs_396_r1l16"/>
+<zone lrx="2402" lry="2213" rendition="Line" ulx="458" uly="2121" xml:id="facs_396_r1l17"/>
+<zone lrx="2410" lry="2328" rendition="Line" ulx="485" uly="2224" xml:id="facs_396_r1l18"/>
+<zone lrx="1595" lry="2426" rendition="Line" subtype="paragraph" ulx="485" uly="2334" xml:id="facs_396_r1l19"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Wiguläus Schenk von Geyern</head><p>Der Rat teilt mit, dass er die 200 Gulden gemäß königlicher Anweisung an Albrecht von Kolditz aushändigt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_396" id="197r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_396_r1l11">VVygeleıs Schenken ʒu Geyrn </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_396_r1l12"><expan>L<ex>ieber</ex></expan> vvygeleıs als Jr vns <expan>verſchr<ex>iben</ex></expan> habt von der ij<hi rend="sup">C</hi> <expan>guld<ex>en</ex></expan> <expan>weg<ex>en</ex></expan> </ab>
+<ab facs="#facs_396_r1l13">etc / das haben wır wol <expan>vernom<ex>en</ex></expan> / Vnd laſſen eẅch <expan>wıſſ<ex>en</ex></expan> / daʒ vns </ab>
+<ab facs="#facs_396_r1l14"><expan>vnſ<ex>er</ex>s</expan> <expan>gnedıgıſte<ex>n</ex></expan> <expan>h<ex>er</ex>ren</expan> ~ des <expan>Römıſche<ex>n</ex></expan> etc künıgs brıef <expan>geantw<ex>ur</ex>tt</expan> </ab>
+<ab facs="#facs_396_r1l15"><expan>word<ex>en</ex></expan> ſınd / Daran vns ſein <expan>künıgl<ex>ich</ex></expan> gnade <expan>v<ex>er</ex>ſchreıbt</expan> vnd gepeẅt </ab>
+<ab facs="#facs_396_r1l16">dem edeln <expan>h<ex>er</ex>n</expan> <expan>Albr<ex>echt</ex></expan> <expan>h<ex>er</ex>ren</expan> ʒu Coldıcʒ / dıe <expan>vorgen<ex>anten</ex></expan> ıȷ<hi rend="sup">C</hi> <expan>guld<ex>en</ex></expan> ʒu geben </ab>
+<ab facs="#facs_396_r1l17">/ dem auch vns gebürt gehorſam darinn ʒu ſeın als Jr ſelbs wol </ab>
+<ab facs="#facs_396_r1l18"><expan>v<ex>er</ex>ſteen</expan> mugt / VVo wır <expan>ab<ex>er</ex></expan> <expan>eẅr<ex>er</ex></expan> <expan>erberk<ex>eit</ex></expan> ſuſt lıeb <expan>od<ex>er</ex></expan> dıenſt etc </ab>
+<ab facs="#facs_396_r1l19"><expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi> <expan>an<ex>te</ex></expan> kathedra petrȷ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_396" id="197r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Wygeleis Schenken zu Geyrn</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Wygeleis, als ir uns
+                                <expan>verschr<ex>iben</ex></expan> habt von der ii<hi rend="sup">c</hi>
+<expan>guld<ex>en</ex></expan>
+<expan>weg<ex>en</ex></expan> etc., das haben wir wol
+                                <expan>vernom<ex>en</ex></expan> und lassen ewch
+                                <expan>wiss<ex>en</ex></expan>, daz uns
+                            <expan>uns<ex>er</ex>s</expan>
+<expan>gnedigiste<ex>n</ex></expan>
+<expan>h<ex>er</ex>ren</expan>, des <expan>römische<ex>n</ex></expan> etc.
+                        künigs, brief <expan>geantw<ex>ur</ex>tt</expan>
+<expan>word<ex>en</ex></expan> sind, daran uns sein
+                                <expan>künigl<ex>ich</ex></expan> gnade
+                            <expan>v<ex>er</ex>schreibt</expan> und gepewt, dem edeln
+                                <expan>h<ex>er</ex>n</expan>
+<expan>Albr<ex>echt</ex></expan>, <expan>h<ex>er</ex>ren</expan> zu Coldicz,
+                        die <expan>vorgen<ex>anten</ex></expan> ii<hi rend="sup">c</hi>
+<expan>guld<ex>en</ex></expan> zu geben, dem auch uns gebürt gehorsam darinn
+                        zu sein, als ir selbs wol <expan>v<ex>er</ex>steen</expan> mugt. Wo wir
+                                <expan>ab<ex>er</ex></expan>
+<expan>ewr<ex>er</ex></expan>
+<expan>erberk<ex>eit</ex></expan> sust lieb <expan>od<ex>er</ex></expan>
+                        dienst etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan> kathedra Petri.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

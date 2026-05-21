@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1325" xml:id="l1340" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1325 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>213r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1325.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Johann II. v. Nassau-Wiesbaden-Idstein, Ebf. v. Mainz</persName></ab><ab type="mention"><persName type="mention">Koler, Christian</persName></ab><date from="11-03-1412" to="11-03-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_427">
+<surface lrx="2759" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0215_right.png" width="2759px"/>
+<zone lrx="919" lry="2189" rendition="TextRegion" ulx="1582" uly="3116" xml:id="facs_427_r1"> <zone lrx="1702" lry="2189" rendition="Line" ulx="1582" uly="2135" xml:id="facs_427_r1l22"/>
+<zone lrx="1895" lry="2275" rendition="Line" ulx="1203" uly="2199" xml:id="facs_427_r1l23"/>
+<zone lrx="2363" lry="2400" rendition="Line" ulx="434" uly="2311" xml:id="facs_427_r1l24"/>
+<zone lrx="2326" lry="2485" rendition="Line" ulx="442" uly="2398" xml:id="facs_427_r1l25"/>
+<zone lrx="2356" lry="2569" rendition="Line" ulx="451" uly="2497" xml:id="facs_427_r1l26"/>
+<zone lrx="2318" lry="2650" rendition="Line" ulx="446" uly="2584" xml:id="facs_427_r1l27"/>
+<zone lrx="2364" lry="2753" rendition="Line" ulx="454" uly="2665" xml:id="facs_427_r1l28"/>
+<zone lrx="2403" lry="2836" rendition="Line" ulx="451" uly="2754" xml:id="facs_427_r1l29"/>
+<zone lrx="2379" lry="2925" rendition="Line" ulx="419" uly="2838" xml:id="facs_427_r1l30"/>
+<zone lrx="2274" lry="3007" rendition="Line" ulx="406" uly="2931" xml:id="facs_427_r1l31"/>
+<zone lrx="2493" lry="3106" rendition="Line" ulx="415" uly="3024" xml:id="facs_427_r1l32"/>
+<zone lrx="919" lry="3207" rendition="Line" ulx="455" uly="3116" xml:id="facs_427_r1l33"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II. von Nassau-Wiesbaden-Idstein, Erzbischof von Mainz</head><p>Der Rat bittet um die Bezahlung der schon lange ausstehenden Schulden bei Christian Koler, Bürger zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_427" id="213r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_427_r1l23">Biſchof 
+<del rend="strikethrough">von </del>
+<add><ab facs="#facs_427_r1l22">cʒu </ab></add> Meincʒ </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_427_r1l24"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / Vns hat Criſtan Coler <expan>vnſ<ex>e</ex>r</expan> <expan>burg<ex>er</ex></expan> fürbracht </ab>
+<ab facs="#facs_427_r1l25">vvie Jm ſein botſchafft alʒ er bey <expan>ewr<ex>e</ex>n</expan> gnaden gehabt hab </ab>
+<ab facs="#facs_427_r1l26">geſagt hab / daʒ Jr der gar <expan>gnedıgl<ex>ich</ex></expan> <expan>geantw<ex>ur</ex>t</expan> / als <expan>vo<ex>n</ex></expan> der </ab>
+<ab facs="#facs_427_r1l27">ſchuld wegen die Jm noch auſſen ſteet / vnd ewr gnad ge </ab>
+<ab facs="#facs_427_r1l28">ſprochen hab / daʒ er yecʒund auf die meſſe <expan>dar<ex>umb</ex></expan> <expan>wıd<ex>er</ex></expan> cʒu </ab>
+<ab facs="#facs_427_r1l29"><expan>ewr<ex>e</ex>n</expan> <expan>gnad<ex>en</ex></expan> ſchıcken ſüll / Nu <expan>Ro<ex>gamus</ex></expan> / daʒ Jr <expan>gnedıgl<ex>ichen</ex></expan> <expan>bedencke<ex>n</ex></expan> </ab>
+<ab facs="#facs_427_r1l30">wöllet / daʒ Jm das lang auſſen <expan>geſtand<ex>en</ex></expan> iſt vnd er <expan>gütlıch<ex>en</ex></expan> </ab>
+<ab facs="#facs_427_r1l31">gepiten hat vnd Jm des noch gnedig awſrıchtung <expan>geb<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_427_r1l32">wöllet / das vvöllen etc <expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> vj̃ Gregorij / <expan>d<ex>omi</ex>nıc<ex>am</ex></expan> <expan>leta<ex>r</ex>e</expan> </ab>
+<ab facs="#facs_427_r1l33">Anno etc xij<hi rend="sup">o</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_427" id="213r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Bischof <add>czu</add> Meincz</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, uns hat Cristan Coler,
+                            <expan>uns<ex>e</ex>r</expan>
+<expan>burg<ex>er</ex></expan>, fürbracht, wie im sein botschafft, alz er
+                        bey <expan>ewr<ex>e</ex>n</expan> gnaden gehabt hab, gesagt hab, daz ir der
+                        gar <expan>gnedigl<ex>ich</ex></expan>
+<expan>geantw<ex>ur</ex>t</expan> als <expan>vo<ex>n</ex></expan> der schuld
+                        wegen, die im noch aussen steet, und ewr gnad gesprochen hab, daz er yeczund
+                        auf die messe <expan>dar<ex>umb</ex></expan>
+<expan>wid<ex>er</ex></expan> czu <expan>ewr<ex>e</ex>n</expan>
+<expan>gnad<ex>en</ex></expan> schicken süll. Nu
+                            <expan>ro<ex>gamus</ex></expan>, daz ir
+                            <expan>gnedigl<ex>ichen</ex></expan>
+<expan>bedencke<ex>n</ex></expan> wöllet, daz im das lang aussen
+                                <expan>gestand<ex>en</ex></expan> ist und er
+                                <expan>gütlich<ex>en</ex></expan> gepiten hat und im des noch gnedig
+                        awsrichtung <expan>geb<ex>e</ex>n</expan> wöllet. Das wöllen etc.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi gregorii
+                            <expan>d<ex>omi</ex>nic<ex>am</ex></expan>
+<expan>leta<ex>r</ex>e</expan> anno etc. xii<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

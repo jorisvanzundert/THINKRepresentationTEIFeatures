@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1993" xml:id="l2005" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1993 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>118v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1993.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Oberngesesser, Hans</persName></ab><ab type="mention"><persName type="mention">Schleh, Seitz</persName><persName type="mention">Gräfenberger, Ott</persName></ab><date from="30-12-1415" to="30-12-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_237">
+<surface lrx="2596" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0122_left.png" width="2596px"/>
+<zone lrx="1698" lry="348" rendition="TextRegion" ulx="1074" uly="991" xml:id="facs_237_r1">
+<zone lrx="1698" lry="348" rendition="Line" ulx="1074" uly="272" xml:id="facs_237_r1l1"/>
+<zone lrx="2306" lry="559" rendition="Line" ulx="589" uly="477" xml:id="facs_237_r1l2"/>
+<zone lrx="2320" lry="648" rendition="Line" ulx="604" uly="562" xml:id="facs_237_r1l3"/>
+<zone lrx="2358" lry="735" rendition="Line" ulx="597" uly="657" xml:id="facs_237_r1l4"/>
+<zone lrx="2269" lry="811" rendition="Line" ulx="590" uly="745" xml:id="facs_237_r1l5"/>
+<zone lrx="2287" lry="900" rendition="Line" ulx="612" uly="819" xml:id="facs_237_r1l6"/>
+<zone lrx="2334" lry="992" rendition="Line" ulx="626" uly="899" xml:id="facs_237_r1l7"/>
+<zone lrx="2353" lry="1073" rendition="Line" ulx="636" uly="991" xml:id="facs_237_r1l8"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans Oberngesesser</head><p>Der Rat teilt die Abwesenheit von Ott Gräfenberger und Seitz Schleh, Bürger zu Nürnberg, mit, und erklärt sich nach Rückkehr und Forderung zu deren Befragung bereit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_237" id="118v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_237_r1l1">hanſen Oberngeſeſʒer </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_237_r1l2"><expan>L<ex>ieber</ex></expan> hans Als Jr vns <expan>geſchrib<ex>e</ex>n</expan> habt von Seicʒen <expan>Sleh<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_237_r1l3">vnd Otten Grefembergers <expan>vnſ<ex>er</ex>r</expan> <expan>burge<ex>r</ex></expan> wegen das <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_237_r1l4">vvir wol <expan>v<ex>er</ex>nome<ex>n</ex></expan> / Vnd laſſen euch wiſſen . daʒ <expan>dıeſelb<ex>e</ex>n</expan> ~ <expan>vnſ<ex>er</ex></expan> </ab>
+<ab facs="#facs_237_r1l5"><expan>Burge<ex>r</ex></expan> cʒu der cʒeit niht anheim ſind . <expan>vven<ex>n</ex></expan>
+<del rend="strikethrough"> abe </del> ſıe aber </ab>
+<ab facs="#facs_237_r1l6"><expan>herkume<ex>n</ex></expan> . ſo <expan>wölle<ex>n</ex></expan> wir ſie darümb cʒurede ſecʒen / vnd </ab>
+<ab facs="#facs_237_r1l7">ew <expan>dan<ex>n</ex></expan> ein antvvurtt wiſſen laſſen . ob die <expan>yemand<ex>en</ex></expan> von </ab>
+<ab facs="#facs_237_r1l8"><expan>ew<ex>r</ex>n</expan> wegen an vns vordert / <expan>Dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ıııj̃ <expan>an<ex>te</ex></expan> <expan>Om<ex>n</ex>ȷ</expan> <expan>S<ex>an</ex>c<ex>t</ex>o<ex>rum</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_237" id="118v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hansen Oberngeseszer </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Hans, als ir uns
+                            <expan>geschrib<ex>e</ex>n</expan> habt von Seiczen
+                                <expan>Sleh<ex>e</ex>n</expan> und Otten Grefembergers,
+                                <expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan>, wegen, das <expan>hab<ex>e</ex>n</expan> wir
+                        wol <expan>v<ex>er</ex>nome<ex>n</ex></expan> und lassen euch wissen, daz
+                                <expan>dieselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex></expan>
+<expan>burge<ex>r</ex></expan> czu der czeit niht anheim sind.
+                                <expan>Wen<ex>n</ex></expan> sie aber
+                            <expan>herkume<ex>n</ex></expan>, so <expan>wölle<ex>n</ex></expan> wir
+                        sie darümb czu rede seczen und ew <expan>dan<ex>n</ex></expan> ein antwurtt
+                        wissen lassen, ob die <expan>yemand<ex>en</ex></expan> von
+                                <expan>ew<ex>r</ex>n</expan> wegen an uns vordert.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> iiii <expan>an<ex>te</ex></expan>
+<expan>om<ex>n</ex>i</expan>
+<expan>s<ex>an</ex>c<ex>t</ex>o<ex>rum.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

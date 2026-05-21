@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2007" xml:id="l2019" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2007 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>122r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_8"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2007.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Elisabeth v. Hohenzollern</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q31503" type="mention">Neustadt a. d. Aisch</placeName><persName type="mention">Eberhard III., Gf. v. Württemberg</persName><persName type="mention">Paumgartner, Konrad VI.</persName><persName type="mention">Semmler, Ulrich</persName><persName type="mention">Maurer, Hans</persName></ab><date from="18-11-1415" to="18-11-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_244">
+<surface lrx="2632" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0125_right.png" width="2632px"/>
+<zone lrx="2468" lry="646" rendition="TextRegion" ulx="902" uly="542" xml:id="facs_244_r1">
+<zone lrx="2468" lry="646" rendition="Line" ulx="902" uly="542" xml:id="facs_244_r2l5"/> </zone>
+<zone lrx="2008" lry="745" rendition="TextRegion" ulx="409" uly="839" xml:id="facs_244_r2"> <zone lrx="2303" lry="745" rendition="Line" ulx="409" uly="644" xml:id="facs_244_r2l7"/>
+<zone lrx="2409" lry="840" rendition="Line" ulx="405" uly="748" xml:id="facs_244_r2l8"/>
+<zone lrx="2008" lry="932" rendition="Line" ulx="393" uly="839" xml:id="facs_244_r2l9"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über Ausstellung eines Kredenzbriefs</head><p>Kredenzbrief für Hans Maurer für Gräfin Elisabeth von Württemberg wegen des zu Neustadt an der Aisch aufgehaltenen Weins von Konrad VI. Paumgartner und Ulrich Semmler, Bürger zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_244" id="122r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab facs="#facs_244_r2l5"> an <expan>fraw<ex>e</ex>n</expan>
+<expan>Elſpet<ex>e</ex>n</expan> Graf <expan>Eb<ex>erhart</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>vvırte<ex>m</ex>b<ex>er</ex>g</expan> gemahel </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_244_r2l7">. ȷ credencʒ cʒureden von <expan>d<ex>er</ex></expan>
+                        wein <expan>wege<ex>n</ex></expan> die C <expan>Pawmgartn<ex>er</ex></expan>
+</ab>
+<ab facs="#facs_244_r2l8">vnd <expan>vlr<ex>ich</ex></expan> Semler cʒu der
+                                <expan>newe<ex>n</ex>ſtat</expan>
+<expan>aufgehalte<ex>n</ex></expan> ſind <expan>worde<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_244_r2l9">auf hanſen <expan>Mawr<ex>er</ex></expan> /
+                                <expan>Act<ex>um</ex></expan>
+<expan>f<ex>er</ex>ıa</expan> ıȷ̃ <expan>an<ex>te</ex></expan> Elıʒabeth
+                    </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_244" id="122r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab> An <expan>fraw<ex>e</ex>n</expan>
+<expan>Elspet<ex>e</ex>n,</expan> graf <expan>Eb<ex>erhart</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>Wirte<ex>m</ex>b<ex>er</ex>g</expan> gemahel </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>I credencz czu reden von <expan>d<ex>er</ex></expan> wein
+                                <expan>wege<ex>n,</ex></expan> die <expan>C<ex>onrad</ex></expan>
+<expan>Pawmgartn<ex>er</ex></expan> und <expan>Ulr<ex>ich</ex></expan>
+                        Semler czu der <expan>Newe<ex>n</ex>stat</expan>
+<expan>aufgehalte<ex>n</ex></expan> sind <expan>worde<ex>n</ex></expan> auf
+                        Hansen <expan>Mawr<ex>er.</ex></expan> A<expan>ct<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii <expan>an<ex>te</ex></expan> Elizabeth.
+                    </ab>
+</div>
+</div></body>
+</text>
+</TEI>

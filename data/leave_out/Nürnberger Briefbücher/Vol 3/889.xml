@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="889" xml:id="l900" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 889 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>099v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 889.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Ridler, Gabriel</persName></ab><ab type="mention"><persName type="mention">Ridler, Anton</persName></ab><date from="3-12-1410" to="31-12-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_200">
+<surface lrx="2776" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0102_left.png" width="2776px"/>
+<zone lrx="1709" lry="1368" rendition="TextRegion" ulx="1102" uly="2252" xml:id="facs_200_r1"> <zone lrx="1709" lry="1368" rendition="Line" ulx="1102" uly="1282" xml:id="facs_200_r1l9"/>
+<zone lrx="2673" lry="1509" rendition="Line" ulx="557" uly="1355" xml:id="facs_200_r1l10"/>
+<zone lrx="2651" lry="1613" rendition="Line" subtype="paragraph" ulx="577" uly="1452" xml:id="facs_200_r1l11"/>
+<zone lrx="2614" lry="1709" rendition="Line" ulx="609" uly="1543" xml:id="facs_200_r1l12"/>
+<zone lrx="2636" lry="1814" rendition="Line" ulx="613" uly="1646" xml:id="facs_200_r1l13"/>
+<zone lrx="2497" lry="1905" rendition="Line" subtype="paragraph" ulx="612" uly="1759" xml:id="facs_200_r1l14"/>
+<zone lrx="2503" lry="2007" rendition="Line" ulx="615" uly="1838" xml:id="facs_200_r1l15"/>
+<zone lrx="2532" lry="2102" rendition="Line" subtype="paragraph" ulx="613" uly="1938" xml:id="facs_200_r1l16"/>
+<zone lrx="2551" lry="2191" rendition="Line" ulx="609" uly="2049" xml:id="facs_200_r1l17"/>
+<zone lrx="2591" lry="2274" rendition="Line" ulx="607" uly="2141" xml:id="facs_200_r1l18"/>
+<zone lrx="2303" lry="2399" rendition="Line" ulx="604" uly="2252" xml:id="facs_200_r1l19"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Gabriel Ridler</head><p>Der Rat teilt mit, dass er über das Bürgerrecht keinen offenen Brief ausstellt, sondern bei Bedarf einen "Förderbrief" schreibt, und bittet Ridler, seinem Sohn Anton nach dessen Rückkehr zu sagen, dass er wie andere Bürger zu Nürnberg in der Stadt zu wohnen hat.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_200" id="99v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_200_r1l9">Gabrielen Rıdler </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_200_r1l10"><expan>Lıeb<ex>er</ex></expan> her Ridler / Als Jr vns <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> habt von <expan>ew<ex>r</ex>s</expan> Suns <expan>vveg<ex>en</ex></expan> </ab>
+<ab facs="#facs_200_r1l11">Anthoni <expan>Rıdl<ex>er</ex>s</expan> <expan>vnſ<ex>er</ex>s</expan> <expan>Burg<ex>er</ex>s</expan> / vnd begert / daʒ vvir Jm des <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_200_r1l12"><expan>offen<ex>en</ex></expan> brief <expan>geb<ex>e</ex>n</expan> <expan>ſolt<ex>e</ex>n</expan> / daʒ er <expan>vnſ<ex>er</ex></expan> <expan>B<ex>ur</ex>g<ex>er</ex></expan> ıſt / . <expan>Laſſ<ex>en</ex></expan> wir ew vvıſſen </ab>
+<ab facs="#facs_200_r1l13">daʒ vnſer gewonheit nicht ıſt / daʒ wir <expan>dheine<ex>m</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> . <expan>darv<ex>m</ex>b</expan> </ab>
+<ab facs="#facs_200_r1l14"><expan>offen<ex>en</ex></expan> brief <expan>geb<ex>e</ex>n</expan> / . dann ob <expan>d<ex>er</ex></expan> <expan>eg<ex>enante</ex></expan> ewr Sun ıht haftes </ab>
+<ab facs="#facs_200_r1l15">gewünn / wenn das an vns braht würd / ſo <expan>geb<ex>e</ex>n</expan> wir Jm </ab>
+<ab facs="#facs_200_r1l16"><expan>g<ex>er</ex>ne</expan> <expan>vnſ<ex>er</ex></expan> fürderbrief als <expan>and<ex>er</ex>n</expan> <expan>vnſ<ex>er</ex>n</expan> <expan>B<ex>ur</ex>g<ex>er</ex>n</expan> / vnd <expan>bitt<ex>e</ex>n</expan> ew </ab>
+<ab facs="#facs_200_r1l17">wenn er cʒeland kum / daʒ Jr Jn <expan>vnt<ex>er</ex>weiſet</expan> / daʒ er beÿ vns </ab>
+<ab facs="#facs_200_r1l18">wonhaft ſeÿ / als <expan>and<ex>er</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> . vnd wo vvir ew lıeb vnd </ab>
+<ab facs="#facs_200_r1l19"><expan>frewntſch<ex>aft</ex></expan> <expan>beweıſ<ex>en</ex></expan> <expan>möht<ex>en</ex></expan> / das <expan>tet<ex>e</ex>n</expan> vvir <expan>allcʒ<ex>eit</ex></expan> <expan>g<ex>er</ex>ne</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_200" id="99v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Gabrielen Ridler </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Lieb<ex>er</ex></expan> her Ridler, als ir uns
+                                <expan>v<ex>er</ex>schr<ex>iben</ex></expan> habt von
+                                <expan>ew<ex>r</ex>s</expan> suns <expan>weg<ex>en</ex></expan>,
+                        Anthoni <expan>Ridl<ex>er</ex>s</expan>, <expan>uns<ex>er</ex>s</expan>
+<expan>burg<ex>er</ex>s</expan>, und begert, daz wir im des
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>offen<ex>en</ex></expan> brief <expan>geb<ex>e</ex>n</expan>
+<expan>solt<ex>e</ex>n</expan>, daz er <expan>uns<ex>er</ex></expan>
+<expan>b<ex>ur</ex>g<ex>er</ex></expan> ist, <expan>lass<ex>en</ex></expan>
+                        wir ew wissen, daz unser gewonheit nicht ist, daz wir
+                                <expan>dheine<ex>m</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan>
+<expan>dar<ex>umb</ex></expan>
+<expan>offen<ex>en</ex></expan> brief <expan>geb<ex>e</ex>n</expan>; dann ob
+                                <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enante</ex></expan> ewr sun iht haftes gewünn, wenn das an uns
+                        braht würd, so <expan>geb<ex>e</ex>n</expan> wir im
+                            <expan>g<ex>er</ex>ne</expan>
+<expan>uns<ex>er</ex></expan> fürderbrief als <expan>and<ex>er</ex>n</expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex>n</expan> und <expan>bitt<ex>e</ex>n</expan>
+                        ew, wenn er czeland kum, daz ir in <expan>unt<ex>er</ex>weiset</expan>, daz
+                        er bey uns wonhaft sey als <expan>and<ex>er</ex></expan>
+<expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>. Und wo wir ew lieb und
+                                <expan>frewntsch<ex>aft</ex></expan>
+<expan>beweis<ex>en</ex></expan>
+<expan>möht<ex>en</ex></expan>, das <expan>tet<ex>e</ex>n</expan> wir
+                                <expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>ne</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

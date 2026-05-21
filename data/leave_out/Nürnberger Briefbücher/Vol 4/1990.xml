@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1990" xml:id="l2002" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1990 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>117r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1990.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Laineck, Hans v.</persName></ab><ab type="mention"><placeName type="mention">Trautenberg, Bg. (Lk. Tirschenreuth)</placeName><placeName ref="https://www.wikidata.org/wiki/Q6938" type="mention">Hof</placeName><persName type="mention">Buch, Eberhard v.</persName><persName type="mention">N., Hans, Diener v. Hans v. Laineck</persName></ab><date from="21-10-1415" to="21-10-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_234">
+<surface lrx="2637" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0120_right.png" width="2637px"/>
+<zone lrx="1651" lry="1980" rendition="TextRegion" ulx="987" uly="2701" xml:id="facs_234_r1">
+<zone lrx="1651" lry="1980" rendition="Line" ulx="984" uly="1904" xml:id="facs_234_r1l18"/> <zone lrx="1732" lry="2053" rendition="Line" ulx="987" uly="1988" xml:id="facs_234_r1l19"/>
+<zone lrx="2280" lry="2222" rendition="Line" ulx="354" uly="2134" xml:id="facs_234_r1l20"/>
+<zone lrx="2346" lry="2298" rendition="Line" ulx="376" uly="2211" xml:id="facs_234_r1l21"/>
+<zone lrx="2298" lry="2384" rendition="Line" ulx="363" uly="2292" xml:id="facs_234_r1l22"/>
+<zone lrx="2280" lry="2465" rendition="Line" ulx="372" uly="2374" xml:id="facs_234_r1l23"/>
+<zone lrx="2306" lry="2550" rendition="Line" ulx="350" uly="2454" xml:id="facs_234_r1l24"/>
+<zone lrx="2302" lry="2636" rendition="Line" ulx="374" uly="2541" xml:id="facs_234_r1l25"/>
+<zone lrx="2322" lry="2712" rendition="Line" ulx="384" uly="2615" xml:id="facs_234_r1l26"/>
+<zone lrx="2088" lry="2795" rendition="Line" ulx="387" uly="2701" xml:id="facs_234_r1l27"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans von Laineck</head><p>Der Rat versichert die Freundschaft mit dem Adressaten und seinen Dienern Eberhard von Buch und Hans N., da er sie nicht der Beteiligung am Überfall auf Nürnberger bei Hof verdächtigt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_234" id="117r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_234_r1l18">hanſen von leyneck </ab>
+<ab facs="#facs_234_r1l19">cʒu <expan>Trawtemb<ex>er</ex>g</expan> geſeſſen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_234_r1l20"> <expan>L<ex>ieber</ex></expan> Hans / Als Jr vns 
+<del rend="strikethrough"><expan>geſchrib<ex>e</ex>n</expan> habt </del> von <expan>ew<ex>r</ex>n</expan> / vnd Eberharts </ab>
+<ab facs="#facs_234_r1l21">von puch vnd hanſen der bey <expan>ewre<ex>n</ex></expan> <expan>vett<ex>er</ex>n</expan> geweſen ſey . <expan>ewr<ex>er</ex></expan> dyener </ab>
+<ab facs="#facs_234_r1l22">wegen geſchriben habt / vvie euch geſagt ſey <expan>worde<ex>n</ex></expan> daʒ vvir </ab>
+<ab facs="#facs_234_r1l23">euch in ſchulden <expan>hab<ex>e</ex>n</expan> <expan>ſülle<ex>n</ex></expan> . als von der name wegen dıe den </ab>
+<ab facs="#facs_234_r1l24"><expan>vnſ<ex>er</ex>n</expan> genſeite des hofs <expan>geſcheh<ex>e</ex>n</expan> iſt . laſſen wir euch vviſſen </ab>
+<ab facs="#facs_234_r1l25">daʒ vvir dauon niht wiſſen . vnd <expan>wölle<ex>n</ex></expan> auch ew vnd dy <expan>egen<ex>anten</ex></expan> </ab>
+<ab facs="#facs_234_r1l26">ewr diener des gern vervviſſen / vnd bedürfft ew auch darümb </ab>
+<ab facs="#facs_234_r1l27">gen vns keins argen beſorgen / <expan>Dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ıj̃ <expan>p<ex>oſt</ex></expan> Galli </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_234" id="117r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hansen von Leyneck czu <expan>Trawtemb<ex>er</ex>g</expan> gesessen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Hans, als ir uns von
+                            <expan>ew<ex>r</ex>n</expan> und Eberharts von Puch und Hansen, der bey
+                                <expan>ewre<ex>n</ex></expan>
+<expan>vett<ex>er</ex>n</expan> gewesen sey, <expan>ewr<ex>er</ex></expan>
+                        dyener, wegen geschriben habt, wie euch gesagt sey
+                            <expan>worde<ex>n,</ex></expan> daz wir euch in schulden
+                                <expan>hab<ex>e</ex>n</expan>
+<expan>sülle<ex>n</ex></expan> als von der name wegen, die den
+                                <expan>uns<ex>er</ex>n</expan> genseite des Hofs
+                                <expan>gescheh<ex>e</ex>n</expan> ist, lassen wir euch wissen, daz
+                        wir davon niht wissen. Und <expan>wölle<ex>n</ex></expan> auch ew und dy
+                                <expan>egen<ex>anten</ex></expan> ewr diener des gern verwissen und
+                        bedürfft ew auch darümb gen uns keins argen besorgen.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> ii <expan>p<ex>ost</ex></expan> Galli. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

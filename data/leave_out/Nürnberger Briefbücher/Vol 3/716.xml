@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="716" xml:id="l725" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 716 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>061v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 716.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q71173" type="recipient">Elisabeth v. Bayern, Bgfn. v. Nürnberg</persName></ab><ab type="mention"><placeName type="mention">Rötlein bey Stein (unklar)</placeName><persName type="mention">Mendel, Peter I.</persName><persName type="mention">Knoblach, Heinz</persName><persName type="mention">Schmidt, Götz</persName><persName type="mention">Hutzelmayr, Ulrich</persName></ab><date from="28-05-1410" to="28-05-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_124">
+<surface lrx="2798" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0064_left.png" width="2798px"/>
+<zone lrx="1440" lry="291" rendition="TextRegion" ulx="1075" uly="1135" xml:id="facs_124_r3">
+<zone lrx="1440" lry="291" rendition="Line" ulx="1075" uly="227" xml:id="facs_124_r3l1"/>
+<zone lrx="2600" lry="523" rendition="Line" ulx="591" uly="388" xml:id="facs_124_r3l2"/>
+<zone lrx="2564" lry="600" rendition="Line" ulx="594" uly="477" xml:id="facs_124_r3l3"/>
+<zone lrx="2662" lry="678" rendition="Line" ulx="593" uly="567" xml:id="facs_124_r3l4"/>
+<zone lrx="2511" lry="759" rendition="Line" ulx="599" uly="658" xml:id="facs_124_r3l5"/>
+<zone lrx="2515" lry="863" rendition="Line" ulx="587" uly="760" xml:id="facs_124_r3l6"/>
+<zone lrx="2539" lry="956" rendition="Line" ulx="587" uly="844" xml:id="facs_124_r3l7"/>
+<zone lrx="2671" lry="1058" rendition="Line" ulx="573" uly="950" xml:id="facs_124_r3l8"/>
+<zone lrx="2567" lry="1135" rendition="Line" ulx="567" uly="1035" xml:id="facs_124_r3l9"/>
+<zone lrx="2657" lry="1237" rendition="Line" ulx="565" uly="1135" xml:id="facs_124_r3l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Elisabeth von Bayern, Burggräfin von Nürnberg</head><p>Der Rat bittet im Namen von Peter I. Mendel, Bürger zu Nürnberg, wegen dessen Armmännern Götz Schmidt und Heinz Knoblach sowie Ulrich Hutzelmayr, Bürger zu Nürnberg, gemäß altem Herkommen von der Erhebung einer Steuer zum "Rötlein bey Stein" abzusehen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_124" id="61v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_124_r3l1">Burgrafin </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_124_r3l2">Gnedige fraw / vns <expan>hab<ex>e</ex>n</expan> fürgelegt <expan>Pet<ex>er</ex></expan> Mendell <expan>d<ex>er</ex></expan> <expan>Ellt<ex>er</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>Burg<ex>er</ex></expan> / </ab>
+<ab facs="#facs_124_r3l3">von Gotʒen Smẏdts / vnd heintʒen 
+<del rend="strikethrough">Sun </del> Knoblachs <expan>ſein<ex>er</ex></expan> <expan>Arme<ex>n</ex>lewte</expan> </ab>
+<ab facs="#facs_124_r3l4">wegen <expan>hint<ex>er</ex></expan> Jm cʒum Rötleins beÿ Stein geſeſʒen / vnd <expan>vlr<ex>ich</ex></expan> hutʒell = </ab>
+<ab facs="#facs_124_r3l5">maÿr auch <expan>vnſ<ex>er</ex></expan> <expan>Burg<ex>er</ex></expan> / wie daʒ man ſtewr auf ſie hab gelegt </ab>
+<ab facs="#facs_124_r3l6">vnd die von Jn cʒenemen main / von der haide wegen doſelbſt </ab>
+<ab facs="#facs_124_r3l7">cʒum Rötleins / der ſie doch vormals nÿe <expan>geb<ex>e</ex>n</expan> <expan>habe<ex>n</ex></expan> / <expan>Rogam<ex>us</ex></expan> </ab>
+<ab facs="#facs_124_r3l8">daʒ Jr die <expan>eg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>s</expan> <expan>Burg<ex>er</ex>s</expan> <expan>arme<ex>n</ex>lewte</expan> / vnd auch <expan>de<ex>n</ex></expan> <expan>obg<ex>enanten</ex></expan> ~ hütʒel = </ab>
+<ab facs="#facs_124_r3l9">maÿr <expan>vnſ<ex>er</ex>n</expan> Burger / <expan>beleıb<ex>e</ex>n</expan> laſʒen vvöllet / als das von alter </ab>
+<ab facs="#facs_124_r3l10"><expan>h<ex>er</ex>komen</expan> iſt / Als etc / das wöllen etc <expan>Dat<ex>um</ex></expan> <expan>fe<ex>r</ex>ıa</expan> <expan>iııj̃</expan> <expan>p<ex>oſt</ex></expan> vrbanȷ / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_124" id="61v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burgrafin </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Gnedige fraw, uns <expan>hab<ex>e</ex>n</expan> fürgelegt
+                                <expan>Pet<ex>er</ex></expan> Mendell <expan>d<ex>er</ex></expan>
+<expan>ellt<ex>er</ex></expan>, <expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>, von Goczen Smydts und Heinczen Knoblachs,
+                                <expan>sein<ex>er</ex></expan>
+<expan>arme<ex>n</ex>lewte</expan>, wegen, <expan>hint<ex>er</ex></expan> im
+                        czum Rötleins bey Stein geseszen, und <expan>Ulr<ex>ich</ex></expan>
+                        Huczellmayr, auch <expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>, wie daz man stewr auf sie hab gelegt und die
+                        von in cze nemen main von der haide wegen doselbst czum Rötleins, der sie
+                        doch vormals nye <expan>geb<ex>e</ex>n</expan>
+<expan>habe<ex>n</ex></expan>. <expan>Rogam<ex>us</ex></expan>, daz ir die
+                                <expan>eg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>s</expan>
+<expan>burg<ex>er</ex>s</expan>
+<expan>arme<ex>n</ex>lewte</expan> und auch <expan>de<ex>n</ex></expan>
+<expan>obg<ex>enanten</ex></expan> Hüczelmayr,
+                            <expan>uns<ex>er</ex>n</expan> burger, <expan>beleib<ex>e</ex>n</expan>
+                        laszen wöllet, als das von alter <expan>h<ex>er</ex>komen</expan> ist, als
+                        etc. Das wöllen etc. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>r</ex>ia</expan>
+<expan>iiii</expan>
+<expan>p<ex>ost</ex></expan> Urbani.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="591" xml:id="l600" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 591 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>032v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 591.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1666235" type="recipient">Johann I. v. Egloffstein, Bf. v. Würzburg</persName></ab><ab type="mention"><placeName type="mention">Bad Staffelstein (Stadt, Lk. Lichtenfels)</placeName><placeName type="mention">Heidingsfeld (Gt. v. Würzburg)</placeName><persName type="mention">Zollner, Gerhard</persName><persName type="mention">Hödlein, Popp</persName><persName type="mention">Hödlein, Eiring</persName></ab><date from="21-12-1409" to="21-12-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_66">
+<surface lrx="2774" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0035_left.png" width="2774px"/>
+<zone lrx="1796" lry="473" rendition="TextRegion" ulx="1988" uly="1249" xml:id="facs_66_r3">
+<zone lrx="1796" lry="473" rendition="Line" ulx="1121" uly="400" xml:id="facs_66_r3l1"/>
+<zone lrx="2603" lry="635" rendition="Line" ulx="709" uly="546" xml:id="facs_66_r3l2"/>
+<zone lrx="2556" lry="706" rendition="Line" ulx="704" uly="641" xml:id="facs_66_r3l3"/>
+<zone lrx="2618" lry="796" rendition="Line" ulx="738" uly="726" xml:id="facs_66_r3l4"/>
+<zone lrx="2617" lry="896" rendition="Line" ulx="744" uly="818" xml:id="facs_66_r3l5"/>
+<zone lrx="2738" lry="981" rendition="Line" ulx="729" uly="905" xml:id="facs_66_r3l6"/>
+<zone lrx="2680" lry="1068" rendition="Line" ulx="742" uly="987" xml:id="facs_66_r3l7"/>
+<zone lrx="2677" lry="1160" rendition="Line" ulx="753" uly="1084" xml:id="facs_66_r3l8"/>
+<zone lrx="2662" lry="1242" rendition="Line" ulx="738" uly="1184" xml:id="facs_66_r3l9"/>
+<zone lrx="2676" lry="1302" rendition="Line" ulx="1988" uly="1249" xml:id="facs_66_r3l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann I. von Egloffstein, Bischof von Würzburg</head><p>Der Rat bittet, dem Popp Hödlein, Armmann des Gerhard Zollner, Bürger zu Nürnberg, das Erbe seines in Heidingsfeld verstorbenen Bruders Eiring Hödlein folgen zu lassen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_66" id="32v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_66_r3l1">Bẏſchoff cʒu VVircʒburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_66_r3l2">Gnediger <expan>h<ex>er</ex>re</expan> / Vns hat fürgelegt / Gerhart cʒollner <expan>vnſ<ex>er</ex></expan> <expan>lieb<ex>er</ex></expan> </ab>
+<ab facs="#facs_66_r3l3">Burger / vvie daʒ Jm popp hödlein von Staffelſtein ſein Armman </ab>
+<ab facs="#facs_66_r3l4">geſagt hab / daʒ her Eyring Hödlein ſein pruder cʒu heẏtingſfelt von </ab>
+<ab facs="#facs_66_r3l5">tods wegen abgangen ſeẏ / vnd etwieuil habe gelaſſen hab / der Er </ab>
+<ab facs="#facs_66_r3l6">nehſter erb ſeẏ / darein Jm <expan>ew<ex>r</ex></expan> hochwirdıkeit ein <expan>v<ex>er</ex>pote</expan> vnd <expan>bekümeru<ex>n</ex>g</expan> </ab>
+<ab facs="#facs_66_r3l7">gelegt hab / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr dem <expan>egen<ex>an</ex>t<ex>en</ex></expan> ~ <expan>vnſ<ex>er</ex>s</expan> <expan>burg<ex>er</ex>s</expan> Armenmann </ab>
+<ab facs="#facs_66_r3l8"><expan>dieſelb<ex>e</ex>n</expan> habe darcʒu Er <expan>dan<ex>n</ex></expan> recht hat / durch <expan>vnſ<ex>er</ex>n</expan> <expan>wılle<ex>n</ex></expan> onhinder </ab>
+<ab facs="#facs_66_r3l9">nüſſe volgen laſſen wöllet / Als etc / das <expan>wolle<ex>n</ex></expan> etc <expan>dat<ex>um</ex></expan> in <expan>vigılia<ex>m</ex></expan> </ab>
+<ab facs="#facs_66_r3l10">/ <expan>b<ex>ea</ex>ti</expan> <expan>Tho<ex>m</ex>e</expan> <expan>Ap<ex>oſto</ex>lı</expan> / Anno . ix<hi rend="sup">o</hi> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_66" id="32v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Byschoff czu Wirczburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Gnediger <expan>h<ex>er</ex>re</expan>, uns hat fürgelegt Gerhart Czollner,
+                <expan>uns<ex>er</ex></expan>
+<expan>lieb<ex>er</ex></expan> burger, wie daz im Popp Hödlein von Staffelstein, sein
+            armman, gesagt hab, daz her Eyring Hödlein, sein pruder, czu Heytingsfelt von tods wegen
+            abgangen sey und etwievil habe gelassen hab, der er nehster erb sey; darein im
+                <expan>ew<ex>r</ex></expan> hochwirdikeit ein <expan>v<ex>er</ex>pote</expan> und
+                <expan>bekümeru<ex>n</ex>g</expan> gelegt hab. <expan>Ro<ex>gamus</ex></expan>, daz
+            ir dem <expan>egen<ex>an</ex>t<ex>en</ex></expan>
+<expan>uns<ex>er</ex>s</expan>
+<expan>burg<ex>er</ex>s</expan> armenmann <expan>dieselb<ex>e</ex>n</expan> habe, darczu
+            er <expan>dan<ex>n</ex></expan> recht hat, durch <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> on hindernüsse volgen lassen wöllet, als etc. Das
+                <expan>wolle<ex>n</ex></expan> etc. <expan>Dat<ex>um</ex></expan> in
+                <expan>vigilia<ex>m</ex></expan>
+<expan>b<ex>ea</ex>ti</expan>
+<expan>Tho<ex>m</ex>e</expan>
+<expan>ap<ex>osto</ex>li</expan> anno ix<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

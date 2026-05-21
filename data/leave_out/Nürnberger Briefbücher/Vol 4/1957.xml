@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1957" xml:id="l1969" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1957 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>109v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1957.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Gundelfingen, Schweicker d. J. v.</persName></ab><ab type="mention"><placeName type="mention">Fürth</placeName><persName type="mention">Kreutzer, Albrecht</persName></ab><date from="10-09-1415" to="10-09-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_219">
+<surface lrx="2621" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0113_left.png" width="2621px"/>
+<zone lrx="2057" lry="291" rendition="TextRegion" ulx="906" uly="1069" xml:id="facs_219_r1">
+<zone lrx="2225" lry="291" rendition="Line" ulx="906" uly="218" xml:id="facs_219_r1l1"/>
+<zone lrx="2526" lry="415" rendition="Line" ulx="676" uly="315" xml:id="facs_219_r1l2"/>
+<zone lrx="2550" lry="502" rendition="Line" ulx="712" uly="405" xml:id="facs_219_r1l3"/>
+<zone lrx="2556" lry="598" rendition="Line" ulx="715" uly="495" xml:id="facs_219_r1l4"/>
+<zone lrx="2585" lry="685" rendition="Line" ulx="715" uly="589" xml:id="facs_219_r1l5"/>
+<zone lrx="2570" lry="773" rendition="Line" ulx="706" uly="680" xml:id="facs_219_r1l6"/>
+<zone lrx="2571" lry="867" rendition="Line" ulx="705" uly="770" xml:id="facs_219_r1l7"/>
+<zone lrx="2562" lry="961" rendition="Line" ulx="708" uly="851" xml:id="facs_219_r1l8"/>
+<zone lrx="2501" lry="1048" rendition="Line" ulx="712" uly="954" xml:id="facs_219_r1l9"/>
+<zone lrx="2057" lry="1143" rendition="Line" ulx="740" uly="1069" xml:id="facs_219_r1l10"/> </zone> </surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Schweicker d. J. von Gundelfingen</head><p>Der Rat teilt mit, dass Albrecht Kreutzer, Bürger zu Nürnberg, keine vom Adressaten zu Lehen rührenden Güter, sondern nur ein rechtmäßig erworbenes Gut zu Fürth innehat, und bittet, Zugriffe zu unterlassen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_219" id="109v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_219_r1l1"><expan>H<ex>er</ex>n</expan> <expan>Sweık<ex>er</ex>n</expan> von <expan>Gundelfıng<ex>en</ex></expan> dem <expan>Jüng<ex>er</ex>n</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_219_r1l2">Edler lıeber <expan>h<ex>er</ex>re</expan> . als vns eẅr edel <expan>verſchr<ex>iben</ex></expan> hat von <expan>vnſ<ex>er</ex>s</expan> <expan>b<ex>urgers</ex></expan> </ab>
+<ab facs="#facs_219_r1l3"><expan>weg<ex>en</ex></expan> <expan>Albr<ex>echt</ex></expan> <expan>Creẅcʒ<ex>er</ex>s</expan> etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> . Vnd <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_219_r1l4"><expan>denſ<ex>elben</ex></expan> <expan>vnſ<ex>er</ex>n</expan> <expan>b<ex>urger</ex></expan> für vns beſant vnd <expan>daru<ex>m</ex>b</expan> ʒu red geſacʒt . der hat </ab>
+<ab facs="#facs_219_r1l5">vns <expan>geantw<ex>ur</ex>t</expan> daʒ er niht wıſſe . daʒ er kein gut Jnnenhab . daʒ lehen </ab>
+<ab facs="#facs_219_r1l6">von <expan>eẅr<ex>er</ex></expan> edell ſey / er hab ein gut ʒu fürt . für eygen erkawft </ab>
+<ab facs="#facs_219_r1l7">vnd auch für eygen erklagt vnd Jnnengehabt . <expan>Daru<ex>m</ex>b</expan> bıtten vnd </ab>
+<ab facs="#facs_219_r1l8">getrawen wır <expan>eẅr<ex>er</ex></expan> edell wol . daʒ Jr ʒu <expan>demſ<ex>elben</ex></expan> gut on recht niht </ab>
+<ab facs="#facs_219_r1l9"><expan>greıff<ex>en</ex></expan> wellet . Denn wo wır <expan>eẅr<ex>er</ex></expan> edell . lıeb <expan>od<ex>er</ex></expan> dıenſt etc </ab>
+<ab facs="#facs_219_r1l10"><expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ııȷ<hi rend="sup">a</hi> <expan>p<ex>oſt</ex></expan> <expan>Natı<ex>vi</ex>tat<ex>is</ex></expan> <expan>ma<ex>r</ex>ıe</expan> <expan>vırg<ex>in</ex>ıs</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_219" id="109v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Sweik<ex>er</ex>n</expan> von <expan>Gundelfing<ex>en</ex></expan>
+                        dem <expan>jüng<ex>er</ex>n</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Edler, lieber <expan>h<ex>er</ex>re</expan>, als uns ewr edel
+                                <expan>verschr<ex>iben</ex></expan> hat von
+                            <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>
+<expan>weg<ex>en</ex></expan>
+<expan>Albr<ex>echt</ex></expan>
+<expan>Crewcz<ex>er</ex>s</expan> etc., das <expan>hab<ex>e</ex>n</expan>
+                        wir wol <expan>vernom<ex>en</ex></expan> und <expan>hab<ex>e</ex>n</expan>
+<expan>dens<ex>elben</ex></expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>b<ex>urger</ex></expan> für uns besant und
+                            <expan>daru<ex>m</ex>b</expan> zu red gesaczt. Der hat uns
+                                <expan>geantw<ex>ur</ex>t,</expan> daz er niht wisse, daz er kein
+                        gut innenhab, daz lehen von <expan>ewr<ex>er</ex></expan> edell sey, er hab
+                        ein gut zu Fürt für eygen erkawft und auch für eygen erklagt und
+                        innengehabt. <expan>Daru<ex>m</ex>b</expan> bitten und getrawen wir
+                                <expan>ewr<ex>er</ex></expan> edell wol, daz ir zu
+                                <expan>dems<ex>elben</ex></expan> gut on recht niht
+                                <expan>greiff<ex>en</ex></expan> wellet. Denn wo wir
+                                <expan>ewr<ex>er</ex></expan> edell lieb
+                            <expan>od<ex>er</ex></expan> dienst etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii<hi rend="sup">a</hi>
+<expan>p<ex>ost</ex></expan>
+<expan>nati<ex>vi</ex>tat<ex>is</ex></expan>
+<expan>Ma<ex>r</ex>ie</expan>
+<expan>virg<ex>in</ex>is.</expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="642" xml:id="l651" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 642 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>044v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 642.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Johann II., Gf. v. Wertheim</persName></ab><ab type="mention">-</ab><date from="10-03-1410" to="10-03-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_90">
+<surface lrx="2757" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0047_left.png" width="2757px"/>
+<zone lrx="1574" lry="1282" rendition="TextRegion" ulx="1132" uly="2224" xml:id="facs_90_r3"> <zone lrx="1670" lry="1282" rendition="Line" ulx="1097" uly="1219" xml:id="facs_90_r3l11"/>
+<zone lrx="1574" lry="1358" rendition="Line" ulx="1132" uly="1296" xml:id="facs_90_r3l12"/>
+<zone lrx="2605" lry="1559" rendition="Line" ulx="451" uly="1431" xml:id="facs_90_r3l13"/>
+<zone lrx="2644" lry="1638" rendition="Line" ulx="474" uly="1505" xml:id="facs_90_r3l14"/>
+<zone lrx="2622" lry="1711" rendition="Line" ulx="468" uly="1584" xml:id="facs_90_r3l15"/>
+<zone lrx="2597" lry="1786" rendition="Line" ulx="466" uly="1656" xml:id="facs_90_r3l16"/>
+<zone lrx="2620" lry="1866" rendition="Line" ulx="460" uly="1738" xml:id="facs_90_r3l17"/>
+<zone lrx="2578" lry="1935" rendition="Line" ulx="458" uly="1812" xml:id="facs_90_r3l18"/>
+<zone lrx="2619" lry="2013" rendition="Line" ulx="453" uly="1902" xml:id="facs_90_r3l19"/>
+<zone lrx="2635" lry="2094" rendition="Line" ulx="447" uly="1985" xml:id="facs_90_r3l20"/>
+<zone lrx="2666" lry="2159" rendition="Line" ulx="450" uly="2069" xml:id="facs_90_r3l21"/>
+<zone lrx="2659" lry="2258" rendition="Line" ulx="453" uly="2143" xml:id="facs_90_r3l22"/>
+<zone lrx="1786" lry="2292" rendition="Line" ulx="471" uly="2224" xml:id="facs_90_r3l23"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II., Graf von Wertheim</head><p>Der Rat bittet erneut um Freilassung der in Graf Johanns Geleit gefangenen Nürnberger Kaufleute und um Herausgabe ihrer Ware.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_90" id="44v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_90_r3l11"><expan>H<ex>er</ex>n</expan> Johann Grafen </ab>
+<ab facs="#facs_90_r3l12">cʒu vvertheim / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_90_r3l13"><expan>Gnedig<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / Als wir <expan>ew<ex>r</ex>n</expan> gnaden vormals <expan>v<ex>er</ex>ſchriben</expan> <expan>habe<ex>n</ex></expan> / von der <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_90_r3l14">wegen / die gevangen ſein / vnd Jn das Jr genomen iſt vvorden / vnd das in <expan>ew<ex>r</ex>m</expan> </ab>
+<ab facs="#facs_90_r3l15">geleitte geſchehen iſt / darauff Jr vns 
+<del rend="strikethrough">g </del> vvıder <expan>geſchribe<ex>n</ex></expan> habt / vvie die vnſern </ab>
+<ab facs="#facs_90_r3l16"><expan>ew<ex>r</ex></expan> gnade bitten <expan>lieſʒe<ex>n</ex></expan> / v̈mb cʒwen knehte / mit Jn cʒereiten / die Jr Jn lihet / </ab>
+<ab facs="#facs_90_r3l17">vnd das Jr ſie nicht geleittet habt / Nuͦ <expan>v<ex>er</ex>ſteen</expan> wir anders nicht / dann daʒ </ab>
+<ab facs="#facs_90_r3l18">die <expan>vnſ<ex>er</ex>n</expan> ewr gnade / v̈mb die <expan>ew<ex>r</ex>n</expan> / von geleites <expan>wege<ex>n</ex></expan> gepeten haben / vnd </ab>
+<ab facs="#facs_90_r3l19">daʒ ſie auch in geleittes vveiſe / von <expan>ewr<ex>er</ex></expan> <expan>gnade<ex>n</ex></expan> wegen / mit Jn gereiten ſein / </ab>
+<ab facs="#facs_90_r3l20">vvan <expan>ew<ex>r</ex></expan> gnade ſelber nicht allweg beÿ <expan>ſoliche<ex>n</ex></expan> dingen geſein mag / <expan>dar<ex>umb</ex></expan> <expan>bitte<ex>n</ex></expan> </ab>
+<ab facs="#facs_90_r3l21">wir vnd <expan>getrawe<ex>n</ex></expan> <expan>ew<ex>r</ex>n</expan> gnaden wol / daʒ Jr <expan>ew<ex>r</ex>n</expan> fleiſʒe / vnd ernſt / dartʒu tuͦn </ab>
+<ab facs="#facs_90_r3l22">wöllet / daʒ die <expan>vnſ<ex>er</ex>n</expan> ledig / vnd Jn das Jr vvider vverde / das <expan>wölle<ex>n</ex></expan> etc <expan>dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_90_r3l23">feria <expan>S<ex>e</ex>c<ex>un</ex>da</expan> poſt Judica / Anno etc decimo $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_90" id="44v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Johann, grafen czu Wertheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als wir <expan>ew<ex>r</ex>n</expan> gnaden
+                        vormals <expan>v<ex>er</ex>schriben</expan>
+<expan>habe<ex>n</ex></expan> von der <expan>uns<ex>er</ex>n</expan> wegen,
+                        die gevangen sein und in das ir genomen ist worden und das in
+                                <expan>ew<ex>r</ex>m</expan> geleitte geschehen ist; darauff ir uns
+                        wider <expan>geschribe<ex>n</ex></expan> habt, wie die unsern
+                                <expan>ew<ex>r</ex></expan> gnade bitten
+                            <expan>liesze<ex>n</ex></expan> ümb czwen knehte mit in czereiten, die
+                        ir in lihet und das ir sie nicht geleittet habt. Nuͦ
+                            <expan>v<ex>er</ex>steen</expan> wir anders nicht, dann daz die
+                                <expan>uns<ex>er</ex>n</expan> ewr gnade ümb die
+                            <expan>ew<ex>r</ex>n</expan> von geleites <expan>wege<ex>n</ex></expan>
+                        gepeten haben und daz sie auch in geleittes weise von
+                            <expan>ewr<ex>er</ex></expan>
+<expan>gnade<ex>n</ex></expan> wegen mit in gereiten sein, wan
+                                <expan>ew<ex>r</ex></expan> gnade selber nicht allweg bey
+                                <expan>soliche<ex>n</ex></expan> dingen gesein mag.
+                                <expan>Dar<ex>umb</ex></expan>
+<expan>bitte<ex>n</ex></expan> wir und <expan>getrawe<ex>n</ex></expan>
+<expan>ew<ex>r</ex>n</expan> gnaden wol, daz ir <expan>ew<ex>r</ex>n</expan>
+                        fleisze und ernst darczu tuͦn wöllet, daz die <expan>uns<ex>er</ex>n</expan>
+                        ledig und in das ir wider werde. Das <expan>wölle<ex>n</ex></expan> etc.
+                                <expan>Dat<ex>um</ex></expan> feria
+                            <expan>s<ex>e</ex>c<ex>un</ex>da</expan> post judica anno etc.
+                        decimo.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

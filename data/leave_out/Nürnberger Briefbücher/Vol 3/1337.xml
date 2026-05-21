@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1337" xml:id="l1352" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1337 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>216v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1337.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Schwanberg, Bohuslav v.</persName></ab><ab type="mention"><persName type="mention">N., Johann, Schreiber</persName><persName type="mention">N., Markwart, Schreiber</persName><persName type="mention">Schwanberg, Jan v.</persName></ab><date from="21-03-1412" to="21-03-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_434">
+<surface lrx="2752" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0219_left.png" width="2752px"/>
+<zone lrx="1398" lry="427" rendition="TextRegion" ulx="1980" uly="2687" xml:id="facs_434_r1">
+<zone lrx="2370" lry="427" rendition="Line" ulx="881" uly="341" xml:id="facs_434_r1l1"/>
+<zone lrx="1398" lry="496" rendition="Line" ulx="876" uly="422" xml:id="facs_434_r1l2"/>
+<zone lrx="2462" lry="727" rendition="Line" ulx="674" uly="614" xml:id="facs_434_r1l3"/>
+<zone lrx="2567" lry="827" rendition="Line" ulx="672" uly="714" xml:id="facs_434_r1l4"/>
+<zone lrx="2493" lry="929" rendition="Line" ulx="682" uly="820" xml:id="facs_434_r1l5"/>
+<zone lrx="2564" lry="1021" rendition="Line" ulx="686" uly="933" xml:id="facs_434_r1l6"/>
+<zone lrx="2537" lry="1130" rendition="Line" ulx="681" uly="1032" xml:id="facs_434_r1l7"/>
+<zone lrx="2563" lry="1235" rendition="Line" ulx="667" uly="1136" xml:id="facs_434_r1l8"/>
+<zone lrx="2559" lry="1330" rendition="Line" ulx="652" uly="1243" xml:id="facs_434_r1l9"/>
+<zone lrx="2564" lry="1426" rendition="Line" ulx="643" uly="1336" xml:id="facs_434_r1l10"/>
+<zone lrx="2649" lry="1540" rendition="Line" subtype="paragraph" ulx="664" uly="1433" xml:id="facs_434_r1l12"/>
+<zone lrx="2557" lry="1633" rendition="Line" subtype="paragraph" ulx="643" uly="1528" xml:id="facs_434_r1l13"/>
+<zone lrx="2476" lry="1717" rendition="Line" ulx="647" uly="1628" xml:id="facs_434_r1l14"/>
+<zone lrx="2549" lry="1802" rendition="Line" ulx="643" uly="1732" xml:id="facs_434_r1l15"/>
+<zone lrx="2609" lry="1905" rendition="Line" ulx="649" uly="1823" xml:id="facs_434_r1l16"/>
+<zone lrx="2615" lry="2011" rendition="Line" subtype="paragraph" ulx="660" uly="1912" xml:id="facs_434_r1l17"/>
+<zone lrx="2586" lry="2102" rendition="Line" subtype="paragraph" ulx="674" uly="2007" xml:id="facs_434_r1l18"/>
+<zone lrx="2559" lry="2196" rendition="Line" ulx="637" uly="2102" xml:id="facs_434_r1l19"/>
+<zone lrx="2534" lry="2284" rendition="Line" ulx="625" uly="2204" xml:id="facs_434_r1l20"/>
+<zone lrx="2491" lry="2380" rendition="Line" ulx="638" uly="2292" xml:id="facs_434_r1l21"/>
+<zone lrx="2524" lry="2472" rendition="Line" ulx="616" uly="2385" xml:id="facs_434_r1l22"/>
+<zone lrx="2578" lry="2576" rendition="Line" subtype="paragraph" ulx="624" uly="2488" xml:id="facs_434_r1l23"/>
+<zone lrx="2240" lry="2586" rendition="Line" ulx="1980" uly="2536" xml:id="facs_434_line_1576423982927_4150"/>
+<zone lrx="2608" lry="2671" rendition="Line" ulx="620" uly="2589" xml:id="facs_434_r1l24"/>
+<zone lrx="2524" lry="2771" rendition="Line" ulx="621" uly="2687" xml:id="facs_434_r1l25"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Bohuslav von Schwanberg</head><p>Der Rat teilt mit, dass er irrtümlich seinen Diener Johann Hannowitz verdächtigt hat, den Markwart N. und Johann N., beide Schreiber von Bürgern zu Nürnberg, gefangen genommen zu haben, und bittet Bohuslav um Fürsprache bei seinem Vetter Jan von Schwanberg wegen Freilassung der beiden.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_434" id="216v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_434_r1l1">Dem Edeln <expan>h<ex>er</ex>ren</expan> / <expan>h<ex>er</ex>n</expan> Bohuſlaw <expan>h<ex>er</ex>ren</expan> cʒu 
+<del rend="strikethrough"> Swanne </del> </ab>
+<ab facs="#facs_434_r1l2">Schwannemberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_434_r1l3">Edler <expan>h<ex>er</ex>re</expan> / Als vvir
+                                <expan>ew<ex>r</ex>n</expan> gnaden voꝛmals verſchriben
+                                <expan>hab<ex>e</ex>n</expan>
+</ab>
+<ab facs="#facs_434_r1l4">von cʒweẏer <expan>vnſ<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> Schreẏber wegen /
+                            <expan>mitname<ex>n</ex></expan>
+<expan>Markhard<ex>en</ex></expan>
+</ab>
+<ab facs="#facs_434_r1l5">vnd <expan>Joh<ex>an</ex>es</expan> / Laſſen vvir
+                                <expan>ew<ex>r</ex></expan> edell wiſſen / daʒ vns
+                                <expan>fürgeb<ex>e</ex>n</expan> vnd </ab>
+<ab facs="#facs_434_r1l6">geſagt vvarde / vvie Jr einen dẏener het / der wer
+                        genant Johan </ab>
+<ab facs="#facs_434_r1l7"><expan>ha<ex>n</ex>novvıcʒ</expan> der ſie gefangen
+                        het / Vnd baten vns die <expan>vnſ<ex>er</ex>n</expan> v̈mb </ab>
+<ab facs="#facs_434_r1l8">betbrief / an <expan>ew<ex>r</ex></expan> ſelbs gnade
+                        vnd auch an <expan>denſelb<ex>e</ex>n</expan> ~ <expan>ew<ex>r</ex>n</expan>
+                        diener </ab>
+<ab facs="#facs_434_r1l9">Alſo vveſten wir dauon nicht
+                            <expan>and<ex>er</ex>s</expan> vnd <expan>gab<ex>e</ex>n</expan> Jn die
+                        betbrief </ab>
+<ab facs="#facs_434_r1l10">ın ſölcher maſʒe / Seint Jr vns aber ſchreibt / vvie
+                        ſie <expan>ew<ex>r</ex></expan> vetter </ab>
+<ab facs="#facs_434_r1l12">geuangen hab mitnamen der edell
+                            <expan>h<ex>er</ex>re</expan> her Jan von
+                                <expan>Schwanne<ex>m</ex>b<ex>er</ex>g</expan>
+</ab>
+<ab facs="#facs_434_r1l13">doch ſo wöllet Jr Jn v̈mb
+                            <expan>vnſ<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> mit bete hilfflich ſeın </ab>
+<ab facs="#facs_434_r1l14"><expan>deſſelb<ex>e</ex>n</expan> dancken vvir
+                                <expan>ew<ex>r</ex>n</expan> gnaden mit gancʒem fleiſʒ / Nu hat </ab>
+<ab facs="#facs_434_r1l15">vns <expan>ew<ex>r</ex></expan> vetter einen brief
+                        geſant / vnd <expan>hab<ex>e</ex>n</expan> vvir ſeinen
+                                <expan>gnade<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_434_r1l16"><expan>geantvv<ex>ur</ex>t</expan> vnd
+                                <expan>wıdergeſchrib<ex>e</ex>n</expan> / als vvir
+                                <expan>ew<ex>r</ex>n</expan> gnaden ſeins vnd
+                            <expan>vnſ<ex>er</ex>s</expan>
+</ab>
+<ab facs="#facs_434_r1l17">briefe beder abſchrifft ſchicken
+                            <expan>v<ex>er</ex>ſloſſen</expan> in dıſem briefe / vnd
+                                <expan>beſund<ex>er</ex></expan>
+</ab>
+<ab facs="#facs_434_r1l18">ſo vviſſen vvir nıchts / daʒ Er mit vns oder vvir mit
+                        ſeınen <expan>gnade<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_434_r1l19">cʒeſchıcken <expan>hab<ex>e</ex>n</expan> /
+                                <expan>dan<ex>n</ex></expan> lieb vnd gute / vnd bıten
+                                <expan>ew<ex>r</ex></expan> edell cʒemal </ab>
+<ab facs="#facs_434_r1l20"><expan>fleiſʒıklich<ex>e</ex>n</expan> / daʒ Jr von
+                                <expan>ew<ex>r</ex>n</expan> gnaden mit
+                            <expan>ewre<ex>m</ex></expan> vettern reden </ab>
+<ab facs="#facs_434_r1l21">vnd Jn von <expan>vnſ<ex>er</ex>n</expan> wegen bıten
+                        vvöllet / daʒ Er das nicht ın </ab>
+<ab facs="#facs_434_r1l22">v̈bell von vns aufneme <expan>vvan<ex>n</ex></expan>
+                        das vngeuerlich <expan>geſcheh<ex>e</ex>n</expan> iſt </ab>
+<ab facs="#facs_434_r1l23">vnd auch den <expan>vnſ<ex>er</ex>n</expan>
+<expan>ew<ex>r</ex></expan>
+<expan>fürdru<ex>n</ex>g</expan> vnd hilffe darynne gnediklıch </ab>
+<ab facs="#facs_434_r1l24">beweẏſen wöllet / vnd vvöllet ew die
+                                <expan>vnſ<ex>er</ex>n</expan>
+<add><ab facs="#facs_434_line_1576423982927_4150">gnedıklich </ab></add>
+<expan>beuolh<ex>e</ex>n</expan> ſein laſſen </ab>
+<ab facs="#facs_434_r1l25">Als etc das wöllen etc <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> ıj̃ <expan>p<ex>oſt</ex></expan>
+<expan>do<ex>min</ex>ıcam</expan> Judica </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_434" id="216v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Dem edeln <expan>h<ex>er</ex>ren</expan>, <expan>h<ex>er</ex>n</expan>
+                        Bohuslaw, <expan>h<ex>er</ex>ren</expan> czu Schwannemberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Edler <expan>h<ex>er</ex>re</expan>, als wir <expan>ew<ex>r</ex>n</expan>
+                        gnaden vormals verschriben <expan>hab<ex>e</ex>n</expan> von czweyer
+                                <expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> schreyber wegen
+                            <expan>mitname<ex>n</ex></expan>
+<expan>Markhard<ex>en</ex></expan> und <expan>Joh<ex>an</ex>es</expan>,
+                        lassen wir <expan>ew<ex>r</ex></expan> edell wissen, daz uns
+                                <expan>fürgeb<ex>e</ex>n</expan> und gesagt warde, wie ir einen
+                        dyener het, der wer genant Johan <expan>Ha<ex>n</ex>nowicz</expan>, der sie
+                        gefangen het, und baten uns die <expan>uns<ex>er</ex>n</expan> ümb betbrief
+                        an <expan>ew<ex>r</ex></expan> selbs gnade und auch an
+                                <expan>denselb<ex>e</ex>n</expan>
+<expan>ew<ex>r</ex>n</expan> diener, also westen wir davon nicht
+                                <expan>and<ex>er</ex>s</expan> und <expan>gab<ex>e</ex>n</expan> in
+                        die betbrief in sölcher masze; seint ir uns aber schreibt, wie sie
+                                <expan>ew<ex>r</ex></expan> vetter gevangen hab mitnamen der edell
+                                <expan>h<ex>er</ex>re</expan> her Jan von
+                                <expan>Schwanne<ex>m</ex>b<ex>er</ex>g</expan>, doch so wöllet ir in
+                        ümb <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> mit bete hilfflich sein,
+                                <expan>desselb<ex>e</ex>n</expan> dancken wir
+                            <expan>ew<ex>r</ex>n</expan> gnaden mit ganczem fleisz. Nu hat uns
+                                <expan>ew<ex>r</ex></expan> vetter einen brief gesant und
+                                <expan>hab<ex>e</ex>n</expan> wir seinen
+                            <expan>gnade<ex>n</ex></expan>
+<expan>geantw<ex>ur</ex>t</expan> und
+                            <expan>widergeschrib<ex>e</ex>n</expan> als wir
+                            <expan>ew<ex>r</ex>n</expan> gnaden seins und
+                            <expan>uns<ex>er</ex>s</expan> briefe beder abschrifft schicken
+                                <expan>v<ex>er</ex>slossen</expan> in disem briefe; und
+                                <expan>besund<ex>er</ex></expan> so wissen wir nichts, daz er mit
+                        uns oder wir mit seinen <expan>gnade<ex>n</ex></expan> cze schicken
+                                <expan>hab<ex>e</ex>n</expan>
+<expan>dan<ex>n</ex></expan> lieb und gute, und biten
+                            <expan>ew<ex>r</ex></expan> edell czemal
+                            <expan>fleisziklich<ex>e</ex>n</expan>, daz ir von
+                            <expan>ew<ex>r</ex>n</expan> gnaden mit <expan>ewre<ex>m</ex></expan>
+                        vettern reden und in von <expan>uns<ex>er</ex>n</expan> wegen biten wöllet,
+                        daz er das nicht in übell von uns aufneme, <expan>wan<ex>n</ex></expan> das
+                        ungeverlich <expan>gescheh<ex>e</ex>n</expan> ist und auch den
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>ew<ex>r</ex></expan>
+<expan>fürdru<ex>n</ex>g</expan> und hilffe darynne gnediklich beweysen
+                        wöllet; und wöllet ew die <expan>uns<ex>er</ex>n</expan>
+<add>gnediklich</add>
+<expan>bevolh<ex>e</ex>n</expan> sein lassen. Als etc. Das wöllen etc.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> ii <expan>p<ex>ost</ex></expan>
+<expan>do<ex>min</ex>icam</expan> judica.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

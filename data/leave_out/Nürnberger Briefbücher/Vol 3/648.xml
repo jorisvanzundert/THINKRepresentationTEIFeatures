@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="648" xml:id="l657" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 648 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>045v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_2"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 648.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Hase v. Hasenburg, Ulrich</persName></ab><ab type="mention"><persName type="mention">Waldstromer, Agnes</persName><persName type="mention">Waldstromer, Konrad</persName><persName type="mention">Waldstromer, Sigmund</persName></ab><date from="14-03-1410" to="14-03-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_92">
+<surface lrx="2763" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0048_left.png" width="2763px"/>
+<zone lrx="1418" lry="653" rendition="TextRegion" ulx="1202" uly="1360" xml:id="facs_92_r2"> <zone lrx="2090" lry="653" rendition="Line" ulx="1193" uly="592" xml:id="facs_92_r2l4"/>
+<zone lrx="2362" lry="735" rendition="Line" ulx="1202" uly="674" xml:id="facs_92_r2l5"/>
+<zone lrx="2560" lry="924" rendition="Line" ulx="672" uly="838" xml:id="facs_92_r2l6"/>
+<zone lrx="2487" lry="995" rendition="Line" ulx="753" uly="929" xml:id="facs_92_r2l7"/>
+<zone lrx="2505" lry="1067" rendition="Line" ulx="733" uly="999" xml:id="facs_92_r2l8"/>
+<zone lrx="2506" lry="1135" rendition="Line" ulx="744" uly="1071" xml:id="facs_92_r2l9"/>
+<zone lrx="2387" lry="1207" rendition="Line" ulx="739" uly="1136" xml:id="facs_92_r2l10"/>
+<zone lrx="2473" lry="1275" rendition="Line" ulx="737" uly="1212" xml:id="facs_92_r2l11"/>
+<zone lrx="2349" lry="1344" rendition="Line" ulx="735" uly="1281" xml:id="facs_92_r2l12"/>
+<zone lrx="1418" lry="1416" rendition="Line" ulx="737" uly="1360" xml:id="facs_92_r2l14"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Agnes Waldstromer an Ulrich Hase von Hasenburg</head><p>Agnes Waldstromer bittet um Stillstand wegen Bezahlung des Hauses auf der Veste.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_92" id="45v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_92_r2l4"><expan>h<ex>er</ex>n</expan> vlrich Haſen cʒu Haſenpurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_92_r2l5">von frawn Agneſen <expan>d<ex>er</ex></expan> <expan>Cunr<ex>ad</ex></expan> waltſtromeirin </ab>
+<ab facs="#facs_92_r2l6">Lieber öheim / Als Jch ew vorcʒeiten <expan>geſchrıb<ex>e</ex>n</expan> han / vnd Jr dem Rat </ab>
+<ab facs="#facs_92_r2l7">von des gelts wegen von meinen wegen herauſʒ <expan>geſchrib<ex>e</ex>n</expan> habt </ab>
+<ab facs="#facs_92_r2l8">von des hawſes wegen auf <expan>d<ex>er</ex></expan> veſten . / Bit ich ew <expan>fleiſʒigklıch<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_92_r2l9">daʒ Jr fürbaʒ nichtʒ mer darumb ſchreıbt noch darcʒu tüt / als lang </ab>
+<ab facs="#facs_92_r2l10">biſʒ daʒ ich ew mer darumb ſchreibe / <expan>vvan<ex>n</ex></expan> vvürde fürbaʒ icht </ab>
+<ab facs="#facs_92_r2l11">geprechen daran / daʒ wolt Jch ew aber wol wiſʒen laſſen . / <expan>v<ex>er</ex>ſigelt</expan> </ab>
+<ab facs="#facs_92_r2l12">vnter meins Suns <expan>Sigmund<ex>en</ex></expan> vvaltſtromeirs Jnſigell . / <expan>Dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_92_r2l14"><expan>f<ex>er</ex>ıa</expan> vj̃ . <expan>p<ex>oſt</ex></expan> Gregorij . x<hi rend="sup">o</hi> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_92" id="45v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Ulrich Hasen czu Hasenpurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Von frawn Agnesen, <expan>d<ex>er</ex></expan>
+<expan>Cunr<ex>ad</ex></expan> Waltstromeirin <lb/>Lieber Öheim, als ich ew
+                        vorczeiten <expan>geschrib<ex>e</ex>n</expan> han und ir dem rat von des
+                        gelts wegen von meinen wegen herausz <expan>geschrib<ex>e</ex>n</expan> habt
+                        von des hawses wegen auf <expan>d<ex>er</ex></expan> vesten. Bit ich ew
+                                <expan>fleiszigklich<ex>e</ex>n</expan>, daz ir fürbaz nichcz mer
+                        darumb schreibt noch darczu tüt als lang, bisz daz ich ew mer darumb
+                        schreibe; <expan>wan<ex>n</ex></expan> würde fürbaz icht geprechen daran,
+                        daz wolt ich ew aber wol wiszen lassen. <expan>V<ex>er</ex>sigelt</expan>
+                        unter meins suns, <expan>Sigmund<ex>en</ex></expan> Waltstromeirs, insigell.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi <expan>p<ex>ost</ex></expan> Gregorii x<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,126 @@
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:functx="http://www.functx.com">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title xml:lang="en">Buck liver, served cold</title>
+        <title xml:lang="de-x-enh">Ain Richt von pockleber etc.</title>
+      </titleStmt>
+      <editionStmt>
+        <edition>Semantic annotation of the recipe &quot;Buck liver, served cold&quot; (wo1a.61)</edition>
+        <respStmt>
+          <resp>edition</resp>
+          <persName>Barbara Denicolò</persName>
+        </respStmt>
+        <respStmt>
+          <resp>transcription</resp>
+          <persName>Astrid Böhm</persName>
+        </respStmt>
+        <respStmt>
+          <resp>digital processing</resp>
+          <persName>Christian Steiner</persName>
+        </respStmt>
+        <principal>
+          <persName>Helmut W. Klug</persName>
+        </principal>
+        <funder ref="https://www.fwf.ac.at/">FWF I 3614</funder>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </publisher>
+        <authority>
+          <ref target="https://informationsmodellierung.uni-graz.at"></ref>
+          <orgName ref="http://d-nb.info/gnd/1137284463">ZIM-ACDH, University of Graz</orgName>
+        </authority>
+        <distributor>
+          <ref target="https://gams.uni-graz.at"></ref>
+          <orgName>GAMS - Geisteswissenschaftliches Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence n="text" target="https://creativecommons.org/licenses/by/4.0">Creative
+                  Commons BY 4.0</licence>
+          <licence n="facsimile" target="https://creativecommons.org/licenses/by-nc-sa/4.0/at/">Creative Commons BY-NC-SA 4.0 </licence>
+        </availability>
+        <date when="2022-03-25"></date>
+        <pubPlace>Graz</pubPlace>
+        <idno type="PID">o:corema.wo1a.61</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <ab>
+          <title ref="http://gams.uni-graz.at/corema">CoReMA - Cooking Recipes of the Middle Ages: Corpus, Analysis, Visualisation</title>
+          <ref target="http://gams.uni-graz.at/o:corema.about/TEI_SOURCE">About the project &quot;CoReMA&quot;</ref>
+          <ref target="http://gams.uni-graz.at/o:corema.imprint/TEI_SOURCE">Imprint of the project &quot;CoReMA&quot;</ref>
+        </ab>
+      </seriesStmt>
+      <sourceDesc>
+        <bibl type="corresponding_manuscript">
+          <msIdentifier>
+            <country>Germany</country>
+            <settlement>Wolfenbüttel</settlement>
+            <institution>Herzog August Bibliothek</institution>
+            <repository>Handschriftenabteilung</repository>
+            <idno>Cod. Guelf. 16.3 Aug. 4°</idno>
+            <msName>Varia secreta medica</msName>
+            <altIdentifier type="abbr">
+              <idno>Wo1</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="corresponding_collection">
+          <msIdentifier>
+            <altIdentifier type="collection">
+              <idno>Wo1a</idno>
+            </altIdentifier>
+          </msIdentifier>
+        </bibl>
+        <bibl type="manuscript_page">
+          <title>page in corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.wo1#Wo1_197v" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_tei_source">
+          <title>TEI source of corresponding manuscript</title>
+          <ref target="https://gams.uni-graz.at/o:corema.wo1/TEI_SOURCE" type="uri"></ref>
+        </bibl>
+        <bibl type="manuscript_context">
+          <title>context of corresponding manuscript/collection</title>
+          <ref target="info:fedora/context:corema.wo1a" type="context">Context for all recipes in manuscript &quot;Wo1&quot;</ref>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <ab>
+        <desc>References to the editorial principles and practices for this TEI file and the project CoReMA</desc>
+        <ref target="https://gams.uni-graz.at/o:corema.semanticdec/TEI_SOURCE">details of editorial principles and practices for the semantic annotation</ref>
+      </ab>
+    </encodingDesc>
+    <profileDesc>
+      <textClass ana="#wo1a.61">
+        <keywords>
+          <term>kitchenTip</term>
+        </keywords>
+      </textClass>
+      <creation>
+        <origDate>
+          <date notAfter="1650" notBefore="1500" xml:lang="de">16./17. Jh.</date>
+          <date notAfter="1650" notBefore="1500" xml:lang="en">16th to 17th c.</date>
+        </origDate>
+        <origDate corresp="#182r">1539</origDate>
+        <origDate corresp="#187r">1636</origDate>
+        <origDate corresp="#281r">1546</origDate>
+        <origDate corresp="#281v">1546</origDate>
+        <origPlace>
+          <placeName xml:lang="de">Entstehungsort unbekannt.</placeName>
+          <placeName xml:lang="en">place of origin unknown.</placeName>
+        </origPlace>
+      </creation>
+      <langUsage>
+        <language ident="de-x-enh" source="http://medieval-plants.org/mps-daten/inhalt/">High German languages, High German languages, High German languages</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <body xml:space="preserve"><div n="61" type="kitchenTip" xml:id="wo1a.61" xml:lang="de-x-enh"> <title key="Buck liver, served cold">Ain Richt von pockleber etc.</title> <instruction><ingredient commodity="Q1470283" en="liver">Pocks leber</ingredient> kalt mit den <ingredient commodity="Q9377" en="kidney">nieren</ingredient> gesnitten zuo scheiben</instruction> vnd <alternative reason="serving"> gemacht oder jn ainem <ingredient commodity="Q15645384" en="wheat">weissen</ingredient> <ingredient commodity="Q21546392" en="garlic">knoblauch</ingredient></alternative> <ab n="1" subtype="subrecipe" type="kitchenTip" xml:id="wo1a.61.sub.1" xml:lang="de-x-enh"><servingTip><opener>Item</opener> <title key=""><ingredient commodity="Q14566073" en="mutton">schaeffens flaesch</ingredient> mit <ingredient commodity="Q25284" en="parsley">petersil</ingredient></title> vnd mit der <ingredient commodity="Q42527" en="spice">wurcz</ingredient></servingTip></ab> <ab n="2" subtype="subrecipe" type="kitchenTip" xml:id="wo1a.61.sub.2" xml:lang="de-x-enh">	<servingTip><opener>Item</opener> <title key=""><ingredient commodity="Q7230136" en="pork loin">sweinen ruck</ingredient> mit jungem <ingredient commodity="Q3406628" en="onion">zwifel</ingredient></title></servingTip> <closer>etc.</closer></ab></div></body>
+  </text>
+</TEI>

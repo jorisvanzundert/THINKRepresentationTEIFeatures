@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2743" xml:id="l2755" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2743 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>173v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2743.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q3936" type="recipient">Bamberg</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q504334" type="mention">Lauf a. d. Pegnitz (Stadt, Lk. Nürnberger Land)</placeName><persName type="mention">Püttel, Peter</persName></ab><date from="10-11-1421" to="10-11-1421" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_349">
+<surface lrx="2765" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0178_left.png" width="2765px"/>
+<zone lrx="1447" lry="323" rendition="TextRegion" ulx="814" uly="1026" xml:id="facs_349_r1">
+<zone lrx="1447" lry="323" rendition="Line" ulx="814" uly="236" xml:id="facs_349_r1l1"/>
+<zone lrx="2493" lry="418" rendition="Line" ulx="632" uly="317" xml:id="facs_349_r1l2"/>
+<zone lrx="2463" lry="503" rendition="Line" ulx="668" uly="401" xml:id="facs_349_r1l3"/>
+<zone lrx="2473" lry="591" rendition="Line" ulx="667" uly="481" xml:id="facs_349_r1l4"/>
+<zone lrx="2429" lry="682" rendition="Line" ulx="655" uly="572" xml:id="facs_349_r1l5"/>
+<zone lrx="2465" lry="775" rendition="Line" ulx="661" uly="677" xml:id="facs_349_r1l6"/>
+<zone lrx="2471" lry="867" rendition="Line" ulx="673" uly="764" xml:id="facs_349_r1l7"/> <zone lrx="2538" lry="1126" rendition="Line" ulx="691" uly="1026" xml:id="facs_349_r1l10"/> <zone lrx="1592" lry="936" rendition="Line" ulx="685" uly="883" xml:id="facs_349_line_1577279086923_2414"/></zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Bamberg</head><p>Der Rat teilt mit, dass er dem geschädigten Bamberger gegen Peter Püttel zum Recht verholfen hat, und übersendet einen Zettel mit der Aussage Püttels.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_349" id="173v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_349_r1l1">Den von Bamberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_349_r1l2"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>ewnde</ex></expan> als Jr vns nehſt <expan>verſchr<ex>iben</ex></expan>
+<del rend="strikethrough"> habt </del> Vnd <expan>gebette<ex>n</ex></expan> habt von des </ab>
+<ab facs="#facs_349_r1l3"><expan>gefang<ex>en</ex></expan> <expan>weg<ex>en</ex></expan> bey vns der dıe <expan>eẅ<ex>r</ex>n</expan> beſchedıgt hat rechts ʒu </ab>
+<ab facs="#facs_349_r1l4"><expan>helff<ex>en</ex></expan> vnd <expan>eẅr<ex>er</ex></expan> <expan>freẅntſch<ex>aft</ex></expan> ſeinr ſag ein ʒettel <expan>ʒuſchık<ex>en</ex></expan> etc das </ab>
+<ab facs="#facs_349_r1l5">haben wır wol <expan>vernom<ex>en</ex></expan> / Vnd haben den <expan>eẅ<ex>r</ex>n</expan>
+<add><ab facs="#facs_349_r1l10">ʒu demſelben <expan>gefang<ex>en</ex></expan> der geheıſſen hat <expan>pet<ex>er</ex></expan> püttel von Lawff </ab></add> auf heẅt alſo </ab>
+<ab facs="#facs_349_r1l6">rechts <expan>geholff<ex>en</ex></expan> / ſo <expan>ſchık<ex>en</ex></expan> wır auch <expan>eẅr<ex>er</ex></expan> <expan>weıſh<ex>eit</ex></expan> . ſeinr ſag ein </ab>
+<ab facs="#facs_349_r1l7">ʒettel <expan>hıerynn<ex>en</ex></expan> <expan>verſloſſ<ex>en</ex></expan> / Denn wo wır <expan>eẅr<ex>er</ex></expan> <expan>erſamk<ex>eit</ex></expan> lıeb <expan>od<ex>er</ex></expan> </ab>
+<ab facs="#facs_349_line_1577279086923_2414">dıenſt etc <expan>Dat<ex>um</ex></expan> ut <expan>ſ<ex>upra</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_349" id="173v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Den von Bamberg</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als ir uns nehst
+                                <expan>verschr<ex>iben</ex></expan> und
+                            <expan>gebette<ex>n</ex></expan> habt von des
+                            <expan>gefang<ex>en</ex></expan>
+<expan>weg<ex>en</ex></expan> bey uns, der die <expan>ew<ex>r</ex>n</expan>
+                        beschedigt hat, rechts zu <expan>helff<ex>en</ex></expan> und
+                                <expan>ewr<ex>er</ex></expan>
+<expan>frewntsch<ex>aft</ex></expan> seinr sag ein zettel <expan>zu
+                                schik<ex>en</ex></expan> etc., das haben wir wol
+                                <expan>vernom<ex>en</ex></expan> und haben den
+                            <expan>ew<ex>r</ex>n</expan>
+<add>zu demselben <expan>gefang<ex>en</ex></expan>, der geheissen hat
+                                    <expan>Pet<ex>er</ex></expan> Püttel von Lawff</add>, auf hewt
+                        also rechts <expan>geholff<ex>en</ex></expan>, so
+                            <expan>schik<ex>en</ex></expan> wir auch <expan>ewr<ex>er</ex></expan>
+<expan>weish<ex>eit</ex></expan> seinr sag ein zettel
+                                <expan>hierynn<ex>en</ex></expan>
+<expan>versloss<ex>en</ex></expan>. Denn wo wir
+                            <expan>ewr<ex>er</ex></expan>
+<expan>ersamk<ex>eit</ex></expan> lieb <expan>od<ex>er</ex></expan> dienst
+                        etc. <expan>Dat<ex>um</ex></expan> ut <expan>s<ex>upra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

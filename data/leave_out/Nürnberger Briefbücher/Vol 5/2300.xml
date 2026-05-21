@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2300" xml:id="l2312" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2300 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>057r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2300.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1694729" type="recipient">Johann II. v. Heideck, Bf. v. Eichstätt</persName></ab><ab type="mention"><persName type="mention">Vischer, Götz</persName></ab><date from="30-04-1420" to="30-04-1420" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_116">
+<surface lrx="2671" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0060_right.png" width="2671px"/>
+<zone lrx="1546" lry="304" rendition="TextRegion" ulx="558" uly="1120" xml:id="facs_116_r1">
+<zone lrx="1642" lry="304" rendition="Line" ulx="558" uly="221" xml:id="facs_116_r1l1"/>
+<zone lrx="2453" lry="476" rendition="Line" ulx="412" uly="398" xml:id="facs_116_r1l2"/>
+<zone lrx="2464" lry="557" rendition="Line" ulx="408" uly="490" xml:id="facs_116_r1l3"/>
+<zone lrx="2456" lry="644" rendition="Line" ulx="414" uly="573" xml:id="facs_116_r1l4"/>
+<zone lrx="2466" lry="734" rendition="Line" ulx="411" uly="658" xml:id="facs_116_r1l5"/>
+<zone lrx="2461" lry="833" rendition="Line" ulx="435" uly="744" xml:id="facs_116_r1l6"/>
+<zone lrx="2486" lry="924" rendition="Line" ulx="413" uly="834" xml:id="facs_116_r1l7"/>
+<zone lrx="2439" lry="1010" rendition="Line" ulx="421" uly="927" xml:id="facs_116_r1l8"/>
+<zone lrx="2465" lry="1101" rendition="Line" ulx="429" uly="1020" xml:id="facs_116_r1l9"/>
+<zone lrx="1546" lry="1194" rendition="Line" ulx="440" uly="1120" xml:id="facs_116_r1l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Johann II. von Heideck, Bischof von Eichstätt</head><p>Der Rat teilt die Abwesenheit des Götz Vischer, Bürger zu Nürnberg, und dessen Benachrichtigung durch seine Ehefrau mit, unverzüglich nach Nürnberg zu kommen; nach seiner Rückkehr will der Rat Vischer befragen und nach Forderung antworten.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_116" id="57r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_116_r1l1"><expan>H<ex>er</ex>n</expan> <expan>Johannſ<ex>en</ex></expan> <expan>bıſch<ex>of</ex></expan> ʒu Eyſtett </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_116_r1l2"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> als vns eẅr <expan>Hoch<ex>wirdikeit</ex></expan> <expan>verſchr<ex>iben</ex></expan> hat von <expan>vnſ<ex>er</ex>s</expan> <expan>b<ex>urgers</ex></expan> <expan>göcʒe<ex>n</ex></expan> <expan>vıſch<ex>er</ex>s</expan> </ab>
+<ab facs="#facs_116_r1l3"><expan>weg<ex>en</ex></expan> etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> / Nu <expan>hett<ex>en</ex></expan> wır alſbald nach <expan>demſ<ex>elben</ex></expan> </ab>
+<ab facs="#facs_116_r1l4"><expan>göcʒe<ex>n</ex></expan> <expan>vıſch<ex>er</ex></expan> geſant vnd <expan>wolte<ex>n</ex></expan> Jn <expan>daru<ex>m</ex>b</expan> ʒured geſacʒt <expan>hab<ex>e</ex>n</expan> . ſo ıſt er </ab>
+<ab facs="#facs_116_r1l5">auf dıſʒ ʒeıt nıht anheim bey vns <expan>geweſ<ex>en</ex></expan> / Doch vmb <expan>eẅr<ex>er</ex></expan> <expan>gnad<ex>en</ex></expan> <expan>wıll<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_116_r1l6">ſo <expan>hab<ex>e</ex>n</expan> wır ſeinr <expan>wırtin<ex>n</ex></expan> <expan>befolhe<ex>n</ex></expan> . Jm <expan>botſch<ex>aft</ex></expan> ʒutun . <expan>onu<ex>er</ex>cʒıehen</expan> ʒu vns </ab>
+<ab facs="#facs_116_r1l7">ʒu <expan>kome<ex>n</ex></expan> / vnd wenn er ʒu vns kombt ſo <expan>well<ex>e</ex>n</expan> wır Jn <expan>daru<ex>m</ex>b</expan> <expan>ernſtl<ex>ich</ex></expan> ʒu </ab>
+<ab facs="#facs_116_r1l8">red <expan>ſecʒe<ex>n</ex></expan> . vnd <expan>eẅ<ex>r</ex>n</expan> <expan>fürſtenl<ex>ichen</ex></expan> <expan>gnad<ex>en</ex></expan> / eın <expan>antw<ex>ur</ex>t</expan> <expan>daru<ex>m</ex>b</expan> tun ob dıe an </ab>
+<ab facs="#facs_116_r1l9">vns <expan>erford<ex>er</ex>t</expan> wırdt . Denn wo wır <expan>eẅr<ex>er</ex></expan> <expan>hoch<ex>wirdikeit</ex></expan> dıenſt vnd <expan>wolgefall<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_116_r1l10">etc <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> iij<hi rend="sup">a</hi> <expan>an<ex>te</ex></expan> <expan>walp<ex>ur</ex>gıs</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_116" id="57r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Johanns<ex>en</ex></expan>, <expan>bisch<ex>of</ex></expan> zu
+                        Eystett </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, als uns ewr
+                            <expan>hoch<ex>wirdikeit</ex></expan>
+<expan>verschr<ex>iben</ex></expan> hat von <expan>uns<ex>er</ex>s</expan>
+<expan>b<ex>urgers</ex></expan>
+<expan>Göcze<ex>n</ex></expan>
+<expan>Visch<ex>er</ex>s</expan>
+<expan>weg<ex>en</ex></expan> etc., das <expan>hab<ex>e</ex>n</expan> wir
+                        wol <expan>vernom<ex>en</ex></expan>. Nu <expan>hett<ex>en</ex></expan> wir
+                        alsbald nach <expan>dems<ex>elben</ex></expan>
+<expan>Göcze<ex>n</ex></expan>
+<expan>Visch<ex>er</ex></expan> gesant und <expan>wolte<ex>n</ex></expan> in
+                                <expan>daru<ex>m</ex>b</expan> zured gesaczt
+                            <expan>hab<ex>e</ex>n</expan>, so ist er auf disz zeit niht anheim bey
+                        uns <expan>gewes<ex>en</ex></expan>. Doch umb <expan>ewr<ex>er</ex></expan>
+<expan>gnad<ex>en</ex></expan>
+<expan>will<ex>e</ex>n</expan> so <expan>hab<ex>e</ex>n</expan> wir seinr
+                                <expan>wirtin<ex>n</ex></expan>
+<expan>befolhe<ex>n</ex></expan>, im <expan>botsch<ex>aft</ex></expan> zu
+                        tun, <expan>on v<ex>er</ex>cziehen</expan> zu uns zu
+                            <expan>kome<ex>n</ex></expan>. Und wenn er zu uns kombt, so
+                                <expan>well<ex>e</ex>n</expan> wir in <expan>daru<ex>m</ex>b</expan>
+<expan>ernstl<ex>ich</ex></expan> zu red <expan>secze<ex>n</ex></expan> und
+                                <expan>ew<ex>r</ex>n</expan>
+<expan>fürstenl<ex>ichen</ex></expan>
+<expan>gnad<ex>en</ex></expan> ein <expan>antw<ex>ur</ex>t</expan>
+<expan>daru<ex>m</ex>b</expan> tun, ob die an uns
+                            <expan>erford<ex>er</ex>t</expan> wirdt. Denn wo wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>hoch<ex>wirdikeit</ex></expan> dienst und
+                            <expan>wolgefall<ex>e</ex>n</expan> etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iii<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan>
+<expan>Walp<ex>ur</ex>gis</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

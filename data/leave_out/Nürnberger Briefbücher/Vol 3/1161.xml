@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1161" xml:id="l1177" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1161 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>168v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1161.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Imhoff, Paulus</persName></ab><ab type="mention">-</ab><date from="24-09-1411" to="24-09-1411" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_338">
+<surface lrx="2776" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0171_left.png" width="2776px"/>
+<zone lrx="2056" lry="360" rendition="TextRegion" ulx="2137" uly="1130" xml:id="facs_338_r1">
+<zone lrx="2056" lry="360" rendition="Line" ulx="1542" uly="278" xml:id="facs_338_r1l1"/>
+<zone lrx="2637" lry="678" rendition="Line" ulx="1236" uly="580" xml:id="facs_338_r1l2"/>
+<zone lrx="2670" lry="781" rendition="Line" ulx="1244" uly="677" xml:id="facs_338_r1l3"/>
+<zone lrx="2693" lry="874" rendition="Line" ulx="1236" uly="772" xml:id="facs_338_r1l5"/>
+<zone lrx="2633" lry="953" rendition="Line" ulx="1226" uly="862" xml:id="facs_338_r1l6"/>
+<zone lrx="2386" lry="955" rendition="Line" ulx="2137" uly="900" xml:id="facs_338_line_1576487220955_4703"/>
+<zone lrx="2662" lry="1026" rendition="Line" ulx="1225" uly="972" xml:id="facs_338_r1l8"/>
+<zone lrx="2653" lry="1134" rendition="Line" ulx="1194" uly="1043" xml:id="facs_338_r1l9"/>
+<zone lrx="2292" lry="1203" rendition="Line" ulx="1195" uly="1130" xml:id="facs_338_r1l10"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Paulus Imhoff</head><p>Der Rat lädt Imhoff binnen vier Wochen vor.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_338" id="168v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_338_r1l1">Paulus Jm Hof </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_338_r1l2"><expan>L<ex>ieber</ex></expan> Paulus VVir heiſʒen dich vnd gepieten </ab>
+<ab facs="#facs_338_r1l3">dir auch beẏ deinem eyde daʒ du nicht laſʒeſt </ab>
+<ab facs="#facs_338_r1l5">du kumſt in den nehſten vıer <expan>woch<ex>e</ex>n</expan> nach </ab>
+<ab facs="#facs_338_r1l6">ſant Michelstag ſchıerſt herheim cʒu vns </ab>
+<ab facs="#facs_338_r1l8"> <expan>vvan<ex>n</ex></expan> vvir etwaʒ 
+<del rend="strikethrough"> gar </del> nötlichs 
+<add><ab facs="#facs_338_line_1576487220955_4703">
+<del rend="strikethrough">ın geheim </del></ab></add> mit dır cʒu <expan>rede<ex>n</ex></expan> </ab>
+<ab facs="#facs_338_r1l9"><expan>hab<ex>e</ex>n</expan> / als du <expan>dan<ex>n</ex></expan> wol <expan>v<ex>er</ex>nemen</expan> vvirdeſt / <expan>dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_338_r1l10"><expan>fe<ex>ri</ex>a</expan> ṽ <expan>an<ex>te</ex></expan> Mıchaelis Anno <expan>vndecı<ex>m</ex>o</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_338" id="168v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Paulus im Hof </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Paulus, wir heiszen dich und gepieten dir
+                        auch bey deinem eyde, daz du nicht laszest, du kumst in den nehsten vier
+                            <expan>woch<ex>e</ex>n</expan> nach <app><note><q type="date">sant Michelstag schierst</q>29.09.1411</note></app> herheim
+                        czu uns, <expan>wan<ex>n</ex></expan> wir etwaz nötlichs mit dir czu
+                                <expan>rede<ex>n</ex></expan>
+<expan>hab<ex>e</ex>n</expan>, als du <expan>dan<ex>n</ex></expan> wol
+                                <expan>v<ex>er</ex>nemen</expan> wirdest.
+                            <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> v <expan>an<ex>te</ex></expan> Michaelis anno
+                                <expan>undeci<ex>m</ex>o</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

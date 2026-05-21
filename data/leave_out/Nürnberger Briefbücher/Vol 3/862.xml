@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="862" xml:id="l873" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 862 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>093v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 862.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Weißenburger, Konrad</persName></ab><ab type="mention">-</ab><date from="21-11-1410" to="21-11-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_188">
+<surface lrx="2759" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0096_left.png" width="2759px"/>
+<zone lrx="1165" lry="363" rendition="TextRegion" ulx="1087" uly="1294" xml:id="facs_188_r2">
+<zone lrx="1919" lry="363" rendition="Line" ulx="1087" uly="282" xml:id="facs_188_r2l1"/>
+<zone lrx="2613" lry="591" rendition="Line" ulx="682" uly="472" xml:id="facs_188_r2l2"/>
+<zone lrx="2571" lry="700" rendition="Line" subtype="paragraph" ulx="716" uly="575" xml:id="facs_188_r2l3"/>
+<zone lrx="2536" lry="794" rendition="Line" ulx="672" uly="687" xml:id="facs_188_r2l5"/>
+<zone lrx="2668" lry="898" rendition="Line" ulx="695" uly="762" xml:id="facs_188_r2l6"/>
+<zone lrx="2564" lry="993" rendition="Line" ulx="695" uly="884" xml:id="facs_188_r2l7"/>
+<zone lrx="2503" lry="1087" rendition="Line" ulx="684" uly="996" xml:id="facs_188_line_1576592583069_7413"/>
+<zone lrx="1165" lry="1121" rendition="Line" ulx="998" uly="1074" xml:id="facs_188_r2l10"/>
+<zone lrx="2453" lry="1188" rendition="Line" ulx="695" uly="1112" xml:id="facs_188_r2l11"/>
+<zone lrx="2393" lry="1299" rendition="Line" ulx="687" uly="1193" xml:id="facs_188_r2l12"/>
+<zone lrx="1933" lry="1387" rendition="Line" ulx="703" uly="1294" xml:id="facs_188_r2l13"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Konrad Weißenburger</head><p>Der Rat sichert Weißenburger und gewährt ihm in den nächsten 14 Tagen für drei Tage Geleit, obwohl er Nürnberger Kaufleute verfolgt hat.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_188" id="93v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_188_r2l1"><expan>Conr<ex>ad</ex></expan> dem <expan>Weiſſemb<ex>ur</ex>g<ex>er</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_188_r2l2">Wiʒʒ <expan>VVeiſſemb<ex>ur</ex>g<ex>er</ex></expan> / Als du vns vormals vnd auch <expan>yecʒund<ex>en</ex></expan> </ab>
+<ab facs="#facs_188_r2l3"><expan>geſchrıb<ex>e</ex>n</expan> haſt / . Jſt vns geſagt <expan>word<ex>e</ex>n</expan> / vvie du etwas </ab>
+<ab facs="#facs_188_r2l5">nahend beÿ <expan>vnſ<ex>er</ex>r</expan> Stat gehalten / vnd die <expan>vnſ<ex>er</ex>n</expan> geiagt </ab>
+<ab facs="#facs_188_r2l6">habſt / . Doch wie dem ıſt / ſo / ſolt die nehſten <expan>vıercʒehe<ex>n</ex></expan> </ab>
+<ab facs="#facs_188_r2l7">tag vor vns ſicher ſein / vnd wenn du in <expan>denſelb<ex>e</ex>n</expan> xıııȷ </ab>
+<ab facs="#facs_188_line_1576592583069_7413"> <expan>tage<ex>n</ex></expan> cʒü vns her ein <expan>kume<ex>n</ex></expan> wilt / So ſolt du 
+<del rend="strikethrough">ein ſleht </del></ab>
+<ab facs="#facs_188_r2l11">drey tag 
+<del rend="strikethrough">ein </del>
+<add><ab facs="#facs_188_r2l10">vnſer </ab></add> ſleht ſıcher geleit <expan>hab<ex>e</ex>n</expan> cʒü vns vnd </ab>
+<ab facs="#facs_188_r2l12">von vns <expan>vngeu<ex>er</ex>lıch<ex>e</ex>n</expan> vnd wöllen dein rede <expan>g<ex>er</ex>ne</expan> </ab>
+<ab facs="#facs_188_r2l13">hören / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> vj̃ <expan>an<ex>te</ex></expan> Katherine / . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_188" id="93v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Conr<ex>ad</ex></expan>, dem
+                            <expan>Weissemb<ex>ur</ex>g<ex>er</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Wizz <expan>Weissemb<ex>ur</ex>g<ex>er</ex></expan>, als du uns vormals und
+                        auch <expan>yeczund<ex>en</ex></expan>
+<expan>geschrib<ex>e</ex>n</expan> hast, ist uns gesagt
+                                <expan>word<ex>e</ex>n</expan>, wie du etwas nahend bey
+                                <expan>uns<ex>er</ex>r</expan> stat gehalten und die
+                                <expan>uns<ex>er</ex>n</expan> gejagt habst. Doch wie dem ist, so
+                        solt die nehsten <expan>vierczehe<ex>n</ex></expan> tag vor uns sicher sein;
+                        und wenn du in <expan>denselb<ex>e</ex>n</expan> xiiii
+                            <expan>tage<ex>n</ex></expan> czü uns her ein
+                            <expan>kume<ex>n</ex></expan> wilt, so solt du drey tag <add>unser</add>
+                        sleht sicher geleit <expan>hab<ex>e</ex>n</expan> czü uns und von uns
+                                <expan>ungev<ex>er</ex>lich<ex>e</ex>n</expan> und wöllen dein rede
+                                <expan>g<ex>er</ex>ne</expan> hören. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> vi <expan>an<ex>te</ex></expan>
+                        Katherine.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1885" xml:id="l1896" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1885 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>092r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1885.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wiesenthau, Hans v.</persName></ab><ab type="mention"><placeName type="mention">Peulendorf (Gt. d. Stadt Scheßlitz, Lk. Bamberg)</placeName><placeName type="mention">Roppach (heute: Seebach, Hallstadt, Lk. Bamberg)</placeName><placeName ref="https://www.wikidata.org/wiki/Q3936" type="mention">Bamberg</placeName><persName type="mention">N., Strölein, Jude</persName></ab><date from="29-05-1415" to="26-06-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_184">
+<surface lrx="2621" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0094_right.png" width="2621px"/>
+<zone lrx="1451" lry="727" rendition="TextRegion" ulx="1207" uly="1495" xml:id="facs_184_r1">
+<zone lrx="1912" lry="727" rendition="Line" ulx="1195" uly="646" xml:id="facs_184_r1l5"/> <zone lrx="1950" lry="815" rendition="Line" ulx="1207" uly="733" xml:id="facs_184_r1l6"/>
+<zone lrx="2307" lry="924" rendition="Line" ulx="402" uly="849" xml:id="facs_184_r1l7"/>
+<zone lrx="2345" lry="1025" rendition="Line" ulx="537" uly="943" xml:id="facs_184_r1l8"/>
+<zone lrx="2414" lry="1112" rendition="Line" ulx="556" uly="1033" xml:id="facs_184_r1l9"/>
+<zone lrx="2388" lry="1202" rendition="Line" ulx="548" uly="1123" xml:id="facs_184_r1l10"/>
+<zone lrx="2384" lry="1301" rendition="Line" ulx="552" uly="1227" xml:id="facs_184_r1l11"/>
+<zone lrx="2414" lry="1382" rendition="Line" ulx="550" uly="1317" xml:id="facs_184_r1l12"/>
+<zone lrx="2455" lry="1485" rendition="Line" ulx="538" uly="1404" xml:id="facs_184_r1l13"/>
+<zone lrx="1451" lry="1580" rendition="Line" ulx="537" uly="1495" xml:id="facs_184_r1l14"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans von Wiesenthau zu Peulendorf</head><p>Der Rat bittet um Rücknahme der Klage gegen Strölein N., Jude zu Nürnberg, vor dem Landgericht am Roppach zu Bamberg und verweist auf den Rechtsweg zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_184" id="92r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_184_r1l5">Hanſen von wẏſentaw </ab>
+<ab facs="#facs_184_r1l6">cʒu Pewlndorff geſeſſen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_184_r1l7"><expan>L<ex>ieber</ex></expan> hans vns hat <expan>fürg<ex>elegt</ex></expan> Strölein Jude hıe bey vns geſeſſen </ab>
+<ab facs="#facs_184_r1l8">vvıe Jr Jn auf 
+<del rend="strikethrough">das </del> den Rötpach gen <expan>Bamb<ex>er</ex>g</expan> geladen habt </ab>
+<ab facs="#facs_184_r1l9">
+<del rend="strikethrough">von ſp<gap reason="illegible"/></del> / vnd wir euch doch des rechten von Jm <expan>ʒehelffe<ex>n</ex></expan> </ab>
+<ab facs="#facs_184_r1l10">
+<del rend="strikethrough">v </del> nye <expan>v<ex>er</ex>ſagt</expan> <expan>hab<ex>e</ex>n</expan> / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr von <expan>derſelb<ex>e</ex>n</expan> klag <expan>laſſe<ex>n</ex></expan> </ab>
+<ab facs="#facs_184_r1l11">wöllet / das <expan>wölle<ex>n</ex></expan> etc / Vnd het Jr <expan>dan<ex>n</ex></expan> cʒu dem <expan>eg<ex>enanten</ex></expan> ~ Juden </ab>
+<ab facs="#facs_184_r1l12">icht <expan>cʒeſprech<ex>e</ex>n</expan> / <expan>dar<ex>ümb</ex></expan> <expan>wölle<ex>n</ex></expan> vvir euch <expan>od<ex>er</ex></expan> <expan>ew<ex>r</ex>m</expan> <expan>ſcheinb<ex>oten</ex></expan> etc </ab>
+<ab facs="#facs_184_r1l13">vt in <expan>for<ex>ma</ex></expan> etc / vnd lat vns des <expan>ew<ex>r</ex></expan> <expan>freuntl<ex>ich</ex></expan> <expan>v<ex>er</ex>ſchr<ex>iben</ex></expan> <expan>Antvv<ex>ur</ex>t</expan> </ab>
+<ab facs="#facs_184_r1l14"><expan>wıd<ex>er</ex></expan> vviſſen beÿ dıſem poten </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_184" id="92r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hansen von Wysentaw czu Pewlndorff gesessen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Hans, uns hat
+                            <expan>fürg<ex>elegt</ex></expan> Strölein, jude, hie bey uns gesessen,
+                        wie ir in auf den Rötpach gen <expan>Bamb<ex>er</ex>g</expan> geladen habt,
+                        und wir euch doch des rechten von im <expan>ze helffe<ex>n</ex></expan> nye
+                                <expan>v<ex>er</ex>sagt</expan>
+<expan>hab<ex>e</ex>n</expan>. <expan>Ro<ex>gamus,</ex></expan> daz ir von
+                                <expan>derselb<ex>e</ex>n</expan> klag
+                            <expan>lasse<ex>n</ex></expan> wöllet; das
+                            <expan>wölle<ex>n</ex></expan> etc. Und het ir
+                            <expan>dan<ex>n</ex></expan> czu dem <expan>eg<ex>enanten</ex></expan>
+                        juden icht <expan>cze sprech<ex>e</ex>n,</expan>
+<expan>dar<ex>umb</ex></expan>
+<expan>wölle<ex>n</ex></expan> wir euch <expan>od<ex>er</ex></expan>
+<expan>ew<ex>r</ex>m</expan>
+<expan>scheinb<ex>oten</ex></expan> etc. ut in <expan>for<ex>ma</ex></expan>
+                        etc. Und lat uns des <expan>ew<ex>r</ex></expan>
+<expan>freuntl<ex>ich</ex></expan>,
+                            <expan>v<ex>er</ex>schr<ex>iben</ex></expan>
+<expan>antw<ex>ur</ex>t</expan>
+<expan>wid<ex>er</ex></expan> wissen bey disem poten. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

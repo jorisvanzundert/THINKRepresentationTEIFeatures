@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="494" xml:id="l500" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 494 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>007r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 494.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Horneck v. Hornberg, Hans, Amtm. v. Uffenheim</persName></ab><ab type="mention"><persName type="mention">Schwab, Hans</persName></ab><date from="28-08-1409" to="25-09-1409" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_15">
+<surface lrx="2593" lry="3774" ulx="0" uly="0">
+<graphic height="3774px" url="Rst Nbg-Briefbücher-Nr 3_0009_right.png" width="2593px"/>
+<zone lrx="1547" lry="2689" rendition="TextRegion" ulx="1069" uly="3082" xml:id="facs_15_r2"> <zone lrx="1916" lry="2689" rendition="Line" ulx="1058" uly="2626" xml:id="facs_15_r2l53"/>
+<zone lrx="1547" lry="2757" rendition="Line" ulx="1069" uly="2703" xml:id="facs_15_r2l54"/>
+<zone lrx="2344" lry="2901" rendition="Line" ulx="387" uly="2830" xml:id="facs_15_r2l55"/>
+<zone lrx="2321" lry="2980" rendition="Line" ulx="393" uly="2916" xml:id="facs_15_r2l56"/>
+<zone lrx="2240" lry="3066" rendition="Line" ulx="399" uly="3002" xml:id="facs_15_r2l57"/>
+<zone lrx="1726" lry="3143" rendition="Line" ulx="388" uly="3082" xml:id="facs_15_r2l58"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans Horneck von Hornberg, Amtmann zu Uffenheim</head><p>Der Rat kündigt Hans Schwab, Diener der Stadt, zur Besprechung wegen der von Horneck beschlagnahmten drei Fuhrwägen an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_15" id="7r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_15_r2l53">Hanſen Horneck Amptman </ab>
+<ab facs="#facs_15_r2l54">cʒu Vffenheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_15_r2l55">
+<expan>L<ex>ieber</ex></expan> Horneck / vns iſt fürbraht <del rend="strikethrough">worden </del> vnd cʒuvviſſen getan vvord</ab>
+<ab facs="#facs_15_r2l56">vvie daʒ Jr den ~ <expan>vnſ<ex>er</ex>n</expan> iij
+                                <expan>vvege<ex>n</ex></expan> mit <expan>palle<ex>n</ex></expan>
+                        aufgehalten habt / do<gap reason="damaged"/></ab>
+<ab facs="#facs_15_r2l57">
+<del rend="strikethrough"><expan>Ro<ex>gamus</ex></expan></del>
+<expan>ſende<ex>n</ex></expan> wir cʒu euch hanſen
+                            <expan>Svvab<ex>e</ex>n</expan>
+<expan>vnſ<ex>er</ex>n</expan> diener <del rend="strikethrough">et</del> mit
+                            <gap reason="damaged"/></ab>
+<ab facs="#facs_15_r2l58">dauon cʒu reden vnd <expan>Ro<ex>gamus</ex></expan>
+                        etc ut in <expan>for<ex>ma</ex></expan> / <expan>dat<ex>um</ex></expan>
+</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_15" id="7r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Hansen Horneck, amptman czu Uffenheim </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab><expan>L<ex>ieber</ex></expan> Horneck, uns ist fürbraht und czu wissen getan word[en], wie daz
+                        ir den <expan>uns<ex>er</ex>n</expan> iii <expan>wege<ex>n</ex></expan> mit
+                                <expan>palle<ex>n</ex></expan> aufgehalten habt, do[rumb]
+                                <expan>sende<ex>n</ex></expan> wir czu euch Hansen
+                                <expan>Swab<ex>e</ex>n</expan>, <expan>uns<ex>er</ex>n</expan>
+                        diener, mit <app>
+<note><gap reason="damaged"/></note>
+</app> davon czu reden, und <expan>ro<ex>gamus</ex></expan> etc. ut in
+                                <expan>for<ex>ma</ex></expan>. <expan>Dat<ex>um</ex></expan>. </ab></div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="662" xml:id="l671" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 662 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>048v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 662.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Wirsberg, Konrad v.</persName></ab><ab type="mention"><placeName type="mention">Wengen (Gt. d. Markts Nennslingen, Lk. Weißenburg-Gunzenhausen)</placeName><placeName type="mention">Syburg (Gt. d. Gem. Bergen, Lk. Weißenburg-Gunzenhausen)</placeName><orgName type="mention">Heilig-Geist-Spital (Nürnberg)</orgName></ab><date from="1-04-1410" to="1-04-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_98">
+<surface lrx="2757" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0051_left.png" width="2757px"/>
+<zone lrx="1317" lry="1569" rendition="TextRegion" ulx="1261" uly="2429" xml:id="facs_98_r1"> <zone lrx="1317" lry="1569" rendition="Line" ulx="1253" uly="1512" xml:id="facs_98_r1l20"/>
+<zone lrx="2276" lry="1761" rendition="Line" ulx="1261" uly="1690" xml:id="facs_98_r1l21"/>
+<zone lrx="2528" lry="1918" rendition="Line" ulx="657" uly="1850" xml:id="facs_98_r1l22"/>
+<zone lrx="2560" lry="2023" rendition="Line" subtype="paragraph" ulx="658" uly="1936" xml:id="facs_98_r1l23"/>
+<zone lrx="2557" lry="2124" rendition="Line" ulx="650" uly="2035" xml:id="facs_98_r1l24"/>
+<zone lrx="2465" lry="2215" rendition="Line" ulx="663" uly="2123" xml:id="facs_98_r1l25"/>
+<zone lrx="2589" lry="2309" rendition="Line" ulx="663" uly="2214" xml:id="facs_98_r1l26"/>
+<zone lrx="2554" lry="2409" rendition="Line" ulx="700" uly="2330" xml:id="facs_98_r1l27"/>
+<zone lrx="1483" lry="2501" rendition="Line" ulx="684" uly="2429" xml:id="facs_98_r1l29"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Konrad von Wirsberg zu Syburg</head><p>Der Rat bittet um Konrads Anwesenheit als Verhörer bei einem Gerichtstermin wegen eines in Wengen gelegenen Guts des Spitals zum Heiligen Geist in Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_98" id="48v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_98_r1l20">C </ab>
+<ab facs="#facs_98_r1l21">C . von <expan>Wirſp<ex>er</ex>g</expan> cʒu Sẏberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_98_r1l22"><expan>L<ex>ieber</ex></expan> <expan>Conr<ex>ad</ex></expan> / Vns hat <expan>fürg<ex>elegt</ex></expan> etc ut <expan>ſup<ex>ra</ex></expan> vvie daʒ man von <expan>deſſ<ex>elben</ex></expan> </ab>
+<ab facs="#facs_98_r1l23">Spıtals <expan>weg<ex>en</ex></expan> ein <expan>küntſch<ex>aft</ex></expan> vor ew cʒu <expan>Sib<ex>er</ex>g</expan> auf den <expan>nehſtkunff<ex>tigen</ex></expan> </ab>
+<ab facs="#facs_98_r1l24">Suntag <expan>ſüch<ex>e</ex>n</expan> müſʒ von eins guts <expan>vveg<ex>en</ex></expan> cʒu <expan>vvenge<ex>n</ex></expan> das hınter </ab>
+<ab facs="#facs_98_r1l25"><expan>de<ex>m</ex></expan> <expan>eg<ex>enanten</ex></expan> ~ Spital ligt / darcʒu Jr cʒu einem <expan>v<ex>er</ex>hörer</expan> <expan>geb<ex>e</ex>n</expan> vnd </ab>
+<ab facs="#facs_98_r1l26"><expan>beſcheide<ex>n</ex></expan> ſeit / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr ew die ſache <expan>fleiſſıkl<ex>ich</ex></expan> laſſet <expan>beuolh<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_98_r1l27">ſein durch <expan>vnſ<ex>er</ex>n</expan> <expan>wille<ex>n</ex></expan> / das <expan>wolle<ex>n</ex></expan> etc <expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ııj̃ <expan>p<ex>oſt</ex></expan> <expan>do<ex>min</ex>ıca<ex>m</ex></expan> </ab>
+<ab facs="#facs_98_r1l29">Quaſimodo <expan>ge<ex>n</ex>iti</expan> / <expan>A<ex>nno</ex></expan> . x<hi rend="sup">mo</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_98" id="48v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>C<ex>onrad</ex></expan> von <expan>Wirsp<ex>er</ex>g</expan> czu
+                        Syberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>Conr<ex>ad</ex></expan>, uns hat <expan>fürg<ex>elegt</ex></expan>
+                        etc. ut <expan>sup<ex>ra</ex></expan>, wie daz man von
+                                <expan>dess<ex>elben</ex></expan> spitals
+                            <expan>weg<ex>en</ex></expan> ein <expan>küntsch<ex>aft</ex></expan> vor
+                        ew czu <expan>Sib<ex>er</ex>g</expan> auf den
+                        <app><note><q type="date"><expan>nehstkunff<ex>tigen</ex></expan> suntag</q>06.04.1410</note></app>
+<expan>süch<ex>e</ex>n</expan> müsz von eins guts
+                            <expan>weg<ex>en</ex></expan> czu <expan>Wenge<ex>n</ex></expan>, das
+                        hinter <expan>de<ex>m</ex></expan>
+<expan>eg<ex>enanten</ex></expan> spital ligt, darczu ir czu einem
+                                <expan>v<ex>er</ex>hörer</expan>
+<expan>geb<ex>e</ex>n</expan> und <expan>bescheide<ex>n</ex></expan> seit.
+                                <expan>Ro<ex>gamus</ex></expan>, daz ir ew die sache
+                                <expan>fleissikl<ex>ich</ex></expan> lasset
+                            <expan>bevolh<ex>e</ex>n</expan> sein durch
+                            <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan>, das <expan>wolle<ex>n</ex></expan> etc.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> iii <expan>p<ex>ost</ex></expan>
+<expan>do<ex>min</ex>ica<ex>m</ex></expan> quasimodo
+                            <expan>ge<ex>n</ex>iti</expan>
+<expan>a<ex>nno</ex></expan> x<hi rend="sup">mo</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

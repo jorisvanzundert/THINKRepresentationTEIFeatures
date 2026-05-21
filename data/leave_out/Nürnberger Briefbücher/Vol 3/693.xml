@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="693" xml:id="l702" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 693 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>056v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 693.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1527505" type="recipient">Albrecht v. Wertheim, Bf. v. Bamberg</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q16116" type="mention">Forchheim</placeName><placeName type="mention">Hausen (Gem., Lk. Forchheim)</placeName><persName type="mention">Holzschuher, Karl I.</persName><persName type="mention">Haller, Peter III.</persName><persName type="mention">Tucher, Hans I.</persName></ab><date from="15-05-1410" to="15-05-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_114">
+<surface lrx="2771" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0059_left.png" width="2771px"/>
+<zone lrx="373" lry="681" rendition="TextRegion" ulx="325" uly="1103" xml:id="facs_114_r1">
+<zone lrx="505" lry="681" rendition="Line" ulx="325" uly="635" xml:id="facs_114_r1l1"/>
+<zone lrx="525" lry="1020" rendition="Line" ulx="207" uly="961" xml:id="facs_114_r1l2"/>
+<zone lrx="476" lry="1084" rendition="Line" ulx="216" uly="1018" xml:id="facs_114_line_1576568210821_1414"/>
+<zone lrx="373" lry="1159" rendition="Line" ulx="202" uly="1103" xml:id="facs_114_r1l5"/>
+</zone>
+<zone lrx="1639" lry="345" rendition="TextRegion" ulx="1858" uly="1415" xml:id="facs_114_r2">
+<zone lrx="1639" lry="345" rendition="Line" ulx="1052" uly="258" xml:id="facs_114_r2l1"/>
+<zone lrx="2406" lry="487" rendition="Line" ulx="541" uly="380" xml:id="facs_114_r2l2"/>
+<zone lrx="1982" lry="486" rendition="Line" ulx="1858" uly="429" xml:id="facs_114_r2l3"/>
+<zone lrx="2613" lry="579" rendition="Line" ulx="547" uly="487" xml:id="facs_114_r2l4"/>
+<zone lrx="2608" lry="678" rendition="Line" ulx="549" uly="564" xml:id="facs_114_r2l5"/>
+<zone lrx="2457" lry="772" rendition="Line" ulx="557" uly="654" xml:id="facs_114_r2l6"/>
+<zone lrx="2515" lry="858" rendition="Line" ulx="559" uly="731" xml:id="facs_114_r2l7"/>
+<zone lrx="2647" lry="952" rendition="Line" ulx="575" uly="809" xml:id="facs_114_r2l8"/>
+<zone lrx="2557" lry="1040" rendition="Line" ulx="579" uly="903" xml:id="facs_114_r2l9"/>
+<zone lrx="2591" lry="1132" rendition="Line" ulx="569" uly="971" xml:id="facs_114_r2l10"/>
+<zone lrx="2573" lry="1219" rendition="Line" ulx="570" uly="1051" xml:id="facs_114_r2l11"/>
+<zone lrx="2535" lry="1301" rendition="Line" ulx="587" uly="1145" xml:id="facs_114_r2l12"/>
+<zone lrx="2635" lry="1387" rendition="Line" ulx="577" uly="1216" xml:id="facs_114_r2l13"/>
+<zone lrx="2474" lry="1480" rendition="Line" ulx="601" uly="1324" xml:id="facs_114_r2l14"/>
+<zone lrx="2567" lry="1571" rendition="Line" ulx="585" uly="1415" xml:id="facs_114_r2l15"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Albrecht von Wertheim, Bischof von Bamberg</head><p>Der Rat bittet um Verbleib der in Hausen ansässigen Armleute mehrerer Nürnberger Bürger bei der Pfarrei Forchheim.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_114" id="56v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_114_r2l1">Byſchof cʒü <expan>Bamb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_114_r2l2"><expan>Gnedıg<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan> / Vns <expan>hab<ex>e</ex>n</expan> fürgelegt
+                                <expan>Pet<ex>er</ex></expan>
+<expan>Hall<ex>er</ex></expan> / Karl Holcʒſchüher </ab>
+<ab facs="#facs_114_r2l4">Hans Tücher / vnd etlıche
+                            <expan>ande<ex>r</ex></expan>
+<expan>vnſ<ex>er</ex>e</expan>
+<expan>Burge<ex>r</ex></expan> / <del rend="strikethrough"> vvie Jn </del>
+<add><ab facs="#facs_114_r2l3">von </ab></add>
+<expan>Jr</expan> arm <del rend="strikethrough"> lewt </del>en lewte </ab>
+<ab facs="#facs_114_r2l5">
+<add><ab facs="#facs_114_r1l1"><expan>weg<ex>en</ex></expan>
+</ab></add> cʒü Hawſen beÿ vorcheim gelegen <del rend="strikethrough">
+                            geſagt <expan>hab<ex>e</ex>n</expan> die <del rend="strikethrough">in
+                                die</del> l gen vorcheim </del></ab>
+<ab facs="#facs_114_r2l6">
+<del rend="strikethrough">hinein / gepferrt </del> die in die Pfarre gen
+                        vorcheim hinein mit </ab>
+<ab facs="#facs_114_r2l7"><expan>pferrlich<ex>e</ex>n</expan>
+<expan>recht<ex>e</ex>n</expan> gehören / vvie Jn
+                            <expan>diſelb<ex>e</ex>n</expan> Jr <expan>arme<ex>n</ex></expan> lewte
+                        geſagt </ab>
+<ab facs="#facs_114_r2l8"><expan>hab<ex>e</ex>n</expan> / daʒ man ſie von
+                                <expan>derſelb<ex>e</ex>n</expan> pfarre cʒenemen vnd mit
+                                <expan>pferrlich<ex>e</ex>n</expan>
+</ab>
+<ab facs="#facs_114_r2l9"><expan>recht<ex>e</ex>n</expan> anderſwo hin cʒe
+                        weiſen maine <add><ab facs="#facs_114_r1l2">das Jn gar </ab><ab facs="#facs_114_line_1576568210821_1414">ſwer ſey </ab><ab facs="#facs_114_r1l5">wan </ab></add> / <del rend="strikethrough">do
+                        </del> ſie <expan>beſorge<ex>n</ex></expan> / daʒ ſie nicht </ab>
+<ab facs="#facs_114_r2l10">als wol <expan>fürſeh<ex>e</ex>n</expan> ſein / noch
+                        als vvol awſgericht <expan>w<ex>er</ex>den</expan> / als in
+                                <expan>ir<ex>er</ex></expan>
+<del rend="strikethrough"> yecʒu </del></ab>
+<ab facs="#facs_114_r2l11"><expan>recht<ex>e</ex>n</expan> pfarre cʒü Vorcheim /
+                        . <expan>Dar<ex>vmb</ex></expan>
+<expan>Ro<ex>gamus</ex></expan> / . daʒ Jr ewr gnade darcʒü </ab>
+<ab facs="#facs_114_r2l12">wenden / vnd das <expan>gnedıklıch<ex>e</ex>n</expan>
+<expan>fürkume<ex>n</ex></expan> wöllet / . Alſo / daʒ <del rend="strikethrough"> die armen </del></ab>
+<ab facs="#facs_114_r2l13">
+<del rend="strikethrough">lewte </del>
+<expan>dıſelb<ex>e</ex>n</expan>
+<expan>vnſ<ex>er</ex>r</expan>
+<expan>B<ex>ur</ex>g<ex>er</ex></expan> armen lewte / beÿ
+                                <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enanten</ex></expan> Pfarre cʒü Vorcheim </ab>
+<ab facs="#facs_114_r2l14">dahin ſie <expan>dan<ex>n</ex></expan> gehören /
+                                <expan>beleib<ex>e</ex>n</expan> vnd davon nicht
+                                <expan>gecʒoge<ex>n</ex></expan>
+<expan>w<ex>er</ex>den</expan>
+</ab>
+<ab facs="#facs_114_r2l15">Als etc Das <expan>wölle<ex>n</ex></expan> etc . /
+                                <expan>dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ṽ in  <expan>ebdom<ex>ine</ex></expan>  .
+                                <expan>penthecoſt<ex>en</ex></expan> . / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_114" id="56v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Byschof czü <expan>Bamb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>e</ex>r</expan>, uns <expan>hab<ex>e</ex>n</expan> fürgelegt
+                                <expan>Pet<ex>er</ex></expan>
+<expan>Hall<ex>er</ex></expan>, Karl Holczschüher, Hans Tücher und etliche
+                                <expan>ande<ex>r</ex></expan>
+<expan>uns<ex>er</ex>e</expan>
+<expan>burge<ex>r</ex></expan>
+<add>von</add>
+<expan>ir</expan> armen lewte <add><expan>weg<ex>en</ex></expan></add> czü
+                        Hawsen bey Vorcheim gelegen, die in die pfarre gen Vorcheim hinein mit
+                                <expan>pferrlich<ex>e</ex>n</expan>
+<expan>recht<ex>e</ex>n</expan> gehören, wie in
+                            <expan>diselb<ex>e</ex>n</expan> ir <expan>arme<ex>n</ex></expan> lewte
+                        gesagt <expan>hab<ex>e</ex>n</expan>, daz man sie von
+                                <expan>derselb<ex>e</ex>n</expan> pfarre cze nemen und mit
+                                <expan>pferrlich<ex>e</ex>n</expan>
+<expan>recht<ex>e</ex>n</expan> anderswo hin cze weisen maine, <add>das in
+                            gar swer sey, wan</add> sie <expan>besorge<ex>n</ex></expan>, daz sie
+                        nicht als wol <expan>fürseh<ex>e</ex>n</expan> sein noch als wol awsgericht
+                                <expan>w<ex>er</ex>den</expan>, als in <expan>ir<ex>er</ex></expan>
+<expan>recht<ex>e</ex>n</expan> pfarre czü Vorcheim.
+                            <expan>Dar<ex>umb</ex></expan>
+<expan>ro<ex>gamus</ex></expan>, daz ir ewr gnade darczü wenden und das
+                                <expan>gnediklich<ex>e</ex>n</expan>
+<expan>fürkume<ex>n</ex></expan> wöllet, also daz
+                            <expan>diselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>b<ex>ur</ex>g<ex>er</ex></expan> armen lewte bey
+                            <expan>d<ex>er</ex></expan>
+<expan>eg<ex>enanten</ex></expan> pfarre czü Vorcheim, dahin sie
+                                <expan>dan<ex>n</ex></expan> gehören,
+                            <expan>beleib<ex>e</ex>n</expan> und davon nicht
+                                <expan>geczoge<ex>n</ex></expan>
+<expan>w<ex>er</ex>den</expan>, als etc. Das <expan>wölle<ex>n</ex></expan>
+                        etc. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> v in <expan>ebdom<ex>ine</ex></expan>
+<expan>penthecost<ex>en</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

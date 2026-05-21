@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1213" xml:id="l1229" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1213 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>183v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1213.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Krumm, Burkhard</persName></ab><ab type="mention"><placeName type="mention">Dürrenmungenau (Gt. d. Stadt Abenberg, Lk. Roth)</placeName><placeName ref="https://www.wikidata.org/wiki/Q368576" type="mention">St. Sebald (Nürnberg)</placeName><placeName type="mention">Petersgmünd (Gt. d. Gem. Georgensgmünd, Lk. Roth)</placeName><persName type="mention">Dürrenloher, Friedrich, Vikar d. Heinrich- u. Kunigundenaltars v. St. Sebald (Nürnberg)</persName><persName type="mention">Öttel, Peter</persName></ab><date from="28-10-1411" to="25-11-1411" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_368">
+<surface lrx="2729" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0186_left.png" width="2729px"/>
+<zone lrx="603" lry="1737" rendition="TextRegion" ulx="212" uly="1569" xml:id="facs_368_r1">
+<zone lrx="603" lry="1737" rendition="Line" ulx="212" uly="1569" xml:id="facs_368_r1l1"/>
+</zone>
+<zone lrx="1396" lry="1086" rendition="TextRegion" ulx="1179" uly="1913" xml:id="facs_368_r2"> <zone lrx="1929" lry="1086" rendition="Line" ulx="1171" uly="1018" xml:id="facs_368_r2l6"/>
+<zone lrx="1912" lry="1172" rendition="Line" ulx="1179" uly="1110" xml:id="facs_368_r2l7"/>
+<zone lrx="2393" lry="1361" rendition="Line" ulx="589" uly="1290" xml:id="facs_368_r2l8"/>
+<zone lrx="2399" lry="1466" rendition="Line" ulx="598" uly="1375" xml:id="facs_368_r2l9"/>
+<zone lrx="2455" lry="1568" rendition="Line" ulx="616" uly="1453" xml:id="facs_368_r2l10"/>
+<zone lrx="2401" lry="1690" rendition="Line" ulx="632" uly="1556" xml:id="facs_368_r2l11"/>
+<zone lrx="2503" lry="1799" rendition="Line" ulx="624" uly="1663" xml:id="facs_368_r2l12"/>
+<zone lrx="2446" lry="1893" rendition="Line" ulx="631" uly="1771" xml:id="facs_368_r2l13"/>
+<zone lrx="1396" lry="1993" rendition="Line" ulx="641" uly="1913" xml:id="facs_368_r2l14"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Burkhard Krumm zu Dürrenmungenau</head><p>Der Rat bittet um Herausgabe einer Kuh des Peter Öttel, Armmann des Friedrich Dürrenloher, Vikar des Heinrich- und Kunigunden-Altars zu St. Sebald.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_368" id="183v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_368_r2l6">Burkharten Krummen </ab>
+<ab facs="#facs_368_r2l7">cʒu Dürrenmungnawe </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_368_r2l8"><expan>L<ex>ieber</ex></expan> Burkhart / vns hat fürgelegt her fridrıch Durrenloer </ab>
+<ab facs="#facs_368_r2l9"><expan>vycar<ex>ier</ex></expan> auf ſant <expan>küng<ex>en</ex></expan> Altar hie in ſant Sebolts pfarre </ab>
+<ab facs="#facs_368_r2l10"><expan>vnſ<ex>er</ex></expan> Caplan vvie Jr dem Peter Öttell cʒu ſant Peterſgmünd </ab>
+<ab facs="#facs_368_r2l11">
+<add><ab facs="#facs_368_r1l1"><expan>ſeıne<ex>m</ex></expan> Armman </ab></add> ein kw genomen habt / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr dem <expan>eg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>s</expan> Caplan </ab>
+<ab facs="#facs_368_r2l12">
+<del rend="strikethrough">dıe </del> Armman <expan>dieſelb<ex>e</ex>n</expan> ſein kẅ / vnd ob Jr auch ſüſt der <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_368_r2l13"><expan>Armenleute<ex>n</ex></expan> icht <expan>genome<ex>n</ex></expan> het / das Jr auch vvider <expan>geb<ex>e</ex>n</expan> wöllet </ab>
+<ab facs="#facs_368_r2l14">Als etc das wöllen etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_368" id="183v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Burkharten Krummen czu Dürrenmungnawe </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Burkhart, uns hat fürgelegt her Fridrich
+                        Durrenloer, <expan>vycar<ex>ier</ex></expan> auf sant
+                            <expan>Küng<ex>en</ex></expan> altar hie in sant Sebolts pfarre,
+                                <expan>uns<ex>er</ex></expan> caplan, wie ir dem Peter Öttell czu
+                        sant Petersgmünd, <add><expan>seine<ex>m</ex></expan> armman</add>, ein kw
+                        genomen habt. <expan>Ro<ex>gamus</ex></expan>, daz ir dem
+                                <expan>eg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>s</expan> caplan armman
+                            <expan>dieselb<ex>e</ex>n</expan> sein kw und, ob ir auch süst der
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>armenleute<ex>n</ex></expan> icht <expan>genome<ex>n</ex></expan>
+                        het, das ir auch wider <expan>geb<ex>e</ex>n</expan> wöllet. Als etc. Das
+                        wöllen etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

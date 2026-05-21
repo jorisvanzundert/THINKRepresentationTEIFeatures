@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1811" xml:id="l1822" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1811 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>073r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1811.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q3012" type="recipient">Ulm</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3834" type="mention">Konstanz</placeName><persName type="mention">Volckamer, Peter I.</persName></ab><date from="1-04-1415" to="1-04-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_146">
+<surface lrx="2614" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0075_right.png" width="2614px"/>
+<zone lrx="343" lry="722" rendition="TextRegion" ulx="74" uly="720" xml:id="facs_146_r1">
+<zone lrx="413" lry="722" rendition="Line" ulx="60" uly="670" xml:id="facs_146_r1l1"/>
+<zone lrx="343" lry="775" rendition="Line" ulx="74" uly="720" xml:id="facs_146_r1l2"/>
+</zone>
+<zone lrx="1047" lry="301" rendition="TextRegion" ulx="2183" uly="1146" xml:id="facs_146_r2">
+<zone lrx="1047" lry="301" rendition="Line" ulx="902" uly="242" xml:id="facs_146_r2l1"/>
+<zone lrx="2359" lry="476" rendition="Line" ulx="419" uly="419" xml:id="facs_146_r2l2"/>
+<zone lrx="1185" lry="495" rendition="Line" ulx="1093" uly="439" xml:id="facs_146_line_1585903429976_164"/>
+<zone lrx="1634" lry="502" rendition="Line" ulx="1575" uly="448" xml:id="facs_146_line_1585903438970_169"/>
+<zone lrx="1892" lry="502" rendition="Line" ulx="1711" uly="470" xml:id="facs_146_r2l3"/>
+<zone lrx="2329" lry="553" rendition="Line" ulx="444" uly="499" xml:id="facs_146_r2l4"/>
+<zone lrx="2234" lry="582" rendition="Line" ulx="2183" uly="530" xml:id="facs_146_line_1585903447128_174"/>
+<zone lrx="2382" lry="635" rendition="Line" ulx="444" uly="567" xml:id="facs_146_r2l5"/>
+<zone lrx="2341" lry="724" rendition="Line" ulx="416" uly="655" xml:id="facs_146_r2l6"/>
+<zone lrx="2353" lry="801" rendition="Line" ulx="440" uly="753" xml:id="facs_146_r2l7"/>
+<zone lrx="1127" lry="819" rendition="Line" ulx="981" uly="781" xml:id="facs_146_r2l8"/>
+<zone lrx="2339" lry="885" rendition="Line" ulx="449" uly="828" xml:id="facs_146_r2l9"/>
+<zone lrx="2377" lry="977" rendition="Line" ulx="445" uly="897" xml:id="facs_146_r2l10"/>
+<zone lrx="2323" lry="1055" rendition="Line" ulx="453" uly="986" xml:id="facs_146_r2l11"/>
+<zone lrx="2412" lry="1142" rendition="Line" ulx="451" uly="1073" xml:id="facs_146_r2l12"/>
+<zone lrx="1584" lry="1230" rendition="Line" ulx="443" uly="1146" xml:id="facs_146_r2l13"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ulm</head><p>Der Rat bittet um Neuigkeiten aus Konstanz.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_146" id="73r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_146_r2l1">Vlm </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_146_r2l2">. <expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan> . Vns hat vnſer lıeber <expan>burg<ex>er</ex></expan> vnd Ratgeſell Peter volkmeir </ab>
+<ab facs="#facs_146_r2l4">als der <expan>yecʒ<ex>unden</ex></expan> von Coſtencʒ 
+<add><ab facs="#facs_146_line_1585903429976_164">
+<del rend="strikethrough">cʒu </del></ab></add> gen vlm <expan>kume<ex>n</ex></expan>
+<del rend="strikethrough"> ſey 
+<add><ab facs="#facs_146_line_1585903438970_169">iſt </ab></add> / geſagt </del>
+<add><ab facs="#facs_146_r2l3">fürbaht </ab></add> / vvie Er ~ <expan>ew<ex>r</ex>n</expan> </ab>
+<ab facs="#facs_146_r2l5"><expan>Burg<ex>er</ex>meiſter</expan> <expan>fleiſſiklich<ex>e</ex>n</expan> gebeten hab von <expan>vnſ<ex>er</ex>n</expan> wegen / Ob 
+<add><ab facs="#facs_146_line_1585903447128_174">Jr </ab></add>
+<del rend="strikethrough"> Er icht </del></ab>
+<ab facs="#facs_146_r2l6">
+<add><ab facs="#facs_146_r1l1">noch <expan>ſeine<ex>m</ex></expan> hin = </ab><ab facs="#facs_146_r1l2">cʒıehen icht </ab></add> erfürt von den leuffen vnd <expan>ſach<ex>e</ex>n</expan> cʒu Coſtencʒ / 
+<del rend="strikethrough">Es vver von <expan>vnſ<ex>er</ex>m</expan> / </del></ab>
+<ab facs="#facs_146_r2l7">daʒ 
+<del rend="strikethrough">E </del> Jr vns das <expan>dan<ex>n</ex></expan> <expan>v<ex>er</ex>ſchreib<ex>e</ex>n</expan> vnd cʒuvviſſen tun wöllet / 
+<del rend="strikethrough"><expan>Alſu<ex>er</ex>re</expan></del></ab>
+<ab facs="#facs_146_r2l9">
+<del rend="strikethrough"> ewr </del> ſo Jr ſchierſt / 
+<del rend="strikethrough">möht </del>
+<add><ab facs="#facs_146_r2l8">mügt </ab></add> / Alſo <expan>Ro<ex>gamus</ex></expan> / daʒ Jr das alſo durch <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_146_r2l10">willen tun wöllet <expan>Alſu<ex>er</ex>re</expan> <expan>ewr<ex>er</ex></expan> weiſheit das füglich ſeẏ / Als vvir </ab>
+<ab facs="#facs_146_r2l11"><expan>ewr<ex>er</ex></expan> <expan>erſame<ex>n</ex></expan> <expan>freuntſ<ex>chaft</ex></expan> des wol <expan>getr<ex>awen</ex></expan> / das <expan>wölle<ex>n</ex></expan> vvir v̈mb <expan>ew<ex>r</ex></expan> </ab>
+<ab facs="#facs_146_r2l12"><expan>weiſh<ex>eit</ex></expan>
+<del rend="strikethrough"><expan>allcʒ<ex>eit</ex></expan> ge </del> in <expan>ſölch<ex>e</ex>n</expan> <expan>od<ex>er</ex></expan> merern <expan>ſache<ex>n</ex></expan>
+<del rend="strikethrough"><expan>wege<ex>n</ex></expan></del> <expan>allcʒ<ex>eit</ex></expan> <expan>g<ex>er</ex>n</expan> <expan>v<ex>er</ex>dıenen</expan> </ab>
+<ab facs="#facs_146_r2l13"><expan>dat<ex>um</ex></expan> vt <expan>ſup<ex>ra</ex></expan> <expan>ſ<ex>e</ex>c<ex>un</ex>da</expan> dıe paſce A xv<hi rend="sup">to</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_146" id="73r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Ulm </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, uns hat unser lieber
+                            <expan>burg<ex>er</ex></expan> und ratgesell Peter Volkmeir, als der
+                                <expan>yecz<ex>unden</ex></expan> von Costencz gen Ulm
+                                <expan>kume<ex>n,</ex></expan>
+<add>fürbaht</add>, wie er <expan>ew<ex>r</ex>n</expan>
+<expan>burg<ex>er</ex>meister</expan>
+<expan>fleissiklich<ex>e</ex>n</expan> gebeten hab von
+                            <expan>uns<ex>er</ex>n</expan> wegen, ob <add>ir</add>
+<add>noch <expan>seine<ex>m</ex></expan> hincziehen icht</add> erfürt von
+                        den leuffen und <expan>sach<ex>e</ex>n</expan> czu Costencz, daz ir uns das
+                                <expan>dan<ex>n</ex></expan>
+<expan>v<ex>er</ex>schreib<ex>e</ex>n</expan> und czu wissen tun wöllet, so
+                        ir schierst <add>mügt</add>. Also <expan>ro<ex>gamus</ex></expan>, daz ir
+                        das also durch <expan>uns<ex>er</ex>n</expan> willen tun wöllet,
+                                <expan>alsv<ex>er</ex>re</expan>
+<expan>ewr<ex>er</ex></expan> weisheit das füglich sey, als wir
+                                <expan>ewr<ex>er</ex></expan>
+<expan>ersame<ex>n</ex></expan>
+<expan>freunts<ex>chaft</ex></expan> des wol
+                            <expan>getr<ex>awen</ex></expan>. Das <expan>wölle<ex>n</ex></expan> wir
+                        ümb <expan>ew<ex>r</ex></expan>
+<expan>weish<ex>eit</ex></expan> in <expan>sölch<ex>e</ex>n</expan>
+<expan>od<ex>er</ex></expan> merern <expan>sache<ex>n</ex></expan>
+<expan>allcz<ex>eit</ex></expan>
+<expan>g<ex>er</ex>n</expan>
+<expan>v<ex>er</ex>dienen.</expan>
+<expan>Dat<ex>um</ex></expan> ut <expan>sup<ex>ra</ex></expan>
+<expan>s<ex>e</ex>c<ex>un</ex>da</expan> die pasce a xv<hi rend="sup">to</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

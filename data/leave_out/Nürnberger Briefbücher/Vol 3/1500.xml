@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1500" xml:id="l1515" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1500 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>262r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1500.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Prentel, Michael, Richter v. Sulzbürg</persName></ab><ab type="mention"><placeName type="mention">Haslach (Gt. d. Gem. Berg, Lk. Neumarkt i. d. Oberpfalz)</placeName><persName type="mention">Ries, N.</persName></ab><date from="11-10-1412" to="11-10-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_525">
+<surface lrx="2838" lry="3759" ulx="0" uly="0">
+<graphic height="3759px" url="Rst Nbg-Briefbücher-Nr 3_0264_right.png" width="2838px"/>
+<zone lrx="1209" lry="2374" rendition="TextRegion" ulx="1159" uly="3442" xml:id="facs_525_r1"> <zone lrx="1878" lry="2374" rendition="Line" ulx="1159" uly="2302" xml:id="facs_525_r1l21"/>
+<zone lrx="1665" lry="2463" rendition="Line" ulx="1142" uly="2398" xml:id="facs_525_r1l22"/>
+<zone lrx="2437" lry="2663" rendition="Line" ulx="459" uly="2548" xml:id="facs_525_r1l23"/>
+<zone lrx="2436" lry="2746" rendition="Line" ulx="456" uly="2648" xml:id="facs_525_r1l24"/>
+<zone lrx="2414" lry="2822" rendition="Line" ulx="469" uly="2741" xml:id="facs_525_r1l25"/>
+<zone lrx="2379" lry="2912" rendition="Line" ulx="467" uly="2829" xml:id="facs_525_r1l26"/>
+<zone lrx="2396" lry="3008" rendition="Line" ulx="458" uly="2918" xml:id="facs_525_r1l27"/>
+<zone lrx="2408" lry="3089" rendition="Line" ulx="456" uly="3011" xml:id="facs_525_r1l28"/>
+<zone lrx="2579" lry="3172" rendition="Line" ulx="460" uly="3091" xml:id="facs_525_r1l29"/>
+<zone lrx="2504" lry="3253" rendition="Line" ulx="453" uly="3182" xml:id="facs_525_r1l30"/>
+<zone lrx="2517" lry="3336" rendition="Line" subtype="paragraph" ulx="445" uly="3267" xml:id="facs_525_r1l31"/>
+<zone lrx="2625" lry="3422" rendition="Line" ulx="447" uly="3344" xml:id="facs_525_r1l32"/>
+<zone lrx="1209" lry="3502" rendition="Line" ulx="453" uly="3442" xml:id="facs_525_r1l33"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Michel Prentel, Richter von Sulzbürg</head><p>Der Rat teilt wegen Prentels Streit mit N. Ries von Haslach mit, dass er an jedem Werktag vor dem Gericht zu Nürnberg Klage erheben kann.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_525" id="262r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_525_r1l21">Michel Prentel cʒu der </ab>
+<ab facs="#facs_525_r1l22">Nẏdern Solcʒbürg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_525_r1l23"><expan>L<ex>ieber</ex></expan> Prentell / Als Jr vns aber <expan>verſchrib<ex>e</ex>n</expan> habt von der klag </ab>
+<ab facs="#facs_525_r1l24">wegen / als Jr mit ~ der Rẏſin von hohenhaſlach hie vor gerichte </ab>
+<ab facs="#facs_525_r1l25">angefangen vnd cʒuhandeln habt / vnd begert daʒ vvir euch einen </ab>
+<ab facs="#facs_525_r1l26"><expan>genante<ex>n</ex></expan> tag benennen vnd ſecʒen ſüllen die ſache auſʒetragen </ab>
+<ab facs="#facs_525_r1l27">Laſſen vvir euch vviſſen / daʒ gewönlich alle wergktage gericht </ab>
+<ab facs="#facs_525_r1l28">hıe iſt / vnd wenn Jr wöllet ſo mügt Jr herkumen / ſo vvirdt </ab>
+<ab facs="#facs_525_r1l29">euch des rechten vorderlıch geholffen ob Jr des begert / vnd Jr </ab>
+<ab facs="#facs_525_r1l30">ſüllt auch vviſſen / vver hıe vor geriht auf bringen geet / daʒ Er </ab>
+<ab facs="#facs_525_r1l31">das <expan>vnt<ex>er</ex></expan> eins gepanten gerihts Jnſigel pringen muſʒ / ſol <expan>and<ex>er</ex>s</expan> </ab>
+<ab facs="#facs_525_r1l32">das pringen mehtig hıe geteilt werden / do mügt Jr ew wol nach <expan>rihte<ex>n</ex></expan> </ab>
+<ab facs="#facs_525_r1l33"><expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ııj̃ <expan>p<ex>oſt</ex></expan> Dyoniſij </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_525" id="262r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Michel Prentel czu der nydern Solczbürg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Prentell, als ir uns aber
+                                <expan>verschrib<ex>e</ex>n</expan> habt von der klag wegen, als ir
+                        mit der Rysin von Hohenhaslach hie vor gerichte angefangen und czu handeln
+                        habt und begert, daz wir euch einen <expan>genante<ex>n</ex></expan> tag
+                        benennen und seczen süllen, die sache auszetragen, lassen wir euch wissen,
+                        daz gewönlich alle wergktage gericht hie ist und, wenn ir wöllet, so mügt ir
+                        herkumen, so wirdt euch des rechten vorderlich geholffen, ob ir des begert;
+                        und ir süllt auch wissen, wer hie vor geriht auf bringen geet, daz er das
+                                <expan>unt<ex>er</ex></expan> eins gepanten gerihts insigel pringen
+                        musz, sol <expan>and<ex>er</ex>s</expan> das pringen mehtig hie geteilt
+                        werden; do mügt ir ew wol nach <expan>rihte<ex>n.</ex></expan>
+<expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> iii <expan>p<ex>ost</ex></expan>
+                        Dyonisii.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

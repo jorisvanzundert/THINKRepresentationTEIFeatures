@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="31" xml:id="l30" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 31 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>008v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 31.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Egloffstein, Albrecht v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q523956" type="mention">Auerbach i. d. Oberpfalz</placeName><placeName type="mention">Seidmar (Gt. d. Gem. Leutenbach, Lk. Forchheim)</placeName><persName type="mention">Twerchfelt, Ulrich</persName><persName type="mention">Hetzelsdorfer, Hermann</persName></ab><date from="9-03-1408" to="9-03-1408" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_20">
+<surface lrx="2851" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0011_left.png" width="2851px"/> <zone lrx="2066" lry="1028" rendition="TextRegion" ulx="1203" uly="1700" xml:id="facs_20_r3"> <zone lrx="2181" lry="1028" rendition="Line" ulx="1203" uly="952" xml:id="facs_20_r3l6"/>
+<zone lrx="2066" lry="1115" rendition="Line" ulx="1201" uly="1044" xml:id="facs_20_r3l7"/>
+<zone lrx="2536" lry="1350" rendition="Line" ulx="774" uly="1281" xml:id="facs_20_r3l8"/>
+<zone lrx="2485" lry="1430" rendition="Line" ulx="828" uly="1360" xml:id="facs_20_r3l9"/>
+<zone lrx="2583" lry="1515" rendition="Line" ulx="842" uly="1443" xml:id="facs_20_r3l10"/>
+<zone lrx="2547" lry="1614" rendition="Line" ulx="833" uly="1533" xml:id="facs_20_r3l11"/>
+<zone lrx="2501" lry="1687" rendition="Line" ulx="825" uly="1617" xml:id="facs_20_r3l12"/>
+<zone lrx="2491" lry="1785" rendition="Line" ulx="787" uly="1700" xml:id="facs_20_r3l13"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Albrecht von Egloffstein, Landrichter zu Auerbach in der Oberpfalz</head><p>Der Rat bittet um Fürsprache für Hermann Hetzelsdorfer, Bürger zu Nürnberg, in der Klage des Ulrich Twerchfelt wegen seines Guts zu Seidmar.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_20" id="8v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_20_r3l6">
+<del rend="strikethrough"><expan>H<ex>er</ex>n</expan></del> <expan>Albrechte<ex>n</ex></expan> vom Eglofſtein </ab>
+<ab facs="#facs_20_r3l7">lantrichter cʒu Awerbach / </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_20_r3l8">Lieber her <expan>lantricht<ex>er</ex></expan> vns hat fürgelegt <expan>H<ex>er</ex>man</expan> <expan>Hetʒelſtöꝛff<ex>er</ex></expan> </ab>
+<ab facs="#facs_20_r3l9">vnſer Burger vvie daʒ Jm vlrich Twerchfelt ſein gut cʒu </ab>
+<ab facs="#facs_20_r3l10"><expan>Seÿte<ex>n</ex></expan> gelegen für ew auff daʒ lantgericht gen <expan>Aw<ex>r</ex>bach</expan> <expan>gelad<ex>en</ex></expan> </ab>
+<ab facs="#facs_20_r3l11">hab <expan>Roga<ex>mus</ex></expan> / daʒ Jr dem ~ <expan>egen<ex>an</ex>t<ex>en</ex></expan> vnſerm <expan>Burg<ex>er</ex></expan> durch <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_20_r3l12">willen tʒum <expan>rechte<ex>n</ex></expan> fürderlıch vnd beholffen ſein wollet</ab>
+<ab facs="#facs_20_r3l13">Als etc / das wöllen wir etc <expan>Dat<ex>um</ex></expan> vȷ̃ ante <expan>Remi<ex>ni</ex>ſce<ex>re</ex></expan> Anno vııȷ<hi rend="sup">o</hi> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_20" id="8v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Albrechte<ex>n</ex></expan> vom Eglofstein, lantrichter czu
+                        Awerbach</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber her <expan>lantricht<ex>er</ex></expan>, uns hat
+                                                fürgelegt <expan>H<ex>er</ex>man</expan>
+<expan>Heczelstörff<ex>er</ex></expan>, unser
+                                                burger, wie daz im Ulrich Twerchfelt sein gut czu
+                                                  <expan>Seyte<ex>n</ex></expan> gelegen für ew auff
+                                                daz lantgericht gen <expan>Aw<ex>r</ex>bach</expan>
+<expan>gelad<ex>en</ex></expan> hab.
+                                                  <expan>Roga<ex>mus</ex></expan>, daz ir dem
+                                                  <expan>egen<ex>an</ex>t<ex>en</ex></expan>, unserm
+                                                  <expan>burg<ex>er</ex></expan>, durch
+                                                  <expan>uns<ex>er</ex>n</expan> willen czum
+                                                  <expan>rechte<ex>n</ex></expan> fürderlich und
+                                                beholffen sein wollet, als etc. Das wöllen wir etc.
+                                                  <expan>Dat<ex>um</ex></expan> vi ante
+                                                  <expan>remi<ex>ni</ex>sce<ex>re</ex></expan> anno
+                                                  viii<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

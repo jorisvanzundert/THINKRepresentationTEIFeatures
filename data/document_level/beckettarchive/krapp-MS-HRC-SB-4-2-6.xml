@@ -1,0 +1,1682 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>La Dernière Bande</title>
+            <author xml:id="SB">Samuel Beckett</author>
+            <principal xml:id="DVH">Dirk Van Hulle</principal>
+            <funder>
+               <name>Centre for Manuscript Genetics (UA)</name>
+               <address>
+                  <addrLine>Universiteit Antwerpen (UA)</addrLine>
+                  <addrLine>Prinsstraat 13</addrLine>
+                  <addrLine>B-2000 Antwerpen</addrLine>
+                  <addrLine>Belgium</addrLine>
+                  <addrLine>tel: +32 (0)3 220 42 46</addrLine>
+                  <addrLine>email: dirk.vanhulle@ua.ac.be</addrLine>
+               </address>
+            </funder>
+            <respStmt>
+               <name>Dirk Van Hulle</name>
+               <resp>SBDMP coordinator,  encoding scheme, TEI customization</resp>
+            </respStmt>
+            <respStmt>
+               <name>Vincent Neyt</name>
+               <resp>Project architecture, encoding scheme, TEI customization</resp>
+            </respStmt>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Centre for Manuscript Genetics (University of Antwerp)</authority>
+            <pubPlace>Antwerp</pubPlace>
+            <availability>
+               <p>Not to be distributed outside the project</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Abbreviated in the Manuscript Chronology as FT1<lb/>
+               <lb/>
+	'La Dernière bande'. Carbon Copy of typed manuscript, signed 9 pp., 4to. With a few corrections and additions in red and blue inks and in pencil. Inscribed at top of the first page: 'Corrected typescript of / French translation of / 'Krapp's Last Tape' for: Jake Schwartz'.<lb/>
+               <lb/>
+
+Lake, Carlton, ed. (1984), <hi rend="i">No Symbols Where None Intended: A Catalogue of Books, Manuscripts and Other Material Relating to Samuel Beckett in the Collections of the Humanities Research Center</hi> (Austin: Humanities Research Center), p. 107</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <tagsDecl>
+            <rendition xml:id="redink">#B00000</rendition>
+            <rendition xml:id="blueink">#2B60DE;</rendition>
+            <rendition xml:id="pencil">#666666</rendition>
+            <rendition xml:id="blackink">black</rendition>
+         </tagsDecl>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+               <list type="simple">
+                  <item>Correction:</item>
+                  <item>Normalization:</item>
+                  <item>Quotation:</item>
+                  <item>Hyphenation:</item>
+                  <item>Interpretation:</item>
+               </list>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <listTranspose>
+            <transpose>
+               <ptr target="trans2"/>
+               <ptr target="trans1"/>
+            </transpose>
+         </listTranspose>
+         <langUsage>
+            <language ident="FR"/>
+         </langUsage>
+         <handNotes>
+            <handNote scope="major" medium="black_ink" xml:id="typist"/>
+            <handNote medium="blue_ink"/>
+            <handNote medium="red_ink"/>
+            <handNote medium="black_ink"/>
+         </handNotes>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="MS-HRC-SB-4-2-6">
+      <front>
+         <castList>
+            <castItem type="role">
+               <name xml:id="Krapp">Krapp</name>
+            </castItem>
+            <castItem type="role">
+               <name xml:id="Bande">Bande</name>
+            </castItem>
+         </castList>
+      </front>
+      <body>
+         <div type="typescript">
+            <head xml:id="title2-6" corresp="#1r">
+               <add place="margintop"
+                    hand="#SB"
+                    rend="blue ink"
+                    resp="#DVH"
+                    corresp="#1r">CORRECTED TYPESCRIPT OF <lb/>FRENCH TRANSLATION OF <lb/>"KRAPP'S LAST TAPE" for<lb/> JAKE SCHWARTZ</add>
+               <lb/>LA DERNIERE BANDE</head>
+            <p>
+               <add place="marginright"
+                    hand="#SB"
+                    rend="pencil"
+                    resp="#DVH"
+                    corresp="#1r"
+                    xml:id="add2-6-1">CDD= </add>
+            </p>
+            <stage>
+               <p>
+                  <pb n="1r"/>
+                  <seg xml:id="krappd1e11769"
+                       zone="zone_01"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-6,[0001]">
+                     <hi rend="u">Un soir, tard, d'ici quelque temps</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11774" zone="zone_01" n="MS-HRC-SB-4-2-6,[0002]">
+                     <hi rend="u">La turne de Krapp</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11779" zone="zone_01" n="MS-HRC-SB-4-2-6,[0003]">
+                     <hi rend="u">A l'avant-scène, au centre, une petite table dont les deux<lb rend="it"/> tiroirs s'ouvrent du côté de la salle</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11784" zone="zone_01" n="MS-HRC-SB-4-2-6,[0004]">
+                     <hi rend="u">Assis à la table, face à la salle, <del type="crossout" hand="#SB" rend="red ink" resp="#DVH">d</del>
+                        <add place="marginright"
+                             hand="#SB"
+                             rend="red ink"
+                             resp="#DVH"
+                             xml:id="add2-6-2"
+                             corresp="#1r">c</add>'est-à-dire du côté<lb rend="it"/> opposé aux tiroirs, un vieil homme avachi: Krapp</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11795"
+                       zone="zone_02"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-6,[0005]">
+                     <hi rend="u">Pantalon étroit, trop court, d'un noir pisseux. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11798" zone="zone_02" n="MS-HRC-SB-4-2-6,[0006]">
+                     <hi rend="u">Gilet sans<lb rend="it"/> manches d'un noir pisseux, quatre vastes poches. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11801" zone="zone_02" n="MS-HRC-SB-4-2-6,[0007]">
+                     <hi rend="u">Lourde montre<lb rend="it"/> d'argent avec chaîne. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11804" zone="zone_02" n="MS-HRC-SB-4-2-6,[0008]">
+                     <hi rend="u">Chemise blanche crasseuse, déboutonnée<lb rend="it"/> au cou, sans col. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11807" zone="zone_02" n="MS-HRC-SB-4-2-6,[0009]">
+                     <hi rend="u">Surprenante paire de bottines, d'un blanc<lb rend="it"/> sale, du 48 au moins, très étroites et pointues</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11812" zone="zone_02" n="MS-HRC-SB-4-2-6,[0010]">
+                     <hi rend="u">Visage blanc. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11815" zone="zone_02" n="MS-HRC-SB-4-2-6,[0011]">
+                     <hi rend="u">Nez violacé. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11818" zone="zone_02" n="MS-HRC-SB-4-2-6,[0012]">
+                     <hi rend="u">Cheveux gris en désordre. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11821" zone="zone_02" n="MS-HRC-SB-4-2-6,[0013]">
+                     <hi rend="u">Mal rasé</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <add place="marginleft"
+                       hand="#SB"
+                       rend="red ink"
+                       resp="#DVH"
+                       xml:id="add2-6-3"
+                       corresp="#1r">
+                     <seg xml:id="krappd1e11827"
+                          rendition="#redink"
+                          n="MS-HRC-SB-4-2-6,[0014]">
+                        <hi rend="u">Très myope (mais sans lunettes). </hi>
+                     </seg>
+                     <seg xml:id="krappd1e11830"
+                          rendition="#redink"
+                          n="MS-HRC-SB-4-2-6,[0015]">
+                        <hi rend="u">Dur d'oreille</hi>.<lb rend="it"/>
+                     </seg>
+                  </add>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11836"
+                       zone="zone_03"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-6,[0016]">
+                     <hi rend="u">Voix fêlée </hi>
+                  </seg>
+                  <seg xml:id="krappd1excdss" zone="zone_03" n="MS-HRC-SB-4-2-6,[0017]">
+                     <hi rend="u">très particulière</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11841" zone="zone_03" n="MS-HRC-SB-4-2-6,[0018]">
+                     <hi rend="u">Démarche laborieuse</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11846" zone="zone_03" n="MS-HRC-SB-4-2-6,[0019]">
+                     <hi rend="u">Sur la table un magnétophone avec microphone et de nombreuses<lb rend="it"/> boîtes en carton contenant des bobines de bandes impressionnées</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11852" zone="zone_03" n="MS-HRC-SB-4-2-6,[0020]">
+                     <hi rend="u">La table et <add place="marginleft"
+                             hand="#SB"
+                             rend="pencil"
+                             resp="#DVH"
+                             xml:id="add2-6-4"
+                             corresp="#1r">ses</add> environs immédiats baignés d'une <del type="crossout" rend="black ink" hand="#typist" resp="#DVH">
+                           <unclear>fo</unclear>
+                        </del> lumière crue</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e11862" zone="zone_03" n="MS-HRC-SB-4-2-6,[0021]">
+                     <hi rend="u">Le reste de la scène dans l'obscurité</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e11867"
+                       zone="zone_04"
+                       corresp="#1r"
+                       n="MS-HRC-SB-4-2-6,[0022]">
+                     <hi rend="u">Krapp demeure un moment immobile, pousse un grand soupir, re<lb rend="-it"/>garde sa montre, farfouille dans ses poches, en sort une en<lb rend="-it"/>veloppe, la remet, farfouille de nouveau, sort un petit trous<lb rend="-it"/>seau de clefs, l'élève à hauteur des yeux, cho<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">s</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">i</add>sit une clef,<lb rend="it"/> se lève et va vers le devant de la table. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11870"
+                       zone="zone_05"
+                       corresp="#1r"
+                       style="indent220px"
+                       n="MS-HRC-SB-4-2-6,[0023]">
+                     <hi rend="u">Il se baisse, fait<lb rend="it"/> jouer la serrure du premier tiroir, regarde dedans, y promène<lb rend="it"/> la main, en sort une bobine, l'examine de tout près, la remet,<lb rend="it"/> referme le tiroir à clef, fait jouer la serrure du second ti<lb rend="-it"/>roir, <del type="crossout" hand="#SB" rend="blueblackink" resp="#DVH">le tire,</del> regarde dedans, y promène la main, en sort une<lb rend="it"/> grosse banane, l'examine de tout près, referme le tiroir à<lb rend="it"/> clef, remet les clefs dans sa poche. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11876"
+                       zone="zone_06"
+                       corresp="#1r"
+                       style="indent220px"
+                       n="MS-HRC-SB-4-2-6,[0024]">
+                     <hi rend="u">Il se retourne, s'avance<lb rend="it"/> jusqu'au bord de la scène, s'arrête, caresse la banane, l'éplu<lb rend="-it"/>che, laisse tomber la peau à ses pieds, met le bout de la ba<lb rend="-it"/>nane dans sa bouche et demeure immobile, regardant dans le<lb rend="it"/> vide devant lui. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11879"
+                       zone="zone_07"
+                       corresp="#1r"
+                       style="indent100px"
+                       n="MS-HRC-SB-4-2-6,[0025]">
+                     <hi rend="u">Finalement il croque le bout de la banane,<lb rend="it"/> se détourne et se met à aller et venir au bord de la scène,</hi>
+                     <lb rend="it"/>
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">c'est à dire à raison de quatre ou cinq pas</del>
+                     <hi rend="u">dans <del type="crossout" hand="#SB" rend="red ink" resp="#DVH">s</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="red ink"
+                             resp="#DVH"
+                             xml:id="add2-6-5"
+                             corresp="#1r">l</add>a lumière,<lb rend="it"/> c'est à dire à raison de quatre ou cinq pas au plus de chaque<lb rend="it"/> côté, tout en mastiquant méditativement la banane. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11890"
+                       zone="zone_08"
+                       corresp="#1r"
+                       style="indent270px"
+                       n="MS-HRC-SB-4-2-6,[0026]">
+                     <hi rend="u">Il marche<lb rend="it"/> sur la peau, glisse, manque de tomber, se rattrape, se penche,<lb rend="it"/>
+                        <note>x pencilled in left margin</note> regarde la peau et finalement la pousse du pied, toujours pen<lb rend="-it"/>ché, par-dessus le bord de la scène dans la fosse. </hi>
+                  </seg>
+                  <seg n="MS-HRC-SB-4-2-6,[0027]"
+                       xml:id="krappd1e11893"
+                       zone="zone_09"
+                       zone2="zone_10"
+                       style="indent270px"
+                       corresp="#1r,2r">
+                     <anchor type="ts" n="1r"/>
+                     <hi rend="u">Il reprend<lb rend="it"/> son va-et-vient, finit de manger la banane, retourne à la<lb rend="it"/> table, s'asseoit, demeure un moment immobile, pousse un grand<lb rend="it"/> soupir, sort les clefs de sa poche, les <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">è</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">é</add>lève à hauteur des<lb rend="it"/> yeux, cho<add place="marginleft"
+                             hand="#SB"
+                             rend="blue ink"
+                             resp="#DVH"
+                             xml:id="add2-6-6"
+                             corresp="#1r">i</add>sit une clef, se lève et va vers <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">
+                           <unclear>les</unclear>
+                        </del>
+                        <add place="marginleft"
+                             hand="#typist"
+                             rend="black ink"
+                             resp="#DVH"
+                             xml:id="add2-6-7"
+                             corresp="#1r">le</add> devant de la<lb rend="it"/> table, fait jouer la serrure du second tiroir, en sort une<lb rend="it"/> seconde grosse banane, l'examine de tout près, referme le</hi>
+                     <lb rend="it"/>
+                     <anchor type="ts" n="2r"/>
+                     <pb n="2r"/>
+                     <metamark function="pagenumber">
+                        <num>2</num>
+                     </metamark>
+                     <hi rend="u">tiroir à clef, <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">l</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</add>emet les clefs dans sa poche, se retourne,<lb rend="it"/> s'avance jusqu'au bord de la scène, s'arrête, caresse la<lb rend="it"/> banane, l'épluche, flanque la peau dans la fosse, met le bout<lb rend="it"/> de la banane dans sa bouche et demeure immobile, regardant<lb rend="it"/> dans le vide devant lui. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11908"
+                       zone="zone_11"
+                       corresp="#2r"
+                       style="indent150px"
+                       n="MS-HRC-SB-4-2-6,[0028]">
+                     <hi rend="u">Finalement il a une idée, met la ba<lb rend="-it"/>nane dans une poche de son gilet d'où le bout émergera et de<lb rend="it"/> toute la vitesse dont il est capable s'en va au fond de la<lb rend="it"/> scène dans l'obscurité. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11911" zone="zone_11" n="MS-HRC-SB-4-2-6,[0029]">
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">Bruit de bouchon q</del>
+                     <hi rend="u">Dix secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11916" zone="zone_11" n="MS-HRC-SB-4-2-6,[0030]">
+                     <hi rend="u">Bruit<lb rend="it"/> de bouchon qu'on tire. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11919" zone="zone_11" n="MS-HRC-SB-4-2-6,[0031]">
+                     <hi rend="u">Quinze secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e11922" zone="zone_11" n="MS-HRC-SB-4-2-6,[0032]">
+                     <hi rend="u">Il revient dans la<lb rend="it"/> lumière, portant un vieux re<del type="crossout" hand="#SB" rend="red ink" resp="#DVH">f</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="red ink"
+                             resp="#DVH"
+                             xml:id="add2-6-8"
+                             corresp="#2r">g</add>istre, et s'asseoit à la table</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e11930" zone="zone_11" n="MS-HRC-SB-4-2-6,[0033]">
+                     <hi rend="u">Il pose le registre sur la table, s'essuie la bouche, s'essuie<lb rend="it"/> les mains à son gilet, les claque et les frotte</hi>.</seg>
+                  <lb/>
+                  <lb/>
+               </p>
+            </stage>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="krappd1e11941"
+                       zone="zone_12"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-6,[0034]">
+                     <stage>(<hi rend="u">avec vivacité</hi>)</stage>.</seg>
+                  <seg xml:id="krappd1e11949" zone="zone_12" n="MS-HRC-SB-4-2-6,[0035]">Ah!</seg>
+                  <seg xml:id="krappd1e11952" zone="zone_12" n="MS-HRC-SB-4-2-6,[0036]">
+                     <stage>(<hi rend="u">Il se penche sur le registre, tourne les<lb rend="it"/> pages, trouve l'inscription qu'il <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">veut</del> cherche, lit</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e11962" zone="zone_12" n="MS-HRC-SB-4-2-6,[0037]">Boîte...<lb rend="it"/>trrois...bobine...ccinq.<del type="crossout" hand="#typist" rend="black ink" resp="#DVH">)</del>
+                  </seg>
+                  <stage>(<seg xml:id="krappd1e11970" zone="zone_12" n="MS-HRC-SB-4-2-6,[0038]">
+                        <hi rend="u">Il lève la tête et regarde fixement<lb rend="it"/> devant lui. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e11973" zone="zone_12" n="MS-HRC-SB-4-2-6,[0039]">
+                        <hi rend="u">Avec délectation</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e11979" zone="zone_12" n="MS-HRC-SB-4-2-6,[0040]">Bobine !</seg>
+                  <seg xml:id="krappd1e11982" zone="zone_12" n="MS-HRC-SB-4-2-6,[0041]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e11989" zone="zone_12" n="MS-HRC-SB-4-2-6,[0042]">Bobiiine!<lb rend="it"/>
+                  </seg>
+                  <stage>(<seg xml:id="krappd1e11995" zone="zone_12" n="MS-HRC-SB-4-2-6,[0043]">
+                        <hi rend="u">Sourire heureux. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e11998" zone="zone_12" n="MS-HRC-SB-4-2-6,[0044]">
+                        <hi rend="u">
+                           <del type="crossout" hand="#SB" rend="blueblackink" resp="#DVH">Pause.</del>
+                        </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12001" zone="zone_12" n="MS-HRC-SB-4-2-6,[0045]">
+                        <hi rend="u">Il se penche sur la table et se met à<lb rend="it"/> farfouiller dans les boîtes en les examinant de tout près</hi>.<lb rend="it"/>
+                     </seg>)</stage>
+                  <seg xml:id="krappd1e12007"
+                       zone="zone_13"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-6,[0046]">Boîte...trrois...trrois...quatre...deux...<stage>(<hi rend="u">avec surprise</hi>)</stage>...<lb rend="it"/>neuf! nom de Dieu!...sept...ah! petite coquine!</seg>
+                  <seg xml:id="krappd1e12016" zone="zone_13" n="MS-HRC-SB-4-2-6,[0047]">
+                     <stage>(<hi rend="u">Il prend une<lb rend="it"/> boîte, l'examine de tout près</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12023" zone="zone_13" n="MS-HRC-SB-4-2-6,[0048]">Boîte trrois.</seg>
+                  <seg xml:id="krappd1e12026" zone="zone_13" n="MS-HRC-SB-4-2-6,[0049]">
+                     <stage>(<hi rend="u">Il la pose sur<lb rend="it"/> la table, l'ouvre et <add place="inline" hand="#SB" rend="red ink" resp="EM">s</add>e penche sur les bobines qu'elle con<lb rend="-it"/>tient</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12033" zone="zone_13" n="MS-HRC-SB-4-2-6,[0050]">Bobine...<stage>(<hi rend="u">il se penche sur le registre</hi>)</stage>...ccinq...<stage>(<hi rend="u">il<lb rend="it"/> se penche sur les bobines</hi>)</stage>...ccinq...ccinq...ah! petite <del type="crossout" hand="#SB" rend="red ink" resp="#DVH">fri-</del>
+                     <lb rend="it"/>fripouille!</seg>
+                  <seg xml:id="krappd1e12051" zone="zone_13" n="MS-HRC-SB-4-2-6,[0051]">
+                     <stage>(<hi rend="u">Il sort une bobine, l'examine de tout près</hi>.)<lb rend="it"/>
+                     </stage>
+                  </seg>
+                  <seg xml:id="krappd1e12058"
+                       zone="zone_14"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-6,[0052]">Bobine ccinq.</seg>
+                  <seg xml:id="krappd1e12061" zone="zone_14" n="MS-HRC-SB-4-2-6,[0053]">
+                     <stage>(<hi rend="u">Il la pose sur la table, referme la boîte trois,<lb rend="it"/> la remet avec les autres, reprend la bobine</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12068" zone="zone_14" n="MS-HRC-SB-4-2-6,[0054]">Boîte trrois, <lb rend="it"/>bobine ccinq.</seg>
+                  <stage>(<seg xml:id="krappd1e12074" zone="zone_14" n="MS-HRC-SB-4-2-6,[0055]">
+                        <hi rend="u">Il se penche sur l'appareil, lève la tête. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12077" zone="zone_14" n="MS-HRC-SB-4-2-6,[0056]">
+                        <hi rend="u">Avec<lb rend="it"/> délectation</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12083" zone="zone_14" n="MS-HRC-SB-4-2-6,[0057]">Bobiiine!</seg>
+                  <stage>(<seg xml:id="krappd1e12089" zone="zone_14" n="MS-HRC-SB-4-2-6,[0058]">
+                        <hi rend="u">Sourire heureux. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12092"
+                          zone="zone_14"
+                          n="MS-HRC-SB-4-2-6,[0058|001]"
+                          prev="#krappd1e12089">
+                        <hi rend="u">
+                           <del type="crossout" hand="#SB" rend="blueblackink" resp="#DVH">Pause.</del>
+                        </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12095" zone="zone_14" n="MS-HRC-SB-4-2-6,[0059]">
+                        <hi rend="u">Il se penche,<lb rend="it"/> place la bobine sur l'appareil, se frotte les mains</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12101" zone="zone_14" n="MS-HRC-SB-4-2-6,[0060]">Ah!</seg>
+                  <seg xml:id="krappd1e12104" zone="zone_14" n="MS-HRC-SB-4-2-6,[0061]">
+                     <stage>(<hi rend="u">Il<lb rend="it"/> se penche sur le registre, lit l'inscription en bas de page</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12111"
+                       zone="zone_15"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-6,[0062]">Maman <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblackink"
+                          resp="#DVH"
+                          xml:id="add2-6-9"
+                          corresp="#2r">en paix</add> enfin <del type="crossout" hand="#SB" rend="blueblackink" resp="#DVH">en repos</del>...</seg>
+                  <seg xml:id="krappd1e12119"
+                       zone="zone_15"
+                       n="MS-HRC-SB-4-2-6,[0063]"
+                       style="nospacebefore">Hm...</seg>
+                  <seg xml:id="krappd1e12121"
+                       zone="zone_15"
+                       n="MS-HRC-SB-4-2-6,[0064]"
+                       style="nospacebefore">La balle noire...</seg>
+                  <stage>(<seg xml:id="krappd1e12126"
+                          zone="zone_15"
+                          n="MS-HRC-SB-4-2-6,[0065]"
+                          style="nospacebefore">
+                        <hi rend="u">Il lève la tête,<lb rend="it"/> regarde dans le vide devant lui. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12128" zone="zone_15" n="MS-HRC-SB-4-2-6,[0066]">
+                        <hi rend="u">Intrigué</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12134" zone="zone_15" n="MS-HRC-SB-4-2-6,[0067]">Balle noire?...<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12136" zone="zone_15" n="MS-HRC-SB-4-2-6,[0068]">
+                     <stage>(<hi rend="u">Il se penche de nouveau sur le registre, lit</hi>.)</stage>
+                     <add place="inline" rend="redink" hand="#SB" resp="#DVH">
+                        <metamark rendition="#redink">&#x2041;</metamark>
+                     </add>
+                  </seg>
+                  <add place="marginleft"
+                       hand="#SB"
+                       rend="red ink"
+                       resp="#DVH"
+                       xml:id="add2-6-10"
+                       corresp="#2r">
+                     <seg xml:id="krappd1e12144"
+                          rendition="#redink"
+                          n="MS-HRC-SB-4-2-6,[0069]">
+                        <metamark rendition="#redink">&#x2041;</metamark>La boniche brune ...</seg>
+                     <seg xml:id="krappd1e12147"
+                          rendition="#redink"
+                          n="MS-HRC-SB-4-2-6,[0070]">
+                        <stage>(<hi rend="u">Il lève la tête, rêvasse, se penche de nouveau sur <del type="crossout" hand="#SB" rend="red ink" resp="#DVH">l'appareil, lit.)</del> le registre, lit</hi>.)</stage>
+                     </seg>
+                  </add>
+                  <seg xml:id="krappd1e12157" zone="zone_15" n="MS-HRC-SB-4-2-6,[0071]">Légère améliora<lb rend="-it"/>tion de l'état intestinal...</seg>
+                  <seg xml:id="krappd1e12159" zone="zone_15" n="MS-HRC-SB-4-2-6,[0072]">Hm...</seg>
+                  <seg xml:id="krappd1e12161" zone="zone_15" n="MS-HRC-SB-4-2-6,[0073]">Mémorable...quoi?</seg>
+                  <seg xml:id="krappd1e12164" zone="zone_15" n="MS-HRC-SB-4-2-6,[0074]">
+                     <stage>(<hi rend="u">Il regarde<lb rend="it"/> de plus près, lit</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12171" zone="zone_15" n="MS-HRC-SB-4-2-6,[0075]">Equinoxe, mémorable équinoxe.</seg>
+                  <stage>(<seg xml:id="krappd1e12177" zone="zone_15" n="MS-HRC-SB-4-2-6,[0076]">
+                        <hi rend="u">Il lève la<lb rend="it"/> tête, regarde dans le vide devant lui. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12179" zone="zone_15" n="MS-HRC-SB-4-2-6,[0077]">
+                        <hi rend="u"> Intrigué</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12185"
+                       zone="zone_16"
+                       corresp="#2r"
+                       style="indent270px"
+                       n="MS-HRC-SB-4-2-6,[0078]">Mémorable <lb rend="it"/>équinoxe?...</seg>
+                  <stage>(<seg xml:id="krappd1e12190"
+                          zone="zone_16"
+                          n="MS-HRC-SB-4-2-6,[0079]"
+                          style="nospacebefore">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12193" zone="zone_16" n="MS-HRC-SB-4-2-6,[0080]">
+                        <hi rend="u">Il hausse les épaules, se penche de nouveau<lb rend="it"/> sur le registre, lit</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12199" zone="zone_16" n="MS-HRC-SB-4-2-6,[0081]">Adieu à l'a - <stage>(<hi rend="u">il tourne la page</hi>)</stage> - mour.<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e12210" zone="zone_16" n="MS-HRC-SB-4-2-6,[0082]">
+                     <hi rend="u">Il lève la tête, rêvasse, se penche sur l'appareil, le branche<lb rend="it"/> et prend une posture d'écoute, c'est à dire <del type="crossout" hand="#SB" rend="blueblackink" resp="#DVH">penché</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="blueblackink"
+                             resp="#DVH"
+                             xml:id="add2-6-11"
+                             corresp="#2r">le buste incliné</add> en avant,<lb rend="it"/> les coudes sur la table, la main en cornet dans la direction<lb rend="it"/> de l'appareil, le visage face à la salle</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Bande">
+               <speaker>Bande</speaker>
+               <p>
+                  <seg xml:id="krappd1e12225"
+                       zone="zone_17"
+                       corresp="#2r"
+                       n="MS-HRC-SB-4-2-6,[0083]">
+                     <stage>(<hi rend="u">voix forte, un peu solennelle, manifestement celle de Krapp<lb rend="it"/> à une époque très antérieure</hi>)</stage>.</seg>
+                  <seg xml:id="krappd1e12233" zone="zone_17" n="MS-HRC-SB-4-2-6,[0084]">Trente-neuf ans aujourd'hui, <lb rend="it"/>solide comme un -</seg>
+                  <seg n="MS-HRC-SB-4-2-6,[0085]"
+                       xml:id="krappd1e12236"
+                       zone="zone_17"
+                       zone2="zone_18"
+                       corresp="#2r,3r">
+                     <anchor type="ts" n="2r"/>
+                     <stage>(<hi rend="u">En voulant s'installer plus confortablement<lb rend="it"/> il fait tomber une des boîtes, jure, débranche l'appareil, ba<lb rend="-it"/>laye violemment boîtes et registre par terre, ramène la bande</hi>
+                     </stage>
+                     <lb rend="it"/>
+                     <anchor type="ts" n="3r"/>
+                     <pb n="3r"/>
+                     <metamark function="pagenumber">
+                        <num>3</num>
+                     </metamark>
+                     <stage>
+                        <hi rend="u">au point de départ, rebranche l'appareil, reprend sa posture</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12245" zone="zone_18" n="MS-HRC-SB-4-2-6,[0086]">Trente-neuf ans aujourd'hui, solide comme un pont, à part mon <lb rend="it"/>vieux point faible, et intellectuellement, j'ai maintenant <lb rend="it"/>tout lieu de le soupçonner, au...<stage>(<hi rend="u">il hésite</hi>)</stage>...à la crête de <lb rend="it"/>la vague - ou peu s'en faut.</seg>
+                  <seg xml:id="krappd1e12254" zone="zone_18" n="MS-HRC-SB-4-2-6,[0087]">Célébré la solennelle occasion, <lb rend="it"/>comme toutes ces dernières années, tranquillement à la Taverne.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12257"
+                       zone="zone_19"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-6,[0088]">Personne.</seg>
+                  <seg xml:id="krappd1e12260" zone="zone_19" n="MS-HRC-SB-4-2-6,[0089]">Resté assis devant le feu, les yeux fermés, à sé<lb rend="-it"/>parer le grain de la balle.</seg>
+                  <seg xml:id="krappd1e12263" zone="zone_19" n="MS-HRC-SB-4-2-6,[0090]">Jeté quelques notes sur le dos <lb rend="it"/>d'une enveloppe.</seg>
+                  <seg xml:id="krappd1e12266" zone="zone_19" n="MS-HRC-SB-4-2-6,[0091]">Heureux d'être de retour dans ma turne, dans <lb rend="it"/>mes vieilles nippes.</seg>
+                  <seg xml:id="krappd1e12269" zone="zone_19" n="MS-HRC-SB-4-2-6,[0092]">Viens de manger, j'ai regret de le dire, <lb rend="it"/>trois bananes et ne me suis abstenu d'une qua<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</add>rième qu'avec <lb rend="it"/>peine.</seg>
+                  <seg xml:id="krappd1e12272" zone="zone_19" n="MS-HRC-SB-4-2-6,[0093]">Du poison pour un homme dans mon état.</seg>
+                  <seg xml:id="krappd1e12275" zone="zone_19" n="MS-HRC-SB-4-2-6,[0094]">
+                     <stage>(<hi rend="u">Avec véhémence</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12282"
+                       zone="zone_20"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-6,[0095]">A éliminer!</seg>
+                  <seg xml:id="krappd1e12285" zone="zone_20" n="MS-HRC-SB-4-2-6,[0096]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12292" zone="zone_20" n="MS-HRC-SB-4-2-6,[0097]">Le nouvel éclairage au-dessus de ma table <lb rend="it"/>est une grande amélioration.</seg>
+                  <seg xml:id="krappd1e12295" zone="zone_20" n="MS-HRC-SB-4-2-6,[0098]">Avec toute cette obscurité autour <lb rend="it"/>de moi je me sens moins seul.</seg>
+                  <seg xml:id="krappd1e12298" zone="zone_20" n="MS-HRC-SB-4-2-6,[0099]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12305" zone="zone_20" n="MS-HRC-SB-4-2-6,[0100]">En un sens.</seg>
+                  <seg xml:id="krappd1e12308" zone="zone_20" n="MS-HRC-SB-4-2-6,[0101]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12315" zone="zone_20" n="MS-HRC-SB-4-2-6,[0102]">J'aime à me lever pour aller y faire un tour, puis revenir <lb rend="it"/>ici à...<stage>(<hi rend="u">il hésite</hi>)</stage>...moi.</seg>
+                  <seg xml:id="krappd1e12324" zone="zone_20" n="MS-HRC-SB-4-2-6,[0103]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12331" zone="zone_20" n="MS-HRC-SB-4-2-6,[0104]">Krapp.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e12336" zone="zone_20" n="MS-HRC-SB-4-2-6,[0105]">
+                        <hi rend="u">Pause.</hi>
+                        <lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e12341"
+                       zone="zone_21"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-6,[0106]">Le grain, voyons, je me <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">demane</del>
+                     <add place="supralinear" hand="#typist" rend="black ink" resp="#DVH">demande</add> ce que j'entends par là, <lb rend="it"/>j'entends...<stage>(<hi rend="u">il hésite</hi>)</stage>...je suppose que j'entends ces choses <lb rend="it"/>qui en vaudront encore la peine quand toute la poussière sera - <lb rend="it"/>quand toute <hi rend="u">ma</hi> poussière sera retombée.</seg>
+                  <seg xml:id="krappd1e12359" zone="zone_21" n="MS-HRC-SB-4-2-6,[0107]">Je ferme les yeux et <lb rend="it"/>je m'efforce de les imaginer.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e12365" zone="zone_21" n="MS-HRC-SB-4-2-6,[0108]">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12368" zone="zone_21" n="MS-HRC-SB-4-2-6,[0109]">
+                        <hi rend="u">Krapp ferme les yeux, brièvement</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e12372"
+                       zone="zone_22"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-6,[0110]">Extraordinaire silence ce soir, je tends l'oreille et n'en<lb rend="-it"/>tends pas un souffle.</seg>
+                  <seg xml:id="krappd1e12375" zone="zone_22" n="MS-HRC-SB-4-2-6,[0111]">La vieille Miss McGlome chante toujours <lb rend="it"/>à cette heure-ci.</seg>
+                  <seg xml:id="krappd1e12378" zone="zone_22" n="MS-HRC-SB-4-2-6,[0112]">Mais pas ce soir.</seg>
+                  <seg xml:id="krappd1e12381" zone="zone_22" n="MS-HRC-SB-4-2-6,[0113]">Des chansons du temps où <lb rend="it"/>elle était jeune fille, dit-elle.</seg>
+                  <seg xml:id="krappd1e12384" zone="zone_22" n="MS-HRC-SB-4-2-6,[0114]">Difficile de l'imaginer <lb rend="it"/>jeune fille.</seg>
+                  <seg xml:id="krappd1e12387" zone="zone_22" n="MS-HRC-SB-4-2-6,[0115]">Merveilleuse vieille cependant.</seg>
+                  <seg xml:id="krappd1e12390" zone="zone_22" n="MS-HRC-SB-4-2-6,[0116]">Du Connaught, <lb rend="it"/>j'ai l'impression.</seg>
+                  <seg xml:id="krappd1e12393" zone="zone_22" n="MS-HRC-SB-4-2-6,[0117]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12400" zone="zone_22" n="MS-HRC-SB-4-2-6,[0118]">Est-ce que je chanterai quand <lb rend="it"/>j'aurai son âge, si un jour j'ai son âge?</seg>
+                  <seg xml:id="krappd1e12403" zone="zone_22" n="MS-HRC-SB-4-2-6,[0119]">Non.</seg>
+                  <seg xml:id="krappd1e12406" zone="zone_22" n="MS-HRC-SB-4-2-6,[0120]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12413" zone="zone_22" n="MS-HRC-SB-4-2-6,[0121]">Est-ce <lb rend="it"/>que je chantais quand j'étais jeune garçon?</seg>
+                  <seg xml:id="krappd1e12416" zone="zone_22" n="MS-HRC-SB-4-2-6,[0122]">Non.</seg>
+                  <seg xml:id="krappd1e12419" zone="zone_22" n="MS-HRC-SB-4-2-6,[0123]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12426"
+                       zone="zone_23"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-6,[0124]">Est-ce que j'ai jamais chanté?</seg>
+                  <seg xml:id="krappd1e12429" zone="zone_23" n="MS-HRC-SB-4-2-6,[0125]">Non.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e12434" zone="zone_23" n="MS-HRC-SB-4-2-6,[0126]">
+                        <hi rend="u">Pause.</hi>
+                        <lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e12439" zone="zone_23" n="MS-HRC-SB-4-2-6,[0127]">Viens juste d'écouter une vieille année, des passages au <lb rend="it"/>hasard.</seg>
+                  <seg xml:id="krappd1e12442" zone="zone_23" n="MS-HRC-SB-4-2-6,[0128]">Je n'ai pas vérifié dans le livre, mais ça doit nous <lb rend="it"/>ramener à dix ou douze ans en arrière - au moins.</seg>
+                  <seg xml:id="krappd1e12445" zone="zone_23" n="MS-HRC-SB-4-2-6,[0129]">Je crois <lb rend="it"/>qu'à ce moment-là je vivais encore avec Bianca dans Kedar <lb rend="it"/>Street, enfin par à-coups.</seg>
+                  <seg xml:id="krappd1e12448" zone="zone_23" n="MS-HRC-SB-4-2-6,[0130]">Bien sorti de ça, ah foutre oui!<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12451"
+                       zone="zone_24"
+                       corresp="#3r"
+                       n="MS-HRC-SB-4-2-6,[0131]">C'était sans espoir.</seg>
+                  <seg xml:id="krappd1e12454" zone="zone_24" n="MS-HRC-SB-4-2-6,[0132]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12461" zone="zone_24" n="MS-HRC-SB-4-2-6,[0133]">Pas grand'chose sur elle, à <lb rend="it"/>part un hommage à ses yeux.</seg>
+                  <seg xml:id="krappd1e12464" zone="zone_24" n="MS-HRC-SB-4-2-6,[0134]">Enthousi<seg type="transposition" rendition="#redink" xml:id="trans1">s</seg>
+                     <seg type="transposition" rendition="#redink" xml:id="trans2">a</seg>te. <note resp="#DVH">\'Enthousisate\' changed to \'Enthousiaste\' by way of a wavy line.</note>
+                  </seg>
+                  <seg xml:id="krappd1e12469" zone="zone_24" n="MS-HRC-SB-4-2-6,[0135]">Je les ai revus <choice>
+                        <sic>dout</sic>
+                        <corr>tout</corr>
+                     </choice>
+                     <lb rend="it"/>à coup.</seg>
+                  <seg xml:id="krappd1e12475" zone="zone_24" n="MS-HRC-SB-4-2-6,[0136]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12482" zone="zone_24" n="MS-HRC-SB-4-2-6,[0137]">Incomparables!</seg>
+                  <seg xml:id="krappd1e12485" zone="zone_24" n="MS-HRC-SB-4-2-6,[0138]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12492" zone="zone_24" n="MS-HRC-SB-4-2-6,[0139]">Enfin...</seg>
+                  <seg xml:id="krappd1e12494"
+                       zone="zone_24"
+                       n="MS-HRC-SB-4-2-6,[0140]"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg n="MS-HRC-SB-4-2-6,[0141]"
+                       xml:id="krappd1e12501"
+                       zone="zone_24"
+                       zone2="zone_25"
+                       corresp="#3r,4r">
+                     <anchor type="ts" n="3r"/>Sinistres ces exhumations, mais je les trouve souvent - <stage>(<hi rend="u">Krapp<lb rend="it"/> débranche l'appareil, rêvasse, rebranche l'appareil</hi>)</stage> - utiles <lb rend="it"/>
+                     <anchor type="ts" n="4r"/>
+                     <pb n="4r"/>
+                     <metamark function="pagenumber">
+                        <num>4</num>
+                     </metamark>
+
+avant de me lancer dans un nouveau...<stage>(<hi rend="u">il hésite</hi>)</stage>...retour en <lb rend="it"/>arrière.</seg>
+                  <seg xml:id="krappd1e12518" zone="zone_25" n="MS-HRC-SB-4-2-6,[0142]">Difficile de croire que j'aie jamais été ce petit <lb rend="it"/>crétin.</seg>
+                  <seg xml:id="krappd1e12521" zone="zone_25" n="MS-HRC-SB-4-2-6,[0143]">Cette voix!</seg>
+                  <seg xml:id="krappd1e12524" zone="zone_25" n="MS-HRC-SB-4-2-6,[0144]">Jésus!</seg>
+                  <seg xml:id="krappd1e12527" zone="zone_25" n="MS-HRC-SB-4-2-6,[0145]">Et ces aspirations!</seg>
+                  <seg xml:id="krappd1e12530" zone="zone_25" n="MS-HRC-SB-4-2-6,[0146]">
+                     <stage>(<hi rend="u">Bref rire auquel<lb rend="it"/> Krapp se joint</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12537" zone="zone_25" n="MS-HRC-SB-4-2-6,[0147]">Et ces résolutions!</seg>
+                  <seg xml:id="krappd1e12540" zone="zone_25" n="MS-HRC-SB-4-2-6,[0148]">
+                     <stage>(<hi rend="u">Bref rire auquel Krapp se<lb rend="it"/> joint</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12547" zone="zone_25" n="MS-HRC-SB-4-2-6,[0149]">Boire moins, notamment.</seg>
+                  <seg xml:id="krappd1e12550" zone="zone_25" n="MS-HRC-SB-4-2-6,[0150]">
+                     <stage>(<hi rend="u">Bref rire de Krapp seul</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12557"
+                       zone="zone_26"
+                       corresp="#4r"
+                       style="indent300px"
+                       n="MS-HRC-SB-4-2-6,[0151]">Des <lb rend="it"/>statistiques.</seg>
+                  <seg xml:id="krappd1e12560" zone="zone_26" n="MS-HRC-SB-4-2-6,[0152]">Mille sept cents heures sur les huit mille et <lb rend="it"/>
+                     <choice>
+                        <sic>quelque</sic>
+                        <corr>quelques</corr>
+                     </choice> précédentes volatilisées rien que dans <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">d</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">l</add>es débits de <lb rend="it"/>boisson.</seg>
+                  <seg xml:id="krappd1e12566" zone="zone_26" n="MS-HRC-SB-4-2-6,[0153]">Plus de 20%, disons 40% de sa vie de veille.</seg>
+                  <seg xml:id="krappd1e12569" zone="zone_26" n="MS-HRC-SB-4-2-6,[0154]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12576" zone="zone_26" n="MS-HRC-SB-4-2-6,[0155]">Plans pour une vie sexuelle moins...<stage>(<hi rend="u">il hésite</hi>)</stage>...absorbante.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12585"
+                       zone="zone_27"
+                       corresp="#4r"
+                       n="MS-HRC-SB-4-2-6,[0156]">Dernière maladie de son père.</seg>
+                  <seg xml:id="krappd1e12588" zone="zone_27" n="MS-HRC-SB-4-2-6,[0157]">Poursuite toujours plus <del type="crossout" hand="#typist" resp="#DVH">languissant</del>
+                     <lb rend="it"/>languissante du bonheur.</seg>
+                  <seg xml:id="krappd1e12594" zone="zone_27" n="MS-HRC-SB-4-2-6,[0158]">Fiasco des laxatifs.</seg>
+                  <seg xml:id="krappd1e12597" zone="zone_27" n="MS-HRC-SB-4-2-6,[0159]">Ricanements sur <lb rend="it"/>ce qu'il appelle sa jeunesse et action de grâces qu'elle soit <lb rend="it"/>finie.</seg>
+                  <seg xml:id="krappd1e12600" zone="zone_27" n="MS-HRC-SB-4-2-6,[0160]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12607" zone="zone_27" n="MS-HRC-SB-4-2-6,[0161]">Fausse note là.</seg>
+                  <seg xml:id="krappd1e12610" zone="zone_27" n="MS-HRC-SB-4-2-6,[0162]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12617" zone="zone_27" n="MS-HRC-SB-4-2-6,[0163]">Ombre de l'opus... <lb rend="it"/>magnum.</seg>
+                  <seg xml:id="krappd1e12620" zone="zone_27" n="MS-HRC-SB-4-2-6,[0164]">Et pour finir un - <stage>(<hi rend="u">rire bref</hi>)</stage> - jappement à l'adresse <lb rend="it"/>de la Providence.</seg>
+                  <seg xml:id="krappd1e12629" zone="zone_27" n="MS-HRC-SB-4-2-6,[0165]">
+                     <stage>(<hi rend="u">Rire prolongé auquel Krapp se joint</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12636" zone="zone_27" n="MS-HRC-SB-4-2-6,[0166]">Que <lb rend="it"/>reste-t-il de toute cette misère?</seg>
+                  <seg xml:id="krappd1e12639" zone="zone_27" n="MS-HRC-SB-4-2-6,[0167]">Une fille dans un <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">manteau</del>
+                     <lb rend="it"/>vieux manteau vert, sur un quai de gare?</seg>
+                  <seg xml:id="krappd1e12645" zone="zone_27" n="MS-HRC-SB-4-2-6,[0168]">Non?<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e12650"
+                          zone="zone_28"
+                          corresp="#4r"
+                          n="MS-HRC-SB-4-2-6,[0169]">
+                        <hi rend="u">Pause.</hi>
+                        <lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e12655" zone="zone_28" n="MS-HRC-SB-4-2-6,[0170]">Quand je regarde -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e12661" zone="zone_28" n="MS-HRC-SB-4-2-6,[0171]">
+                     <hi rend="u">Krapp débranche l'appareil, rêvasse, regarde sa montre, se lève<lb rend="it"/> et s'en va au fond de la scène dans l'obscurité. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12664" zone="zone_28" n="MS-HRC-SB-4-2-6,[0172]">
+                     <hi rend="u">Dix secondes</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12667" zone="zone_28" n="MS-HRC-SB-4-2-6,[0173]">
+                     <hi rend="u">Bruit de bouchon qu'on tire. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12670" zone="zone_28" n="MS-HRC-SB-4-2-6,[0174]">
+                     <hi rend="u">Dix secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12673" zone="zone_28" n="MS-HRC-SB-4-2-6,[0175]">
+                     <hi rend="u">Second bouchon. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12676" zone="zone_28" n="MS-HRC-SB-4-2-6,[0176]">
+                     <hi rend="u">Dix<lb rend="it"/> secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12679" zone="zone_28" n="MS-HRC-SB-4-2-6,[0177]">
+                     <hi rend="u">Troisième bouchon. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12682" zone="zone_28" n="MS-HRC-SB-4-2-6,[0179]">
+                     <hi rend="u">Bribe soudain<add place="inline" hand="#SB" rend="red ink" resp="#DVH">e</add> de chant chevrotant</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="krappd1e12692"
+                       zone="zone_29"
+                       corresp="#4r"
+                       n="MS-HRC-SB-4-2-6,[0180]">
+                     <stage>(<hi rend="u">chantant</hi>).</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12699" zone="zone_29" n="MS-HRC-SB-4-2-6,[0181]">
+L'ombre descend de nos montagnes, <lb/>
+L'azur du ciel va se ternir, <lb/>
+Le bruit se tait -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e12713" zone="zone_29" n="MS-HRC-SB-4-2-6,[0182]">
+                     <hi rend="u">Accès de toux. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12716" zone="zone_29" n="MS-HRC-SB-4-2-6,[0183]">
+                     <hi rend="u">Il revient dans la lumière, s'asseoit, s'essuie<del type="crossout" hand="#typist" rend="black ink" resp="#DVH">s</del>
+                        <lb rend="it"/> la bouche, rebranche l'appareil, reprend sa posture d'écoute</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Bande">
+               <speaker>Bande</speaker>
+               <p>
+                  <seg xml:id="krappd1e12727"
+                       zone="zone_30"
+                       corresp="#4r"
+                       n="MS-HRC-SB-4-2-6,[0184]">- en arrière vers l'année écoulée, avec peut-être - je l'espère - <lb rend="it"/>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="red ink"
+                          resp="#DVH"
+                          xml:id="add2-6-12"
+                          corresp="#4r">déjà</add> quelque chose de mon vieux regard à venir, il y a naturellement <lb rend="it"/>la maison du canal où maman s'éteignait, dans l'automne finis<lb rend="-it"/>sant, après une longue viduité <stage>(<hi rend="u">Krapp sursaute</hi>)</stage>, et le -</seg>
+                  <seg xml:id="krappd1e12739" zone="zone_30" n="MS-HRC-SB-4-2-6,[0185]">
+                     <stage>(<hi rend="u">Krapp<lb rend="it"/> débranche l'appareil, ramène la bande un peu en arrière, approche<lb rend="it"/> l'oreille de l'appareil, le rebranche</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12746" zone="zone_30" n="MS-HRC-SB-4-2-6,[0186]">- s'éteignait, dans l'au<lb rend="-it"/>tomne finissant, après une longue viduité, et le -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e12753"
+                       zone="zone_31"
+                       corresp="#4r"
+                       n="MS-HRC-SB-4-2-6,[0187]">
+                     <hi rend="u">Krapp débranche l'appareil, lève la tête, regarde dans le vide<lb rend="it"/> devant lui. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12756" zone="zone_31" n="MS-HRC-SB-4-2-6,[0188]">
+                     <hi rend="u">Ses lèvres remuent sans bruit en formant les syl<lb rend="-it"/>labes de viduité. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12759" zone="zone_31" n="MS-HRC-SB-4-2-6,[0190]">
+                     <hi rend="u">Il se lève, s'en va au fond de la scène dans<lb rend="it"/> l'obscurité, revient avec un énorme dictionnaire, s'asseoit, le<lb rend="it"/> pose sur la table et cherche le mot</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="krappd1e12769"
+                       zone="zone_32"
+                       corresp="#4r"
+                       n="MS-HRC-SB-4-2-6,[0191]">
+                     <stage>(<hi rend="u">lisant dans le dictionnaire</hi>)</stage>.</seg>
+                  <seg xml:id="krappd1e12777" zone="zone_32" n="MS-HRC-SB-4-2-6,[0192]">Etat - ou condition - de qui est - <lb rend="it"/>ou demeure - veuf - ou veuve.</seg>
+                  <stage>(<seg xml:id="krappd1e12782" zone="zone_32" n="MS-HRC-SB-4-2-6,[0193]">
+                        <hi rend="u">Il lève la tête. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12787" zone="zone_32" n="MS-HRC-SB-4-2-6,[0194]">
+                        <hi rend="u">Intrigué</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12793" zone="zone_32" n="MS-HRC-SB-4-2-6,[0195]">Qui <lb rend="it"/>
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">
+                        <hi rend="u">est - ou dem</hi>eure?...<stage>(Pause. Il se penche de nouveau sur le dicti</stage>
+                     </del>
+                     <lb rend="it"/>est - ou demeure?...</seg>
+                  <stage>(<seg xml:id="krappd1e12806"
+                          zone="zone_32"
+                          n="MS-HRC-SB-4-2-6,[0196]"
+                          style="nospacebefore">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg n="MS-HRC-SB-4-2-6,[0197]"
+                          xml:id="krappd1e12809"
+                          zone="zone_32"
+                          zone2="zone_33"
+                          corresp="#4r,5r">
+                        <anchor type="ts" n="4r"/>
+                        <hi rend="u">Il se penche de nouveau sur le</hi>
+                        <lb rend="it"/>
+                        <anchor type="ts" n="5r"/>
+                        <pb n="5r"/>
+                        <metamark function="pagenumber">
+                           <num>5</num>
+                        </metamark>
+                        <hi rend="u">dictionnaire, tourne les pages</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12817"
+                       zone="zone_33"
+                       n="MS-HRC-SB-4-2-6,[0197|001]"
+                       prev="#krappd1e12809">Veuf...veuf...veuvage...<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12819" zone="zone_33" n="MS-HRC-SB-4-2-6,[0198]">
+                     <stage>(<hi rend="u">Lisant</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12826" zone="zone_33" n="MS-HRC-SB-4-2-6,[0199]">Les voiles épais du veuvage...</seg>
+                  <seg xml:id="krappd1e12828"
+                       zone="zone_33"
+                       n="MS-HRC-SB-4-2-6,[0200]"
+                       style="nospacebefore">S<del type="crossout" hand="#SB" rend="red ink" resp="#DVH">i</del>
+                     <add place="marginright"
+                          hand="#SB"
+                          rend="red ink"
+                          resp="#DVH"
+                          xml:id="add2-6-13"
+                          corresp="#5r">e</add> dit aussi d'un <lb rend="it"/>animal, particulièrement d'un oiseau...L'oiseau-veuve ou <lb rend="it"/>tisserin...</seg>
+                  <seg xml:id="krappd1e12837"
+                       zone="zone_33"
+                       n="MS-HRC-SB-4-2-6,[0201]"
+                       style="nospacebefore">Plumage noir des mâles...</seg>
+                  <stage>(<seg xml:id="krappd1e12841"
+                          zone="zone_33"
+                          n="MS-HRC-SB-4-2-6,[0202]"
+                          style="nospacebefore">
+                        <hi rend="u">Il lève la tête. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e12844" zone="zone_33" n="MS-HRC-SB-4-2-6,[0203]">
+                        <hi rend="u">Avec</hi>
+                        <lb rend="it"/>
+                        <hi rend="redunderline">délectation</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e12850" zone="zone_33" n="MS-HRC-SB-4-2-6,[0204]">L'oiseau-veuve!<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e12856" zone="zone_33" n="MS-HRC-SB-4-2-6,[0205]">
+                     <hi rend="u">Pause. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e12859" zone="zone_33" n="MS-HRC-SB-4-2-6,[0206]">
+                     <hi rend="u">Il ferme le dictionnaire, rebranche l'appareil, reprend<lb rend="it"/> sa posture d'écoute</hi>.</seg>
+               </p>
+            </stage>
+            <sp who="#Bande">
+               <speaker>Bande</speaker>
+               <p>
+                  <seg xml:id="krappd1e12866"
+                       zone="zone_34"
+                       corresp="#5r"
+                       n="MS-HRC-SB-4-2-6,[0207]"> - banc près du bief d'où je pouvais voir sa vitre.</seg>
+                  <seg xml:id="krappd1e12869" zone="zone_34" n="MS-HRC-SB-4-2-6,[0208]">Je restais <lb rend="it"/>là, assis dans le vent cinglant, souhaitant qu'elle en finisse.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12872" zone="zone_34" n="MS-HRC-SB-4-2-6,[0209]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12879" zone="zone_34" n="MS-HRC-SB-4-2-6,[0210]">Presque personne, quelques habitués seulement, des <lb rend="it"/>boniches, des enfants, des vieillards, des chiens. J'ai fini <lb rend="it"/>par bien les connaître - oh je veux dire de vue bien sûr!</seg>
+                  <seg xml:id="krappd1e12882"
+                       zone="zone_35"
+                       corresp="#5r"
+                       style="indent320px"
+                       n="MS-HRC-SB-4-2-6,[0211]">Je <lb rend="it"/>me rappelle surtout <del type="crossout" hand="#SB" rend="red ink" resp="#DVH">d'</del>une jeune beauté brune, toute blancheur <lb rend="it"/>et amidon, une poitrine incomparable, qui poussait un grand <lb rend="it"/>landau à capote noire, d'un funèbre!</seg>
+                  <seg xml:id="krappd1e12888" zone="zone_35" n="MS-HRC-SB-4-2-6,[0212]">Chaque fois que je re<lb rend="-it"/>gardais dans sa direction elle avait les yeux sur moi.</seg>
+                  <seg xml:id="krappd1e12891" zone="zone_35" n="MS-HRC-SB-4-2-6,[0213]">Et pour<lb rend="-it"/>tant quand j'ai eu la hardiesse de lui adresser la parole - <lb rend="it"/>sans avoir été présenté - elle a menacé d'appeler un agent.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12894"
+                       zone="zone_36"
+                       corresp="#5r"
+                       n="MS-HRC-SB-4-2-6,[0214]">Comme si j'en voulais à sa vertu!</seg>
+                  <seg xml:id="krappd1e12897" zone="zone_36" n="MS-HRC-SB-4-2-6,[0215]">
+                     <stage>(<hi rend="u">Rire</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12904" zone="zone_36" n="MS-HRC-SB-4-2-6,[0217]">Le visage qu'elle <lb rend="it"/>avait!</seg>
+                  <seg xml:id="krappd1e12907" zone="zone_36" n="MS-HRC-SB-4-2-6,[0218]">Les yeux!</seg>
+                  <seg xml:id="krappd1e12910" zone="zone_36" n="MS-HRC-SB-4-2-6,[0219]">Comme des...<stage>(<hi rend="u">il hésite</hi>)</stage>...chrysolithes!<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e12919" zone="zone_36" n="MS-HRC-SB-4-2-6,[0220]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12926" zone="zone_36" n="MS-HRC-SB-4-2-6,[0221]">Enfin...</seg>
+                  <seg xml:id="krappd1e12928"
+                       zone="zone_36"
+                       n="MS-HRC-SB-4-2-6,[0222]"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12935" zone="zone_36" n="MS-HRC-SB-4-2-6,[0223]">J'étais là quand - <stage>(<hi rend="u">Krapp débranche<lb rend="it"/> l'appareil, rêvasse, rebranche l'appareil</hi>)</stage> - le store s'est <lb rend="it"/>
+                     <note>x pencilled in left margin</note>baissé, un de ces machins marron sale qui s'enroulent, là en <lb rend="it"/>train de jeter une balle pour un petit chien blanc, ça s'est <lb rend="it"/>trouvé comme ça.</seg>
+                  <seg xml:id="krappd1e12944"
+                       zone="zone_37"
+                       corresp="#5r"
+                       style="indent95px"
+                       n="MS-HRC-SB-4-2-6,[0224]">J'ai levé la tête, Dieu sait pourquoi, et <lb rend="it"/>voilà, ça y était.</seg>
+                  <seg xml:id="krappd1e12947" zone="zone_37" n="MS-HRC-SB-4-2-6,[0225]">Une affaire finie, enfin.</seg>
+                  <seg xml:id="krappd1e12950" zone="zone_37" n="MS-HRC-SB-4-2-6,[0226]">Je suis resté là <lb rend="it"/>quelques instants encore, assis sur le banc, avec la balle dans <lb rend="it"/>
+                     <note>x pencilled in left margin</note>la main et le chien qui jappait après et la mendiait de la <lb rend="it"/>patte.</seg>
+                  <seg xml:id="krappd1e12953" zone="zone_37" n="MS-HRC-SB-4-2-6,[0227]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12960" zone="zone_37" n="MS-HRC-SB-4-2-6,[0228]">Instants.</seg>
+                  <seg xml:id="krappd1e12963"
+                       zone="zone_37"
+                       n="MS-HRC-SB-4-2-6,[0228|001]"
+                       prev="#krappd1e12960">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12970" zone="zone_37" n="MS-HRC-SB-4-2-6,[0229]">Ses instants à elle, mes <lb rend="it"/>instants à moi.</seg>
+                  <seg xml:id="krappd1e12973" zone="zone_37" n="MS-HRC-SB-4-2-6,[0230]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12980" zone="zone_37" n="MS-HRC-SB-4-2-6,[0231]">Les instants du chien.</seg>
+                  <seg xml:id="krappd1e12983" zone="zone_37" n="MS-HRC-SB-4-2-6,[0232]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e12990"
+                       zone="zone_38"
+                       corresp="#5r"
+                       style="indent300px"
+                       n="MS-HRC-SB-4-2-6,[0233]">A la <lb rend="it"/>fin je la lui ai <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">jeté</del> donné<add place="inline" hand="#SB" rend="red ink" resp="#DVH">e</add> et il l'a prise dans sa gueule, <lb rend="it"/>doucement, doucement.</seg>
+                  <seg xml:id="krappd1e12999" zone="zone_38" n="MS-HRC-SB-4-2-6,[0234]">Une petite balle de caoutchouc, vieille, <lb rend="it"/>noire, pleine, dure.</seg>
+                  <seg xml:id="krappd1e13002" zone="zone_38" n="MS-HRC-SB-4-2-6,[0235]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13009" zone="zone_38" n="MS-HRC-SB-4-2-6,[0236]">Je la senti<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" rend="black ink" hand="#typist" resp="#DVH">r</add>ai, dans ma main, <lb rend="it"/>jusqu'au jour de ma mort.</seg>
+                  <seg xml:id="krappd1e13012" zone="zone_38" n="MS-HRC-SB-4-2-6,[0237]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13019" zone="zone_38" n="MS-HRC-SB-4-2-6,[0238]">J'aurais pu la garder.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13022" zone="zone_38" n="MS-HRC-SB-4-2-6,[0239]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13029" zone="zone_38" n="MS-HRC-SB-4-2-6,[0240]">Mais je l'ai donnée au chien.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13034"
+                          zone="zone_39"
+                          corresp="#5r"
+                          n="MS-HRC-SB-4-2-6,[0241]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13039" zone="zone_39" n="MS-HRC-SB-4-2-6,[0242]">Enfin...<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13044" zone="zone_39" n="MS-HRC-SB-4-2-6,[0243]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13049" zone="zone_39" n="MS-HRC-SB-4-2-6,[0244]">Spirituellement une année on ne peut plus noire et pauvre <lb rend="it"/>jusqu'<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">ç</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">à</add> cette mémorable nuit de <choice>
+                        <sic>Mars</sic>
+                        <corr>mars</corr>
+                     </choice>, au bout de la jetée, <lb rend="it"/>dans la rafale, je n'oublierai jamais, où tout m'est devenu <lb rend="it"/>clair.</seg>
+                  <seg xml:id="krappd1e13055" zone="zone_39" n="MS-HRC-SB-4-2-6,[0245]">La vision, enfin.</seg>
+                  <seg xml:id="krappd1e13058"
+                       zone="zone_40"
+                       corresp="#5r"
+                       style="indent100px"
+                       n="MS-HRC-SB-4-2-6,[0246]">Voilà, j'imagine, ce que j'ai surtout <lb rend="it"/>à enregistrer ce soir, en prévision du jour où mon <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">travail</del>
+                     <lb rend="it"/>labeur sera...<stage>(<hi rend="u">il hésite</hi>)</stage>...consumé et <del type="crossout" hand="#SB" rend="blue ink" resp="#DVH">que</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blue ink"
+                          resp="#DVH"
+                          xml:id="add2-6-14"
+                          corresp="#5r">où <metamark>H</metamark>
+                     </add> je n'aurai peut-être <lb rend="it"/>plus aucun souvenir, ni bon ni mauvais, du miracle qui...<stage>(<hi rend="u">il<lb rend="it"/> hésite</hi>)</stage>...du feu qui l'avait embrasé.</seg>
+                  <seg xml:id="krappd1e13084" zone="zone_40" n="MS-HRC-SB-4-2-6,[0247]">Ce que soudain j'ai vu <lb rend="it"/>alors, c'était que la croyance qui avait guidé toute ma vie, <lb rend="it"/>à savoir -</seg>
+                  <seg n="MS-HRC-SB-4-2-6,[0248]"
+                       xml:id="krappd1e13087"
+                       zone="zone_40"
+                       zone2="zone_41"
+                       corresp="#5r,6r">
+                     <anchor type="ts" n="5r"/>
+                     <stage>(<hi rend="u">Krapp débranche impatiemment l'appareil, fait avan<lb rend="-it"/>
+                        </hi>
+                     </stage>
+                     <anchor type="ts" n="6r"/>
+                     <pb n="6r"/>
+                     <metamark function="pagenumber">
+                        <num>6</num>
+                     </metamark>
+                     <stage>
+                        <hi rend="u">cer la bande, rebranche l'appareil</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13096" zone="zone_41" n="MS-HRC-SB-4-2-6,[0249]">- grands rochers de <lb rend="it"/>granit et l'écume qui jaillissait dans la lumière du phare <lb rend="it"/>et l'anémomètre qui tourbillonnait comme une hélice, clair <lb rend="it"/>pour moi enfin que l'obscurité que je m'étais toujours acharné <lb rend="it"/>à refouler est en réalité mon meilleur -</seg>
+                  <seg xml:id="krappd1e13099"
+                       zone="zone_42"
+                       corresp="#6r"
+                       style="indent200px"
+                       n="MS-HRC-SB-4-2-6,[0250]">
+                     <stage>(<hi rend="u">Krapp débranche<lb rend="it"/> impatiemment l'appareil, fait avancer la bande, rebranche<lb rend="it"/> l'appareil</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13106" zone="zone_42" n="MS-HRC-SB-4-2-6,[0251]">- indestructible association jusqu'au dernier <lb rend="it"/>soupir de la tempête et de la nuit avec la lumière de l'en<lb rend="-it"/>tendement et le feu -</seg>
+                  <seg xml:id="krappd1e13109" zone="zone_42" n="MS-HRC-SB-4-2-6,[0252]">
+                     <stage>(<hi rend="u">Krapp jure, débranche l'appareil, fait<lb rend="it"/> avancer la bande, rebranche l'appareil</hi>)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13116"
+                       zone="zone_43"
+                       corresp="#6r"
+                       style="indent200px"
+                       n="MS-HRC-SB-4-2-6,[0253]">- mon visage dans ses <lb rend="it"/>seins et ma main sur elle.</seg>
+                  <seg xml:id="krappd1e13119" zone="zone_43" n="MS-HRC-SB-4-2-6,[0254]">Nous restions là, couchés, sans <lb rend="it"/>remuer.</seg>
+                  <seg xml:id="krappd1e13122" zone="zone_43" n="MS-HRC-SB-4-2-6,[0255]">Mais, sous nous, tout remuait, et nous remuait, douce<lb rend="-it"/>ment, de haut en bas, et d'un côté à l'autre.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13127" zone="zone_43" n="MS-HRC-SB-4-2-6,[0256]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13132"
+                       zone="zone_44"
+                       corresp="#6r"
+                       n="MS-HRC-SB-4-2-6,[0257]">Passé minuit.</seg>
+                  <seg xml:id="krappd1e13135" zone="zone_44" n="MS-HRC-SB-4-2-6,[0258]">Jamais entendu pareil silence.</seg>
+                  <seg xml:id="krappd1e13138" zone="zone_44" n="MS-HRC-SB-4-2-6,[0259]">La terre pourrait <lb rend="it"/>être inhabitée.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13143" zone="zone_44" n="MS-HRC-SB-4-2-6,[0260]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13148" zone="zone_44" n="MS-HRC-SB-4-2-6,[0261]">Ici je termine -<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13153" zone="zone_44" n="MS-HRC-SB-4-2-6,[0262]">
+                        <hi rend="u">Krapp débranche l'appareil, ramène la bande en arrière, re<lb rend="-it"/>branche l'appareil</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13158"
+                       zone="zone_45"
+                       corresp="#6r"
+                       n="MS-HRC-SB-4-2-6,[0263]">- le haut du lac, avec la barque, nagé près de la rive, puis <lb rend="it"/>poussé la barque au large et laissé aller à la dérive.</seg>
+                  <seg xml:id="krappd1e13161" zone="zone_45" n="MS-HRC-SB-4-2-6,[0264]">Elle <lb rend="it"/>était couchée sur les planches du fond, les mains sous la tête <lb rend="it"/>et les yeux fermés.</seg>
+                  <seg xml:id="krappd1e13164" zone="zone_45" n="MS-HRC-SB-4-2-6,[0265]">Soleil flamboyant, un brin de brise, l'eau <lb rend="it"/>un peu clapoteuse comme je l'aime.</seg>
+                  <seg xml:id="krappd1e13167" zone="zone_45" n="MS-HRC-SB-4-2-6,[0266]">J'ai remarqué une égratignu<lb rend="-it"/>re sur sa cuisse et lui ai demandé comment elle se l'était <lb rend="it"/>faite.</seg>
+                  <seg xml:id="krappd1e13170"
+                       zone="zone_46"
+                       corresp="#6r"
+                       style="indent50px"
+                       n="MS-HRC-SB-4-2-6,[0267]">En cueillant des groseilles à maquereau, m'a-t-elle <lb rend="it"/>répondu.</seg>
+                  <seg xml:id="krappd1e13173" zone="zone_46" n="MS-HRC-SB-4-2-6,[0268]">J'ai dit encore que ça me semblait sans espoir et <lb rend="it"/>pas la peine de continuer et elle a fait oui sans ouvrir les <lb rend="it"/>yeux.</seg>
+                  <seg xml:id="krappd1e13176" zone="zone_46" n="MS-HRC-SB-4-2-6,[0269]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13183" zone="zone_46" n="MS-HRC-SB-4-2-6,[0270]">Je lui ai demandé de me regarder et après <lb rend="it"/>quelques instants - <stage>(<hi rend="u">pause</hi>)</stage> - après quelques instants elle <lb rend="it"/>l'a fait, mais les yeux comme des fentes à cause du soleil.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13192"
+                       zone="zone_47"
+                       corresp="#6r"
+                       n="MS-HRC-SB-4-2-6,[0271]">Je me suis penché sur elle pour qu'ils soient dans l'ombre et <lb rend="it"/>ils se sont ouverts.</seg>
+                  <seg xml:id="krappd1e13195" zone="zone_47" n="MS-HRC-SB-4-2-6,[0272]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13202" zone="zone_47" n="MS-HRC-SB-4-2-6,[0274]">M'ont laissé entrer.</seg>
+                  <seg xml:id="krappd1e13205" zone="zone_47" n="MS-HRC-SB-4-2-6,[0275]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13212" zone="zone_47" n="MS-HRC-SB-4-2-6,[0276]">Nous dérivions parmi les roseaux et la barque s'est coincée.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13215" zone="zone_47" n="MS-HRC-SB-4-2-6,[0277]">Comme ils se pliaient, avec un soupir, devant la proue!</seg>
+                  <seg xml:id="krappd1e13218" zone="zone_47" n="MS-HRC-SB-4-2-6,[0278]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13225" zone="zone_47" n="MS-HRC-SB-4-2-6,[0279]">Je me suis coulé sur elle, mon visage dans ses seins et ma main <lb rend="it"/>sur elle.</seg>
+                  <seg xml:id="krappd1e13228" zone="zone_47" n="MS-HRC-SB-4-2-6,[0280]">Nous restions là, couchés, sans remuer.</seg>
+                  <seg xml:id="krappd1e13231" zone="zone_47" n="MS-HRC-SB-4-2-6,[0281]">Mais, sous <lb rend="it"/>nous, tout remuait, et nous remuait, doucement, de haut en bas, <lb rend="it"/>et d'un côté à l'autre.</seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13236"
+                          zone="zone_48"
+                          corresp="#6r"
+                          n="MS-HRC-SB-4-2-6,[0282]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13241" zone="zone_48" n="MS-HRC-SB-4-2-6,[0284]">Jamais entendu -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e13247" zone="zone_48" n="MS-HRC-SB-4-2-6,[0285]">
+                     <hi rend="u">Krapp débranche l'appareil, rêvasse. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13250" zone="zone_48" n="MS-HRC-SB-4-2-6,[0286]">
+                     <hi rend="u">Finalement il farfouille<lb rend="it"/> dans ses poches, rencontre la banane, la sort, l'examine de<lb rend="it"/> tout près, la remet, farfouille de nouveau, sort l'enveloppe,<lb rend="it"/> farfouille de nouveau, remet l'enveloppe, regarde sa montre, se<lb rend="it"/> lève et s'en <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">f</del>
+                        <add place="overwritten" rend="black ink" hand="#typist" resp="#DVH">v</add>a au fond de la scène dans l'obscurité. </hi>
+                  </seg>
+                  <seg n="MS-HRC-SB-4-2-6,[0287]"
+                       xml:id="krappd1e13253"
+                       zone="zone_48"
+                       zone2="zone_49"
+                       corresp="#6r,7r">
+                     <anchor type="ts" n="6r"/>
+                     <hi rend="u">Dix </hi>
+                     <lb rend="it"/>
+                     <anchor type="ts" n="7r"/>
+                     <pb n="7r"/>
+                     <metamark function="pagenumber">
+                        <num>7</num>
+                     </metamark>
+                     <hi rend="u">secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13258" zone="zone_49" n="MS-HRC-SB-4-2-6,[0288]">
+                     <hi rend="u">Bruit de bouteille contre du verre. Puis bref bruit<lb rend="it"/> de siphon. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13264" zone="zone_49" n="MS-HRC-SB-4-2-6,[0289]">
+                     <hi rend="u">Dix secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13267" zone="zone_49" n="MS-HRC-SB-4-2-6,[0290]">
+                     <hi rend="u">De nouveau la bouteille contre le<lb rend="it"/> verre, sans plus. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13270" zone="zone_49" n="MS-HRC-SB-4-2-6,[0291]">
+                     <hi rend="u">Dix secondes. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13273"
+                       zone="zone_50"
+                       corresp="#7r"
+                       style="indent150px"
+                       n="MS-HRC-SB-4-2-6,[0292]">
+                     <hi rend="u">Il revient d'un pas mal assuré<lb rend="it"/> dans la lumière, va vers le devant de la table, sort ses clefs,<lb rend="it"/> les élève à hauteur des yeux, choisit une clef, fait jouer la<lb rend="it"/> serrure du premier tiroir, <del type="crossout" hand="#SB" rend="blueblack ink" resp="#DVH">le tire,</del> regarde dedans, y promène<lb rend="it"/> la main, en sort une bobine, l'examine de tout près, referme<lb rend="it"/> le tiroir à clef, remet les clefs dans sa poche, va s'asseoir,<lb rend="it"/> enlève la bobine de l'appareil, la pose sur le dictionnaire,<lb rend="it"/> place la bobine vierge sur l'appareil, sort l'enveloppe de sa<lb rend="it"/> poche, en consulte l'envers, la pose sur la table, rêvasse,<lb rend="it"/> branche l'appareil, s'éclaircit la gorge et commence à enre<lb rend="-it"/>gistrer</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="krappd1e13284"
+                       zone="zone_51"
+                       corresp="#7r"
+                       n="MS-HRC-SB-4-2-6,[0293]">Viens d'écouter ce pauvre petit crétin pour qui je me prenais <lb rend="it"/>il y a trente ans, difficile de croire que j'aie jamais été con <lb rend="it"/>à ce point-là.</seg>
+                  <seg xml:id="krappd1e13287" zone="zone_51" n="MS-HRC-SB-4-2-6,[0294]">Ça <note>C is turned into c-cedilla with blue ballpen</note>au moins c'est fini, Dieu merci.</seg>
+                  <seg xml:id="krappd1e13290" zone="zone_51" n="MS-HRC-SB-4-2-6,[0295]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13297" zone="zone_51" n="MS-HRC-SB-4-2-6,[0296]">Les yeux qu'elle avait!</seg>
+                  <stage>(<seg xml:id="krappd1e13303" zone="zone_51" n="MS-HRC-SB-4-2-6,[0297]">
+                        <hi rend="u">Rêvasse, se rend compte qu'il est en<lb rend="it"/> train d'enregistrer le silence, débranche l'appareil, rêvasse</hi>.<lb rend="it"/>
+                     </seg>
+                     <seg xml:id="krappd1e13306"
+                          zone="zone_52"
+                          corresp="#7r"
+                          n="MS-HRC-SB-4-2-6,[0298]">
+                        <hi rend="u">Finalement</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e13312" zone="zone_52" n="MS-HRC-SB-4-2-6,[0299]">Tout était là, tout le -</seg>
+                  <seg xml:id="krappd1e13315" zone="zone_52" n="MS-HRC-SB-4-2-6,[0300]">
+                     <stage>(<hi rend="u">Se rend compte que<lb rend="it"/> l'appareil n'est pas branché, le rebranche</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13322" zone="zone_52" n="MS-HRC-SB-4-2-6,[0301]">Tout était là, <lb rend="it"/>toute cette vieille charogne de planète, toute la lumière et <lb rend="it"/>l'obscurité et la famine et la bombance des...<stage>(<hi rend="u">il hésite</hi>)</stage>...<lb rend="it"/>des siècles!</seg>
+                  <stage>(<seg xml:id="krappd1e13334"
+                          zone="zone_52"
+                          n="MS-HRC-SB-4-2-6,[0301|001]"
+                          prev="#krappd1e13322">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13337" zone="zone_52" n="MS-HRC-SB-4-2-6,[0302]">
+                        <hi rend="u">Dans un cri</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e13343" zone="zone_52" n="MS-HRC-SB-4-2-6,[0303]">
+                     <del type="crossout" hand="#SB" rend="blueblack ink" resp="#DVH">Mais</del> oui!</seg>
+                  <stage>(<seg xml:id="krappd1e13350" zone="zone_52" n="MS-HRC-SB-4-2-6,[0304]">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13353"
+                          zone="zone_52"
+                          n="MS-HRC-SB-4-2-6,[0304|001]"
+                          prev="#krappd1e13350">
+                        <hi rend="u">Amer</hi>.<lb rend="it"/>
+                     </seg>)</stage>
+                  <seg xml:id="krappd1e13359"
+                       zone="zone_53"
+                       corresp="#7r"
+                       n="MS-HRC-SB-4-2-6,[0305]">Laisser filer ça!</seg>
+                  <seg xml:id="krappd1e13362" zone="zone_53" n="MS-HRC-SB-4-2-6,[0306]">Jésus!</seg>
+                  <seg xml:id="krappd1e13365" zone="zone_53" n="MS-HRC-SB-4-2-6,[0307]">Ç'au<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</add>ait pu le distraire de ses chères <lb rend="it"/>études!</seg>
+                  <seg xml:id="krappd1e13368" zone="zone_53" n="MS-HRC-SB-4-2-6,[0308]">Jésus!</seg>
+                  <stage>(<seg xml:id="krappd1e13373" zone="zone_53" n="MS-HRC-SB-4-2-6,[0309]">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13376" zone="zone_53" n="MS-HRC-SB-4-2-6,[0310]">
+                        <hi rend="u">Avec lassitude</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e13382" zone="zone_53" n="MS-HRC-SB-4-2-6,[0311]">Enfin, peut-être qu'il <lb rend="it"/>avait raison.</seg>
+                  <seg xml:id="krappd1e13386"
+                       zone="zone_53"
+                       n="MS-HRC-SB-4-2-6,[0311|001]"
+                       prev="#krappd1e13382">
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">
+                        <stage>(<hi rend="u">Un temps</hi>.)</stage>
+                     </del>
+                  </seg>
+                  <seg xml:id="krappd1e13393" zone="zone_53" n="MS-HRC-SB-4-2-6,[0313]">
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">Peut-être qu'il avait raison.</del>
+                  </seg>
+                  <seg xml:id="krappd1e13396" zone="zone_53" n="MS-HRC-SB-4-2-6,[0312]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13403" zone="zone_53" n="MS-HRC-SB-4-2-6,[0313]">Peut-être qu'il avait raison.</seg>
+                  <stage>(<seg xml:id="krappd1e13409" zone="zone_53" n="MS-HRC-SB-4-2-6,[0314]">
+                        <hi rend="u">Rêvasse. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13412" zone="zone_53" n="MS-HRC-SB-4-2-6,[0315]">
+                        <hi rend="u">Se rend compte. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13415" zone="zone_53" n="MS-HRC-SB-4-2-6,[0316]">
+                        <hi rend="u">Débran<lb rend="-it"/>che l'appareil. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13417" zone="zone_53" n="MS-HRC-SB-4-2-6,[0317]">
+                        <hi rend="u">Consulte l'enveloppe</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e13423" zone="zone_53" n="MS-HRC-SB-4-2-6,[0318]">Pah!</seg>
+                  <stage>(<seg xml:id="krappd1e13429" zone="zone_53" n="MS-HRC-SB-4-2-6,[0319]">
+                        <hi rend="u">La froisse et la<lb rend="it"/> jette. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13432" zone="zone_53" n="MS-HRC-SB-4-2-6,[0320]">
+                        <hi rend="u">Rêvasse. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13435" zone="zone_53" n="MS-HRC-SB-4-2-6,[0321]">
+                        <hi rend="u">Rebranche l'appareil</hi>.</seg>)</stage>
+                  <seg xml:id="krappd1e13441" zone="zone_53" n="MS-HRC-SB-4-2-6,[0322]">Rien à dire, pas couic.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13444"
+                       zone="zone_54"
+                       corresp="#7r"
+                       n="MS-HRC-SB-4-2-6,[0323]">Qu'est-ce que c'est aujourd'hui, une année?</seg>
+                  <seg xml:id="krappd1e13447" zone="zone_54" n="MS-HRC-SB-4-2-6,[0324]">Merde remâchée et <lb rend="it"/>bouchon au cul.</seg>
+                  <seg xml:id="krappd1e13450" zone="zone_54" n="MS-HRC-SB-4-2-6,[0325]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13457" zone="zone_54" n="MS-HRC-SB-4-2-6,[0326]">Dégusté le mot bobine.</seg>
+                  <seg xml:id="krappd1e13460" zone="zone_54" n="MS-HRC-SB-4-2-6,[0327]">
+                     <stage>(<hi rend="u">Avec délecta<lb rend="-it"/>tion</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13467" zone="zone_54" n="MS-HRC-SB-4-2-6,[0328]">Bobiiine! <note resp="#DVH">only two \'ii\' in version published by Les Editions de Minuit</note>
+                  </seg>
+                  <seg xml:id="krappd1e13472" zone="zone_54" n="MS-HRC-SB-4-2-6,[0329]">L'instant le plus heureux des derniers cinq <lb rend="it"/>cent mille.</seg>
+                  <seg xml:id="krappd1e13475" zone="zone_54" n="MS-HRC-SB-4-2-6,[0330]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13482" zone="zone_54" n="MS-HRC-SB-4-2-6,[0331]">Dix-sept exemplaires de vendus, dont onze <lb rend="it"/>au prix de gros à des bibliothèques municipales d'au-del<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">ç</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">à</add>
+                     <del type="crossout" hand="#SB" rend="blue ink" resp="#DVH">l</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blue ink"
+                          resp="#DVH"
+                          xml:id="add2-6-15"
+                          corresp="#7r">d</add>es <lb rend="it"/>mers.</seg>
+                  <seg xml:id="krappd1e13490" zone="zone_54" n="MS-HRC-SB-4-2-6,[0332]">En passe d'être quelqu'un.</seg>
+                  <seg xml:id="krappd1e13493" zone="zone_54" n="MS-HRC-SB-4-2-6,[0333]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13500" zone="zone_54" n="MS-HRC-SB-4-2-6,[0334]">Une livre six shil<lb rend="-it"/>lings et quelques pence, huit probablement.</seg>
+                  <seg xml:id="krappd1e13503" zone="zone_54" n="MS-HRC-SB-4-2-6,[0335]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13510"
+                       zone="zone_55"
+                       corresp="#7r"
+                       style="indent300px"
+                       n="MS-HRC-SB-4-2-6,[0336]">Me suis <lb rend="it"/>traîné dehors une fois ou deux avant que l'été se glace.</seg>
+                  <seg xml:id="krappd1e13513" zone="zone_55" n="MS-HRC-SB-4-2-6,[0337]">Resté <lb rend="it"/>assis à grelotter dans le parc, noyé dans les rêves et brûlant <lb rend="it"/>d'en finir.</seg>
+                  <seg xml:id="krappd1e13516" zone="zone_55" n="MS-HRC-SB-4-2-6,[0338]">Personne.</seg>
+                  <seg xml:id="krappd1e13519" zone="zone_55" n="MS-HRC-SB-4-2-6,[0339]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13526" zone="zone_55" n="MS-HRC-SB-4-2-6,[0340]">Dernières chimères.</seg>
+                  <seg xml:id="krappd1e13529" zone="zone_55" n="MS-HRC-SB-4-2-6,[0341]">
+                     <stage>(<hi rend="u">Avec véhé<lb rend="-it"/>mence</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13536" zone="zone_55" n="MS-HRC-SB-4-2-6,[0342]">A refouler!</seg>
+                  <seg xml:id="krappd1e13539" zone="zone_55" n="MS-HRC-SB-4-2-6,[0343]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13546" zone="zone_55" n="MS-HRC-SB-4-2-6,[0344]">Me suis crevé les yeux à lire <lb rend="it"/>
+                     <hi rend="u">Effie</hi> encore, une page par jour, avec des larmes encore.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13552"
+                       zone="zone_56"
+                       corresp="#7r"
+                       n="MS-HRC-SB-4-2-6,[0345]">Effie...</seg>
+                  <seg xml:id="krappd1e13554"
+                       zone="zone_56"
+                       n="MS-HRC-SB-4-2-6,[0346]"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13561" zone="zone_56" n="MS-HRC-SB-4-2-6,[0347]">Aurait pu être heureux avec elle, là-haut <lb rend="it"/>sur la Baltique, et les pins, et les dunes.</seg>
+                  <seg xml:id="krappd1e13564" zone="zone_56" n="MS-HRC-SB-4-2-6,[0348]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13571" zone="zone_56" n="MS-HRC-SB-4-2-6,[0349]">Non?<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13574" zone="zone_56" n="MS-HRC-SB-4-2-6,[0350]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13581" zone="zone_56" n="MS-HRC-SB-4-2-6,[0351]">Et elle?</seg>
+                  <seg xml:id="krappd1e13584" zone="zone_56" n="MS-HRC-SB-4-2-6,[0352]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13591" zone="zone_56" n="MS-HRC-SB-4-2-6,[0353]">Pah!</seg>
+                  <seg xml:id="krappd1e13594" zone="zone_56" n="MS-HRC-SB-4-2-6,[0354]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13601" zone="zone_56" n="MS-HRC-SB-4-2-6,[0355]">Fanny est venue une <lb rend="it"/>ou deux fois.</seg>
+                  <seg xml:id="krappd1e13604" zone="zone_56" n="MS-HRC-SB-4-2-6,[0356]">Vieille ombre de putain squelettique.</seg>
+                  <seg xml:id="krappd1e13607" zone="zone_56" n="MS-HRC-SB-4-2-6,[0357]">Pas pu <lb rend="it"/>faire grand'chose, mais sans doute mieux qu'un coup de pied <lb rend="it"/>dans l'entre-jambes.</seg>
+                  <seg xml:id="krappd1e13610" zone="zone_56" n="MS-HRC-SB-4-2-6,[0358]">La dernière fois, ça n'était pas si mal.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13613" zone="zone_56" n="MS-HRC-SB-4-2-6,[0359]">Comment tu fais ton compte, m'a-t-elle dit, à ton âge?</seg>
+                  <seg xml:id="krappd1e13616" zone="zone_56" n="MS-HRC-SB-4-2-6,[0360]">Je lui <lb rend="it"/>ai répondu que je m'étais réservé pour elle toute ma vie.<lb rend="it"/>
+                  </seg>
+                  <pb n="8r"/>
+                  <metamark function="pagenumber">
+                     <num>8</num>
+                  </metamark>
+                  <seg xml:id="krappd1e13621"
+                       zone="zone_57"
+                       corresp="#8r"
+                       n="MS-HRC-SB-4-2-6,[0361]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13628" zone="zone_57" n="MS-HRC-SB-4-2-6,[0362]">Eté aux Vêpres une fois comme lorsque j'étais en <lb rend="it"/>culottes courtes.</seg>
+                  <stage>(<seg xml:id="krappd1e13634" zone="zone_57" n="MS-HRC-SB-4-2-6,[0363]">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13637" zone="zone_57" n="MS-HRC-SB-4-2-6,[0364]">
+                        <hi rend="u">Il chante</hi>.<lb rend="it"/>
+                     </seg>)</stage>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e13643"
+                       zone="zone_5x7"
+                       corresp="#8r"
+                       n="MS-HRC-SB-4-2-6,[0365]">L'ombre descend de nos montagnes, <lb/>
+L'azur du ciel va se ternir, <lb/>
+Le bruit se tait - <stage>(<hi rend="u">Accès de toux. Presque inaudible.</hi>)</stage> - <lb rend="it"/>dans nos campagnes, <lb/>
+En paix bientôt tout va dormir. <lb/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="krappd1e13663"
+                       zone="zone_58"
+                       corresp="#8r"
+                       n="MS-HRC-SB-4-2-6,[0366]">
+                     <stage>(<hi rend="u">Haletant</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13670" zone="zone_58" n="MS-HRC-SB-4-2-6,[0367]">Me suis endormi et suis tombé du banc.</seg>
+                  <seg xml:id="krappd1e13673" zone="zone_58" n="MS-HRC-SB-4-2-6,[0368]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13680" zone="zone_58" n="MS-HRC-SB-4-2-6,[0369]">Me suis demandé quelquefois dans la nuit si un dernier effort <lb rend="it"/>ne serait peut-être - </seg>
+                  <seg xml:id="krappd1e13682" zone="zone_58" n="MS-HRC-SB-4-2-6,[0370]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13689"
+                       zone="zone_58"
+                       n="MS-HRC-SB-4-2-6,[0370|001]"
+                       prev="#krappd1e13682">Assez!</seg>
+                  <seg xml:id="krappd1e13692" zone="zone_58" n="MS-HRC-SB-4-2-6,[0371]">Vide ta bouteille et <lb rend="it"/>fous-toi au pieu.</seg>
+                  <seg xml:id="krappd1e13695" zone="zone_58" n="MS-HRC-SB-4-2-6,[0372]">Reprends ces conneries demain.</seg>
+                  <seg xml:id="krappd1e13698" zone="zone_58" n="MS-HRC-SB-4-2-6,[0373]">Ou restes-en <lb rend="it"/>là.</seg>
+                  <seg xml:id="krappd1e13702" zone="zone_58" n="MS-HRC-SB-4-2-6,[0374]">
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">
+                        <stage>(Un temps.)</stage>
+                     </del>
+                  </seg>
+                  <seg xml:id="krappd1e13708" zone="zone_58" n="MS-HRC-SB-4-2-6,[0375]">
+                     <del type="crossout" hand="#typist" rend="black ink" resp="#DVH">Restes-en là.</del>
+                  </seg>
+                  <seg xml:id="krappd1e13711" zone="zone_58" n="MS-HRC-SB-4-2-6,[0374]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13718" zone="zone_58" n="MS-HRC-SB-4-2-6,[0375]">Restes-en là.</seg>
+                  <seg xml:id="krappd1e13721" zone="zone_58" n="MS-HRC-SB-4-2-6,[0376]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13728"
+                       zone="zone_59"
+                       corresp="#8r"
+                       n="MS-HRC-SB-4-2-6,[0377]">Installe-toi là dans le noir, adossé aux oreillers - et vaga<lb rend="-it"/>bonde.</seg>
+                  <seg xml:id="krappd1e13731" zone="zone_59" n="MS-HRC-SB-4-2-6,[0378]">Sois de nouveau dans le vallon une veille de Noël à <lb rend="it"/>cueillir le houx, celui à b<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">z</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">a</add>ies rouges.</seg>
+                  <seg xml:id="krappd1e13734" zone="zone_59" n="MS-HRC-SB-4-2-6,[0379]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13741" zone="zone_59" n="MS-HRC-SB-4-2-6,[0380]">Sois de nou<lb rend="-it"/>veau sur le Croghan un dimanche matin, dans la brume, avec <choice>
+                        <sic>ta</sic>
+                        <corr>la</corr>
+                     </choice>
+                     <lb rend="it"/>chienne, arrête-toi<del type="crossout" hand="#SB" rend="red ink" resp="#DVH">t</del> et écoute les cloches.</seg>
+                  <seg xml:id="krappd1e13747" zone="zone_59" n="MS-HRC-SB-4-2-6,[0381]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13754" zone="zone_59" n="MS-HRC-SB-4-2-6,[0382]">Et ainsi <lb rend="it"/>de suite.</seg>
+                  <seg xml:id="krappd1e13757" zone="zone_59" n="MS-HRC-SB-4-2-6,[0383]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13764" zone="zone_59" n="MS-HRC-SB-4-2-6,[0384]">Sois de nouveau, sois de nouveau.</seg>
+                  <seg xml:id="krappd1e13767" zone="zone_59" n="MS-HRC-SB-4-2-6,[0385]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13774"
+                       zone="zone_60"
+                       corresp="#8r"
+                       n="MS-HRC-SB-4-2-6,[0386]">Toute cette vieille misère.</seg>
+                  <seg xml:id="krappd1e13777" zone="zone_60" n="MS-HRC-SB-4-2-6,[0387]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13784" zone="zone_60" n="MS-HRC-SB-4-2-6,[0388]">Une fois ne t'a pas suffi.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13787" zone="zone_60" n="MS-HRC-SB-4-2-6,[0389]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13794" zone="zone_60" n="MS-HRC-SB-4-2-6,[0390]">Coule-toi sur elle.<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e13800" zone="zone_60" n="MS-HRC-SB-4-2-6,[0391]">
+                     <hi rend="u">Longue pause. </hi>
+                  </seg>
+                  <seg xml:id="krappd1e13803" zone="zone_60" n="MS-HRC-SB-4-2-6,[0392]">
+                     <hi rend="u">Il se penche brusquement sur l'appareil, le<lb rend="it"/> débranche, arrache la bande, <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">h</del>
+                        <add place="overwritten" rend="black ink" hand="#typist" resp="#DVH">l</add>a jette au loin, place l'autre<lb rend="it"/> sur l'appareil, la fait avancer jusqu'au passage qu'il cherche,<lb rend="it"/> rebranche l'appareil, écoute en regardant fixement devant lui</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+            </stage>
+            <sp who="#Bande">
+               <speaker>Bande</speaker>
+               <p>
+                  <seg xml:id="krappd1e13810"
+                       zone="zone_61"
+                       corresp="#8r"
+                       n="MS-HRC-SB-4-2-6,[0393]"> - groseilles à maquereau, m'a-t-elle répondu.</seg>
+                  <seg xml:id="krappd1e13813" zone="zone_61" n="MS-HRC-SB-4-2-6,[0394]">J'ai dit encore <lb rend="it"/>que ça me semblait sans espoir et pas la peine de continuer et <lb rend="it"/>elle a fait oui sans ouvrir les yeux.</seg>
+                  <seg xml:id="krappd1e13816" zone="zone_61" n="MS-HRC-SB-4-2-6,[0395]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13823" zone="zone_61" n="MS-HRC-SB-4-2-6,[0396]">Je lui ai demandé <lb rend="it"/>de me regarder et après quelques instants - <stage>(<hi rend="u">pause</hi>)</stage> - après <lb rend="it"/>quelques instants elle l'a fait, mais les yeux comme des fentes <lb rend="it"/>à cause du soleil.</seg>
+                  <seg xml:id="krappd1e13832" zone="zone_61" n="MS-HRC-SB-4-2-6,[0397]">Je me suis penché sur elle pour qu'il<add place="inline" hand="#SB" rend="red ink" resp="#DVH">s</add> soient <lb rend="it"/>dans l'ombre et ils se sont ouverts.</seg>
+                  <seg xml:id="krappd1e13838" zone="zone_61" n="MS-HRC-SB-4-2-6,[0398]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13845"
+                       zone="zone_62"
+                       corresp="#8r"
+                       style="indent240px"
+                       n="MS-HRC-SB-4-2-6,[0400]">M'ont laissé <lb rend="it"/>entrer.</seg>
+                  <seg xml:id="krappd1e13848" zone="zone_62" n="MS-HRC-SB-4-2-6,[0401]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13855" zone="zone_62" n="MS-HRC-SB-4-2-6,[0402]">Nous dérivions parmi les roseaux et la barque <lb rend="it"/>s'est coincée.</seg>
+                  <seg xml:id="krappd1e13858" zone="zone_62" n="MS-HRC-SB-4-2-6,[0403]">Comme ils se pliaient, avec un soupir, devant la <lb rend="it"/>proue!</seg>
+                  <seg xml:id="krappd1e13861" zone="zone_62" n="MS-HRC-SB-4-2-6,[0404]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13868" zone="zone_62" n="MS-HRC-SB-4-2-6,[0405]">Je me suis coulé sur elle, mon visage dans ses <lb rend="it"/>seins et ma main sur elle.</seg>
+                  <seg xml:id="krappd1e13871" zone="zone_62" n="MS-HRC-SB-4-2-6,[0406]">Nous restions là, couchés, sans re<lb rend="-it"/>muer.</seg>
+                  <seg xml:id="krappd1e13874" zone="zone_62" n="MS-HRC-SB-4-2-6,[0407]">Mais, sous nous, tout remuait, et nous remuait, doucement, <lb rend="it"/>de haut en bas, et d'un côté à l'autre.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13880"
+                          zone="zone_63"
+                          corresp="#8r"
+                          n="MS-HRC-SB-4-2-6,[0408]">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="krappd1e13883" zone="zone_63" n="MS-HRC-SB-4-2-6,[0409]">
+                        <hi rend="u">Les lèvres de Krapp remuent </hi>
+                     </seg>
+                     <seg xml:id="krappd1e1cddi" zone="zone_63" n="MS-HRC-SB-4-2-6,[0410]">
+                        <hi rend="u">sans bruit</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13887" zone="zone_63" n="MS-HRC-SB-4-2-6,[0411]">Passé minuit.</seg>
+                  <seg xml:id="krappd1e13890" zone="zone_63" n="MS-HRC-SB-4-2-6,[0412]">Jamais entendu pareil silence.</seg>
+                  <seg xml:id="krappd1e13893" zone="zone_63" n="MS-HRC-SB-4-2-6,[0413]">La terre pourrait <lb rend="it"/>être inhabitée.<lb rend="it"/>
+                  </seg>
+               </p>
+               <stage>
+                  <p>
+                     <seg xml:id="krappd1e13898" zone="zone_63" n="MS-HRC-SB-4-2-6,[0414]">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </p>
+               </stage>
+               <p>
+                  <seg xml:id="krappd1e13903" zone="zone_63" n="MS-HRC-SB-4-2-6,[0415]">Ici je termine cette bande.</seg>
+                  <seg xml:id="krappd1e13906" zone="zone_63" n="MS-HRC-SB-4-2-6,[0416]">Boîte - <stage>(<hi rend="u">pause</hi>)</stage> - trois, bobine - <lb rend="it"/>
+                     <stage>(<hi rend="u">pause</hi>)</stage> - cinq.</seg>
+                  <seg xml:id="krappd1e13921" zone="zone_63" n="MS-HRC-SB-4-2-6,[0417]">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="krappd1e13928" zone="zone_63" n="MS-HRC-SB-4-2-6,[0418]">Peu<add place="inline" hand="#SB" rend="red ink" resp="#DVH">t</add>-être que mes meilleures années sont <lb rend="it"/>passées.</seg>
+                  <seg xml:id="krappd1e13934" zone="zone_63" n="MS-HRC-SB-4-2-6,[0419]">Quand il y avait encore une chance de bonheur.</seg>
+                  <seg n="MS-HRC-SB-4-2-6,[0420]"
+                       xml:id="krappd1e13937"
+                       zone="zone_63"
+                       zone2="zone_64"
+                       corresp="#8r,9r">
+                     <anchor type="ts" n="8r"/>Mais je <lb rend="it"/>
+                     <anchor type="ts" n="9r"/>
+                     <pb n="9r"/>
+                     <metamark function="pagenumber">
+                        <num>9</num>
+                     </metamark>
+
+n'en voudrais plus.</seg>
+                  <seg xml:id="krappd1e13942" zone="zone_64" n="MS-HRC-SB-4-2-6,[0421]">Plus maintenant que j'ai ce feu en moi.</seg>
+                  <seg xml:id="krappd1e13945" zone="zone_64" n="MS-HRC-SB-4-2-6,[0422]">Non, <lb rend="it"/>je n'en voudrais plus.<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <stage>
+               <p>
+                  <seg xml:id="krappd1e13951" zone="zone_64" n="MS-HRC-SB-4-2-6,[0423]">
+                     <hi rend="u">Krapp demeure immobile, regardant dans le vide devant lui</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="krappd1e13954" zone="zone_64" n="MS-HRC-SB-4-2-6,[0424]">
+                     <hi rend="u">La bande continue à se dérouler en silence</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <note resp="#DVH">centred</note>
+                  <seg xml:id="krappd1e13960"
+                       zone="zone_65"
+                       corresp="#9r"
+                       n="MS-HRC-SB-4-2-6,[0425]">Rideau</seg>
+               </p>
+            </stage>
+         </div>
+      </body>
+   </text>
+</TEI>

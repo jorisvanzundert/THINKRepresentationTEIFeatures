@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1760" xml:id="l1771" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1760 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>059v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1760.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q936145" type="recipient">Elbogen (Tschechien)</placeName><persName type="recipient">Malerik, Jan</persName></ab><ab type="mention"><persName type="mention">Schultheiß, Wölfel</persName><persName type="mention">Mayr, Ulrich</persName></ab><date from="30-01-1415" to="30-01-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_119">
+<surface lrx="2599" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0062_left.png" width="2599px"/>
+<zone lrx="1620" lry="2293" rendition="TextRegion" ulx="1103" uly="3218" xml:id="facs_119_r1"> <zone lrx="2450" lry="2293" rendition="Line" ulx="1103" uly="2178" xml:id="facs_119_r1l20"/>
+<zone lrx="2554" lry="2392" rendition="Line" ulx="678" uly="2290" xml:id="facs_119_r1l22"/>
+<zone lrx="2562" lry="2478" rendition="Line" ulx="674" uly="2367" xml:id="facs_119_r1l23"/>
+<zone lrx="2550" lry="2561" rendition="Line" ulx="670" uly="2450" xml:id="facs_119_r1l24"/>
+<zone lrx="2544" lry="2649" rendition="Line" ulx="673" uly="2541" xml:id="facs_119_r1l25"/>
+<zone lrx="2558" lry="2744" rendition="Line" ulx="678" uly="2629" xml:id="facs_119_r1l26"/>
+<zone lrx="2558" lry="2832" rendition="Line" ulx="669" uly="2709" xml:id="facs_119_r1l27"/>
+<zone lrx="2558" lry="2918" rendition="Line" ulx="684" uly="2798" xml:id="facs_119_r1l28"/>
+<zone lrx="2561" lry="3010" rendition="Line" ulx="688" uly="2881" xml:id="facs_119_r1l29"/>
+<zone lrx="1640" lry="3092" rendition="Line" ulx="694" uly="3021" xml:id="facs_119_r1l30"/>
+<zone lrx="2562" lry="3211" rendition="Line" ulx="652" uly="3113" xml:id="facs_119_r1l31"/>
+<zone lrx="1620" lry="3297" rendition="Line" ulx="669" uly="3218" xml:id="facs_119_r1l32"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Jan Malerik, Burggraf zu Elbogen, und Elbogen</head><p>Der Rat bittet um Herausgabe der in der Nähe von Elbogen beschlagnahmten Waren Nürnberger Bürger an Ulrich Mayr.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_119" id="59v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_119_r1l20">Janko genant Malerʒık . <expan>Burggraf<ex>en</ex></expan> ʒum <expan>Ellmbog<ex>en</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_119_r1l22"><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan> Burggraf als Jr vns bey wölfel
+                                <expan>Schulth<ex>eiſʒ</ex></expan>
+<expan>vnſ<ex>er</ex>m</expan>
+<expan>dıen<ex>er</ex></expan>
+<expan>verſchr<ex>iben</ex></expan> vnd </ab>
+<ab facs="#facs_119_r1l23"><expan>geantw<ex>ur</ex>t</expan> habt . als von der
+                        hab <expan>weg<ex>en</ex></expan> dıe den <expan>vnſ<ex>er</ex>n</expan>
+                        nehſt in der geneh bey </ab>
+<ab facs="#facs_119_r1l24">eẅch <expan>genome<ex>n</ex></expan> ıſt
+                                <expan>word<ex>en</ex></expan> . etc das
+                            <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan>
+                        Vnd <expan>bıtt<ex>en</ex></expan> eẅr </ab>
+<ab facs="#facs_119_r1l25"><expan>erberk<ex>eit</ex></expan> mıt fleıſſ / vvas
+                                <expan>derſ<ex>elben</ex></expan> hab . noch
+                                <expan>vorhande<ex>n</ex></expan> vnd belyben ſey dıe </ab>
+<ab facs="#facs_119_r1l26">der <expan>vnſ<ex>er</ex>n</expan> ıſt . daʒ Jr dıe
+                                <expan>vlr<ex>ich</ex></expan> Mayr .
+                            <expan>antwurt<ex>er</ex></expan> dıſʒ brıefs den dıe </ab>
+<ab facs="#facs_119_r1l27"><expan>vnſ<ex>er</ex>n</expan>
+<expan>daru<ex>m</ex>b</expan> auſgeſant <expan>habe<ex>n</ex></expan> .
+                                <expan>wıd<ex>er</ex></expan>
+<expan>ſchık<ex>en</ex></expan> vnd <expan>antwurte<ex>n</ex></expan> wellet
+                        vnd </ab>
+<ab facs="#facs_119_r1l28">den <expan>vnſ<ex>er</ex>n</expan> eẅr
+                                <expan>fürdru<ex>n</ex>g</expan> vnd guten
+                            <expan>wıll<ex>e</ex>n</expan> beweıſet . als wır eẅch </ab>
+<ab facs="#facs_119_r1l29">wol getrawn . das <expan>well<ex>e</ex>n</expan> wır
+                        allcʒeıt <expan>g<ex>er</ex>n</expan> vmb eẅch
+                            <expan>v<ex>er</ex>dıenen</expan> . <expan>dat<ex>um</ex></expan>
+</ab>
+<ab facs="#facs_119_r1l30"><expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan>
+<expan>p<ex>ur</ex>ıfıca<ex>ci</ex><hi rend="sup">o<ex>n</ex>ıs</hi></expan>
+                        marıe </ab>
+</div>
+<div type="similiter">
+<ab facs="#facs_119_r1l31"><expan>Jt<ex>em</ex></expan> der ſtat ʒum
+                                <expan>Elmbog<ex>en</ex></expan>
+<expan>ſı<ex>mi</ex>l<ex>ite</ex>r</expan>
+<expan>mutat<ex>is</ex></expan>
+<expan>muta<ex>n</ex>dıs</expan> et excepto / als Jr </ab>
+<ab facs="#facs_119_r1l32">vns bey wölfel <expan>geantw<ex>ur</ex>t</expan> habt
+                    </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_119" id="59v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Janko genant Malerzik, <expan>burggraf<ex>en</ex></expan> zum
+                                <expan>Ellmbog<ex>en</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>h<ex>e</ex>r</expan> burggraf, als ir uns bey Wölfel
+                                <expan>Schulth<ex>eisz,</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>dien<ex>er</ex></expan>, <expan>verschr<ex>iben</ex></expan> und
+                                <expan>geantw<ex>ur</ex>t</expan> habt als von der hab
+                                <expan>weg<ex>en</ex>,</expan> die den
+                            <expan>uns<ex>er</ex>n</expan> nehst in der geneh bey ewch
+                                <expan>genome<ex>n</ex></expan> ist <expan>word<ex>en</ex></expan>
+                        etc., das <expan>hab<ex>e</ex>n</expan> wir wol
+                            <expan>vernom<ex>en</ex></expan> und <expan>bitt<ex>en</ex></expan> ewr
+                                <expan>erberk<ex>eit</ex></expan> mit fleiss, was
+                                <expan>ders<ex>elben</ex></expan> hab noch
+                            <expan>vorhande<ex>n</ex></expan> und belyben sey, die der
+                                <expan>uns<ex>er</ex>n</expan> ist, daz ir die
+                                <expan>Ulr<ex>ich</ex></expan> Mayr,
+                            <expan>antwurt<ex>er</ex></expan> disz briefs, den die
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>daru<ex>m</ex>b</expan> ausgesant <expan>habe<ex>n</ex></expan>,
+                                <expan>wid<ex>er</ex></expan>
+<expan>schik<ex>en</ex></expan> und <expan>antwurte<ex>n</ex></expan> wellet
+                        und den <expan>uns<ex>er</ex>n</expan> ewr <expan>fürdru<ex>n</ex>g</expan>
+                        und guten <expan>will<ex>e</ex>n</expan> beweiset, als wir ewch wol getrawn.
+                        Das <expan>well<ex>e</ex>n</expan> wir allczeit <expan>g<ex>er</ex>n</expan>
+                        umb ewch <expan>v<ex>er</ex>dienen</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi>
+<expan>an<ex>te</ex></expan>
+<expan>p<ex>ur</ex>ifica<ex>ci</ex><hi rend="sup">o<ex>n</ex>is</hi></expan>
+                        Marie. </ab>
+</div>
+<div type="similiter">
+<ab><expan>It<ex>em</ex></expan> der stat zum <expan>Elmbog<ex>en</ex></expan>
+<expan>si<ex>mi</ex>l<ex>ite</ex>r</expan>
+<expan>mutat<ex>is</ex></expan>
+<expan>muta<ex>n</ex>dis</expan> et excepto als ir uns bey Wölfel
+                                <expan>geantw<ex>ur</ex>t</expan> habt. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2666" xml:id="l2677" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2666 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>152v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2666.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q193719" type="recipient">Eger (Tschechien)</placeName></ab><ab type="mention"><persName type="mention">Schmid, Ulrich</persName></ab><date from="16-07-1421" to="13-08-1421" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_307">
+<surface lrx="2572" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0157_left.png" width="2572px"/>
+<zone lrx="945" lry="2038" rendition="TextRegion" ulx="1253" uly="2724" xml:id="facs_307_r1">
+<zone lrx="1930" lry="2038" rendition="Line" ulx="1253" uly="1958" xml:id="facs_307_r1l15"/> <zone lrx="945" lry="2089" rendition="Line" ulx="824" uly="2024" xml:id="facs_307_r1l16"/>
+<zone lrx="2392" lry="2188" rendition="Line" ulx="617" uly="2106" xml:id="facs_307_r1l17"/>
+<zone lrx="2361" lry="2289" rendition="Line" ulx="639" uly="2210" xml:id="facs_307_r1l18"/>
+<zone lrx="2368" lry="2368" rendition="Line" ulx="643" uly="2301" xml:id="facs_307_r1l19"/>
+<zone lrx="2437" lry="2447" rendition="Line" ulx="651" uly="2383" xml:id="facs_307_r1l20"/>
+<zone lrx="2421" lry="2543" rendition="Line" ulx="641" uly="2463" xml:id="facs_307_r1l21"/>
+<zone lrx="2345" lry="2637" rendition="Line" ulx="638" uly="2551" xml:id="facs_307_r1l22"/>
+<zone lrx="2353" lry="2713" rendition="Line" ulx="651" uly="2640" xml:id="facs_307_r1l23"/>
+<zone lrx="2508" lry="2800" rendition="Line" subtype="paragraph" ulx="638" uly="2724" xml:id="facs_307_r1l24"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Eger</head><p>Der Rat kündigt Ulrich Schmid, Diener der Stadt, mit Wein an, und bittet um Hilfe bei der Einlagerung.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_307" id="152v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_307_r1l15">Der Stat cʒu Eger </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_307_r1l17"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan>
+<add><ab facs="#facs_307_r1l16">VVir </ab></add> ſchıcken cʒu <expan>ewr<ex>er</ex></expan> <expan>erſamk<ex>eit</ex></expan> dıſen <expan>gegenvvertige<ex>n</ex></expan> </ab>
+<ab facs="#facs_307_r1l18"><expan>vnſ<ex>er</ex>n</expan> diener <expan>vlr<ex>ich</ex></expan> <expan>Smyd<ex>en</ex></expan> mit xv . ſtück vveins . vnd <expan>Ro<ex>gamus</ex></expan> </ab>
+<ab facs="#facs_307_r1l19">daʒ Jr vns <expan>dieſelb<ex>e</ex>n</expan> vveine <expan>günne<ex>n</ex></expan> wöllet bey euch in <expan>ewr<ex>er</ex></expan> </ab>
+<ab facs="#facs_307_r1l20">Stat nydercʒulegen vnd Jm einen cʒu ſchicken der Jm darcʒu </ab>
+<ab facs="#facs_307_r1l21">hılfflich vnd fürderlich ſey / Daran beweiſt Jr vns <expan>beſund<ex>er</ex></expan> </ab>
+<ab facs="#facs_307_r1l22">lıeb vnd <expan>freuntſ<ex>chaft</ex></expan> . vnd vvaʒ auch der <expan>eg<ex>enante</ex></expan> <expan>vnſ<ex>er</ex></expan> diener </ab>
+<ab facs="#facs_307_r1l23">darümb cʒu diſem mal an euch werb . des wöllet Jm </ab>
+<ab facs="#facs_307_r1l24"><expan>gelaub<ex>e</ex>n</expan> vnd darynne <expan>d<ex>ur</ex>h</expan> <expan>vnſ<ex>er</ex>n</expan> <expan>wılle<ex>n</ex></expan> tun Als etc Das <expan>wolle<ex>n</ex></expan> etc </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_307" id="152v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat czu Eger</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, <add>wir</add> schicken czu
+                                <expan>ewr<ex>er</ex></expan>
+<expan>ersamk<ex>eit</ex></expan> disen
+                            <expan>gegenwertige<ex>n</ex></expan>
+<expan>uns<ex>er</ex>n</expan> diener <expan>Ulr<ex>ich</ex></expan>
+<expan>Smyd<ex>en</ex></expan> mit xv stück weins, und
+                                <expan>ro<ex>gamus</ex></expan>, daz ir uns
+                            <expan>dieselb<ex>e</ex>n</expan> weine <expan>günne<ex>n</ex></expan>
+                        wöllet bey euch in <expan>ewr<ex>er</ex></expan> stat nyderczulegen und im
+                        einen czu schicken, der im darczu hilfflich und fürderlich sey, daran
+                        beweist ir uns <expan>besund<ex>er</ex></expan> lieb und
+                                <expan>freunts<ex>chaft</ex></expan>. Und waz auch der
+                                <expan>eg<ex>enante</ex></expan>
+<expan>uns<ex>er</ex></expan> diener darümb czu disem mal an euch werb, des
+                        wöllet im <expan>gelaub<ex>e</ex>n</expan> und darynne
+                            <expan>d<ex>ur</ex>h</expan>
+<expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> tun. Als etc. Das
+                            <expan>wolle<ex>n</ex></expan> etc.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

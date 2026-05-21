@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1831" xml:id="l1842" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1831 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>078r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1831.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Egloffstein, Otto v., Domherr v. Bamberg</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3936" type="mention">Bamberg</placeName><placeName type="mention">Pettensiedel (Gt. d. Markts Igensdorf, Lk. Forchheim)</placeName><persName type="mention">Holzschuher, Karl I.</persName><persName type="mention">Schürstab, Erhard I.</persName></ab><date from="3-04-1415" to="1-05-1415" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_156">
+<surface lrx="2636" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0080_right.png" width="2636px"/>
+<zone lrx="357" lry="729" rendition="TextRegion" ulx="46" uly="798" xml:id="facs_156_r1">
+<zone lrx="459" lry="729" rendition="Line" ulx="43" uly="675" xml:id="facs_156_r1l1"/>
+<zone lrx="469" lry="791" rendition="Line" ulx="42" uly="736" xml:id="facs_156_r1l2"/>
+<zone lrx="357" lry="852" rendition="Line" ulx="46" uly="798" xml:id="facs_156_r1l3"/>
+</zone>
+<zone lrx="1051" lry="308" rendition="TextRegion" ulx="1379" uly="2056" xml:id="facs_156_r2">
+<zone lrx="1774" lry="308" rendition="Line" ulx="973" uly="239" xml:id="facs_156_r2l1"/>
+<zone lrx="1719" lry="383" rendition="Line" ulx="977" uly="316" xml:id="facs_156_r2l2"/>
+<zone lrx="2324" lry="562" rendition="Line" ulx="508" uly="496" xml:id="facs_156_r2l4"/>
+<zone lrx="2330" lry="639" rendition="Line" ulx="511" uly="596" xml:id="facs_156_r2l5"/>
+<zone lrx="2076" lry="675" rendition="Line" ulx="996" uly="633" xml:id="facs_156_r2l6"/>
+<zone lrx="2457" lry="731" rendition="Line" ulx="505" uly="683" xml:id="facs_156_r2l7"/>
+<zone lrx="2327" lry="828" rendition="Line" ulx="520" uly="760" xml:id="facs_156_r2l8"/>
+<zone lrx="2350" lry="904" rendition="Line" ulx="533" uly="844" xml:id="facs_156_r2l9"/>
+<zone lrx="2368" lry="991" rendition="Line" ulx="538" uly="929" xml:id="facs_156_r2l10"/>
+<zone lrx="1212" lry="1015" rendition="Line" ulx="1096" uly="956" xml:id="facs_156_line_1576742661430_2005"/>
+<zone lrx="2375" lry="1068" rendition="Line" ulx="535" uly="1025" xml:id="facs_156_r2l11"/>
+<zone lrx="1118" lry="1104" rendition="Line" ulx="1037" uly="1052" xml:id="facs_156_line_1576742663935_2010"/>
+<zone lrx="2336" lry="1152" rendition="Line" ulx="534" uly="1110" xml:id="facs_156_r2l13"/>
+<zone lrx="1466" lry="1197" rendition="Line" ulx="1379" uly="1147" xml:id="facs_156_line_1576742677185_2028"/>
+<zone lrx="2283" lry="1245" rendition="Line" ulx="535" uly="1193" xml:id="facs_156_r2l14"/>
+<zone lrx="1051" lry="1292" rendition="Line" ulx="899" uly="1234" xml:id="facs_156_line_1576742687900_2039"/>
+<zone lrx="2275" lry="1347" rendition="Line" ulx="530" uly="1280" xml:id="facs_156_r2l16"/>
+<zone lrx="2334" lry="1430" rendition="Line" ulx="524" uly="1366" xml:id="facs_156_r2l17"/>
+<zone lrx="2338" lry="1507" rendition="Line" ulx="537" uly="1445" xml:id="facs_156_r2l18"/>
+<zone lrx="2368" lry="1594" rendition="Line" ulx="544" uly="1535" xml:id="facs_156_r2l19"/>
+<zone lrx="2384" lry="1683" rendition="Line" ulx="517" uly="1637" xml:id="facs_156_r2l20"/>
+<zone lrx="1613" lry="1714" rendition="Line" ulx="1330" uly="1673" xml:id="facs_156_r2l21"/>
+<zone lrx="2446" lry="1767" rendition="Line" ulx="512" uly="1718" xml:id="facs_156_r2l22"/>
+<zone lrx="2398" lry="1860" rendition="Line" ulx="524" uly="1793" xml:id="facs_156_r2l23"/>
+<zone lrx="2438" lry="1950" rendition="Line" ulx="519" uly="1876" xml:id="facs_156_r2l24"/>
+<zone lrx="2430" lry="2036" rendition="Line" ulx="521" uly="1959" xml:id="facs_156_r2l25"/>
+<zone lrx="2316" lry="2125" rendition="Line" ulx="526" uly="2056" xml:id="facs_156_r2l26"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Otto von Egloffstein, Domherr zu Bamberg</head><p>Der Rat bittet gemäß altem Herkommen um Verzicht auf Forderung des Gattergelds von den Armleuten Karl Holzschuhers und Erhard Schürstabs, Bürger zu Nürnberg, zu Pettensiedel und um Rücknahme der Klage vor dem geistlichen Gericht.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_156" id="78r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_156_r2l1"><expan>h<ex>er</ex>n</expan> Otten vom Eglofſtein </ab>
+<ab facs="#facs_156_r2l2">Tumherren cʒu Bamberg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_156_r2l4">Erſamer vnd lıeber <expan>h<ex>er</ex>re</expan> . Vns
+                                <expan>hab<ex>e</ex>n</expan> fürgelegt vnſer lieb </ab>
+<ab facs="#facs_156_r2l5"><expan>Burge<ex>r</ex></expan> karl holcʒſchuher vnd
+                        Erhart Schürſtab / vvıe daʒ </ab>
+<ab facs="#facs_156_r2l7">Jn Jr Armleute <add><ab facs="#facs_156_r2l6">
+<del rend="strikethrough">von Jren vnd anderr
+                                        <expan>vnſ<ex>er</ex></expan>
+<expan>burge<ex>r</ex></expan> Armleute vo </del></ab></add> cʒu
+                        Pettenſigeln <add><ab facs="#facs_156_r1l1">von Jren vnd
+                                        <expan>and<ex>er</ex>r</expan>
+</ab><ab facs="#facs_156_r1l2"><expan>vnſ<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> Arm = </ab><ab facs="#facs_156_r1l3">leute wegen </ab></add> fürbracht <expan>hab<ex>e</ex>n</expan> /
+                        daʒ Jr ſie auf </ab>
+<ab facs="#facs_156_r2l8">
+<del rend="strikethrough">vnd auch etlicher anderr
+                                <expan>vnſ<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> armleute auf </del> geiſtlich </ab>
+<ab facs="#facs_156_r2l9">gerichte gen Bamberg geladen habt von gatergelts wegen </ab>
+<ab facs="#facs_156_r2l10">das Jr auſʒ Jren gütern doſelbſt habt / das ſie euch
+                        doch <del rend="strikethrough">alle </del></ab>
+<ab facs="#facs_156_r2l11">
+<del rend="strikethrough"> vormals </del> allemal <del rend="strikethrough">ſo </del>
+<add><ab facs="#facs_156_line_1576742661430_2005"><expan>wen<ex>n</ex></expan>
+</ab></add> ſie des verfallen vnd ſchuldig geweſen </ab>
+<ab facs="#facs_156_r2l13">ſein / vnd ſo man <add><ab facs="#facs_156_line_1576742663935_2010">das </ab></add>
+<del rend="strikethrough"> auch das <expan>dan<ex>n</ex></expan></del> an
+                        ſie gevordert hab / als <expan>dan<ex>n</ex></expan>
+</ab>
+<ab facs="#facs_156_r2l14">von alter her <del rend="strikethrough">gewe </del>
+                        kumen <del rend="strikethrough"> iſt </del>
+<add><ab facs="#facs_156_line_1576742677185_2028">ſey </ab></add> / <del rend="strikethrough"><expan>vnu<ex>er</ex>cʒogenlich</expan></del>
+                        auſʒgeriht </ab>
+<ab facs="#facs_156_r2l16">vnd becʒalt <add><ab facs="#facs_156_line_1576742687900_2039"><expan>hab<ex>e</ex>n</expan>
+</ab></add> / <expan>dan<ex>n</ex></expan>
+<expan>yecʒund<ex>en</ex></expan> etlich cʒeit habt Jr eʒ an ſie </ab>
+<ab facs="#facs_156_r2l17">niht vordern laſſen noch darnach geſant / vnd maint
+                        daʒ </ab>
+<ab facs="#facs_156_r2l18">ſie euch das nachfüren vnd hinein gen Bamberg bringen </ab>
+<ab facs="#facs_156_r2l19">ſüllen / das Jn cʒuſwere vnd vnfüglıch wer / vnd auch
+                        alſo von </ab>
+<ab facs="#facs_156_r2l20">alter <del rend="strikethrough">her </del> niht
+                                <expan>herkume<ex>n</ex></expan> ſeẏ /
+                            <expan>Ro<ex>gamus</ex></expan> . daʒ Jr von
+                            <expan>derſelb<ex>e</ex>n</expan>
+<expan>klag</expan>
+</ab>
+<ab facs="#facs_156_r2l22">auf <expan>geıſtlıche<ex>n</ex></expan> rechten vnd
+                            <del rend="strikethrough">die <expan>vnſ<ex>er</ex>r</expan> do
+                                    <expan>Burge<ex>r</ex></expan></del>
+<add><ab facs="#facs_156_r2l21">der vnſern </ab></add> Armleute doſelbſt </ab>
+<ab facs="#facs_156_r2l23">darümb vnbeſwert laſſen wöllet durch
+                                <expan>vnſ<ex>er</ex>n</expan>
+<expan>wılle<ex>n</ex></expan> / vnd ewr </ab>
+<ab facs="#facs_156_r2l24">gelt vvaʒ ſıe euch des verfallen vnd ſchuldig ſein /
+                        an ſıe <expan>vord<ex>er</ex>n</expan>
+</ab>
+<ab facs="#facs_156_r2l25">laſſet / als <expan>den<ex>n</ex></expan> von
+                                <expan>alterherkume<ex>n</ex></expan> iſt / vnd kein newikeit damit </ab>
+<ab facs="#facs_156_r2l26">anfaht / oder auf ſie bringt / Als etc das
+                                <expan>wölle<ex>n</ex></expan> etc <expan>dat<ex>um</ex></expan>
+</ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_156" id="78r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Otten vom Eglofstein, tumherren czu Bamberg
+                    </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Ersamer und lieber <expan>h<ex>er</ex>re</expan>, uns
+                            <expan>hab<ex>e</ex>n</expan> fürgelegt unser lieb
+                                <expan>burge<ex>r</ex></expan> Karl Holczschuher und Erhart
+                        Schürstab, wie daz in ir armleute czu Pettensigeln <add>von iren und
+                                    <expan>and<ex>er</ex>r</expan>
+<expan>uns<ex>er</ex>r</expan>
+<expan>burge<ex>r</ex></expan> armleute wegen</add> fürbracht
+                                <expan>hab<ex>e</ex>n,</expan> daz ir sie auf geistlich gerichte gen
+                        Bamberg geladen habt von gatergelts wegen, das ir ausz iren gütern doselbst
+                        habt, das sie euch doch allemal, <add><expan>wen<ex>n</ex></expan></add> sie
+                        des verfallen und schuldig gewesen sein und so man <add>das</add> an sie
+                        gevordert hab, als <expan>dan<ex>n</ex></expan> von alter her kumen
+                            <add>sey</add>, auszgeriht und beczalt
+                                <add><expan>hab<ex>e</ex>n</expan></add>.
+                            <expan>Dan<ex>n</ex></expan>
+<expan>yeczund<ex>en</ex></expan> etlich czeit habt ir ez an sie niht
+                        vordern lassen noch darnach gesant und maint, daz sie euch das nachfüren und
+                        hinein gen Bamberg bringen süllen, das in czu swere und unfüglich wer und
+                        auch also von alter niht <expan>herkume<ex>n</ex></expan> sey.
+                                <expan>Ro<ex>gamus</ex></expan>, daz ir von
+                            <expan>derselb<ex>e</ex>n</expan>
+<expan>klag</expan> auf <expan>geistliche<ex>n</ex></expan> rechten und
+                            <add>der unsern</add> armleute doselbst darümb unbeswert lassen wöllet
+                        durch <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> und ewr gelt, waz sie euch des verfallen und
+                        schuldig sein, an sie <expan>vord<ex>er</ex>n</expan> lasset, als
+                                <expan>den<ex>n</ex></expan> von <expan>alter
+                            herkume<ex>n</ex></expan> ist, und kein newikeit damit anfaht oder auf
+                        sie bringt, als etc. Das <expan>wölle<ex>n</ex></expan> etc.
+                                <expan>Dat<ex>um.</ex></expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2274" xml:id="l2286" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2274 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>049r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_10"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2274.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Nothafft zu Weißenstein, Konrad</persName></ab><ab type="mention"><placeName type="mention">Rauhenkulm, Bg. (Lk. Neustadt a. d. Waldnaab)<noteGrp><note type="alternatives">Schlechtenkulm, Bg. (Lk. Neustadt a. d. Waldnaab)</note></noteGrp></placeName></ab><date from="23-02-1420" to="23-02-1420" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_100">
+<surface lrx="2661" lry="3692" ulx="0" uly="0">
+<graphic height="3692px" url="Rst Nbg-Briefbücher-Nr 5_0052_right.png" width="2661px"/>
+<zone lrx="771" lry="375" rendition="TextRegion" ulx="798" uly="1037" xml:id="facs_100_r1">
+<zone lrx="1695" lry="375" rendition="Line" ulx="767" uly="312" xml:id="facs_100_r1l1"/>
+<zone lrx="1495" lry="451" rendition="Line" ulx="798" uly="389" xml:id="facs_100_r1l2"/>
+<zone lrx="2328" lry="646" rendition="Line" ulx="267" uly="571" xml:id="facs_100_r1l3"/>
+<zone lrx="2422" lry="719" rendition="Line" ulx="470" uly="641" xml:id="facs_100_r1l4"/>
+<zone lrx="2408" lry="809" rendition="Line" ulx="457" uly="703" xml:id="facs_100_r1l5"/>
+<zone lrx="2378" lry="875" rendition="Line" ulx="438" uly="787" xml:id="facs_100_r1l6"/>
+<zone lrx="2404" lry="945" rendition="Line" ulx="440" uly="858" xml:id="facs_100_r1l7"/>
+<zone lrx="2346" lry="1017" rendition="Line" ulx="434" uly="935" xml:id="facs_100_r1l8"/>
+<zone lrx="771" lry="1099" rendition="Line" ulx="430" uly="1037" xml:id="facs_100_r1l9"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Konrad Nothafft zu Weißenstein, Pfleger zu Rauhenkulm/Schlechtenkulm</head><p>Der Rat teilt mit, dass er den Wert eines Gulden vor 42 Jahren in Eile nicht ermitteln kann, und empfiehlt wegen der beiden Armmänner des Adressaten einen Gesandten nach Nürnberg zu schicken, damit man ihm das Ergebnis mündlich mitteilen kann.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_100" id="49r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_100_r1l1"><expan>Conr<ex>ad</ex></expan> Nothafft cʒum vveiſſenſtein </ab>
+<ab facs="#facs_100_r1l2">Pfleger cʒum Culme . </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_100_r1l3"><expan>L<ex>ieber</ex></expan> . pfleger Als Jr vns <expan>geſchr<ex>iben</ex></expan> habt / von cʒvveÿer <expan>ewr<ex>er</ex></expan> <expan>Armman<ex>n</ex></expan> <expan>vveg<ex>en</ex></expan> </ab>
+<ab facs="#facs_100_r1l4">euch cʒu vviſſen laſſen / vvieuil gelts vor oncʒvveÿvıercʒig Jaren für j guldein </ab>
+<ab facs="#facs_100_r1l5">gangen ſeÿ etc . daʒ haben vvir vvol <expan>v<ex>er</ex>nomen</expan> ~ Nu künnen vvir daʒ alſpald ÿcʒo </ab>
+<ab facs="#facs_100_r1l6">niht finden / ~ Seıddemmale die cʒvven mann doch die <expan>ew<ex>r</ex>n</expan> ſind So mügt Jr </ab>
+<ab facs="#facs_100_r1l7">yemant den <expan>ew<ex>r</ex>n</expan> dem Jr getrawt cʒu vns ſchıken / So vvollen vvir darnach </ab>
+<ab facs="#facs_100_r1l8">ſuchen / vnd demſelben ſagen / vvas vvir alſo dauon fınden denn vvo vvir etc </ab>
+<ab facs="#facs_100_r1l9"><expan>dat<ex>um</ex></expan> ut <expan>ſup<ex>ra</ex></expan> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_100" id="49r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Conr<ex>ad</ex></expan> Nothafft czum Weissenstein, pfleger czum
+                        Culme</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> pfleger, als ir uns
+                                <expan>geschr<ex>iben</ex></expan> habt von czweyer
+                                <expan>ewr<ex>er</ex></expan>
+<expan>armman<ex>n</ex></expan>
+<expan>weg<ex>en</ex></expan>, euch czu wissen lassen, wievil gelts vor
+                        onczweyvierczig jaren für i guldein gangen sey etc., daz haben wir wol
+                                <expan>v<ex>er</ex>nomen</expan>. Nu künnen wir daz alspald yczo
+                        niht finden. Seiddemmale die czwen mann doch die
+                            <expan>ew<ex>r</ex>n</expan> sind, so mügt ir yemant den
+                                <expan>ew<ex>r</ex>n</expan>, dem ir getrawt, czu uns schiken, so
+                        wollen wir darnach suchen und demselben sagen, was wir also davon finden.
+                        Denn wo wir etc. <expan>Dat<ex>um</ex></expan> ut
+                            <expan>sup<ex>ra</ex></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="100" xml:id="l99" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 100 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>029v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 100.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext><ref ref="http://lme70.informatik.uni-erlangen.de:8060/exist/apps/nuernberger-briefbuecher/92.xml" xml:id="92">Text 92</ref></correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q14821" type="recipient">Coburg</placeName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q2090" type="mention">Nürnberg</placeName><persName type="mention">Karl, Hans</persName></ab><date from="16-05-1408" to="13-06-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_62">
+<surface lrx="2775" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0032_left.png" width="2775px"/>
+<zone lrx="236" lry="3138" rendition="TextRegion" ulx="154" uly="3331" xml:id="facs_62_r1">
+<zone lrx="638" lry="3138" rendition="Line" ulx="138" uly="3078" xml:id="facs_62_r1l1"/>
+<zone lrx="639" lry="3202" rendition="Line" ulx="143" uly="3143" xml:id="facs_62_r1l2"/>
+<zone lrx="236" lry="3378" rendition="Line" ulx="154" uly="3331" xml:id="facs_62_r1l3"/>
+</zone>
+<zone lrx="1669" lry="2442" rendition="TextRegion" ulx="1279" uly="3354" xml:id="facs_62_r4"> <zone lrx="1924" lry="2442" rendition="Line" ulx="1279" uly="2367" xml:id="facs_62_r4l19"/>
+<zone lrx="2590" lry="2579" rendition="Line" ulx="687" uly="2500" xml:id="facs_62_r4l20"/>
+<zone lrx="2607" lry="2666" rendition="Line" ulx="686" uly="2588" xml:id="facs_62_r4l21"/>
+<zone lrx="2640" lry="2766" rendition="Line" ulx="678" uly="2680" xml:id="facs_62_r4l22"/>
+<zone lrx="2728" lry="2857" rendition="Line" ulx="702" uly="2767" xml:id="facs_62_r4l23"/>
+<zone lrx="2594" lry="2938" rendition="Line" ulx="696" uly="2848" xml:id="facs_62_r4l24"/>
+<zone lrx="2590" lry="3024" rendition="Line" ulx="694" uly="2929" xml:id="facs_62_r4l25"/>
+<zone lrx="2643" lry="3102" rendition="Line" ulx="708" uly="3010" xml:id="facs_62_r4l26"/>
+<zone lrx="2630" lry="3185" rendition="Line" ulx="713" uly="3095" xml:id="facs_62_r4l27"/>
+<zone lrx="2650" lry="3264" rendition="Line" ulx="716" uly="3203" xml:id="facs_62_r4l28"/>
+<zone lrx="1669" lry="3301" rendition="Line" ulx="837" uly="3244" xml:id="facs_62_r4l29"/>
+<zone lrx="2616" lry="3352" rendition="Line" ulx="732" uly="3284" xml:id="facs_62_r4l30"/>
+<zone lrx="2066" lry="3454" rendition="Line" ulx="738" uly="3354" xml:id="facs_62_r4l31"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Coburg</head><p>Der Rat gewährt Hans Karl, Bürger zu Coburg, Geleit bis Johannistag wegen seiner Klage vor dem Stadtgericht zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_62" id="29v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_62_r4l19">Der Stat cʒu <expan>Kob<ex>ur</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_62_r4l20"><expan>L<ex>ieben</ex></expan> <expan>fr<ex>eunde</ex></expan> / Als wir <expan>ewr<ex>er</ex></expan> <expan>weiſh<ex>eit</ex></expan> vormals <expan>geſchr<ex>iben</ex></expan> <expan>hab<ex>e</ex>n</expan> / von </ab>
+<ab facs="#facs_62_r4l21">hanſen karls ewrs mitburgers wegen / laſſen wir <expan>ew<ex>r</ex></expan> <expan>erſ<ex>amkeit</ex></expan> </ab>
+<ab facs="#facs_62_r4l22"><expan>wiſſe<ex>n</ex></expan> / daʒ vns derſelb <expan>ew<ex>r</ex></expan> <expan>mitburg<ex>er</ex></expan> <expan>verſchrib<ex>e</ex>n</expan> hat / Als wir des </ab>
+<ab facs="#facs_62_r4l23"><expan>ewr<ex>er</ex></expan> vveiſheit ein abſchrıft <expan>ſende<ex>n</ex></expan>
+<del rend="strikethrough"> in di hirynne <expan>v<ex>er</ex>ſloſſen</expan></del> <expan>v<ex>er</ex>ſloſſen</expan> </ab>
+<ab facs="#facs_62_r4l24">in diſem brıef / Vnd alſo iſt eʒ / daʒ derſelb ewr mitburger </ab>
+<ab facs="#facs_62_r4l25">von <expan>de<ex>n</ex></expan> <expan>vnſere<ex>n</ex></expan>
+<del rend="strikethrough"> recht </del> hıe vor des Reichs Rihter oder vor vns </ab>
+<ab facs="#facs_62_r4l26">recht <expan>neme<ex>n</ex></expan> wil 
+<add><ab facs="#facs_62_r1l1">des vvir Jm gern </ab><ab facs="#facs_62_r1l2"><expan>beholffe<ex>n</ex></expan> ſein <expan>wölle<ex>n</ex></expan> </ab></add> vmb <expan>dıeſelb<ex>e</ex>n</expan>
+<del rend="strikethrough"> ſein </del> ſache dıe Er mit <expan>de<ex>n</ex></expan> ~ <expan>vnſ<ex>er</ex>n</expan> </ab>
+<ab facs="#facs_62_r4l27">cʒuhandeln hat / <expan>vven<ex>n</ex></expan> Er <expan>dan<ex>n</ex></expan> <expan>hıecʒwiſch<ex>e</ex>n</expan> vnd ſant <expan>Joh<ex>ans</ex></expan> tag </ab>
+<ab facs="#facs_62_r4l28">cʒu <expan>Sünvvende<ex>n</ex></expan> ſchierſt her cʒu vns gen <expan>Nür<ex>emberg</ex></expan> kümt / So ſol </ab>
+<ab facs="#facs_62_r4l30">Er 
+<del rend="strikethrough">cʒu vns vnd von vns bey </del>
+<add><ab facs="#facs_62_r4l29">cʒu vns bey vns vnd von 
+<del rend="strikethrough">vns </del></ab></add> vns ein ſleht ſicher geleẏte </ab>
+<ab facs="#facs_62_r4l31"><expan>hab<ex>e</ex>n</expan> für vns vnd dıe <expan>vnſ<ex>er</ex>n</expan> ongeuerde </ab>
+<add cert="unknown">
+<ab facs="#facs_62_r1l3">be </ab></add> </div>
+</div><div type="regularised"><pb facs="#facs_62" id="29v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Der stat czu <expan>Kob<ex>ur</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>fr<ex>eunde</ex></expan>, als wir <expan>ewr<ex>er</ex></expan>
+<expan>weish<ex>eit</ex></expan> vormals <expan>geschr<ex>iben</ex></expan>
+<expan>hab<ex>e</ex>n</expan> von Hansen Karls, ewrs mitburgers, wegen,
+                        lassen wir <expan>ew<ex>r</ex></expan>
+<expan>ers<ex>amkeit</ex></expan>
+<expan>wisse<ex>n</ex></expan>, daz uns derselb <expan>ew<ex>r</ex></expan>
+<expan>mitburg<ex>er</ex></expan>
+<expan>verschrib<ex>e</ex>n</expan> hat, als wir des
+                            <expan>ewr<ex>er</ex></expan> weisheit ein abschrift
+                                <expan>sende<ex>n</ex></expan>
+<expan>v<ex>er</ex>slossen</expan> in disem brief. Und also ist ez, daz
+                        derselb ewr mitburger von <expan>de<ex>n</ex></expan>
+<expan>unsere<ex>n</ex></expan> hie vor des reichs rihter oder vor uns recht
+                                <expan>neme<ex>n</ex></expan> wil, <add>des wir im gern
+                                    <expan>beholffe<ex>n</ex></expan> sein
+                                <expan>wölle<ex>n</ex></expan></add> umb
+                            <expan>dieselb<ex>e</ex>n</expan> sache, die er mit
+                            <expan>de<ex>n</ex></expan>
+<expan>uns<ex>er</ex>n</expan> czuhandeln hat, <expan>wen<ex>n</ex></expan>
+                        er <expan>dan<ex>n</ex></expan>
+<expan>hieczwisch<ex>e</ex>n</expan> und <app>
+<note><q type="date">sant <expan>joh<ex>ans</ex></expan> tag czu
+                                            <expan>sünwende<ex>n</ex></expan> schierst</q>
+                                24.06.1408</note>
+</app> her czu uns gen <expan>Nür<ex>emberg</ex></expan> kümt, so sol er
+                            <add>czu uns, bey uns und von </add> uns ein sleht sicher geleyte
+                                <expan>hab<ex>e</ex>n</expan> für uns und die
+                            <expan>uns<ex>er</ex>n</expan> ongeverde.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

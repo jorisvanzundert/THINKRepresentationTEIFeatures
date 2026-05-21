@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1411" xml:id="l1426" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1411 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>240r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 1411.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Berg, Eberhard v.</persName></ab><ab type="mention"><placeName type="mention">Weißendorf (Gt. d. Gem. Oberdolling, Lk. Eichstätt)</placeName><persName type="mention">Zeidler, Hans</persName></ab><date from="14-06-1412" to="14-06-1412" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_481">
+<surface lrx="2768" lry="3807" ulx="0" uly="0">
+<graphic height="3807px" url="Rst Nbg-Briefbücher-Nr 3_0242_right.png" width="2768px"/>
+<zone lrx="1494" lry="1728" rendition="TextRegion" ulx="969" uly="2568" xml:id="facs_481_r1"> <zone lrx="1667" lry="1728" rendition="Line" ulx="969" uly="1670" xml:id="facs_481_r1l14"/>
+<zone lrx="1494" lry="1817" rendition="Line" ulx="962" uly="1742" xml:id="facs_481_r1l15"/>
+<zone lrx="2544" lry="1997" rendition="Line" ulx="356" uly="1927" xml:id="facs_481_r1l16"/>
+<zone lrx="2488" lry="2088" rendition="Line" ulx="407" uly="2016" xml:id="facs_481_r1l17"/>
+<zone lrx="2461" lry="2194" rendition="Line" ulx="394" uly="2104" xml:id="facs_481_r1l18"/>
+<zone lrx="2493" lry="2283" rendition="Line" ulx="412" uly="2195" xml:id="facs_481_r1l19"/>
+<zone lrx="2538" lry="2362" rendition="Line" ulx="418" uly="2279" xml:id="facs_481_r1l20"/>
+<zone lrx="2499" lry="2463" rendition="Line" ulx="442" uly="2372" xml:id="facs_481_r1l21"/>
+<zone lrx="2509" lry="2548" rendition="Line" ulx="426" uly="2469" xml:id="facs_481_r1l22"/>
+<zone lrx="2525" lry="2639" rendition="Line" ulx="418" uly="2568" xml:id="facs_481_r1l23"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Eberhard vom Berg zu Weißendorf</head><p>Der Rat teilt als neuen Gerichtstag im Streit mit Hans Zeidler, Bürger zu Nürnberg, einen Termin vor Johannistag mit.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_481" id="240r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_481_r1l14"><expan>Eberharte<ex>n</ex></expan> von Perg </ab>
+<ab facs="#facs_481_r1l15">cʒu vveiſʒendorff </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_481_r1l16"><expan>L<ex>ieber</ex></expan> <expan>Erb<ex>er</ex>hart</expan> Eʒ iſt für vns kumen hans cʒeidler vnſer Burger </ab>
+<ab facs="#facs_481_r1l17">vnd hat vns gemant von der ſache vvegen / als Jr vnd Er <expan>hint<ex>er</ex></expan> dem </ab>
+<ab facs="#facs_481_r1l18">Rate <expan>blib<ex>e</ex>n</expan> ſeit / darümb vvir ew vormals einen tag geſecʒt heten </ab>
+<ab facs="#facs_481_r1l19">vnd Jr vns emput Jr möcht auf <expan>denſelb<ex>e</ex>n</expan> tag niht herein <expan>kume<ex>n</ex></expan> </ab>
+<ab facs="#facs_481_r1l20">Alſo ſecʒen vvir ew einen <expan>and<ex>er</ex>n</expan> tag auf den nehſten <expan>Mitwoch<ex>e</ex>n</expan> vor </ab>
+<ab facs="#facs_481_r1l21">ſant <expan>Johan<ex>n</ex>s</expan> tag cʒu Sünvvenden ſchıerſt / vnd wer eʒ / daʒ Jr alſo </ab>
+<ab facs="#facs_481_r1l22">auf <expan>denſelb<ex>e</ex>n</expan> tag niht kömt / So müſten vvir dem <expan>eg<ex>enanten</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>burg<ex>er</ex></expan> </ab>
+<ab facs="#facs_481_r1l23">ſeins rechten fürbaſʒ günnen cʒeſuchen / <expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> ııj̃ <expan>an<ex>te</ex></expan> viti Anno xij<hi rend="sup">o</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_481" id="240r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Eberharte<ex>n</ex></expan> von Perg czu Weiszendorff </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>Erb<ex>er</ex>hart</expan>, ez ist für uns kumen Hans Czeidler, unser
+                        burger, und hat uns gemant von der sache wegen, als ir und er
+                                <expan>hint<ex>er</ex></expan> dem rate
+                            <expan>blib<ex>e</ex>n</expan> seit, darümb wir ew vormals einen tag
+                        geseczt heten und ir uns emput, ir möcht auf
+                            <expan>denselb<ex>e</ex>n</expan> tag niht herein
+                            <expan>kume<ex>n</ex></expan>, also seczen wir ew einen
+                        <expan>and<ex>er</ex>n</expan> tag <app><note><q type="date">auf den nehsten
+                                <expan>mitwoch<ex>e</ex>n</expan> vor sant
+                            <expan>Johan<ex>n</ex>s</expan> tag czu sünwenden schierst</q>22.06.1412</note></app>; und wer ez,
+                        daz ir also auf <expan>denselb<ex>e</ex>n</expan> tag niht kömt, so müsten
+                        wir dem <expan>eg<ex>enanten</ex></expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>burg<ex>er</ex></expan> seins rechten fürbasz günnen cze suchen.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> iii <expan>an<ex>te</ex></expan> Viti anno
+                            xii<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

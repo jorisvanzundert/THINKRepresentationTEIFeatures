@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1565" xml:id="l1576" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1565 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>005v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1565.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">v. d. Linden, Apel</persName><persName type="recipient">Dick, Walther v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q365" type="mention">Köln</placeName><persName type="mention">Fleischmann, Peter</persName><persName type="mention">Glevel, Johann v.</persName></ab><date from="6-06-1414" to="4-07-1414" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_11">
+<surface lrx="2803" lry="3740" ulx="0" uly="0">
+<graphic height="3740px" url="Rst Nbg-Briefbücher-Nr 4_0008_left.png" width="2803px"/>
+<zone lrx="1872" lry="1653" rendition="TextRegion" ulx="1403" uly="2756" xml:id="facs_11_r1"> <zone lrx="2075" lry="1653" rendition="Line" ulx="1273" uly="1583" xml:id="facs_11_r1l11"/>
+<zone lrx="1872" lry="1746" rendition="Line" ulx="1275" uly="1670" xml:id="facs_11_r1l12"/>
+<zone lrx="2513" lry="1963" rendition="Line" ulx="613" uly="1856" xml:id="facs_11_r1l14"/>
+<zone lrx="2506" lry="2072" rendition="Line" ulx="612" uly="1962" xml:id="facs_11_r1l15"/>
+<zone lrx="2545" lry="2175" rendition="Line" ulx="630" uly="2061" xml:id="facs_11_r1l16"/>
+<zone lrx="2584" lry="2276" rendition="Line" ulx="642" uly="2170" xml:id="facs_11_r1l17"/>
+<zone lrx="2528" lry="2380" rendition="Line" ulx="641" uly="2266" xml:id="facs_11_r1l18"/>
+<zone lrx="2556" lry="2485" rendition="Line" ulx="655" uly="2378" xml:id="facs_11_r1l19"/>
+<zone lrx="2506" lry="2745" rendition="Line" ulx="1392" uly="2661" xml:id="facs_11_r1l20"/>
+<zone lrx="1939" lry="2832" rendition="Line" ulx="1403" uly="2756" xml:id="facs_11_r1l21"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Apel von der Linden und Walther von Dick, Bürger zu Köln</head><p>Der Rat bittet um Unterstützung für Peter Fleischmann, Bürger zu Nürnberg, in dessen Streit mit Johann von Glevel, Bürger zu Köln.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_11" id="5v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_11_r1l11"><expan>h<ex>er</ex>n</expan> Apeln von der Linden </ab>
+<ab facs="#facs_11_r1l12">Burger cʒu Cöln </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_11_r1l14">Lieber her Apell / Vns hat <expan>fürg<ex>elegt</ex></expan> . P . <expan>fleiſch<ex>man</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>Burg<ex>er</ex></expan> </ab>
+<ab facs="#facs_11_r1l15">vvie Er etvvaʒ ſache mit <expan>Johan<ex>n</ex></expan> von Glüel burger cʒu Colne </ab>
+<ab facs="#facs_11_r1l16">
+<del rend="strikethrough">als </del> von kauffmanſchaft vnd ſchulde wegen cʒehandeln hab / als </ab>
+<ab facs="#facs_11_r1l17">er euch das ſelber wol <expan>fürgeb<ex>e</ex>n</expan> wirdet / <expan>Ro<ex>gamus</ex></expan> daʒ Jr 
+<del rend="strikethrough"> Jm durch </del></ab>
+<ab facs="#facs_11_r1l18"><expan>demſelb<ex>e</ex>n</expan> ~ <expan>vnſ<ex>er</ex>m</expan> <expan>Burg<ex>er</ex></expan> darynne durch <expan>vnſ<ex>er</ex>n</expan> wıllen ewr </ab>
+<ab facs="#facs_11_r1l19">günſtige <expan>fürdru<ex>n</ex>g</expan> beweiſen wöllet / Als etc das wöllen etc </ab>
+</div>
+<div type="similiter"><ab facs="#facs_11_r1l20">VValthern vom Dick auch burger </ab>
+<ab facs="#facs_11_r1l21">cʒu Colne <expan>ſı<ex>mi</ex>l<ex>ite</ex>r</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_11" id="5v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan> Apeln von der Linden, burger czu Cöln </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieber her Apell, uns hat <expan>fürg<ex>elegt</ex></expan>
+<expan>P<ex>eter</ex></expan>
+<expan>Fleisch<ex>man</ex></expan>, <expan>uns<ex>er</ex></expan>
+<expan>burg<ex>er</ex></expan>, wie er etwaz sache mit
+                                <expan>Johan<ex>n</ex></expan> von Glüel, burger czu Colne, von
+                        kauffmanschaft und schulde wegen cze handeln hab, als er euch das selber wol
+                                <expan>fürgeb<ex>e</ex>n</expan> wirdet,
+                            <expan>ro<ex>gamus,</ex></expan> daz ir
+                            <expan>demselb<ex>e</ex>n</expan>
+<expan>uns<ex>er</ex>m</expan>
+<expan>burg<ex>er</ex></expan> darynne durch <expan>uns<ex>er</ex>n</expan>
+                        willen ewr günstige <expan>fürdru<ex>n</ex>g</expan> beweisen wöllet, als
+                        etc. Das wöllen etc.</ab>
+</div>
+<div type="similiter">
+<ab>Walthern vom Dick, auch burger czu Colne,
+                            <expan>si<ex>mi</ex>l<ex>ite</ex>r</expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

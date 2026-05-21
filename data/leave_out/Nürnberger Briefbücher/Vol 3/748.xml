@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="748" xml:id="l757" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 748 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>068r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 748.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Kere, Konrad v. d., Domherr und Küster v. Würzburg</persName></ab><ab type="mention"><orgName type="mention">Domkapitel (Würzburg)</orgName><persName type="mention">Kere, N. v.</persName><persName ref="https://www.wikidata.org/wiki/Q1666235" type="mention">Johann I. v. Egloffstein, Bf. v. Würzburg</persName></ab><date from="21-06-1410" to="21-06-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_137">
+<surface lrx="2765" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0070_right.png" width="2765px"/>
+<zone lrx="1325" lry="1520" rendition="TextRegion" ulx="786" uly="2221" xml:id="facs_137_r1"> <zone lrx="1669" lry="1520" rendition="Line" ulx="780" uly="1434" xml:id="facs_137_r1l20"/>
+<zone lrx="1599" lry="1591" rendition="Line" ulx="786" uly="1503" xml:id="facs_137_r1l21"/>
+<zone lrx="2433" lry="1814" rendition="Line" ulx="265" uly="1702" xml:id="facs_137_r1l22"/>
+<zone lrx="2508" lry="1903" rendition="Line" subtype="paragraph" ulx="269" uly="1776" xml:id="facs_137_r1l23"/>
+<zone lrx="2542" lry="1985" rendition="Line" ulx="281" uly="1857" xml:id="facs_137_r1l24"/>
+<zone lrx="2572" lry="2055" rendition="Line" ulx="279" uly="1939" xml:id="facs_137_r1l25"/>
+<zone lrx="2534" lry="2144" rendition="Line" ulx="283" uly="2013" xml:id="facs_137_r1l26"/>
+<zone lrx="2562" lry="2226" rendition="Line" ulx="291" uly="2084" xml:id="facs_137_r1l27"/>
+<zone lrx="1325" lry="2322" rendition="Line" ulx="288" uly="2221" xml:id="facs_137_r1l28"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Konrad von der Kere, Domherr und Küster von Würzburg</head><p>Der Rat teilt wegen der Verdächtigungen Konrads mit den Taten seines Vetters mit, dass sich der Landfrieden der Sache angenommen hat und dieser dem Bischof von Würzburg, dem Domkapitel und Konrad schreibt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_137" id="68r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_137_r1l20"><expan>Conr<ex>ad</ex></expan> von der Kere <expan>Tumh<ex>er</ex>ren</expan> </ab>
+<ab facs="#facs_137_r1l21">vnd Cuſter cʒu vvircʒburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_137_r1l22"><expan>Erſame<ex>r</ex></expan> lieber <expan>h<ex>er</ex>re</expan> / Als Jr vns <expan>verſchribe<ex>n</ex></expan> habt / von verdehtnüſſe in der </ab>
+<ab facs="#facs_137_r1l23">handlung vnd geſchichte / von <expan>ew<ex>r</ex>s</expan> vettern <expan>vveg<ex>en</ex></expan> / Dieſelbe ſache iſt nuͦ für den </ab>
+<ab facs="#facs_137_r1l24"><expan>lantfr<ex>id</ex></expan> komen / vnd hat ſich der / <expan>d<ex>er</ex></expan> lantfrid angenomen / vnd darvmb <expan>geſchr<ex>iben</ex></expan> </ab>
+<ab facs="#facs_137_r1l25"><expan>vnſ<ex>er</ex>m</expan> gnedigen <expan>h<ex>er</ex>ren</expan> von vvircʒburg / <expan>ew<ex>r</ex>m</expan> Capitell / vnd ew / vnd trifft die ſache </ab>
+<ab facs="#facs_137_r1l26">den lantfride an / daʒ vvir ew darüber / ön den <expan>lantfr<ex>id</ex></expan> niht geantvvürten <expan>künne<ex>n</ex></expan> / </ab>
+<ab facs="#facs_137_r1l27">dann vves vns der lantfride darÿnne vveiſet / des wöllen wir <expan>g<ex>er</ex>n</expan> gevölgig ſein </ab>
+<ab facs="#facs_137_r1l28"><expan>Dat<ex>um</ex></expan> <expan>Sab<ex>a</ex>to</expan> <expan>an<ex>te</ex></expan> <expan>Joh<ex>annis</ex></expan> <expan>Bap<ex>tis</ex><hi rend="sup">te</hi></expan> . Anno x<hi rend="sup">o</hi> / </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_137" id="68r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Conr<ex>ad</ex></expan> von der Kere,
+                            <expan>tumh<ex>er</ex>ren</expan> und custer czu Wirczburg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Ersame<ex>r</ex></expan>, lieber <expan>h<ex>er</ex>re</expan>, als ir uns
+                <expan>verschribe<ex>n</ex></expan> habt von verdehtnüsse in der handlung und
+            geschichte von <expan>ew<ex>r</ex>s</expan> vettern <expan>weg<ex>en</ex></expan>,
+            dieselbe sache ist nuͦ für den <expan>lantfr<ex>id</ex></expan> komen und hat sich der
+                <expan>d<ex>er</ex></expan> lantfrid angenomen und darumb
+              <expan>geschr<ex>iben</ex></expan>
+<expan>uns<ex>er</ex>m</expan> gnedigen <expan>h<ex>er</ex>ren</expan> von Wirczburg,
+                <expan>ew<ex>r</ex>m</expan> capitell und ew und trifft die sache den lantfride an,
+            daz wir ew darüber ön den <expan>lantfr<ex>id</ex></expan> niht geantwürten
+                <expan>künne<ex>n</ex></expan>, dann wes uns der lantfride darynne weiset, des
+            wöllen wir <expan>g<ex>er</ex>n</expan> gevölgig sein. <expan>Dat<ex>um</ex></expan>
+<expan>sab<ex>a</ex>to</expan>
+<expan>an<ex>te</ex></expan>
+<expan>Joh<ex>annis</ex></expan>
+<expan>bap<ex>tis</ex><hi rend="sup">te</hi></expan> anno x<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

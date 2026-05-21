@@ -1,0 +1,1525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Realia</title>
+            <respStmt>
+               <resp>Edited by</resp>
+               <name xml:id="elisa">Elisa Cugliana</name>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <p>Doctoral dissertation</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the three witnesses involved</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div xml:id="lists">
+            <note> The chosen lemma is usually the reading of F (indicated as "French" even if, of
+               course, it is not Modern French), in order to have a common ground with the new
+               digital edition of the whole textual tradition of Marco Polo's work coordinated by
+               Eugenio Burgio (Università Ca' Foscari Venezia). The proper names appearing only in
+               the German branch (resulting, for instance, from mistakes of the translator and/or
+               the scribes) and not present elsewhere in the ms. tradition are necessarily kept in
+               German (also in this case, the language in question is not Modern German). Common
+               nouns (that is, terms and referential expressions), are presented, if possible, both
+               in the reading of F and in their English translation. Later on, the English
+               correspondents of all the toponyms and anthroponyms will be provided as well. </note>
+
+            <listPerson>
+               <person xml:id="abatan">
+                  <persName ref="#abatan" xml:lang="fr">Abatan</persName>
+               </person>
+               <person xml:id="adam">
+                  <persName xml:lang="fr" ref="#adam">Adam</persName>
+               </person>
+               <person xml:id="alan" corresp="#alau">
+                  <persName xml:lang="de" ref="alan" corresp="#alau">Alan</persName>
+               </person>
+               <person xml:id="allanchora" corresp="#alau">
+                  <persName ref="#allanchora" xml:lang="de" corresp="#alau">Allanchora</persName>
+               </person>
+               <person xml:id="alaodin">
+                  <persName ref="#alaodin" xml:lang="fr">Alaodin</persName>
+               </person>
+               <person xml:id="alau">
+                  <persName xml:lang="fr" ref="#alau">Alau</persName>
+               </person>
+               <person xml:id="alauain" corresp="#alau">
+                  <persName xml:lang="de" ref="#alauain" corresp="#alau">Alauain</persName>
+               </person>
+               <person xml:id="alex">
+                  <persName xml:lang="fr" ref="#alex">Alexandre</persName>
+               </person>
+               <person xml:id="allauello" corresp="#alau">
+                  <persName xml:lang="de" ref="#alauello" corresp="#alau">Alauello</persName>
+               </person>
+               <person xml:id="argon">
+                  <persName xml:lang="fr" corresp="#argon">Argon</persName>
+               </person>
+               <person xml:id="bacuichan">
+                  <persName ref="#bacuichan" xml:lang="fr">Bacui Chan</persName>
+               </person>
+               <person xml:id="baianCinqsan">
+                  <persName ref="#baianCinqsan" xml:lang="fr">Baian Cinqsan</persName>
+               </person>
+               <person xml:id="balgana">
+                  <persName xml:lang="fr" ref="#balgana">Balgana</persName>
+               </person>
+               <person xml:id="baudoin">
+                  <persName xml:lang="fr" ref="#baudoin">Baldouino</persName>
+               </person>
+               <person xml:id="bangala">
+                  <persName ref="#bangala" xml:lang="fr">Bangala</persName>
+               </person>
+               <person xml:id="barchaKaan">
+                  <persName xml:lang="fr" ref="#barchaKaan">Barcha Kaan</persName>
+               </person>
+               <person xml:id="barac">
+                  <persName xml:lang="fr" ref="#barac">Barac</persName>
+               </person>
+               <person xml:id="sanBiaxio">
+                  <persName ref="#sanBiaxio" xml:lang="ven">san Biaxio</persName>
+               </person>
+               <person xml:id="caidu">
+                  <persName xml:lang="en" ref="caidu">Caidu</persName>
+               </person>
+               <person xml:id="christ">
+                  <persName xml:lang="en" ref="christ">Christ</persName>
+               </person>
+               <person xml:id="ciagatai">
+                  <persName ref="#ciagatai" xml:lang="fr">Ciagatai</persName>
+               </person>
+               <person xml:id="cinchin">
+                  <persName ref="#cinchin" xml:lang="fr">Cinchin</persName>
+               </person> <!-- check all here -->
+               <person xml:id="cinchinchan">
+                  <persName ref="#cinchinchan" xml:lang="fr">Cinchin Chan</persName>
+               </person>
+               <person xml:id="clement">
+                  <persName xml:lang="fr" ref="#clement">Clement</persName>
+               </person>
+               <person xml:id="cogacin">
+                  <persName xml:lang="fr" ref="#cogacin">Cogacin</persName>
+               </person>
+               <person xml:id="cogatin">
+                  <persName xml:lang="fr" ref="#cogatin">Cogatin</persName>
+               </person>
+               <person xml:id="cogotal">
+                  <persName xml:lang="fr" ref="#cogotal">Cogotal</persName>
+               </person>
+               <person xml:id="cublai">
+                  <persName xml:lang="fr" ref="#cublai">Cublai</persName>
+               </person>
+               <person xml:id="cuican">
+                  <persName ref="#cuican" xml:lang="fr">Cui Can</persName>
+               </person>
+               <person xml:id="culcarnein">
+                  <persName xml:lang="fr" ref="#culcarnein">Çulcarnein</persName>
+               </person>
+               <person xml:id="curficar">
+                  <persName ref="#curficar" xml:lang="fr">Çurficar</persName>
+               </person>
+               <person xml:id="dayre">
+                  <persName xml:lang="fr" ref="#dayre">Dayre</persName>
+               </person>
+               <person xml:id="davidMelic">
+                  <persName xml:lang="fr" ref="#davidMelic">David Melic</persName>
+               </person>
+               <person xml:id="facfur">
+                  <persName ref="#facfur" xml:lang="fr">Facfur</persName>
+               </person>
+               <person xml:id="gregor">
+                  <persName xml:lang="fr" ref="#gregor">Gregor de Plajence</persName>
+               </person>
+               <person xml:id="guilTripule">
+                  <persName xml:lang="fr" ref="#guilTripule">Guilielme de Tripule</persName>
+               </person>
+               <person xml:id="jesus">
+                  <persName xml:lang="en" ref="#jesus">Jesus</persName>
+               </person>
+               <person xml:id="johan">
+                  <persName ref="#johan" xml:lang="fr">Johan</persName>
+               </person>
+               <person xml:id="mafeu">
+                  <persName xml:lang="fr" ref="#mafeu">Mafeu Polo</persName>
+               </person>
+               <person xml:id="maomet">
+                  <persName ref="#maomet">Maomet</persName>
+               </person>
+               <person xml:id="marcoPolo">
+                  <persName xml:lang="fr" ref="#marcoPolo">Marco Polo</persName>
+               </person>
+               <person xml:id="marsarchis">
+                  <persName ref="#marsarchis" xml:lang="fr">Marsarchis</persName>
+               </person>
+               <person xml:id="mongucan">
+                  <persName xml:lang="fr" ref="#mongucan">Mongu Can</persName>
+                  <note>This name appears also in chapter 28 of DI, in the variant "Longiuchaam", this secondary reading originating already in branch b of TB.</note>
+               </person>
+               <person xml:id="nacygai">
+                  <persName ref="#nacygai" xml:lang="fr">Nacygai</persName>
+               </person>
+               <person xml:id="naian">
+                  <persName ref="#naian" xml:lang="fr">Naian</persName>
+               </person>
+               <person xml:id="nescradin">
+                  <persName ref="#nescradin" xml:lang="fr">Nescradin</persName>
+               </person>
+               <person xml:id="nicolau">
+                  <persName xml:lang="fr" ref="#nicolau">Nicolau Polo</persName>
+               </person>
+               <person xml:id="nicVicense">
+                  <persName xml:lang="fr" ref="#nicVicense">Nicolau de Vicense</persName>
+               </person>
+               <person xml:id="noe">
+                  <persName xml:lang="fr" ref="#noe">Noé</persName>
+               </person>
+               <person xml:id="prestreJohan">
+                  <persName xml:lang="fr" ref="#prestreJohan">Prestre Johan</persName>
+               </person>
+               <person xml:id="quiacatu">
+                  <persName xml:lang="fr" ref="#quiacatu">Quiacatu</persName>
+               </person>
+               <person xml:id="roideMien">
+                  <persName ref="#roideMien" xml:lang="fr">Roi de <placeName ref="#mien">Mien</placeName></persName>
+               </person>
+               <person xml:id="roidor">
+                  <persName ref="#roidor" xml:lang="fr">Roi d’Or</persName>
+               </person>
+               <person xml:id="ruemedanAcomat">
+                  <persName ref="#ruemedanAcomat" xml:lang="fr">Ruemedan Acomat</persName>
+               </person>
+               <person xml:id="santLionard">
+                  <persName xml:lang="fr" ref="#santLionard">sant Lionard</persName>
+               </person>
+               <person xml:id="santTomas">
+                  <persName xml:lang="fr" ref="#santTomas">sant Tomas</persName>
+               </person>
+               <person xml:id="senderba">
+                  <persName ref="#senderba">Sender Bandi Devar</persName>
+               </person>
+               <person xml:id="sentemur">
+                  <persName ref="#sentemur" xml:lang="fr">Sentemur</persName>
+               </person>
+               <person xml:id="sinfu">
+                  <persName ref="#sinfu" xml:lang="de">Sinfu</persName>
+                  <note>Cf. VA: "del re che se ne fuzì"</note>
+               </person>
+               <person xml:id="teald">
+                  <persName xml:lang="fr" ref="#teald">Teald de Plajençe</persName>
+               </person>
+               <person xml:id="temur">
+                  <persName ref="#temur" xml:lang="fr">Temur</persName>
+               </person>
+               <person xml:id="veronica">
+                  <persName xml:lang="de" ref="#veronica">Veronica</persName>
+                  <note>I have not found any mention of Saint Veronica in any other redaction.</note>
+               </person>
+               <person xml:id="viel">
+                  <persName ref="#viel" xml:lang="fr">Viel de la Montagne</persName>
+               </person>
+               <person xml:id="vonsanicin">
+                  <persName ref="#vonsanicin" xml:lang="fr">Vonsanicin</persName>
+               </person>
+            </listPerson>
+
+            <listPlace>
+               <place xml:id="abascie">
+                  <placeName ref="#abascie" xml:lang="fr">Abascie</placeName>
+                  <location>
+                     <geo>9, 40</geo>
+                  </location>
+               </place>
+               <place xml:id="acbalecMangi">
+                  <placeName ref="#acbalecMangi" xml:lang="fr">Acbalec Mangi</placeName>
+                  <location>
+                     <geo>33.0775, 107.026111</geo>
+                  </location>
+               </place>
+               <place xml:id="acri">
+                  <placeName xml:lang="fr" ref="#acri">Acri</placeName>
+                  <location>
+                     <geo>39.5, 16.383333</geo>
+                  </location>
+               </place>
+               <place xml:id="adan">
+                  <placeName xml:lang="fr" ref="#adan">Adan</placeName>
+                  <location>
+                     <geo>12.8, 45.033333</geo>
+                  </location>
+               </place>
+               <place xml:id="alcai">
+                  <placeName ref="#alcai" xml:lang="fr">Alcai</placeName>
+                  <location>
+                     <geo>49, 89</geo>
+                  </location>
+               </place>
+               <place xml:id="alexandre">
+                  <placeName xml:lang="fr" ref="#alexandre">Alexandre</placeName>
+                  <location>
+                     <geo>31.2, 29.916667</geo>
+                  </location>
+               </place>
+               <place xml:id="angaman">
+                  <placeName xml:lang="fr" ref="#angaman">Angaman</placeName>
+                  <location>
+                     <geo>12.5, 92.75</geo>
+                  </location>
+               </place>
+               <place xml:id="aniu">
+                  <placeName ref="#aniu" xml:lang="fr">Aniu</placeName>
+                  <location>
+                     <geo>16, 108</geo>
+                  </location>
+               </place>
+               <place xml:id="arabe">
+                  <placeName xml:lang="fr" ref="#arabe">Arabe</placeName>
+                  <location>
+                     <geo>23.716667, 44.116667</geo>
+                  </location>
+               </place>
+               <place xml:id="arcinga">
+                  <placeName ref="#arcinga" xml:lang="fr">Arcinga</placeName>
+                  <location>
+                     <geo>39.678333, 39.33</geo>
+                  </location>
+               </place>
+               <!-- Armenia minore e maggiore: come definire le coordinate?? -->
+               <place xml:id="armenie">
+                  <placeName xml:lang="fr" ref="#armenie">Armenie</placeName>
+                  <location>
+                     <geo>40.069099, 45.038188</geo>
+                  </location>
+               </place>
+               <place xml:id="GrandeArmenie">
+                  <placeName xml:lang="fr">Grande Armenie</placeName>
+                  <location>
+                     <geo>40.183333, 44.516667</geo>
+                  </location>
+               </place>
+               <place xml:id="petiteArmenie">
+                  <placeName xml:lang="fr">Petite Armenie</placeName>
+                  <location>
+                     <geo>39.45, 37.01</geo>
+                  </location>
+                  <note type="comment">Mistake of TB<!--check!! --></note>
+               </place>
+               <place xml:id="babelonie">
+                  <placeName xml:lang="fr" ref="#babelonie">Babelonie</placeName>
+                  <location>
+                     <geo>32.468191, 44.550193</geo>
+                  </location>
+               </place>
+               <place xml:id="badascian">
+                  <placeName xml:lang="fr" ref="#badascian">Badascian</placeName>
+                  <location>
+                     <geo>36.733333, 70.8</geo>
+                  </location>
+               </place>
+               <place xml:id="balc">
+                  <placeName ref="#balc" xml:lang="fr">Balc</placeName>
+                  <location>
+                     <geo>36.75, 66.9</geo>
+                  </location>
+               </place>
+               <place xml:id="baldracha">
+                  <placeName ref="#baldracha">Baldracha</placeName>
+                  <note>In the German translation it is introduced as a "land" from which the name
+                     of the city <placeName ref="#baudach">Baldracha</placeName> originated. It
+                     looks like an innovation of DI, but the TB manuscripts still need to be
+                     checked.</note>
+               </place>
+               <place xml:id="bengala">
+                  <placeName ref="#bengala" xml:lang="fr">Bangala</placeName>
+                  <location>
+                     <geo>24, 88</geo>
+                  </location>
+               </place>
+               <place xml:id="baudach">
+                  <placeName ref="#baudach">Baudac(h)</placeName>
+                  <location>
+                     <geo>33.033334, 44.433334</geo>
+                  </location>
+               </place>
+               <place xml:id="barcha" corresp="#barchaKaan">
+                  <placeName xml:lang="fr" ref="#barcha" corresp="#barchaKaan">Barcha</placeName>
+                  <location>
+                     <geo>Undefined</geo>
+                  </location>
+                  <note>This is interpreted as a place in the German translation but it actually
+                     does not exist as a place.</note>
+               </place>
+               <place xml:id="bascra">
+                  <placeName ref="#bascra" xml:lang="fr">Bascra</placeName>
+                  <location>
+                     <geo>30.5, 47.816667</geo>
+                  </location>
+               </place>
+               <place xml:id="basman">
+                  <placeName ref="#basman" xml:lang="fr">Basman</placeName>
+                  <location>
+                     <geo>0.166667, 100.117</geo>
+                  </location>
+               </place>
+               <place xml:id="belor">
+                  <placeName ref="#belor" xml:lang="fr">Belor</placeName>
+                  <location>
+                     <geo>35.185556, 76.163611</geo>
+                  </location>
+               </place>
+               <place xml:id="brius">
+                  <placeName ref="#brius" xml:lang="fr">Brius</placeName>
+                  <location>
+                     <geo>33.46749813, 91.19083257</geo>
+                  </location>
+               </place>
+               <place xml:id="bucara">
+                  <placeName xml:lang="fr" ref="#bucara">Bucara</placeName>
+                  <location>
+                     <geo>39.768083, 64.455577 </geo>
+                  </location>
+               </place>
+               <place xml:id="cacianfu">
+                  <placeName ref="#cacianfu" xml:lang="fr">Cacianfu</placeName>
+                  <location>
+                     <geo>27.994, 120.727</geo>
+                  </location>
+               </place>
+               <place xml:id="caiciu">
+                  <placeName ref="#caiciu" xml:lang="fr">Caiciu</placeName>
+                  <location>
+                     <geo>37.871460, 112.551208</geo>
+                  </location>
+               </place>
+               <place xml:id="caigiu">
+                  <placeName ref="#caigiu" xml:lang="fr">Caigiu</placeName>
+                  <location>
+                     <geo>32.05, 118.766667</geo>
+                  </location>
+               </place>
+               <place xml:id="cailum">
+                  <placeName ref="#cailum" xml:lang="fr">Cailum</placeName>
+                  <location>
+                     <geo>8.885278, 76.586389</geo>
+                  </location>
+               </place>
+               <place xml:id="caiton">
+                  <placeName ref="#caiton" xml:lang="fr">Çaiton</placeName>
+                  <location>
+                     <geo>24.916667, 118.583333</geo>
+                  </location>
+               </place>
+               <place xml:id="calaAtaperistan">
+                  <placeName xml:lang="fr" ref="#calaAtaperistan">Cala Ataperistan</placeName>
+                  <note>Wüstung (exact location unknown)</note>
+               </place>
+               <place xml:id="calacian">
+                  <placeName ref="#calacian" xml:lang="fr">Calacian</placeName>
+                  <location>
+                     <geo>38.9, 105.966667</geo>
+                  </location>
+               </place>
+               <place xml:id="camandi">
+                  <placeName ref="#camandi" xml:lang="fr">Camandi</placeName>
+                  <location>
+                     <geo>28.666667, 57.733333</geo>
+                  </location>
+                  <note>Actually, <placeName ref="#camandi">Camandi</placeName> was a place close to
+                     Jiroft, but it no longer exists so the coordinates refer to the still existing
+                     centre.</note>
+               </place>
+               <place xml:id="canbaet">
+                  <placeName xml:lang="fr" ref="#canbaet">Canbaet</placeName>
+                  <location>
+                     <geo>11.700, -10.750</geo>
+                  </location>
+               </place>
+               <place xml:id="canbalu">
+                  <placeName ref="#canbalu" xml:lang="fr">Canbalu</placeName>
+                  <location>
+                     <geo>39.905556, 116.391389</geo>
+                  </location>
+               </place>
+               <place xml:id="canghibar">
+                  <placeName ref="#canghibar" xml:lang="fr">Çanghibar</placeName>
+                  <location>
+                     <geo>-6.133333, 39.316667</geo>
+                  </location>
+               </place>
+               <place xml:id="canpicion">
+                  <placeName ref="#canpicion" xml:lang="fr">Canpicion</placeName>
+                  <location>
+                     <geo>38.931, 100.453</geo>
+                  </location>
+               </place>
+               <place xml:id="caracoron">
+                  <placeName ref="#caracoron" xml:lang="fr">Caracoron</placeName>
+                  <location>
+                     <geo>47.210278, 102.847778</geo>
+                  </location>
+               </place>
+               <place xml:id="caragian">
+                  <placeName ref="#caragian" xml:lang="fr">Caragian</placeName>
+                  <location>
+                     <geo>25.6065, 100.2676</geo>
+                  </location>
+               </place>
+               <place xml:id="caramoran">
+                  <placeName ref="#caramoran" xml:lang="fr">Caramoran</placeName>
+                  <location>
+                     <geo>37.78, 119.25</geo>
+                  </location>
+               </place>
+               <place xml:id="cardandan">
+                  <placeName ref="#cardandan" xml:lang="fr">Çardandan</placeName>
+                  <location>
+                     <geo>25.041667, 102.705</geo>
+                  </location>
+               </place>
+               <place xml:id="cascar">
+                  <placeName ref="#cascar" xml:lang="fr">Cascar</placeName>
+                  <location>
+                     <geo>39.45, 75.983333</geo>
+                  </location>
+               </place>
+               <place xml:id="casum">
+                  <placeName ref="#casum" xml:lang="fr">Casum</placeName>
+                  <location>
+                     <geo>36.266667, 50</geo>
+                  </location>
+               </place>
+               <place xml:id="catai">
+                  <placeName xml:lang="fr" ref="#catai">Catai</placeName>
+                  <location>
+                     <geo>38.998667, 98.661112</geo>
+                  </location>
+                  <note>Northern China</note>
+               </place> 
+               <place xml:id="caugigu">
+                  <placeName ref="#caugigu" xml:lang="fr">Caugigu</placeName>
+                  <location>
+                     <geo>19.272778, 107.325833</geo>
+                  </location>
+               </place>
+               <place xml:id="cayu">
+                  <placeName ref="#cayu" xml:lang="fr">Cayu</placeName>
+                  <location>
+                     <geo>32.78469, 119.44324</geo>
+                  </location>
+               </place>
+               <place xml:id="ceraci">
+                  <placeName xml:lang="fr" ref="#ceraci">Ceraçi</placeName>
+                  <location>
+                     <geo>29.608056, 52.524722</geo>
+                  </location>
+               </place>
+               <place xml:id="charcha">
+                  <placeName xml:lang="de" ref="#charcha">Charcha</placeName>
+                  <note>Misunderstanding of the German translator: this toponym is used in DI to
+                     refer to the land in which the city of <placeName ref="#ciarcian"
+                        >Charchan</placeName> is.</note>
+               </place>
+               <place xml:id="chinchintalas">
+                  <placeName ref="#chinchintalas" xml:lang="fr">Chinchintalas</placeName>
+                  <location>
+                     <geo>43.283333, 68.266667</geo>
+                  </location>
+               </place>
+               <place xml:id="chisi">
+                  <placeName ref="#chisi" xml:lang="fr">Chisi</placeName>
+                  <location>
+                     <geo>26.557778, 54.019444</geo>
+                  </location>
+               </place>
+               <place xml:id="choncha">
+                  <placeName ref="#choncha" xml:lang="fr">Choncha</placeName>
+                  <note>See Lemmario, "Concha"</note>
+               </place>
+               <place xml:id="ciagannuor">
+                  <placeName ref="#ciagannuor" xml:lang="fr">Ciagannuor</placeName>
+                  <note>
+                     Location uncertain
+                  </note>
+               </place>
+               <place xml:id="ciamba">
+                  <placeName ref="#ciamba" xml:lang="fr">Ciamba</placeName>
+                  <note>https://en.wikipedia.org/wiki/Champa</note>
+               </place>
+               <place xml:id="ciandu">
+                  <placeName ref="#ciandu" xml:lang="fr">Ciandu</placeName>
+                  <location>
+                     <geo>42.359722, 116.179167</geo>
+                  </location>
+               </place>
+               <place xml:id="cianglu">
+                  <placeName ref="#cianglu" xml:lang="fr">Cianglu</placeName>
+                  <location>
+                     <geo>38.316667, 116.866667</geo>
+                  </location>
+               </place>
+               <place xml:id="ciarcian" corresp="#yarcan">
+                  <placeName ref="#ciarcian" xml:lang="fr">Ciarcian</placeName>
+                  <location>
+                     <geo>38.135833, 85.53</geo>
+                  </location>
+               </place>
+               <place xml:id="cielstan">
+                  <placeName ref="#cielstan" xml:lang="fr">Cielstan</placeName>
+                  <location>
+                     <geo>29.616667, 52.533333</geo>
+                  </location>
+               </place>
+               <place xml:id="cin">
+                  <placeName ref="#cin">Cin</placeName>
+                  <location>
+                     <geo>35.86166, 104.195397</geo>
+                  </location>
+                  <note>Synonym of Mangi</note>
+               </place>
+               <place xml:id="cinghianfu">
+                  <placeName ref="#cinghianfu" xml:lang="fr">Cinghianfu</placeName>
+                  <location>
+                     <geo>32.21086, 119.45508</geo>
+                  </location>
+               </place>
+               <place xml:id="cingui">
+                  <placeName ref="#cingui" xml:lang="fr">Cingui</placeName>
+                  <location>
+                     <geo>32.033333, 120.866667</geo>
+                  </location>
+               </place>
+               <place xml:id="cipingu">
+                  <placeName ref="#cipingu" xml:lang="fr">Cipingu</placeName>
+                  <location>
+                     <geo>36, 138</geo>
+                  </location>
+               </place>
+               <place xml:id="ciugiu">
+                  <placeName xml:lang="fr" ref="#ciugiu">Ciugiu</placeName>
+                  <note>Not identified</note>
+               </place>
+               <place xml:id="cobinan">
+                  <placeName ref="#cobinan" xml:lang="fr">Cobinan</placeName>
+                  <location>
+                     <geo>31.410278, 56.2825</geo>
+                  </location>
+               </place>
+               <place xml:id="coigangiu">
+                  <placeName ref="#coigangiu" xml:lang="fr">Coigangiu</placeName>
+                  <location>
+                     <geo>33.5, 119.133333</geo>
+                  </location>
+               </place>
+               <place xml:id="comari">
+                  <placeName ref="#comari" xml:lang="fr">Comari</placeName>
+                  <location>
+                     <geo>8.091111, 77.541667</geo>
+                  </location>
+               </place>
+               <place xml:id="condur">
+                  <placeName ref="#condur" xml:lang="fr">Condur</placeName>
+                  <location>
+                     <geo>8.701406, 106.607467</geo>
+                  </location>
+               </place>
+               <place xml:id="crermain">
+                  <placeName ref="#crermain" xml:lang="fr">Crerma(i)n</placeName>
+                  <location>
+                     <geo>30.283333, 57.066667</geo>
+                  </location>
+               </place>
+               <place xml:id="curdistan">
+                  <placeName xml:lang="fr" ref="#curdistan">Curdistan</placeName>
+                  <location>
+                     <geo>37, 43</geo>
+                  </location>
+               </place>
+               <place xml:id="curmos">
+                  <placeName xml:lang="fr" ref="#curmos">Curmos</placeName>
+                  <location>
+                     <geo>27.05927, 56.460792</geo>
+                  </location>
+               </place>
+               <place xml:id="cyprus">
+                  <placeName xml:lang="en" ref="#cyprus">Cyprus</placeName>
+                  <location>
+                     <geo>35, 33</geo>
+                  </location>
+               </place>
+               <place xml:id="dagroian">
+                  <placeName xml:lang="fr" ref="#dagroian">Dagroian</placeName>
+                  <location>
+                     <geo>0.0, 102.0</geo>
+                  </location>
+                  <placeName>A kingdom in Sumatra which remains unidentified</placeName>
+               </place>
+               <place xml:id="damasco">
+                  <placeName><!-- check!! -->Damasco</placeName>
+                  <location>
+                     <geo>33.513807, 36.276528</geo>
+                  </location>
+               </place>
+               <place xml:id="daufar">
+                  <placeName ref="#daufar" xml:lang="fr">Daufar</placeName>
+                  <location>
+                     <geo>18, 54</geo>
+                  </location>
+               </place>
+               <place xml:id="ecina">
+                  <placeName ref="#ecina" xml:lang="fr">Eçina</placeName>
+                  <location>
+                     <geo>38.9, 82.2</geo> <!-- approximate!!!! Check -->
+                  </location>
+               </place>
+               <place xml:id="egrigaia">
+                  <placeName ref="#egrigaia" xml:lang="fr">Egrigaia</placeName>
+                  <location>
+                     <geo>44.341, 129.483</geo>
+                     <note>I viaggi di Marco Polo Veneziano (Vincenzo Lazari)</note>
+                  </location>
+               </place>
+               <place xml:id="ergivul">
+                  <placeName ref="#ergivul" xml:lang="fr">Ergivul</placeName>
+                  <location>
+                     <geo>37.983333, 100.366667</geo>
+                  </location>
+               </place>
+               <place xml:id="egypt">
+                  <placeName ref="#egypt" xml:lang="en">Egypt</placeName>
+                  <location>
+                     <geo>27, 29</geo>
+                  </location>
+               </place>
+               <place xml:id="escier">
+                  <placeName ref="#escier" xml:lang="fr">Escier</placeName>
+                  <location>
+                     <geo>14.760833, 49.606944</geo>
+                  </location>
+               </place>
+               <place xml:id="ethiopia">
+                  <placeName xml:lang="de" ref="#ethiopia">Ethiopia</placeName>
+                  <location>
+                     <geo>9.016667, 38.75</geo>
+                  </location>
+               </place>
+               <place xml:id="eufrautes">
+                  <placeName ref="#eufrautes"/>
+                  <location>
+                     <geo>31.005, 47.441944</geo>
+                  </location>
+               </place>
+               <place xml:id="fansur">
+                  <placeName ref="#fansur">Fansur</placeName>
+                  <location>
+                     <geo>-6.209, 106.133</geo>
+                  </location>
+               </place>
+               <place xml:id="formose">
+                  <placeName xml:lang="fr" ref="#formose">Formose</placeName>
+                  <location>
+                     <geo>26.566667, 56.25</geo>
+                  </location>
+                  <note>Cf. <placeName ref="#curmos">Curmos</placeName></note>
+               </place>
+               <place xml:id="fugiu">
+                  <placeName ref="#fugiu" xml:lang="fr">Fugiu</placeName>
+                  <location>
+                     <geo>26.071111, 119.303611</geo>
+                  </location>
+               </place>
+               <place xml:id="ganfu">
+                  <placeName ref="#ganfu" xml:lang="fr">Ganfu</placeName>
+                  <location>
+                     <geo>30.25, 120.166667</geo>
+                  </location>
+               </place>
+               <place xml:id="gaindu">
+                  <placeName ref="#gaidu" xml:lang="fr">Gaindu</placeName>
+                  <location>
+                     <geo>30.663611, 104.066667</geo>
+                  </location>
+               </place>
+               <place xml:id="gocurat">
+                  <placeName ref="#gocurat" xml:lang="fr">Goçurat</placeName>
+                  <location>
+                     <geo>23.22, 72.68</geo>
+                  </location>
+               </place>
+               <place xml:id="gostantinople">
+                  <placeName xml:lang="fr" ref="#gostantinople">Gostantinople</placeName>
+                  <location>
+                     <geo>41.008238, 28.978359</geo>
+                  </location>
+               </place>
+               <place xml:id="grezia">
+                  <placeName ref="#grezia" xml:lang="de">Grezia</placeName>
+                  <note>The toponym does not exist. It is actually a misunderstanding of <placeName
+                        ref="#crermain">Crecinam</placeName></note>
+               </place>
+               <place xml:id="heni">
+                  <placeName ref="#heni" xml:lang="en">Land of the Heni</placeName>
+                  <note>See entry "Chamul" in the Lemmario: http://virgo.unive.it/ecf-workflow/books/Ramusio/main/lemmario.html</note>
+               </place>
+               <place xml:id="heraclion">
+                  <placeName xml:id="en" ref="#heraclion">Heraclion</placeName>
+                  <location>
+                     <geo>35.333333, 25.133333</geo>
+                  </location>
+               </place>
+               <place xml:id="iacin">
+                  <placeName ref="#iacin" xml:lang="fr">Iacin</placeName>
+                  <location>
+                     <geo>25.041667, 102.705</geo>
+                  </location>
+               </place>
+               <place xml:id="iasdi">
+                  <placeName ref="#iasdi" xml:lang="fr">Iasdi</placeName>
+                  <location>
+                     <geo>31.9, 54.366667</geo>
+                  </location>
+               </place>
+               <place xml:id="istanit">
+                  <placeName ref="#istanit" xml:lang="fr">Istanit</placeName>
+                  <location>
+                     <geo>32.644722, 51.6675</geo>
+                  </location>
+               </place>
+               <place xml:id="java">
+                  <placeName xml:lang="fr" ref="#java">Java</placeName>
+                  <location>
+                     <geo cert="medium">-7.502778, 111.263056</geo>
+                     <!-- Giava -->
+                     <geo cert="medium">1.366572, 115.565094</geo>
+                     <!-- Borneo -->
+                  </location>
+               </place>
+               <place xml:id="piteteJava">
+                  <placeName xml:lang="fr" ref="#piteteJava">Pitete Java</placeName>
+                  <location>
+                     <geo>0.0, 102.0</geo>
+                  </location>
+               </place>
+               <place xml:id="jerusalen">
+                  <placeName xml:lang="fr" ref="#jerusalen">Jerusalen</placeName>
+                  <location>
+                     <geo>31.768319, 35.21371</geo>
+                  </location>
+               </place>
+               <place xml:id="jorjens">
+                  <placeName xml:lang="fr" ref="#jorjens">Jorjens</placeName>
+                  <location>
+                     <geo>42.016669, 43.733331</geo>
+                  </location>
+               </place>
+               <place xml:id="judea">
+                  <placeName ref="#judea" xml:lang="en">Judea</placeName>
+                  <location>
+                     <geo>31.698889, 35.306389</geo>
+                  </location>
+               </place>
+               <place xml:id="kesimur">
+                  <placeName ref="#kesimur" xml:lang="fr">Kesimur</placeName>
+                  <location>
+                     <geo>32.73, 74.87</geo>
+                  </location>
+               </place>
+               <place xml:id="kesmacoran">
+                  <placeName ref="#kesmacoran" xml:lang="fr">Kesmacoran</placeName>
+                  <location>
+                     <geo>25.30541, 60.64108</geo>
+                  </location>
+               </place>
+               <place xml:id="laias">
+                  <placeName xml:lang="fr" ref="#laias">Laias</placeName>
+                  <location>
+                     <geo>36.583333, 36.166667</geo>
+                  </location>
+               </place>
+               <place xml:id="lambri">
+                  <placeName ref="#lambri" xml:lang="fr">Lambri</placeName>
+                  <location>
+                     <geo>5.8200, 95.280s</geo>
+                  </location>
+               </place>
+               <place xml:id="lar">
+                  <placeName ref="#lar" xml:lang="fr">Lar</placeName>
+                  <location>
+                     <geo>23.22, 72.68</geo>
+                  </location>
+               </place>
+               <place xml:id="locac">
+                  <placeName ref="#locac" xml:lang="fr">Locac</placeName>
+                  <note>Location remains uncertain</note>
+               </place>
+               <place xml:id="longado">
+                  <placeName xml:lang="de" ref="#longado">Longado</placeName>
+                  <location>
+                     <note>Not to be mapped: probably originating from a misinterpretaion of the
+                        past participle of the verb "longare", "prolong". For the translator a place
+                        between Rhodes and the island of Euboea</note>
+                  </location>
+               </place>
+               <place xml:id="lor">
+                  <placeName ref="#lor" xml:lang="fr">Lor</placeName>
+                  <location>
+                     <geo>33.4871, 48.3538</geo>
+                  </location>
+               </place>
+               <place xml:id="maabar">
+                  <placeName ref="#maabar" xml:lang="fr">Maabar</placeName>
+                  <location>
+                     <geo>10.2878, 79.8651</geo>
+                  </location>
+               </place>
+               <place xml:id="macedonia">
+                  <placeName xml:lang="de" ref="#macedonia">Macedonia</placeName>
+                  <location>
+                     <geo>41, 22</geo>
+                  </location>
+               </place>
+               <place xml:id="madeigascar">
+                  <placeName xml:lang="de" ref="#madeigascar">Madeigascar</placeName>
+                  <location>
+                     <geo>-20, 47</geo>
+                  </location>
+               </place>
+               <place xml:id="malaiur">
+                  <placeName xml:lang="fr" ref="#malaiur">Malaiur</placeName>
+                  <note>Location remains uncertain</note>
+               </place>
+               <place xml:id="mangi">
+                  <placeName ref="#mangi" xml:lang="fr">Mangi</placeName>
+                  <location>
+                     <geo>35.86166, 104.195397</geo>
+                  </location>
+               </place>
+               <place xml:id="melibar">
+                  <placeName xml:lang="fr" ref="#melibar">Melibar</placeName>
+                  <location>
+                     <geo>8.440278, 76.923611</geo>
+                  </location>
+               </place>
+               <place xml:id="mien">
+                  <placeName ref="#mien" xml:lang="fr">Mien</placeName>
+                  <location>
+                     <geo>22, 96</geo>
+                  </location>
+               </place>
+               <place xml:id="mulecte">
+                  <placeName ref="#mulecte" xml:lang="fr">Mulecte</placeName>
+                  <location>
+                     <geo>36.266667, 50</geo>
+                  </location>
+               </place>
+               <place xml:id="oceanoInd">
+                  <placeName xml:lang="fr" ref="#oceanoInd">Mer d'Endie</placeName>
+                  <location>
+                     <geo>-44.05078945, 37.94630462</geo>
+                  </location>
+               </place>
+               <place xml:id="methone">
+                  <placeName xml:lang="en" ref="#methone">Methone</placeName>
+                  <location cert="medium">
+                     <geo>36.821667, 21.706944</geo>
+                  </location>
+               </place>
+               <place xml:id="merGlevechelan">
+                  <placeName ref="#merGlevechelan" xml:lang="fr">Mer de Glevechelan</placeName>
+                  <location>
+                     <geo>42, 50.5</geo>
+                  </location>
+               </place>
+               <place xml:id="montifi">
+                  <placeName ref="#montifi" xml:lang="fr">Montifi</placeName>
+                  <location>
+                     <geo>16.3, 80.45</geo>
+                  </location>
+               </place>
+               <place xml:id="mosul">
+                  <placeName ref="#mosul" xml:lang="fr">Mosul</placeName>
+                  <location>
+                     <geo>36.033333, 43.116667</geo>
+                  </location>
+               </place>
+               <place xml:id="nanghin">
+                  <placeName ref="#nanghin" xml:lang="fr">Nanghin</placeName>
+                  <location>
+                     <geo>34.791111, 114.348056</geo>
+                  </location>
+               </place>
+               <place xml:id="necuveran">
+                  <placeName ref="#necuveran" xml:lang="fr">Necuveran</placeName>
+                  <location>
+                     <geo>7.083333, 93.8</geo>
+                  </location>
+               </place>
+               <place xml:id="negrepont">
+                  <placeName xml:lang="fr" ref="#negrepont">Negrepont</placeName>
+                  <location>
+                     <geo>38.5, 24</geo>
+                  </location>
+               </place>
+               <place xml:id="oscurite">
+                  <placeName ref="#oscurite" xml:lang="fr">Oscurité</placeName>
+                  <note>"Corresponds in principle to the subarctic regions of northern Russia and western Siberia", see Lemmario, "Regione delle Tenebre"</note>
+               </place>
+               <place xml:id="oucaca">
+                  <placeName xml:lang="fr" ref="#oucaca">Oucaca</placeName>
+                  <location>
+                     <geo>51.420833, 45.9625</geo>
+                  </location>
+               </place>
+               <place xml:id="paradise">
+                  <placeName xml:lang="en" ref="#paradise">Paradise</placeName>
+                  <location>
+                     <geo/>
+                  </location>
+               </place>
+               <place xml:id="pasciai">
+                  <placeName ref="#pasciai" xml:lang="fr">Pasciai</placeName>
+                  <note>The word is used as a toponym in the whole textual tradition, but it was
+                     originally the name of the people leaving South of Hindū Kūsh eand North of
+                     Kabul</note>
+               </place>
+               <place xml:id="pauchin">
+                  <placeName ref="#pauchin">Pauchin</placeName>
+                  <location>
+                     <geo>33.24298, 119.32393</geo>
+                  </location>
+               </place>
+               <place xml:id="pem">
+                  <placeName ref="#pem" xml:lang="fr">Pem</placeName>
+                  <location cert="medium">
+                     <geo>36.85704, 81.65546</geo>
+                     <note>According to Haw (2006: 87)</note>
+                  </location>
+               </place>
+               <place xml:id="pentain">
+                  <placeName ref="#pentain" xml:lang="fr">Pentain</placeName>
+                  <location>
+                     <geo>1.083333, 104.483333</geo>
+                  </location>
+               </place>
+               <place xml:id="persie">
+                  <placeName xml:lang="fr" ref="#persie">Persie</placeName>
+                  <location>
+                     <geo>35.683333, 51.416667</geo>
+                  </location>
+               </place>
+               <place xml:id="pianfu">
+                  <placeName ref="#pianfu" xml:lang="fr">Pianfu</placeName>
+                  <location>
+                     <geo>36.088005, 111.518974</geo>
+                  </location>
+               </place>
+               <place xml:id="plajence">
+                  <placeName xml:lang="fr" ref="#plajence">Plajençe</placeName>
+                  <location>
+                     <geo>45.047778, 9.700556</geo>
+                  </location>
+               </place>
+               <place xml:id="qenlifu">
+                  <placeName ref="#qenlifu" xml:lang="fr">Qenlifu</placeName>
+                  <location>
+                     <geo>27.03867, 118.3215</geo>
+                  </location>
+               </place>
+               <place xml:id="quengianfu">
+                  <placeName ref="#quengianfu" xml:lang="fr">Quengianfu</placeName>
+                  <location>
+                     <geo>34.341568, 108.940178</geo>
+                  </location>
+               </place>
+               <place xml:id="quian">
+                  <placeName ref="#quian" xml:lang="fr">Quian</placeName>
+                  <location>
+                     <geo>33.46749813, 91.19083257</geo>
+                  </location>
+               </place>
+               <place xml:id="quinsai">
+                  <placeName ref="#quinsai" xml:lang="fr">Quinsai</placeName>
+                  <location>
+                     <geo>30.25, 120.166667</geo>
+                  </location>
+               </place>
+               <place xml:id="reobar">
+                  <placeName ref="#reobar" xml:lang="fr">Reobar</placeName>
+                  <location>
+                     <geo>28.666667, 57.733333</geo>
+                  </location>
+               </place>
+               <place xml:id="rhodes">
+                  <placeName xml:lang="en" ref="#rhodes">Rhodes</placeName>
+               </place>
+               <place xml:id="rome">
+                  <placeName xml:lang="fr" ref="#rome">Rome</placeName>
+                  <location>
+                     <geo>41.893056, 12.482778</geo>
+                  </location>
+               </place>
+               <place xml:id="rosie">
+                  <placeName xml:lang="fr" ref="#rosie">Rosie</placeName>
+                  <location>
+                     <geo>62, 100</geo>
+                  </location>
+               </place>
+               <place xml:id="saba">
+                  <placeName xml:lang="fr" ref="#saba">Saba</placeName>
+                  <location>
+                     <geo>35.016667, 50.35</geo>
+                  </location>
+               </place>
+               <place xml:id="saianfu">
+                  <placeName xml:lang="fr" ref="#saianfu">Saiafu</placeName>
+                  <location>
+                     <geo>32.017, 112.133</geo>
+                  </location>
+               </place>
+               <place xml:id="samatra">
+                  <placeName ref="#samatra" xml:lang="fr">Samatra</placeName>
+                  <location>
+                     <geo>4.3, 96.9</geo>
+                  </location>
+               </place>
+               <place xml:id="sanmarcan">
+                  <placeName ref="#sanmarcan" xml:lang="fr">Sanmarcan</placeName>
+                  <location>
+                     <geo>39.65, 66.95</geo>
+                  </location>
+               </place>
+               <place xml:id="sapurgan">
+                  <placeName ref="#sapurgan" xml:lang="fr">Sapurgan</placeName>
+                  <location>
+                     <geo>36.665, 65.751944</geo>
+                  </location>
+               </place>
+               <place xml:id="scasem">
+                  <placeName ref="#scasem" xml:lang="fr">Scasem</placeName>
+                  <location>
+                     <geo>36.853889, 71.463183</geo>
+                  </location>
+               </place>
+               <place xml:id="scotra">
+                  <placeName ref="#scotra" xml:lang="fr">Scotra</placeName>
+                  <location>
+                     <geo>12.5, 53.833333</geo>
+                  </location>
+               </place>
+               <place xml:id="seilan">
+                  <placeName ref="#seilan" xml:lang="fr">Seilan</placeName>
+                  <location>
+                     <geo>7, 81</geo>
+                  </location>
+               </place>
+               <place xml:id="semenat">
+                  <placeName ref="#semenat" xml:lang="fr">Semenat</placeName>
+                  <location>
+                     <geo>20.888028, 70.401389</geo>
+                  </location>
+               </place>
+               <place xml:id="sindatiu">
+                  <placeName ref="#sindatiu" xml:lang="fr">Sindatiu</placeName>
+                  <location>
+                     <geo>40.60717, 115.05475</geo>
+                  </location>
+               </place>
+               <place xml:id="sindifu">
+                  <placeName ref="#sindifu" xml:lang="fr">Sindifu</placeName>
+                  <location>
+                     <geo>30.657000, 104.066002</geo>
+                  </location>
+               </place>
+               <place xml:id="singiu">
+                  <placeName ref="#singiu" xml:lang="fr">Singiu</placeName>
+                  <location>
+                     <geo>36.583333, 101.916667</geo>
+                  </location>
+               </place>
+               <place xml:id="singiu2">
+                  <placeName ref="#singiu2" xml:lang="fr">Singiu</placeName>
+                  <location>
+                     <geo>32.2723, 119.1848</geo>
+                  </location>
+               </place>
+               <place xml:id="soldadie">
+                  <placeName xml:lang="fr" ref="#soldadie">Soldadie</placeName>
+                  <placeName xml:lang="en" ref="#soldadie">Sudak</placeName>
+                  <location>
+                     <geo>44.850467, 34.976183</geo>
+                  </location>
+               </place>
+               <place xml:id="soncara">
+                  <placeName ref="#soncara" xml:lang="fr">Soncara</placeName>
+                  <location>
+                     <geo>28.516667, 53.55</geo>
+                  </location>
+               </place>
+               <place xml:id="sondur">
+                  <placeName ref="#sondur" xml:lang="fr">Sondur</placeName>
+                  <location>
+                     <geo>8.666667, 106.683333</geo>
+                  </location>
+                  <note>According to Pelliot</note>
+               </place>
+               <place xml:id="spain">
+                  <placeName ref="#spain" xml:lang="en">Spain</placeName>
+                  <location>
+                     <geo>40, -4</geo>
+                  </location>
+               </place>
+               <place xml:id="suctiur">
+                  <placeName ref="#suctiur" xml:lang="fr">Suctiur</placeName>
+                  <location>
+                     <geo>39.734, 98.494</geo>
+                  </location>
+               </place>
+               <place xml:id="syria">
+                  <placeName xml:lang="en" ref="#syria">Syria</placeName>
+                  <location>
+                     <geo>35, 38</geo>
+                  </location>
+               </place>
+               <place xml:id="taican">
+                  <placeName ref="#taican" xml:lang="fr">Taican</placeName>
+                  <location>
+                     <geo>36.716667, 69.516667</geo>
+                  </location>
+               </place>
+               <place xml:id="taianfu">
+                  <placeName ref="#taianfu" xml:lang="fr">Taianfu</placeName>
+                  <location>
+                     <geo>37.869444, 112.560278</geo>
+                  </location>
+               </place>
+               <place xml:id="tana">
+                  <placeName ref="#tana" xml:lang="fr">Tana</placeName>
+                  <location>
+                     <geo>19.18, 72.963333</geo>
+                  </location>
+               </place>
+               <place xml:id="tangut">
+                  <placeName ref="#tangut" xml:lang="fr">Tangut</placeName>
+                  <location>
+                     <geo>38, 102</geo>
+                  </location>
+                  <note>Location uncertain</note> <!--  CHECK -->
+               </place>
+               <place xml:id="tatarstan">
+                  <placeName xml:lang="en" ref="#tatarstan">Tatarstan</placeName>
+                  <location>
+                     <geo>55.180236, 50.726394</geo>
+                  </location>
+               </place>
+               <place xml:id="tebet">
+                  <placeName ref="#tebet" xml:lang="fr">Tebet</placeName>
+                  <location>
+                     <geo>31.2, 88.8</geo>
+                  </location>
+               </place>
+               <place xml:id="tigiu">
+                  <placeName ref="#tigiu" xml:lang="fr">Tigiu</placeName>
+                  <location>
+                     <geo>31.783333, 119.966667</geo>
+                  </location>
+               </place>
+               <place xml:id="tigri">
+                  <placeName xml:lang="fr" ref="#tigri">Tigri</placeName>
+                  <location>
+                     <geo>38.433333, 39.772778</geo>
+                  </location>
+               </place>
+               <place xml:id="tinghingui">
+                  <placeName ref="#tinghingui" xml:lang="fr">Tinghingui</placeName>
+                  <location>
+                     <geo>31.811001, 119.973999</geo>
+                  </location>
+               </place>
+               <place xml:id="todinfu">
+                  <placeName ref="#todinfu" xml:lang="fr">Todinfu</placeName>
+                  <location>
+                     <geo>25.694, 119.311</geo>
+                  </location>
+               </place>
+               <place xml:id="tolomain">
+                  <placeName ref="#tolomain" xml:lang="fr">Tolomain</placeName>
+                  <note>See entry "Tholoman" at http://virgo.unive.it/ecf-workflow/books/Ramusio/main/lemmario.html</note>
+               </place>
+               <place xml:id="toris">
+                  <placeName ref="#toris" xml:lang="fr">Toris</placeName>
+                  <location>
+                     <geo>38.083333, 46.283333</geo>
+                  </location>
+               </place>
+               <place xml:id="trepisonde">
+                  <placeName xml:lang="fr" ref="#trepisonde">Trepisonde</placeName>
+                  <location>
+                     <geo>41, 39.733333</geo>
+                  </location>
+               </place>
+               <place xml:id="tunocain">
+                  <placeName xml:lang="fr" ref="#tunocain">Tunocain</placeName>
+                  <location>
+                     <geo>34.016667, 58.166667</geo>
+                  </location>
+               </place>
+               <place xml:id="turcomanie">
+                  <placeName xml:lang="fr" ref="#turcomanie">Turcomanie</placeName>
+                  <location>
+                     <geo>39.916667, 32.833333</geo>
+                  </location>
+               </place>
+               <place xml:id="venese">
+                  <placeName xml:lang="fr" ref="#venese">Venese</placeName>
+                  <location>
+                     <geo>45.4375, 12.335833</geo>
+                  </location>
+               </place>
+               <place xml:id="vocan">
+                  <placeName ref="#vocan" xml:lang="fr">Vocan</placeName>
+                  <location>
+                     <geo>37.0000, 73.0000</geo>
+                  </location>
+               </place>
+               <place xml:id="yangiu">
+                  <placeName ref="#yangiu" xml:lang="fr">Yangiu</placeName>
+                  <location>
+                     <geo>32.4, 119.416667</geo>
+                  </location>
+               </place>
+               <place xml:id="yarcan">
+                  <placeName ref="#yarcan" xml:lang="fr">Yarcan</placeName>
+                  <location>
+                     <geo>38.416667, 77.25</geo>
+                  </location>
+               </place>
+               <place xml:id="ynde">
+                  <placeName xml:id="fr" ref="#ynde">Ynde</placeName>
+                  <location>
+                     <geo>21, 78</geo>
+                  </location>
+               </place>
+              
+            </listPlace>
+
+            <list type="realia" xml:id="realia_generici">
+               <item xml:id="abraiamam">
+                  <term xml:lang="fr" ref="#abraiamam">Abraiamam</term>
+               </item>
+               <item xml:id="alani">
+                  <term ref="#alani" xml:lang="fr">Alani</term>
+               </item>
+               <item xml:id="ambre">
+                  <term ref="#ambre" xml:lang="fr">Ambre</term>
+               </item>
+               <item xml:id="arabi">
+                  <term xml:lang="fr">Arabi</term>
+               </item>
+               <item xml:id="arche">
+                  <term xml:lang="fr">Arche</term>
+               </item>
+               <item xml:id="armin">
+                  <term xml:lang="fr" ref="#armin">Armin</term>
+               </item>
+               <item xml:id="balasci">
+                  <term xml:lang="fr" ref="#balasci">Balasci</term>
+               </item>
+               <item xml:id="balenne">
+                  <term xml:lang="fr" ref="#balenne">Balenne</term>
+               </item>
+               <item xml:id="biçans">
+                  <term xml:lang="fr" ref="#biçans">Biçans</term>
+               </item>
+               <item xml:id="bocarans">
+                  <term xml:lang="fr" ref="#bocarans">Bocarans</term>
+               </item>
+               <item xml:id="cafins">
+                  <term xml:lang="fr" ref="#cafins">Çafins</term>
+               </item>
+               <item xml:id="calcedoine">
+                  <term ref="#calcedoine" xml:lang="fr">Calcedoine</term>
+               </item>
+               <item xml:id="calif">
+                  <term xml:lang="fr" ref="#calif">Calif</term>
+               </item>
+               <item xml:id="capdol">
+                  <term xml:lang="fr" ref="#capdol">Capdol</term>
+               </item>
+               <item xml:id="carabelle">
+                  <term xml:lang="de" ref="#carabelle">Carabelle</term>
+               </item>
+               <item xml:id="caraunas">
+                  <term ref="#caraunas" xml:lang="fr">Caraunas</term>
+               </item>
+               <item xml:id="charte">
+                  <term ref="#charte" xml:lang="fr">Charte</term>
+               </item>
+               <item xml:id="curd">
+                  <term ref="#curd" xml:lang="fr">Curd</term>
+               </item>
+               <item xml:id="dattal">
+                  <term ref="#dattal" xml:lang="fr">Dattal</term>
+               </item>
+               <item xml:id="diamant">
+                  <term xml:lang="fr" ref="#diamant">Diamant</term>
+               </item>
+               <item xml:id="diaspe">
+                  <term xml:lang="fr" ref="#diaspe">Diaspe</term>
+               </item>
+               <item xml:id="francolin">
+                  <term ref="#francolin" xml:lang="fr">Francolin</term>
+               </item>
+               <item xml:id="gavi">
+                  <term ref="#gavi" xml:lang="fr">Gavi</term>
+               </item>
+               <item xml:id="giraffe">
+                  <term ref="#giraffe" xml:lang="fr">Giraffe</term>
+               </item>
+               <item xml:id="grecois">
+                  <term xml:lang="fr" ref="#grecois">Greçois</term>
+               </item>
+               <item xml:id="griego">
+                  <term xml:lang="it" ref="#griego">Griego</term>
+               </item>
+               <item xml:id="guasmul">
+                  <term xml:lang="fr" ref="#guasmul">Guasmul</term>
+               </item>
+               <item xml:id="guidderi">
+                  <term xml:lang="fr">guidderi</term>
+               </item>
+               <item xml:id="horiat">
+                  <term xml:lang="fr" ref="#horiat">Horiat</term>
+               </item>
+               <item xml:id="hostrige">
+                  <term xml:lang="fr" ref="#hostrige">Hostrige</term>
+               </item>
+               <item xml:id="jacopins">
+                  <term xml:lang="fr" ref="#jacopins">Jacopins</term>
+               </item>
+               <item xml:id="kaan">
+                  <term xml:lang="fr" ref="#kaan">kaan</term>
+                  <note>PROVA</note>
+               </item>
+               <item xml:id="latins">
+                  <term xml:lang="en" ref="#latins">Latins</term>
+               </item>
+               <item xml:id="leofans">
+                  <term xml:lang="fr" ref="#leofans">Leofans</term>
+               </item>
+               <item xml:id="leopars">
+                  <term ref="#leopars" xml:lang="fr">Leopars</term>
+               </item>
+               <item xml:id="lonce">
+                  <term ref="#lonce" xml:lang="fr">Lonce</term>
+               </item>
+               <item xml:id="lyon">
+                  <term ref="#lyon" xml:lang="fr">Lyon</term>
+               </item>
+               <item xml:id="mecri">
+                  <term xml:lang="fr" ref="#mecri">Mecri</term>
+               </item>
+               <item xml:id="mil">
+                  <term xml:lang="fr" ref="#mil">mil</term>
+                  <term xml:lang="en" ref="#mil">mile</term>
+               </item>
+               <item xml:id="montVers">
+                  <term xml:lang="fr" ref="#montVers">Mont Vers</term>
+               </item>
+               <item xml:id="nestorins">
+                  <term xml:lang="fr" ref="#nestorins">Nestorins</term>
+               </item>
+               <item xml:id="ondanique">
+                  <term xml:lang="fr" ref="#ondanique">Ondanique</term>
+               </item>
+               <item xml:id="papagaus">
+                  <term xml:lang="fr" ref="#papagaus">Papagaus</term>
+               </item>
+               <item xml:id="palais">
+                  <term xml:lang="fr" ref="#palais">Palais</term>
+               </item>
+               <item xml:id="paum">
+                  <term xml:lang="fr" ref="#paum">Paumes</term>
+               </item>
+               <item xml:id="porcelaine">
+                  <term ref="#procelaine" xml:lang="fr">Procelaine</term>
+               </item>
+               <item xml:id="quesitam">
+                  <term xml:lang="fr" ref="#quesitam">Quesitam</term>
+               </item>
+               <item xml:id="ribarbar">
+                  <term ref="#ribarbar" xml:lang="fr">Ribarbar</term>
+               </item>
+               <item xml:id="robin">
+                  <term xml:lang="fr" ref="#robin">Robin</term>
+               </item>
+               <item xml:id="roman">
+                  <term xml:lang="eng" ref="#roman">Roman</term>
+               </item>
+               <item xml:id="ruc">
+                  <term xml:lang="fr" ref="#ruc">Ruc</term>
+               </item>
+               <item xml:id="salamandre">
+                  <term ref="#salamandre" xml:lang="fr">Salamandre</term>
+               </item>
+               <item xml:id="soldan">
+                  <term ref="#soldan" xml:lang="fr">Soldan</term>
+               </item>
+               <item xml:id="sosimain">
+                  <term ref="#sosimain" xml:lang="fr">Sosimain</term>
+               </item>
+               <item xml:id="spodio">
+                  <term xml:lang="fr" ref="#spodio">Spodio</term>
+               </item>
+               <item xml:id="tartars">
+                  <term xml:lang="en" ref="#tartars">Tartars</term>
+               </item>
+               <item xml:id="timon">
+                  <term xml:lang="fr" ref="#timon">Timon</term>
+               </item>
+               <item xml:id="tomain">
+                  <term xml:lang="fr" ref="#tomain">Tomain</term>
+               </item>
+               <item xml:id="topas">
+                  <term xml:lang="fr" ref="#topas">Topas</term>
+               </item>
+               <item xml:id="torchoise">
+                  <term xml:lang="fr" ref="#torchoise">Torchoise</term>
+               </item>
+               <item xml:id="tornis">
+                  <term ref="#tornis" xml:lang="fr">Tornis</term>
+               </item>
+               <item xml:id="tramontaine">
+                  <term xml:lang="fr" ref="#tramontaine">Tramontaine</term>
+               </item>
+               <item xml:id="tutie">
+                  <term ref="#tutie" xml:lang="fr">Tutie</term>
+               </item>
+               <item xml:id="unecan">
+                  <term xml:lang="fr" ref="#unecan">Une Can</term>
+               </item>
+               <item xml:id="ungrac">
+                  <term ref="#ungrac" xml:lang="fr">Ungrac</term>
+               </item>
+               <item xml:id="venetians">
+                  <term xml:lang="en" ref="#venetians">Venetians</term>
+               </item>
+               <item xml:id="ydres">
+                  <term xml:lang="fr" ref="#ydres">ydres</term>
+                  <term xml:lang="en" ref="#ydres">idolater</term>
+               </item>
+
+            </list>
+
+
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="378" xml:id="l384" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 378 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>105v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 378.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Aufseß, Ulrich v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q581023" type="mention">Schwarzach a. Main (Markt, Lk. Kitzingen)</placeName><persName type="mention">Rapolt, Hans</persName><persName type="mention">Tübler, N.</persName></ab><date from="17-05-1409" to="17-05-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_214">
+<surface lrx="2804" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0108_left.png" width="2804px"/>
+<zone lrx="1758" lry="2697" rendition="TextRegion" ulx="1273" uly="3454" xml:id="facs_214_r1"> <zone lrx="1883" lry="2697" rendition="Line" ulx="1273" uly="2635" xml:id="facs_214_r1l33"/>
+<zone lrx="2498" lry="2880" rendition="Line" ulx="725" uly="2806" xml:id="facs_214_r1l34"/>
+<zone lrx="2454" lry="2986" rendition="Line" ulx="720" uly="2899" xml:id="facs_214_r1l35"/>
+<zone lrx="2656" lry="3085" rendition="Line" ulx="714" uly="3007" xml:id="facs_214_r1l36"/>
+<zone lrx="2536" lry="3180" rendition="Line" ulx="732" uly="3101" xml:id="facs_214_r1l37"/>
+<zone lrx="2598" lry="3269" rendition="Line" ulx="725" uly="3191" xml:id="facs_214_r1l38"/>
+<zone lrx="2536" lry="3353" rendition="Line" ulx="697" uly="3282" xml:id="facs_214_r1l39"/>
+<zone lrx="2572" lry="3442" rendition="Line" ulx="732" uly="3374" xml:id="facs_214_r1l40"/>
+<zone lrx="1758" lry="3515" rendition="Line" ulx="730" uly="3454" xml:id="facs_214_r1l41"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ulrich von Aufseß</head><p>Der Rat bittet für Hans Rapolt, Bürger zu Nürnberg, um Herausgabe des zu Schwarzach am Main im Haus des N. Tübler beschlagnahmten Ballens mit Tuchen aus Leinen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_214" id="105v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_214_r1l33"><expan>Vlr<ex>ich</ex></expan> von Aufſeſʒ </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_214_r1l34"><expan>L<ex>ieber</ex></expan> <expan>vlr<ex>ich</ex></expan> / vns hat furgelegt Hans Rapolt <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> </ab>
+<ab facs="#facs_214_r1l35">vvie daʒ Jr 
+<del rend="strikethrough">Jm </del> vnd <expan>ew<ex>r</ex></expan> helffer / Jm / als Jr nehſt cʒu </ab>
+<ab facs="#facs_214_r1l36">Svvarcʒach ʒugriffen habt / ein pellein mit 
+<del rend="strikethrough">fleiſi </del> flehſeim </ab>
+<ab facs="#facs_214_r1l37">tuche in des ~ Tüblers hawſe das Er darynne lıgen het </ab>
+<ab facs="#facs_214_r1l38"> <expan>genome<ex>n</ex></expan> vnd hinvveg gefürt habt / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr 
+<del rend="strikethrough">durch </del></ab>
+<ab facs="#facs_214_r1l39">
+<del rend="strikethrough"><expan>vnſ<ex>er</ex>n</expan> <expan>vville<ex>n</ex></expan></del> / <expan>de<ex>m</ex></expan> <expan>eg<ex>enanten</ex></expan> ~ <expan>vnſ<ex>er</ex>m</expan> burger / daſſelb ſein pellein </ab>
+<ab facs="#facs_214_r1l40"><expan>wıdergeb<ex>e</ex>n</expan> wollet / Als etc / das wöllen etc <expan>dat<ex>um</ex></expan> <expan>fe<ex>r</ex>ıa</expan> <expan>Sex<ex>ta</ex></expan> </ab>
+<ab facs="#facs_214_r1l41">poſt <expan>Aſcenſio<ex>ne</ex>m</expan> <expan>d<ex>o</ex>m<ex>ini</ex></expan> Anno Nono $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_214" id="105v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Ulr<ex>ich</ex></expan> von Aufsesz </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>Ulr<ex>ich</ex></expan>, uns hat furgelegt Hans Rapolt,
+                                <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>, wie daz ir und <expan>ew<ex>r</ex></expan>
+                        helffer im, als ir nehst czu Swarczach zugriffen habt, ein pellein mit
+                        flehseim tuche in des Tüblers hawse, das er darynne ligen het,
+                                <expan>genome<ex>n</ex></expan> und hinweg gefürt habt.
+                                <expan>Ro<ex>gamus</ex></expan>, daz ir <expan>de<ex>m</ex></expan>
+<expan>eg<ex>enanten</ex></expan>, <expan>uns<ex>er</ex>m</expan> burger,
+                        dasselb sein pellein <expan>widergeb<ex>e</ex>n</expan> wollet, als etc. Das
+                        wöllen etc. <expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>r</ex>ia</expan>
+<expan>sex<ex>ta</ex></expan> post <expan>ascensio<ex>ne</ex>m</expan>
+<expan>d<ex>o</ex>m<ex>ini</ex></expan> anno nono.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

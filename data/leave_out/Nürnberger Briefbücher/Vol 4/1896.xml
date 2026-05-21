@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1896" xml:id="l1907" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1896 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>094v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1896.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Neustetter, Hans</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1085" type="mention">Prag (Tschechien)</placeName><persName type="mention">N., N., Kämmerer v. Prag</persName><persName type="mention">Ebner, Wilhelm</persName><persName type="mention">Kistner, Jakob</persName></ab><date from="26-06-1415" to="26-06-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_189">
+<surface lrx="2617" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0097_left.png" width="2617px"/>
+<zone lrx="1434" lry="1732" rendition="TextRegion" ulx="2017" uly="3252" xml:id="facs_189_r1"> <zone lrx="1837" lry="1732" rendition="Line" ulx="933" uly="1660" xml:id="facs_189_r1l21"/>
+<zone lrx="2536" lry="1809" rendition="Line" ulx="666" uly="1720" xml:id="facs_189_r1l22"/>
+<zone lrx="2547" lry="1895" rendition="Line" ulx="684" uly="1804" xml:id="facs_189_r1l23"/>
+<zone lrx="2517" lry="1986" rendition="Line" ulx="680" uly="1893" xml:id="facs_189_r1l24"/>
+<zone lrx="2543" lry="2073" rendition="Line" ulx="688" uly="1971" xml:id="facs_189_r1l25"/>
+<zone lrx="2570" lry="2158" rendition="Line" ulx="675" uly="2068" xml:id="facs_189_r1l26"/>
+<zone lrx="2275" lry="2168" rendition="Line" ulx="2017" uly="2133" xml:id="facs_189_r1l27"/>
+<zone lrx="1434" lry="2191" rendition="Line" ulx="1280" uly="2158" xml:id="facs_189_r1l28"/>
+<zone lrx="2585" lry="2248" rendition="Line" ulx="688" uly="2155" xml:id="facs_189_r1l29"/>
+<zone lrx="2572" lry="2339" rendition="Line" ulx="702" uly="2237" xml:id="facs_189_r1l30"/>
+<zone lrx="2570" lry="2435" rendition="Line" ulx="708" uly="2328" xml:id="facs_189_r1l31"/>
+<zone lrx="2598" lry="2516" rendition="Line" ulx="722" uly="2416" xml:id="facs_189_r1l32"/>
+<zone lrx="2584" lry="2611" rendition="Line" ulx="735" uly="2504" xml:id="facs_189_r1l33"/>
+<zone lrx="2585" lry="2704" rendition="Line" ulx="738" uly="2594" xml:id="facs_189_r1l34"/>
+<zone lrx="2589" lry="2792" rendition="Line" ulx="722" uly="2678" xml:id="facs_189_r1l36"/>
+<zone lrx="2569" lry="2878" rendition="Line" ulx="736" uly="2778" xml:id="facs_189_r1l39"/>
+<zone lrx="2572" lry="2971" rendition="Line" ulx="732" uly="2871" xml:id="facs_189_r1l40"/>
+<zone lrx="2571" lry="3062" rendition="Line" ulx="736" uly="2964" xml:id="facs_189_r1l41"/>
+<zone lrx="2571" lry="3147" rendition="Line" ulx="751" uly="3053" xml:id="facs_189_r1l42"/>
+<zone lrx="2498" lry="3234" rendition="Line" ulx="754" uly="3149" xml:id="facs_189_r1l43"/>
+<zone lrx="1817" lry="3316" rendition="Line" ulx="749" uly="3252" xml:id="facs_189_r1l44"/>
+</zone> </surface>
+<zone lrx="529" lry="2729" rendition="TextRegion" ulx="227" uly="2800" xml:id="facs_189_region_1576738730130_200"><zone lrx="724" lry="2729" rendition="Line" ulx="227" uly="2673" xml:id="facs_189_line_1576738735252_203"/><zone lrx="705" lry="2789" rendition="Line" ulx="193" uly="2737" xml:id="facs_189_line_1576738739250_208"/><zone lrx="529" lry="2858" rendition="Line" ulx="210" uly="2800" xml:id="facs_189_line_1576738742150_213"/></zone></facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans Neustetter, Diener der Stadt</head><p>Der Rat weist wegen des erst heute eingegangenen Briefes an, mit Wilhelm Ebner, weiteren Nürnberger Kaufleuten zu Prag und gegebenenfalls Jakob Kistner beim Gerichtstag am Montag nach Johannestag ein Urteil gegen die drei Gefangenen zu erwirken und ihre Aussagen zu übermitteln, wofür man die Kosten übernimmt.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_189" id="94v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_189_r1l21"><expan>Hannſ<ex>en</ex></expan> <expan>Neẅſtett<ex>er</ex></expan> <expan>vnſ<ex>er</ex>m</expan> <expan>dıen<ex>er</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_189_r1l22"><expan>L<ex>ieber</ex></expan> <expan>Neẅſtett<ex>er</ex></expan> als du vns <expan>verſchr<ex>iben</ex></expan> haſt / vvıe du dıe ſache mıt ~ dem </ab>
+<ab facs="#facs_189_r1l23">Kamrer ʒu prag <expan>ſou<ex>er</ex>r</expan> gearbeıt habſt . daʒ er den <expan>vnſ<ex>er</ex>n</expan> ʒu den dreyn </ab>
+<ab facs="#facs_189_r1l24"><expan>gefang<ex>en</ex></expan> <expan>ein<ex>en</ex></expan> tag beſchıden hab ʒu dem rechten gen prag . auf den </ab>
+<ab facs="#facs_189_r1l25"><expan>nehſt<ex>en</ex></expan> mentag nach ſand <expan>Johan<ex>n</ex>s</expan> tag etc . das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> </ab>
+<ab facs="#facs_189_r1l26">Nu ıſt vns <expan>derſ<ex>elb</ex></expan> dein <expan>br<ex>ief</ex></expan> als heẅt fünf hor . auf den tag erſt <expan>geantw<ex>ur</ex>t</expan> </ab>
+<ab facs="#facs_189_r1l29"> <expan>worde<ex>n</ex></expan> . daʒ wır als 
+<del rend="strikethrough">ge<gap reason="illegible"/>g </del>
+<add><ab facs="#facs_189_r1l28">kurcʒ </ab></add> kein <expan>bottſch<ex>aft</ex></expan> hin ein 
+<add><ab facs="#facs_189_r1l27">gen prag </ab></add> <expan>brınge<ex>n</ex></expan> <expan>mochte<ex>n</ex></expan> . Denn </ab>
+<ab facs="#facs_189_r1l30"><expan>vnſ<ex>er</ex></expan> <expan>meynu<ex>n</ex>g</expan> ıſt / daʒ du <expan>vvılhelm<ex>en</ex></expan> Ebner vnd <expan>and<ex>er</ex></expan> <expan>vnſ<ex>er</ex></expan> kawffleẅt </ab>
+<ab facs="#facs_189_r1l31">dıe <expan>yecʒ<ex>unden</ex></expan> ʒu prag ſınd . den wır hıe mıt <expan>daru<ex>m</ex>b</expan> auch <expan>ſchreıbe<ex>n</ex></expan> darcʒu </ab>
+<ab facs="#facs_189_r1l32">vorderſt vnd mıt der hılff vnd rat <expan>all<ex>e</ex>n</expan> <expan>eẅ<ex>r</ex>n</expan> fleıſſ vnd ernſt darcʒu </ab>
+<ab facs="#facs_189_r1l33">tut . daʒ vns v̈ber <expan>dıeſ<ex>elben</ex></expan> <expan>gefang<ex>en</ex></expan> gerıcht <expan>w<ex>er</ex>de</expan> . alſuerr eẅch das </ab>
+<ab facs="#facs_189_r1l34">recht geen mug . wan dıe <expan>vnſ<ex>er</ex></expan> geſcholn ſein 
+<add><ab facs="#facs_189_line_1576738735252_203">vnd ob man des <expan>beg<ex>er</ex>t</expan> </ab><ab facs="#facs_189_line_1576738739250_208">daʒ Jr Jn auf vns </ab><ab facs="#facs_189_line_1576738742150_213">we lat tun </ab></add> Vnd ob des not tet daʒ </ab>
+<ab facs="#facs_189_r1l36">Jr den Jacob <expan>kıſtn<ex>er</ex></expan> darſtellet Jn von <expan>vnſ<ex>er</ex>n</expan> <expan>weg<ex>en</ex></expan> mıt recht ʒuʒe - </ab>
+<ab facs="#facs_189_r1l39"><expan>ſprech<ex>en</ex></expan> als du vnd er von vns gefertıgt ſınd . vnd was ſıe <expan>bekenne<ex>n</ex></expan> </ab>
+<ab facs="#facs_189_r1l40">daʒ eẅch das <expan>geſchrıb<ex>e</ex>n</expan> <expan>geb<ex>e</ex>n</expan> <expan>w<ex>er</ex>de</expan> / vns das fürbas ʒu <expan>antwurte<ex>n</ex></expan> </ab>
+<ab facs="#facs_189_r1l41">Vnd ob das ıht koſten wurd das heıſſ dıe kawffleẅt darleıhen </ab>
+<ab facs="#facs_189_r1l42">ſo <expan>well<ex>e</ex>n</expan> wır Jns becʒaln / Vnd laſſ dır dıe ſach <expan>befolhe<ex>n</ex></expan> ſein </ab>
+<ab facs="#facs_189_r1l43">ſo beſt du mugeſt . Daran tuſt du vns eın gancʒ <expan>gefall<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_189_r1l44"><expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıııȷ<hi rend="sup">a</hi> . <expan>ſ<ex>ub</ex></expan> ſıgıllo <expan>m<ex>a</ex>g<ex>iſt</ex>rıciuıu<ex>m</ex></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_189" id="94v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Hanns<ex>en</ex></expan>
+<expan>Newstett<ex>er</ex></expan>, <expan>uns<ex>er</ex>m</expan>
+<expan>dien<ex>er</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>Newstett<ex>er,</ex></expan> als du uns
+                            <expan>verschr<ex>iben</ex></expan> hast, wie du die sache mit dem
+                        kamrer zu Prag <expan>sov<ex>er</ex>r</expan> gearbeit habst, daz er den
+                                <expan>uns<ex>er</ex>n</expan> zu den dreyn
+                            <expan>gefang<ex>en</ex></expan>
+<expan>ein<ex>en</ex></expan> tag beschiden hab zu dem rechten gen Prag auf
+                        den <app>
+<note><q type="date"><expan>nehst<ex>en</ex></expan> mentag nach sand
+                                            <expan>Johan<ex>n</ex>s</expan> tag</q>24.06.1415</note>
+</app> etc., das <expan>hab<ex>e</ex>n</expan> wir wol
+                                <expan>vernom<ex>en</ex></expan>. Nu ist uns
+                            <expan>ders<ex>elb</ex></expan> dein <expan>br<ex>ief</ex></expan> als
+                        hewt fünf hor auf den tag erst <expan>geantw<ex>ur</ex>t</expan>
+<expan>worde<ex>n</ex></expan>, daz wir als <add>kurcz</add> kein
+                                <expan>bottsch<ex>aft</ex></expan> hin ein <add>gen Prag</add>
+<expan>bringe<ex>n</ex></expan>
+<expan>mochte<ex>n</ex></expan>. Denn <expan>uns<ex>er</ex></expan>
+<expan>meynu<ex>n</ex>g</expan> ist, daz du
+                            <expan>Wilhelm<ex>en</ex></expan> Ebner und
+                            <expan>and<ex>er</ex></expan>
+<expan>uns<ex>er</ex></expan> kawfflewt, die
+                            <expan>yecz<ex>unden</ex></expan> zu Prag sind, den wir hie mit
+                                <expan>daru<ex>m</ex>b</expan> auch
+                            <expan>schreibe<ex>n</ex></expan>, darczu vorderst und mit der hilff und
+                        rat <expan>all<ex>e</ex>n</expan>
+<expan>ew<ex>r</ex>n</expan> fleiss und ernst darczu tut, daz uns über
+                                <expan>dies<ex>elben</ex></expan>
+<expan>gefang<ex>en</ex></expan> gericht <expan>w<ex>er</ex>de</expan>,
+                        alsverr ewch das recht geen mug, wan die <expan>uns<ex>er</ex></expan>
+                        gescholn sein. <add>Und ob man des <expan>beg<ex>er</ex>t</expan>, daz ir in
+                            auf uns we lat tun,</add> und ob des not tet, daz ir den Jacob
+                                <expan>Kistn<ex>er</ex></expan> darstellet, in von
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>weg<ex>en</ex></expan> mit recht
+                            zuze<expan>sprech<ex>en,</ex></expan> als du und er von uns gefertigt
+                        sind. Und was sie <expan>bekenne<ex>n</ex></expan>, daz ewch das
+                                <expan>geschrib<ex>e</ex>n</expan>
+<expan>geb<ex>e</ex>n</expan>
+<expan>w<ex>er</ex>de,</expan> uns das fürbas zu
+                            <expan>antwurte<ex>n,</ex></expan> und ob das iht kosten wurd, das heiss
+                        die kawfflewt darleihen, so <expan>well<ex>e</ex>n</expan> wir ins beczaln.
+                        Und lass dir die sach <expan>befolhe<ex>n</ex></expan> sein, so best du
+                        mugest, daran tust du uns ein gancz <expan>gefall<ex>e</ex>n.</expan>
+<expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> iiii<hi rend="sup">a</hi>
+<expan>s<ex>ub</ex></expan> sigillo <expan>m<ex>a</ex>g<ex>ist</ex>ri
+                                civiu<ex>m</ex></expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

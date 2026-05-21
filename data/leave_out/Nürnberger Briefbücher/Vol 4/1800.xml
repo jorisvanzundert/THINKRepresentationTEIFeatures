@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1800" xml:id="l1811" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1800 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>070v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1800.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Steeg, Winand v.</persName></ab><ab type="mention"><persName type="mention">Valzner, Herdegen</persName></ab><date from="16-03-1415" to="16-03-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_141">
+<surface lrx="2602" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0073_left.png" width="2602px"/>
+<zone lrx="561" lry="587" rendition="TextRegion" ulx="146" uly="648" xml:id="facs_141_r1">
+<zone lrx="569" lry="587" rendition="Line" ulx="133" uly="527" xml:id="facs_141_r1l1"/>
+<zone lrx="601" lry="641" rendition="Line" ulx="145" uly="585" xml:id="facs_141_r1l2"/>
+<zone lrx="561" lry="704" rendition="Line" ulx="146" uly="648" xml:id="facs_141_r1l3"/>
+</zone>
+<zone lrx="1175" lry="294" rendition="TextRegion" ulx="959" uly="886" xml:id="facs_141_r2">
+<zone lrx="1954" lry="294" rendition="Line" ulx="959" uly="235" xml:id="facs_141_r2l1"/>
+<zone lrx="1859" lry="372" rendition="Line" ulx="955" uly="310" xml:id="facs_141_r2l2"/>
+<zone lrx="2525" lry="474" rendition="Line" ulx="649" uly="394" xml:id="facs_141_r2l3"/>
+<zone lrx="2529" lry="546" rendition="Line" ulx="655" uly="464" xml:id="facs_141_r2l4"/>
+<zone lrx="2523" lry="626" rendition="Line" ulx="653" uly="545" xml:id="facs_141_r2l5"/>
+<zone lrx="2552" lry="705" rendition="Line" ulx="662" uly="619" xml:id="facs_141_r2l6"/>
+<zone lrx="2503" lry="795" rendition="Line" ulx="660" uly="709" xml:id="facs_141_r2l7"/>
+<zone lrx="2489" lry="874" rendition="Line" ulx="662" uly="789" xml:id="facs_141_r2l8"/>
+<zone lrx="1175" lry="955" rendition="Line" ulx="651" uly="886" xml:id="facs_141_r2l9"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Magister Winand von Steeg</head><p>Der Rat bittet für Herdegen Valzner, Bürger und Ratsherr zu Nürnberg, um Unterstützung.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_141" id="70v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_141_r2l1"><expan>Meıſt<ex>er</ex></expan> <expan>VVyenand<ex>en</ex></expan> vom Steg lerer </ab>
+<ab facs="#facs_141_r2l2"><expan>geıſtlıch<ex>er</ex></expan> recht <expan>vnſ<ex>er</ex>m</expan> Jurıſten </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab facs="#facs_141_r2l3"><expan>L<ex>ieber</ex></expan>
+<expan>d<ex>omi</ex>ne</expan> doctor . vns hat . vnſer lıeber
+                                <expan>mıtburg<ex>er</ex></expan> vnd Ratgeſell .
+                                <expan>h<ex>erdegen</ex></expan>
+<expan>falcʒn<ex>er</ex></expan>
+</ab>
+<ab facs="#facs_141_r2l4">gebetten . eẅch cʒu <expan>bıtte<ex>n</ex></expan> Jm
+                        in ſeinen <expan>ſach<ex>e</ex>n</expan>
+<add><ab facs="#facs_141_r1l1">dıe er ʒu <expan>ſchıke<ex>n</ex></expan>
+</ab><ab facs="#facs_141_r1l2">hat als eẅch ʒu
+                                    <expan>gut<ex>er</ex></expan>
+</ab><ab facs="#facs_141_r1l3">maſſ <expan>wıſſenl<ex>ich</ex></expan>
+                                ıſt </ab></add> hılfflıch vnd <expan>fürderl<ex>ich</ex></expan> ʒu
+                        ſeın </ab>
+<ab facs="#facs_141_r2l5">Alſo <expan>bıtte<ex>n</ex></expan> wır eẅr
+                                <expan>erſamk<ex>eit</ex></expan> von ſeinen
+                            <expan>weg<ex>en</ex></expan>
+<expan>freẅntl<ex>ich</ex></expan> vnd mıt fleıſſ . daʒ </ab>
+<ab facs="#facs_141_r2l6">Jr eẅch ſein ſache <expan>befolhe<ex>n</ex></expan>
+                        laſſet ſein . vnd Jm darinne hılfflıch vnd für = </ab>
+<ab facs="#facs_141_r2l7">derlıch ſeyt als wır eẅch wol getrawn . daran
+                        beweıſet Jr vns <expan>ſund<ex>er</ex></expan>
+</ab>
+<ab facs="#facs_141_r2l8">lıeb vnd <expan>freẅntſch<ex>aft</ex></expan> dıe wır
+                                <expan>g<ex>er</ex>n</expan> vmb eẅch
+                            <expan>v<ex>er</ex>ſchulden</expan>
+<expan>well<ex>e</ex>n</expan>
+<expan>dat<ex>um</ex></expan>
+<expan>ſab<ex>at</ex>o</expan>
+</ab>
+<ab facs="#facs_141_r2l9"><expan>an<ex>te</ex></expan>
+<expan>d<ex>omi</ex>nıca<ex>m</ex></expan> Judıca </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_141" id="70v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Meist<ex>er</ex></expan>
+<expan>Wyenand<ex>en</ex></expan> vom Steg, lerer
+                                <expan>geistlich<ex>er</ex></expan> recht,
+                            <expan>uns<ex>er</ex>m</expan> juristen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan>
+<expan>d<ex>omi</ex>ne</expan> doctor, uns hat unser lieber
+                                <expan>mitburg<ex>er</ex></expan> und ratgesell
+                                <expan>H<ex>erdegen</ex></expan>
+<expan>Falczn<ex>er</ex></expan> gebetten, ewch czu
+                            <expan>bitte<ex>n,</ex></expan> im in seinen
+                            <expan>sach<ex>e</ex>n,</expan>
+<add>die er zu <expan>schike<ex>n</ex></expan> hat, als ewch zu
+                                    <expan>gut<ex>er</ex></expan> mass
+                                <expan>wissenl<ex>ich</ex></expan> ist,</add> hilfflich und
+                                <expan>fürderl<ex>ich</ex></expan> zu sein. Also
+                                <expan>bitte<ex>n</ex></expan> wir ewr
+                            <expan>ersamk<ex>eit</ex></expan> von seinen
+                            <expan>weg<ex>en</ex></expan>
+<expan>frewntl<ex>ich</ex></expan> und mit fleiss, daz ir ewch sein sache
+                                <expan>befolhe<ex>n</ex></expan> lasset sein und im darinne
+                        hilfflich und fürderlich seyt, als wir ewch wol getrawn. Daran beweiset ir
+                        uns <expan>sund<ex>er</ex></expan> lieb und
+                            <expan>frewntsch<ex>aft</ex>,</expan> die wir
+                            <expan>g<ex>er</ex>n</expan> umb ewch
+                            <expan>v<ex>er</ex>schulden</expan>
+<expan>well<ex>e</ex>n.</expan>
+<expan>Dat<ex>um</ex></expan>
+<expan>sab<ex>at</ex>o</expan>
+<expan>an<ex>te</ex></expan>
+<expan>d<ex>omi</ex>nica<ex>m</ex></expan> judica. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="755" xml:id="l764" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 755 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>069v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 755.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Egloffstein, Albrecht v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q1958624" type="mention">Mühlhausen (Markt, Lk. Erlangen-Höchstadt)</placeName><placeName ref="https://www.wikidata.org/wiki/Q3936" type="mention">Bamberg</placeName><persName type="mention">Schwarzach, Samuel v., Jude</persName></ab><date from="18-06-1410" to="16-07-1410" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_140">
+<surface lrx="2729" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0072_left.png" width="2729px"/>
+<zone lrx="1645" lry="358" rendition="TextRegion" ulx="1404" uly="1078" xml:id="facs_140_r2">
+<zone lrx="2032" lry="358" rendition="Line" ulx="1166" uly="284" xml:id="facs_140_r2l1"/>
+<zone lrx="1951" lry="431" rendition="Line" ulx="1213" uly="360" xml:id="facs_140_r2l2"/>
+<zone lrx="2534" lry="633" rendition="Line" ulx="718" uly="538" xml:id="facs_140_r2l3"/>
+<zone lrx="2518" lry="708" rendition="Line" ulx="720" uly="645" xml:id="facs_140_r2l4"/>
+<zone lrx="1645" lry="724" rendition="Line" ulx="1404" uly="687" xml:id="facs_140_r2l5"/>
+<zone lrx="2620" lry="808" rendition="Line" ulx="743" uly="734" xml:id="facs_140_r2l6"/>
+<zone lrx="2563" lry="899" rendition="Line" ulx="731" uly="810" xml:id="facs_140_r2l7"/>
+<zone lrx="2620" lry="988" rendition="Line" ulx="724" uly="899" xml:id="facs_140_r2l8"/>
+<zone lrx="2610" lry="1073" rendition="Line" ulx="741" uly="992" xml:id="facs_140_r2l9"/>
+<zone lrx="1914" lry="1155" rendition="Line" ulx="728" uly="1078" xml:id="facs_140_r2l10"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Albrecht von Egloffstein zu Mühlhausen</head><p>Der Rat bittet um Rücknahme der Klage in weltlicher Sache gegen den Samuel von Schwarzach, Jude zu Nürnberg, vor dem geistlichen Gericht zu Bamberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_140" id="69v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_140_r2l1"><expan>H<ex>er</ex>n</expan> <expan>Albrechte<ex>n</ex></expan> von Eglofſtein </ab>
+<ab facs="#facs_140_r2l2">cʒu Mülhauſen geſeſſen </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_140_r2l3"><expan>L<ex>ieber</ex></expan> her Albreht vns hat fürgelegt Sanvvel von Swarcʒach </ab>
+<ab facs="#facs_140_r2l4"><expan>vnſ<ex>er</ex></expan> Jude / vvie daʒ Jr vmb werltlich ſache auf <expan>geiſtlich<ex>e</ex>m</expan> </ab>
+<ab facs="#facs_140_r2l6">gerihte cʒu <expan>Bamb<ex>er</ex>g</expan>
+<del rend="strikethrough"> v̈mbtreibt </del>
+<add><ab facs="#facs_140_r2l5">beklagt </ab></add> / <expan>Ro<ex>gamus</ex></expan> / daʒ Jr durch <expan>vnſ<ex>er</ex>n</expan> <expan>vville<ex>n</ex></expan> </ab>
+<ab facs="#facs_140_r2l7">von der klag auf <expan>geiſtliche<ex>m</ex></expan> gerichte laſſen vvöllet / Als etc das </ab>
+<ab facs="#facs_140_r2l8">wöllen etc / vnd het Jr <expan>dan<ex>n</ex></expan> cʒu Jm icht <expan>cʒuſprech<ex>e</ex>n</expan> / Darümb </ab>
+<ab facs="#facs_140_r2l9"> <expan>vvolle<ex>n</ex></expan> wir 
+<del rend="strikethrough">Jm </del> ew oder <expan>ew<ex>r</ex>m</expan> <expan>ſcheinbote<ex>n</ex></expan> mit <expan>ew<ex>r</ex>m</expan> <expan>volle<ex>n</ex></expan> gevvalt </ab>
+<ab facs="#facs_140_r2l10"><expan>vnu<ex>er</ex>cʒog<ex>en</ex></expan> ſlewnigs <expan>reht<ex>en</ex></expan> etc <expan>Antvv<ex>ur</ex>t</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_140" id="69v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>n</expan>
+<expan>Albrechte<ex>n</ex></expan> von Eglofstein, czu Mülhausen
+                        gesessen</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> her Albreht, uns hat fürgelegt Sanwel von
+                        Swarczach, <expan>uns<ex>er</ex></expan> jude, wie daz ir umb werltlich
+                        sache auf <expan>geistlich<ex>e</ex>m</expan> gerihte czu
+                                <expan>Bamb<ex>er</ex>g</expan>
+<add>beklagt</add>. <expan>Ro<ex>gamus</ex></expan>, daz ir durch
+                                <expan>uns<ex>er</ex>n</expan>
+<expan>wille<ex>n</ex></expan> von der klag auf
+                            <expan>geistliche<ex>m</ex></expan> gerichte lassen wöllet. Als etc. Das
+                        wöllen etc. Und het ir <expan>dan<ex>n</ex></expan> czu im icht <expan>czu
+                                sprech<ex>e</ex>n</expan>, darümb <expan>wolle<ex>n</ex></expan> wir
+                        ew oder <expan>ew<ex>r</ex>m</expan>
+<expan>scheinbote<ex>n</ex></expan> mit <expan>ew<ex>r</ex>m</expan>
+<expan>volle<ex>n</ex></expan> gewalt
+                            <expan>unv<ex>er</ex>czog<ex>en</ex></expan> slewnigs
+                                <expan>reht<ex>en</ex></expan> etc.
+                        <expan>Antw<ex>ur</ex>t</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

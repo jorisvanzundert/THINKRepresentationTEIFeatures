@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1852" xml:id="l1863" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1852 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>083r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1852.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Hinzenhauser, Hans</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q2090" type="mention">Nürnberg</placeName><placeName type="mention">Altmannstein, Bg. (Lk. Eichstätt)</placeName></ab><date from="16-05-1415" to="16-05-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_166">
+<surface lrx="2632" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0085_right.png" width="2632px"/>
+<zone lrx="1246" lry="1945" rendition="TextRegion" ulx="1324" uly="3171" xml:id="facs_166_r1"> <zone lrx="1696" lry="1945" rendition="Line" ulx="933" uly="1874" xml:id="facs_166_r1l20"/>
+<zone lrx="1443" lry="2026" rendition="Line" ulx="951" uly="1960" xml:id="facs_166_r1l21"/>
+<zone lrx="2340" lry="2127" rendition="Line" ulx="511" uly="2048" xml:id="facs_166_r1l22"/>
+<zone lrx="2325" lry="2201" rendition="Line" ulx="503" uly="2128" xml:id="facs_166_r1l23"/>
+<zone lrx="2319" lry="2280" rendition="Line" ulx="495" uly="2214" xml:id="facs_166_r1l24"/>
+<zone lrx="2322" lry="2364" rendition="Line" ulx="496" uly="2294" xml:id="facs_166_r1l25"/>
+<zone lrx="2362" lry="2452" rendition="Line" ulx="504" uly="2376" xml:id="facs_166_r1l26"/>
+<zone lrx="2327" lry="2538" rendition="Line" ulx="511" uly="2465" xml:id="facs_166_r1l27"/>
+<zone lrx="2358" lry="2624" rendition="Line" ulx="512" uly="2556" xml:id="facs_166_r1l28"/>
+<zone lrx="2376" lry="2712" rendition="Line" ulx="523" uly="2645" xml:id="facs_166_r1l29"/>
+<zone lrx="2371" lry="2803" rendition="Line" ulx="534" uly="2734" xml:id="facs_166_r1l30"/>
+<zone lrx="2402" lry="2888" rendition="Line" ulx="524" uly="2819" xml:id="facs_166_r1l31"/>
+<zone lrx="2327" lry="2977" rendition="Line" ulx="518" uly="2906" xml:id="facs_166_r1l32"/>
+<zone lrx="2329" lry="3061" rendition="Line" ulx="519" uly="2996" xml:id="facs_166_r1l33"/>
+<zone lrx="2311" lry="3152" rendition="Line" ulx="499" uly="3087" xml:id="facs_166_r1l34"/>
+<zone lrx="1246" lry="3233" rendition="Line" ulx="515" uly="3169" xml:id="facs_166_r1l35"/>
+<zone lrx="1716" lry="3241" rendition="Line" ulx="1324" uly="3171" xml:id="facs_166_r1l36"/>
+</zone> </surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hans Hinzenhauser, Pfleger zu Altmannstein</head><p>Der Rat teilt mit, dass das Testament der Frau N. durch das Reichsgericht zu Nürnberg besiegelt worden ist, verweist auf den Rechtsweg und bittet um Anweisung der Armleute, sich damit zu begnügen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_166" id="83r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_166_r1l20"><expan>Hannſ<ex>en</ex></expan> <expan>Hıncʒenhawſ<ex>er</ex></expan> <expan>pfleg<ex>er</ex></expan> </ab>
+<ab facs="#facs_166_r1l21">ʒum Altmanſteın </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_166_r1l22"><expan>L<ex>ıeber</ex></expan> Hanns als Jr vns <expan>verſchr<ex>ıben</ex></expan> habt von der <expan>arme<ex>n</ex></expan> leẅt <expan>weg<ex>en</ex></expan> wıe den </ab>
+<ab facs="#facs_166_r1l23">niht fugſam ſey vor vns ʒu <expan>rechte<ex>n</ex></expan> <expan>v̈b<ex>er</ex></expan> das <expan>v<ex>er</ex>ſıgeln</expan> daʒ wır getan </ab>
+<ab facs="#facs_166_r1l24"><expan>habe<ex>n</ex></expan> etc das <expan>hab<ex>e</ex>n</expan> wır wol <expan>vernom<ex>en</ex></expan> . Nu ıſt das geſcheft daʒ dıe </ab>
+<ab facs="#facs_166_r1l25">fraw getan hat mıt des Reıchs gerıcht bey vns <expan>ʒugang<ex>en</ex></expan> vnd mıt </ab>
+<ab facs="#facs_166_r1l26">des gerıchts <expan>Jnſ<ex>igel</ex></expan> <expan>v<ex>er</ex>ſıgelt</expan> <expan>worde<ex>n</ex></expan> . als des gerıchts form vnd <expan>gewonh<ex>eit</ex></expan> </ab>
+<ab facs="#facs_166_r1l27">bey vns ıſt / Deẅcht <expan>ab<ex>er</ex></expan> dıe <expan>arme<ex>n</ex></expan> leẅt . daʒ ſıe <expan>darüb<ex>er</ex></expan> ʒu der </ab>
+<ab facs="#facs_166_r1l28"><expan>gelaſſen<ex>en</ex></expan> hab <expan>od<ex>er</ex></expan> ʒu den <expan>leẅt<ex>en</ex></expan> den das geſchıkt ıſt . ıht <expan>ʒuſpreche<ex>n</ex></expan> </ab>
+<ab facs="#facs_166_r1l29"><expan>hett<ex>en</ex></expan> . <expan>daru<ex>m</ex>b</expan> <expan>well<ex>e</ex>n</expan> wır Jn <expan>od<ex>er</ex></expan> ıren <expan>ſcheinbott<ex>en</ex></expan> mıt <expan>ıre<ex>m</ex></expan> <expan>volle<ex>n</ex></expan> gwalt </ab>
+<ab facs="#facs_166_r1l30"><expan>freẅntl<ex>ich</ex></expan> ſleẅnıgs <expan>recht<ex>en</ex></expan> <expan>g<ex>er</ex>n</expan> <expan>helff<ex>en</ex></expan> vor des Reıchs <expan>Rıcht<ex>er</ex></expan> bey vns </ab>
+<ab facs="#facs_166_r1l31">ʒu <expan>Nür<ex>emberg</ex></expan> wenn wır des ermant <expan>w<ex>er</ex>den</expan> . ſo <expan>dıeſ<ex>elben</ex></expan> dıe dıe ſache an = </ab>
+<ab facs="#facs_166_r1l32">trıft anheim ſind on <expan>geu<ex>er</ex>de</expan> . Vnd dunkt vns daʒ wır Jn da mıt </ab>
+<ab facs="#facs_166_r1l33">gnug gebotten <expan>habe<ex>n</ex></expan> vnd bıeten . <expan>daru<ex>m</ex>b</expan> getrawen wır eẅch wol </ab>
+<ab facs="#facs_166_r1l34">Jr wellt ſıe daran <expan>weıſ<ex>en</ex></expan> daʒ ſıe ſıch des <expan>genüg<ex>en</ex></expan> laſſen . Denn </ab>
+<ab facs="#facs_166_r1l35">wo wır eẅch etc . </ab>
+<ab facs="#facs_166_r1l36"><expan>dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> v<hi rend="sup">a</hi></ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_166" id="83r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Hanns<ex>en</ex></expan>
+<expan>Hinczenhaws<ex>er</ex></expan>, <expan>pfleg<ex>er</ex></expan> zum
+                        Altmanstein </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieber</ex></expan> Hanns, als ir uns
+                            <expan>verschr<ex>iben</ex></expan> habt von der
+                            <expan>arme<ex>n</ex></expan> lewt <expan>weg<ex>en</ex></expan>, wie
+                        den niht fugsam sey, vor uns zu <expan>rechte<ex>n</ex></expan>
+<expan>üb<ex>er</ex></expan> das <expan>v<ex>er</ex>sigeln,</expan> daz wir
+                        getan <expan>habe<ex>n</ex></expan> etc., das <expan>hab<ex>e</ex>n</expan>
+                        wir wol <expan>vernom<ex>en</ex></expan>. Nu ist das gescheft, daz die fraw
+                        getan hat, mit des reichs gericht bey uns <expan>zugang<ex>en</ex></expan>
+                        und mit des gerichts <expan>ins<ex>igel</ex></expan>
+<expan>v<ex>er</ex>sigelt</expan>
+<expan>worde<ex>n</ex></expan>, als des gerichts form und
+                                <expan>gewonh<ex>eit</ex></expan> bey uns ist. Dewcht
+                                <expan>ab<ex>er</ex></expan> die <expan>arme<ex>n</ex></expan> lewt,
+                        daz sie <expan>darüb<ex>er</ex></expan> zu der
+                            <expan>gelassen<ex>en</ex></expan> hab <expan>od<ex>er</ex></expan> zu
+                        den <expan>lewt<ex>en</ex></expan>, den das geschikt ist, iht <expan>zu
+                                spreche<ex>n</ex></expan>
+<expan>hett<ex>en</ex></expan>, <expan>daru<ex>m</ex>b</expan>
+<expan>well<ex>e</ex>n</expan> wir in <expan>od<ex>er</ex></expan> iren
+                                <expan>scheinbott<ex>en</ex></expan> mit
+                            <expan>ire<ex>m</ex></expan>
+<expan>volle<ex>n</ex></expan> gwalt <expan>frewntl<ex>ich</ex></expan>
+                        slewnigs <expan>recht<ex>en</ex></expan>
+<expan>g<ex>er</ex>n</expan>
+<expan>helff<ex>en</ex></expan> vor des reichs
+                            <expan>richt<ex>er</ex></expan> bey uns zu
+                            <expan>Nür<ex>emberg</ex></expan>, wenn wir des ermant
+                                <expan>w<ex>er</ex>den</expan>, so
+                            <expan>dies<ex>elben,</ex></expan> die die sache antrift, anheim sind,
+                        on <expan>gev<ex>er</ex>de</expan>. Und dunkt uns, daz wir in da mit gnug
+                        gebotten <expan>habe<ex>n</ex></expan> und bieten.
+                            <expan>Daru<ex>m</ex>b</expan> getrawen wir ewch wol, ir wellt sie daran
+                                <expan>weis<ex>en</ex></expan>, daz sie sich des
+                                <expan>genüg<ex>en</ex></expan> lassen. Denn wo wir ewch etc.
+                                <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> v<hi rend="sup">a</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

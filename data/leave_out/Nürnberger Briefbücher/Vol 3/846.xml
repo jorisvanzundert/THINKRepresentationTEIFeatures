@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="846" xml:id="l857" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 846 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>088r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 846.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q2843" type="recipient">Lübeck</placeName></ab><ab type="mention"><persName type="mention">Pirckheimer, Friedrich</persName><persName type="mention">Pirckheimer, Konrad</persName><persName type="mention">Nikolaus, Bf. v. Strängnäs</persName><persName type="mention">Lang, Andreas</persName><persName type="mention">Mosmann, Johannes</persName></ab><date from="4-11-1410" to="4-11-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_177">
+<surface lrx="2785" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0090_right.png" width="2785px"/>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_177_r1">
+</zone>
+<zone lrx="inf" lry="inf" rendition="TextRegion" ulx="-inf" uly="-inf" xml:id="facs_177_r2">
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract">
+<head>Rat an LübeckRat an Lübeck</head>
+<p>Der Rat teilt mit, dass Konrad und Friedrich Pirckheimer, Bürger zu Nürnberg, die Schulden ihrer Handelsgesellschaft bei Bischof Nikolaus von Strängnäs schon vor dessen Tod bezahlt haben.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis">
+<ab><w join="" lemma="" msd="" part="" pos=""><fLib>
+<f name=" "/>
+</fLib></w></ab>
+</div>
+</front>
+<body>
+<div type="diplomatic">
+<pb facs="#facs_177" id="88r"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Anm. der Editoren: Der lateinische Text ist lediglich normalisiert
+                        transkribiert.</ab>
+</div>
+</div>
+<div type="regularised">
+<pb facs="#facs_177" id="88r"/>
+<!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Civitati <expan>Lubicen<ex>si</ex></expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>P<ex>ro</ex>nis</expan>
+<expan>obsequio<ex>rum</ex></expan>
+<expan>voluntatib<ex>us</ex></expan>
+<expan>v<ex>est</ex>ris</expan> amiciciis <expan>cu<ex>m</ex></expan>
+<expan>since<ex>r</ex>itate</expan>
+<expan>p<ex>rae</ex>miss<ex>is</ex></expan>. Egregii ac prudentes
+                                <expan>d<ex>omi</ex>ni</expan> amici
+                            <expan>p<ex>rae</ex>cari</expan>
+<expan>exposuer<ex>un</ex>t</expan> nobis <expan>Conr<ex>adus</ex></expan>
+                        et <expan>Frider<ex>icus</ex></expan>
+<expan>d<ex>ic</ex>ti</expan> Pirkheymer cives
+                        <expan>n<ex>ost</ex>r</expan>i ex <expan>p<ex>ar</ex>te</expan> sui ac
+                                <expan>societat<ex>is</ex></expan>
+<expan>ip<ex>sorum</ex></expan>
+<expan>qual<ex>ite</ex>r</expan>
+<expan>strenu<ex>us</ex></expan> miles
+                            <expan>d<ex>omi</ex>n<ex>u</ex>s</expan> Andreas
+                            <expan>d<ex>ic</ex>tus</expan> Lang <expan>fr<ex>ater</ex></expan>
+<expan>quond<ex>am</ex></expan> felicis
+                            <expan>recordac<ex>i</ex>o<ex>n</ex>is</expan>
+<expan>reve<ex>re</ex>ndi</expan> in <expan>Chr<ex>ist</ex>o</expan>
+<expan>pr<ex>ior</ex>is</expan> et <expan>d<ex>omi</ex>ni</expan>,
+                                <expan>d<ex>omi</ex>ni</expan> Nycolai
+                            <expan>epi<ex>scopi</ex></expan>
+<expan>Strengnicen<ex>sis</ex></expan>
+<expan>que<ex>n</ex>d<ex>am</ex></expan>
+<expan>ip<ex>sorum</ex></expan>
+<expan>fam<ex>u</ex>l<ex>u</ex>m</expan>
+<expan>Joh<ex>ann</ex>em</expan>
+<expan>d<ex>i</ex>c<ex>tu</ex>m</expan> Mosman ex
+                            <expan>p<ex>ar</ex>te</expan>
+<expan>ip<ex>sorum</ex></expan>
+<expan>cora<ex>m</ex></expan> vobis in consilio
+                            <expan>impetivit<ex>ur</ex></expan>
+<expan>p<ex>ro</ex></expan>
+<expan>quod<ex>am</ex></expan> cambio sive mutuo
+                                <expan>sc<ex>ili</ex>c<ex>et</ex></expan> iii <hi rend="sup">C</hi>
+                            marc<ex>is</ex> inter <expan>iamd<ex>i</ex>c<ex>tu</ex>m</expan>
+<expan>d<ex>o</ex>m<ex>i</ex>n<ex>um</ex></expan>
+<expan>ep<ex>iscopu</ex>m</expan> et p<ex>rae</ex>notatos cives
+                                <expan>n<ex>ost</ex>ros</expan>
+<expan>an<ex>te</ex></expan>
+<expan>qued<ex>am</ex></expan>
+<expan>t<ex>em</ex>p<ex>or</ex>is</expan>
+<expan>c<ex>ur</ex>ric<ex>u</ex>la</expan>
+<expan><ex>con</ex>tract<ex>is</ex></expan> afferens
+                            <expan>ip<ex>su</ex>m</expan>
+<expan>cambiu<ex>m</ex></expan> seu <expan>mutuu<ex>m</ex></expan> suo
+                                <expan>Fri<ex>derico</ex></expan>
+<expan>p<ex>rae</ex>d<ex>i</ex>c<ex>t</ex>o</expan>
+<expan>du<ex>m</ex></expan>
+<expan>aget<ex>ur</ex></expan> in <expan>huma<ex>n</ex>is</expan>
+<expan>nondu<ex>m</ex></expan>
+<expan>solitu<ex>m</ex></expan>
+<expan>neq<ex>uam</ex></expan>
+<expan>p<ex>ro</ex></expan>
+<expan>ead<ex>em</ex></expan>
+<expan>aliquali<ex>te</ex>r</expan>
+<expan>satisf<ex>a</ex>c<ex>tione</ex>m</expan> et
+                            <expan>desup<ex>ra</ex></expan> in <expan>v<ex>est</ex>ro</expan>
+                        consilio diffirmitu<ex>m</ex> sit seu
+                            <expan><ex>con</ex>clusu<ex>m</ex></expan>. <expan>Q<ex>uod</ex></expan>
+                        si <expan>p<ex>rae</ex>d<ex>i</ex>c<ex>t</ex>i</expan>
+<expan>Conr<ex>adis</ex></expan>
+<expan><ex>et</ex></expan>
+<expan>Frider<ex>icus</ex></expan>
+<expan>p<ex>ro</ex></expan> se <expan><ex>et</ex></expan>
+<expan>ip<ex>s</ex>o<ex>rum</ex></expan> societate hic
+                            <expan>cora<ex>m</ex></expan>
+<expan>nob<ex>is</ex></expan>
+<expan>corpor<ex>e</ex></expan>
+<expan>p<ex>rae</ex>stiteri<ex>n</ex>t</expan>
+<expan>iurament<ex>is</ex></expan>
+<expan>cambiu<ex>m</ex></expan>
+<expan>ip<ex>su</ex>m</expan> sive <expan>mutuu<ex>m</ex></expan> ab
+                                <expan>ip<ex>s</ex>is</expan> fore <expan>solutu<ex>m</ex></expan>
+<expan><ex>et</ex></expan>
+<expan>expeditu<ex>m</ex></expan>
+<expan>ext<ex>a</ex>nt</expan>. Iidem cives <expan>n<ex>ost</ex>ri</expan>
+                        ac societas <expan>ip<ex>s</ex>or<ex>um</ex></expan> ab instantia
+                                <expan><ex>et</ex></expan>
+<expan>postulac<ex>i</ex>o<ex>n</ex>e</expan>
+<expan>milit<ex>is</ex></expan>
+<expan>sup<ex>ra</ex>d<ex>i</ex>c<ex>t</ex>i</expan>
+<expan>p<ex>er</ex></expan>
+<expan>ampli<ex>us</ex></expan>
+<expan>p<ex>ro</ex></expan>
+<expan>hu<ex>iusm</ex>o<ex>d</ex>i</expan>
+<expan>F<ex>rideri</ex>co</expan> absoluti reddi debeant atq<ex>ue</ex>
+                        amici <expan>qua<ex>r</ex>e</expan>
+<expan>v<ex>est</ex>ris</expan>
+<expan>sagacitatib<ex>us</ex></expan>
+<expan>intimand<ex>um</ex></expan>
+<expan>duxi<ex>mus</ex></expan>
+<expan>p<ex>er</ex>p<ex>raese</ex>nt<ex>es</ex></expan>
+<expan>q<ex>ui</ex></expan>
+<expan>p<ex>rae</ex>notati</expan> cives <expan>n<ex>ost</ex>ri</expan>
+<expan>videl<ex>icet</ex></expan>
+<expan>Conr<ex>adi</ex></expan>
+<expan><ex>et</ex></expan>
+<expan>Frider<ex>ici</ex></expan> Pirkheymer <expan>p<ex>ro</ex></expan> se
+                                <expan><ex>et</ex></expan>
+<expan>ip<ex>s</ex>or<ex>rum</ex></expan> societate
+                            <expan>cora<ex>m</ex></expan> nobis in consilio
+                            <expan>corpor<ex>is</ex></expan>
+<expan>p<ex>er</ex>stiter<ex>un</ex>t</expan>
+<expan>iurament<ex>is</ex></expan><expan>ip<ex>s</ex>os</expan>
+<expan>cambiu<ex>m</ex></expan> sive <expan>mutuu<ex>m</ex></expan>
+<expan>sup<ex>ra</ex>tact<ex>is</ex></expan>
+<expan>p<ex>rae</ex>fato</expan>
+<expan>d<ex>omi</ex>no</expan>
+<expan>ep<ex>iscop</ex>o</expan>
+<expan>du<ex>m</ex></expan>
+<expan cert="unknown">vivet</expan> expedivisse
+                            <expan>real<ex>ite</ex>r</expan>
+<expan><ex>et</ex></expan>
+<expan>plena<ex>r</ex>ie</expan> p<ex>er</ex>solvisse. Sic
+                                <expan>q<ex>ui</ex></expan>
+<expan>ip<ex>s</ex>i</expan>
+<expan>eid<ex>em</ex></expan>
+<expan>d<ex>omi</ex>no</expan>
+<expan>ep<ex>iscop</ex>o</expan> post <expan>ei<ex>us</ex></expan>
+<expan>obitu<ex>m</ex></expan>
+<expan>pe<ex>n</ex>it<ex>us</ex></expan> in <expan>n<ex>u</ex>llo</expan>
+<expan>obligac<ex>ion</ex>es</expan> debito
+                            <expan>remansisse<ex>n</ex>t</expan> astricti qua
+                                <expan>p<ex>ro</ex>pt<ex>er</ex></expan>
+<expan>v<ex>est</ex>ra<ex>rum</ex></expan>
+<expan>dep<ex>rae</ex>can<ex>tur</ex></expan>
+<expan>amicicia<ex>m</ex></expan>. <expan>P<ex>re</ex>cib<ex>us</ex></expan>
+<expan>studioq<ex>ue</ex></expan>
+<expan>q<ex>ua</ex>t<ex>enu</ex>s</expan>
+<expan>p<ex>rae</ex>tact<ex>is</ex></expan> civib<ex>us</ex>
+                        n<ex>ost</ex>ris in <expan>hui<ex>usm</ex>o<ex>d</ex>i</expan>
+<expan>p<ex>rae</ex>stan<ex>tis</ex></expan>
+<expan>F<ex>rideri</ex>co</expan> ac <expan>aliis</expan>
+<expan>v<ex>est</ex>r<ex>u</ex>m</expan>
+<expan>p<ex>ro</ex>moc<ex>ion</ex>is</expan>
+<expan>auxiliu<ex>m</ex></expan>
+<expan><ex>et</ex></expan> favore<ex>m</ex>
+<expan>p<ex>rae</ex>star<ex>is</ex></expan>
+<expan>velit<ex>is</ex></expan>
+<expan>ip<ex>s</ex>osq<ex>ue</ex></expan>
+<expan>p<ex>ros</ex>picie</expan>
+<expan>suscip<ex>er</ex>e</expan>
+<expan>recon<ex>m</ex>iss<ex>is</ex></expan>.
+                                <expan>Que<ex>m</ex>admod<ex>um</ex></expan> v<ex>est</ex>ris
+                        benignis amiciciis <expan>ple<ex>n</ex>imode</expan>
+<expan><ex>con</ex>fidim<ex>us</ex></expan> et <expan>p<ex>ro</ex></expan>
+<expan>v<ex>est</ex>ris</expan>
+<expan>dignitatib<ex>us</ex></expan>
+<expan>cupim<ex>us</ex></expan>
+<expan>iu<ex>g</ex>it<ex>er</ex></expan>
+<expan>p<ex>ro</ex>mer<ex>er</ex>i</expan>. Dat<ex>um</ex>
+<expan>iiii<ex><hi rend="sup">a</hi></ex></expan> die
+                                <expan>novembr<ex>is</ex></expan> anno d<ex>o</ex>m<ex>ini</ex> m<hi rend="sup">o</hi>cccc<hi rend="sup">o</hi>deci<ex>m</ex>o.<lb/><expan>P<ex>ro</ex>consules</expan>
+<expan><ex>etc.</ex></expan>
+<app>
+<note place="bottomcentral">Egregiis et
+                                    <expan>prudent<ex>is</ex></expan>
+<expan>vir<ex>is</ex></expan>
+<expan>p<ex>ro</ex>consulib<ex>us</ex></expan>
+<expan><ex>et</ex></expan>
+<expan>consulib<ex>us</ex></expan>
+<expan>civi<ex>ta</ex><hi rend="sup">t<ex>is</ex></hi></expan>
+<expan>Lubicen<ex>sis</ex></expan>
+<expan>fautorib<ex>us</ex></expan>
+<expan>n<ex>ost</ex>ris</expan>
+<expan>sp<ex>eci</ex>alibl<ex>us</ex></expan>
+<expan><ex>et</ex></expan>
+<expan>amicis</expan>.</note>
+</app>
+</ab>
+</div>
+</div>
+</body>
+</text>
+</TEI>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="564" xml:id="l572" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 564 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>026v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 564.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><placeName ref="https://www.wikidata.org/wiki/Q2978" type="recipient">Regensburg</placeName></ab><ab type="mention"><persName type="mention">Hallauer, Heinrich</persName><persName type="mention">N., N., Zöllner v. Regensburg</persName></ab><date from="15-11-1409" to="15-11-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_54">
+<surface lrx="2768" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0029_left.png" width="2768px"/>
+<zone lrx="1587" lry="320" rendition="TextRegion" ulx="1141" uly="812" xml:id="facs_54_r3">
+<zone lrx="1587" lry="320" rendition="Line" ulx="1141" uly="251" xml:id="facs_54_r3l1"/>
+<zone lrx="2651" lry="530" rendition="Line" ulx="444" uly="434" xml:id="facs_54_r3l2"/>
+<zone lrx="2624" lry="595" rendition="Line" ulx="641" uly="531" xml:id="facs_54_r3l3"/>
+<zone lrx="2706" lry="658" rendition="Line" ulx="647" uly="600" xml:id="facs_54_r3l4"/>
+<zone lrx="2646" lry="724" rendition="Line" ulx="651" uly="672" xml:id="facs_54_r3l5"/>
+<zone lrx="2635" lry="800" rendition="Line" ulx="643" uly="742" xml:id="facs_54_r3l6"/>
+<zone lrx="1921" lry="879" rendition="Line" ulx="630" uly="812" xml:id="facs_54_r3l7"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Regensburg</head><p>Der Rat bittet um Unterlassung unrechtmäßiger Zollforderungen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_54" id="26v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_54_r3l1">Regenſpurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_54_r3l2">Lieben <expan>fr<ex>ewnde</ex></expan> / Vns hat fürgelegt / <expan>Heinr<ex>ich</ex></expan> <expan>Hallaw<ex>er</ex></expan> vnſer <expan>B<ex>urger</ex></expan> / wie <expan>ew<ex>er</ex></expan> CƷöllner </ab>
+<ab facs="#facs_54_r3l3">beÿ ew cʒol an Jn gevoꝛdert hab / <expan>Roga<ex>mus</ex></expan> / daʒ Jr mit <expan>ew<ex>r</ex>m</expan> cʒöllner ſchicken </ab>
+<ab facs="#facs_54_r3l4">vnd beſtellen wöllet / daʒ er den <expan>eg<ex>enanten</ex></expan> / vnd ander vnſer Burger mit ſölichen voꝛ = </ab>
+<ab facs="#facs_54_r3l5"><expan>derunge<ex>n</ex></expan> vmbeſwert laʒ / vvann wir von alter alſo gefreÿet / vnd <expan>herkome<ex>n</ex></expan> ſein </ab>
+<ab facs="#facs_54_r3l6">daʒ die vnſeren des beÿ ew überhaben ſein ſüllen / das wöllen etc antvvurt </ab>
+<ab facs="#facs_54_r3l7"><expan>Dat<ex>um</ex></expan> feria <expan>Sex<ex>ta</ex></expan> poſt Martinj Anno etc Nono $ </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_54" id="26v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Regenspurg </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Lieben <expan>fr<ex>eunde</ex></expan>, uns hat
+                                                fürgelegt <expan>Heinr<ex>ich</ex></expan>
+<expan>Hallaw<ex>er</ex></expan>, unser
+                                                  <expan>b<ex>urger</ex></expan>, wie
+                                                  <expan>ew<ex>er</ex></expan> czöllner bey ew czol
+                                                an in gevordert hab.
+                                                <expan>Roga<ex>mus</ex></expan>, daz ir mit
+                                                  <expan>ew<ex>r</ex>m</expan> czöllner schicken und
+                                                bestellen wöllet, daz er den
+                                                  <expan>eg<ex>enanten</ex></expan> und ander unser
+                                                burger mit sölichen
+                                                  vor<expan>derunge<ex>n</ex></expan> umbeswert laz,
+                                                wann wir von alter also gefreyet und
+                                                  <expan>herkome<ex>n</ex></expan> sein, daz die
+                                                unseren des bey ew überhaben sein süllen. Das wöllen
+                                                etc. Antwurt. <expan>Dat<ex>um</ex></expan> feria
+                                                  <expan>sex<ex>ta</ex></expan> post Martini anno
+                                                etc. nono.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2552" xml:id="l2563" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2552 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>123v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_10"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2552.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Streitberg, Hermann v.</persName><persName type="recipient">Streitberg, Friedrich v.</persName></ab><ab type="mention"><placeName type="mention">Streitberg (Gt. d. Gem. Wiesenttal, Lk. Forchheim)</placeName><persName type="mention">Gräfenberger, Eberhard</persName></ab><date from="22-03-1421" to="22-03-1421" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_249">
+<surface lrx="2564" lry="3710" ulx="0" uly="0">
+<graphic height="3710px" url="Rst Nbg-Briefbücher-Nr 5_0128_left.png" width="2564px"/>
+<zone lrx="1750" lry="1973" rendition="TextRegion" ulx="991" uly="2565" xml:id="facs_249_r1"> <zone lrx="1799" lry="1973" rendition="Line" ulx="991" uly="1894" xml:id="facs_249_r1l16"/>
+<zone lrx="2425" lry="2134" rendition="Line" ulx="549" uly="2023" xml:id="facs_249_r1l17"/>
+<zone lrx="2439" lry="2201" rendition="Line" ulx="579" uly="2104" xml:id="facs_249_r1l18"/>
+<zone lrx="2419" lry="2282" rendition="Line" ulx="576" uly="2168" xml:id="facs_249_r1l19"/>
+<zone lrx="2452" lry="2348" rendition="Line" ulx="581" uly="2242" xml:id="facs_249_r1l20"/>
+<zone lrx="2367" lry="2412" rendition="Line" ulx="583" uly="2321" xml:id="facs_249_r1l21"/>
+<zone lrx="2358" lry="2489" rendition="Line" ulx="573" uly="2377" xml:id="facs_249_r1l22"/>
+<zone lrx="2346" lry="2554" rendition="Line" ulx="587" uly="2478" xml:id="facs_249_r1l23"/>
+<zone lrx="1750" lry="2634" rendition="Line" ulx="582" uly="2565" xml:id="facs_249_r1l24"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Hermann und Friedrich von Streitberg</head><p>Der Rat bittet um Rückgabe der beschlagnahmten und nach Streitberg verbrachten fünf Säcke mit 1295 Pfund Baumwolle des Eberhard Gräfenberger, Bürger zu Nürnberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_249" id="123v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_249_r1l16"><expan>H<ex>er</ex>man</expan> vnd <expan>frıdr<ex>ich</ex></expan> von <expan>Streıtp<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_249_r1l17"><expan>L<ex>ieben</ex></expan> . <expan>H<ex>erman</ex></expan> . vnd <expan>fr<ex>idrich</ex></expan> . vns hat <expan>furb<ex>raht</ex></expan> . <expan>Eb<ex>erhart</ex></expan> . <expan>Grefemberg<ex>er</ex></expan> <expan>vnſ<ex>er</ex></expan> <expan>B<ex>urger</ex></expan> . vvıe Jr Jm </ab>
+<ab facs="#facs_249_r1l18">fünff Seck mıt pawmvvollen / die an rechten gewichte haben xıȷ<hi rend="sup">C</hi> . vnd </ab>
+<ab facs="#facs_249_r1l19">lxxxxv . lb . aufgehalten / vnd gen Streıtperg in eẅr Sloſʒ gefürt habt </ab>
+<ab facs="#facs_249_r1l20">laſſen . Nu hat der <expan>eg<ex>enante</ex></expan> vnſer <expan>B<ex>urger</ex></expan> . dieſelben ſein hab vor vns cʒu den <expan>heılıg<ex>en</ex></expan> </ab>
+<ab facs="#facs_249_r1l21">behabt / daʒ ſıe ſein vnd ander vnſer <expan>B<ex>urger</ex></expan> . ſeÿ . Alſo daʒ dhein auſʒman </ab>
+<ab facs="#facs_249_r1l22">vveder tail noch gemein daran hab . <expan>R<ex>ogamus</ex></expan> . daʒ Jr ÿm dieſelben ſein hab </ab>
+<ab facs="#facs_249_r1l23">vmb <expan>vnſ<ex>er</ex>n</expan> willen vvıder geben vnd volgen laſſen vvellet . als etc </ab>
+<ab facs="#facs_249_r1l24">daʒ vvellen etc . <expan>dat<ex>um</ex></expan> in <expan>vıg<ex>ilia</ex></expan> paſce . <expan>A<ex>nn</ex><hi rend="sup">o</hi></expan> xxȷ<hi rend="sup">o</hi> - </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_249" id="123v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>H<ex>er</ex>man</expan> und <expan>Fridr<ex>ich</ex></expan> von
+                                <expan>Streitp<ex>er</ex>g</expan></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>L<ex>ieben</ex></expan>
+<expan>H<ex>erman</ex></expan> und <expan>Fr<ex>idrich</ex></expan>, uns hat
+                <expan>furb<ex>raht</ex></expan>
+<expan>Eb<ex>erhart</ex></expan>
+<expan>Grefemberg<ex>er</ex></expan>, <expan>uns<ex>er</ex></expan>
+<expan>b<ex>urger</ex></expan>, wie ir im fünff seck mit pawmwollen, die an rechten
+            gewichte haben xii<hi rend="sup">c</hi> und lxxxxv
+              <expan>l<ex>i</ex>b<ex>rae</ex></expan>, aufgehalten und gen Streitperg in ewr slosz
+            gefürt habt lassen. Nu hat der <expan>eg<ex>enante</ex></expan> unser
+                <expan>b<ex>urger</ex></expan> dieselben sein hab vor uns czu den
+                <expan>heilig<ex>en</ex></expan> behabt, daz sie sein und ander unser
+                <expan>b<ex>urger</ex></expan> sey, also daz dhein auszman weder tail noch gemein
+            daran hab. <expan>R<ex>ogamus</ex></expan>, daz ir ym dieselben sein hab umb
+                <expan>uns<ex>er</ex>n</expan> willen wider geben und volgen lassen wellet. Als etc.
+            Daz wellen etc. <expan>Dat<ex>um</ex></expan> in <expan>vig<ex>ilia</ex></expan> pasce
+                <expan>a<ex>nn</ex><hi rend="sup">o</hi></expan> xxi<hi rend="sup">o</hi>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

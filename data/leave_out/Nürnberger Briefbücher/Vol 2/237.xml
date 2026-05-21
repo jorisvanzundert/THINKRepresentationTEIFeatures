@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="237" xml:id="l240" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 237 (BB2)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>13.12.2024</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 2</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>067r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bub, Anna; Neumeier, Katharina; Krenz, Julian; Mayr, Martin: Die Nürnberger Briefbücher II (1408/1409) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 45). Nürnberg 2024, Nr. 237.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q57326" type="recipient">Ruprecht I., dt. König</persName></ab><ab type="mention"><placeName type="mention">Großhabersdorf (Gem., Lk. Fürth)</placeName><persName type="mention">Treuchtlingen, Wirich IV. v.</persName><persName type="mention">Sigwein, N.</persName></ab><date from="31-10-1408" to="28-11-1408" type="deduced"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_137">
+<surface lrx="2791" lry="3869" ulx="0" uly="0">
+<graphic height="3869px" url="Rst Nbg-Briefbücher-Nr 2_0069_right.png" width="2791px"/>
+<zone lrx="1358" lry="348" rendition="TextRegion" ulx="1197" uly="586" xml:id="facs_137_r2">
+<zone lrx="1358" lry="348" rendition="Line" ulx="1197" uly="250" xml:id="facs_137_r2l1"/>
+<zone lrx="2598" lry="501" rendition="Line" ulx="676" uly="376" xml:id="facs_137_r2l2"/>
+<zone lrx="2589" lry="588" rendition="Line" ulx="710" uly="474" xml:id="facs_137_r2l3"/>
+<zone lrx="1514" lry="681" rendition="Line" ulx="718" uly="586" xml:id="facs_137_r2l4"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an König Ruprecht I. </head><p>Der Rat teilt wegen der Ladung des N. Sigwein um ein Gut zu Großhabersdorf durch Wirich von Treuchtlingen [Textabbruch].</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_137" id="67r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><del rend="crossout"><ab facs="#facs_137_r2l1">Künig</ab>
+</del></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><del rend="crossout"><ab facs="#facs_137_r2l2"><expan>Gnedıg<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> / Es hat her VVirich von <expan>Trewtling<ex>en</ex></expan> für ewr künglıch </ab>
+<ab facs="#facs_137_r2l3">hofgerichte geladen ein güte cʒü hadmanſtorf <expan>geleg<ex>en</ex></expan> / das <expan>ein<ex>er</ex></expan> pawet </ab>
+<ab facs="#facs_137_r2l4">genant der Sıgwein /. vnd </ab>
+</del>
+</div>
+</div><div type="regularised"><pb facs="#facs_137" id="67r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><del rend="crossout">Künig </del></ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><del rend="crossout"><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re</expan>, es hat her Wirich
+                                                  von <expan>Trewtling<ex>en</ex></expan> für ewr
+                                                  künglich hofgerichte geladen ein güte czü
+                                                  Hadmanstorf <expan>geleg<ex>en</ex></expan>, das
+                                                  <expan>ein<ex>er</ex></expan> pawet, genant der
+                                                  Sigwein, und</del><app><note><q type="endnote">...</q>Text bricht hier ab.</note></app></ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="1998" xml:id="l2010" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 1998 (BB4)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 4</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>119v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_1"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 1998.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName ref="https://www.wikidata.org/wiki/Q1527505" type="recipient">Albrecht v. Wertheim, Bf. v. Bamberg</persName></ab><ab type="mention"><placeName type="mention">Zeil am Main (Stadt, Lk. Haßberge)</placeName><persName type="mention">Münzmeister, Günther</persName><persName type="mention">Huber, Heinrich</persName></ab><date from="8-11-1415" to="8-11-1415" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_239">
+<surface lrx="2620" lry="3735" ulx="0" uly="0">
+<graphic height="3735px" url="Rst Nbg-Briefbücher-Nr 4_0123_left.png" width="2620px"/>
+<zone lrx="1224" lry="403" rendition="TextRegion" ulx="1827" uly="1079" xml:id="facs_239_r1">
+<zone lrx="1699" lry="403" rendition="Line" ulx="964" uly="301" xml:id="facs_239_r1l1"/>
+<zone lrx="2360" lry="573" rendition="Line" ulx="600" uly="503" xml:id="facs_239_r1l2"/>
+<zone lrx="1335" lry="588" rendition="Line" ulx="1236" uly="529" xml:id="facs_239_line_1576667766033_9114"/>
+<zone lrx="2284" lry="655" rendition="Line" ulx="612" uly="580" xml:id="facs_239_r1l4"/>
+<zone lrx="2374" lry="736" rendition="Line" ulx="625" uly="643" xml:id="facs_239_r1l5"/>
+<zone lrx="2328" lry="800" rendition="Line" ulx="638" uly="744" xml:id="facs_239_r1l6"/>
+<zone lrx="2242" lry="814" rendition="Line" ulx="1827" uly="776" xml:id="facs_239_r1l7"/>
+<zone lrx="2376" lry="888" rendition="Line" ulx="642" uly="828" xml:id="facs_239_r1l8"/>
+<zone lrx="1224" lry="910" rendition="Line" ulx="1105" uly="852" xml:id="facs_239_line_1576667770237_9119"/>
+<zone lrx="2386" lry="964" rendition="Line" ulx="629" uly="917" xml:id="facs_239_r1l10"/>
+<zone lrx="2342" lry="1059" rendition="Line" ulx="644" uly="986" xml:id="facs_239_r1l11"/>
+<zone lrx="1474" lry="1160" rendition="Line" ulx="625" uly="1079" xml:id="facs_239_r1l12"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Albrecht von Wertheim, Bischof von Bamberg</head><p>Der Rat kündigt Heinrich Huber, Diener der Stadt, wegen der Beschlagnahme des Weins aus Zeil am Main von Günther Münzmeister, Bürger zu Nürnberg, an.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_239" id="119v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_239_r1l1">Bẏſſchoff cʒu <expan>Bamb<ex>er</ex>g</expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_239_r1l2"><expan>Gnedig<ex>er</ex></expan> <expan>h<ex>er</ex>re</expan> vns hat <expan>fürg<ex>elegt</ex></expan> Günther Müncʒmeiſter </ab>
+<ab facs="#facs_239_r1l4">vnſer Burger . vvie 
+<del rend="strikethrough">Jm </del>
+<add><ab facs="#facs_239_line_1576667766033_9114">daʒ </ab></add> ~ die ewren 
+<del rend="strikethrough">cʒu Cʒeil ſein die vv </del></ab>
+<ab facs="#facs_239_r1l5">Jm vnd den ſeinen . die vveine die an ſeinen weingarten </ab>
+<ab facs="#facs_239_r1l6">cʒu cʒeil gevvachſen ſein . bekümert vnd <expan>verpote<ex>n</ex></expan> <expan>hab<ex>e</ex>n</expan> </ab>
+<ab facs="#facs_239_r1l8">vnd Jn dıe niht volgen <expan>wölle<ex>n</ex></expan> laſſen 
+<add><ab facs="#facs_239_r1l7">von tacʒ wegen </ab></add> Darümb <expan>ſende<ex>n</ex></expan> </ab>
+<ab facs="#facs_239_r1l10">vvir cʒu <expan>ew<ex>r</ex>n</expan>
+<del rend="strikethrough"><expan>gnade<ex>n</ex></expan></del>
+<add><ab facs="#facs_239_line_1576667770237_9119"><expan>hoch<ex>wirdikeit</ex></expan></ab></add> <expan>heinr<ex>ich</ex></expan> hubner <expan>vnſ<ex>er</ex>n</expan> dıener mit </ab>
+<ab facs="#facs_239_r1l11"><expan>ew<ex>r</ex>n</expan> <expan>gnade<ex>n</ex></expan> dauon cʒu reden / vnd <expan>Ro<ex>gamus</ex></expan> etc vt in <expan>for<ex>ma</ex></expan> </ab>
+<ab facs="#facs_239_r1l12"><expan>dat<ex>um</ex></expan> <expan>fe<ex>ri</ex>a</expan> vj̃ <expan>an<ex>te</ex></expan> <expan>Martini</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_239" id="119v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Bysschoff czu <expan>Bamb<ex>er</ex>g</expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Gnedig<ex>er</ex></expan>
+<expan>h<ex>er</ex>re,</expan> uns hat <expan>fürg<ex>elegt</ex></expan>
+                        Günther Münczmeister, unser burger, wie <add>daz</add> die ewren im und den
+                        seinen die weine, die an seinen weingarten czu Czeil gewachsen sein,
+                        bekümert und <expan>verpote<ex>n</ex></expan>
+<expan>hab<ex>e</ex>n</expan> und in die niht volgen
+                            <expan>wölle<ex>n</ex></expan> lassen <add>von tacz wegen</add>; darümb
+                                <expan>sende<ex>n</ex></expan> wir czu <expan>ew<ex>r</ex>n</expan>
+<add><expan>hoch<ex>wirdikeit</ex></expan></add>
+<expan>Heinr<ex>ich</ex></expan> Hubner, <expan>uns<ex>er</ex>n</expan>
+                        diener, mit <expan>ew<ex>r</ex>n</expan>
+<expan>gnade<ex>n</ex></expan> davon czu reden. Und
+                            <expan>ro<ex>gamus</ex></expan> etc. ut in
+                            <expan>for<ex>ma.</ex></expan>
+<expan>Dat<ex>um</ex></expan>
+<expan>fe<ex>ri</ex>a</expan> vi <expan>an<ex>te</ex></expan>
+<expan>Martini.</expan>
+</ab>
+</div>
+</div></body>
+</text>
+</TEI>

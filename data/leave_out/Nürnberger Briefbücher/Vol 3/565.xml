@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="565" xml:id="l573" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 565 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>026v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 565.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Egloffstein, Ulrich v.</persName></ab><ab type="mention"><placeName ref="https://www.wikidata.org/wiki/Q3936" type="mention">Bamberg</placeName><persName type="mention">Schenk v. Limpurg, Friedrich III.</persName></ab><date from="16-11-1409" to="16-11-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_54">
+<surface lrx="2768" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0029_left.png" width="2768px"/>
+<zone lrx="1270" lry="1057" rendition="TextRegion" ulx="2328" uly="2377" xml:id="facs_54_r3"> <zone lrx="1748" lry="1057" rendition="Line" ulx="1145" uly="984" xml:id="facs_54_r3l8"/>
+<zone lrx="2583" lry="1227" rendition="Line" ulx="593" uly="1152" xml:id="facs_54_r3l9"/>
+<zone lrx="2476" lry="1309" rendition="Line" ulx="678" uly="1246" xml:id="facs_54_r3l10"/>
+<zone lrx="2534" lry="1410" rendition="Line" ulx="673" uly="1338" xml:id="facs_54_r3l11"/>
+<zone lrx="2347" lry="1503" rendition="Line" ulx="669" uly="1423" xml:id="facs_54_r3l12"/>
+<zone lrx="2601" lry="1746" rendition="Line" ulx="558" uly="1663" xml:id="facs_54_r3l13"/>
+<zone lrx="1270" lry="1783" rendition="Line" ulx="1146" uly="1732" xml:id="facs_54_r3l14"/>
+<zone lrx="2605" lry="1847" rendition="Line" ulx="647" uly="1734" xml:id="facs_54_r3l15"/>
+<zone lrx="2608" lry="1945" rendition="Line" ulx="648" uly="1826" xml:id="facs_54_r3l16"/>
+<zone lrx="2578" lry="2025" rendition="Line" ulx="650" uly="1940" xml:id="facs_54_r3l17"/>
+<zone lrx="2255" lry="2012" rendition="Line" ulx="2126" uly="1962" xml:id="facs_54_line_1571659443589_677"/>
+<zone lrx="2440" lry="2013" rendition="Line" ulx="2328" uly="1970" xml:id="facs_54_r3l18"/>
+<zone lrx="2599" lry="2138" rendition="Line" ulx="641" uly="1990" xml:id="facs_54_r3l19"/>
+<zone lrx="2578" lry="2233" rendition="Line" ulx="639" uly="2090" xml:id="facs_54_r3l20"/>
+<zone lrx="2541" lry="2323" rendition="Line" ulx="641" uly="2185" xml:id="facs_54_r3l21"/>
+<zone lrx="2469" lry="2408" rendition="Line" ulx="655" uly="2278" xml:id="facs_54_r3l22"/>
+<zone lrx="2400" lry="2496" rendition="Line" ulx="659" uly="2377" xml:id="facs_54_r3l23"/>
+</zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Ulrich von Egloffstein</head><p>Der Rat fordert Ulrich bei seinem Diensteid auf, der Ladung des Landfriedenshauptmanns nach Bamberg zu folgen.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_54" id="26v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_54_r3l8"><expan>Vlr<ex>ich</ex></expan> <expan>vo<ex>n</ex></expan> <expan>Eglofſt<ex>ein</ex></expan> </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><del rend="crossout"><ab facs="#facs_54_r3l9">Lieber / Vlrich / . wir heiſſen vnd <expan>gepiet<ex>e</ex>n</expan> ew bey <expan>ewre<ex>m</ex></expan> eıde / als Jr vns </ab>
+<ab facs="#facs_54_r3l10">geſworn habt / daʒ Jr ewch nichts <expan>hind<ex>er</ex>n</expan> laſſet / Jr ſeit 
+<del rend="strikethrough"> b </del> auf den </ab>
+<ab facs="#facs_54_r3l11">nehſten Montag cʒenacht beÿ <expan>vnſ<ex>er</ex>n</expan> frewnden cʒü <expan>Bamb<ex>er</ex>g</expan> / die wir </ab>
+<ab facs="#facs_54_r3l12">auf den Lantfrıd dahin ſchicken / . <expan>Dat<ex>um</ex></expan> <expan>Sabb<ex>at</ex>o</expan> <expan>p<ex>oſt</ex></expan> <expan>Mart<ex>in</ex>i</expan> </ab>
+</del><ab facs="#facs_54_r3l13"><expan>Lıeb<ex>er</ex></expan> <expan>vlr<ex>ich</ex></expan> / Vns ıſt cʒevviſſen getan <expan>vvord<ex>e</ex>n</expan> / vvie ew <expan>d<ex>er</ex></expan> Hawbtman </ab><ab facs="#facs_54_r3l15">von des Lantfrıds 
+<add><ab facs="#facs_54_r3l14"><expan>weg<ex>en</ex></expan> </ab></add> <expan>v<ex>er</ex>ſchrib<ex>e</ex>n</expan> hab / daʒ Jr <expan>yecʒunde<ex>n</ex></expan> auf den Lantfrıd </ab><ab facs="#facs_54_r3l16">gen <expan>Bamb<ex>er</ex>g</expan> <expan>kume<ex>n</ex></expan> ſüllet / do er <expan>awſſprech<ex>e</ex>n</expan> wölle <expan>vo<ex>n</ex></expan> <expan>d<ex>er</ex></expan> handlung </ab><ab facs="#facs_54_r3l17"><expan>wege<ex>n</ex></expan> / als ſich dann <expan>v<ex>er</ex>loffe<ex>n</ex></expan> hat / do <expan>d<ex>er</ex></expan> Lantfrıd in <expan>de<ex>m</ex></expan> veld was / </ab><ab facs="#facs_54_r3l19">Nu ıſt vnſer <expan>maynu<ex>n</ex>g</expan> daʒ Jr das tün ſüllet / Vnd 
+<add><ab facs="#facs_54_line_1571659443589_677"><expan>dauo<ex>n</ex></expan> </ab></add> manen 
+<add><ab facs="#facs_54_r3l18">wir </ab></add> ew vnd </ab><ab facs="#facs_54_r3l20">heiſſen vnd <expan>gepiet<ex>e</ex>n</expan> ew bey <expan>ewre<ex>m</ex></expan> eıde als Jr vns <expan>geſwor<ex>e</ex>n</expan> habt </ab><ab facs="#facs_54_r3l21">daʒ Jr ew nichts <expan>hind<ex>er</ex>n</expan> laſſet / Jr ſeit auf den <expan>nehſte<ex>n</ex></expan> Montag </ab><ab facs="#facs_54_r3l22">cʒenacht / beÿ <expan>vnſ<ex>er</ex>n</expan> frewnden cʒü <expan>Bamb<ex>er</ex>g</expan> / die wir auf den </ab><ab facs="#facs_54_r3l23">Lantfrid dahin <expan>ſchıcke<ex>n</ex></expan> <expan>w<ex>er</ex>den</expan> / <expan>Dat<ex>um</ex></expan> <expan>Sabb<ex>at</ex>o</expan> <expan>p<ex>oſt</ex></expan> <expan>Mart<ex>in</ex>ȷ</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_54" id="26v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab><expan>Ulr<ex>ich</ex></expan>
+<expan>vo<ex>n</ex></expan>
+<expan>Eglofst<ex>ein</ex></expan>
+</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><del rend="crossout">Lieber Ulrich, wir heissen und
+                                <expan>gepiet<ex>e</ex>n</expan> ew bey
+                                <expan>ewre<ex>m</ex></expan> eide, als ir uns gesworn habt, daz ir
+                            ewch nichts <expan>hind<ex>er</ex>n</expan> lasset, ir seit auf den
+                            nehsten montag czenacht bey <expan>uns<ex>er</ex>n</expan> frewnden czü
+                                    <expan>Bamb<ex>er</ex>g</expan>, die wir auf den lantfrid dahin
+                            schicken. <expan>Dat<ex>um</ex></expan>
+<expan>sabb<ex>at</ex>o</expan>
+<expan>p<ex>ost</ex></expan>
+<expan>Mart<ex>in</ex>i</expan>
+</del>
+<lb/><expan>Lieb<ex>er</ex></expan>
+<expan>Ulr<ex>ich</ex></expan>, uns ist czewissen getan
+                                <expan>word<ex>e</ex>n</expan>, wie ew <expan>d<ex>er</ex></expan>
+                        hawbtman von des lantfrids <add><expan>weg<ex>en</ex></expan></add>
+<expan>v<ex>er</ex>schrib<ex>e</ex>n</expan> hab, daz ir
+                                <expan>yeczunde<ex>n</ex></expan> auf den lantfrid gen
+                                <expan>Bamb<ex>er</ex>g</expan>
+<expan>kume<ex>n</ex></expan> süllet, do er
+                            <expan>awssprech<ex>e</ex>n</expan> wölle <expan>vo<ex>n</ex></expan>
+<expan>d<ex>er</ex></expan> handlung <expan>wege<ex>n</ex></expan>, als sich
+                        dann <expan>v<ex>er</ex>loffe<ex>n</ex></expan> hat, do
+                            <expan>d<ex>er</ex></expan> lantfrid in <expan>de<ex>m</ex></expan> veld
+                        was. Nu ist unser <expan>maynu<ex>n</ex>g</expan>, daz ir das tün süllet,
+                        und <add><expan>davo<ex>n</ex></expan></add> manen <add>wir</add> ew und
+                        heissen und <expan>gepiet<ex>e</ex>n</expan> ew bey
+                            <expan>ewre<ex>m</ex></expan> eide, als ir uns
+                            <expan>geswor<ex>e</ex>n</expan> habt, daz ir ew nichts
+                                <expan>hind<ex>er</ex>n</expan> lasset, ir seit auf den
+                                <expan>nehste<ex>n</ex></expan> montag czenacht bey
+                                <expan>uns<ex>er</ex>n</expan> frewnden czü
+                            <expan>Bamb<ex>er</ex>g</expan>, die wir auf den lantfrid dahin
+                                <expan>schicke<ex>n</ex></expan>
+<expan>w<ex>er</ex>den</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>sabb<ex>at</ex>o</expan>
+<expan>p<ex>ost</ex></expan>
+<expan>Mart<ex>in</ex>i</expan>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

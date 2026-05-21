@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="2839" xml:id="l2850" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 2839 (BB5)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Anna Bub</persName><resp>Edition</resp></respStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>22.05.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 5</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>200v</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_9"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Krenz, Julian; Neumeier, Katharina; Bürcky, Simon; Mayr, Martin: Die Nürnberger Briefbücher V (1419–1423) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 51). Nürnberg 2025, Nr. 2839.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Zollner, Michael</persName></ab><ab type="mention">-</ab><date from="2-03-1422" to="2-03-1422" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_403">
+<surface lrx="2704" lry="3745" ulx="0" uly="0">
+<graphic height="3745px" url="Rst Nbg-Briefbücher-Nr 5_0205_left.png" width="2704px"/>
+<zone lrx="1239" lry="264" rendition="TextRegion" ulx="878" uly="867" xml:id="facs_403_r2">
+<zone lrx="1430" lry="264" rendition="Line" ulx="878" uly="180" xml:id="facs_403_r2l1"/>
+<zone lrx="2511" lry="422" rendition="Line" ulx="671" uly="331" xml:id="facs_403_r2l2"/>
+<zone lrx="2506" lry="520" rendition="Line" ulx="691" uly="430" xml:id="facs_403_r2l3"/>
+<zone lrx="2492" lry="628" rendition="Line" ulx="677" uly="530" xml:id="facs_403_r2l4"/>
+<zone lrx="2520" lry="741" rendition="Line" ulx="677" uly="642" xml:id="facs_403_r2l5"/>
+<zone lrx="2487" lry="854" rendition="Line" ulx="707" uly="760" xml:id="facs_403_r2l6"/>
+<zone lrx="1239" lry="956" rendition="Line" ulx="704" uly="867" xml:id="facs_403_r2l7"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Rat an Michael Zollner</head><p>Der Rat gewährt dem Adressaten in den kommenden acht Tagen zwei Tage Geleit, um ihn anzuhören.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_403" id="200v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab facs="#facs_403_r2l1">Mıcheln Ʒollner </ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_403_r2l2"><expan>Vnſ<ex>er</ex></expan> dıenſt beuor . Mıchel ʒollner / als Jr vns <expan>verſchr<ex>iben</ex></expan> habt </ab>
+<ab facs="#facs_403_r2l3">etc / das haben wır <expan>vernom<ex>en</ex></expan> / Alſo wenn Jr ın den <expan>nehſt<ex>en</ex></expan> </ab>
+<ab facs="#facs_403_r2l4">viij <expan>tag<ex>en</ex></expan> ʒu vns meynt ʒu <expan>kome<ex>n</ex></expan> . ſo ſüllt Jr ʒu vnd von </ab>
+<ab facs="#facs_403_r2l5">vns für vns vnd dıe <expan>vnſ<ex>er</ex>n</expan> on <expan>geu<ex>er</ex>de</expan> ʒwen tag geleyt <expan>habe<ex>n</ex></expan> </ab>
+<ab facs="#facs_403_r2l6">ſo wellen wır eẅr rede <expan>g<ex>er</ex>n</expan> hören / <expan>Dat<ex>um</ex></expan> <expan>f<ex>er</ex>ıa</expan> ıȷ<hi rend="sup">a</hi> poſt </ab>
+<ab facs="#facs_403_r2l7"><expan>d<ex>omi</ex>nıca<ex>m</ex></expan> <expan>Jnuocau<ex>i</ex><hi rend="sup">t</hi></expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_403" id="200v"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee">
+<ab>Micheln Zollner</ab>
+</div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Uns<ex>er</ex></expan> dienst bevor. Michel Zollner, als ir uns
+                <expan>verschr<ex>iben</ex></expan> habt etc., das haben wir
+                <expan>vernom<ex>en</ex></expan>. Also wenn ir in den
+              <expan>nehst<ex>en</ex></expan> viii <expan>tag<ex>en</ex></expan> zu uns meynt zu
+                <expan>kome<ex>n</ex></expan>, so süllt ir zu und von uns für uns und die
+                <expan>uns<ex>er</ex>n</expan> on <expan>gev<ex>er</ex>de</expan> zwen tag geleyt
+                <expan>habe<ex>n</ex></expan>, so wellen wir ewr rede <expan>g<ex>er</ex>n</expan>
+            hören. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii<hi rend="sup">a</hi> post
+                <expan>d<ex>omi</ex>nica<ex>m</ex></expan>
+<expan>invocav<ex>i</ex><hi rend="sup">t</hi></expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

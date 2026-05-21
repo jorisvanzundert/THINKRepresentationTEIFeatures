@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="527" xml:id="l534" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 527 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>017r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_7"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 527.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient">-</ab><ab type="mention"><placeName type="mention">Thannhausen (Gt. d. Markts Altmannstein, Lk. Eichstätt)</placeName><placeName ref="https://www.wikidata.org/wiki/Q2241582" type="mention">Hirschberg (Gt. d. Stadt Beilngries, Lk. Eichstätt)</placeName><persName type="mention">Reickershofer, Konrad</persName><persName type="mention">Stainer, H.</persName><persName type="mention">Pilsacher, Konrad</persName></ab><date from="14-10-1409" to="14-10-1409" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_35">
+<surface lrx="2618" lry="3816" ulx="0" uly="0">
+<graphic height="3816px" url="Rst Nbg-Briefbücher-Nr 3_0019_right.png" width="2618px"/>
+<zone lrx="1234" lry="1460" rendition="TextRegion" ulx="402" uly="2090" xml:id="facs_35_r1"> <zone lrx="2344" lry="1460" rendition="Line" ulx="380" uly="1397" xml:id="facs_35_line_1576490622081_7615"/>
+<zone lrx="2342" lry="1571" rendition="Line" ulx="381" uly="1483" xml:id="facs_35_line_1576490626755_7620"/>
+<zone lrx="2248" lry="1675" rendition="Line" ulx="384" uly="1564" xml:id="facs_35_r1l18"/>
+<zone lrx="2373" lry="1779" rendition="Line" ulx="401" uly="1655" xml:id="facs_35_r1l19"/>
+<zone lrx="2224" lry="1875" rendition="Line" ulx="374" uly="1766" xml:id="facs_35_r1l20"/>
+<zone lrx="2343" lry="1971" rendition="Line" ulx="400" uly="1855" xml:id="facs_35_r1l21"/>
+<zone lrx="2270" lry="2063" rendition="Line" ulx="402" uly="1958" xml:id="facs_35_r1l22"/>
+<zone lrx="1234" lry="2154" rendition="Line" ulx="394" uly="2090" xml:id="facs_35_r1l23"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="open letter">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Offener Brief des Rates</head><p>Der Rat bevollmächtigt H. Stainer, Bürger zu Nürnberg, und Konrad Pilsacher, Diener der Stadt, als Vertreter bei der Klage Konrad Reickershofers vor dem Landgericht zu Hirschberg.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_35" id="17r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_35_line_1576490622081_7615">Wir ~ die <expan>B<ex>urger</ex></expan> deʒ <expan>R<ex>ats</ex></expan> <expan>d<ex>er</ex></expan> <expan>St<ex>at</ex></expan> cʒü <expan>Nur<ex>emberg</ex></expan> / <expan>Bekenne<ex>n</ex></expan> <expan>offenl<ex>ichen</ex></expan> mit <expan>diſ<ex>em</ex></expan> </ab>
+<ab facs="#facs_35_line_1576490626755_7620">briefe / vmb ſölıch ladung vnd klage / als Conrat <expan>Reickerſhof<ex>er</ex></expan> cʒü </ab>
+<ab facs="#facs_35_r1l18">Tanhawſen / vnſere güte geladen hat auf die <expan>lantſchran<ex>n</ex></expan> cʒü </ab>
+<ab facs="#facs_35_r1l19">Hirſperg / daʒ vvir <expan cert="unknown">H</expan> Stainer <expan>vnſ<ex>er</ex>m</expan> <expan>B<ex>urger</ex></expan> . vnd C . 
+<del rend="strikethrough"> Stei </del> <expan>Pilſach<ex>er</ex></expan> </ab>
+<ab facs="#facs_35_r1l20"><expan>vnſ<ex>er</ex>m</expan> <expan>dien<ex>er</ex></expan> / <expan>geb<ex>e</ex>n</expan> <expan>hab<ex>e</ex>n</expan> vnd <expan>geb<ex>e</ex>n</expan> <expan>gancʒe<ex>n</ex></expan> vnd <expan>volle<ex>n</ex></expan> gewalt </ab>
+<ab facs="#facs_35_r1l21">das an <expan>vnſ<ex>er</ex>r</expan> ſtat cʒü <expan>verantwurt<ex>e</ex>n</expan> vnd cʒü <expan>v<ex>er</ex>tret<ex>e</ex>n</expan> / cʒügewinne </ab>
+<ab facs="#facs_35_r1l22">vnd cʒü verluſt vnd cʒü <expan>alle<ex>n</ex></expan> <expan>recht<ex>e</ex>n</expan> / . Mit <expan>vrk<ex>unde</ex></expan> <expan>at<ex>er</ex>go</expan> / <expan>Dat<ex>um</ex></expan> </ab>
+<ab facs="#facs_35_r1l23"><expan>f<ex>er</ex>ıa</expan> ıj̃ <expan>an<ex>te</ex></expan> Gallȷ / Anno ıx<hi rend="sup">o</hi> . </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_35" id="17r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab>Wir, die <expan>b<ex>urger</ex></expan> dez <expan>r<ex>ats</ex></expan>
+<expan>d<ex>er</ex></expan>
+<expan>st<ex>at</ex></expan> czü <expan>Nur<ex>emberg</ex></expan>,
+                                <expan>bekenne<ex>n</ex></expan>
+<expan>offenl<ex>ichen</ex></expan> mit <expan>dis<ex>em</ex></expan> briefe
+                        umb sölich ladung und klage, als Conrat
+                            <expan>Reickershof<ex>er</ex></expan> czü Tanhawsen unsere güte geladen
+                        hat auf die <expan>lantschran<ex>n</ex></expan> czü Hirsperg, daz wir <expan cert="unknown">H.</expan> Stainer, <expan>uns<ex>er</ex>m</expan>
+<expan>b<ex>urger</ex></expan>, und <expan>C<ex>onrad</ex></expan>
+<expan>Pilsach<ex>er</ex></expan>, <expan>uns<ex>er</ex>m</expan>
+<expan>dien<ex>er</ex></expan>, <expan>geb<ex>e</ex>n</expan>
+<expan>hab<ex>e</ex>n</expan> und <expan>geb<ex>e</ex>n</expan>
+<expan>gancze<ex>n</ex></expan> und <expan>volle<ex>n</ex></expan> gewalt,
+                        das an <expan>uns<ex>er</ex>r</expan> stat czü
+                            <expan>verantwurt<ex>e</ex>n</expan> und czü
+                                <expan>v<ex>er</ex>tret<ex>e</ex>n</expan>, czügewinne und czü
+                        verlust und czü <expan>alle<ex>n</ex></expan>
+<expan>recht<ex>e</ex>n</expan>. Mit <expan>urk<ex>unde</ex></expan>
+<expan>at<ex>er</ex>go</expan>. <expan>Dat<ex>um</ex></expan>
+<expan>f<ex>er</ex>ia</expan> ii <expan>an<ex>te</ex></expan> Galli anno
+                            ix<hi rend="sup">o</hi>. </ab>
+</div>
+</div></body>
+</text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="sampleXSLT.xsl"?><TEI n="680" xml:id="l689" xmlns="http://www.tei-c.org/ns/1.0">
+<!--This part of the document should stay mostly the same for every letter.-->
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Text 680 (BB3)</title>
+<funder>
+<orgName ref="https://www.wikidata.org/wiki/Q707283"> Deutsche Forschungsgemeinschaft </orgName>
+</funder>
+<principal>
+<persName ref="https://www.wikidata.org/wiki/Q1745207"> Klaus Herbers </persName>
+<persName ref="https://www.wikidata.org/wiki/Q95191299"> Mechthild Habermann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q38240760"> Peter Fleischmann </persName>
+<persName ref="https://www.wikidata.org/wiki/Q42407239"> Andreas Maier </persName>
+</principal>
+</titleStmt>
+<editionStmt><respStmt><persName>Martin Mayr</persName><resp>Edition</resp></respStmt><respStmt><persName>Katharina Neumeier</persName><resp>Edition</resp></respStmt><respStmt><persName>Julian Krenz</persName><resp>Edition</resp></respStmt><respStmt><persName>Simon Bürcky</persName><resp>Edition</resp></respStmt><respStmt><persName>Nina Brolich</persName><resp>Edition</resp></respStmt></editionStmt>
+<publicationStmt>
+<authority>
+<orgName ref="https://gepris.dfg.de/gepris/projekt/416910787"> Kommunikation und Sprache im Reich </orgName>
+</authority>
+<publisher>
+<orgName ref="https://www.wikidata.org/wiki/Q40025/"> Friedrich-Alexander Universität Erlangen-Nürnberg </orgName>
+</publisher>
+<pubPlace>
+<placeName ref="https://www.wikidata.org/wiki/Q3126"> Erlangen </placeName>
+</pubPlace>
+<date>28.03.2025</date>
+<availability>
+<licence target="https://creativecommons.org/licenses/by-nc/4.0/"> This file is licensed under the terms of the Creative-Commons-License CC BY NC 4.0 </licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<bibl>
+<title>Staatsarchiv Nürnberg, Reichsstadt Nürnberg, Briefbücher des Inneren Rates, Nr. 3</title>
+</bibl>
+<msDesc>
+<msIdentifier>
+<country ref="https://www.wikidata.org/wiki/Q183"> Germany </country>
+<settlement ref="https://www.wikidata.org/wiki/Q2090"> Nuremberg </settlement>
+<repository ref="https://www.wikidata.org/wiki/Q2090"> Staatsarchiv Nürnberg </repository>
+<collection>Rep. 61a Briefbücher des Inneren Rates</collection>
+<idno>053r</idno>
+</msIdentifier>
+<physDesc>
+
+<!--contains any physical description of the manuscript, similar to the preface in the printed edition-->
+<handDesc xmlns:xi="http://www.w3.org/2001/XInclude"><xi:include href="PersonenOrteSchreiber.xml" x_pointer="s_6"/></handDesc>
+</physDesc>
+
+</msDesc>
+</sourceDesc>
+</fileDesc><encodingDesc><refsDecl><p>Bürcky, Simon; Krenz, Julian; Mayr, Martin; Neumeier, Katharina: Die Nürnberger Briefbücher III (1409–1412) (Quellen und Forschungen zur Geschichte und Kultur der Stadt Nürnberg 46). Nürnberg 2024, Nr. 680.</p></refsDecl></encodingDesc>
+<profileDesc>
+<langUsage>
+<language ident="de">German</language>
+<language ident="la">Latin</language>
+</langUsage>
+
+
+
+<correspDesc>
+<correspContext>-</correspContext>
+<correspAction type="draft"><ab type="sender"><orgName type="sender" wikidata="https://www.wikidata.org/wiki/Q2090">Rat der Stadt Nürnberg</orgName></ab><ab type="recipient"><persName type="recipient">Hunt, Fritz</persName></ab><ab type="mention"><placeName type="mention">Brüssel (Belgien)</placeName><placeName type="mention">Kirchenthumbach (Markt, Lk. Neustadt a. d. Waldnaab)</placeName><placeName type="mention">Wunsiedel (Stadt, Lk. Wunsiedel i. Fichtelgebirge)</placeName><persName type="mention">Pfinzing, Konrad (gest. 1439)</persName><persName type="mention">Weiß, Niklas</persName></ab><date from="30-04-1410" to="30-04-1410" type="original"/></correspAction>
+</correspDesc>
+</profileDesc>
+</teiHeader>
+<!-- This part of the document contains information about the facsimilie, which of course is individual for every letter. -->
+<facsimile xml:id="facs_107">
+<surface lrx="2790" lry="3856" ulx="0" uly="0">
+<graphic height="3856px" url="Rst Nbg-Briefbücher-Nr 3_0055_right.png" width="2790px"/>
+<zone lrx="2020" lry="1996" rendition="TextRegion" ulx="1008" uly="2098" xml:id="facs_107_r2"> <zone lrx="2020" lry="1996" rendition="Line" ulx="989" uly="1940" xml:id="facs_107_r2l21"/>
+<zone lrx="2068" lry="2065" rendition="Line" ulx="998" uly="1987" xml:id="facs_107_r2l22"/>
+<zone lrx="2069" lry="2132" rendition="Line" ulx="1008" uly="2045" xml:id="facs_107_r2l23"/>
+<zone lrx="2117" lry="2199" rendition="Line" ulx="1006" uly="2098" xml:id="facs_107_r2l24"/> </zone>
+</surface>
+</facsimile>
+<!--This part of the document contains the actual content of the letter.-->
+<text type="note">
+<!-- container for text critical apparatus -->
+<front>
+<div type="abstract"><head>Vermerk über Ausstellung eines Bittbriefs</head><p>Der Rat vermerkt die Ausstellung eines Bittbriefs an Fritz Hunt wegen eines bei Kirchenthumbach vom Fuhrwagen des Niklas Weiß aus Wunsiedel geraubten Tuchs aus Brüssel vom Besitz des Konrad Pfinzing.</p>
+</div>
+<!--This div could possibly contain the analytic portion of the edition.-->
+<div type="linguisticAnalysis"><ab><w join="" lemma="" msd="" part="" pos=""><fLib><f name=" "/></fLib></w></ab></div>
+</front>
+<body><div type="diplomatic"><pb facs="#facs_107" id="53r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"/>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content"><ab facs="#facs_107_r2l21"><expan>Fritʒe<ex>n</ex></expan> hunt ein betbrief / von <expan>einſhalbe<ex>n</ex></expan> tüchs </ab>
+<ab facs="#facs_107_r2l22">wegen von prüchſel / das er <expan>Conrad<ex>en</ex></expan> pfincʒing </ab>
+<ab facs="#facs_107_r2l23">beÿ Tumpach <expan>genome<ex>n</ex></expan> hat / das Jm Nicklas </ab>
+<ab facs="#facs_107_r2l24">vveiſʒ von vvönſidell füret <expan>dat<ex>um</ex></expan> Jn <expan>vig<ex>i</ex>l<ex>i</ex>a</expan> <expan>Aſcenſio<ex>n</ex>is</expan> </ab>
+</div>
+</div><div type="regularised"><pb facs="#facs_107" id="53r"/><!--The following div is the container for the adress lines of the letter.-->
+<div type="addressee"><ab/></div>
+<!-- This div contains the letter itselfs. Additions to the text are contained in <add/> elements, struck text in <hi> elements with the attribute 'strikethrough' set to true. -->
+<div type="content">
+<ab><expan>Fricze<ex>n</ex></expan> Hunt ein betbrief von
+                                                  <expan>einshalbe<ex>n</ex></expan> tüchs wegen von
+                                                Prüchsel, das er <expan>Conrad<ex>en</ex></expan>
+                                                Pfinczing bey Tumpach
+                                                  <expan>genome<ex>n</ex></expan> hat, das im
+                                                Nicklas Weisz von Wönsidell füret.
+                                                  <expan>Dat<ex>um</ex></expan> in
+                                                  <expan>vig<ex>i</ex>l<ex>i</ex>a</expan>
+<expan>ascensio<ex>n</ex>is</expan>.</ab>
+</div>
+</div></body>
+</text>
+</TEI>

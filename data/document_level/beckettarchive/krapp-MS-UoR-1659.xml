@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Krapp's Last Tape</title>
+            <author>Samuel Beckett</author>
+            <principal xml:id="DVH">Dirk Van Hulle</principal>
+            <funder>
+               <name/>
+               <address>
+                  <addrLine>University of Antwerp</addrLine>
+                  <addrLine>Universiteitsplein 1</addrLine>
+                  <addrLine>B-2610 Wilrijk</addrLine>
+                  <addrLine>Belgium</addrLine>
+                  <addrLine>tel: +32 (0)3 820 27 82</addrLine>
+                  <addrLine>fax: +32 (0)3 820 27 62</addrLine>
+                  <addrLine>email: dirk.vanhulle@ua.ac.be</addrLine>
+               </address>
+            </funder>
+         </titleStmt>
+         <extent/>
+         <publicationStmt>
+            <authority>Antwerp James Joyce Centre</authority>
+            <pubPlace>Antwerp</pubPlace>
+            <date>2006</date>
+            <availability>
+               <p>Not to be distributed outside the project</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Abbreviated in the Manuscript Chronology as ET5<lb/>
+               <lb/>
+	Typescript of <hi rend="i">Krapp's Last Tape</hi> with corrections and additions in Samuel Beckett's hand. Undated. 8 leaves. 28 x 21 cm. Titled, and with words '(with proof corrections)' in Beckett's hand at head of page.<lb/>
+Late formative draft. Corrections made in black ink and blue-black ink and in type. These are minor but frequent, including deletion and some exchanges of words and phrases. The initial setting is altered from 'A late evening in the nineteen eighties' to 'A late evening in the future', Krapp's hair is identified as grey, and the directions rather than the actions of the opening mime are abbreviated. Some important changes to the text in the latter stages, including the deletion of 'wire-haired fox terrier' for 'little white dog', and the substitution of 'flags' for 'reeds' in the twice-heard punt episode.<lb/>
+Beckett types 'Krapp' and 'Tape' for the first time in the adjacent left margin each time the role of speaker changes from one to the other.<lb/>
+               <lb/>
+
+Bryden, Mary, Julian Garforth, and Peter Mills, eds. (1998), <hi rend="i">Beckett at Reading: Catalogue of the Beckett Manuscript Collection at the University of Reading</hi> (Reading: Whiteknights Press and the Beckett International Foundation), p. 59</p>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p/>
+         </projectDesc>
+         <editorialDecl>
+            <p>
+               <list type="simple">
+                  <item>Correction:</item>
+                  <item>Normalization:</item>
+                  <item>Quotation:</item>
+                  <item>Hyphenation:</item>
+                  <item>Interpretation:</item>
+               </list>
+            </p>
+         </editorialDecl>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="LA"/>
+            <language ident="GE"/>
+            <language ident="EN"/>
+            <language ident="FR"/>
+            <language ident="IT"/>
+         </langUsage>
+         <handNotes>
+            <handNote scope="major" medium="black_ink" xml:id="typist"/>
+            <handNote medium="black_ink"/>
+            <handNote medium="blueblack_ink"/>
+         </handNotes>
+         <listTranspose>
+            <transpose>
+               <ptr target="#trans2"/>
+               <ptr target="#trans1"/>
+            </transpose>
+         </listTranspose>
+      </profileDesc>
+   </teiHeader>
+   <text xml:id="MS-UoR-1659">
+      <front>
+         <castList>
+            <castItem type="role">
+               <name xml:id="Krapp">Krapp</name>
+            </castItem>
+            <castItem type="role">
+               <name xml:id="Tape">Tape</name>
+            </castItem>
+         </castList>
+      </front>
+      <body>
+         <div type="typescript">
+            <head xml:id="head1659-1" corresp="#1r">
+               <hi rend="u">KRAPP'S LAST TAPE</hi>
+            </head>
+            <floatingText>
+               <body>
+                  <p>Acc 1659</p>
+               </body>
+            </floatingText>
+            <p>
+               <stamp>Reading University Library</stamp>
+            </p>
+            <pb n="1r"/>
+            <p>
+               <add place="margintop"
+                    hand="#SB"
+                    rend="blueblack ink"
+                    xml:id="add1659-1"
+                    corresp="#1r"
+                    resp="#DVH">(<hi rend="u">with <unclear>proof</unclear> corrections</hi>) </add>
+            </p>
+            <p>
+               <add place="margintop"
+                    hand="#SB"
+                    rend="blueblack ink"
+                    xml:id="add1659-1_1"
+                    corresp="#1r"
+                    resp="#DVH">I </add>
+            </p>
+            <stage>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14141"
+                       n="MS-UoR-1659,[0001]"
+                       zone="zone_01"
+                       corresp="#1r">
+                     <hi rend="u">A late evening in the <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">nineteen eighties</del>
+                        <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">future</add>
+                     </hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14149" n="MS-UoR-1659,[0002]" zone="zone_01">
+                     <hi rend="u">Krapp's den</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14156" n="MS-UoR-1659,[0003]" zone="zone_01">
+                     <hi rend="u">Front centre a small table, the two drawers of which<lb rend="it"/> open towards audience</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14161" n="MS-UoR-1659,[0004]" zone="zone_01">
+                     <hi rend="u">Sitting at the table, facing front, i.e. across from<lb rend="it"/> the drawers, a wearish old man: Krapp</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14168"
+                       n="MS-UoR-1659,[0005]"
+                       zone="zone_02"
+                       corresp="#1r">
+                     <hi rend="u">Rusty black narrow trousers too short for him. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14171" n="MS-UoR-1659,[0006]" zone="zone_02">
+                     <hi rend="u">Rusty<lb rend="it"/> black sleeveless w<seg type="transposition" xml:id="trans1">i</seg>
+                        <seg type="transposition" xml:id="trans2">a</seg>stcoat, four capacious pockets</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14174" n="MS-UoR-1659,[0007]" zone="zone_02">
+                     <hi rend="u">Heavy sil<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">b</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">v</add>er watch and chain. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14177" n="MS-UoR-1659,[0008]" zone="zone_02">
+                     <hi rend="u">Grimy white shirt open<lb rend="it"/> at neck, no collar. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14180" n="MS-UoR-1659,[0009]" zone="zone_02">
+                     <hi rend="u">Surprising pair of dirty white boots,<lb rend="it"/> size ten at least, very narrow and pointed</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14185" n="MS-UoR-1659,[0010]" zone="zone_02">
+                     <hi rend="u">White face. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14188" n="MS-UoR-1659,[0011]" zone="zone_02">
+                     <hi rend="u">Purple<del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">s</del> nose. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14191" n="MS-UoR-1659,[0012]" zone="zone_02">
+                     <hi rend="u">Disordered <add place="marginleft"
+                             hand="#SB"
+                             rend="black ink"
+                             resp="#DVH"
+                             xml:id="add1659-2"
+                             corresp="#1r">grey</add> hair. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14194" n="MS-UoR-1659,[0013]" zone="zone_02">
+                     <hi rend="u">Unshaven</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14199"
+                       n="MS-UoR-1659,[0014]"
+                       zone="zone_03"
+                       corresp="#1r">
+                     <hi rend="u">Very near-sighted (but unspectacled). </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14202" n="MS-UoR-1659,[0015]" zone="zone_03">
+                     <hi rend="u">Hard of hearing</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14207" n="MS-UoR-1659,[0016]" zone="zone_03">
+                     <hi rend="u">Cracked voice. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14210" n="MS-UoR-1659,[0017]" zone="zone_03">
+                     <hi rend="u">Distinctive intonation</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14214" n="MS-UoR-1659,[0018]" zone="zone_03">
+                     <hi rend="u">Laborious walk</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14219" n="MS-UoR-1659,[0019]" zone="zone_03">
+                     <hi rend="u">On the table a <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">m</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</add>ape-recorder with microphone and a number<lb rend="it"/> of cardboard boxes containing reels of recorded tapes</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14225" n="MS-UoR-1659,[0020]" zone="zone_03">
+                     <hi rend="u">Table and immediately adjacent area in strong white light</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14228" n="MS-UoR-1659,[0021]" zone="zone_03">
+                     <hi rend="u">Rest of stage in darkness</hi>.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14232"
+                       n="MS-UoR-1659,[0022]"
+                       zone="zone_04"
+                       corresp="#1r">
+                     <hi rend="u">Krapp remains a moment motionless, heaves a great sigh,<lb rend="it"/> looks at his watch, fumbles in his pockets, takes out an<lb rend="it"/> envelope, puts it back, fumbles, takes out a small bunch<lb rend="it"/> of ke<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">e</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</add>s, raises it to his eyes, chooses a key, gets up and<lb rend="it"/> moves to front of table. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14238"
+                       n="MS-UoR-1659,[0023]"
+                       style="indent150px"
+                       zone="zone_05"
+                       corresp="#1r">
+                     <hi rend="u">He stoops, unlocks first drawer,<lb rend="it"/> peers into <add place="marginleft"
+                             hand="#SB"
+                             rend="black ink"
+                             resp="#DVH"
+                             xml:id="add1659-3"
+                             corresp="#1r">it</add>, feels about inside it, takes out a reel of tape,<lb rend="it"/> peers at it, puts it back, <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear reason="crossed out">closes and</unclear>
+                        </del> locks drawer, unlocks<lb rend="it"/>
+                        <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">
+                           <unclear reason="crossedout">and opens</unclear>
+                        </del> second drawer, peers into it, feels about inside<lb rend="it"/> it, takes out a large banana, peers at it, closes and locks<lb rend="it"/> drawer, puts keys back in his pocket. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14241"
+                       n="MS-UoR-1659,[0024]"
+                       style="indent200px"
+                       zone="zone_06"
+                       corresp="#1r">
+                     <hi rend="u">He turns, advances to<lb rend="it"/> edge of stage, halts, strokes banana, peels it, drops skin<lb rend="it"/> at his feet, puts end of banana in his mouth and remains<lb rend="it"/> motionless, staring vacuously before him. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14247" n="MS-UoR-1659,[0025]" zone="zone_06">
+                     <hi rend="u">Finally he bites<lb rend="it"/> off the end, turns aside and begins pacing to and fro at<lb rend="it"/> edge of stage, in the light, i.e. not more than four or<lb rend="it"/> five paces either way, meditatively eating banana. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14257"
+                       n="MS-UoR-1659,[0026]"
+                       style="indent280px"
+                       zone="zone_07"
+                       corresp="#1r">
+                     <hi rend="u">He treads<lb rend="it"/> on skin, slips, nearly falls, recovers himself, stoops and<lb rend="it"/> peers at skin and finally pushes it, still stooping, with<lb rend="it"/> his foot over the edge of stage into pit. </hi>
+                  </seg>
+                  <seg n="MS-UoR-1659,[0027]"
+                       xml:id="MS-UoR-1659d1e14260"
+                       zone="zone_08"
+                       zone2="zone_09"
+                       style="indent220px"
+                       corresp="#1r,2r">
+                     <anchor type="ts" n="1r"/>
+                     <hi rend="u">He resumes his<lb rend="it"/> pacing, finishes banana, returns to table, sits down, re<lb rend="-it"/>mains a moment motion<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">e</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">l</add>ess, heaves a great sigh, takes keys<lb rend="it"/> from his pocket, raises them to his eyes, chooses a key,<lb rend="it"/> gets up and moves to front of table, <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">opens</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="blueblack ink"
+                             resp="#DVH"
+                             xml:id="add1659-4"
+                             corresp="#1r">unlocks</add> second drawer,<lb rend="it"/> takes out a second large banana, peers at it, locks drawer,</hi>
+                     <lb rend="it"/>
+                     <anchor type="ts" n="2r"/>
+                     <pb n="2r"/>
+                     <metamark function="pagenumber">
+                        <num>2</num>
+                     </metamark>
+                     <floatingText>
+                        <body>
+                           <p>Acc 1659</p>
+                        </body>
+                     </floatingText>
+                     <hi rend="u">puts back keys in his pocket, turns and advances to edge<lb rend="it"/> of stage, halts, strokes<del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">,</del> banana, peels it, tosses skin<lb rend="it"/> into pit, puts end of banana in his mouth and remains motion<lb rend="-it"/>less, staring vacuously before him. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14263" n="MS-UoR-1659,[0028]" zone="zone_09">
+                     <hi rend="u">Finally he has an idea,<lb rend="it"/> puts banana in his waistcoat pocket<add place="inline" hand="#SB" rend="black ink" resp="#DVH">,</add>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="black ink"
+                             resp="#DVH"
+                             xml:id="add1659-5"
+                             corresp="#2r">the end emerging,</add> and goes with all the<lb rend="it"/> speed he can muster backstage into darkness. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14266" n="MS-UoR-1659,[0029]" zone="zone_09">
+                     <hi rend="u">Ten seconds<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">
+                           <unclear>)</unclear>
+                        </del>
+                     </hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14269"
+                       n="MS-UoR-1659,[0030]"
+                       zone="zone_10"
+                       corresp="#2r">
+                     <hi rend="u">Loud pop of cork. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14272" n="MS-UoR-1659,[0031]" zone="zone_10">
+                     <hi rend="u">Fifteen seconds. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14275" n="MS-UoR-1659,[0032]" zone="zone_10">
+                     <hi rend="u">He comes back into light,<lb rend="it"/> carrying an old ledger, and sits down at table. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14278" n="MS-UoR-1659,[0033]" zone="zone_10">
+                     <hi rend="u">He lays ledg<lb rend="-it"/>er on table, wipes his mouth, wipes his hands on the front<lb rend="it"/> of his waistcoat, brings them smartly together and rubs them</hi>.</seg>
+               </p>
+            </stage>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14289"
+                       n="MS-UoR-1659,[0034]"
+                       zone="zone_11"
+                       corresp="#2r">
+                     <stage>(<hi rend="u">briskly</hi>)</stage>.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14299" n="MS-UoR-1659,[0035]" zone="zone_11">Ah!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14302" n="MS-UoR-1659,[0036]" zone="zone_11">
+                     <stage>(<hi rend="u">He bends over ledger, turns the pages, finds<lb rend="it"/> the entry he wants, reads</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14309" n="MS-UoR-1659,[0037]" zone="zone_11">Box...thrree...spool...five.<lb rend="it"/>
+                  </seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14315" n="MS-UoR-1659,[0038]" zone="zone_11">
+                        <hi rend="u">He raises his head and stares front. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14318" n="MS-UoR-1659,[0039]" zone="zone_11">
+                        <hi rend="u">With <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">e</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</add>elish</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14322" n="MS-UoR-1659,[0040]" zone="zone_11">Spool!<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14325" n="MS-UoR-1659,[0041]" zone="zone_11">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14332" n="MS-UoR-1659,[0042]" zone="zone_11">Spooool!</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14338" n="MS-UoR-1659,[0043]" zone="zone_11">
+                        <hi rend="u">Happy smile. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14341" n="MS-UoR-1659,[0044]" zone="zone_11">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14344" n="MS-UoR-1659,[0045]" zone="zone_11">
+                        <hi rend="u">He bends over table,<lb rend="it"/> starts peering and poking at the boxes</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14348" n="MS-UoR-1659,[0046]" zone="zone_11">Box...thrree...<lb rend="it"/>thrree...four...two...<stage>(<hi rend="u">with surprise</hi>)</stage> nine! good God!...<lb rend="it"/>seven...ah! the little rascal!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14357"
+                       n="MS-UoR-1659,[0047]"
+                       style="indent170px"
+                       zone="zone_12"
+                       corresp="#2r">
+                     <stage>(<hi rend="u">He takes up box, peers at<lb rend="it"/> it</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14364" n="MS-UoR-1659,[0048]" zone="zone_12">Box <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">T</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</add>hrree.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14367" n="MS-UoR-1659,[0049]" zone="zone_12">
+                     <stage>(<hi rend="u">He lays it on table, opens it and peers<lb rend="it"/> at the spools inside</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14374" n="MS-UoR-1659,[0050]" zone="zone_12">Spool...<stage>(<hi rend="u">he peers at ledger</hi>)</stage>...fiv<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">.</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">e</add>
+                     <lb rend="it"/>
+                     <stage>(<hi rend="u">He peers at spools</hi>.)</stage> Five...five...ah! the little scoundrel!<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14389" n="MS-UoR-1659,[0051]" zone="zone_12">
+                     <stage>(<hi rend="u">He takes out a spool, peers at it</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14396" n="MS-UoR-1659,[0052]" zone="zone_12">Spool five.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14399" n="MS-UoR-1659,[0053]" zone="zone_12">
+                     <stage>(<hi rend="u">He lays<lb rend="it"/> it on table, closes box three, puts it back with the others,<lb rend="it"/> takes up the s<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">l</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">p</add>ool</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14406" n="MS-UoR-1659,[0054]" zone="zone_12">Box thrree, spool five.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14412" n="MS-UoR-1659,[0055]" zone="zone_12">He bends over<lb rend="it"/>
+                        <hi rend="u">the machine, looks up. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14415" n="MS-UoR-1659,[0056]" zone="zone_12">
+                        <hi rend="u">With relish</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14419" n="MS-UoR-1659,[0057]" zone="zone_12">Spooool!</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14425" n="MS-UoR-1659,[0058]" zone="zone_12">
+                        <hi rend="u">Happy smile</hi>. <lb rend="it"/>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e1442jjj8"
+                          n="MS-UoR-1659,[0058|001]"
+                          prev="#MS-UoR-1659d1e14425"
+                          zone="zone_13"
+                          corresp="#2r">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14428" n="MS-UoR-1659,[0059]" zone="zone_13">
+                        <hi rend="u">He bends, loads spool on machine, rubs his hands</hi>.<lb rend="it"/>
+                     </seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14432" n="MS-UoR-1659,[0060]" zone="zone_13">Ah!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14435" n="MS-UoR-1659,[0061]" zone="zone_13">
+                     <stage>(<hi rend="u">He peers at ledger, reads entry at foot of page</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14442" n="MS-UoR-1659,[0062]" zone="zone_13">Mother at rest at last...</seg>
+                  <seg xml:id="MS-UoR-1659d1e14447" n="MS-UoR-1659,[0063]" zone="zone_13">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-6"
+                          corresp="#2r">Hm...</add>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14449" n="MS-UoR-1659,[0064]" zone="zone_13">The black ball...</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14454"
+                          n="MS-UoR-1659,[0065]"
+                          zone="zone_13"
+                          style="nospacebefore">
+                        <hi rend="u">He raises his<lb rend="it"/> head, stares blankly front. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14459" n="MS-UoR-1659,[0066]" zone="zone_13">
+                        <hi rend="u">Puzzled</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14463" n="MS-UoR-1659,[0067]" zone="zone_13">
+                     <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">N</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">B</add>lack ball?...</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14468"
+                          n="MS-UoR-1659,[0068]"
+                          zone="zone_13"
+                          style="nospacebefore">He<lb rend="it"/>
+                        <hi rend="u">peers again at ledger, reads</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14472" n="MS-UoR-1659,[0069]" zone="zone_13">The dark nurse...</seg>
+                  <seg xml:id="MS-UoR-1659d1e14474"
+                       n="MS-UoR-1659,[0070]"
+                       zone="zone_13"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">He raises<lb rend="it"/> his head, broods, peers again at ledger<del type="overwritten" hand="#SB" rend="blueblack ink" resp="#DVH">.</del>
+                           <add place="overwritten" hand="#SB" rend="blueblack ink" resp="#DVH">,</add>
+                           <add place="marginright"
+                                hand="#SB"
+                                rend="blueblack ink"
+                                resp="#DVH"
+                                xml:id="add1659-7"
+                                corresp="#2r">reads.</add>
+                        </hi>)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14481" n="MS-UoR-1659,[0071]" zone="zone_13">Slight improve<lb rend="-it"/>ment in bowel condition...</seg>
+                  <seg xml:id="MS-UoR-1659d1e14483" n="MS-UoR-1659,[0072]" zone="zone_13">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-8"
+                          corresp="#2r">Hm...</add>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14485" n="MS-UoR-1659,[0073]" zone="zone_13">Memorable...what?</seg>
+                  <seg xml:id="MS-UoR-1659d1e14488" n="MS-UoR-1659,[0074]" zone="zone_13">
+                     <stage>(<hi rend="u">He peers<lb rend="it"/> closer</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14495"
+                       n="MS-UoR-1659,[0075]"
+                       style="indent50px"
+                       zone="zone_14"
+                       corresp="#2r">Equinox, memorable equinox.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14501" n="MS-UoR-1659,[0076]" zone="zone_14">
+                        <hi rend="u">He raises his head,<lb rend="it"/> stares blankly front. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14504" n="MS-UoR-1659,[0077]" zone="zone_14">
+                        <hi rend="u">Puzzled</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14508" n="MS-UoR-1659,[0078]" zone="zone_14">Memorable equinox?...<lb rend="it"/>
+                  </seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e14514" n="MS-UoR-1659,[0079]" zone="zone_14">
+                        <hi rend="u">Pause</hi>.</seg>
+                     <seg xml:id="MS-UoR-1659d1eddd514" n="MS-UoR-1659,[0080]" zone="zone_14">
+                        <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">He peers again at ledger</del>
+                        <hi rend="u">He shrugs his sho<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">i</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">u</add>lders,<lb rend="it"/> peers again at ledger, reads</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e14521" n="MS-UoR-1659,[0081]" zone="zone_14">Farewell to - <stage>(<hi rend="u">he turns the<lb rend="it"/> page</hi>
+                        <note>no closing bracket</note>
+                     </stage> - love.</seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e14535"
+                       n="MS-UoR-1659,[0082]"
+                       zone="zone_15"
+                       corresp="#2r">
+                     <hi rend="u">He raises his head, broods, bends over machine, switches <add place="inline" hand="#SB" rend="black ink" resp="#DVH">on</add>
+                        <lb rend="it"/> and assumes listening posture, i.e. leaning forward, elbows<lb rend="it"/> on table, hand cupping ear towards machine</hi>,<hi rend="u"> face front</hi>.<lb rend="it"/>
+                  </seg>
+               </stage>
+            </p>
+            <sp who="#Tape">
+               <speaker>Tape</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14549"
+                       n="MS-UoR-1659,[0083]"
+                       zone="zone_16"
+                       corresp="#2r">
+                     <stage>(<hi rend="u">strong voice, rather pompous, clearly Krapp's at a much<lb rend="it"/> earlier time</hi>)</stage>.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14559" n="MS-UoR-1659,[0084]" zone="zone_16">Thirty-nine today, sound as a -</seg>
+                  <seg xml:id="MS-UoR-1659d1e14562" n="MS-UoR-1659,[0085]" zone="zone_16">
+                     <stage>(<hi rend="u">Settling<lb rend="it"/> himself more comfortably he knocks one of the boxes off<lb rend="it"/> the table, <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">v</del>
+                           <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">c</add>urses, switches off, sweeps boxes and ledger<lb rend="it"/> violently to the ground, winds tape back to beginning,<lb rend="it"/> switches on, resumes posture</hi>.)</stage>
+                  </seg>
+                  <seg n="MS-UoR-1659,[0086]"
+                       xml:id="MS-UoR-1659d1e14569"
+                       zone="zone_16"
+                       zone2="zone_17"
+                       corresp="#2r,3r">
+                     <anchor type="ts" n="2r"/>Thirty-nine today, sound <lb rend="it"/>as a bell, apart from my old weakness, and intellectually <lb rend="it"/>I have now every reason to suspect at the...<stage>(<hi rend="u">hesitates</hi>)</stage>...<lb rend="it"/>
+                     <anchor type="ts" n="3r"/>
+                     <pb n="3r"/>
+                     <metamark function="pagenumber">
+                        <num>3</num>
+                     </metamark>
+                     <floatingText>
+                        <body>
+                           <p>Acc 1659</p>
+                        </body>
+                     </floatingText>
+
+crest of the wave - or thereabouts.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14581" n="MS-UoR-1659,[0087]" zone="zone_17">Celebrated the <lb rend="it"/>awful occasion, as in recent years, quietly at the <lb rend="it"/>Winehouse.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14584" n="MS-UoR-1659,[0088]" zone="zone_17">Not a <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">
+                        <unclear>living</unclear>
+                     </del> soul.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14587" n="MS-UoR-1659,[0089]" zone="zone_17">Sat before the <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">
+                        <unclear>fite</unclear>
+                     </del> fire <lb rend="it"/>with closed eyes, separating the grain from the husks.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14590" n="MS-UoR-1659,[0090]" zone="zone_17">Jotted down a few notes, on the back of an envelope.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14593" n="MS-UoR-1659,[0091]" zone="zone_17">Good <lb rend="it"/>to be back in my den, in my old rags.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14596" n="MS-UoR-1659,[0092]" zone="zone_17">Have just eaten I regret <lb rend="it"/>to say three bananas and only with difficulty refrained <lb rend="it"/>from a fourth.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14599" n="MS-UoR-1659,[0093]" zone="zone_17">Fatal things for a man with my condition.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14602"
+                       n="MS-UoR-1659,[0094]"
+                       zone="zone_18"
+                       corresp="#3r">
+                     <stage>(<hi rend="u">Vehemently</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14609" n="MS-UoR-1659,[0095]" zone="zone_18">Cut 'em out!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14612" n="MS-UoR-1659,[0096]" zone="zone_18">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14619" n="MS-UoR-1659,[0097]" zone="zone_18">The new light above <lb rend="it"/>my table is a great improvement.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14622" n="MS-UoR-1659,[0098]" zone="zone_18">With all this darkness <lb rend="it"/>round me I feel less alone.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14625" n="MS-UoR-1659,[0099]" zone="zone_18">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14632" n="MS-UoR-1659,[0100]" zone="zone_18">In a way.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14635" n="MS-UoR-1659,[0101]" zone="zone_18">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14642" n="MS-UoR-1659,[0102]" zone="zone_18">I love to get up and move about in it, then back here <lb rend="it"/>to...<stage>(<hi rend="u">hesitates</hi>)</stage>...me.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14651" n="MS-UoR-1659,[0103]" zone="zone_18">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14658" n="MS-UoR-1659,[0104]" zone="zone_18">Krapp.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14666" n="MS-UoR-1659,[0105]" zone="zone_18">
+                     <stage>
+                        <hi rend="u">Pause</hi>.</stage>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14679"
+                       n="MS-UoR-1659,[0106]"
+                       zone="zone_19"
+                       corresp="#3r">The grain, now what I wonder do I mean by that, I mean...<lb rend="it"/>
+                     <stage>(<hi rend="u">hesitates</hi>)</stage>...I suppose I mean those things worth having <lb rend="it"/>when all the dust has - when all <hi rend="u">my</hi> dust has settled.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14693" n="MS-UoR-1659,[0107]" zone="zone_19">I <lb rend="it"/>close my eyes and try and imagine them.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e14704" n="MS-UoR-1659,[0108]" zone="zone_19">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e14708" n="MS-UoR-1659,[0109]" zone="zone_19">
+                        <hi rend="u">Krapp closes his eyes, briefly</hi>.</seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14716"
+                       n="MS-UoR-1659,[0110]"
+                       zone="zone_20"
+                       corresp="#3r">Extraordinary silence this evening, I strain my ears <lb rend="it"/>and do not hear a sound.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14719" n="MS-UoR-1659,[0111]" zone="zone_20">Old Miss McGlome always sings <lb rend="it"/>at this hour.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14722" n="MS-UoR-1659,[0112]" zone="zone_20">But not tonight.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14725" n="MS-UoR-1659,[0113]" zone="zone_20">Songs of her girlhood, she <lb rend="it"/>says.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14728" n="MS-UoR-1659,[0114]" zone="zone_20">Hard to think of her as a girl.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14731" n="MS-UoR-1659,[0115]" zone="zone_20">Wonderful woman <lb rend="it"/>though.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14734" n="MS-UoR-1659,[0116]" zone="zone_20">Connacht, I fancy.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14737" n="MS-UoR-1659,[0117]" zone="zone_20">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14744" n="MS-UoR-1659,[0118]" zone="zone_20">Shall I sing when I <lb rend="it"/>am her age, if I ever am?</seg>
+                  <seg xml:id="MS-UoR-1659d1e14747" n="MS-UoR-1659,[0119]" zone="zone_20">No.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14750" n="MS-UoR-1659,[0120]" zone="zone_20">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14757" n="MS-UoR-1659,[0121]" zone="zone_20">Did I sing as a <lb rend="it"/>boy?</seg>
+                  <seg xml:id="MS-UoR-1659d1e14760" n="MS-UoR-1659,[0122]" zone="zone_20">No.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14763" n="MS-UoR-1659,[0123]" zone="zone_20">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14770" n="MS-UoR-1659,[0124]" zone="zone_20">Did I ever sing?</seg>
+                  <seg xml:id="MS-UoR-1659d1e14773" n="MS-UoR-1659,[0125]" zone="zone_20">No.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14780"
+                       n="MS-UoR-1659,[0126]"
+                       zone="zone_21"
+                       corresp="#3r">
+                     <stage>
+                        <hi rend="u">Pause</hi>.</stage>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e14793" n="MS-UoR-1659,[0127]" zone="zone_21">Just been listening to an old year, passages at random.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14796" n="MS-UoR-1659,[0128]" zone="zone_21">I did not check in the book, but it must be at least ten <lb rend="it"/>or twelve years ago.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14799" n="MS-UoR-1659,[0129]" zone="zone_21">At that time I think I was still <lb rend="it"/>living on and off with Bianca in Kedar Street.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14802" n="MS-UoR-1659,[0130]" zone="zone_21">Well out <lb rend="it"/>of that, Jesus yes!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14805" n="MS-UoR-1659,[0131]" zone="zone_21">Hopeless business.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14808" n="MS-UoR-1659,[0132]" zone="zone_21">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14815" n="MS-UoR-1659,[0133]" zone="zone_21">Not much <lb rend="it"/>about her, apart from a tribute to her eyes.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14818" n="MS-UoR-1659,[0134]" zone="zone_21">Very warm.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14821" n="MS-UoR-1659,[0135]" zone="zone_21">I <lb rend="it"/>suddenly saw them again.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14824" n="MS-UoR-1659,[0136]" zone="zone_21">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14831" n="MS-UoR-1659,[0137]" zone="zone_21">Incompa<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</add>able!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14834" n="MS-UoR-1659,[0138]" zone="zone_21">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14841"
+                       n="MS-UoR-1659,[0139]"
+                       zone="zone_22"
+                       corresp="#3r">Ah well...</seg>
+                  <seg xml:id="MS-UoR-1659d1e14843"
+                       n="MS-UoR-1659,[0140]"
+                       zone="zone_22"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14850" n="MS-UoR-1659,[0141]" zone="zone_22">These old P.M.s are gruesome, but I <lb rend="it"/>often find them - <stage>(<hi rend="u">Krapp switches off, broods, switches on</hi>)</stage>
+                     <add place="inline" hand="#SB" rend="black ink" resp="#DVH">-</add>
+                     <lb rend="it"/>a help before embarking on a new...<stage>(<hi rend="u">hesitates</hi>)</stage>...retrospect.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14865" n="MS-UoR-1659,[0142]" zone="zone_22">Hard to believe I was ever that young whelp.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14868"
+                       n="MS-UoR-1659,[0143]"
+                       zone="zone_22"
+                       style="nospacebefore">The voice!<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14871" n="MS-UoR-1659,[0144]" zone="zone_22">Jesus!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14874" n="MS-UoR-1659,[0145]" zone="zone_22">And the <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">resolutions!</del>
+                     <add place="marginleft"
+                          hand="#typist"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-9"
+                          corresp="#3r">aspirations<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">/</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">!</add>
+                     </add>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14877" n="MS-UoR-1659,[0146]" zone="zone_22">
+                     <stage>(<hi rend="u">Brief laugh in which Krapp<lb rend="it"/> joins</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14887" n="MS-UoR-1659,[0147]" zone="zone_22">And the resolutions!</seg>
+                  <seg xml:id="MS-UoR-1659d1e14890" n="MS-UoR-1659,[0148]" zone="zone_22">
+                     <stage>(<hi rend="u">Brief laugh in which Krapp<lb rend="it"/> joins</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14897"
+                       n="MS-UoR-1659,[0149]"
+                       zone="zone_23"
+                       corresp="#3r"
+                       style="indent50px">To drink less, in particular.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14900" n="MS-UoR-1659,[0150]" zone="zone_23">
+                     <stage>(<hi rend="u">Brief laugh of Krapp<lb rend="it"/> alone</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14910" n="MS-UoR-1659,[0151]" zone="zone_23">Statistics.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14913" n="MS-UoR-1659,[0152]" zone="zone_23">Seventeen hundred hours, out of the <lb rend="it"/>preceding eight thousand odd, consumed on licensed premises <lb rend="it"/>alone.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14916" n="MS-UoR-1659,[0153]" zone="zone_23">More than 20%, say 40% of his waking life.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14919" n="MS-UoR-1659,[0154]" zone="zone_23">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14926" n="MS-UoR-1659,[0155]" zone="zone_23">Plans for a less...<stage>(<hi rend="u">hesitates</hi>)</stage>...engrossing sexual life.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14935" n="MS-UoR-1659,[0156]" zone="zone_23">Last illness of his father.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14938" n="MS-UoR-1659,[0157]" zone="zone_23">Flagging pursuit of happiness.<lb rend="it"/>
+                  </seg>
+                  <pb n="4r"/>
+                  <metamark function="pagenumber">
+                     <num>4</num>
+                  </metamark>
+                  <floatingText>
+                     <body>
+                        <p>Acc 1659</p>
+                     </body>
+                  </floatingText>
+                  <seg xml:id="MS-UoR-1659d1e14941"
+                       n="MS-UoR-1659,[0158]"
+                       zone="zone_24"
+                       corresp="#4r">Unattainable laxation.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14944" n="MS-UoR-1659,[0159]" zone="zone_24">Sneers at what he calls his youth <lb rend="it"/>and thanks to God that <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">it is</del>
+                     <add place="marginright"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-10"
+                          corresp="#4r">it's</add> over<add place="inline" hand="#SB" rend="black ink" resp="#DVH">.</add>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14hh954"
+                       n="MS-UoR-1659,[0161]"
+                       zone="zone_24">
+                     <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">- false ring.</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-11"
+                          corresp="#4r">
+                        <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">False ring there.</del>
+                     </add>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659djjjh1e14957"
+                       n="MS-UoR-1659,[0162]"
+                       zone="zone_24">
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-1x1">
+                        <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">
+                           <stage>(<hi rend="u">Pause</hi>.)</stage>
+                        </del>
+                     </add>
+                  </seg>
+                  <add place="margintop"
+                       hand="#SB"
+                       rend="blueblack ink"
+                       resp="#DVH"
+                       xml:id="add1659-12"
+                       corresp="#4r">
+                     <seg rendition="#blueblackink"
+                          xml:id="MS-UoR-1659d1e1494xx7"
+                          n="MS-UoR-1659,[0160]">
+                        <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     </seg>
+                     <seg rendition="#blueblackink"
+                          xml:id="MS-UoR-1659d1e1495xx4"
+                          n="MS-UoR-1659,[0161]">False ring there.</seg>
+                     <seg rendition="#blueblackink"
+                          xml:id="MS-UoR-1659d1e1495xx7"
+                          n="MS-UoR-1659,[0162]">
+                        <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     </seg>
+                  </add>
+                  <seg xml:id="MS-UoR-1659d1e14964" n="MS-UoR-1659,[0163]" zone="zone_24">Shadow<add place="marginright"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-13"
+                          corresp="#4r">s</add> of <lb rend="it"/>the opus...magnum.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14967" n="MS-UoR-1659,[0164]" zone="zone_24">Closing with a - <stage>(<hi rend="u">brief laugh</hi>)</stage> - <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">kelp</del>
+                     <lb rend="it"/>yelp to Providence.</seg>
+                  <seg xml:id="MS-UoR-1659d1e14976" n="MS-UoR-1659,[0165]" zone="zone_24">
+                     <stage>(<hi rend="u">Prolonged laugh in which Krapp joins</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e14986" n="MS-UoR-1659,[0166]" zone="zone_24">What remains of all that misery?</seg>
+                  <seg xml:id="MS-UoR-1659d1e14989" n="MS-UoR-1659,[0167]" zone="zone_24">A girl in a shabby green <lb rend="it"/>coat, on a railway-station platform?</seg>
+                  <seg xml:id="MS-UoR-1659d1e14994" n="MS-UoR-1659,[0168]" zone="zone_24">No?<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15002"
+                       n="MS-UoR-1659,[0169]"
+                       zone="zone_25"
+                       corresp="#4r">
+                     <stage>
+                        <hi rend="u">Pause</hi>.</stage>
+                     <lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15012" n="MS-UoR-1659,[0170]" zone="zone_25">When I look -</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15023" n="MS-UoR-1659,[0171]" zone="zone_25">
+                        <hi rend="u">Krapp switches off, broods, looks at his watch,<lb rend="it"/> gets up and goes backstage into darkness. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15029" n="MS-UoR-1659,[0172]" zone="zone_25">
+                        <hi rend="u">Ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15032" n="MS-UoR-1659,[0173]" zone="zone_25">
+                        <hi rend="u">Pop<lb rend="it"/> of cork. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15035" n="MS-UoR-1659,[0174]" zone="zone_25">
+                        <hi rend="u">Ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15038" n="MS-UoR-1659,[0175]" zone="zone_25">
+                        <hi rend="u">Pop of second cork. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15041" n="MS-UoR-1659,[0176]" zone="zone_25">
+                        <hi rend="u">Ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15044" n="MS-UoR-1659,[0177]" zone="zone_25">
+                        <hi rend="u">Pop<lb rend="it"/> of third cork. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15047" n="MS-UoR-1659,[0178]" zone="zone_25">
+                        <hi rend="u">Ten seconds. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15050" n="MS-UoR-1659,[0179]" zone="zone_25">
+                        <hi rend="u">Brief burst of quavering song</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+            </sp>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15065"
+                       n="MS-UoR-1659,[0180]"
+                       zone="zone_26"
+                       corresp="#4r">
+                     <stage>(<hi rend="u">sings</hi>).</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15074" n="MS-UoR-1659,[0181]" zone="zone_26">Now the day is over,<lb/>
+Night is drawing nigh - igh<lb/>
+Shadows -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e15092" n="MS-UoR-1659,[0182]" zone="zone_26">
+                     <hi rend="u">Fit of coughing. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15095" n="MS-UoR-1659,[0183]" zone="zone_26">
+                     <hi rend="u">He comes back into light, sits down, wipes<lb rend="it"/> his mouth, switches on, resumes his listening posture</hi>.<lb rend="it"/>
+                  </seg>
+               </stage>
+            </p>
+            <sp who="#Tape">
+               <speaker>Tape</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15105"
+                       n="MS-UoR-1659,[0184]"
+                       zone="zone_27"
+                       corresp="#4r">- back on the year that is gone, with what I hope is perhaps <lb rend="it"/>a glint of the old eye to come, there is of course the house <lb rend="it"/>on the canal where mother lay a-dying, in the <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">early</del>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">late</add> autumn, <lb rend="it"/>after her long viduity <stage>(<hi rend="u">Krapp gives a start</hi>)</stage>, and the -<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15114" n="MS-UoR-1659,[0185]" zone="zone_27">
+                     <stage>(<hi rend="u">Krapp switches off, winds back tape a little, bends his ear<lb rend="it"/> closer to machine, switches on</hi>)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15121" n="MS-UoR-1659,[0186]" zone="zone_27">- a-dying, in the <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">early</del>
+                     <add place="inline" hand="#SB" rend="black ink" resp="#DVH">late</add>
+                     <lb rend="it"/>autumn, after her long viduity, and the -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e15132"
+                       n="MS-UoR-1659,[0187]"
+                       zone="zone_28"
+                       corresp="#4r">
+                     <hi rend="u">Krapp switches off, raises his head, stares blankly before<lb rend="it"/> him. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15138" n="MS-UoR-1659,[0188]" zone="zone_28">
+                     <hi rend="u">His lips move in the syllables of viduity. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15141" n="MS-UoR-1659,[0189]" zone="zone_28">
+                     <hi rend="u">No sound.<lb rend="it"/>
+                     </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15144" n="MS-UoR-1659,[0190]" zone="zone_28">
+                     <hi rend="u">He gets up, goes backstage into darkness, comes back with an<lb rend="it"/> enormous dictionary, sits down, lays it on table and looks<lb rend="it"/> up the word</hi>.<lb rend="it"/>
+                  </seg>
+               </stage>
+            </p>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15155"
+                       n="MS-UoR-1659,[0191]"
+                       zone="zone_29"
+                       corresp="#4r">
+                     <stage>(<hi rend="u">reading from dictionary</hi>)</stage>.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15165" n="MS-UoR-1659,[0192]" zone="zone_29">Sta<add place="inline" hand="#SB" rend="black ink" resp="#DVH">t</add>e <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-14"
+                          corresp="#4r">- or condition -</add> of being - or remaining - a <lb rend="it"/>
+                     <unclear>
+                        <del type="implied">d</del>
+                        <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">iwo - or widower</del>
+                     </unclear> widow - or widower.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15171" n="MS-UoR-1659,[0193]" zone="zone_29">
+                        <hi rend="u">Looks up. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15174" n="MS-UoR-1659,[0194]" zone="zone_29">
+                        <hi rend="u">Puzzled</hi>.<lb rend="it"/>
+                     </seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15178" n="MS-UoR-1659,[0195]" zone="zone_29">Being - or remaining?...</seg>
+                  <stage>
+                     <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">-</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">(</add>
+                     <seg xml:id="MS-UoR-1659d1e15184"
+                          n="MS-UoR-1659,[0196]"
+                          zone="zone_29"
+                          style="nospacebefore">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15187" n="MS-UoR-1659,[0197]" zone="zone_29">
+                        <hi rend="u">He peers again at dictionary.</hi>
+                        <lb rend="it"/>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15190" n="MS-UoR-1659,[0198]" zone="zone_29">
+                        <hi rend="u">Reading</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15194" n="MS-UoR-1659,[0199]" zone="zone_29">"Deep weeds of viduity"...</seg>
+                  <seg xml:id="MS-UoR-1659d1e15196"
+                       n="MS-UoR-1659,[0200]"
+                       zone="zone_29"
+                       style="nospacebefore">Also of an animal, especial<add place="inline" hand="#SB" rend="black ink" resp="#DVH">ly</add>
+                     <lb rend="it"/>a bird...The vidua or weaver-bird...</seg>
+                  <seg xml:id="MS-UoR-1659d1e15198"
+                       n="MS-UoR-1659,[0201]"
+                       zone="zone_29"
+                       style="nospacebefore">Black plumage of males...<lb rend="it"/>
+                  </seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15204" n="MS-UoR-1659,[0202]" zone="zone_29">
+                        <hi rend="u">He looks up. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15207" n="MS-UoR-1659,[0203]" zone="zone_29">
+                        <hi rend="u">With relish</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15211" n="MS-UoR-1659,[0204]" zone="zone_29">The vidua-b<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">u</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">i</add>rd!</seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e15222"
+                       n="MS-UoR-1659,[0205]"
+                       zone="zone_30"
+                       corresp="#4r">
+                     <hi rend="u">Pause. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15225" n="MS-UoR-1659,[0206]" zone="zone_30">
+                     <hi rend="u">He closes dictionary, switches on, resumes listening<lb rend="it"/> posture</hi>.<lb rend="it"/>
+                  </seg>
+               </stage>
+            </p>
+            <sp who="#Tape">
+               <speaker>Tape</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15236" n="MS-UoR-1659,[0207]" zone="zone_30">- bench by the weir from where I could see her window.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15239" n="MS-UoR-1659,[0208]" zone="zone_30">There <lb rend="it"/>I sat, <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">day after day</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-15"
+                          corresp="#4r">in the biting wind</add>, wishing she were gone.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15242" n="MS-UoR-1659,[0209]" zone="zone_30">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15249" n="MS-UoR-1659,[0210]" zone="zone_30">
+                     <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">Desert<add place="inline" hand="#SB" rend="black ink" resp="#DVH">ed</add>
+                        <lb rend="it"/> spot it was,</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-16"
+                          corresp="#4r">Hardly a soul</add> just a few regulars, nursemaids, infants, old <lb rend="it"/>men, dogs. I got to know them quite well - oh by appearance of <lb rend="it"/>course I mean!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15254"
+                       n="MS-UoR-1659,[0211]"
+                       zone="zone_31"
+                       corresp="#4r"
+                       style="indent80px">One dark young beauty I recollect particularly, <lb rend="it"/>all white and starch, incomparable bosom, with a big black <lb rend="it"/>hooded perambulator, most funereal thing.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15257" n="MS-UoR-1659,[0212]" zone="zone_31">Whenever I looked <lb rend="it"/>in her direction she had her eyes on me.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15260" n="MS-UoR-1659,[0213]" zone="zone_31">And yet when I was <lb rend="it"/>bold enough to speak to her - not having been introduced - <lb rend="it"/>she threatened to call a policeman.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15263" n="MS-UoR-1659,[0214]" zone="zone_31">
+                     <add place="marginleft"
+                          hand="#typist"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-17"
+                          corresp="#4r">As if I had designs on her<del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">!</del>
+                        <add place="infralinear" hand="#SB" rend="blueblack ink" resp="#DVH">virtue!</add>
+                     </add>
+                  </seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15269" n="MS-UoR-1659,[0215]" zone="zone_31">
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="blueblack ink"
+                             resp="#DVH"
+                             xml:id="add1659-18"
+                             corresp="#4r">
+                           <hi rend="u">Laugh</hi>.</add>
+                     </seg>)</stage>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15272" n="MS-UoR-1659,[0216]" zone="zone_31">
+                        <hi rend="u">Pause</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15276" n="MS-UoR-1659,[0217]" zone="zone_31">The face she <lb rend="it"/>had!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15279" n="MS-UoR-1659,[0218]" zone="zone_31">The <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">eys!</del> eyes!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15282" n="MS-UoR-1659,[0219]" zone="zone_31">Like...<stage>(<hi rend="u">hesitates</hi>)</stage>...chrysolite!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15291" n="MS-UoR-1659,[0220]" zone="zone_31">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <figure xml:id="MS-UoR-1659__4r_-_doodleklt1"
+                          n="1"
+                          corresp="#4r"
+                          ana="doodlecategories.xml#Organism doodlecategories.xml#Animal doodlecategories.xml#Insect">
+                     <figDesc/>
+                  </figure>
+                  <pb n="5r"/>
+                  <metamark function="pagenumber">
+                     <num>5</num>
+                  </metamark>
+                  <floatingText>
+                     <body>
+                        <p>Acc 1659</p>
+                     </body>
+                  </floatingText>
+                  <seg xml:id="MS-UoR-1659d1e15298"
+                       n="MS-UoR-1659,[0221]"
+                       zone="zone_32"
+                       corresp="#5r">Ah well...</seg>
+                  <seg xml:id="MS-UoR-1659d1e15301"
+                       n="MS-UoR-1659,[0222]"
+                       zone="zone_32"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15308" n="MS-UoR-1659,[0223]" zone="zone_32">I was there when - <stage>(<hi rend="u">Krapp switches off,<lb rend="it"/> broods, switches on again</hi>)</stage> - the blind went down, one of <lb rend="it"/>those dirty brown roller affairs, throwing a ball for a <lb rend="it"/>
+                     <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">wire-haired fox-terrier</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-19"
+                          corresp="#5r">little white dog</add>, as chance would have it.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15317" n="MS-UoR-1659,[0224]" zone="zone_32">I happened <lb rend="it"/>to look up and there it was.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15320" n="MS-UoR-1659,[0225]" zone="zone_32">All over and done with, at last.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15323" n="MS-UoR-1659,[0226]" zone="zone_32">I sat on for a few moments with the ball in my hand and the <lb rend="it"/>dog yelping and pawing at me.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15326" n="MS-UoR-1659,[0227]" zone="zone_32">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15333" n="MS-UoR-1659,[0228]" zone="zone_32">Moments.</seg>
+                  <seg xml:id="MS-UoR-1659d1eeee333"
+                       n="MS-UoR-1659,[0228|001]"
+                       prev="#MS-UoR-1659d1e15333"
+                       zone="zone_32">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15336"
+                       n="MS-UoR-1659,[0229]"
+                       zone="zone_33"
+                       corresp="#5r">Her moments, my moments.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15339" n="MS-UoR-1659,[0230]" zone="zone_33">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15346" n="MS-UoR-1659,[0231]" zone="zone_33">The dog's moments.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15349" n="MS-UoR-1659,[0232]" zone="zone_33">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15356" n="MS-UoR-1659,[0233]" zone="zone_33">In the end I held it out to him and he took it in his mouth, <lb rend="it"/>gently, gently.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15362" n="MS-UoR-1659,[0234]" zone="zone_33">A small, old, black, <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-20"
+                          corresp="#5r">hard,</add> solid rubber ball.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15373" n="MS-UoR-1659,[0235]" zone="zone_33">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15380" n="MS-UoR-1659,[0236]" zone="zone_33">I shall feel it, in my hand, until my dying day.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15383" n="MS-UoR-1659,[0237]" zone="zone_33">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15390" n="MS-UoR-1659,[0238]" zone="zone_33">
+                     <del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">O</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">I</add>
+                     <lb rend="it"/>might have kept it.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15393" n="MS-UoR-1659,[0239]" zone="zone_33">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15400" n="MS-UoR-1659,[0240]" zone="zone_33">But I gave it to the dog.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e15405"
+                          n="MS-UoR-1659,[0241]"
+                          zone="zone_34"
+                          corresp="#5r">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15419" n="MS-UoR-1659,[0242]" zone="zone_34">Ah well...<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e15427" n="MS-UoR-1659,[0243]" zone="zone_34">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15438" n="MS-UoR-1659,[0244]" zone="zone_34">Spiritually a year of profound gloom and indigence, until <lb rend="it"/>that memorable night in March, at the end of the jetty, in <lb rend="it"/>the howling wind, never to be forgotten, when suddenly I saw <lb rend="it"/>the whole thing.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15441"
+                       n="MS-UoR-1659,[0245]"
+                       zone="zone_34"
+                       style="nospacebefore">
+                     <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">at last</del> The vision, at last.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15444"
+                       n="MS-UoR-1659,[0246]"
+                       zone="zone_35"
+                       corresp="#5r"
+                       style="indent230px">This I <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">imagine</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-21"
+                          corresp="#5r">fancy</add>
+                     <lb rend="it"/>is what I have chiefly to record this evening, against the <lb rend="it"/>day when my work will be done and perhaps no place left in <lb rend="it"/>my memory, warm or cold, for the miracle that...<stage>(<hi rend="u">hesitates</hi>)</stage>...<lb rend="it"/>for the fire that set it alight.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15453" n="MS-UoR-1659,[0247]" zone="zone_35">What I suddenly saw then <lb rend="it"/>
+                     <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">was this,</del> was this, that the belief I had been going on all my life, <lb rend="it"/>namely -</seg>
+                  <seg xml:id="MS-UoR-1659d1e15456"
+                       n="MS-UoR-1659,[0248]"
+                       zone="zone_36"
+                       corresp="#5r"
+                       style="indent50px">
+                     <stage>(<hi rend="u">Krapp switches off impatiently, winds tape forward<lb rend="it"/> switches on again</hi>)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15465" n="MS-UoR-1659,[0249]" zone="zone_36">- great granite rocks the foam flying up <lb rend="it"/>in the light of the lighthouse and the wind-gauge spinning <lb rend="it"/>like a propellor, <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">cl^</del> clear to me at last that the dark I <lb rend="it"/>have always struggled to keep under is in reality my most -<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15468"
+                       n="MS-UoR-1659,[0250]"
+                       zone="zone_37"
+                       corresp="#5r">
+                     <stage>(<hi rend="u">Krapp curses, switches off, winds tapes forward, switches<lb rend="it"/> on again</hi>)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15475" n="MS-UoR-1659,[0251]" zone="zone_37">- unshatterable association until my dissolution <lb rend="it"/>of storm and night with the light of the understanding and <lb rend="it"/>the <metamark>&#x2041;</metamark>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-22"
+                          corresp="#5r">fire<metamark>&#x2041;</metamark>
+                     </add> -</seg>
+                  <seg xml:id="MS-UoR-1659d1e15478" n="MS-UoR-1659,[0252]" zone="zone_37">
+                     <stage>(<hi rend="u">Krapp curses louder, switches off, winds tape forward,<lb rend="it"/> switches on again</hi>)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15485" n="MS-UoR-1659,[0253]" zone="zone_37">- my face in her breasts and my hand on <lb rend="it"/>her.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15488" n="MS-UoR-1659,[0254]" zone="zone_37">We lay there without moving.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15491" n="MS-UoR-1659,[0255]" zone="zone_37">But under us all moved, <lb rend="it"/>and moved us, gently, up and down, and from side to side.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e15500"
+                          n="MS-UoR-1659,[0256]"
+                          zone="zone_38"
+                          corresp="#5r">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15511" n="MS-UoR-1659,[0257]" zone="zone_38">Past midnight.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15514" n="MS-UoR-1659,[0258]" zone="zone_38">Never knew such silence.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15520" n="MS-UoR-1659,[0259]" zone="zone_38">The earth might be <lb rend="it"/>uninhabited.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e15528" n="MS-UoR-1659,[0260]" zone="zone_38">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15539" n="MS-UoR-1659,[0261]" zone="zone_38">Here I end -<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e15547" n="MS-UoR-1659,[0262]" zone="zone_38">
+                        <hi rend="u">Krapp switches off, winds tape back, switches on again</hi>.</seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15559"
+                       n="MS-UoR-1659,[0263]"
+                       zone="zone_39"
+                       corresp="#5r">- upper lake, with the punt, bathed off the bank, then <lb rend="it"/>pushed out into the stream and drifted.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15562" n="MS-UoR-1659,[0264]" zone="zone_39">She lay stretched <lb rend="it"/>out on the floorboards with her hands under her head and <lb rend="it"/>her eyes closed.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15565" n="MS-UoR-1659,[0265]" zone="zone_39">Sun blazing down, bit of a breeze, water <lb rend="it"/>nice and lively.</seg>
+                  <seg n="MS-UoR-1659,[0266]"
+                       xml:id="MS-UoR-1659d1e15568"
+                       zone="zone_39"
+                       zone2="zone_40"
+                       corresp="#5r,6r">
+                     <anchor type="ts" n="5r"/>I noticed a scratch on her thigh and asked <lb rend="it"/>
+                     <anchor type="ts" n="6r"/>
+                     <pb n="6r"/>
+                     <metamark function="pagenumber">
+                        <num>6</num>
+                     </metamark>
+                     <floatingText>
+                        <body>
+                           <p>Acc 1659</p>
+                        </body>
+                     </floatingText>
+
+her how she came by it.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15571" n="MS-UoR-1659,[0267]" zone="zone_40">Picking gooseberries, she said.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15574" n="MS-UoR-1659,[0268]" zone="zone_40">I said again I thought it was hopeless and no good going <lb rend="it"/>on, and she agreed, without opening her eyes.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15577" n="MS-UoR-1659,[0269]" zone="zone_40">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15584" n="MS-UoR-1659,[0270]" zone="zone_40">I <lb rend="it"/>
+                     <unclear reason="crossed out">
+                        <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">l</del>
+                     </unclear> asked her to look at me and after a few moments - <stage>(<hi rend="u">pause</hi>)</stage> - <lb rend="it"/>after a few moments she did, but the eyes just slits, because <lb rend="it"/>of the glare.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15596" n="MS-UoR-1659,[0271]" zone="zone_40">I bent over her to get them in the shadow and <lb rend="it"/>t<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">h</add>ey opened.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15602" n="MS-UoR-1659,[0272]" zone="zone_40">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15605" n="MS-UoR-1659,[0273]" zone="zone_40">
+                        <hi rend="u">Low</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15609"
+                       n="MS-UoR-1659,[0274]"
+                       zone="zone_41"
+                       corresp="#6r"
+                       style="indent150px">Let me in.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15612" n="MS-UoR-1659,[0275]" zone="zone_41">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15619" n="MS-UoR-1659,[0276]" zone="zone_41">We drifted <lb rend="it"/>in among the <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">reeds</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-23"
+                          corresp="#6r">flags</add> and stuck.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15622" n="MS-UoR-1659,[0277]" zone="zone_41">The way they went down, sighing, <lb rend="it"/>before the stem!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15625" n="MS-UoR-1659,[0278]" zone="zone_41">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15632" n="MS-UoR-1659,[0279]" zone="zone_41">I lay down across her with my face <lb rend="it"/>in her brea<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">s</add>ts and my hand on her.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15635" n="MS-UoR-1659,[0280]" zone="zone_41">We lay <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-24"
+                          corresp="#6r">there</add> without moving.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15638" n="MS-UoR-1659,[0281]" zone="zone_41">But <lb rend="it"/>under us all moved, and moved us, <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">up and down, and</del> gently, <lb rend="it"/>up and down, and from side to side.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e15646" n="MS-UoR-1659,[0282]" zone="zone_41">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15657"
+                       n="MS-UoR-1659,[0283]"
+                       zone="zone_42"
+                       corresp="#6r">Past midnight.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15660" n="MS-UoR-1659,[0284]" zone="zone_42">Never knew -<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e15670" n="MS-UoR-1659,[0285]" zone="zone_42">
+                     <hi rend="u">Krapp switches off, broods. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15676" n="MS-UoR-1659,[0286]" zone="zone_42">
+                     <hi rend="u">Finally he fumbles in his pockets,<lb rend="it"/> encounters the <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">bana</del>
+                        <add place="marginleft"
+                             hand="#typist"
+                             rend="black ink"
+                             resp="#DVH"
+                             xml:id="add1659-25"
+                             corresp="#6r">banana</add>, takes it out, peers at it, <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">throws it<lb rend="it"/> away</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="blueblack ink"
+                             resp="#DVH"
+                             xml:id="add1659-26"
+                             corresp="#6r">puts it back</add>, fumbles, brings</hi>
+                     <hi rend="u">out the envelope, fumbles, puts back<lb rend="it"/> the envelope, lo</hi>o<hi rend="u">ks at his watch, gets up and goes backstage<lb rend="it"/> into darkness. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15682" n="MS-UoR-1659,[0287]" zone="zone_42">
+                     <hi rend="u">Ten seconds. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15685" n="MS-UoR-1659,[0288]" zone="zone_42">
+                     <hi rend="u">Sound of bottle against glass,<lb rend="it"/> then brief siphon. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15688" n="MS-UoR-1659,[0289]" zone="zone_42">
+                     <hi rend="u">Ten seconds. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15691" n="MS-UoR-1659,[0290]" zone="zone_42">
+                     <hi rend="u">Bottle against glass alone</hi>.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15694"
+                       n="MS-UoR-1659,[0291]"
+                       zone="zone_43"
+                       corresp="#6r">
+                     <hi rend="u">Ten seconds. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15697" n="MS-UoR-1659,[0292]" zone="zone_43">
+                     <hi rend="u">He comes back a little unsteadily into light,<lb rend="it"/> goes to front of table, takes out keys, raises them to his<lb rend="it"/> eyes, chooses key, <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">takes</del>
+                        <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">opens</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="blueblack ink"
+                             resp="#DVH"
+                             xml:id="add1659-27"
+                             corresp="#6r">unlocks</add> first drawer, peers into it,<lb rend="it"/> feels about inside, takes out reel, peers at it, locks<lb rend="it"/> drawer, puts keys back in his pocket, goes and sits down,<lb rend="it"/> takes reel off machine, la<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</add>s it on dictionary, loads virgin<lb rend="it"/> reel on machine, takes envelope from his pocket, consults <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">it</del>
+                        <lb rend="it"/> back of it, lays it on table, broods, switches on, clears<lb rend="it"/> his throat and begins to record</hi>.<lb rend="it"/>
+                  </seg>
+               </stage>
+            </p>
+            <sp who="#Krapp">
+               <speaker>Krapp</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e15705"
+                       n="MS-UoR-1659,[0293]"
+                       zone="zone_44"
+                       corresp="#6r">Just been listening to that stupid bastard I took myself for <lb rend="it"/>thirty years ago, hard to believe I was ever as bad as that.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15708" n="MS-UoR-1659,[0294]" zone="zone_44">Thank God that's all done with anyway.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15711" n="MS-UoR-1659,[0295]" zone="zone_44">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15718" n="MS-UoR-1659,[0296]" zone="zone_44">The eyes she <lb rend="it"/>had!</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15724" n="MS-UoR-1659,[0297]" zone="zone_44">
+                        <hi rend="u">Broods, realizes he is recording silence, switches off,<lb rend="it"/> broods. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15727" n="MS-UoR-1659,[0298]" zone="zone_44">
+                        <hi rend="u">Finally</hi>.</seg>)
+</stage>
+                  <seg xml:id="MS-UoR-1659d1e15731" n="MS-UoR-1659,[0299]" zone="zone_44">Everything there, everything, all the -<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15734"
+                       n="MS-UoR-1659,[0300]"
+                       zone="zone_45"
+                       corresp="#6r">
+                     <stage>(<hi rend="u">Realizes this is not being recorded, switches on</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15741" n="MS-UoR-1659,[0301]" zone="zone_45">Every<lb rend="-it"/>thing there, everything on this old muckball, all the light <lb rend="it"/>and dark and famine and feasting of...<stage>(<hi rend="u">hesitates</hi>)</stage>...the ages!<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15750" n="MS-UoR-1659,[0302]" zone="zone_45">
+                     <stage>(<hi rend="u">In a shout</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15757" n="MS-UoR-1659,[0303]" zone="zone_45">Yes!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15760" n="MS-UoR-1659,[0304]" zone="zone_45">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15767" n="MS-UoR-1659,[0305]" zone="zone_45">Let that go!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15770" n="MS-UoR-1659,[0306]" zone="zone_45">Jesus!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15773" n="MS-UoR-1659,[0307]" zone="zone_45">Take his mind <lb rend="it"/>off his homework!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15776" n="MS-UoR-1659,[0308]" zone="zone_45">Jesus!</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15782" n="MS-UoR-1659,[0309]" zone="zone_45">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15785" n="MS-UoR-1659,[0310]" zone="zone_45">
+                        <hi rend="u">Weary</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15789" n="MS-UoR-1659,[0311]" zone="zone_45">Ah well, maybe he <lb rend="it"/>was right.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15792" n="MS-UoR-1659,[0312]" zone="zone_45">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15799" n="MS-UoR-1659,[0313]" zone="zone_45">Maybe he was right.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15805" n="MS-UoR-1659,[0314]" zone="zone_45">
+                        <hi rend="u">Broods. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15808" n="MS-UoR-1659,[0315]" zone="zone_45">
+                        <hi rend="u">Realizes.<lb rend="it"/>
+                        </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15811"
+                          n="MS-UoR-1659,[0316]"
+                          zone="zone_46"
+                          corresp="#6r">
+                        <hi rend="u">Switches off. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15814" n="MS-UoR-1659,[0317]" zone="zone_46">
+                        <hi rend="u">Consults envelope</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15818" n="MS-UoR-1659,[0318]" zone="zone_46">Pah!</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e15824" n="MS-UoR-1659,[0319]" zone="zone_46">
+                        <hi rend="u">Crumples it and throws<lb rend="it"/> it away. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15827" n="MS-UoR-1659,[0320]" zone="zone_46">
+                        <hi rend="u">Broods. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e15830" n="MS-UoR-1659,[0321]" zone="zone_46">
+                        <hi rend="u">Switches on</hi>.</seg>)</stage>
+                  <seg xml:id="MS-UoR-1659d1e15834" n="MS-UoR-1659,[0322]" zone="zone_46">Nothing to say, not a squeak.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15837" n="MS-UoR-1659,[0323]" zone="zone_46">What's a year now?</seg>
+                  <seg xml:id="MS-UoR-1659d1e15840" n="MS-UoR-1659,[0324]" zone="zone_46">The sour cud and the iron stool.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15843" n="MS-UoR-1659,[0325]" zone="zone_46">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15850" n="MS-UoR-1659,[0326]" zone="zone_46">Revelled in the word spool.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15853" n="MS-UoR-1659,[0327]" zone="zone_46">
+                     <stage>(<hi rend="u">With relish</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15860" n="MS-UoR-1659,[0328]" zone="zone_46">Spooool!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15863" n="MS-UoR-1659,[0329]" zone="zone_46">Happiest <lb rend="it"/>moment of the past half million.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15866" n="MS-UoR-1659,[0330]" zone="zone_46">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15873"
+                       n="MS-UoR-1659,[0331]"
+                       zone="zone_47"
+                       corresp="#6r"
+                       style="indent200px">Seventeen copies <lb rend="it"/>sold, of which eleven at trade price to free circ<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">u</add>lating <lb rend="it"/>libr<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">r</del>
+                     <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">a</add>ries beyond the seas.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15876" n="MS-UoR-1659,[0332]" zone="zone_47">Getting known.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15879" n="MS-UoR-1659,[0333]" zone="zone_47">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15886" n="MS-UoR-1659,[0334]" zone="zone_47">One pound <lb rend="it"/>six and something, eight I have little doubt.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15891" n="MS-UoR-1659,[035]" zone="zone_47">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15898" n="MS-UoR-1659,[0336]" zone="zone_47">Crawl<lb rend="-it"/>ed out once or twice, before the summer was cold.</seg>
+                  <seg n="MS-UoR-1659,[0337]"
+                       xml:id="MS-UoR-1659d1e15901"
+                       zone="zone_47"
+                       zone2="zone_48"
+                       corresp="#6r,7r">
+                     <anchor type="ts" n="6r"/>Sat shiver<lb rend="-it"/>
+                     <anchor type="ts" n="7r"/>
+                     <pb n="7r"/>
+                     <metamark function="pagenumber">
+                        <num>7</num>
+                     </metamark>
+                     <floatingText>
+                        <body>
+                           <p>Acc 1659</p>
+                        </body>
+                     </floatingText>
+
+ing in the park, drowned in dreams and <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">panting</del>
+                     <metamark>&#x2041;</metamark>
+                     <add place="supralinear" hand="#SB" rend="black ink" resp="#DVH">burning</add> to be gone.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15904"
+                       n="MS-UoR-1659,[0338]"
+                       zone="zone_48"
+                       corresp="#7r">Not a <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">soul.</del>
+                     <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">living</del> soul.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15907" n="MS-UoR-1659,[0339]" zone="zone_48">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15914" n="MS-UoR-1659,[0340]" zone="zone_48">Last fancies.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15917" n="MS-UoR-1659,[0341]" zone="zone_48">
+                     <stage>(<hi rend="u">Vehemently</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15924" n="MS-UoR-1659,[0342]" zone="zone_48">Keep 'em under!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15927" n="MS-UoR-1659,[0343]" zone="zone_48">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15934" n="MS-UoR-1659,[0344]" zone="zone_48">Scalded the eyes out of me reading <lb rend="it"/>
+                     <hi rend="u">Effie</hi> again, a page a day, with tears again.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15940" n="MS-UoR-1659,[0345]" zone="zone_48">Effie...</seg>
+                  <seg xml:id="MS-UoR-1659d1e15942"
+                       n="MS-UoR-1659,[0346]"
+                       zone="zone_48"
+                       style="nospacebefore">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15949" n="MS-UoR-1659,[0347]" zone="zone_48">Could have been happy with her, up there on the Baltic, and <lb rend="it"/>the pines, and the dunes.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15952" n="MS-UoR-1659,[0348]" zone="zone_48">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15959" n="MS-UoR-1659,[0349]" zone="zone_48">Could I?</seg>
+                  <seg xml:id="MS-UoR-1659d1e15962" n="MS-UoR-1659,[0350]" zone="zone_48">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15969" n="MS-UoR-1659,[0351]" zone="zone_48">And she?<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15972"
+                       n="MS-UoR-1659,[0352]"
+                       zone="zone_49"
+                       corresp="#7r">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15979" n="MS-UoR-1659,[0353]" zone="zone_49">Pah!</seg>
+                  <seg xml:id="MS-UoR-1659d1e15982" n="MS-UoR-1659,[0354]" zone="zone_49">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e15989" n="MS-UoR-1659,[0355]" zone="zone_49">Fanny came in a couple of times.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15992" n="MS-UoR-1659,[0356]" zone="zone_49">Bony <lb rend="it"/>old ghost of a whore.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15995" n="MS-UoR-1659,[0357]" zone="zone_49">Couldn't do much, but I suppose better <lb rend="it"/>than a kick in the crutch.</seg>
+                  <seg xml:id="MS-UoR-1659d1e15998" n="MS-UoR-1659,[0358]" zone="zone_49">The last time wasn't so bad.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16001" n="MS-UoR-1659,[0359]" zone="zone_49">How <lb rend="it"/>do you manage it, she said, at your age.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16004" n="MS-UoR-1659,[0360]" zone="zone_49">I told her I'd been <lb rend="it"/>saving up for her all my life.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16007" n="MS-UoR-1659,[0361]" zone="zone_49">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16014" n="MS-UoR-1659,[0362]" zone="zone_49">Went to Vespers once, <lb rend="it"/>like when I was in short trousers.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e16025" n="MS-UoR-1659,[0363]" zone="zone_49">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e16028" n="MS-UoR-1659,[0364]" zone="zone_49">
+                        <hi rend="u">Sings</hi>.</seg>)</stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e16033"
+                       n="MS-UoR-1659,[0365]"
+                       zone="zone_50"
+                       corresp="#7r">Now the day is over, <lb/>
+Night is drawing nigh-igh, <lb/>
+Shadows - <stage>(<hi rend="u">Coughing. Almost inaudible</hi>.)</stage> - of the <lb rend="it"/>evening <lb/>
+Steal across the sky.<lb/>
+                  </seg>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e16057" n="MS-UoR-1659,[0366]" zone="zone_50">
+                     <stage>(<hi rend="u">Panting</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16064" n="MS-UoR-1659,[0367]" zone="zone_50">Went to sleep and fell off the pew.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16067" n="MS-UoR-1659,[0368]" zone="zone_50">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16074" n="MS-UoR-1659,[0369]" zone="zone_50">Sometimes wondered in the night if a last effort mightn't -<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16077" n="MS-UoR-1659,[0370]" zone="zone_50">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16084" n="MS-UoR-1659,[0371]" zone="zone_50">Ah <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">empty your <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">bottle</del>
+                        <add place="marginleft"
+                             hand="#SB"
+                             rend="black ink"
+                             resp="#DVH"
+                             xml:id="add1659-28"
+                             corresp="#7r">
+                           <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">
+                              <unclear>noggin</unclear>
+                           </del>
+                        </add>
+                     </del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-29"
+                          corresp="#7r">finish your booze</add> now and get to your bed.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16087" n="MS-UoR-1659,[0372]" zone="zone_50">
+                     <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">Finish</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-30"
+                          corresp="#7r">Go on with</add>
+                     <lb rend="it"/>this drivel in the morning.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16090" n="MS-UoR-1659,[0373]" zone="zone_50">Or leave it at that.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16093" n="MS-UoR-1659,[0374]" zone="zone_50">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                     <lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16100"
+                       n="MS-UoR-1659,[0375]"
+                       zone="zone_51"
+                       corresp="#7r">Leave it at that.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16103" n="MS-UoR-1659,[0376]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16110" n="MS-UoR-1659,[0377]" zone="zone_51">Lie propped up in the dark - and <lb rend="it"/>wander.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16113" n="MS-UoR-1659,[0378]" zone="zone_51">Be again in the dingle on a Christmas Eve, gathering <lb rend="it"/>holly, the red-berried.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16116" n="MS-UoR-1659,[0379]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16123" n="MS-UoR-1659,[0380]" zone="zone_51">Be again on <del type="crossedout" hand="#typist" rend="black ink" resp="#DVH">Croghna</del> Croghan <lb rend="it"/>on a Sunday morning, in the haze, with the bitch, stop and <lb rend="it"/>listen to the bells.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16126" n="MS-UoR-1659,[0381]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16133" n="MS-UoR-1659,[0382]" zone="zone_51">And so on.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16136" n="MS-UoR-1659,[0383]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16143" n="MS-UoR-1659,[0384]" zone="zone_51">Be again, <lb rend="it"/>be again.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16146" n="MS-UoR-1659,[0385]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16153" n="MS-UoR-1659,[0386]" zone="zone_51">All that old misery.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16156" n="MS-UoR-1659,[0387]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16163" n="MS-UoR-1659,[0388]" zone="zone_51">Once wasn't <lb rend="it"/>enough for you.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16166" n="MS-UoR-1659,[0389]" zone="zone_51">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16173" n="MS-UoR-1659,[0390]" zone="zone_51">Lie down across her.<lb rend="it"/>
+                  </seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e16185"
+                       n="MS-UoR-1659,[0391]"
+                       zone="zone_52"
+                       corresp="#7r">
+                     <hi rend="u">Long pause. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16188" n="MS-UoR-1659,[0392]" zone="zone_52">
+                     <hi rend="u">He suddenly bends over machine, switches off,<lb rend="it"/> wrenches off tape, throws it away, puts on the other, <del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">winds</del>
+                        <lb rend="it"/> winds it forward to the passage he wants, switches on, listens<lb rend="it"/> staring front</hi>.</seg>
+               </stage>
+            </p>
+            <sp who="#Tape">
+               <speaker>Tape</speaker>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e16197"
+                       n="MS-UoR-1659,[0393]"
+                       zone="zone_53"
+                       corresp="#7r">- gooseberries, she said.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16200" n="MS-UoR-1659,[0394]" zone="zone_53">I said again I thought it was hope<lb rend="-it"/>less and no good going on, and she agreed, without opening <lb rend="it"/>her eyes.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16203" n="MS-UoR-1659,[0395]" zone="zone_53">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16210" n="MS-UoR-1659,[0396]" zone="zone_53">I asked her to look at me and after a few <lb rend="it"/>moments - <stage>(<hi rend="u">pause</hi>)</stage> - after a few moments she did, but the eyes <lb rend="it"/>just slits, because of the glare.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16219" n="MS-UoR-1659,[0397]" zone="zone_53">I bent over her to get <lb rend="it"/>them in the shadow and they opened.</seg>
+                  <stage>(<seg xml:id="MS-UoR-1659d1e16225" n="MS-UoR-1659,[0398]" zone="zone_53">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e16228" n="MS-UoR-1659,[0399]" zone="zone_53">
+                        <hi rend="u">Low</hi>.</seg>)
+</stage>
+                  <seg xml:id="MS-UoR-1659d1e16232" n="MS-UoR-1659,[0400]" zone="zone_53">Let me in.<lb rend="it"/>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16235"
+                       n="MS-UoR-1659,[0401]"
+                       zone="zone_54"
+                       corresp="#7r">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16242" n="MS-UoR-1659,[0402]" zone="zone_54">We drifted in among the <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">reeds</del>
+                     <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-31"
+                          corresp="#7r">flags</add> and stuck.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16248" n="MS-UoR-1659,[0403]" zone="zone_54">The<del type="crossedout" hand="#SB" rend="black ink" resp="#DVH">y</del> way <lb rend="it"/>they went down, sighing, before the stem!</seg>
+                  <seg xml:id="MS-UoR-1659d1e16254" n="MS-UoR-1659,[0404]" zone="zone_54">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16261" n="MS-UoR-1659,[0405]" zone="zone_54">I lay <lb rend="it"/>down across her with my face in her breasts and my hand on <lb rend="it"/>her.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16264" n="MS-UoR-1659,[0406]" zone="zone_54">We lay <add place="marginleft"
+                          hand="#SB"
+                          rend="blueblack ink"
+                          resp="#DVH"
+                          xml:id="add1659-32"
+                          corresp="#7r">there</add> without moving.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16267" n="MS-UoR-1659,[0407]" zone="zone_54">But under us all moved, and moved <lb rend="it"/>us, <add place="marginleft"
+                          hand="#SB"
+                          rend="black ink"
+                          resp="#DVH"
+                          xml:id="add1659-33"
+                          corresp="#7r">gently</add> up and down, and from side to side.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e16279"
+                          n="MS-UoR-1659,[0408]"
+                          zone="zone_55"
+                          corresp="#7r">
+                        <hi rend="u">Pause. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e16282" n="MS-UoR-1659,[0409]" zone="zone_55">
+                        <hi rend="u">Krapp's lips move. </hi>
+                     </seg>
+                     <seg xml:id="MS-UoR-1659d1e16285" n="MS-UoR-1659,[0410]" zone="zone_55">
+                        <hi rend="u">No sound</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e16293" n="MS-UoR-1659,[0411]" zone="zone_55">Past midnight.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16296" n="MS-UoR-1659,[0412]" zone="zone_55">Never knew such silence.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16299" n="MS-UoR-1659,[0413]" zone="zone_55">The earth might be <lb rend="it"/>uninhabited.<lb rend="it"/>
+                  </seg>
+               </p>
+               <p>
+                  <stage>
+                     <seg xml:id="MS-UoR-1659d1e16307" n="MS-UoR-1659,[0414]" zone="zone_55">
+                        <hi rend="u">Pause</hi>.<lb rend="it"/>
+                     </seg>
+                  </stage>
+               </p>
+               <pb n="8r"/>
+               <metamark function="pagenumber">
+                  <num>8</num>
+               </metamark>
+               <floatingText>
+                  <body>
+                     <p>Acc 1659</p>
+                  </body>
+               </floatingText>
+               <p>
+                  <seg xml:id="MS-UoR-1659d1e16319"
+                       n="MS-UoR-1659,[0415]"
+                       zone="zone_56"
+                       corresp="#8r">Here I end this reel.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16322" n="MS-UoR-1659,[0416]" zone="zone_56">Box - <stage>(<hi rend="u">pause</hi>)</stage> - three, spool - <stage>(<hi rend="u">pause</hi>)</stage> - <lb rend="it"/>five.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16337" n="MS-UoR-1659,[0417]" zone="zone_56">
+                     <stage>(<hi rend="u">Pause</hi>.)</stage>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16344" n="MS-UoR-1659,[0418]" zone="zone_56">Perhaps my best years are gone.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16347" n="MS-UoR-1659,[0419]" zone="zone_56">When there <lb rend="it"/>was a chance of happiness.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16350" n="MS-UoR-1659,[0420]" zone="zone_56">But I wouldn't want them back.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16353" n="MS-UoR-1659,[0421]" zone="zone_56">Not <lb rend="it"/>with the fire <del type="crossedout" hand="#SB" rend="blueblack ink" resp="#DVH">burning</del> in me now.</seg>
+                  <seg xml:id="MS-UoR-1659d1e16356" n="MS-UoR-1659,[0422]" zone="zone_56">No, I wouldn't want them <lb rend="it"/>back.</seg>
+               </p>
+            </sp>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e16366"
+                       n="MS-UoR-1659,[0423]"
+                       zone="zone_57"
+                       corresp="#8r">
+                     <hi rend="u">Krapp motionless s<del type="overwritten" hand="#typist" rend="black ink" resp="#DVH">y</del>
+                        <add place="overwritten" hand="#typist" rend="black ink" resp="#DVH">t</add>aring before him. </hi>
+                  </seg>
+                  <seg xml:id="MS-UoR-1659d1e16374" n="MS-UoR-1659,[0424]" zone="zone_57">
+                     <hi rend="u">The tape runs on in<lb rend="it"/> silence</hi>.<lb rend="it"/>
+                  </seg>
+               </stage>
+            </p>
+            <p>
+               <stage>
+                  <seg xml:id="MS-UoR-1659d1e16381" n="MS-UoR-1659,[0425]" zone="zone_57">Curtain <note resp="#DVH">centred</note>
+                  </seg>
+               </stage>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>
